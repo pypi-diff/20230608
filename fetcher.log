@@ -540,3 +540,45 @@ EOFError: EOF read where object expected
 [2023-06-08 00:34:26] INFO root fetch - processPackages [django-oscar-bluelight]: Remove: archive file [/home/abi/fetcher/tmp/django-oscar-bluelight-5.4.0b2.tar.gz]
 [2023-06-08 00:34:26] INFO root fetch - main [MainThread]: End processing [django-oscar-bluelight]: success
 [2023-06-08 00:34:26] INFO root fetch - main [MainThread]: Store serial: [18414697]
+[2023-06-08 00:39:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18414697]
+[2023-06-08 00:39:37] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-08 00:39:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: escapyde
+[2023-06-08 00:39:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: man-etl
+[2023-06-08 00:39:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flashlight-text
+[2023-06-08 00:39:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dl-myo
+[2023-06-08 00:39:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bomf
+[2023-06-08 00:39:37] WARNING root fetch - processPackages [dl-myo]: Skipping, unable to determine old version
+[2023-06-08 00:39:37] INFO root fetch - main [MainThread]: End processing [dl-myo] error
+[2023-06-08 00:39:37] INFO root fetch - processPackages [man-etl]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-08 00:39:37] INFO root fetch - processPackages [escapyde]: New version: [1.0.1] Old Version: [0.2.3]
+[2023-06-08 00:39:37] INFO root fetch - processPackages [flashlight-text]: New version: [0.0.4.dev292] Old Version: [0.0.4.dev291]
+[2023-06-08 00:39:37] INFO root fetch - processPackages [bomf]: New version: [0.5.7] Old Version: [0.5.6]
+[2023-06-08 00:39:37] INFO root fetch - processPackages [man-etl]: Downloading https://files.pythonhosted.org/packages/bc/03/bdb11e52f09d5decd770fd8517326423de9a952113fe8d0061e9b4488a40/man_etl-0.0.3.tar.gz
+[2023-06-08 00:39:37] INFO root fetch - processPackages [escapyde]: Downloading https://files.pythonhosted.org/packages/25/cf/ac28a647617bfe62e74b8abb82a23c95b3a48defc26c05e0c979b07a1f24/escapyde-0.2.3.tar.gz
+[2023-06-08 00:39:37] INFO root fetch - processPackages [flashlight-text]: Downloading https://files.pythonhosted.org/packages/b2/a3/fa05e6015fbccc3169b6d3de169279acc6abda6b34a998166be98ee1d196/flashlight-text-0.0.4.dev291.tar.gz
+[2023-06-08 00:39:37] INFO root fetch - processPackages [bomf]: Downloading https://files.pythonhosted.org/packages/fd/ec/5240369527926b254c365d720373cdb706fd5058738d03010eb4da0c63a2/bomf-0.5.6.tar.gz
+[2023-06-08 00:39:37] INFO root fetch - processPackages [man-etl]: Downloading https://files.pythonhosted.org/packages/d4/d4/6341e0bb840a946887a1470af6112d75925274cd0544fab311e6aefe4afe/man_etl-0.0.4.tar.gz
+[2023-06-08 00:39:37] INFO root fetch - processPackages [escapyde]: Downloading https://files.pythonhosted.org/packages/1f/7f/dff5120369936bed1315ec448d7c733beb19838c19a6f5326a1a74bbc9bf/escapyde-1.0.1.tar.gz
+[2023-06-08 00:39:37] INFO root fetch - processPackages [man-etl]: executing diffoscope
+[2023-06-08 00:39:37] INFO root fetch - processPackages [man-etl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/man_etl-0.0.3.tar.gz tmp/man_etl-0.0.4.tar.gz --markdown 20230608/m/man-etl/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-08 00:39:37] INFO root fetch - processPackages [flashlight-text]: Downloading https://files.pythonhosted.org/packages/95/50/5c509da9b0164b62999879062b3f27c5b7e42b43f1b5a876562c0b2cdf85/flashlight-text-0.0.4.dev292.tar.gz
+[2023-06-08 00:39:37] INFO root fetch - processPackages [escapyde]: executing diffoscope
+[2023-06-08 00:39:37] INFO root fetch - processPackages [escapyde]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/escapyde-0.2.3.tar.gz tmp/escapyde-1.0.1.tar.gz --markdown 20230608/e/escapyde/0.2.3-1.0.1/diff.md --exclude *.pyd
+[2023-06-08 00:39:37] INFO root fetch - processPackages [flashlight-text]: executing diffoscope
+[2023-06-08 00:39:37] INFO root fetch - processPackages [flashlight-text]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flashlight-text-0.0.4.dev291.tar.gz tmp/flashlight-text-0.0.4.dev292.tar.gz --markdown 20230608/f/flashlight-text/0.0.4.dev291-0.0.4.dev292/diff.md --exclude *.pyd
+[2023-06-08 00:39:37] INFO root fetch - processPackages [bomf]: Downloading https://files.pythonhosted.org/packages/ed/ad/4282c4840308b3fff2af3742fdda28cc861d9b0b0d1eb0abf44df291d740/bomf-0.5.7.tar.gz
+[2023-06-08 00:39:38] INFO root fetch - processPackages [bomf]: executing diffoscope
+[2023-06-08 00:39:38] INFO root fetch - processPackages [bomf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bomf-0.5.6.tar.gz tmp/bomf-0.5.7.tar.gz --markdown 20230608/b/bomf/0.5.6-0.5.7/diff.md --exclude *.pyd
+[2023-06-08 00:39:38] INFO root fetch - processPackages [escapyde]: Remove: archive file [/home/abi/fetcher/tmp/escapyde-0.2.3.tar.gz]
+[2023-06-08 00:39:38] INFO root fetch - processPackages [escapyde]: Remove: archive file [/home/abi/fetcher/tmp/escapyde-1.0.1.tar.gz]
+[2023-06-08 00:39:38] INFO root fetch - main [MainThread]: End processing [escapyde]: success
+[2023-06-08 00:39:38] INFO root fetch - processPackages [flashlight-text]: Remove: archive file [/home/abi/fetcher/tmp/flashlight-text-0.0.4.dev291.tar.gz]
+[2023-06-08 00:39:38] INFO root fetch - processPackages [flashlight-text]: Remove: archive file [/home/abi/fetcher/tmp/flashlight-text-0.0.4.dev292.tar.gz]
+[2023-06-08 00:39:38] INFO root fetch - main [MainThread]: End processing [flashlight-text]: success
+[2023-06-08 00:39:40] INFO root fetch - processPackages [bomf]: Remove: archive file [/home/abi/fetcher/tmp/bomf-0.5.6.tar.gz]
+[2023-06-08 00:39:40] INFO root fetch - processPackages [bomf]: Remove: archive file [/home/abi/fetcher/tmp/bomf-0.5.7.tar.gz]
+[2023-06-08 00:39:40] INFO root fetch - main [MainThread]: End processing [bomf]: success
+[2023-06-08 00:40:34] INFO root fetch - processPackages [man-etl]: Remove: archive file [/home/abi/fetcher/tmp/man_etl-0.0.3.tar.gz]
+[2023-06-08 00:40:34] INFO root fetch - processPackages [man-etl]: Remove: archive file [/home/abi/fetcher/tmp/man_etl-0.0.4.tar.gz]
+[2023-06-08 00:40:34] INFO root fetch - main [MainThread]: End processing [man-etl]: success
+[2023-06-08 00:40:34] INFO root fetch - main [MainThread]: Store serial: [18414746]
