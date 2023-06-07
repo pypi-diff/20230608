@@ -829,3 +829,69 @@ EOFError: EOF read where object expected
 [2023-06-08 01:02:11] INFO root fetch - processPackages [pydisort]: Remove: archive file [/home/abi/fetcher/tmp/pydisort-0.0.6.tar.gz]
 [2023-06-08 01:02:11] INFO root fetch - main [MainThread]: End processing [pydisort]: success
 [2023-06-08 01:02:11] INFO root fetch - main [MainThread]: Store serial: [18414864]
+[2023-06-08 01:07:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18414864]
+[2023-06-08 01:07:23] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-08 01:07:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alphawave
+[2023-06-08 01:07:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tmnt-cu101
+[2023-06-08 01:07:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tmnt
+[2023-06-08 01:07:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: static-frame-pyodide
+[2023-06-08 01:07:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: myke
+[2023-06-08 01:07:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: arcusapi
+[2023-06-08 01:07:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hiperwalk
+[2023-06-08 01:07:23] INFO root fetch - processPackages [alphawave]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-06-08 01:07:23] INFO root fetch - processPackages [static-frame-pyodide]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-08 01:07:23] INFO root fetch - processPackages [hiperwalk]: New version: [2.0a4] Old Version: [2.0a3]
+[2023-06-08 01:07:23] INFO root fetch - processPackages [myke]: New version: [0.1.0] Old Version: [0.0.1a9]
+[2023-06-08 01:07:23] INFO root fetch - processPackages [arcusapi]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-08 01:07:23] INFO root fetch - processPackages [tmnt]: New version: [0.7.0b20230607] Old Version: [0.7.0b20230606]
+[2023-06-08 01:07:23] INFO root fetch - processPackages [tmnt-cu101]: New version: [0.7.0b20230607] Old Version: [0.7.0b20230606]
+[2023-06-08 01:07:23] INFO root fetch - processPackages [tmnt-cu101]: Downloading https://files.pythonhosted.org/packages/da/7f/ba807843505c5839bbd43b26fa288b85da88ffee85af1a1efefd5a89698b/tmnt-cu101-0.7.0b20230606.tar.gz
+[2023-06-08 01:07:23] INFO root fetch - processPackages [alphawave]: Downloading https://files.pythonhosted.org/packages/67/27/7f270c776110b9bbb79cd5813557d3f4d83720eeaac84e349208f9f09260/alphawave-0.2.0.tar.gz
+[2023-06-08 01:07:23] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/d2/8d/9fc862ffbd1505e0870dec219bded904fbadbdc6638b2ee5a45aa1661db9/tmnt-0.7.0b20230606.tar.gz
+[2023-06-08 01:07:23] INFO root fetch - processPackages [arcusapi]: Downloading https://files.pythonhosted.org/packages/6c/1d/68a5f6a96e10f9d4305082aa9816af04b6a001bdad163ba3f6a0148a0721/arcusapi-0.1.0.tar.gz
+[2023-06-08 01:07:23] INFO root fetch - processPackages [myke]: Downloading https://files.pythonhosted.org/packages/62/39/2d6e7a2075b263cbb253e3983b3e962e6592e59121b8269f8c59c7197057/myke-0.0.1a9.tar.gz
+[2023-06-08 01:07:23] INFO root fetch - processPackages [static-frame-pyodide]: Downloading https://files.pythonhosted.org/packages/d5/8e/3a0b8c45e5b2d96fa4ad602a6e3dc073525b5755853abd546df55a61e0e1/static-frame-pyodide-0.1.5.tar.gz
+[2023-06-08 01:07:23] INFO root fetch - processPackages [hiperwalk]: Downloading https://files.pythonhosted.org/packages/af/6c/a8ee34afe49a911d81c9780b6bd2d3e827dbdddd037bc4f25e4f7625fee0/hiperwalk-2.0a3.tar.gz
+[2023-06-08 01:07:24] INFO root fetch - processPackages [alphawave]: Downloading https://files.pythonhosted.org/packages/3c/bc/a679eb077cd4dfe80db31d2653ba278ed099701d0a710240ea1c6c6f0106/alphawave-0.2.1.tar.gz
+[2023-06-08 01:07:24] INFO root fetch - processPackages [tmnt-cu101]: Downloading https://files.pythonhosted.org/packages/87/0c/c8fac0fa1300f89b4d46821863d77283ee2d146220803d5484e601e8fffb/tmnt-cu101-0.7.0b20230607.tar.gz
+[2023-06-08 01:07:24] INFO root fetch - processPackages [alphawave]: executing diffoscope
+[2023-06-08 01:07:24] INFO root fetch - processPackages [alphawave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alphawave-0.2.0.tar.gz tmp/alphawave-0.2.1.tar.gz --markdown 20230608/a/alphawave/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-06-08 01:07:24] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/71/64/401eb5d6630b5b2fc39c09e309a7a3e2e1e802729ae541057c00a92ccefb/tmnt-0.7.0b20230607.tar.gz
+[2023-06-08 01:07:24] INFO root fetch - processPackages [arcusapi]: Downloading https://files.pythonhosted.org/packages/57/f5/82eb6fe6bcbc55b0cd6084ce2c4b5fa173e8bfc200be5358453e5927b386/arcusapi-0.1.1.tar.gz
+[2023-06-08 01:07:24] INFO root fetch - processPackages [static-frame-pyodide]: Downloading https://files.pythonhosted.org/packages/f9/93/ff20fc9a7ffbc026d2d63564c6eb5793550962730054902bd2df1b1a5e7e/static-frame-pyodide-0.1.6.tar.gz
+[2023-06-08 01:07:24] INFO root fetch - processPackages [myke]: Downloading https://files.pythonhosted.org/packages/15/3d/a4311a91edd339d6abecc44f592a3206fe76b90d211e652221f0434fc0bc/myke-0.1.0.tar.gz
+[2023-06-08 01:07:24] INFO root fetch - processPackages [tmnt-cu101]: executing diffoscope
+[2023-06-08 01:07:24] INFO root fetch - processPackages [tmnt-cu101]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-cu101-0.7.0b20230606.tar.gz tmp/tmnt-cu101-0.7.0b20230607.tar.gz --markdown 20230608/t/tmnt-cu101/0.7.0b20230606-0.7.0b20230607/diff.md --exclude *.pyd
+[2023-06-08 01:07:24] INFO root fetch - processPackages [hiperwalk]: Downloading https://files.pythonhosted.org/packages/36/d8/b8c0d5913fe2f258ba45b224672f9e38a714843200e14c7085cdb81447e5/hiperwalk-2.0a4.tar.gz
+[2023-06-08 01:07:24] INFO root fetch - processPackages [arcusapi]: executing diffoscope
+[2023-06-08 01:07:24] INFO root fetch - processPackages [arcusapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arcusapi-0.1.0.tar.gz tmp/arcusapi-0.1.1.tar.gz --markdown 20230608/a/arcusapi/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-08 01:07:24] INFO root fetch - processPackages [static-frame-pyodide]: executing diffoscope
+[2023-06-08 01:07:24] INFO root fetch - processPackages [static-frame-pyodide]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/static-frame-pyodide-0.1.5.tar.gz tmp/static-frame-pyodide-0.1.6.tar.gz --markdown 20230608/s/static-frame-pyodide/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-08 01:07:24] INFO root fetch - processPackages [myke]: executing diffoscope
+[2023-06-08 01:07:24] INFO root fetch - processPackages [myke]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myke-0.0.1a9.tar.gz tmp/myke-0.1.0.tar.gz --markdown 20230608/m/myke/0.0.1a9-0.1.0/diff.md --exclude *.pyd
+[2023-06-08 01:07:24] INFO root fetch - processPackages [tmnt]: executing diffoscope
+[2023-06-08 01:07:24] INFO root fetch - processPackages [tmnt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-0.7.0b20230606.tar.gz tmp/tmnt-0.7.0b20230607.tar.gz --markdown 20230608/t/tmnt/0.7.0b20230606-0.7.0b20230607/diff.md --exclude *.pyd
+[2023-06-08 01:07:24] INFO root fetch - processPackages [hiperwalk]: executing diffoscope
+[2023-06-08 01:07:24] INFO root fetch - processPackages [hiperwalk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hiperwalk-2.0a3.tar.gz tmp/hiperwalk-2.0a4.tar.gz --markdown 20230608/h/hiperwalk/2.0a3-2.0a4/diff.md --exclude *.pyd
+[2023-06-08 01:07:25] INFO root fetch - processPackages [static-frame-pyodide]: Remove: archive file [/home/abi/fetcher/tmp/static-frame-pyodide-0.1.5.tar.gz]
+[2023-06-08 01:07:25] INFO root fetch - processPackages [static-frame-pyodide]: Remove: archive file [/home/abi/fetcher/tmp/static-frame-pyodide-0.1.6.tar.gz]
+[2023-06-08 01:07:25] INFO root fetch - main [MainThread]: End processing [static-frame-pyodide]: success
+[2023-06-08 01:07:25] INFO root fetch - processPackages [arcusapi]: Remove: archive file [/home/abi/fetcher/tmp/arcusapi-0.1.0.tar.gz]
+[2023-06-08 01:07:25] INFO root fetch - processPackages [arcusapi]: Remove: archive file [/home/abi/fetcher/tmp/arcusapi-0.1.1.tar.gz]
+[2023-06-08 01:07:25] INFO root fetch - main [MainThread]: End processing [arcusapi]: success
+[2023-06-08 01:07:25] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.0b20230606.tar.gz]
+[2023-06-08 01:07:25] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.0b20230607.tar.gz]
+[2023-06-08 01:07:25] INFO root fetch - main [MainThread]: End processing [tmnt]: success
+[2023-06-08 01:07:25] INFO root fetch - processPackages [alphawave]: Remove: archive file [/home/abi/fetcher/tmp/alphawave-0.2.0.tar.gz]
+[2023-06-08 01:07:25] INFO root fetch - processPackages [alphawave]: Remove: archive file [/home/abi/fetcher/tmp/alphawave-0.2.1.tar.gz]
+[2023-06-08 01:07:25] INFO root fetch - main [MainThread]: End processing [alphawave]: success
+[2023-06-08 01:07:26] INFO root fetch - processPackages [myke]: Remove: archive file [/home/abi/fetcher/tmp/myke-0.0.1a9.tar.gz]
+[2023-06-08 01:07:26] INFO root fetch - processPackages [myke]: Remove: archive file [/home/abi/fetcher/tmp/myke-0.1.0.tar.gz]
+[2023-06-08 01:07:26] INFO root fetch - main [MainThread]: End processing [myke]: success
+[2023-06-08 01:07:26] INFO root fetch - processPackages [tmnt-cu101]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-cu101-0.7.0b20230606.tar.gz]
+[2023-06-08 01:07:26] INFO root fetch - processPackages [tmnt-cu101]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-cu101-0.7.0b20230607.tar.gz]
+[2023-06-08 01:07:26] INFO root fetch - main [MainThread]: End processing [tmnt-cu101]: success
+[2023-06-08 01:07:28] INFO root fetch - processPackages [hiperwalk]: Remove: archive file [/home/abi/fetcher/tmp/hiperwalk-2.0a3.tar.gz]
+[2023-06-08 01:07:28] INFO root fetch - processPackages [hiperwalk]: Remove: archive file [/home/abi/fetcher/tmp/hiperwalk-2.0a4.tar.gz]
+[2023-06-08 01:07:28] INFO root fetch - main [MainThread]: End processing [hiperwalk]: success
+[2023-06-08 01:07:28] INFO root fetch - main [MainThread]: Store serial: [18414885]
