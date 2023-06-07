@@ -1177,3 +1177,72 @@ EOFError: EOF read where object expected
 [2023-06-08 01:24:15] INFO root fetch - processPackages [pbspark]: Remove: archive file [/home/abi/fetcher/tmp/pbspark-0.9.0.tar.gz]
 [2023-06-08 01:24:15] INFO root fetch - main [MainThread]: End processing [pbspark]: success
 [2023-06-08 01:24:15] INFO root fetch - main [MainThread]: Store serial: [18414980]
+[2023-06-08 01:29:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18414980]
+[2023-06-08 01:29:24] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-08 01:29:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pym2149
+[2023-06-08 01:29:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pepperize.cdk-ses-smtp-credentials
+[2023-06-08 01:29:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chiapos
+[2023-06-08 01:29:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dlbar
+[2023-06-08 01:29:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: acryl-datahub-classify
+[2023-06-08 01:29:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ream2
+[2023-06-08 01:29:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ovos-local-backend
+[2023-06-08 01:29:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdk-sops-secrets
+[2023-06-08 01:29:24] INFO root fetch - processPackages [acryl-datahub-classify]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-08 01:29:24] INFO root fetch - processPackages [pym2149]: New version: [9] Old Version: [8]
+[2023-06-08 01:29:24] INFO root fetch - processPackages [ream2]: New version: [2.6.1] Old Version: [2.6.0]
+[2023-06-08 01:29:24] INFO root fetch - processPackages [ovos-local-backend]: New version: [0.2.0a9] Old Version: [0.2.0a8]
+[2023-06-08 01:29:24] WARNING root fetch - processPackages [dlbar]: Skipping, unable to determine old version
+[2023-06-08 01:29:24] INFO root fetch - main [MainThread]: End processing [dlbar] error
+[2023-06-08 01:29:24] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: New version: [0.3.354] Old Version: [0.3.353]
+[2023-06-08 01:29:24] INFO root fetch - processPackages [chiapos]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-08 01:29:24] INFO root fetch - processPackages [pym2149]: Downloading https://files.pythonhosted.org/packages/6f/96/ade21e596931277ebbcbe4d34211b5a4b1d6555228ab761036f19d5ad7de/pym2149-8.tar.gz
+[2023-06-08 01:29:24] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/03/33/3e8d17c2914fc882d1474ce5517181821abe4b28200d18458e381ba5e4d8/pepperize.cdk-ses-smtp-credentials-0.3.353.tar.gz
+[2023-06-08 01:29:24] INFO root fetch - processPackages [acryl-datahub-classify]: Downloading https://files.pythonhosted.org/packages/d5/2f/d50d63352b16a8579c707f0ba3d0fc762bd9e7e861cebd335a0639d06f91/acryl-datahub-classify-0.0.7.tar.gz
+[2023-06-08 01:29:24] INFO root fetch - processPackages [ream2]: Downloading https://files.pythonhosted.org/packages/b3/fc/d03ebf1c94df1f6041feeaecba8337c4fa3c51735e075e41aa3272bd78c2/ream2-2.6.0.tar.gz
+[2023-06-08 01:29:24] INFO root fetch - processPackages [chiapos]: Downloading https://files.pythonhosted.org/packages/3a/6b/829161105128be69efdce127be57aea1c28105d76c5c30a1c753caed0a4d/chiapos-1.0.8.tar.gz
+[2023-06-08 01:29:24] INFO root fetch - processPackages [ovos-local-backend]: Downloading https://files.pythonhosted.org/packages/aa/cb/d2765c107910f6bc1dca69dcc16c73a0986ab984fe77cf33633045941028/ovos_local_backend-0.2.0a8-py3-none-any.whl
+[2023-06-08 01:29:24] INFO root fetch - processPackages [cdk-sops-secrets]: New version: [1.2.99] Old Version: [1.2.98]
+[2023-06-08 01:29:24] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/7e/68/38a20aebbd3c74ef2418394442835ddfad9239d74d180bd5b0391cd6f89e/pepperize.cdk-ses-smtp-credentials-0.3.354.tar.gz
+[2023-06-08 01:29:24] INFO root fetch - processPackages [cdk-sops-secrets]: Downloading https://files.pythonhosted.org/packages/e2/8d/e29915f1e26b1a9d52bb33bc0abeaa259422cbc8e7fb8d8031fb9d7855e5/cdk-sops-secrets-1.2.98.tar.gz
+[2023-06-08 01:29:24] INFO root fetch - processPackages [pym2149]: Downloading https://files.pythonhosted.org/packages/d9/e2/1939f876d66c92cd8b38c250687e86672f097f50e58df3fb299e27a7ce5e/pym2149-9.tar.gz
+[2023-06-08 01:29:24] INFO root fetch - processPackages [acryl-datahub-classify]: Downloading https://files.pythonhosted.org/packages/48/6d/50fa7364aeb6a4154243a73bb3efa142af2c93224fd41decb14fe7e85a66/acryl-datahub-classify-0.0.8.tar.gz
+[2023-06-08 01:29:24] INFO root fetch - processPackages [ream2]: Downloading https://files.pythonhosted.org/packages/bf/e3/d55d1c953ec77a03be17ccc73d1649c8b5260738c3c06b7462a3e5334164/ream2-2.6.1.tar.gz
+[2023-06-08 01:29:24] INFO root fetch - processPackages [ovos-local-backend]: Downloading https://files.pythonhosted.org/packages/5f/f7/ba89e3c2dfaeb03aac975f2afbaa1980ccbe7273dcd7f5b525280a59d733/ovos_local_backend-0.2.0a9-py3-none-any.whl
+[2023-06-08 01:29:24] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: executing diffoscope
+[2023-06-08 01:29:24] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ses-smtp-credentials-0.3.353.tar.gz tmp/pepperize.cdk-ses-smtp-credentials-0.3.354.tar.gz --markdown 20230608/p/pepperize.cdk-ses-smtp-credentials/0.3.353-0.3.354/diff.md --exclude *.pyd
+[2023-06-08 01:29:25] INFO root fetch - processPackages [ream2]: executing diffoscope
+[2023-06-08 01:29:25] INFO root fetch - processPackages [acryl-datahub-classify]: executing diffoscope
+[2023-06-08 01:29:25] INFO root fetch - processPackages [ream2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ream2-2.6.0.tar.gz tmp/ream2-2.6.1.tar.gz --markdown 20230608/r/ream2/2.6.0-2.6.1/diff.md --exclude *.pyd
+[2023-06-08 01:29:25] INFO root fetch - processPackages [acryl-datahub-classify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acryl-datahub-classify-0.0.7.tar.gz tmp/acryl-datahub-classify-0.0.8.tar.gz --markdown 20230608/a/acryl-datahub-classify/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-08 01:29:25] INFO root fetch - processPackages [pym2149]: executing diffoscope
+[2023-06-08 01:29:25] INFO root fetch - processPackages [pym2149]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pym2149-8.tar.gz tmp/pym2149-9.tar.gz --markdown 20230608/p/pym2149/8-9/diff.md --exclude *.pyd
+[2023-06-08 01:29:25] INFO root fetch - processPackages [ovos-local-backend]: executing diffoscope
+[2023-06-08 01:29:25] INFO root fetch - processPackages [ovos-local-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos_local_backend-0.2.0a8-py3-none-any.whl.zip tmp/ovos_local_backend-0.2.0a9-py3-none-any.whl.zip --markdown 20230608/o/ovos-local-backend/0.2.0a8-0.2.0a9/diff.md --exclude *.pyd
+[2023-06-08 01:29:25] INFO root fetch - processPackages [chiapos]: Downloading https://files.pythonhosted.org/packages/27/b5/cfc684a398db3c4d671b2baf9749cd589978252a04749962e1f1b1fae313/chiapos-1.0.9.tar.gz
+[2023-06-08 01:29:25] INFO root fetch - processPackages [cdk-sops-secrets]: Downloading https://files.pythonhosted.org/packages/10/33/e08c5e7bb6d5b198c75b53cba42224da6ac877f65fd4a4343fecdad9a93e/cdk-sops-secrets-1.2.99.tar.gz
+[2023-06-08 01:29:25] INFO root fetch - processPackages [chiapos]: executing diffoscope
+[2023-06-08 01:29:25] INFO root fetch - processPackages [chiapos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chiapos-1.0.8.tar.gz tmp/chiapos-1.0.9.tar.gz --markdown 20230608/c/chiapos/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-08 01:29:26] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ses-smtp-credentials-0.3.353.tar.gz]
+[2023-06-08 01:29:26] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ses-smtp-credentials-0.3.354.tar.gz]
+[2023-06-08 01:29:26] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ses-smtp-credentials]: success
+[2023-06-08 01:29:26] INFO root fetch - processPackages [ream2]: Remove: archive file [/home/abi/fetcher/tmp/ream2-2.6.0.tar.gz]
+[2023-06-08 01:29:26] INFO root fetch - processPackages [ream2]: Remove: archive file [/home/abi/fetcher/tmp/ream2-2.6.1.tar.gz]
+[2023-06-08 01:29:26] INFO root fetch - main [MainThread]: End processing [ream2]: success
+[2023-06-08 01:29:26] INFO root fetch - processPackages [ovos-local-backend]: Remove: archive file [/home/abi/fetcher/tmp/ovos_local_backend-0.2.0a8-py3-none-any.whl.zip]
+[2023-06-08 01:29:26] INFO root fetch - processPackages [ovos-local-backend]: Remove: archive file [/home/abi/fetcher/tmp/ovos_local_backend-0.2.0a9-py3-none-any.whl.zip]
+[2023-06-08 01:29:26] INFO root fetch - main [MainThread]: End processing [ovos-local-backend]: success
+[2023-06-08 01:29:26] INFO root fetch - processPackages [acryl-datahub-classify]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-classify-0.0.7.tar.gz]
+[2023-06-08 01:29:26] INFO root fetch - processPackages [acryl-datahub-classify]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-classify-0.0.8.tar.gz]
+[2023-06-08 01:29:26] INFO root fetch - main [MainThread]: End processing [acryl-datahub-classify]: success
+[2023-06-08 01:29:26] INFO root fetch - processPackages [pym2149]: Remove: archive file [/home/abi/fetcher/tmp/pym2149-8.tar.gz]
+[2023-06-08 01:29:26] INFO root fetch - processPackages [pym2149]: Remove: archive file [/home/abi/fetcher/tmp/pym2149-9.tar.gz]
+[2023-06-08 01:29:26] INFO root fetch - main [MainThread]: End processing [pym2149]: success
+[2023-06-08 01:29:27] INFO root fetch - processPackages [cdk-sops-secrets]: executing diffoscope
+[2023-06-08 01:29:27] INFO root fetch - processPackages [cdk-sops-secrets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sops-secrets-1.2.98.tar.gz tmp/cdk-sops-secrets-1.2.99.tar.gz --markdown 20230608/c/cdk-sops-secrets/1.2.98-1.2.99/diff.md --exclude *.pyd
+[2023-06-08 01:29:28] INFO root fetch - processPackages [chiapos]: Remove: archive file [/home/abi/fetcher/tmp/chiapos-1.0.8.tar.gz]
+[2023-06-08 01:29:28] INFO root fetch - processPackages [chiapos]: Remove: archive file [/home/abi/fetcher/tmp/chiapos-1.0.9.tar.gz]
+[2023-06-08 01:29:28] INFO root fetch - main [MainThread]: End processing [chiapos]: success
+[2023-06-08 01:29:28] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.2.98.tar.gz]
+[2023-06-08 01:29:28] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.2.99.tar.gz]
+[2023-06-08 01:29:28] INFO root fetch - main [MainThread]: End processing [cdk-sops-secrets]: success
+[2023-06-08 01:29:28] INFO root fetch - main [MainThread]: Store serial: [18415057]
