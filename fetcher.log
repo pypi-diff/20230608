@@ -663,3 +663,91 @@ EOFError: EOF read where object expected
 [2023-06-08 00:51:05] INFO root fetch - processPackages [ethyca-fides]: Remove: archive file [/home/abi/fetcher/tmp/ethyca-fides-2.9.2.tar.gz]
 [2023-06-08 00:51:05] INFO root fetch - main [MainThread]: End processing [ethyca-fides]: success
 [2023-06-08 00:51:05] INFO root fetch - main [MainThread]: Store serial: [18414785]
+[2023-06-08 00:56:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18414785]
+[2023-06-08 00:56:15] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-08 00:56:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: seaflowpy
+[2023-06-08 00:56:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: beet
+[2023-06-08 00:56:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: memento-scorecard
+[2023-06-08 00:56:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: snntorch
+[2023-06-08 00:56:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-keycloak
+[2023-06-08 00:56:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: GitSubmoduleExample
+[2023-06-08 00:56:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: LabGym
+[2023-06-08 00:56:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: warframe
+[2023-06-08 00:56:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pixelpay-sdk
+[2023-06-08 00:56:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mfconv
+[2023-06-08 00:56:15] INFO root fetch - processPackages [snntorch]: New version: [0.6.4] Old Version: [0.6.2]
+[2023-06-08 00:56:15] WARNING root fetch - processPackages [GitSubmoduleExample]: Skipping, unable to determine old version
+[2023-06-08 00:56:15] INFO root fetch - processPackages [GitSubmoduleExample]: Start processing: chalkpy
+[2023-06-08 00:56:15] INFO root fetch - main [MainThread]: End processing [GitSubmoduleExample] error
+[2023-06-08 00:56:15] WARNING root fetch - processPackages [warframe]: Skipping, unable to determine old version
+[2023-06-08 00:56:15] INFO root fetch - processPackages [warframe]: Start processing: georasters
+[2023-06-08 00:56:15] INFO root fetch - main [MainThread]: End processing [warframe] error
+[2023-06-08 00:56:15] INFO root fetch - processPackages [LabGym]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-06-08 00:56:15] INFO root fetch - processPackages [seaflowpy]: New version: [7.0.0] Old Version: [6.3.0]
+[2023-06-08 00:56:15] WARNING root fetch - processPackages [memento-scorecard]: Skipping, unable to determine old version
+[2023-06-08 00:56:15] WARNING root fetch - processPackages [mfconv]: Skipping, unable to determine old version
+[2023-06-08 00:56:15] INFO root fetch - processPackages [beet]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-08 00:56:15] INFO root fetch - processPackages [memento-scorecard]: Start processing: easyapi-django
+[2023-06-08 00:56:15] INFO root fetch - main [MainThread]: End processing [memento-scorecard] error
+[2023-06-08 00:56:15] INFO root fetch - processPackages [pixelpay-sdk]: New version: [2.0.4] Old Version: [2.0.3]
+[2023-06-08 00:56:15] INFO root fetch - main [MainThread]: End processing [mfconv] error
+[2023-06-08 00:56:15] INFO root fetch - processPackages [pulumi-keycloak]: New version: [5.2.0a1686176633] Old Version: [5.2.0a1685166531]
+[2023-06-08 00:56:15] INFO root fetch - processPackages [georasters]: New version: [0.5.9b] Old Version: [0.5.9a]
+[2023-06-08 00:56:15] INFO root fetch - processPackages [chalkpy]: New version: [2.6.8] Old Version: [2.6.7]
+[2023-06-08 00:56:15] INFO root fetch - processPackages [easyapi-django]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-08 00:56:15] INFO root fetch - processPackages [chalkpy]: Downloading https://files.pythonhosted.org/packages/1e/5c/51449ae8ea2186dbffe0e70c3f7499c67623bbef476624110ab21570aa8f/chalkpy-2.6.7.tar.gz
+[2023-06-08 00:56:15] INFO root fetch - processPackages [snntorch]: Downloading https://files.pythonhosted.org/packages/d1/35/ebd551f85cbe9668863262cac4533148c9e65b4495d6df30fae0daf220f6/snntorch-0.6.2.tar.gz
+[2023-06-08 00:56:15] INFO root fetch - processPackages [beet]: Downloading https://files.pythonhosted.org/packages/84/31/49542bab904501be84c4a4ad27cf7f5dc53f09a6051a00259052fde2501f/beet-0.9.3.tar.gz
+[2023-06-08 00:56:15] INFO root fetch - processPackages [pulumi-keycloak]: Downloading https://files.pythonhosted.org/packages/e7/63/6cd642a275daf0779877bc4afd75017d9c11a50fe850a7971a80a72ec07f/pulumi_keycloak-5.2.0a1685166531.tar.gz
+[2023-06-08 00:56:15] INFO root fetch - processPackages [LabGym]: Downloading https://files.pythonhosted.org/packages/d9/e8/4762439ac09a72a976507229f87358e9c6146c9920d63449626eec7322f0/LabGym-1.9.1.tar.gz
+[2023-06-08 00:56:15] INFO root fetch - processPackages [pixelpay-sdk]: Downloading https://files.pythonhosted.org/packages/d5/f1/8e8b936743914f6bee5c1da32cf8de2785972d87e53d45ad1c77ddc32dc7/pixelpay-sdk-2.0.3.tar.gz
+[2023-06-08 00:56:15] INFO root fetch - processPackages [seaflowpy]: Downloading https://files.pythonhosted.org/packages/c9/03/a6488d9ead0ab215e290f93164ce084dfca6d27b74687b2f94b058424b0b/seaflowpy-6.3.0.tar.gz
+[2023-06-08 00:56:15] INFO root fetch - processPackages [easyapi-django]: Downloading https://files.pythonhosted.org/packages/95/09/0a6b31ed99ff9e717b38e2df00ebdc3e4db5e87f43f04a96d487c3ebf61e/easyapi_django-0.0.8.tar.gz
+[2023-06-08 00:56:15] INFO root fetch - processPackages [georasters]: Downloading https://files.pythonhosted.org/packages/f0/79/21eca74c4ae8d3e4f28969c775967f369b3863635849a87ddc444ea8c561/georasters-0.5.9a.tar.gz
+[2023-06-08 00:56:16] WARNING root fetch - processPackages [snntorch]: Skipping package: exceeds size limit 23643671>=10485760
+[2023-06-08 00:56:16] INFO root fetch - main [MainThread]: End processing [snntorch] error
+[2023-06-08 00:56:16] WARNING root fetch - processPackages [LabGym]: Skipping package: exceeds size limit 53607791>=10485760
+[2023-06-08 00:56:16] INFO root fetch - main [MainThread]: End processing [LabGym] error
+[2023-06-08 00:56:16] INFO root fetch - processPackages [chalkpy]: Downloading https://files.pythonhosted.org/packages/4a/18/4179eb61682d39d8a37b0f53c0df0ae1b9aac46255e968da8649e1f52a94/chalkpy-2.6.8.tar.gz
+[2023-06-08 00:56:16] INFO root fetch - processPackages [chalkpy]: executing diffoscope
+[2023-06-08 00:56:16] INFO root fetch - processPackages [chalkpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chalkpy-2.6.7.tar.gz tmp/chalkpy-2.6.8.tar.gz --markdown 20230608/c/chalkpy/2.6.7-2.6.8/diff.md --exclude *.pyd
+[2023-06-08 00:56:16] INFO root fetch - processPackages [beet]: Downloading https://files.pythonhosted.org/packages/5f/82/25a5f91b6637a12511ea929ecd269e5ed8d81db04a4f558ae40c43492fc7/beet-0.9.4.tar.gz
+[2023-06-08 00:56:16] INFO root fetch - processPackages [pulumi-keycloak]: Downloading https://files.pythonhosted.org/packages/45/ad/d0a36993a0ce782fdc04e53841948eb805007f7f541d2e404157fa84b0b5/pulumi_keycloak-5.2.0a1686176633.tar.gz
+[2023-06-08 00:56:16] INFO root fetch - processPackages [easyapi-django]: Downloading https://files.pythonhosted.org/packages/95/62/c460ae663ba5b8e9d71d071d3ec9427fbf583cfffe09c89d267e24fe810f/easyapi_django-0.0.9.tar.gz
+[2023-06-08 00:56:16] INFO root fetch - processPackages [pixelpay-sdk]: Downloading https://files.pythonhosted.org/packages/6c/33/525ec81e715ce4d21d692e554f2c19701365350783918cf82b13535b5498/pixelpay-sdk-2.0.4.tar.gz
+[2023-06-08 00:56:16] INFO root fetch - processPackages [easyapi-django]: executing diffoscope
+[2023-06-08 00:56:16] INFO root fetch - processPackages [easyapi-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easyapi_django-0.0.8.tar.gz tmp/easyapi_django-0.0.9.tar.gz --markdown 20230608/e/easyapi-django/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-08 00:56:16] INFO root fetch - processPackages [pixelpay-sdk]: executing diffoscope
+[2023-06-08 00:56:16] INFO root fetch - processPackages [pixelpay-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pixelpay-sdk-2.0.3.tar.gz tmp/pixelpay-sdk-2.0.4.tar.gz --markdown 20230608/p/pixelpay-sdk/2.0.3-2.0.4/diff.md --exclude *.pyd
+[2023-06-08 00:56:16] INFO root fetch - processPackages [georasters]: Downloading https://files.pythonhosted.org/packages/28/fc/561ea81499587e592fc7311d457d7228eb8ed84af372d040bb68cd948a73/georasters-0.5.9b.tar.gz
+[2023-06-08 00:56:16] INFO root fetch - processPackages [beet]: executing diffoscope
+[2023-06-08 00:56:16] INFO root fetch - processPackages [beet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beet-0.9.3.tar.gz tmp/beet-0.9.4.tar.gz --markdown 20230608/b/beet/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-08 00:56:16] INFO root fetch - processPackages [pulumi-keycloak]: executing diffoscope
+[2023-06-08 00:56:16] INFO root fetch - processPackages [pulumi-keycloak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_keycloak-5.2.0a1685166531.tar.gz tmp/pulumi_keycloak-5.2.0a1686176633.tar.gz --markdown 20230608/p/pulumi-keycloak/5.2.0a1685166531-5.2.0a1686176633/diff.md --exclude *.pyd
+[2023-06-08 00:56:16] INFO root fetch - processPackages [georasters]: executing diffoscope
+[2023-06-08 00:56:16] INFO root fetch - processPackages [georasters]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/georasters-0.5.9a.tar.gz tmp/georasters-0.5.9b.tar.gz --markdown 20230608/g/georasters/0.5.9a-0.5.9b/diff.md --exclude *.pyd
+[2023-06-08 00:56:16] INFO root fetch - processPackages [seaflowpy]: Downloading https://files.pythonhosted.org/packages/04/b4/53fa65c7459b657bcfc99c42324afba72832b0bbce3560eeeccd8308c48e/seaflowpy-7.0.0.tar.gz
+[2023-06-08 00:56:17] INFO root fetch - processPackages [easyapi-django]: Remove: archive file [/home/abi/fetcher/tmp/easyapi_django-0.0.8.tar.gz]
+[2023-06-08 00:56:17] INFO root fetch - processPackages [easyapi-django]: Remove: archive file [/home/abi/fetcher/tmp/easyapi_django-0.0.9.tar.gz]
+[2023-06-08 00:56:17] INFO root fetch - main [MainThread]: End processing [easyapi-django]: success
+[2023-06-08 00:56:17] INFO root fetch - processPackages [seaflowpy]: executing diffoscope
+[2023-06-08 00:56:17] INFO root fetch - processPackages [seaflowpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seaflowpy-6.3.0.tar.gz tmp/seaflowpy-7.0.0.tar.gz --markdown 20230608/s/seaflowpy/6.3.0-7.0.0/diff.md --exclude *.pyd
+[2023-06-08 00:56:17] INFO root fetch - processPackages [pixelpay-sdk]: Remove: archive file [/home/abi/fetcher/tmp/pixelpay-sdk-2.0.3.tar.gz]
+[2023-06-08 00:56:17] INFO root fetch - processPackages [pixelpay-sdk]: Remove: archive file [/home/abi/fetcher/tmp/pixelpay-sdk-2.0.4.tar.gz]
+[2023-06-08 00:56:17] INFO root fetch - main [MainThread]: End processing [pixelpay-sdk]: success
+[2023-06-08 00:56:17] INFO root fetch - processPackages [georasters]: Remove: archive file [/home/abi/fetcher/tmp/georasters-0.5.9a.tar.gz]
+[2023-06-08 00:56:17] INFO root fetch - processPackages [georasters]: Remove: archive file [/home/abi/fetcher/tmp/georasters-0.5.9b.tar.gz]
+[2023-06-08 00:56:17] INFO root fetch - main [MainThread]: End processing [georasters]: success
+[2023-06-08 00:56:18] INFO root fetch - processPackages [beet]: Remove: archive file [/home/abi/fetcher/tmp/beet-0.9.3.tar.gz]
+[2023-06-08 00:56:18] INFO root fetch - processPackages [beet]: Remove: archive file [/home/abi/fetcher/tmp/beet-0.9.4.tar.gz]
+[2023-06-08 00:56:18] INFO root fetch - main [MainThread]: End processing [beet]: success
+[2023-06-08 00:56:18] INFO root fetch - processPackages [pulumi-keycloak]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_keycloak-5.2.0a1685166531.tar.gz]
+[2023-06-08 00:56:18] INFO root fetch - processPackages [pulumi-keycloak]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_keycloak-5.2.0a1686176633.tar.gz]
+[2023-06-08 00:56:18] INFO root fetch - main [MainThread]: End processing [pulumi-keycloak]: success
+[2023-06-08 00:56:19] INFO root fetch - processPackages [seaflowpy]: Remove: archive file [/home/abi/fetcher/tmp/seaflowpy-6.3.0.tar.gz]
+[2023-06-08 00:56:19] INFO root fetch - processPackages [seaflowpy]: Remove: archive file [/home/abi/fetcher/tmp/seaflowpy-7.0.0.tar.gz]
+[2023-06-08 00:56:19] INFO root fetch - main [MainThread]: End processing [seaflowpy]: success
+[2023-06-08 00:56:23] INFO root fetch - processPackages [chalkpy]: Remove: archive file [/home/abi/fetcher/tmp/chalkpy-2.6.7.tar.gz]
+[2023-06-08 00:56:23] INFO root fetch - processPackages [chalkpy]: Remove: archive file [/home/abi/fetcher/tmp/chalkpy-2.6.8.tar.gz]
+[2023-06-08 00:56:23] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
+[2023-06-08 00:56:23] INFO root fetch - main [MainThread]: Store serial: [18414834]
