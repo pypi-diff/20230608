@@ -137,3 +137,83 @@
 [2023-06-08 00:08:04] INFO root fetch - processPackages [ovos-skill-homescreen]: Remove: archive file [/home/abi/fetcher/tmp/ovos-skill-homescreen-0.0.3a3.tar.gz]
 [2023-06-08 00:08:04] INFO root fetch - main [MainThread]: End processing [ovos-skill-homescreen]: success
 [2023-06-08 00:08:04] INFO root fetch - main [MainThread]: Store serial: [18414546]
+[2023-06-08 00:13:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18414546]
+[2023-06-08 00:13:13] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-08 00:13:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: icecube-skyreader
+[2023-06-08 00:13:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: coastseg
+[2023-06-08 00:13:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: terragit
+[2023-06-08 00:13:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ovos-core
+[2023-06-08 00:13:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pytoolbox
+[2023-06-08 00:13:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ez-cqrs
+[2023-06-08 00:13:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dogpile-backend-redis-advanced
+[2023-06-08 00:13:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: flowtask
+[2023-06-08 00:13:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pepperize.cdk-serverless-cluster-from-snapshot
+[2023-06-08 00:13:13] INFO root fetch - processPackages [icecube-skyreader]: New version: [1.1.0] Old Version: [1.0.2]
+[2023-06-08 00:13:13] INFO root fetch - processPackages [terragit]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-08 00:13:13] INFO root fetch - processPackages [dogpile-backend-redis-advanced]: New version: [0.4.0] Old Version: [0.3.2]
+[2023-06-08 00:13:13] INFO root fetch - processPackages [ovos-core]: New version: [0.0.8a9] Old Version: [0.0.8a8]
+[2023-06-08 00:13:13] INFO root fetch - processPackages [ez-cqrs]: New version: [1.1.3] Old Version: [1.1.1]
+[2023-06-08 00:13:13] INFO root fetch - processPackages [pytoolbox]: New version: [14.5.0] Old Version: [14.4.0]
+[2023-06-08 00:13:13] INFO root fetch - processPackages [flowtask]: New version: [4.4.4] Old Version: [4.4.2]
+[2023-06-08 00:13:13] INFO root fetch - processPackages [coastseg]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-08 00:13:13] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-08 00:13:13] INFO root fetch - processPackages [flowtask]: Downloading https://files.pythonhosted.org/packages/c4/53/dad7a7f5cf86a0865b683d3c3c49969f6e164bd528b2ac4597f93f10e019/flowtask-4.4.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-08 00:13:13] INFO root fetch - processPackages [coastseg]: Downloading https://files.pythonhosted.org/packages/75/3b/19efffac60ef69a861417a37a370dc3f3a497cb93009fe8fff8dda38b476/coastseg-0.0.8.tar.gz
+[2023-06-08 00:13:13] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: Downloading https://files.pythonhosted.org/packages/41/ed/5efe219dc09a3767781b18e59998e46265479245ef5e56798033e654efe2/pepperize.cdk-serverless-cluster-from-snapshot-0.0.98.tar.gz
+[2023-06-08 00:13:13] INFO root fetch - processPackages [ez-cqrs]: Downloading https://files.pythonhosted.org/packages/b9/be/bfd3aac546635ec0b65eade9c6eb0ae6f2f878b39d0794c7a49ac054db00/ez_cqrs-1.1.1.tar.gz
+[2023-06-08 00:13:13] WARNING root fetch - processPackages [coastseg]: Skipping package: exceeds size limit 38421077>=10485760
+[2023-06-08 00:13:13] INFO root fetch - main [MainThread]: End processing [coastseg] error
+[2023-06-08 00:13:13] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: Downloading https://files.pythonhosted.org/packages/0a/e1/974dfac343666db334bd3dc6b819d5e46e3769ce75e9baccd0067702f4ad/pepperize.cdk-serverless-cluster-from-snapshot-0.0.99.tar.gz
+[2023-06-08 00:13:13] INFO root fetch - processPackages [dogpile-backend-redis-advanced]: Downloading https://files.pythonhosted.org/packages/ae/c8/b0de4f2eb24e011538b79dbef541e24cf90a3d7734040cccd165e2403a35/dogpile_backend_redis_advanced-0.3.2.tar.gz
+[2023-06-08 00:13:13] INFO root fetch - processPackages [pytoolbox]: Downloading https://files.pythonhosted.org/packages/c8/4c/b712eadfa323f86f0c420f83ca5588553e3d6537b5bb98957b25af3b43c7/pytoolbox-14.4.0.tar.gz
+[2023-06-08 00:13:13] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: executing diffoscope
+[2023-06-08 00:13:13] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.98.tar.gz tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.99.tar.gz --markdown 20230608/p/pepperize.cdk-serverless-cluster-from-snapshot/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-08 00:13:13] INFO root fetch - processPackages [icecube-skyreader]: Downloading https://files.pythonhosted.org/packages/5e/59/547d8415208471220d0c25407d4437ffe5f2267a2df3f6e1efe074abd181/icecube-skyreader-1.0.2.tar.gz
+[2023-06-08 00:13:13] INFO root fetch - processPackages [flowtask]: Downloading https://files.pythonhosted.org/packages/f8/99/b3020dca4b0c3a18f9ed249433f602114c9b800a7a255dc7e0ba969b2ee8/flowtask-4.4.4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-08 00:13:13] INFO root fetch - processPackages [terragit]: Downloading https://files.pythonhosted.org/packages/8f/1e/1dbf0848bbcdd033628c4113f8d980aafb860aac99b44453e05e661ce615/terragit-0.3.8.tar.gz
+[2023-06-08 00:13:13] INFO root fetch - processPackages [ovos-core]: Downloading https://files.pythonhosted.org/packages/dd/9c/0945c96587052dea91a0ceedf6f8aca8fb29db6717064aa852e7e73917ad/ovos_core-0.0.8a8-py3-none-any.whl
+[2023-06-08 00:13:13] INFO root fetch - processPackages [ez-cqrs]: Downloading https://files.pythonhosted.org/packages/f6/4a/9c099f6b801ee4e3647bb145ed00bdc566e74a451cb298e5c39106aed87c/ez_cqrs-1.1.3.tar.gz
+[2023-06-08 00:13:13] INFO root fetch - processPackages [flowtask]: executing diffoscope
+[2023-06-08 00:13:13] INFO root fetch - processPackages [flowtask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowtask-4.4.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/flowtask-4.4.4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230608/f/flowtask/4.4.2-4.4.4/diff.md --exclude *.pyd
+[2023-06-08 00:13:14] INFO root fetch - processPackages [ez-cqrs]: executing diffoscope
+[2023-06-08 00:13:14] INFO root fetch - processPackages [ez-cqrs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ez_cqrs-1.1.1.tar.gz tmp/ez_cqrs-1.1.3.tar.gz --markdown 20230608/e/ez-cqrs/1.1.1-1.1.3/diff.md --exclude *.pyd
+[2023-06-08 00:13:14] INFO root fetch - processPackages [dogpile-backend-redis-advanced]: Downloading https://files.pythonhosted.org/packages/31/a7/5024f0842ee6d1e1316d9f3b179d1d66cad7e0f3bd7b58744f97bef71162/dogpile_backend_redis_advanced-0.4.0.tar.gz
+[2023-06-08 00:13:14] INFO root fetch - processPackages [pytoolbox]: Downloading https://files.pythonhosted.org/packages/ee/c0/228b4d357f89e88f76ca4bd225ac89e9133c9d98d4bcb10f5053c0d41def/pytoolbox-14.5.0.tar.gz
+[2023-06-08 00:13:14] INFO root fetch - processPackages [icecube-skyreader]: Downloading https://files.pythonhosted.org/packages/7d/61/ced43ecf1f95484832f111c0a6e1ad8dd23e8a2fd1d417ba28a2d941f28f/icecube-skyreader-1.1.0.tar.gz
+[2023-06-08 00:13:14] INFO root fetch - processPackages [icecube-skyreader]: executing diffoscope
+[2023-06-08 00:13:14] INFO root fetch - processPackages [icecube-skyreader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/icecube-skyreader-1.0.2.tar.gz tmp/icecube-skyreader-1.1.0.tar.gz --markdown 20230608/i/icecube-skyreader/1.0.2-1.1.0/diff.md --exclude *.pyd
+[2023-06-08 00:13:14] INFO root fetch - processPackages [dogpile-backend-redis-advanced]: executing diffoscope
+[2023-06-08 00:13:14] INFO root fetch - processPackages [dogpile-backend-redis-advanced]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dogpile_backend_redis_advanced-0.3.2.tar.gz tmp/dogpile_backend_redis_advanced-0.4.0.tar.gz --markdown 20230608/d/dogpile-backend-redis-advanced/0.3.2-0.4.0/diff.md --exclude *.pyd
+[2023-06-08 00:13:14] INFO root fetch - processPackages [terragit]: Downloading https://files.pythonhosted.org/packages/4e/c8/27f80e582c732d4cc538d5f875a5646217b24d63a5d9e4664ac07e1198f0/terragit-0.3.9.tar.gz
+[2023-06-08 00:13:14] INFO root fetch - processPackages [pytoolbox]: executing diffoscope
+[2023-06-08 00:13:14] INFO root fetch - processPackages [pytoolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytoolbox-14.4.0.tar.gz tmp/pytoolbox-14.5.0.tar.gz --markdown 20230608/p/pytoolbox/14.4.0-14.5.0/diff.md --exclude *.pyd
+[2023-06-08 00:13:14] INFO root fetch - processPackages [ovos-core]: Downloading https://files.pythonhosted.org/packages/51/ee/52ce34726935c8c4c45d526690a3c83e2b71585a918b26cc886d29b8bf0b/ovos_core-0.0.8a9-py3-none-any.whl
+[2023-06-08 00:13:14] INFO root fetch - processPackages [terragit]: executing diffoscope
+[2023-06-08 00:13:14] INFO root fetch - processPackages [terragit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/terragit-0.3.8.tar.gz tmp/terragit-0.3.9.tar.gz --markdown 20230608/t/terragit/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-08 00:13:14] INFO root fetch - processPackages [ovos-core]: executing diffoscope
+[2023-06-08 00:13:14] INFO root fetch - processPackages [ovos-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos_core-0.0.8a8-py3-none-any.whl.zip tmp/ovos_core-0.0.8a9-py3-none-any.whl.zip --markdown 20230608/o/ovos-core/0.0.8a8-0.0.8a9/diff.md --exclude *.pyd
+[2023-06-08 00:13:15] INFO root fetch - processPackages [icecube-skyreader]: Remove: archive file [/home/abi/fetcher/tmp/icecube-skyreader-1.0.2.tar.gz]
+[2023-06-08 00:13:15] INFO root fetch - processPackages [icecube-skyreader]: Remove: archive file [/home/abi/fetcher/tmp/icecube-skyreader-1.1.0.tar.gz]
+[2023-06-08 00:13:15] INFO root fetch - main [MainThread]: End processing [icecube-skyreader]: success
+[2023-06-08 00:13:15] INFO root fetch - processPackages [ez-cqrs]: Remove: archive file [/home/abi/fetcher/tmp/ez_cqrs-1.1.1.tar.gz]
+[2023-06-08 00:13:15] INFO root fetch - processPackages [ez-cqrs]: Remove: archive file [/home/abi/fetcher/tmp/ez_cqrs-1.1.3.tar.gz]
+[2023-06-08 00:13:15] INFO root fetch - main [MainThread]: End processing [ez-cqrs]: success
+[2023-06-08 00:13:15] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.98.tar.gz]
+[2023-06-08 00:13:15] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.99.tar.gz]
+[2023-06-08 00:13:15] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-serverless-cluster-from-snapshot]: success
+[2023-06-08 00:13:15] INFO root fetch - processPackages [terragit]: Remove: archive file [/home/abi/fetcher/tmp/terragit-0.3.8.tar.gz]
+[2023-06-08 00:13:15] INFO root fetch - processPackages [terragit]: Remove: archive file [/home/abi/fetcher/tmp/terragit-0.3.9.tar.gz]
+[2023-06-08 00:13:15] INFO root fetch - main [MainThread]: End processing [terragit]: success
+[2023-06-08 00:13:16] INFO root fetch - processPackages [dogpile-backend-redis-advanced]: Remove: archive file [/home/abi/fetcher/tmp/dogpile_backend_redis_advanced-0.3.2.tar.gz]
+[2023-06-08 00:13:16] INFO root fetch - processPackages [dogpile-backend-redis-advanced]: Remove: archive file [/home/abi/fetcher/tmp/dogpile_backend_redis_advanced-0.4.0.tar.gz]
+[2023-06-08 00:13:16] INFO root fetch - main [MainThread]: End processing [dogpile-backend-redis-advanced]: success
+[2023-06-08 00:13:16] INFO root fetch - processPackages [pytoolbox]: Remove: archive file [/home/abi/fetcher/tmp/pytoolbox-14.4.0.tar.gz]
+[2023-06-08 00:13:16] INFO root fetch - processPackages [pytoolbox]: Remove: archive file [/home/abi/fetcher/tmp/pytoolbox-14.5.0.tar.gz]
+[2023-06-08 00:13:16] INFO root fetch - main [MainThread]: End processing [pytoolbox]: success
+[2023-06-08 00:13:18] INFO root fetch - processPackages [flowtask]: Remove: archive file [/home/abi/fetcher/tmp/flowtask-4.4.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-08 00:13:18] INFO root fetch - processPackages [flowtask]: Remove: archive file [/home/abi/fetcher/tmp/flowtask-4.4.4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-08 00:13:18] INFO root fetch - main [MainThread]: End processing [flowtask]: success
+[2023-06-08 00:13:26] INFO root fetch - processPackages [ovos-core]: Remove: archive file [/home/abi/fetcher/tmp/ovos_core-0.0.8a8-py3-none-any.whl.zip]
+[2023-06-08 00:13:26] INFO root fetch - processPackages [ovos-core]: Remove: archive file [/home/abi/fetcher/tmp/ovos_core-0.0.8a9-py3-none-any.whl.zip]
+[2023-06-08 00:13:26] INFO root fetch - main [MainThread]: End processing [ovos-core]: success
+[2023-06-08 00:13:26] INFO root fetch - main [MainThread]: Store serial: [18414580]
