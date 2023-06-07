@@ -315,3 +315,69 @@ EOFError: EOF read where object expected
 [2023-06-08 00:18:36] INFO root fetch - processPackages [escapyde]: Remove: archive file [/home/abi/fetcher/tmp/escapyde-1.0.0.tar.gz]
 [2023-06-08 00:18:36] INFO root fetch - main [MainThread]: End processing [escapyde]: success
 [2023-06-08 00:18:36] INFO root fetch - main [MainThread]: Store serial: [18414600]
+[2023-06-08 00:23:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18414600]
+[2023-06-08 00:23:45] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-08 00:23:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: thetagang
+[2023-06-08 00:23:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qclib
+[2023-06-08 00:23:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: weconnect-cupra-daern
+[2023-06-08 00:23:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: recognize
+[2023-06-08 00:23:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: myokit
+[2023-06-08 00:23:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: schemander
+[2023-06-08 00:23:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyiron-base
+[2023-06-08 00:23:45] INFO root fetch - processPackages [myokit]: New version: [1.34.0] Old Version: [1.33.9]
+[2023-06-08 00:23:45] INFO root fetch - processPackages [weconnect-cupra-daern]: New version: [0.50.2] Old Version: [0.50.1]
+[2023-06-08 00:23:45] INFO root fetch - processPackages [schemander]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-08 00:23:45] INFO root fetch - processPackages [thetagang]: New version: [1.6.1] Old Version: [1.6.0]
+[2023-06-08 00:23:45] INFO root fetch - processPackages [qclib]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-08 00:23:45] INFO root fetch - processPackages [recognize]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-08 00:23:45] INFO root fetch - processPackages [pyiron-base]: New version: [0.6.0] Old Version: [0.5.9]
+[2023-06-08 00:23:45] INFO root fetch - processPackages [weconnect-cupra-daern]: Downloading https://files.pythonhosted.org/packages/1d/8f/2c7dfab004b9901baca9ea3c29e2bc978107141681b2dfd3b3d678419977/weconnect-cupra-daern-0.50.1.tar.gz
+[2023-06-08 00:23:45] INFO root fetch - processPackages [recognize]: Downloading https://files.pythonhosted.org/packages/d4/67/44336dfabb28248f375dea2250c11c8fa2285a55365e470cad6ab5484e09/recognize-0.1.7.tar.gz
+[2023-06-08 00:23:45] INFO root fetch - processPackages [pyiron-base]: Downloading https://files.pythonhosted.org/packages/82/a2/6326e2f76111a92bf086d931cfc7f540414c18281e0f6278a2033a021352/pyiron_base-0.5.9.tar.gz
+[2023-06-08 00:23:45] INFO root fetch - processPackages [thetagang]: Downloading https://files.pythonhosted.org/packages/c1/d0/6410ab2328382dbebb0f51b8f7fa39a471ee3a056f13b6c10bf5be094a4c/thetagang-1.6.0.tar.gz
+[2023-06-08 00:23:45] INFO root fetch - processPackages [qclib]: Downloading https://files.pythonhosted.org/packages/7c/9f/ca5f94fbaabe0bc74fb5b580e0514eb61929f2709d3ee2f37659c8baddce/qclib-0.0.8.tar.gz
+[2023-06-08 00:23:45] INFO root fetch - processPackages [myokit]: Downloading https://files.pythonhosted.org/packages/ec/98/74cc6d0d26ec70e321cf444a43cd14cfb3e3d1984a9ad06323c4a11ca5e8/myokit-1.33.9.tar.gz
+[2023-06-08 00:23:46] INFO root fetch - processPackages [schemander]: Downloading https://files.pythonhosted.org/packages/cc/4b/9c01762311fb28802c390bdafa8bdffae5a3f312ea4feabac0d6a4340b44/schemander-0.0.2.tar.gz
+[2023-06-08 00:23:46] INFO root fetch - processPackages [weconnect-cupra-daern]: Downloading https://files.pythonhosted.org/packages/03/94/925d5dbcb7931a0cd7d6c81db2ee7b4631405cc83fed59f5e5a8855511a4/weconnect-cupra-daern-0.50.2.tar.gz
+[2023-06-08 00:23:46] INFO root fetch - processPackages [recognize]: Downloading https://files.pythonhosted.org/packages/40/75/963960f9236ff152d95ce8541330a5c1c55a1023a23c60d5e6d8cadd5cbb/recognize-0.1.8.tar.gz
+[2023-06-08 00:23:46] INFO root fetch - processPackages [weconnect-cupra-daern]: executing diffoscope
+[2023-06-08 00:23:46] INFO root fetch - processPackages [weconnect-cupra-daern]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weconnect-cupra-daern-0.50.1.tar.gz tmp/weconnect-cupra-daern-0.50.2.tar.gz --markdown 20230608/w/weconnect-cupra-daern/0.50.1-0.50.2/diff.md --exclude *.pyd
+[2023-06-08 00:23:46] INFO root fetch - processPackages [pyiron-base]: Downloading https://files.pythonhosted.org/packages/2b/9d/51058b2ef43186040b4a75f2cab253d2d7ed6066d69d89fb13263ee97bad/pyiron_base-0.6.0.tar.gz
+[2023-06-08 00:23:46] INFO root fetch - processPackages [thetagang]: Downloading https://files.pythonhosted.org/packages/7d/1a/4c7e9a243c1e1b9c227687df5a72457b139c2d7fd76ce44d2cdcbb9fd159/thetagang-1.6.1.tar.gz
+[2023-06-08 00:23:46] INFO root fetch - processPackages [recognize]: executing diffoscope
+[2023-06-08 00:23:46] INFO root fetch - processPackages [recognize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recognize-0.1.7.tar.gz tmp/recognize-0.1.8.tar.gz --markdown 20230608/r/recognize/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-08 00:23:46] INFO root fetch - processPackages [schemander]: Downloading https://files.pythonhosted.org/packages/fb/09/bfdaf8a4b18e3d161fa8ca64c1a06820994aee6b332c0cb205ee9cfdbd8d/schemander-0.0.3.tar.gz
+[2023-06-08 00:23:46] INFO root fetch - processPackages [pyiron-base]: executing diffoscope
+[2023-06-08 00:23:46] INFO root fetch - processPackages [pyiron-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyiron_base-0.5.9.tar.gz tmp/pyiron_base-0.6.0.tar.gz --markdown 20230608/p/pyiron-base/0.5.9-0.6.0/diff.md --exclude *.pyd
+[2023-06-08 00:23:46] INFO root fetch - processPackages [thetagang]: executing diffoscope
+[2023-06-08 00:23:46] INFO root fetch - processPackages [thetagang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thetagang-1.6.0.tar.gz tmp/thetagang-1.6.1.tar.gz --markdown 20230608/t/thetagang/1.6.0-1.6.1/diff.md --exclude *.pyd
+[2023-06-08 00:23:46] INFO root fetch - processPackages [schemander]: executing diffoscope
+[2023-06-08 00:23:46] INFO root fetch - processPackages [schemander]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/schemander-0.0.2.tar.gz tmp/schemander-0.0.3.tar.gz --markdown 20230608/s/schemander/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-08 00:23:46] INFO root fetch - processPackages [qclib]: Downloading https://files.pythonhosted.org/packages/37/33/d7799da17e9fde9c1af34e3ea0892c983154899f8d8be8de045ce0317d24/qclib-0.0.9.tar.gz
+[2023-06-08 00:23:46] INFO root fetch - processPackages [qclib]: executing diffoscope
+[2023-06-08 00:23:46] INFO root fetch - processPackages [qclib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qclib-0.0.8.tar.gz tmp/qclib-0.0.9.tar.gz --markdown 20230608/q/qclib/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-08 00:23:46] INFO root fetch - processPackages [myokit]: Downloading https://files.pythonhosted.org/packages/c6/b0/6bf78b094bc04084062aaff48e3a228aa54d450810133b06ad33ea826488/myokit-1.34.0.tar.gz
+[2023-06-08 00:23:46] INFO root fetch - processPackages [myokit]: executing diffoscope
+[2023-06-08 00:23:46] INFO root fetch - processPackages [myokit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myokit-1.33.9.tar.gz tmp/myokit-1.34.0.tar.gz --markdown 20230608/m/myokit/1.33.9-1.34.0/diff.md --exclude *.pyd
+[2023-06-08 00:23:47] INFO root fetch - processPackages [recognize]: Remove: archive file [/home/abi/fetcher/tmp/recognize-0.1.7.tar.gz]
+[2023-06-08 00:23:47] INFO root fetch - processPackages [recognize]: Remove: archive file [/home/abi/fetcher/tmp/recognize-0.1.8.tar.gz]
+[2023-06-08 00:23:47] INFO root fetch - main [MainThread]: End processing [recognize]: success
+[2023-06-08 00:23:47] INFO root fetch - processPackages [schemander]: Remove: archive file [/home/abi/fetcher/tmp/schemander-0.0.2.tar.gz]
+[2023-06-08 00:23:47] INFO root fetch - processPackages [schemander]: Remove: archive file [/home/abi/fetcher/tmp/schemander-0.0.3.tar.gz]
+[2023-06-08 00:23:47] INFO root fetch - main [MainThread]: End processing [schemander]: success
+[2023-06-08 00:23:47] INFO root fetch - processPackages [thetagang]: Remove: archive file [/home/abi/fetcher/tmp/thetagang-1.6.0.tar.gz]
+[2023-06-08 00:23:47] INFO root fetch - processPackages [thetagang]: Remove: archive file [/home/abi/fetcher/tmp/thetagang-1.6.1.tar.gz]
+[2023-06-08 00:23:47] INFO root fetch - main [MainThread]: End processing [thetagang]: success
+[2023-06-08 00:23:48] INFO root fetch - processPackages [qclib]: Remove: archive file [/home/abi/fetcher/tmp/qclib-0.0.8.tar.gz]
+[2023-06-08 00:23:48] INFO root fetch - processPackages [qclib]: Remove: archive file [/home/abi/fetcher/tmp/qclib-0.0.9.tar.gz]
+[2023-06-08 00:23:48] INFO root fetch - main [MainThread]: End processing [qclib]: success
+[2023-06-08 00:23:48] INFO root fetch - processPackages [pyiron-base]: Remove: archive file [/home/abi/fetcher/tmp/pyiron_base-0.5.9.tar.gz]
+[2023-06-08 00:23:48] INFO root fetch - processPackages [pyiron-base]: Remove: archive file [/home/abi/fetcher/tmp/pyiron_base-0.6.0.tar.gz]
+[2023-06-08 00:23:48] INFO root fetch - main [MainThread]: End processing [pyiron-base]: success
+[2023-06-08 00:23:49] INFO root fetch - processPackages [weconnect-cupra-daern]: Remove: archive file [/home/abi/fetcher/tmp/weconnect-cupra-daern-0.50.1.tar.gz]
+[2023-06-08 00:23:49] INFO root fetch - processPackages [weconnect-cupra-daern]: Remove: archive file [/home/abi/fetcher/tmp/weconnect-cupra-daern-0.50.2.tar.gz]
+[2023-06-08 00:23:49] INFO root fetch - main [MainThread]: End processing [weconnect-cupra-daern]: success
+[2023-06-08 00:23:55] INFO root fetch - processPackages [myokit]: Remove: archive file [/home/abi/fetcher/tmp/myokit-1.33.9.tar.gz]
+[2023-06-08 00:23:55] INFO root fetch - processPackages [myokit]: Remove: archive file [/home/abi/fetcher/tmp/myokit-1.34.0.tar.gz]
+[2023-06-08 00:23:55] INFO root fetch - main [MainThread]: End processing [myokit]: success
+[2023-06-08 00:23:55] INFO root fetch - main [MainThread]: Store serial: [18414625]
