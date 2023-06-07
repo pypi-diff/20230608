@@ -1340,3 +1340,49 @@ EOFError: EOF read where object expected
 [2023-06-08 01:39:51] INFO root fetch - processPackages [vstutils]: Remove: archive file [/home/abi/fetcher/tmp/vstutils-5.4.9.tar.gz]
 [2023-06-08 01:39:51] INFO root fetch - main [MainThread]: End processing [vstutils]: success
 [2023-06-08 01:39:51] INFO root fetch - main [MainThread]: Store serial: [18415109]
+[2023-06-08 01:44:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18415109]
+[2023-06-08 01:45:00] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-08 01:45:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tensorizer
+[2023-06-08 01:45:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: icecube-skyreader
+[2023-06-08 01:45:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cellulose-sdk
+[2023-06-08 01:45:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Montreal-Forced-Aligner
+[2023-06-08 01:45:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: a2y-wxtools
+[2023-06-08 01:45:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ddtrace
+[2023-06-08 01:45:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-website-sale-attribute-filter-multiselect
+[2023-06-08 01:45:00] INFO root fetch - processPackages [icecube-skyreader]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-06-08 01:45:00] WARNING root fetch - processPackages [cellulose-sdk]: Skipping, unable to determine old version
+[2023-06-08 01:45:00] INFO root fetch - main [MainThread]: End processing [cellulose-sdk] error
+[2023-06-08 01:45:00] INFO root fetch - processPackages [tensorizer]: New version: [2.0.0] Old Version: [1.1.0]
+[2023-06-08 01:45:00] INFO root fetch - processPackages [Montreal-Forced-Aligner]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-06-08 01:45:00] INFO root fetch - processPackages [a2y-wxtools]: New version: [0.9.7] Old Version: [0.9.6]
+[2023-06-08 01:45:00] INFO root fetch - processPackages [icecube-skyreader]: Downloading https://files.pythonhosted.org/packages/7d/61/ced43ecf1f95484832f111c0a6e1ad8dd23e8a2fd1d417ba28a2d941f28f/icecube-skyreader-1.1.0.tar.gz
+[2023-06-08 01:45:00] WARNING root fetch - processPackages [odoo-addon-website-sale-attribute-filter-multiselect]: Skipping, unable to determine old version
+[2023-06-08 01:45:00] INFO root fetch - main [MainThread]: End processing [odoo-addon-website-sale-attribute-filter-multiselect] error
+[2023-06-08 01:45:00] INFO root fetch - processPackages [a2y-wxtools]: Downloading https://files.pythonhosted.org/packages/76/02/291dfe57cb9c66a67ded450645e528f1ee0e59a92735b0b0a4bd1613245f/a2y_wxtools-0.9.6-cp36-cp36m-win32.whl
+[2023-06-08 01:45:00] INFO root fetch - processPackages [tensorizer]: Downloading https://files.pythonhosted.org/packages/7c/40/346cc13d1516b04dcef824990c9bf1594ca1614f7a9bf7a81026017face4/tensorizer-1.1.0.tar.gz
+[2023-06-08 01:45:00] INFO root fetch - processPackages [icecube-skyreader]: Downloading https://files.pythonhosted.org/packages/52/ab/ccc3cd144ec9f92a3b82c36db0461e52b081c39bf6ffe5d75ac77fe041a3/icecube-skyreader-1.2.0.tar.gz
+[2023-06-08 01:45:00] INFO root fetch - processPackages [Montreal-Forced-Aligner]: Downloading https://files.pythonhosted.org/packages/81/03/170711034ac23beefb266c5d631c12c137814c2647cdda2f9040a83de5dd/Montreal%20Forced%20Aligner-2.2.8.tar.gz
+[2023-06-08 01:45:00] INFO root fetch - processPackages [icecube-skyreader]: executing diffoscope
+[2023-06-08 01:45:00] INFO root fetch - processPackages [icecube-skyreader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/icecube-skyreader-1.1.0.tar.gz tmp/icecube-skyreader-1.2.0.tar.gz --markdown 20230608/i/icecube-skyreader/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-06-08 01:45:00] ERROR root fetch - processPackages [a2y-wxtools]: Unable to fetch info: No such project/version 'a2y-wxtools' 0.9.7
+[2023-06-08 01:45:00] INFO root fetch - main [MainThread]: End processing [a2y-wxtools] error
+[2023-06-08 01:45:00] INFO root fetch - processPackages [tensorizer]: Downloading https://files.pythonhosted.org/packages/53/19/afc00fa79ef3e4aa10e0279955ce0d0bb90504a0d2e61179aa5f4ea821e9/tensorizer-2.0.0.tar.gz
+[2023-06-08 01:45:00] INFO root fetch - processPackages [tensorizer]: executing diffoscope
+[2023-06-08 01:45:00] INFO root fetch - processPackages [tensorizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorizer-1.1.0.tar.gz tmp/tensorizer-2.0.0.tar.gz --markdown 20230608/t/tensorizer/1.1.0-2.0.0/diff.md --exclude *.pyd
+[2023-06-08 01:45:01] WARNING root fetch - processPackages [Montreal-Forced-Aligner]: Skipping package: exceeds size limit 19085184>=10485760
+[2023-06-08 01:45:01] INFO root fetch - main [MainThread]: End processing [Montreal-Forced-Aligner] error
+[2023-06-08 01:45:01] INFO root fetch - processPackages [icecube-skyreader]: Remove: archive file [/home/abi/fetcher/tmp/icecube-skyreader-1.1.0.tar.gz]
+[2023-06-08 01:45:01] INFO root fetch - processPackages [icecube-skyreader]: Remove: archive file [/home/abi/fetcher/tmp/icecube-skyreader-1.2.0.tar.gz]
+[2023-06-08 01:45:01] INFO root fetch - main [MainThread]: End processing [icecube-skyreader]: success
+[2023-06-08 01:45:02] INFO root fetch - processPackages [tensorizer]: Remove: archive file [/home/abi/fetcher/tmp/tensorizer-1.1.0.tar.gz]
+[2023-06-08 01:45:02] INFO root fetch - processPackages [tensorizer]: Remove: archive file [/home/abi/fetcher/tmp/tensorizer-2.0.0.tar.gz]
+[2023-06-08 01:45:02] INFO root fetch - main [MainThread]: End processing [tensorizer]: success
+[2023-06-08 01:45:03] INFO root fetch - processPackages [ddtrace]: New version: [1.9.7] Old Version: [1.9.6]
+[2023-06-08 01:45:03] INFO root fetch - processPackages [ddtrace]: Downloading https://files.pythonhosted.org/packages/3a/2c/cff2a3eaa910dcd80b8323ee78c2bdc36e2d726d38ab467c65a785ce220d/ddtrace-1.9.6.tar.gz
+[2023-06-08 01:45:04] INFO root fetch - processPackages [ddtrace]: Downloading https://files.pythonhosted.org/packages/fb/91/45e4e65746e25b4af3841c377fa6cbd72ab8b8bf10e2067f0d010acf9f12/ddtrace-1.9.7.tar.gz
+[2023-06-08 01:45:04] INFO root fetch - processPackages [ddtrace]: executing diffoscope
+[2023-06-08 01:45:04] INFO root fetch - processPackages [ddtrace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ddtrace-1.9.6.tar.gz tmp/ddtrace-1.9.7.tar.gz --markdown 20230608/d/ddtrace/1.9.6-1.9.7/diff.md --exclude *.pyd
+[2023-06-08 01:46:43] INFO root fetch - processPackages [ddtrace]: Remove: archive file [/home/abi/fetcher/tmp/ddtrace-1.9.6.tar.gz]
+[2023-06-08 01:46:43] INFO root fetch - processPackages [ddtrace]: Remove: archive file [/home/abi/fetcher/tmp/ddtrace-1.9.7.tar.gz]
+[2023-06-08 01:46:43] INFO root fetch - main [MainThread]: End processing [ddtrace]: success
+[2023-06-08 01:46:43] INFO root fetch - main [MainThread]: Store serial: [18415163]
