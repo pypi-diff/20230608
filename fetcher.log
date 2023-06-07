@@ -603,3 +603,63 @@ EOFError: EOF read where object expected
 [2023-06-08 00:45:48] INFO root fetch - processPackages [aisdb]: Remove: archive file [/home/abi/fetcher/tmp/aisdb-1.6.3-cp39-cp39-macosx_11_0_arm64.whl.zip]
 [2023-06-08 00:45:48] INFO root fetch - main [MainThread]: End processing [aisdb]: success
 [2023-06-08 00:45:48] INFO root fetch - main [MainThread]: Store serial: [18414761]
+[2023-06-08 00:50:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18414761]
+[2023-06-08 00:50:57] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-08 00:50:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cloud-volume
+[2023-06-08 00:50:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sqbased
+[2023-06-08 00:50:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ethyca-fides
+[2023-06-08 00:50:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: imageflowpy
+[2023-06-08 00:50:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: openmsistream
+[2023-06-08 00:50:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: localstack-core
+[2023-06-08 00:50:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bomf
+[2023-06-08 00:50:57] INFO root fetch - processPackages [ethyca-fides]: New version: [2.9.2] Old Version: [2.9.1]
+[2023-06-08 00:50:57] WARNING root fetch - processPackages [imageflowpy]: Skipping, unable to determine old version
+[2023-06-08 00:50:57] INFO root fetch - main [MainThread]: End processing [imageflowpy] error
+[2023-06-08 00:50:57] INFO root fetch - processPackages [cloud-volume]: New version: [8.9.2] Old Version: [8.9.1]
+[2023-06-08 00:50:57] INFO root fetch - processPackages [openmsistream]: New version: [1.5.2] Old Version: [1.5.1]
+[2023-06-08 00:50:57] INFO root fetch - processPackages [sqbased]: New version: [0.1.2] Old Version: [0.1.0]
+[2023-06-08 00:50:57] INFO root fetch - processPackages [ethyca-fides]: Downloading https://files.pythonhosted.org/packages/a5/ce/6ad04dd381854d1db26960c5cc1e174a086becd7eea9daa2b89a8dde7a70/ethyca-fides-2.9.1.tar.gz
+[2023-06-08 00:50:57] INFO root fetch - processPackages [bomf]: New version: [0.5.7] Old Version: [0.5.6]
+[2023-06-08 00:50:57] INFO root fetch - processPackages [localstack-core]: New version: [2.1.1.dev20230607224959] Old Version: [2.1.1.dev20230607163904]
+[2023-06-08 00:50:57] INFO root fetch - processPackages [bomf]: Downloading https://files.pythonhosted.org/packages/fd/ec/5240369527926b254c365d720373cdb706fd5058738d03010eb4da0c63a2/bomf-0.5.6.tar.gz
+[2023-06-08 00:50:57] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/8d/81/7b0b38d7e89fb09257c62d0ab380237523ec7f547ba7cb6c72e12e8edf51/localstack-core-2.1.1.dev20230607163904.tar.gz
+[2023-06-08 00:50:57] INFO root fetch - processPackages [openmsistream]: Downloading https://files.pythonhosted.org/packages/6e/6a/0e09c2fac52d8c8186aa6b22f35a93b07a3ee32826f6d3a216b85c074e2c/openmsistream-1.5.1.tar.gz
+[2023-06-08 00:50:57] INFO root fetch - processPackages [cloud-volume]: Downloading https://files.pythonhosted.org/packages/39/3d/cb4e0c72c35d1d378a72f0e333b770568ce202a45f7ce6e4ee88fe508d9d/cloud-volume-8.9.1.tar.gz
+[2023-06-08 00:50:57] INFO root fetch - processPackages [bomf]: Downloading https://files.pythonhosted.org/packages/ed/ad/4282c4840308b3fff2af3742fdda28cc861d9b0b0d1eb0abf44df291d740/bomf-0.5.7.tar.gz
+[2023-06-08 00:50:57] INFO root fetch - processPackages [ethyca-fides]: Downloading https://files.pythonhosted.org/packages/a3/0c/e979f7bc3c1a405c539d4df6c4c75896975e70d6b87777b8378ea071da2c/ethyca-fides-2.9.2.tar.gz
+[2023-06-08 00:50:57] INFO root fetch - processPackages [sqbased]: Downloading https://files.pythonhosted.org/packages/ef/2a/cc308e7ae30b05215474993ae46dd75e37bf18c1be5c1e18b9e29e1b54cf/sqbased-0.1.0.tar.gz
+[2023-06-08 00:50:57] INFO root fetch - processPackages [bomf]: executing diffoscope
+[2023-06-08 00:50:57] INFO root fetch - processPackages [bomf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bomf-0.5.6.tar.gz tmp/bomf-0.5.7.tar.gz --markdown 20230608/b/bomf/0.5.6-0.5.7/diff.md --exclude *.pyd
+[2023-06-08 00:50:57] INFO root fetch - processPackages [ethyca-fides]: executing diffoscope
+[2023-06-08 00:50:57] INFO root fetch - processPackages [ethyca-fides]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ethyca-fides-2.9.1.tar.gz tmp/ethyca-fides-2.9.2.tar.gz --markdown 20230608/e/ethyca-fides/2.9.1-2.9.2/diff.md --exclude *.pyd
+[2023-06-08 00:50:57] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/e9/50/8ce88894bb148e429a0a35af39640c45599210ba0dfea14104dff3f16def/localstack-core-2.1.1.dev20230607224959.tar.gz
+[2023-06-08 00:50:57] INFO root fetch - processPackages [sqbased]: Downloading https://files.pythonhosted.org/packages/bc/0c/ccce48f5520c512322ec3cfa87114f451bc2ecc0faed29f4753ef1120799/sqbased-0.1.2.tar.gz
+[2023-06-08 00:50:57] INFO root fetch - processPackages [openmsistream]: Downloading https://files.pythonhosted.org/packages/54/f6/fc823fad9ea9dc5619d60b94860c3da3adc600505c429b5f3392196102b2/openmsistream-1.5.2.tar.gz
+[2023-06-08 00:50:57] INFO root fetch - processPackages [openmsistream]: executing diffoscope
+[2023-06-08 00:50:57] INFO root fetch - processPackages [openmsistream]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openmsistream-1.5.1.tar.gz tmp/openmsistream-1.5.2.tar.gz --markdown 20230608/o/openmsistream/1.5.1-1.5.2/diff.md --exclude *.pyd
+[2023-06-08 00:50:57] INFO root fetch - processPackages [sqbased]: executing diffoscope
+[2023-06-08 00:50:57] INFO root fetch - processPackages [sqbased]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqbased-0.1.0.tar.gz tmp/sqbased-0.1.2.tar.gz --markdown 20230608/s/sqbased/0.1.0-0.1.2/diff.md --exclude *.pyd
+[2023-06-08 00:50:57] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-06-08 00:50:57] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.1.1.dev20230607163904.tar.gz tmp/localstack-core-2.1.1.dev20230607224959.tar.gz --markdown 20230608/l/localstack-core/2.1.1.dev20230607163904-2.1.1.dev20230607224959/diff.md --exclude *.pyd
+[2023-06-08 00:50:57] INFO root fetch - processPackages [cloud-volume]: Downloading https://files.pythonhosted.org/packages/5c/5c/0be84b9822b3ecf3f89e49556ccdc9715e63ead9772ef037c5f2b8e51145/cloud-volume-8.9.2.tar.gz
+[2023-06-08 00:50:58] INFO root fetch - processPackages [cloud-volume]: executing diffoscope
+[2023-06-08 00:50:58] INFO root fetch - processPackages [cloud-volume]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloud-volume-8.9.1.tar.gz tmp/cloud-volume-8.9.2.tar.gz --markdown 20230608/c/cloud-volume/8.9.1-8.9.2/diff.md --exclude *.pyd
+[2023-06-08 00:50:58] INFO root fetch - processPackages [bomf]: Remove: archive file [/home/abi/fetcher/tmp/bomf-0.5.6.tar.gz]
+[2023-06-08 00:50:58] INFO root fetch - processPackages [bomf]: Remove: archive file [/home/abi/fetcher/tmp/bomf-0.5.7.tar.gz]
+[2023-06-08 00:50:58] INFO root fetch - main [MainThread]: End processing [bomf]: success
+[2023-06-08 00:50:58] INFO root fetch - processPackages [sqbased]: Remove: archive file [/home/abi/fetcher/tmp/sqbased-0.1.0.tar.gz]
+[2023-06-08 00:50:58] INFO root fetch - processPackages [sqbased]: Remove: archive file [/home/abi/fetcher/tmp/sqbased-0.1.2.tar.gz]
+[2023-06-08 00:50:58] INFO root fetch - main [MainThread]: End processing [sqbased]: success
+[2023-06-08 00:50:59] INFO root fetch - processPackages [openmsistream]: Remove: archive file [/home/abi/fetcher/tmp/openmsistream-1.5.1.tar.gz]
+[2023-06-08 00:50:59] INFO root fetch - processPackages [openmsistream]: Remove: archive file [/home/abi/fetcher/tmp/openmsistream-1.5.2.tar.gz]
+[2023-06-08 00:50:59] INFO root fetch - main [MainThread]: End processing [openmsistream]: success
+[2023-06-08 00:51:00] INFO root fetch - processPackages [cloud-volume]: Remove: archive file [/home/abi/fetcher/tmp/cloud-volume-8.9.1.tar.gz]
+[2023-06-08 00:51:00] INFO root fetch - processPackages [cloud-volume]: Remove: archive file [/home/abi/fetcher/tmp/cloud-volume-8.9.2.tar.gz]
+[2023-06-08 00:51:00] INFO root fetch - main [MainThread]: End processing [cloud-volume]: success
+[2023-06-08 00:51:04] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230607163904.tar.gz]
+[2023-06-08 00:51:04] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230607224959.tar.gz]
+[2023-06-08 00:51:04] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-06-08 00:51:05] INFO root fetch - processPackages [ethyca-fides]: Remove: archive file [/home/abi/fetcher/tmp/ethyca-fides-2.9.1.tar.gz]
+[2023-06-08 00:51:05] INFO root fetch - processPackages [ethyca-fides]: Remove: archive file [/home/abi/fetcher/tmp/ethyca-fides-2.9.2.tar.gz]
+[2023-06-08 00:51:05] INFO root fetch - main [MainThread]: End processing [ethyca-fides]: success
+[2023-06-08 00:51:05] INFO root fetch - main [MainThread]: Store serial: [18414785]
