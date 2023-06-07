@@ -1272,3 +1272,71 @@ EOFError: EOF read where object expected
 [2023-06-08 01:34:39] INFO root fetch - processPackages [pynumaflow]: Remove: archive file [/home/abi/fetcher/tmp/pynumaflow-0.4.2.tar.gz]
 [2023-06-08 01:34:39] INFO root fetch - main [MainThread]: End processing [pynumaflow]: success
 [2023-06-08 01:34:39] INFO root fetch - main [MainThread]: Store serial: [18415076]
+[2023-06-08 01:39:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18415076]
+[2023-06-08 01:39:47] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-08 01:39:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chalkpy
+[2023-06-08 01:39:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vstutils
+[2023-06-08 01:39:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: octoai
+[2023-06-08 01:39:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jsonQM
+[2023-06-08 01:39:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xaddpy
+[2023-06-08 01:39:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mfconv
+[2023-06-08 01:39:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: faceshine
+[2023-06-08 01:39:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: LiamHsieh-toolbox
+[2023-06-08 01:39:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: georasters
+[2023-06-08 01:39:48] INFO root fetch - processPackages [vstutils]: New version: [5.4.9] Old Version: [5.4.8]
+[2023-06-08 01:39:48] INFO root fetch - processPackages [LiamHsieh-toolbox]: New version: [0.3.4.2] Old Version: [0.3.4.1]
+[2023-06-08 01:39:48] INFO root fetch - processPackages [georasters]: New version: [0.5.9b] Old Version: [0.5.9a]
+[2023-06-08 01:39:48] INFO root fetch - processPackages [chalkpy]: New version: [2.6.9] Old Version: [2.6.8]
+[2023-06-08 01:39:48] INFO root fetch - processPackages [vstutils]: Downloading https://files.pythonhosted.org/packages/93/71/ffc4838cd7e27cad7cd401f4d32e58bc09b0268ee7255474cad2eedb1029/vstutils-5.4.8.tar.gz
+[2023-06-08 01:39:48] INFO root fetch - processPackages [LiamHsieh-toolbox]: Downloading https://files.pythonhosted.org/packages/87/da/bc18f0904b517f0375e5341e0a1fe7da7b31ee7f32804af4f41fc080fa1b/LiamHsieh%20toolbox-0.3.4.1.tar.gz
+[2023-06-08 01:39:48] INFO root fetch - processPackages [jsonQM]: New version: [0.3.3] Old Version: [0.2.3]
+[2023-06-08 01:39:48] WARNING root fetch - processPackages [octoai]: Skipping, unable to determine old version
+[2023-06-08 01:39:48] INFO root fetch - main [MainThread]: End processing [octoai] error
+[2023-06-08 01:39:48] INFO root fetch - processPackages [faceshine]: New version: [1.0.2] Old Version: [1.0.0]
+[2023-06-08 01:39:48] INFO root fetch - processPackages [xaddpy]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-08 01:39:48] WARNING root fetch - processPackages [mfconv]: Skipping, unable to determine old version
+[2023-06-08 01:39:48] INFO root fetch - main [MainThread]: End processing [mfconv] error
+[2023-06-08 01:39:48] INFO root fetch - processPackages [chalkpy]: Downloading https://files.pythonhosted.org/packages/4a/18/4179eb61682d39d8a37b0f53c0df0ae1b9aac46255e968da8649e1f52a94/chalkpy-2.6.8.tar.gz
+[2023-06-08 01:39:48] INFO root fetch - processPackages [georasters]: Downloading https://files.pythonhosted.org/packages/f0/79/21eca74c4ae8d3e4f28969c775967f369b3863635849a87ddc444ea8c561/georasters-0.5.9a.tar.gz
+[2023-06-08 01:39:48] INFO root fetch - processPackages [jsonQM]: Downloading https://files.pythonhosted.org/packages/78/cd/a748bb837f2b7c09dab96afd7931c4bbaf5dd637e05837df0574e9775501/jsonQM-0.2.3.tar.gz
+[2023-06-08 01:39:48] INFO root fetch - processPackages [LiamHsieh-toolbox]: Downloading https://files.pythonhosted.org/packages/bc/af/c7cfa97f66b9c8dd42d9d88b1ac4915e7c5028e3b5774de5016879e3c686/LiamHsieh%20toolbox-0.3.4.2.tar.gz
+[2023-06-08 01:39:48] INFO root fetch - processPackages [xaddpy]: Downloading https://files.pythonhosted.org/packages/20/90/e7ea0657b663e5ff61c88a10bb94ed63c06336fb9438776f74da1c77c4d1/xaddpy-0.1.8.tar.gz
+[2023-06-08 01:39:48] INFO root fetch - processPackages [faceshine]: Downloading https://files.pythonhosted.org/packages/0e/0f/746d986340b911f9da4d437780689a91d69a3b0978b046586e7b750fc6b8/faceshine-1.0.0-py3-none-any.whl
+[2023-06-08 01:39:48] INFO root fetch - processPackages [vstutils]: Downloading https://files.pythonhosted.org/packages/c3/e9/d4abad63dcfc1004b5c1557a027354436691c249a98f05da7bf8d54b856f/vstutils-5.4.9.tar.gz
+[2023-06-08 01:39:48] INFO root fetch - processPackages [LiamHsieh-toolbox]: executing diffoscope
+[2023-06-08 01:39:48] INFO root fetch - processPackages [LiamHsieh-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LiamHsieh toolbox-0.3.4.1.tar.gz tmp/LiamHsieh toolbox-0.3.4.2.tar.gz --markdown 20230608/L/LiamHsieh-toolbox/0.3.4.1-0.3.4.2/diff.md --exclude *.pyd
+[2023-06-08 01:39:48] INFO root fetch - processPackages [georasters]: Downloading https://files.pythonhosted.org/packages/28/fc/561ea81499587e592fc7311d457d7228eb8ed84af372d040bb68cd948a73/georasters-0.5.9b.tar.gz
+[2023-06-08 01:39:48] ERROR root fetch - processPackages [chalkpy]: Unable to fetch info: No such project/version 'chalkpy' 2.6.9
+[2023-06-08 01:39:48] INFO root fetch - main [MainThread]: End processing [chalkpy] error
+[2023-06-08 01:39:48] INFO root fetch - processPackages [georasters]: executing diffoscope
+[2023-06-08 01:39:48] INFO root fetch - processPackages [georasters]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/georasters-0.5.9a.tar.gz tmp/georasters-0.5.9b.tar.gz --markdown 20230608/g/georasters/0.5.9a-0.5.9b/diff.md --exclude *.pyd
+[2023-06-08 01:39:48] INFO root fetch - processPackages [vstutils]: executing diffoscope
+[2023-06-08 01:39:48] INFO root fetch - processPackages [vstutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vstutils-5.4.8.tar.gz tmp/vstutils-5.4.9.tar.gz --markdown 20230608/v/vstutils/5.4.8-5.4.9/diff.md --exclude *.pyd
+[2023-06-08 01:39:48] INFO root fetch - processPackages [jsonQM]: Downloading https://files.pythonhosted.org/packages/c3/d0/7e869acfc24b59cc841dd6ac9f0cba45a7f263ef57f47559f1b360b11490/jsonQM-0.3.3.tar.gz
+[2023-06-08 01:39:48] INFO root fetch - processPackages [faceshine]: Downloading https://files.pythonhosted.org/packages/8e/53/985621167e87eef983596990f10a4883e9b11d5bae02db7527ccf78e8e62/faceshine-1.0.2-py3-none-any.whl
+[2023-06-08 01:39:48] INFO root fetch - processPackages [jsonQM]: executing diffoscope
+[2023-06-08 01:39:48] INFO root fetch - processPackages [jsonQM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsonQM-0.2.3.tar.gz tmp/jsonQM-0.3.3.tar.gz --markdown 20230608/j/jsonQM/0.2.3-0.3.3/diff.md --exclude *.pyd
+[2023-06-08 01:39:48] INFO root fetch - processPackages [faceshine]: executing diffoscope
+[2023-06-08 01:39:48] INFO root fetch - processPackages [faceshine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/faceshine-1.0.0-py3-none-any.whl.zip tmp/faceshine-1.0.2-py3-none-any.whl.zip --markdown 20230608/f/faceshine/1.0.0-1.0.2/diff.md --exclude *.pyd
+[2023-06-08 01:39:49] INFO root fetch - processPackages [xaddpy]: Downloading https://files.pythonhosted.org/packages/a2/7e/0091d45a4449b844ad0f094201e201adb58184142ce83f663d89bd284162/xaddpy-0.1.9.tar.gz
+[2023-06-08 01:39:49] INFO root fetch - processPackages [xaddpy]: executing diffoscope
+[2023-06-08 01:39:49] INFO root fetch - processPackages [xaddpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xaddpy-0.1.8.tar.gz tmp/xaddpy-0.1.9.tar.gz --markdown 20230608/x/xaddpy/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-08 01:39:49] INFO root fetch - processPackages [georasters]: Remove: archive file [/home/abi/fetcher/tmp/georasters-0.5.9a.tar.gz]
+[2023-06-08 01:39:49] INFO root fetch - processPackages [georasters]: Remove: archive file [/home/abi/fetcher/tmp/georasters-0.5.9b.tar.gz]
+[2023-06-08 01:39:49] INFO root fetch - main [MainThread]: End processing [georasters]: success
+[2023-06-08 01:39:49] INFO root fetch - processPackages [LiamHsieh-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/LiamHsieh toolbox-0.3.4.1.tar.gz]
+[2023-06-08 01:39:49] INFO root fetch - processPackages [LiamHsieh-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/LiamHsieh toolbox-0.3.4.2.tar.gz]
+[2023-06-08 01:39:49] INFO root fetch - main [MainThread]: End processing [LiamHsieh-toolbox]: success
+[2023-06-08 01:39:49] INFO root fetch - processPackages [jsonQM]: Remove: archive file [/home/abi/fetcher/tmp/jsonQM-0.2.3.tar.gz]
+[2023-06-08 01:39:49] INFO root fetch - processPackages [jsonQM]: Remove: archive file [/home/abi/fetcher/tmp/jsonQM-0.3.3.tar.gz]
+[2023-06-08 01:39:49] INFO root fetch - main [MainThread]: End processing [jsonQM]: success
+[2023-06-08 01:39:50] INFO root fetch - processPackages [faceshine]: Remove: archive file [/home/abi/fetcher/tmp/faceshine-1.0.0-py3-none-any.whl.zip]
+[2023-06-08 01:39:50] INFO root fetch - processPackages [faceshine]: Remove: archive file [/home/abi/fetcher/tmp/faceshine-1.0.2-py3-none-any.whl.zip]
+[2023-06-08 01:39:50] INFO root fetch - main [MainThread]: End processing [faceshine]: success
+[2023-06-08 01:39:50] INFO root fetch - processPackages [xaddpy]: Remove: archive file [/home/abi/fetcher/tmp/xaddpy-0.1.8.tar.gz]
+[2023-06-08 01:39:50] INFO root fetch - processPackages [xaddpy]: Remove: archive file [/home/abi/fetcher/tmp/xaddpy-0.1.9.tar.gz]
+[2023-06-08 01:39:50] INFO root fetch - main [MainThread]: End processing [xaddpy]: success
+[2023-06-08 01:39:51] INFO root fetch - processPackages [vstutils]: Remove: archive file [/home/abi/fetcher/tmp/vstutils-5.4.8.tar.gz]
+[2023-06-08 01:39:51] INFO root fetch - processPackages [vstutils]: Remove: archive file [/home/abi/fetcher/tmp/vstutils-5.4.9.tar.gz]
+[2023-06-08 01:39:51] INFO root fetch - main [MainThread]: End processing [vstutils]: success
+[2023-06-08 01:39:51] INFO root fetch - main [MainThread]: Store serial: [18415109]
