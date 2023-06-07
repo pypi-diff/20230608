@@ -1483,3 +1483,65 @@ EOFError: EOF read where object expected
 [2023-06-08 01:52:01] INFO root fetch - processPackages [chalkpy]: Remove: archive file [/home/abi/fetcher/tmp/chalkpy-2.7.0.tar.gz]
 [2023-06-08 01:52:01] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
 [2023-06-08 01:52:01] INFO root fetch - main [MainThread]: Store serial: [18415237]
+[2023-06-08 01:57:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18415237]
+[2023-06-08 01:57:09] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-08 01:57:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: snaptrade-python-sdk
+[2023-06-08 01:57:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: icat
+[2023-06-08 01:57:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyfaust
+[2023-06-08 01:57:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: georasters
+[2023-06-08 01:57:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyfaust-openblaso
+[2023-06-08 01:57:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyfaust-torch
+[2023-06-08 01:57:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: d20-securityLayer
+[2023-06-08 01:57:10] INFO root fetch - processPackages [pyfaust-openblaso]: New version: [3.38.9] Old Version: [3.38.8]
+[2023-06-08 01:57:10] INFO root fetch - processPackages [georasters]: New version: [0.5.9b] Old Version: [0.5.9a]
+[2023-06-08 01:57:10] INFO root fetch - processPackages [pyfaust-torch]: New version: [3.38.9] Old Version: [3.38.8]
+[2023-06-08 01:57:10] INFO root fetch - processPackages [snaptrade-python-sdk]: New version: [9.0.0] Old Version: [8.4.0]
+[2023-06-08 01:57:10] INFO root fetch - processPackages [icat]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-08 01:57:10] INFO root fetch - processPackages [d20-securityLayer]: New version: [2.0.0a4] Old Version: [2.0.0a2]
+[2023-06-08 01:57:10] INFO root fetch - processPackages [georasters]: Downloading https://files.pythonhosted.org/packages/f0/79/21eca74c4ae8d3e4f28969c775967f369b3863635849a87ddc444ea8c561/georasters-0.5.9a.tar.gz
+[2023-06-08 01:57:10] INFO root fetch - processPackages [pyfaust]: New version: [3.9.1] Old Version: [3.9.0]
+[2023-06-08 01:57:10] INFO root fetch - processPackages [georasters]: Downloading https://files.pythonhosted.org/packages/28/fc/561ea81499587e592fc7311d457d7228eb8ed84af372d040bb68cd948a73/georasters-0.5.9b.tar.gz
+[2023-06-08 01:57:10] INFO root fetch - processPackages [pyfaust-openblaso]: Downloading https://files.pythonhosted.org/packages/59/0f/a671bb18f0866e38b3711c876d95dfa037f0ffd6e093480ae6ce5db7d8a6/pyfaust_openblaso-3.38.8-cp39-cp39-manylinux1_x86_64.whl
+[2023-06-08 01:57:10] INFO root fetch - processPackages [georasters]: executing diffoscope
+[2023-06-08 01:57:10] INFO root fetch - processPackages [georasters]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/georasters-0.5.9a.tar.gz tmp/georasters-0.5.9b.tar.gz --markdown 20230608/g/georasters/0.5.9a-0.5.9b/diff.md --exclude *.pyd
+[2023-06-08 01:57:10] INFO root fetch - processPackages [pyfaust-torch]: Downloading https://files.pythonhosted.org/packages/26/77/6d6f6c74db3fb6eea549a03a2bd2fa5effb4fadb83aa038856b0abfce6e7/pyfaust_torch-3.38.8-cp39-cp39-macosx_10_9_x86_64.whl
+[2023-06-08 01:57:10] INFO root fetch - processPackages [icat]: Downloading https://files.pythonhosted.org/packages/20/cc/1f81e31d81dae75bdf014ae836d66e5a099cd1b186456c6173fe373808eb/icat-0.0.8.tar.gz
+[2023-06-08 01:57:10] INFO root fetch - processPackages [pyfaust]: Downloading https://files.pythonhosted.org/packages/18/b5/0740195b9ccd0e43e427280344d5fb3706996ff6f66655fe6f79cd230aaa/pyfaust-3.9.0-cp39-cp39-win_amd64.whl
+[2023-06-08 01:57:10] INFO root fetch - processPackages [d20-securityLayer]: Downloading https://files.pythonhosted.org/packages/86/bc/7392c857321c4eecda64c2f87fa82a808b1216b0c9c434ed9ab6c291a6dc/d20-securityLayer-2.0.0a2.tar.gz
+[2023-06-08 01:57:10] INFO root fetch - processPackages [snaptrade-python-sdk]: Downloading https://files.pythonhosted.org/packages/6f/c7/47221dc28e809cffa217eee9b3e3ab3b2e102b70f8259c8619c4d06252a1/snaptrade-python-sdk-8.4.0.tar.gz
+[2023-06-08 01:57:10] WARNING root fetch - processPackages [pyfaust-openblaso]: Skipping package: exceeds size limit 22956958>=10485760
+[2023-06-08 01:57:10] INFO root fetch - main [MainThread]: End processing [pyfaust-openblaso] error
+[2023-06-08 01:57:10] INFO root fetch - processPackages [snaptrade-python-sdk]: Downloading https://files.pythonhosted.org/packages/e8/91/81180245a4093fa5b9c1f540d35e7336338579401f2ae021892d41cf39f7/snaptrade-python-sdk-9.0.0.tar.gz
+[2023-06-08 01:57:10] INFO root fetch - processPackages [d20-securityLayer]: Downloading https://files.pythonhosted.org/packages/9d/0d/370509110d2e7b29c3fb396468cca0350781193f557fb39eb89e28842af8/d20-securityLayer-2.0.0a4.tar.gz
+[2023-06-08 01:57:10] INFO root fetch - processPackages [icat]: Downloading https://files.pythonhosted.org/packages/eb/0c/edb87dc6f60c3c7258f67f2c10019aad1f1b1b3406b27579880229e57341/icat-0.0.9.tar.gz
+[2023-06-08 01:57:10] INFO root fetch - processPackages [snaptrade-python-sdk]: executing diffoscope
+[2023-06-08 01:57:10] INFO root fetch - processPackages [snaptrade-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snaptrade-python-sdk-8.4.0.tar.gz tmp/snaptrade-python-sdk-9.0.0.tar.gz --markdown 20230608/s/snaptrade-python-sdk/8.4.0-9.0.0/diff.md --exclude *.pyd
+[2023-06-08 01:57:10] INFO root fetch - processPackages [icat]: executing diffoscope
+[2023-06-08 01:57:10] INFO root fetch - processPackages [icat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/icat-0.0.8.tar.gz tmp/icat-0.0.9.tar.gz --markdown 20230608/i/icat/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-08 01:57:10] INFO root fetch - processPackages [d20-securityLayer]: executing diffoscope
+[2023-06-08 01:57:10] INFO root fetch - processPackages [d20-securityLayer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/d20-securityLayer-2.0.0a2.tar.gz tmp/d20-securityLayer-2.0.0a4.tar.gz --markdown 20230608/d/d20-securityLayer/2.0.0a2-2.0.0a4/diff.md --exclude *.pyd
+[2023-06-08 01:57:11] INFO root fetch - processPackages [pyfaust-torch]: Downloading https://files.pythonhosted.org/packages/6b/7a/69cf6ad676c709b11407df6a8f180ea20bb9f143ecca990b23dda5f76ca2/pyfaust_torch-3.38.9-cp39-cp39-macosx_10_9_x86_64.whl
+[2023-06-08 01:57:11] INFO root fetch - processPackages [georasters]: Remove: archive file [/home/abi/fetcher/tmp/georasters-0.5.9a.tar.gz]
+[2023-06-08 01:57:11] INFO root fetch - processPackages [georasters]: Remove: archive file [/home/abi/fetcher/tmp/georasters-0.5.9b.tar.gz]
+[2023-06-08 01:57:11] INFO root fetch - main [MainThread]: End processing [georasters]: success
+[2023-06-08 01:57:11] INFO root fetch - processPackages [d20-securityLayer]: Remove: archive file [/home/abi/fetcher/tmp/d20-securityLayer-2.0.0a2.tar.gz]
+[2023-06-08 01:57:11] INFO root fetch - processPackages [d20-securityLayer]: Remove: archive file [/home/abi/fetcher/tmp/d20-securityLayer-2.0.0a4.tar.gz]
+[2023-06-08 01:57:11] INFO root fetch - main [MainThread]: End processing [d20-securityLayer]: success
+[2023-06-08 01:57:11] INFO root fetch - processPackages [icat]: Remove: archive file [/home/abi/fetcher/tmp/icat-0.0.8.tar.gz]
+[2023-06-08 01:57:11] INFO root fetch - processPackages [icat]: Remove: archive file [/home/abi/fetcher/tmp/icat-0.0.9.tar.gz]
+[2023-06-08 01:57:11] INFO root fetch - main [MainThread]: End processing [icat]: success
+[2023-06-08 01:57:12] INFO root fetch - processPackages [pyfaust]: Downloading https://files.pythonhosted.org/packages/34/28/ab7cd91f9611bbe2d9ff5bfc6934eb6af283249b75ac68c9d0b6befcd0b5/pyfaust-3.9.1-cp39-cp39-win_amd64.whl
+[2023-06-08 01:57:12] INFO root fetch - processPackages [pyfaust-torch]: executing diffoscope
+[2023-06-08 01:57:12] INFO root fetch - processPackages [pyfaust-torch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfaust_torch-3.38.8-cp39-cp39-macosx_10_9_x86_64.whl.zip tmp/pyfaust_torch-3.38.9-cp39-cp39-macosx_10_9_x86_64.whl.zip --markdown 20230608/p/pyfaust-torch/3.38.8-3.38.9/diff.md --exclude *.pyd
+[2023-06-08 01:57:13] INFO root fetch - processPackages [pyfaust]: executing diffoscope
+[2023-06-08 01:57:13] INFO root fetch - processPackages [pyfaust]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfaust-3.9.0-cp39-cp39-win_amd64.whl.zip tmp/pyfaust-3.9.1-cp39-cp39-win_amd64.whl.zip --markdown 20230608/p/pyfaust/3.9.0-3.9.1/diff.md --exclude *.pyd
+[2023-06-08 01:57:16] INFO root fetch - processPackages [snaptrade-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/snaptrade-python-sdk-8.4.0.tar.gz]
+[2023-06-08 01:57:16] INFO root fetch - processPackages [snaptrade-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/snaptrade-python-sdk-9.0.0.tar.gz]
+[2023-06-08 01:57:16] INFO root fetch - main [MainThread]: End processing [snaptrade-python-sdk]: success
+[2023-06-08 01:57:50] INFO root fetch - processPackages [pyfaust]: Remove: archive file [/home/abi/fetcher/tmp/pyfaust-3.9.0-cp39-cp39-win_amd64.whl.zip]
+[2023-06-08 01:57:50] INFO root fetch - processPackages [pyfaust]: Remove: archive file [/home/abi/fetcher/tmp/pyfaust-3.9.1-cp39-cp39-win_amd64.whl.zip]
+[2023-06-08 01:57:50] INFO root fetch - main [MainThread]: End processing [pyfaust]: success
+[2023-06-08 01:57:52] INFO root fetch - processPackages [pyfaust-torch]: Remove: archive file [/home/abi/fetcher/tmp/pyfaust_torch-3.38.8-cp39-cp39-macosx_10_9_x86_64.whl.zip]
+[2023-06-08 01:57:52] INFO root fetch - processPackages [pyfaust-torch]: Remove: archive file [/home/abi/fetcher/tmp/pyfaust_torch-3.38.9-cp39-cp39-macosx_10_9_x86_64.whl.zip]
+[2023-06-08 01:57:52] INFO root fetch - main [MainThread]: End processing [pyfaust-torch]: success
+[2023-06-08 01:57:52] INFO root fetch - main [MainThread]: Store serial: [18415259]
