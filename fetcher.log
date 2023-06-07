@@ -381,3 +381,100 @@ EOFError: EOF read where object expected
 [2023-06-08 00:23:55] INFO root fetch - processPackages [myokit]: Remove: archive file [/home/abi/fetcher/tmp/myokit-1.34.0.tar.gz]
 [2023-06-08 00:23:55] INFO root fetch - main [MainThread]: End processing [myokit]: success
 [2023-06-08 00:23:55] INFO root fetch - main [MainThread]: Store serial: [18414625]
+[2023-06-08 00:28:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18414625]
+[2023-06-08 00:29:04] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-08 00:29:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: irisml-tasks-training
+[2023-06-08 00:29:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lollms
+[2023-06-08 00:29:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: coiled
+[2023-06-08 00:29:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: databricks-sql-connector
+[2023-06-08 00:29:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: general-superstaq
+[2023-06-08 00:29:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: qiskit-superstaq
+[2023-06-08 00:29:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cirq-superstaq
+[2023-06-08 00:29:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: SupermarQ
+[2023-06-08 00:29:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: imageflow-py
+[2023-06-08 00:29:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: man-etl
+[2023-06-08 00:29:04] INFO root fetch - processPackages [general-superstaq]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-08 00:29:04] INFO root fetch - processPackages [lollms]: New version: [1.1.9] Old Version: [1.1.7]
+[2023-06-08 00:29:04] INFO root fetch - processPackages [man-etl]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-08 00:29:04] WARNING root fetch - processPackages [imageflow-py]: Skipping, unable to determine old version
+[2023-06-08 00:29:04] INFO root fetch - processPackages [imageflow-py]: Start processing: srspy
+[2023-06-08 00:29:04] INFO root fetch - processPackages [qiskit-superstaq]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-08 00:29:04] INFO root fetch - main [MainThread]: End processing [imageflow-py] error
+[2023-06-08 00:29:04] INFO root fetch - processPackages [SupermarQ]: New version: [0.3.30] Old Version: [0.3.29]
+[2023-06-08 00:29:04] INFO root fetch - processPackages [cirq-superstaq]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-08 00:29:04] INFO root fetch - processPackages [irisml-tasks-training]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-08 00:29:04] INFO root fetch - processPackages [lollms]: Downloading https://files.pythonhosted.org/packages/3d/63/5860743c06fbd44180fc9469d6a01bbc0644f8be5bc965843b7c2864a173/lollms-1.1.7.tar.gz
+[2023-06-08 00:29:04] INFO root fetch - processPackages [coiled]: New version: [0.7.2.dev8] Old Version: [0.7.2.dev7]
+[2023-06-08 00:29:04] INFO root fetch - processPackages [srspy]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-08 00:29:04] WARNING root fetch - processPackages [lollms]: Skipping package: exceeds size limit 17349845>=10485760
+[2023-06-08 00:29:04] INFO root fetch - processPackages [lollms]: Start processing: pyhmmer
+[2023-06-08 00:29:04] INFO root fetch - main [MainThread]: End processing [lollms] error
+[2023-06-08 00:29:04] INFO root fetch - processPackages [databricks-sql-connector]: New version: [2.6.0] Old Version: [2.5.2]
+[2023-06-08 00:29:04] INFO root fetch - processPackages [man-etl]: Downloading https://files.pythonhosted.org/packages/2c/54/2d861a2fe427c3fa1ad56e2f098a64dc6abb12b883adef1f40da22c47c44/man_etl-0.0.2.tar.gz
+[2023-06-08 00:29:04] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/b1/e8/1b1e12500478a9291c9ac74d8ee966480364ba8d724ef0fbf93a45c4a58f/coiled-0.7.2.dev7.tar.gz
+[2023-06-08 00:29:04] INFO root fetch - processPackages [general-superstaq]: Downloading https://files.pythonhosted.org/packages/87/05/cd59ba3d55d20ac1221d7dbd1216dc5e2bfecd1d1bbdafcc4e49114575ae/general_superstaq-0.3.8-py3-none-any.whl
+[2023-06-08 00:29:04] INFO root fetch - processPackages [irisml-tasks-training]: Downloading https://files.pythonhosted.org/packages/f8/cc/6efe51b69185877b6919dee71b862e04c8ee4e8905f3276391f86dcc56cc/irisml-tasks-training-0.0.8.tar.gz
+[2023-06-08 00:29:04] INFO root fetch - processPackages [SupermarQ]: Downloading https://files.pythonhosted.org/packages/d4/cc/6cb2696b176031de5ca4efb31e713b3975da458999482edf92df43e52281/SupermarQ-0.3.29-py3-none-any.whl
+[2023-06-08 00:29:04] INFO root fetch - processPackages [pyhmmer]: New version: [0.8.2] Old Version: [0.8.1]
+[2023-06-08 00:29:04] INFO root fetch - processPackages [qiskit-superstaq]: Downloading https://files.pythonhosted.org/packages/33/d9/9afdc846fffea309c28e8f6c909c0db105ac4da2afb792672fef85880186/qiskit_superstaq-0.3.8-py3-none-any.whl
+[2023-06-08 00:29:04] INFO root fetch - processPackages [cirq-superstaq]: Downloading https://files.pythonhosted.org/packages/24/23/2e53aa7d71a86e1b918795598b7e648a3c8b392493d0399d085b8a34a69f/cirq_superstaq-0.3.8-py3-none-any.whl
+[2023-06-08 00:29:04] INFO root fetch - processPackages [srspy]: Downloading https://files.pythonhosted.org/packages/62/5b/44f154455f64699013771322e7a608ad7586ccc664ebe023bc74b3bf4a47/srspy-0.0.1.tar.gz
+[2023-06-08 00:29:04] INFO root fetch - processPackages [databricks-sql-connector]: Downloading https://files.pythonhosted.org/packages/8b/5f/86c7298ee3fc3706bbaf678b52e6be5fbc1aeff0c19ec244fbca918f446e/databricks_sql_connector-2.5.2.tar.gz
+[2023-06-08 00:29:04] INFO root fetch - processPackages [man-etl]: Downloading https://files.pythonhosted.org/packages/bc/03/bdb11e52f09d5decd770fd8517326423de9a952113fe8d0061e9b4488a40/man_etl-0.0.3.tar.gz
+[2023-06-08 00:29:04] INFO root fetch - processPackages [man-etl]: executing diffoscope
+[2023-06-08 00:29:04] INFO root fetch - processPackages [man-etl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/man_etl-0.0.2.tar.gz tmp/man_etl-0.0.3.tar.gz --markdown 20230608/m/man-etl/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-08 00:29:04] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/e1/0c/d4f69d57ab17ed3ed6ea4318e9b6d552a78da526d287a80c364788064c87/coiled-0.7.2.dev8.tar.gz
+[2023-06-08 00:29:05] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-06-08 00:29:05] INFO root fetch - processPackages [SupermarQ]: Downloading https://files.pythonhosted.org/packages/28/2f/55f8349423857e24caa139633e8b6500b2bb5bad829421fc93377b1eb4b5/SupermarQ-0.3.30-py3-none-any.whl
+[2023-06-08 00:29:05] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.7.2.dev7.tar.gz tmp/coiled-0.7.2.dev8.tar.gz --markdown 20230608/c/coiled/0.7.2.dev7-0.7.2.dev8/diff.md --exclude *.pyd
+[2023-06-08 00:29:05] INFO root fetch - processPackages [irisml-tasks-training]: Downloading https://files.pythonhosted.org/packages/03/95/02a31958b7096b95e04d4d97bdb225fccca86651bbe1faf0e72395d98604/irisml-tasks-training-0.0.9.tar.gz
+[2023-06-08 00:29:05] INFO root fetch - processPackages [cirq-superstaq]: Downloading https://files.pythonhosted.org/packages/5f/d7/90cf6503b553892d091d3ad8ba050b2ec5744880829c43fa4090da82ce8b/cirq_superstaq-0.3.9-py3-none-any.whl
+[2023-06-08 00:29:05] INFO root fetch - processPackages [qiskit-superstaq]: Downloading https://files.pythonhosted.org/packages/06/a8/93bc82c36803b1fdfe08be69e96d149fb909954aab455e01b4163459073b/qiskit_superstaq-0.3.9-py3-none-any.whl
+[2023-06-08 00:29:05] INFO root fetch - processPackages [SupermarQ]: executing diffoscope
+[2023-06-08 00:29:05] INFO root fetch - processPackages [SupermarQ]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SupermarQ-0.3.29-py3-none-any.whl.zip tmp/SupermarQ-0.3.30-py3-none-any.whl.zip --markdown 20230608/S/SupermarQ/0.3.29-0.3.30/diff.md --exclude *.pyd
+[2023-06-08 00:29:05] INFO root fetch - processPackages [srspy]: Downloading https://files.pythonhosted.org/packages/3e/7b/fb03103735d96d093d79369996d12b274239e44774770f611a71fb6b9936/srspy-0.0.2.tar.gz
+[2023-06-08 00:29:05] INFO root fetch - processPackages [pyhmmer]: Downloading https://files.pythonhosted.org/packages/3d/12/beb37509be629206b9ca05f631533271c4bc4ed4f52891f772ca1ec0219d/pyhmmer-0.8.1.tar.gz
+[2023-06-08 00:29:05] INFO root fetch - processPackages [srspy]: executing diffoscope
+[2023-06-08 00:29:05] INFO root fetch - processPackages [srspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/srspy-0.0.1.tar.gz tmp/srspy-0.0.2.tar.gz --markdown 20230608/s/srspy/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-08 00:29:05] INFO root fetch - processPackages [databricks-sql-connector]: Downloading https://files.pythonhosted.org/packages/d2/91/7e2b203a8220d0308c3c196f645df2a1d3c1e3a386feb0e0c05214cf856f/databricks_sql_connector-2.6.0.tar.gz
+[2023-06-08 00:29:05] INFO root fetch - processPackages [qiskit-superstaq]: executing diffoscope
+[2023-06-08 00:29:05] INFO root fetch - processPackages [qiskit-superstaq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qiskit_superstaq-0.3.8-py3-none-any.whl.zip tmp/qiskit_superstaq-0.3.9-py3-none-any.whl.zip --markdown 20230608/q/qiskit-superstaq/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-08 00:29:05] INFO root fetch - processPackages [cirq-superstaq]: executing diffoscope
+[2023-06-08 00:29:05] INFO root fetch - processPackages [cirq-superstaq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_superstaq-0.3.8-py3-none-any.whl.zip tmp/cirq_superstaq-0.3.9-py3-none-any.whl.zip --markdown 20230608/c/cirq-superstaq/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-08 00:29:05] WARNING root fetch - processPackages [pyhmmer]: Skipping package: exceeds size limit 10980599>=10485760
+[2023-06-08 00:29:05] INFO root fetch - processPackages [databricks-sql-connector]: executing diffoscope
+[2023-06-08 00:29:05] INFO root fetch - main [MainThread]: End processing [pyhmmer] error
+[2023-06-08 00:29:05] INFO root fetch - processPackages [databricks-sql-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/databricks_sql_connector-2.5.2.tar.gz tmp/databricks_sql_connector-2.6.0.tar.gz --markdown 20230608/d/databricks-sql-connector/2.5.2-2.6.0/diff.md --exclude *.pyd
+[2023-06-08 00:29:05] INFO root fetch - processPackages [irisml-tasks-training]: executing diffoscope
+[2023-06-08 00:29:05] INFO root fetch - processPackages [irisml-tasks-training]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irisml-tasks-training-0.0.8.tar.gz tmp/irisml-tasks-training-0.0.9.tar.gz --markdown 20230608/i/irisml-tasks-training/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-08 00:29:05] INFO root fetch - processPackages [general-superstaq]: Downloading https://files.pythonhosted.org/packages/d3/61/5004f0f681b41698dc740d5c70e69d5eef3be2a6bb1c9b142d04914b67ff/general_superstaq-0.3.9-py3-none-any.whl
+[2023-06-08 00:29:05] INFO root fetch - processPackages [general-superstaq]: executing diffoscope
+[2023-06-08 00:29:05] INFO root fetch - processPackages [general-superstaq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/general_superstaq-0.3.8-py3-none-any.whl.zip tmp/general_superstaq-0.3.9-py3-none-any.whl.zip --markdown 20230608/g/general-superstaq/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-08 00:29:06] INFO root fetch - processPackages [man-etl]: Remove: archive file [/home/abi/fetcher/tmp/man_etl-0.0.2.tar.gz]
+[2023-06-08 00:29:06] INFO root fetch - processPackages [man-etl]: Remove: archive file [/home/abi/fetcher/tmp/man_etl-0.0.3.tar.gz]
+[2023-06-08 00:29:06] INFO root fetch - main [MainThread]: End processing [man-etl]: success
+[2023-06-08 00:29:06] INFO root fetch - processPackages [SupermarQ]: Remove: archive file [/home/abi/fetcher/tmp/SupermarQ-0.3.29-py3-none-any.whl.zip]
+[2023-06-08 00:29:06] INFO root fetch - processPackages [SupermarQ]: Remove: archive file [/home/abi/fetcher/tmp/SupermarQ-0.3.30-py3-none-any.whl.zip]
+[2023-06-08 00:29:06] INFO root fetch - main [MainThread]: End processing [SupermarQ]: success
+[2023-06-08 00:29:06] INFO root fetch - processPackages [cirq-superstaq]: Remove: archive file [/home/abi/fetcher/tmp/cirq_superstaq-0.3.8-py3-none-any.whl.zip]
+[2023-06-08 00:29:06] INFO root fetch - processPackages [cirq-superstaq]: Remove: archive file [/home/abi/fetcher/tmp/cirq_superstaq-0.3.9-py3-none-any.whl.zip]
+[2023-06-08 00:29:06] INFO root fetch - main [MainThread]: End processing [cirq-superstaq]: success
+[2023-06-08 00:29:06] INFO root fetch - processPackages [qiskit-superstaq]: Remove: archive file [/home/abi/fetcher/tmp/qiskit_superstaq-0.3.8-py3-none-any.whl.zip]
+[2023-06-08 00:29:06] INFO root fetch - processPackages [qiskit-superstaq]: Remove: archive file [/home/abi/fetcher/tmp/qiskit_superstaq-0.3.9-py3-none-any.whl.zip]
+[2023-06-08 00:29:06] INFO root fetch - main [MainThread]: End processing [qiskit-superstaq]: success
+[2023-06-08 00:29:07] INFO root fetch - processPackages [general-superstaq]: Remove: archive file [/home/abi/fetcher/tmp/general_superstaq-0.3.8-py3-none-any.whl.zip]
+[2023-06-08 00:29:07] INFO root fetch - processPackages [general-superstaq]: Remove: archive file [/home/abi/fetcher/tmp/general_superstaq-0.3.9-py3-none-any.whl.zip]
+[2023-06-08 00:29:07] INFO root fetch - main [MainThread]: End processing [general-superstaq]: success
+[2023-06-08 00:29:07] INFO root fetch - processPackages [irisml-tasks-training]: Remove: archive file [/home/abi/fetcher/tmp/irisml-tasks-training-0.0.8.tar.gz]
+[2023-06-08 00:29:07] INFO root fetch - processPackages [irisml-tasks-training]: Remove: archive file [/home/abi/fetcher/tmp/irisml-tasks-training-0.0.9.tar.gz]
+[2023-06-08 00:29:07] INFO root fetch - main [MainThread]: End processing [irisml-tasks-training]: success
+[2023-06-08 00:29:07] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.7.2.dev7.tar.gz]
+[2023-06-08 00:29:07] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.7.2.dev8.tar.gz]
+[2023-06-08 00:29:07] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-06-08 00:29:08] INFO root fetch - processPackages [databricks-sql-connector]: Remove: archive file [/home/abi/fetcher/tmp/databricks_sql_connector-2.5.2.tar.gz]
+[2023-06-08 00:29:08] INFO root fetch - processPackages [databricks-sql-connector]: Remove: archive file [/home/abi/fetcher/tmp/databricks_sql_connector-2.6.0.tar.gz]
+[2023-06-08 00:29:08] INFO root fetch - main [MainThread]: End processing [databricks-sql-connector]: success
+[2023-06-08 00:29:10] INFO root fetch - processPackages [srspy]: Remove: archive file [/home/abi/fetcher/tmp/srspy-0.0.1.tar.gz]
+[2023-06-08 00:29:10] INFO root fetch - processPackages [srspy]: Remove: archive file [/home/abi/fetcher/tmp/srspy-0.0.2.tar.gz]
+[2023-06-08 00:29:10] INFO root fetch - main [MainThread]: End processing [srspy]: success
+[2023-06-08 00:29:10] INFO root fetch - main [MainThread]: Store serial: [18414661]
