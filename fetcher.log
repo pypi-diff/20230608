@@ -582,3 +582,24 @@ EOFError: EOF read where object expected
 [2023-06-08 00:40:34] INFO root fetch - processPackages [man-etl]: Remove: archive file [/home/abi/fetcher/tmp/man_etl-0.0.4.tar.gz]
 [2023-06-08 00:40:34] INFO root fetch - main [MainThread]: End processing [man-etl]: success
 [2023-06-08 00:40:34] INFO root fetch - main [MainThread]: Store serial: [18414746]
+[2023-06-08 00:45:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18414746]
+[2023-06-08 00:45:43] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-06-08 00:45:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: neon-skill-speed-test
+[2023-06-08 00:45:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aisdb
+[2023-06-08 00:45:44] INFO root fetch - processPackages [neon-skill-speed-test]: New version: [0.5.1a2] Old Version: [0.5.1a1]
+[2023-06-08 00:45:44] INFO root fetch - processPackages [aisdb]: New version: [1.6.3] Old Version: [1.6.0]
+[2023-06-08 00:45:44] INFO root fetch - processPackages [neon-skill-speed-test]: Downloading https://files.pythonhosted.org/packages/a6/48/fbd3540561051e9d76da49daca65251ac3deb416425cf80440c4c53a18fd/neon_skill_speed_test-0.5.1a1-py3-none-any.whl
+[2023-06-08 00:45:44] INFO root fetch - processPackages [aisdb]: Downloading https://files.pythonhosted.org/packages/d3/a3/529fd1c5c2e295268be58cca0054d66f2510557cd86c1373a07fedbfdb45/aisdb-1.6.0-cp39-none-win_amd64.whl
+[2023-06-08 00:45:44] INFO root fetch - processPackages [neon-skill-speed-test]: Downloading https://files.pythonhosted.org/packages/15/c1/227d463373a0b5f2efd40a3a18baffbad3a12b1bd1582c535d4d17ae1339/neon_skill_speed_test-0.5.1a2-py3-none-any.whl
+[2023-06-08 00:45:44] INFO root fetch - processPackages [neon-skill-speed-test]: executing diffoscope
+[2023-06-08 00:45:44] INFO root fetch - processPackages [neon-skill-speed-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon_skill_speed_test-0.5.1a1-py3-none-any.whl.zip tmp/neon_skill_speed_test-0.5.1a2-py3-none-any.whl.zip --markdown 20230608/n/neon-skill-speed-test/0.5.1a1-0.5.1a2/diff.md --exclude *.pyd
+[2023-06-08 00:45:45] INFO root fetch - processPackages [aisdb]: Downloading https://files.pythonhosted.org/packages/0a/20/82a39834c1e5070ce1bc0a06a1a2b755eaa02d8d03b45ab12daf62bb240b/aisdb-1.6.3-cp39-cp39-macosx_11_0_arm64.whl
+[2023-06-08 00:45:45] INFO root fetch - processPackages [aisdb]: executing diffoscope
+[2023-06-08 00:45:45] INFO root fetch - processPackages [aisdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aisdb-1.6.0-cp39-none-win_amd64.whl.zip tmp/aisdb-1.6.3-cp39-cp39-macosx_11_0_arm64.whl.zip --markdown 20230608/a/aisdb/1.6.0-1.6.3/diff.md --exclude *.pyd
+[2023-06-08 00:45:45] INFO root fetch - processPackages [neon-skill-speed-test]: Remove: archive file [/home/abi/fetcher/tmp/neon_skill_speed_test-0.5.1a1-py3-none-any.whl.zip]
+[2023-06-08 00:45:45] INFO root fetch - processPackages [neon-skill-speed-test]: Remove: archive file [/home/abi/fetcher/tmp/neon_skill_speed_test-0.5.1a2-py3-none-any.whl.zip]
+[2023-06-08 00:45:45] INFO root fetch - main [MainThread]: End processing [neon-skill-speed-test]: success
+[2023-06-08 00:45:48] INFO root fetch - processPackages [aisdb]: Remove: archive file [/home/abi/fetcher/tmp/aisdb-1.6.0-cp39-none-win_amd64.whl.zip]
+[2023-06-08 00:45:48] INFO root fetch - processPackages [aisdb]: Remove: archive file [/home/abi/fetcher/tmp/aisdb-1.6.3-cp39-cp39-macosx_11_0_arm64.whl.zip]
+[2023-06-08 00:45:48] INFO root fetch - main [MainThread]: End processing [aisdb]: success
+[2023-06-08 00:45:48] INFO root fetch - main [MainThread]: Store serial: [18414761]
