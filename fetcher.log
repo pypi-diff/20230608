@@ -74,3 +74,66 @@
 [2023-06-08 00:02:51] INFO root fetch - processPackages [ooo-dev-tools]: Remove: archive file [/home/abi/fetcher/tmp/ooo_dev_tools-0.9.8.tar.gz]
 [2023-06-08 00:02:51] INFO root fetch - main [MainThread]: End processing [ooo-dev-tools]: success
 [2023-06-08 00:02:51] INFO root fetch - main [MainThread]: Store serial: [18414519]
+[2023-06-08 00:07:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18414519]
+[2023-06-08 00:07:59] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-08 00:07:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-join-unrelated
+[2023-06-08 00:07:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: promptops
+[2023-06-08 00:07:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ovos-skill-homescreen
+[2023-06-08 00:07:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: havoc-clustering
+[2023-06-08 00:07:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mendeleev
+[2023-06-08 00:07:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: man-etl
+[2023-06-08 00:07:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: unimenu
+[2023-06-08 00:07:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pepperize.cdk-serverless-cluster-from-snapshot
+[2023-06-08 00:07:59] WARNING root fetch - processPackages [django-join-unrelated]: Skipping, unable to determine old version
+[2023-06-08 00:07:59] INFO root fetch - main [MainThread]: End processing [django-join-unrelated] error
+[2023-06-08 00:07:59] INFO root fetch - processPackages [ovos-skill-homescreen]: New version: [0.0.3a3] Old Version: [0.0.3a1]
+[2023-06-08 00:07:59] INFO root fetch - processPackages [havoc-clustering]: New version: [0.0.9] Old Version: [0.0.4]
+[2023-06-08 00:07:59] INFO root fetch - processPackages [promptops]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-08 00:07:59] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-08 00:07:59] WARNING root fetch - processPackages [man-etl]: Skipping, unable to determine old version
+[2023-06-08 00:07:59] INFO root fetch - main [MainThread]: End processing [man-etl] error
+[2023-06-08 00:07:59] INFO root fetch - processPackages [unimenu]: New version: [3.0.0] Old Version: [0.4.0]
+[2023-06-08 00:07:59] INFO root fetch - processPackages [ovos-skill-homescreen]: Downloading https://files.pythonhosted.org/packages/66/7b/da59e994a3a87d52940402be3456b6df1ca8d4e42ac34f8738a78d82529f/ovos-skill-homescreen-0.0.3a1.tar.gz
+[2023-06-08 00:07:59] INFO root fetch - processPackages [mendeleev]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-08 00:07:59] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: Downloading https://files.pythonhosted.org/packages/41/ed/5efe219dc09a3767781b18e59998e46265479245ef5e56798033e654efe2/pepperize.cdk-serverless-cluster-from-snapshot-0.0.98.tar.gz
+[2023-06-08 00:07:59] INFO root fetch - processPackages [promptops]: Downloading https://files.pythonhosted.org/packages/89/1a/9503e212120b054eaa473296a453d379038a4323cc5dd1add008ecc43134/promptops-0.1.5.tar.gz
+[2023-06-08 00:07:59] INFO root fetch - processPackages [havoc-clustering]: Downloading https://files.pythonhosted.org/packages/06/33/d822dde63f2ad388f4a895cfc3bb851c746d40921cbff3618f959e3233af/havoc_clustering-0.0.4.tar.gz
+[2023-06-08 00:07:59] INFO root fetch - processPackages [unimenu]: Downloading https://files.pythonhosted.org/packages/08/9c/005748d159a0cdc3f4b879f603d2e52f747d0ef61d022f9f2508356f7033/unimenu-0.4.0.tar.gz
+[2023-06-08 00:07:59] INFO root fetch - processPackages [mendeleev]: Downloading https://files.pythonhosted.org/packages/a6/13/d1448ad7cfabc374ee638740e45faf64357a459f21c015f50fdbdccce380/mendeleev-0.8.0.tar.gz
+[2023-06-08 00:07:59] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: Downloading https://files.pythonhosted.org/packages/0a/e1/974dfac343666db334bd3dc6b819d5e46e3769ce75e9baccd0067702f4ad/pepperize.cdk-serverless-cluster-from-snapshot-0.0.99.tar.gz
+[2023-06-08 00:08:00] INFO root fetch - processPackages [promptops]: Downloading https://files.pythonhosted.org/packages/0a/ce/cc81f40239e0b0db2a9383f6b553ed9a3999a8f35d1b948104517e01b510/promptops-0.1.6.tar.gz
+[2023-06-08 00:08:00] INFO root fetch - processPackages [promptops]: executing diffoscope
+[2023-06-08 00:08:00] INFO root fetch - processPackages [promptops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/promptops-0.1.5.tar.gz tmp/promptops-0.1.6.tar.gz --markdown 20230608/p/promptops/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-08 00:08:00] INFO root fetch - processPackages [havoc-clustering]: Downloading https://files.pythonhosted.org/packages/d7/0a/76e66eb3fb5dc8d1e3667229637b0a771d33cc8e02b789a15e2fa370d928/havoc_clustering-0.0.9.tar.gz
+[2023-06-08 00:08:00] INFO root fetch - processPackages [mendeleev]: Downloading https://files.pythonhosted.org/packages/e0/12/499a145040a9f99146e4f905a2701755043519344462b6ae2473a3cba779/mendeleev-0.9.0.tar.gz
+[2023-06-08 00:08:00] INFO root fetch - processPackages [ovos-skill-homescreen]: Downloading https://files.pythonhosted.org/packages/5c/69/cbc358f02bca101e644e780a413c9456e2c99b7d8a94acabcee9b1c559e7/ovos-skill-homescreen-0.0.3a3.tar.gz
+[2023-06-08 00:08:00] INFO root fetch - processPackages [unimenu]: Downloading https://files.pythonhosted.org/packages/10/19/9a813d16d9498ea9a988c5cc8a5d960554fb134eda1d6aacca4b49e76865/unimenu-3.0.0.tar.gz
+[2023-06-08 00:08:00] INFO root fetch - processPackages [havoc-clustering]: executing diffoscope
+[2023-06-08 00:08:00] INFO root fetch - processPackages [havoc-clustering]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/havoc_clustering-0.0.4.tar.gz tmp/havoc_clustering-0.0.9.tar.gz --markdown 20230608/h/havoc-clustering/0.0.4-0.0.9/diff.md --exclude *.pyd
+[2023-06-08 00:08:00] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: executing diffoscope
+[2023-06-08 00:08:00] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.98.tar.gz tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.99.tar.gz --markdown 20230608/p/pepperize.cdk-serverless-cluster-from-snapshot/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-08 00:08:00] INFO root fetch - processPackages [mendeleev]: executing diffoscope
+[2023-06-08 00:08:00] INFO root fetch - processPackages [mendeleev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mendeleev-0.8.0.tar.gz tmp/mendeleev-0.9.0.tar.gz --markdown 20230608/m/mendeleev/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-08 00:08:00] INFO root fetch - processPackages [unimenu]: executing diffoscope
+[2023-06-08 00:08:00] INFO root fetch - processPackages [unimenu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unimenu-0.4.0.tar.gz tmp/unimenu-3.0.0.tar.gz --markdown 20230608/u/unimenu/0.4.0-3.0.0/diff.md --exclude *.pyd
+[2023-06-08 00:08:01] INFO root fetch - processPackages [havoc-clustering]: Remove: archive file [/home/abi/fetcher/tmp/havoc_clustering-0.0.4.tar.gz]
+[2023-06-08 00:08:01] INFO root fetch - processPackages [havoc-clustering]: Remove: archive file [/home/abi/fetcher/tmp/havoc_clustering-0.0.9.tar.gz]
+[2023-06-08 00:08:01] INFO root fetch - main [MainThread]: End processing [havoc-clustering]: success
+[2023-06-08 00:08:01] INFO root fetch - processPackages [promptops]: Remove: archive file [/home/abi/fetcher/tmp/promptops-0.1.5.tar.gz]
+[2023-06-08 00:08:01] INFO root fetch - processPackages [promptops]: Remove: archive file [/home/abi/fetcher/tmp/promptops-0.1.6.tar.gz]
+[2023-06-08 00:08:01] INFO root fetch - main [MainThread]: End processing [promptops]: success
+[2023-06-08 00:08:01] INFO root fetch - processPackages [unimenu]: Remove: archive file [/home/abi/fetcher/tmp/unimenu-0.4.0.tar.gz]
+[2023-06-08 00:08:01] INFO root fetch - processPackages [unimenu]: Remove: archive file [/home/abi/fetcher/tmp/unimenu-3.0.0.tar.gz]
+[2023-06-08 00:08:01] INFO root fetch - main [MainThread]: End processing [unimenu]: success
+[2023-06-08 00:08:01] INFO root fetch - processPackages [mendeleev]: Remove: archive file [/home/abi/fetcher/tmp/mendeleev-0.8.0.tar.gz]
+[2023-06-08 00:08:01] INFO root fetch - processPackages [mendeleev]: Remove: archive file [/home/abi/fetcher/tmp/mendeleev-0.9.0.tar.gz]
+[2023-06-08 00:08:01] INFO root fetch - main [MainThread]: End processing [mendeleev]: success
+[2023-06-08 00:08:01] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.98.tar.gz]
+[2023-06-08 00:08:01] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.99.tar.gz]
+[2023-06-08 00:08:01] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-serverless-cluster-from-snapshot]: success
+[2023-06-08 00:08:02] INFO root fetch - processPackages [ovos-skill-homescreen]: executing diffoscope
+[2023-06-08 00:08:02] INFO root fetch - processPackages [ovos-skill-homescreen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos-skill-homescreen-0.0.3a1.tar.gz tmp/ovos-skill-homescreen-0.0.3a3.tar.gz --markdown 20230608/o/ovos-skill-homescreen/0.0.3a1-0.0.3a3/diff.md --exclude *.pyd
+[2023-06-08 00:08:04] INFO root fetch - processPackages [ovos-skill-homescreen]: Remove: archive file [/home/abi/fetcher/tmp/ovos-skill-homescreen-0.0.3a1.tar.gz]
+[2023-06-08 00:08:04] INFO root fetch - processPackages [ovos-skill-homescreen]: Remove: archive file [/home/abi/fetcher/tmp/ovos-skill-homescreen-0.0.3a3.tar.gz]
+[2023-06-08 00:08:04] INFO root fetch - main [MainThread]: End processing [ovos-skill-homescreen]: success
+[2023-06-08 00:08:04] INFO root fetch - main [MainThread]: Store serial: [18414546]
