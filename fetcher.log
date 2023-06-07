@@ -1072,3 +1072,66 @@ EOFError: EOF read where object expected
 [2023-06-08 01:12:54] INFO root fetch - processPackages [cirq-core]: Remove: archive file [/home/abi/fetcher/tmp/cirq_core-1.2.0.dev20230607230840-py3-none-any.whl.zip]
 [2023-06-08 01:12:54] INFO root fetch - main [MainThread]: End processing [cirq-core]: success
 [2023-06-08 01:12:54] INFO root fetch - main [MainThread]: Store serial: [18414935]
+[2023-06-08 01:17:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18414935]
+[2023-06-08 01:18:03] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-08 01:18:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: smartapp-sdk
+[2023-06-08 01:18:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pepperize.cdk-ses-smtp-credentials
+[2023-06-08 01:18:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: frontrunner-sdk
+[2023-06-08 01:18:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: coastseg
+[2023-06-08 01:18:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyautoreloadserver
+[2023-06-08 01:18:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: wicked-expressions
+[2023-06-08 01:18:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sloth-framework
+[2023-06-08 01:18:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pepperize.cdk-ses-smtp-credentials
+[2023-06-08 01:18:04] INFO root fetch - processPackages [coastseg]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-08 01:18:04] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: New version: [0.3.352] Old Version: [0.3.351]
+[2023-06-08 01:18:04] INFO root fetch - processPackages [smartapp-sdk]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-06-08 01:18:04] WARNING root fetch - processPackages [pyautoreloadserver]: Skipping, unable to determine old version
+[2023-06-08 01:18:04] INFO root fetch - main [MainThread]: End processing [pyautoreloadserver] error
+[2023-06-08 01:18:04] INFO root fetch - processPackages [frontrunner-sdk]: New version: [0.2.0] Old Version: [0.1.6]
+[2023-06-08 01:18:04] INFO root fetch - processPackages [wicked-expressions]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-06-08 01:18:04] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: New version: [0.3.352] Old Version: [0.3.351]
+[2023-06-08 01:18:04] INFO root fetch - processPackages [coastseg]: Downloading https://files.pythonhosted.org/packages/75/3b/19efffac60ef69a861417a37a370dc3f3a497cb93009fe8fff8dda38b476/coastseg-0.0.8.tar.gz
+[2023-06-08 01:18:04] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/97/f7/a5e637f873614cfa319ef0117a4ae26eb73777f4eb7a35618b37b33ccc0c/pepperize.cdk-ses-smtp-credentials-0.3.351.tar.gz
+[2023-06-08 01:18:04] INFO root fetch - processPackages [smartapp-sdk]: Downloading https://files.pythonhosted.org/packages/f5/17/9b506f9c4354510752cbfc9ee347cef0b5e8e3782fedeca7f7601173cafb/smartapp_sdk-0.6.1.tar.gz
+[2023-06-08 01:18:04] WARNING root fetch - processPackages [coastseg]: Skipping package: exceeds size limit 38421077>=10485760
+[2023-06-08 01:18:04] INFO root fetch - main [MainThread]: End processing [coastseg] error
+[2023-06-08 01:18:04] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/97/f7/a5e637f873614cfa319ef0117a4ae26eb73777f4eb7a35618b37b33ccc0c/pepperize.cdk-ses-smtp-credentials-0.3.351.tar.gz
+[2023-06-08 01:18:04] INFO root fetch - processPackages [sloth-framework]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-08 01:18:04] INFO root fetch - processPackages [wicked-expressions]: Downloading https://files.pythonhosted.org/packages/a1/7b/9816fb5e6b6315d95411e6f91eb74cd3b7bd43a21c3920e9d088237ccf1d/wicked_expressions-0.7.0.tar.gz
+[2023-06-08 01:18:04] INFO root fetch - processPackages [frontrunner-sdk]: Downloading https://files.pythonhosted.org/packages/d9/53/89cb53fd94ec15eb3eb5db1c4758724e274e9eec4a7c4017240e42f15462/frontrunner-sdk-0.1.6.tar.gz
+[2023-06-08 01:18:04] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/b7/18/0dd28bbbdf9e1af875d09593e987322a734ec4ab0cb9f50e501038f8664a/pepperize.cdk-ses-smtp-credentials-0.3.352.tar.gz
+[2023-06-08 01:18:04] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/b7/18/0dd28bbbdf9e1af875d09593e987322a734ec4ab0cb9f50e501038f8664a/pepperize.cdk-ses-smtp-credentials-0.3.352.tar.gz
+[2023-06-08 01:18:04] INFO root fetch - processPackages [sloth-framework]: Downloading https://files.pythonhosted.org/packages/75/0d/006a214eaeb72416cf89a7becfc002641eb8a9514ecd0ddbda137b98bcb2/sloth-framework-0.1.8.tar.gz
+[2023-06-08 01:18:04] INFO root fetch - processPackages [smartapp-sdk]: Downloading https://files.pythonhosted.org/packages/d8/b8/72501ced35ec4c46121f9ada292d9913409e496a99d695100e81e8b0ecff/smartapp_sdk-0.6.2.tar.gz
+[2023-06-08 01:18:04] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: executing diffoscope
+[2023-06-08 01:18:04] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ses-smtp-credentials-0.3.351.tar.gz tmp/pepperize.cdk-ses-smtp-credentials-0.3.352.tar.gz --markdown 20230608/p/pepperize.cdk-ses-smtp-credentials/0.3.351-0.3.352/diff.md --exclude *.pyd
+[2023-06-08 01:18:04] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: executing diffoscope
+[2023-06-08 01:18:04] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ses-smtp-credentials-0.3.351.tar.gz tmp/pepperize.cdk-ses-smtp-credentials-0.3.352.tar.gz --markdown 20230608/p/pepperize.cdk-ses-smtp-credentials/0.3.351-0.3.352/diff.md --exclude *.pyd
+[2023-06-08 01:18:04] INFO root fetch - processPackages [wicked-expressions]: Downloading https://files.pythonhosted.org/packages/03/c1/4c82ff2af438e266e1e5d771d615165e8396d0d68a7b92e42c125299700d/wicked_expressions-0.7.1.tar.gz
+[2023-06-08 01:18:04] INFO root fetch - processPackages [frontrunner-sdk]: Downloading https://files.pythonhosted.org/packages/60/24/ef45cb0a5c0ab49ce1be917d25409317c87ec8ad76f64d9aeb8a05ccd5ae/frontrunner-sdk-0.2.0.tar.gz
+[2023-06-08 01:18:04] INFO root fetch - processPackages [wicked-expressions]: executing diffoscope
+[2023-06-08 01:18:04] INFO root fetch - processPackages [wicked-expressions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wicked_expressions-0.7.0.tar.gz tmp/wicked_expressions-0.7.1.tar.gz --markdown 20230608/w/wicked-expressions/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-06-08 01:18:04] INFO root fetch - processPackages [smartapp-sdk]: executing diffoscope
+[2023-06-08 01:18:04] INFO root fetch - processPackages [smartapp-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartapp_sdk-0.6.1.tar.gz tmp/smartapp_sdk-0.6.2.tar.gz --markdown 20230608/s/smartapp-sdk/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-06-08 01:18:04] INFO root fetch - processPackages [frontrunner-sdk]: executing diffoscope
+[2023-06-08 01:18:04] INFO root fetch - processPackages [frontrunner-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frontrunner-sdk-0.1.6.tar.gz tmp/frontrunner-sdk-0.2.0.tar.gz --markdown 20230608/f/frontrunner-sdk/0.1.6-0.2.0/diff.md --exclude *.pyd
+[2023-06-08 01:18:04] INFO root fetch - processPackages [sloth-framework]: Downloading https://files.pythonhosted.org/packages/1b/5e/f7756769bdc54ffa207ac448c35548cc179b70dca456bf78b6d4997e96f9/sloth-framework-0.1.9.tar.gz
+[2023-06-08 01:18:05] INFO root fetch - processPackages [sloth-framework]: executing diffoscope
+[2023-06-08 01:18:05] INFO root fetch - processPackages [sloth-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sloth-framework-0.1.8.tar.gz tmp/sloth-framework-0.1.9.tar.gz --markdown 20230608/s/sloth-framework/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-08 01:18:05] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ses-smtp-credentials-0.3.351.tar.gz]
+[2023-06-08 01:18:05] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ses-smtp-credentials-0.3.352.tar.gz]
+[2023-06-08 01:18:05] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ses-smtp-credentials]: success
+[2023-06-08 01:18:05] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ses-smtp-credentials]: success
+[2023-06-08 01:18:05] INFO root fetch - processPackages [wicked-expressions]: Remove: archive file [/home/abi/fetcher/tmp/wicked_expressions-0.7.0.tar.gz]
+[2023-06-08 01:18:05] INFO root fetch - processPackages [wicked-expressions]: Remove: archive file [/home/abi/fetcher/tmp/wicked_expressions-0.7.1.tar.gz]
+[2023-06-08 01:18:05] INFO root fetch - main [MainThread]: End processing [wicked-expressions]: success
+[2023-06-08 01:18:05] INFO root fetch - processPackages [smartapp-sdk]: Remove: archive file [/home/abi/fetcher/tmp/smartapp_sdk-0.6.1.tar.gz]
+[2023-06-08 01:18:05] INFO root fetch - processPackages [smartapp-sdk]: Remove: archive file [/home/abi/fetcher/tmp/smartapp_sdk-0.6.2.tar.gz]
+[2023-06-08 01:18:05] INFO root fetch - main [MainThread]: End processing [smartapp-sdk]: success
+[2023-06-08 01:18:06] INFO root fetch - processPackages [frontrunner-sdk]: Remove: archive file [/home/abi/fetcher/tmp/frontrunner-sdk-0.1.6.tar.gz]
+[2023-06-08 01:18:06] INFO root fetch - processPackages [frontrunner-sdk]: Remove: archive file [/home/abi/fetcher/tmp/frontrunner-sdk-0.2.0.tar.gz]
+[2023-06-08 01:18:06] INFO root fetch - main [MainThread]: End processing [frontrunner-sdk]: success
+[2023-06-08 01:18:09] INFO root fetch - processPackages [sloth-framework]: Remove: archive file [/home/abi/fetcher/tmp/sloth-framework-0.1.8.tar.gz]
+[2023-06-08 01:18:09] INFO root fetch - processPackages [sloth-framework]: Remove: archive file [/home/abi/fetcher/tmp/sloth-framework-0.1.9.tar.gz]
+[2023-06-08 01:18:09] INFO root fetch - main [MainThread]: End processing [sloth-framework]: success
+[2023-06-08 01:18:09] INFO root fetch - main [MainThread]: Store serial: [18414964]
