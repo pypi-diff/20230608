@@ -217,3 +217,101 @@
 [2023-06-08 00:13:26] INFO root fetch - processPackages [ovos-core]: Remove: archive file [/home/abi/fetcher/tmp/ovos_core-0.0.8a9-py3-none-any.whl.zip]
 [2023-06-08 00:13:26] INFO root fetch - main [MainThread]: End processing [ovos-core]: success
 [2023-06-08 00:13:26] INFO root fetch - main [MainThread]: Store serial: [18414580]
+[2023-06-08 00:18:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18414580]
+[2023-06-08 00:18:34] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-08 00:18:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: powermolegui
+[2023-06-08 00:18:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ever-playground
+[2023-06-08 00:18:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: man-etl
+[2023-06-08 00:18:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: redoubt-agent
+[2023-06-08 00:18:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: escapyde
+[2023-06-08 00:18:35] INFO root fetch - processPackages [man-etl]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-08 00:18:35] INFO root fetch - processPackages [powermolegui]: New version: [0.2.9] Old Version: [0.2.7]
+[2023-06-08 00:18:35] INFO root fetch - processPackages [redoubt-agent]: New version: [0.1.98] Old Version: [0.1.97]
+[2023-06-08 00:18:35] INFO root fetch - processPackages [ever-playground]: New version: [0.7.1] Old Version: [0.6.3]
+[2023-06-08 00:18:35] INFO root fetch - processPackages [escapyde]: New version: [1.0.0] Old Version: [0.2.3]
+[2023-06-08 00:18:35] INFO root fetch - processPackages [powermolegui]: Downloading https://files.pythonhosted.org/packages/ab/b6/cb353c3783f0ffac98c1d5c85e7e006b713c75943ae5fffd55249ddc1ebb/powermolegui-0.2.7.tar.gz
+[2023-06-08 00:18:35] INFO root fetch - processPackages [man-etl]: Downloading https://files.pythonhosted.org/packages/6a/90/42128b5bb8bda0cf033629db7f242b0a79ad9726b95fca3f623fc9ac5135/man_etl-0.0.1.tar.gz
+[2023-06-08 00:18:35] INFO root fetch - processPackages [redoubt-agent]: Downloading https://files.pythonhosted.org/packages/08/60/91acc4201f10f7b0148488d8d8b3959de660b54cb9c52c2a9cacae15bbbf/redoubt_agent-0.1.97.tar.gz
+[2023-06-08 00:18:35] INFO root fetch - processPackages [ever-playground]: Downloading https://files.pythonhosted.org/packages/f5/64/938fa8dffecc03130e19d83fd1244012f76ae67af9fc074080bd94c32bdb/ever_playground-0.6.3.tar.gz
+[2023-06-08 00:18:35] INFO root fetch - processPackages [escapyde]: Downloading https://files.pythonhosted.org/packages/25/cf/ac28a647617bfe62e74b8abb82a23c95b3a48defc26c05e0c979b07a1f24/escapyde-0.2.3.tar.gz
+[2023-06-08 00:18:35] INFO root fetch - processPackages [man-etl]: Downloading https://files.pythonhosted.org/packages/2c/54/2d861a2fe427c3fa1ad56e2f098a64dc6abb12b883adef1f40da22c47c44/man_etl-0.0.2.tar.gz
+[2023-06-08 00:18:35] INFO root fetch - processPackages [redoubt-agent]: Downloading https://files.pythonhosted.org/packages/15/72/a5744dc00910fa707e7e4a321eae309e525fb44a971ad43005649350a78c/redoubt_agent-0.1.98.tar.gz
+[2023-06-08 00:18:35] INFO root fetch - processPackages [ever-playground]: Downloading https://files.pythonhosted.org/packages/0d/cc/53f5b820fb59bde340041160d146db0080cc7dd1c3fd043e58afafb665c5/ever_playground-0.7.1.tar.gz
+[2023-06-08 00:18:35] INFO root fetch - processPackages [redoubt-agent]: executing diffoscope
+[2023-06-08 00:18:35] INFO root fetch - processPackages [redoubt-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redoubt_agent-0.1.97.tar.gz tmp/redoubt_agent-0.1.98.tar.gz --markdown 20230608/r/redoubt-agent/0.1.97-0.1.98/diff.md --exclude *.pyd
+[2023-06-08 00:18:35] INFO root fetch - processPackages [powermolegui]: Downloading https://files.pythonhosted.org/packages/59/76/1645bc9739c73a2fa1fe8d5fe7de92ec81d1342f6cb8f5a4e131e061cecb/powermolegui-0.2.9.tar.gz
+[2023-06-08 00:18:35] INFO root fetch - processPackages [man-etl]: executing diffoscope
+[2023-06-08 00:18:35] INFO root fetch - processPackages [man-etl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/man_etl-0.0.1.tar.gz tmp/man_etl-0.0.2.tar.gz --markdown 20230608/m/man-etl/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-08 00:18:35] INFO root fetch - processPackages [escapyde]: Downloading https://files.pythonhosted.org/packages/a0/74/a57e0eb1dcb54c643cfd995561bc639bd24df2adca1874c1acc8efccd9ea/escapyde-1.0.0.tar.gz
+[2023-06-08 00:18:35] INFO root fetch - processPackages [powermolegui]: executing diffoscope
+[2023-06-08 00:18:35] INFO root fetch - processPackages [powermolegui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/powermolegui-0.2.7.tar.gz tmp/powermolegui-0.2.9.tar.gz --markdown 20230608/p/powermolegui/0.2.7-0.2.9/diff.md --exclude *.pyd
+[2023-06-08 00:18:35] INFO root fetch - processPackages [ever-playground]: executing diffoscope
+[2023-06-08 00:18:35] INFO root fetch - processPackages [ever-playground]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ever_playground-0.6.3.tar.gz tmp/ever_playground-0.7.1.tar.gz --markdown 20230608/e/ever-playground/0.6.3-0.7.1/diff.md --exclude *.pyd
+[2023-06-08 00:18:35] INFO root fetch - processPackages [escapyde]: executing diffoscope
+[2023-06-08 00:18:35] INFO root fetch - processPackages [escapyde]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/escapyde-0.2.3.tar.gz tmp/escapyde-1.0.0.tar.gz --markdown 20230608/e/escapyde/0.2.3-1.0.0/diff.md --exclude *.pyd
+[2023-06-08 00:18:36] INFO root fetch - processPackages [man-etl]: Remove: archive file [/home/abi/fetcher/tmp/man_etl-0.0.1.tar.gz]
+[2023-06-08 00:18:36] INFO root fetch - processPackages [man-etl]: Remove: archive file [/home/abi/fetcher/tmp/man_etl-0.0.2.tar.gz]
+[2023-06-08 00:18:36] INFO root fetch - main [MainThread]: End processing [man-etl]: success
+[2023-06-08 00:18:36] INFO root fetch - processPackages [redoubt-agent]: Remove: archive file [/home/abi/fetcher/tmp/redoubt_agent-0.1.97.tar.gz]
+[2023-06-08 00:18:36] INFO root fetch - processPackages [redoubt-agent]: Remove: archive file [/home/abi/fetcher/tmp/redoubt_agent-0.1.98.tar.gz]
+[2023-06-08 00:18:36] INFO root fetch - main [MainThread]: End processing [redoubt-agent]: success
+[2023-06-08 00:18:36] INFO root fetch - processPackages [ever-playground]: Remove: archive file [/home/abi/fetcher/tmp/ever_playground-0.6.3.tar.gz]
+[2023-06-08 00:18:36] INFO root fetch - processPackages [ever-playground]: Remove: archive file [/home/abi/fetcher/tmp/ever_playground-0.7.1.tar.gz]
+[2023-06-08 00:18:36] INFO root fetch - main [MainThread]: End processing [ever-playground]: success
+[2023-06-08 00:18:36] ERROR root fetch - processPackages [powermolegui]: Diffoscope failed: Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 416, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 51, in compare_details
+    describe_pyc(self.path),
+    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 65, in describe_pyc
+    return "\n".join(parse_pyc(f))
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 81, in parse_pyc
+    code = marshal.load(f)
+           ^^^^^^^^^^^^^^^
+EOFError: EOF read where object expected
+
+[2023-06-08 00:18:36] INFO root fetch - main [MainThread]: End processing [powermolegui] error
+[2023-06-08 00:18:36] INFO root fetch - processPackages [escapyde]: Remove: archive file [/home/abi/fetcher/tmp/escapyde-0.2.3.tar.gz]
+[2023-06-08 00:18:36] INFO root fetch - processPackages [escapyde]: Remove: archive file [/home/abi/fetcher/tmp/escapyde-1.0.0.tar.gz]
+[2023-06-08 00:18:36] INFO root fetch - main [MainThread]: End processing [escapyde]: success
+[2023-06-08 00:18:36] INFO root fetch - main [MainThread]: Store serial: [18414600]
