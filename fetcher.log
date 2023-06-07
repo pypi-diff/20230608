@@ -1246,3 +1246,29 @@ EOFError: EOF read where object expected
 [2023-06-08 01:29:28] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.2.99.tar.gz]
 [2023-06-08 01:29:28] INFO root fetch - main [MainThread]: End processing [cdk-sops-secrets]: success
 [2023-06-08 01:29:28] INFO root fetch - main [MainThread]: Store serial: [18415057]
+[2023-06-08 01:34:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18415057]
+[2023-06-08 01:34:37] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-08 01:34:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pynumaflow
+[2023-06-08 01:34:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wintertoo
+[2023-06-08 01:34:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: baseten
+[2023-06-08 01:34:37] INFO root fetch - processPackages [wintertoo]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-06-08 01:34:37] INFO root fetch - processPackages [pynumaflow]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-06-08 01:34:37] INFO root fetch - processPackages [baseten]: New version: [0.6.4rc0] Old Version: [0.6.3]
+[2023-06-08 01:34:37] INFO root fetch - processPackages [baseten]: Downloading https://files.pythonhosted.org/packages/56/f9/7ee9e825aff181c0dba534d85239b3af8f88c94dd38f47538f7716d0ebac/baseten-0.6.3-py3-none-any.whl
+[2023-06-08 01:34:37] INFO root fetch - processPackages [wintertoo]: Downloading https://files.pythonhosted.org/packages/f1/60/9a328e0ddb0373a256e80da554595133c7f28b54f937d4e7e63fea18e67f/wintertoo-0.3.3.tar.gz
+[2023-06-08 01:34:37] INFO root fetch - processPackages [pynumaflow]: Downloading https://files.pythonhosted.org/packages/9f/c5/5c915c049276040a3b2bbf34fbb665528f9ed4522e5accd5e548590fe184/pynumaflow-0.4.1.tar.gz
+[2023-06-08 01:34:37] INFO root fetch - processPackages [baseten]: Downloading https://files.pythonhosted.org/packages/36/f5/b8d81fecfefb89375476bd45a89e8cbbc56fc6a01c621d9dfbd882678d22/baseten-0.6.4rc0.tar.gz
+[2023-06-08 01:34:37] WARNING root fetch - processPackages [wintertoo]: Skipping package: exceeds size limit 18785213>=10485760
+[2023-06-08 01:34:37] INFO root fetch - main [MainThread]: End processing [wintertoo] error
+[2023-06-08 01:34:37] INFO root fetch - processPackages [baseten]: executing diffoscope
+[2023-06-08 01:34:37] INFO root fetch - processPackages [baseten]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/baseten-0.6.3-py3-none-any.whl.zip tmp/baseten-0.6.4rc0.tar.gz --markdown 20230608/b/baseten/0.6.3-0.6.4rc0/diff.md --exclude *.pyd
+[2023-06-08 01:34:37] INFO root fetch - processPackages [pynumaflow]: Downloading https://files.pythonhosted.org/packages/34/b8/c1f9abe2ab5e679a855f4d2ccaf21c69bad2774bd18acadea5c11d2e3c1d/pynumaflow-0.4.2.tar.gz
+[2023-06-08 01:34:37] INFO root fetch - processPackages [pynumaflow]: executing diffoscope
+[2023-06-08 01:34:37] INFO root fetch - processPackages [pynumaflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynumaflow-0.4.1.tar.gz tmp/pynumaflow-0.4.2.tar.gz --markdown 20230608/p/pynumaflow/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-06-08 01:34:38] INFO root fetch - processPackages [baseten]: Remove: archive file [/home/abi/fetcher/tmp/baseten-0.6.3-py3-none-any.whl.zip]
+[2023-06-08 01:34:38] INFO root fetch - processPackages [baseten]: Remove: archive file [/home/abi/fetcher/tmp/baseten-0.6.4rc0.tar.gz]
+[2023-06-08 01:34:38] INFO root fetch - main [MainThread]: End processing [baseten]: success
+[2023-06-08 01:34:39] INFO root fetch - processPackages [pynumaflow]: Remove: archive file [/home/abi/fetcher/tmp/pynumaflow-0.4.1.tar.gz]
+[2023-06-08 01:34:39] INFO root fetch - processPackages [pynumaflow]: Remove: archive file [/home/abi/fetcher/tmp/pynumaflow-0.4.2.tar.gz]
+[2023-06-08 01:34:39] INFO root fetch - main [MainThread]: End processing [pynumaflow]: success
+[2023-06-08 01:34:39] INFO root fetch - main [MainThread]: Store serial: [18415076]
