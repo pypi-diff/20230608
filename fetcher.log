@@ -751,3 +751,81 @@ EOFError: EOF read where object expected
 [2023-06-08 00:56:23] INFO root fetch - processPackages [chalkpy]: Remove: archive file [/home/abi/fetcher/tmp/chalkpy-2.6.8.tar.gz]
 [2023-06-08 00:56:23] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
 [2023-06-08 00:56:23] INFO root fetch - main [MainThread]: Store serial: [18414834]
+[2023-06-08 01:01:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18414834]
+[2023-06-08 01:01:32] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-08 01:01:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-selve-new
+[2023-06-08 01:01:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: igneous-pipeline
+[2023-06-08 01:01:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: boxhed
+[2023-06-08 01:01:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: anova-wifi
+[2023-06-08 01:01:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: silverback
+[2023-06-08 01:01:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: BlaApi
+[2023-06-08 01:01:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: github4api
+[2023-06-08 01:01:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pydisort
+[2023-06-08 01:01:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: promptrix
+[2023-06-08 01:01:32] INFO root fetch - processPackages [python-selve-new]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-06-08 01:01:32] INFO root fetch - processPackages [silverback]: New version: [0.1.0b2] Old Version: [0.1.0b1]
+[2023-06-08 01:01:32] INFO root fetch - processPackages [promptrix]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-06-08 01:01:32] INFO root fetch - processPackages [pydisort]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-08 01:01:32] INFO root fetch - processPackages [boxhed]: New version: [2.0.6] Old Version: [2.0.4]
+[2023-06-08 01:01:32] INFO root fetch - processPackages [BlaApi]: New version: [1.4] Old Version: [1.3]
+[2023-06-08 01:01:32] INFO root fetch - processPackages [anova-wifi]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-08 01:01:32] WARNING root fetch - processPackages [github4api]: Skipping, unable to determine old version
+[2023-06-08 01:01:32] INFO root fetch - main [MainThread]: End processing [github4api] error
+[2023-06-08 01:01:32] INFO root fetch - processPackages [promptrix]: Downloading https://files.pythonhosted.org/packages/0e/04/23492bdf9692c8c7985da15789116df275542b78a99a7a86fc5d25802b7b/promptrix-0.1.9.tar.gz
+[2023-06-08 01:01:32] INFO root fetch - processPackages [boxhed]: Downloading https://files.pythonhosted.org/packages/cc/50/a8bec9dc8977bbf6d98fb5178972daac73a81170a7c427a370386a59d59d/boxhed-2.0.4.tar.gz
+[2023-06-08 01:01:32] INFO root fetch - processPackages [anova-wifi]: Downloading https://files.pythonhosted.org/packages/95/67/687d5c30c18fe48385dbdc6c9b7e014b1ec91f13aac162bc2887b727848f/anova_wifi-0.8.0.tar.gz
+[2023-06-08 01:01:32] INFO root fetch - processPackages [igneous-pipeline]: New version: [4.9.0] Old Version: [4.8.0]
+[2023-06-08 01:01:32] INFO root fetch - processPackages [silverback]: Downloading https://files.pythonhosted.org/packages/e6/fe/53a1c1900c55f7368b18f7de6b489bd2b0230c7f2ddf69920e80176df360/silverback-0.1.0b1.tar.gz
+[2023-06-08 01:01:32] INFO root fetch - processPackages [python-selve-new]: Downloading https://files.pythonhosted.org/packages/9c/7b/8da6c28a1d95ea941cb4570d330ccb8298d03c162e4c77cd595dbc6af640/python-selve-new-2.2.8.tar.gz
+[2023-06-08 01:01:32] INFO root fetch - processPackages [pydisort]: Downloading https://files.pythonhosted.org/packages/d9/e4/163b638213a38f6fca729bc07059ce97c8b60f50cfd19c1e1d31a9cd5853/pydisort-0.0.5.tar.gz
+[2023-06-08 01:01:32] INFO root fetch - processPackages [anova-wifi]: Downloading https://files.pythonhosted.org/packages/b4/ac/13d1ee9694792e5db2eb1972dc726e3ce77c1dbd032d8b5e887b95a73b39/anova_wifi-0.9.0.tar.gz
+[2023-06-08 01:01:32] INFO root fetch - processPackages [BlaApi]: Downloading https://files.pythonhosted.org/packages/9d/02/59c7c6405a64b4160f7ff2247ca671d80782dec212e55dccb3b1454bf57a/BlaApi-1.3.tar.gz
+[2023-06-08 01:01:32] INFO root fetch - processPackages [igneous-pipeline]: Downloading https://files.pythonhosted.org/packages/44/05/223f9d80d8186c5262b494d43d08c25a5a57a20ec768157db3caa282edce/igneous-pipeline-4.8.0.tar.gz
+[2023-06-08 01:01:32] INFO root fetch - processPackages [promptrix]: Downloading https://files.pythonhosted.org/packages/67/80/a516896744e0315846765fc79a318633508f1038cc4b0bbb02e04d4932cc/promptrix-0.2.0.tar.gz
+[2023-06-08 01:01:32] INFO root fetch - processPackages [boxhed]: Downloading https://files.pythonhosted.org/packages/70/b1/9e1600e48eed16deeea6669bc59312d70ced7840445eb33b4eb5ffb437cb/boxhed-2.0.6.tar.gz
+[2023-06-08 01:01:32] INFO root fetch - processPackages [anova-wifi]: executing diffoscope
+[2023-06-08 01:01:32] INFO root fetch - processPackages [anova-wifi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anova_wifi-0.8.0.tar.gz tmp/anova_wifi-0.9.0.tar.gz --markdown 20230608/a/anova-wifi/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-08 01:01:32] INFO root fetch - processPackages [python-selve-new]: Downloading https://files.pythonhosted.org/packages/97/7e/d1cf3b38c013c9cfd4ec33ee7f82cb06a7eeb0b5cb13be64f99370ada820/python-selve-new-2.2.9.tar.gz
+[2023-06-08 01:01:32] INFO root fetch - processPackages [boxhed]: executing diffoscope
+[2023-06-08 01:01:32] INFO root fetch - processPackages [boxhed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boxhed-2.0.4.tar.gz tmp/boxhed-2.0.6.tar.gz --markdown 20230608/b/boxhed/2.0.4-2.0.6/diff.md --exclude *.pyd
+[2023-06-08 01:01:32] INFO root fetch - processPackages [promptrix]: executing diffoscope
+[2023-06-08 01:01:32] INFO root fetch - processPackages [promptrix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/promptrix-0.1.9.tar.gz tmp/promptrix-0.2.0.tar.gz --markdown 20230608/p/promptrix/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-06-08 01:01:32] INFO root fetch - processPackages [silverback]: Downloading https://files.pythonhosted.org/packages/77/14/ba493f470e4ed8d51a25ecfd87e072b006f3a1f68923944be99f50362e57/silverback-0.1.0b2.tar.gz
+[2023-06-08 01:01:32] INFO root fetch - processPackages [BlaApi]: Downloading https://files.pythonhosted.org/packages/2f/dd/8a1aacde811c19118929780ded04bea1ae7d0e05fdbb1033ad1799f76745/BlaApi-1.4.tar.gz
+[2023-06-08 01:01:32] INFO root fetch - processPackages [pydisort]: Downloading https://files.pythonhosted.org/packages/38/47/f5816dcf235e8d43140b48cb765bea00eafb8fbb1a47f86f7fec5eadf65d/pydisort-0.0.6.tar.gz
+[2023-06-08 01:01:32] INFO root fetch - processPackages [python-selve-new]: executing diffoscope
+[2023-06-08 01:01:32] INFO root fetch - processPackages [python-selve-new]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-selve-new-2.2.8.tar.gz tmp/python-selve-new-2.2.9.tar.gz --markdown 20230608/p/python-selve-new/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-06-08 01:01:32] INFO root fetch - processPackages [igneous-pipeline]: Downloading https://files.pythonhosted.org/packages/73/89/99a97070bf7edb5db3d588a78566a88207c6a26324df583d79cf41561a44/igneous-pipeline-4.9.0.tar.gz
+[2023-06-08 01:01:33] INFO root fetch - processPackages [igneous-pipeline]: executing diffoscope
+[2023-06-08 01:01:33] INFO root fetch - processPackages [igneous-pipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/igneous-pipeline-4.8.0.tar.gz tmp/igneous-pipeline-4.9.0.tar.gz --markdown 20230608/i/igneous-pipeline/4.8.0-4.9.0/diff.md --exclude *.pyd
+[2023-06-08 01:01:33] INFO root fetch - processPackages [BlaApi]: executing diffoscope
+[2023-06-08 01:01:33] INFO root fetch - processPackages [BlaApi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BlaApi-1.3.tar.gz tmp/BlaApi-1.4.tar.gz --markdown 20230608/B/BlaApi/1.3-1.4/diff.md --exclude *.pyd
+[2023-06-08 01:01:33] INFO root fetch - processPackages [silverback]: executing diffoscope
+[2023-06-08 01:01:33] INFO root fetch - processPackages [silverback]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/silverback-0.1.0b1.tar.gz tmp/silverback-0.1.0b2.tar.gz --markdown 20230608/s/silverback/0.1.0b1-0.1.0b2/diff.md --exclude *.pyd
+[2023-06-08 01:01:33] INFO root fetch - processPackages [pydisort]: executing diffoscope
+[2023-06-08 01:01:33] INFO root fetch - processPackages [pydisort]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydisort-0.0.5.tar.gz tmp/pydisort-0.0.6.tar.gz --markdown 20230608/p/pydisort/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-08 01:01:34] INFO root fetch - processPackages [anova-wifi]: Remove: archive file [/home/abi/fetcher/tmp/anova_wifi-0.8.0.tar.gz]
+[2023-06-08 01:01:34] INFO root fetch - processPackages [anova-wifi]: Remove: archive file [/home/abi/fetcher/tmp/anova_wifi-0.9.0.tar.gz]
+[2023-06-08 01:01:34] INFO root fetch - main [MainThread]: End processing [anova-wifi]: success
+[2023-06-08 01:01:34] INFO root fetch - processPackages [boxhed]: Remove: archive file [/home/abi/fetcher/tmp/boxhed-2.0.4.tar.gz]
+[2023-06-08 01:01:34] INFO root fetch - processPackages [boxhed]: Remove: archive file [/home/abi/fetcher/tmp/boxhed-2.0.6.tar.gz]
+[2023-06-08 01:01:34] INFO root fetch - main [MainThread]: End processing [boxhed]: success
+[2023-06-08 01:01:34] INFO root fetch - processPackages [promptrix]: Remove: archive file [/home/abi/fetcher/tmp/promptrix-0.1.9.tar.gz]
+[2023-06-08 01:01:34] INFO root fetch - processPackages [promptrix]: Remove: archive file [/home/abi/fetcher/tmp/promptrix-0.2.0.tar.gz]
+[2023-06-08 01:01:34] INFO root fetch - main [MainThread]: End processing [promptrix]: success
+[2023-06-08 01:01:34] INFO root fetch - processPackages [BlaApi]: Remove: archive file [/home/abi/fetcher/tmp/BlaApi-1.3.tar.gz]
+[2023-06-08 01:01:34] INFO root fetch - processPackages [BlaApi]: Remove: archive file [/home/abi/fetcher/tmp/BlaApi-1.4.tar.gz]
+[2023-06-08 01:01:34] INFO root fetch - main [MainThread]: End processing [BlaApi]: success
+[2023-06-08 01:01:34] INFO root fetch - processPackages [silverback]: Remove: archive file [/home/abi/fetcher/tmp/silverback-0.1.0b1.tar.gz]
+[2023-06-08 01:01:34] INFO root fetch - processPackages [silverback]: Remove: archive file [/home/abi/fetcher/tmp/silverback-0.1.0b2.tar.gz]
+[2023-06-08 01:01:34] INFO root fetch - main [MainThread]: End processing [silverback]: success
+[2023-06-08 01:01:34] INFO root fetch - processPackages [igneous-pipeline]: Remove: archive file [/home/abi/fetcher/tmp/igneous-pipeline-4.8.0.tar.gz]
+[2023-06-08 01:01:34] INFO root fetch - processPackages [igneous-pipeline]: Remove: archive file [/home/abi/fetcher/tmp/igneous-pipeline-4.9.0.tar.gz]
+[2023-06-08 01:01:34] INFO root fetch - main [MainThread]: End processing [igneous-pipeline]: success
+[2023-06-08 01:01:35] INFO root fetch - processPackages [python-selve-new]: Remove: archive file [/home/abi/fetcher/tmp/python-selve-new-2.2.8.tar.gz]
+[2023-06-08 01:01:35] INFO root fetch - processPackages [python-selve-new]: Remove: archive file [/home/abi/fetcher/tmp/python-selve-new-2.2.9.tar.gz]
+[2023-06-08 01:01:35] INFO root fetch - main [MainThread]: End processing [python-selve-new]: success
+[2023-06-08 01:02:11] INFO root fetch - processPackages [pydisort]: Remove: archive file [/home/abi/fetcher/tmp/pydisort-0.0.5.tar.gz]
+[2023-06-08 01:02:11] INFO root fetch - processPackages [pydisort]: Remove: archive file [/home/abi/fetcher/tmp/pydisort-0.0.6.tar.gz]
+[2023-06-08 01:02:11] INFO root fetch - main [MainThread]: End processing [pydisort]: success
+[2023-06-08 01:02:11] INFO root fetch - main [MainThread]: Store serial: [18414864]
