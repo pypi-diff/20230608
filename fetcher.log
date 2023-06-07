@@ -1386,3 +1386,100 @@ EOFError: EOF read where object expected
 [2023-06-08 01:46:43] INFO root fetch - processPackages [ddtrace]: Remove: archive file [/home/abi/fetcher/tmp/ddtrace-1.9.7.tar.gz]
 [2023-06-08 01:46:43] INFO root fetch - main [MainThread]: End processing [ddtrace]: success
 [2023-06-08 01:46:43] INFO root fetch - main [MainThread]: Store serial: [18415163]
+[2023-06-08 01:51:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18415163]
+[2023-06-08 01:51:52] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-08 01:51:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ovos-backend-client
+[2023-06-08 01:51:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: LiamHsieh-toolbox
+[2023-06-08 01:51:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: a2y-wxtools
+[2023-06-08 01:51:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: chalkpy
+[2023-06-08 01:51:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pipd
+[2023-06-08 01:51:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mfconv
+[2023-06-08 01:51:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: autogluon.bench
+[2023-06-08 01:51:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyrademacher
+[2023-06-08 01:51:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: LiamHsieh-toolbox
+[2023-06-08 01:51:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: certora-cli-alpha-master
+[2023-06-08 01:51:52] INFO root fetch - processPackages [a2y-wxtools]: New version: [0.9.7] Old Version: [0.9.6]
+[2023-06-08 01:51:52] INFO root fetch - processPackages [LiamHsieh-toolbox]: New version: [0.3.4.5] Old Version: [0.3.4.4]
+[2023-06-08 01:51:52] INFO root fetch - processPackages [LiamHsieh-toolbox]: New version: [0.3.4.5] Old Version: [0.3.4.4]
+[2023-06-08 01:51:52] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230607.5.39.585147] Old Version: [20230607.23.49.347773]
+[2023-06-08 01:51:52] WARNING root fetch - processPackages [mfconv]: Skipping, unable to determine old version
+[2023-06-08 01:51:52] INFO root fetch - processPackages [autogluon.bench]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-08 01:51:52] INFO root fetch - processPackages [mfconv]: Start processing: faceshine
+[2023-06-08 01:51:52] INFO root fetch - processPackages [ovos-backend-client]: New version: [0.0.7a9] Old Version: [0.0.7a8]
+[2023-06-08 01:51:52] INFO root fetch - processPackages [pyrademacher]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-06-08 01:51:52] INFO root fetch - main [MainThread]: End processing [mfconv] error
+[2023-06-08 01:51:52] INFO root fetch - processPackages [pipd]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-08 01:51:52] INFO root fetch - processPackages [chalkpy]: New version: [2.7.0] Old Version: [2.6.8]
+[2023-06-08 01:51:52] INFO root fetch - processPackages [faceshine]: New version: [1.0.2] Old Version: [1.0.0]
+[2023-06-08 01:51:52] INFO root fetch - processPackages [faceshine]: Downloading https://files.pythonhosted.org/packages/0e/0f/746d986340b911f9da4d437780689a91d69a3b0978b046586e7b750fc6b8/faceshine-1.0.0-py3-none-any.whl
+[2023-06-08 01:51:52] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/5e/19/37d2afa8d77f5744bbd384b09c40ca7d8bfdd3ad3524d07aaf9873d9909d/certora-cli-alpha-master-20230607.23.49.347773.tar.gz
+[2023-06-08 01:51:52] INFO root fetch - processPackages [LiamHsieh-toolbox]: Downloading https://files.pythonhosted.org/packages/63/09/33951da13db37e8c8c7bcfd57eaba72777bc92b7ad32d6f07d6cc9372ad7/LiamHsieh%20toolbox-0.3.4.4.tar.gz
+[2023-06-08 01:51:52] INFO root fetch - processPackages [ovos-backend-client]: Downloading https://files.pythonhosted.org/packages/96/e1/130197dc645bbb769aa2ef938e31d7d12d734c681494df657a5d89c1c763/ovos-backend-client-0.0.7a8.tar.gz
+[2023-06-08 01:51:52] INFO root fetch - processPackages [LiamHsieh-toolbox]: Downloading https://files.pythonhosted.org/packages/63/09/33951da13db37e8c8c7bcfd57eaba72777bc92b7ad32d6f07d6cc9372ad7/LiamHsieh%20toolbox-0.3.4.4.tar.gz
+[2023-06-08 01:51:52] INFO root fetch - processPackages [pyrademacher]: Downloading https://files.pythonhosted.org/packages/75/f9/e46749d7be8c595dcc268f1012bcd36bdd1a1662bb3da940fe394453940a/pyrademacher-0.9.2.tar.gz
+[2023-06-08 01:51:52] INFO root fetch - processPackages [autogluon.bench]: Downloading https://files.pythonhosted.org/packages/a0/66/bfeb245ceda54d20a783dbd05dbcc2f310536f218f5c07f1c2b27b4e567a/autogluon.bench-0.0.3.tar.gz
+[2023-06-08 01:51:52] INFO root fetch - processPackages [pipd]: Downloading https://files.pythonhosted.org/packages/3c/42/7f318a078c542e93cc6c1b9d5ac0d9807778fcc842255ad588dfb3347937/pipd-0.1.5.tar.gz
+[2023-06-08 01:51:52] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 39281258>=10485760
+[2023-06-08 01:51:52] INFO root fetch - processPackages [certora-cli-alpha-master]: Start processing: kogito
+[2023-06-08 01:51:52] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-06-08 01:51:52] INFO root fetch - processPackages [faceshine]: Downloading https://files.pythonhosted.org/packages/8e/53/985621167e87eef983596990f10a4883e9b11d5bae02db7527ccf78e8e62/faceshine-1.0.2-py3-none-any.whl
+[2023-06-08 01:51:53] INFO root fetch - processPackages [chalkpy]: Downloading https://files.pythonhosted.org/packages/8a/a4/08d9b35ed3bfdb0542e972a8e6dd289fc78763b0b06d072cd56da14097ae/chalkpy-2.7.0.tar.gz
+[2023-06-08 01:51:53] INFO root fetch - processPackages [a2y-wxtools]: Downloading https://files.pythonhosted.org/packages/48/a7/a36dbde1f0526e7e1c13d68f628620023f62843b2674f8cc4fdc6cf1825b/a2y_wxtools-0.9.7-cp36-cp36m-win32.whl
+[2023-06-08 01:51:53] INFO root fetch - processPackages [LiamHsieh-toolbox]: Downloading https://files.pythonhosted.org/packages/71/f7/1460e2885a128535a1fcacd7c2bdd93b4393c024a025a8b95774752ea1ab/LiamHsieh%20toolbox-0.3.4.5.tar.gz
+[2023-06-08 01:51:53] INFO root fetch - processPackages [kogito]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-06-08 01:51:53] INFO root fetch - processPackages [faceshine]: executing diffoscope
+[2023-06-08 01:51:53] INFO root fetch - processPackages [faceshine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/faceshine-1.0.0-py3-none-any.whl.zip tmp/faceshine-1.0.2-py3-none-any.whl.zip --markdown 20230608/f/faceshine/1.0.0-1.0.2/diff.md --exclude *.pyd
+[2023-06-08 01:51:53] INFO root fetch - processPackages [LiamHsieh-toolbox]: Downloading https://files.pythonhosted.org/packages/71/f7/1460e2885a128535a1fcacd7c2bdd93b4393c024a025a8b95774752ea1ab/LiamHsieh%20toolbox-0.3.4.5.tar.gz
+[2023-06-08 01:51:53] INFO root fetch - processPackages [chalkpy]: executing diffoscope
+[2023-06-08 01:51:53] INFO root fetch - processPackages [chalkpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chalkpy-2.6.8.tar.gz tmp/chalkpy-2.7.0.tar.gz --markdown 20230608/c/chalkpy/2.6.8-2.7.0/diff.md --exclude *.pyd
+[2023-06-08 01:51:53] INFO root fetch - processPackages [a2y-wxtools]: executing diffoscope
+[2023-06-08 01:51:53] INFO root fetch - processPackages [a2y-wxtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/a2y_wxtools-0.9.6-cp36-cp36m-win32.whl.zip tmp/a2y_wxtools-0.9.7-cp36-cp36m-win32.whl.zip --markdown 20230608/a/a2y-wxtools/0.9.6-0.9.7/diff.md --exclude *.pyd
+[2023-06-08 01:51:53] INFO root fetch - processPackages [LiamHsieh-toolbox]: executing diffoscope
+[2023-06-08 01:51:53] INFO root fetch - processPackages [LiamHsieh-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LiamHsieh toolbox-0.3.4.4.tar.gz tmp/LiamHsieh toolbox-0.3.4.5.tar.gz --markdown 20230608/L/LiamHsieh-toolbox/0.3.4.4-0.3.4.5/diff.md --exclude *.pyd
+[2023-06-08 01:51:53] INFO root fetch - processPackages [LiamHsieh-toolbox]: executing diffoscope
+[2023-06-08 01:51:53] INFO root fetch - processPackages [LiamHsieh-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LiamHsieh toolbox-0.3.4.4.tar.gz tmp/LiamHsieh toolbox-0.3.4.5.tar.gz --markdown 20230608/L/LiamHsieh-toolbox/0.3.4.4-0.3.4.5/diff.md --exclude *.pyd
+[2023-06-08 01:51:53] INFO root fetch - processPackages [pipd]: Downloading https://files.pythonhosted.org/packages/da/9f/0978dd181004467705565433ea4160e553f922e1f8562104de3de3c2af95/pipd-0.1.6.tar.gz
+[2023-06-08 01:51:53] INFO root fetch - processPackages [pyrademacher]: Downloading https://files.pythonhosted.org/packages/91/90/69e431581ceefc5e108cecc815f8f2e7e16c9ce1057b58720c27aeac3bb8/pyrademacher-0.9.3.tar.gz
+[2023-06-08 01:51:53] INFO root fetch - processPackages [ovos-backend-client]: Downloading https://files.pythonhosted.org/packages/11/23/0c3f41de15ec10dee2ffa2286c06ab39bac27cd14f85af99b20526d50f09/ovos-backend-client-0.0.7a9.tar.gz
+[2023-06-08 01:51:53] INFO root fetch - processPackages [kogito]: Downloading https://files.pythonhosted.org/packages/d1/ac/3e40a5cd78f281368760bbe829f595a22b3a7fdf5658c7ade80bccd0e96a/kogito-0.6.0.tar.gz
+[2023-06-08 01:51:53] INFO root fetch - processPackages [autogluon.bench]: Downloading https://files.pythonhosted.org/packages/17/c0/434f15078c6f463564d1575e94901ea9e8984eff55d23b7fe024957a10a9/autogluon.bench-0.0.4.tar.gz
+[2023-06-08 01:51:53] INFO root fetch - processPackages [pipd]: executing diffoscope
+[2023-06-08 01:51:53] INFO root fetch - processPackages [pipd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipd-0.1.5.tar.gz tmp/pipd-0.1.6.tar.gz --markdown 20230608/p/pipd/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-08 01:51:53] INFO root fetch - processPackages [pyrademacher]: executing diffoscope
+[2023-06-08 01:51:53] INFO root fetch - processPackages [pyrademacher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrademacher-0.9.2.tar.gz tmp/pyrademacher-0.9.3.tar.gz --markdown 20230608/p/pyrademacher/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-06-08 01:51:53] INFO root fetch - processPackages [autogluon.bench]: executing diffoscope
+[2023-06-08 01:51:53] INFO root fetch - processPackages [autogluon.bench]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.bench-0.0.3.tar.gz tmp/autogluon.bench-0.0.4.tar.gz --markdown 20230608/a/autogluon.bench/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-08 01:51:53] INFO root fetch - processPackages [ovos-backend-client]: executing diffoscope
+[2023-06-08 01:51:53] INFO root fetch - processPackages [ovos-backend-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos-backend-client-0.0.7a8.tar.gz tmp/ovos-backend-client-0.0.7a9.tar.gz --markdown 20230608/o/ovos-backend-client/0.0.7a8-0.0.7a9/diff.md --exclude *.pyd
+[2023-06-08 01:51:54] INFO root fetch - processPackages [kogito]: Downloading https://files.pythonhosted.org/packages/ab/d6/3e03b89fdceb24b31ca8e1dbda332d2fb15bc1e52b4c15a78b301bc15c84/kogito-0.6.1.tar.gz
+[2023-06-08 01:51:54] INFO root fetch - processPackages [a2y-wxtools]: Remove: archive file [/home/abi/fetcher/tmp/a2y_wxtools-0.9.6-cp36-cp36m-win32.whl.zip]
+[2023-06-08 01:51:54] INFO root fetch - processPackages [a2y-wxtools]: Remove: archive file [/home/abi/fetcher/tmp/a2y_wxtools-0.9.7-cp36-cp36m-win32.whl.zip]
+[2023-06-08 01:51:54] INFO root fetch - main [MainThread]: End processing [a2y-wxtools]: success
+[2023-06-08 01:51:54] INFO root fetch - processPackages [faceshine]: Remove: archive file [/home/abi/fetcher/tmp/faceshine-1.0.0-py3-none-any.whl.zip]
+[2023-06-08 01:51:54] INFO root fetch - processPackages [faceshine]: Remove: archive file [/home/abi/fetcher/tmp/faceshine-1.0.2-py3-none-any.whl.zip]
+[2023-06-08 01:51:54] INFO root fetch - main [MainThread]: End processing [faceshine]: success
+[2023-06-08 01:51:54] INFO root fetch - processPackages [LiamHsieh-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/LiamHsieh toolbox-0.3.4.4.tar.gz]
+[2023-06-08 01:51:54] INFO root fetch - processPackages [LiamHsieh-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/LiamHsieh toolbox-0.3.4.5.tar.gz]
+[2023-06-08 01:51:54] INFO root fetch - main [MainThread]: End processing [LiamHsieh-toolbox]: success
+[2023-06-08 01:51:54] INFO root fetch - main [MainThread]: End processing [LiamHsieh-toolbox]: success
+[2023-06-08 01:51:54] INFO root fetch - processPackages [pipd]: Remove: archive file [/home/abi/fetcher/tmp/pipd-0.1.5.tar.gz]
+[2023-06-08 01:51:54] INFO root fetch - processPackages [pipd]: Remove: archive file [/home/abi/fetcher/tmp/pipd-0.1.6.tar.gz]
+[2023-06-08 01:51:54] INFO root fetch - main [MainThread]: End processing [pipd]: success
+[2023-06-08 01:51:55] INFO root fetch - processPackages [kogito]: executing diffoscope
+[2023-06-08 01:51:55] INFO root fetch - processPackages [kogito]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kogito-0.6.0.tar.gz tmp/kogito-0.6.1.tar.gz --markdown 20230608/k/kogito/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-06-08 01:51:55] INFO root fetch - processPackages [ovos-backend-client]: Remove: archive file [/home/abi/fetcher/tmp/ovos-backend-client-0.0.7a8.tar.gz]
+[2023-06-08 01:51:55] INFO root fetch - processPackages [ovos-backend-client]: Remove: archive file [/home/abi/fetcher/tmp/ovos-backend-client-0.0.7a9.tar.gz]
+[2023-06-08 01:51:55] INFO root fetch - main [MainThread]: End processing [ovos-backend-client]: success
+[2023-06-08 01:51:55] INFO root fetch - processPackages [pyrademacher]: Remove: archive file [/home/abi/fetcher/tmp/pyrademacher-0.9.2.tar.gz]
+[2023-06-08 01:51:55] INFO root fetch - processPackages [pyrademacher]: Remove: archive file [/home/abi/fetcher/tmp/pyrademacher-0.9.3.tar.gz]
+[2023-06-08 01:51:55] INFO root fetch - main [MainThread]: End processing [pyrademacher]: success
+[2023-06-08 01:51:56] INFO root fetch - processPackages [autogluon.bench]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.bench-0.0.3.tar.gz]
+[2023-06-08 01:51:56] INFO root fetch - processPackages [autogluon.bench]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.bench-0.0.4.tar.gz]
+[2023-06-08 01:51:56] INFO root fetch - main [MainThread]: End processing [autogluon.bench]: success
+[2023-06-08 01:51:56] INFO root fetch - processPackages [kogito]: Remove: archive file [/home/abi/fetcher/tmp/kogito-0.6.0.tar.gz]
+[2023-06-08 01:51:56] INFO root fetch - processPackages [kogito]: Remove: archive file [/home/abi/fetcher/tmp/kogito-0.6.1.tar.gz]
+[2023-06-08 01:51:56] INFO root fetch - main [MainThread]: End processing [kogito]: success
+[2023-06-08 01:52:01] INFO root fetch - processPackages [chalkpy]: Remove: archive file [/home/abi/fetcher/tmp/chalkpy-2.6.8.tar.gz]
+[2023-06-08 01:52:01] INFO root fetch - processPackages [chalkpy]: Remove: archive file [/home/abi/fetcher/tmp/chalkpy-2.7.0.tar.gz]
+[2023-06-08 01:52:01] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
+[2023-06-08 01:52:01] INFO root fetch - main [MainThread]: Store serial: [18415237]
