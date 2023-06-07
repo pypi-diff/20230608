@@ -478,3 +478,65 @@ EOFError: EOF read where object expected
 [2023-06-08 00:29:10] INFO root fetch - processPackages [srspy]: Remove: archive file [/home/abi/fetcher/tmp/srspy-0.0.2.tar.gz]
 [2023-06-08 00:29:10] INFO root fetch - main [MainThread]: End processing [srspy]: success
 [2023-06-08 00:29:10] INFO root fetch - main [MainThread]: Store serial: [18414661]
+[2023-06-08 00:34:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18414661]
+[2023-06-08 00:34:19] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-08 00:34:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: neon-skill-speed-test
+[2023-06-08 00:34:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: anova-wifi
+[2023-06-08 00:34:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-oscar-bluelight
+[2023-06-08 00:34:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: redoubt-agent
+[2023-06-08 00:34:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gradio
+[2023-06-08 00:34:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: easyapi-django
+[2023-06-08 00:34:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: geovista-slam
+[2023-06-08 00:34:19] INFO root fetch - processPackages [gradio]: New version: [3.9.1] Old Version: [3.9]
+[2023-06-08 00:34:19] INFO root fetch - processPackages [django-oscar-bluelight]: New version: [5.4.0b2] Old Version: [5.4.0b1]
+[2023-06-08 00:34:19] INFO root fetch - processPackages [redoubt-agent]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-06-08 00:34:19] INFO root fetch - processPackages [anova-wifi]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-08 00:34:19] INFO root fetch - processPackages [redoubt-agent]: Downloading https://files.pythonhosted.org/packages/15/72/a5744dc00910fa707e7e4a321eae309e525fb44a971ad43005649350a78c/redoubt_agent-0.1.98.tar.gz
+[2023-06-08 00:34:19] INFO root fetch - processPackages [neon-skill-speed-test]: New version: [0.5.1a1] Old Version: [0.5.0]
+[2023-06-08 00:34:19] INFO root fetch - processPackages [easyapi-django]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-08 00:34:19] INFO root fetch - processPackages [geovista-slam]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-08 00:34:19] INFO root fetch - processPackages [django-oscar-bluelight]: Downloading https://files.pythonhosted.org/packages/ac/ee/918142ad85884fbc0490dd7f25e3a647f2c24b4b2fabb00b7f0fcbfb097a/django-oscar-bluelight-5.4.0b1.tar.gz
+[2023-06-08 00:34:19] INFO root fetch - processPackages [gradio]: Downloading https://files.pythonhosted.org/packages/b2/2d/f8dc88b392cdaac54b5bf6b56af321211f705494f4a0b2a1589717c06ff5/gradio-3.9.tar.gz
+[2023-06-08 00:34:19] INFO root fetch - processPackages [anova-wifi]: Downloading https://files.pythonhosted.org/packages/95/67/687d5c30c18fe48385dbdc6c9b7e014b1ec91f13aac162bc2887b727848f/anova_wifi-0.8.0.tar.gz
+[2023-06-08 00:34:19] INFO root fetch - processPackages [neon-skill-speed-test]: Downloading https://files.pythonhosted.org/packages/44/af/499323051d63b975766122ae2df3affbc22a3276a4d3e2a7b874f7ca2b41/neon_skill_speed_test-0.5.0-py3-none-any.whl
+[2023-06-08 00:34:19] INFO root fetch - processPackages [redoubt-agent]: Downloading https://files.pythonhosted.org/packages/38/24/a49e61461ed71bb8143acea5a50b4a9e2fcf25ddf7855b6fc80f51c5caa0/redoubt_agent-0.1.99.tar.gz
+[2023-06-08 00:34:19] INFO root fetch - processPackages [easyapi-django]: Downloading https://files.pythonhosted.org/packages/95/09/0a6b31ed99ff9e717b38e2df00ebdc3e4db5e87f43f04a96d487c3ebf61e/easyapi_django-0.0.8.tar.gz
+[2023-06-08 00:34:19] INFO root fetch - processPackages [geovista-slam]: Downloading https://files.pythonhosted.org/packages/69/e3/6b7329af2faeb41c3cb22e8bab644fbeb5f852c8e09a14cca4a20c165fcb/geovista-slam-0.1.2.tar.gz
+[2023-06-08 00:34:19] WARNING root fetch - processPackages [gradio]: Skipping package: exceeds size limit 12444246>=10485760
+[2023-06-08 00:34:19] INFO root fetch - main [MainThread]: End processing [gradio] error
+[2023-06-08 00:34:19] INFO root fetch - processPackages [redoubt-agent]: executing diffoscope
+[2023-06-08 00:34:19] INFO root fetch - processPackages [redoubt-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redoubt_agent-0.1.98.tar.gz tmp/redoubt_agent-0.1.99.tar.gz --markdown 20230608/r/redoubt-agent/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-06-08 00:34:19] INFO root fetch - processPackages [anova-wifi]: Downloading https://files.pythonhosted.org/packages/b4/ac/13d1ee9694792e5db2eb1972dc726e3ce77c1dbd032d8b5e887b95a73b39/anova_wifi-0.9.0.tar.gz
+[2023-06-08 00:34:19] INFO root fetch - processPackages [django-oscar-bluelight]: Downloading https://files.pythonhosted.org/packages/77/94/cb29ff2acc9245d5cc6124f6808197b45f0a4d9df484821e63c752e224ac/django-oscar-bluelight-5.4.0b2.tar.gz
+[2023-06-08 00:34:19] INFO root fetch - processPackages [neon-skill-speed-test]: Downloading https://files.pythonhosted.org/packages/a6/48/fbd3540561051e9d76da49daca65251ac3deb416425cf80440c4c53a18fd/neon_skill_speed_test-0.5.1a1-py3-none-any.whl
+[2023-06-08 00:34:20] INFO root fetch - processPackages [geovista-slam]: Downloading https://files.pythonhosted.org/packages/93/c0/eadeeca50aff122d7eccde9ccea3f8d6c8df7ccfded028bb29cb8f8aff48/geovista-slam-0.1.3.tar.gz
+[2023-06-08 00:34:20] INFO root fetch - processPackages [anova-wifi]: executing diffoscope
+[2023-06-08 00:34:20] INFO root fetch - processPackages [anova-wifi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anova_wifi-0.8.0.tar.gz tmp/anova_wifi-0.9.0.tar.gz --markdown 20230608/a/anova-wifi/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-08 00:34:20] INFO root fetch - processPackages [neon-skill-speed-test]: executing diffoscope
+[2023-06-08 00:34:20] INFO root fetch - processPackages [neon-skill-speed-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon_skill_speed_test-0.5.0-py3-none-any.whl.zip tmp/neon_skill_speed_test-0.5.1a1-py3-none-any.whl.zip --markdown 20230608/n/neon-skill-speed-test/0.5.0-0.5.1a1/diff.md --exclude *.pyd
+[2023-06-08 00:34:20] INFO root fetch - processPackages [easyapi-django]: Downloading https://files.pythonhosted.org/packages/95/62/c460ae663ba5b8e9d71d071d3ec9427fbf583cfffe09c89d267e24fe810f/easyapi_django-0.0.9.tar.gz
+[2023-06-08 00:34:20] INFO root fetch - processPackages [django-oscar-bluelight]: executing diffoscope
+[2023-06-08 00:34:20] INFO root fetch - processPackages [django-oscar-bluelight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-oscar-bluelight-5.4.0b1.tar.gz tmp/django-oscar-bluelight-5.4.0b2.tar.gz --markdown 20230608/d/django-oscar-bluelight/5.4.0b1-5.4.0b2/diff.md --exclude *.pyd
+[2023-06-08 00:34:20] INFO root fetch - processPackages [geovista-slam]: executing diffoscope
+[2023-06-08 00:34:20] INFO root fetch - processPackages [geovista-slam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geovista-slam-0.1.2.tar.gz tmp/geovista-slam-0.1.3.tar.gz --markdown 20230608/g/geovista-slam/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-08 00:34:20] INFO root fetch - processPackages [easyapi-django]: executing diffoscope
+[2023-06-08 00:34:20] INFO root fetch - processPackages [easyapi-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easyapi_django-0.0.8.tar.gz tmp/easyapi_django-0.0.9.tar.gz --markdown 20230608/e/easyapi-django/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-08 00:34:20] INFO root fetch - processPackages [redoubt-agent]: Remove: archive file [/home/abi/fetcher/tmp/redoubt_agent-0.1.98.tar.gz]
+[2023-06-08 00:34:20] INFO root fetch - processPackages [redoubt-agent]: Remove: archive file [/home/abi/fetcher/tmp/redoubt_agent-0.1.99.tar.gz]
+[2023-06-08 00:34:20] INFO root fetch - main [MainThread]: End processing [redoubt-agent]: success
+[2023-06-08 00:34:21] INFO root fetch - processPackages [anova-wifi]: Remove: archive file [/home/abi/fetcher/tmp/anova_wifi-0.8.0.tar.gz]
+[2023-06-08 00:34:21] INFO root fetch - processPackages [anova-wifi]: Remove: archive file [/home/abi/fetcher/tmp/anova_wifi-0.9.0.tar.gz]
+[2023-06-08 00:34:21] INFO root fetch - main [MainThread]: End processing [anova-wifi]: success
+[2023-06-08 00:34:21] INFO root fetch - processPackages [neon-skill-speed-test]: Remove: archive file [/home/abi/fetcher/tmp/neon_skill_speed_test-0.5.0-py3-none-any.whl.zip]
+[2023-06-08 00:34:21] INFO root fetch - processPackages [neon-skill-speed-test]: Remove: archive file [/home/abi/fetcher/tmp/neon_skill_speed_test-0.5.1a1-py3-none-any.whl.zip]
+[2023-06-08 00:34:21] INFO root fetch - main [MainThread]: End processing [neon-skill-speed-test]: success
+[2023-06-08 00:34:21] INFO root fetch - processPackages [geovista-slam]: Remove: archive file [/home/abi/fetcher/tmp/geovista-slam-0.1.2.tar.gz]
+[2023-06-08 00:34:21] INFO root fetch - processPackages [geovista-slam]: Remove: archive file [/home/abi/fetcher/tmp/geovista-slam-0.1.3.tar.gz]
+[2023-06-08 00:34:21] INFO root fetch - main [MainThread]: End processing [geovista-slam]: success
+[2023-06-08 00:34:21] INFO root fetch - processPackages [easyapi-django]: Remove: archive file [/home/abi/fetcher/tmp/easyapi_django-0.0.8.tar.gz]
+[2023-06-08 00:34:21] INFO root fetch - processPackages [easyapi-django]: Remove: archive file [/home/abi/fetcher/tmp/easyapi_django-0.0.9.tar.gz]
+[2023-06-08 00:34:21] INFO root fetch - main [MainThread]: End processing [easyapi-django]: success
+[2023-06-08 00:34:26] INFO root fetch - processPackages [django-oscar-bluelight]: Remove: archive file [/home/abi/fetcher/tmp/django-oscar-bluelight-5.4.0b1.tar.gz]
+[2023-06-08 00:34:26] INFO root fetch - processPackages [django-oscar-bluelight]: Remove: archive file [/home/abi/fetcher/tmp/django-oscar-bluelight-5.4.0b2.tar.gz]
+[2023-06-08 00:34:26] INFO root fetch - main [MainThread]: End processing [django-oscar-bluelight]: success
+[2023-06-08 00:34:26] INFO root fetch - main [MainThread]: Store serial: [18414697]
