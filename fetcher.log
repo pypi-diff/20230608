@@ -20806,3 +20806,159 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-06-08 10:51:27] INFO root fetch - main [MainThread]: End processing [leap-model-parser]: success
 [2023-06-08 10:51:27] INFO root fetch - main [MainThread]: End processing [leap-model-parser]: success
 [2023-06-08 10:51:27] INFO root fetch - main [MainThread]: Store serial: [18421671]
+[2023-06-08 10:56:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18421671]
+[2023-06-08 10:56:37] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-06-08 10:56:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: madtypes
+[2023-06-08 10:56:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mistune
+[2023-06-08 10:56:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: checkov
+[2023-06-08 10:56:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zipline-tej
+[2023-06-08 10:56:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: emoji
+[2023-06-08 10:56:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: yandex-speechkit
+[2023-06-08 10:56:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ocellus
+[2023-06-08 10:56:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: automation-file-dev
+[2023-06-08 10:56:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: trl
+[2023-06-08 10:56:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: actymath
+[2023-06-08 10:56:37] INFO root fetch - processPackages [madtypes]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-08 10:56:37] INFO root fetch - processPackages [mistune]: New version: [3.0.0rc5] Old Version: [3.0.0rc4]
+[2023-06-08 10:56:37] INFO root fetch - processPackages [yandex-speechkit]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-06-08 10:56:37] INFO root fetch - processPackages [ocellus]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-08 10:56:37] INFO root fetch - processPackages [emoji]: New version: [2.5.0] Old Version: [2.4.0]
+[2023-06-08 10:56:37] INFO root fetch - processPackages [actymath]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-08 10:56:37] INFO root fetch - processPackages [trl]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-06-08 10:56:37] INFO root fetch - processPackages [automation-file-dev]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-08 10:56:37] INFO root fetch - processPackages [zipline-tej]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-08 10:56:37] INFO root fetch - processPackages [checkov]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-06-08 10:56:37] INFO root fetch - processPackages [zipline-tej]: Downloading https://files.pythonhosted.org/packages/81/74/1c77fcc7996870f973250f70f5fd993fbdf66e25b3c8f01eb1d263d75c6a/zipline-tej-0.0.8.tar.gz
+[2023-06-08 10:56:37] INFO root fetch - processPackages [yandex-speechkit]: Downloading https://files.pythonhosted.org/packages/2e/53/8979200aa8e3fe7fb24aff43386e64dc5914c5ba6b3f011f7df59cab19fd/yandex_speechkit-1.3.0-py3-none-any.whl
+[2023-06-08 10:56:37] INFO root fetch - processPackages [trl]: Downloading https://files.pythonhosted.org/packages/d8/03/ce40d6497ae8c2269e733879d97bd894027607fab15a64c662b9a1617441/trl-0.4.2-py3-none-any.whl
+[2023-06-08 10:56:37] INFO root fetch - processPackages [checkov]: Downloading https://files.pythonhosted.org/packages/8f/c0/b3713d4cbc03ff63d42af6bc96060bf07ac510f578af21d0beb23a58ebd5/checkov-2.3.98.tar.gz
+[2023-06-08 10:56:37] INFO root fetch - processPackages [emoji]: Downloading https://files.pythonhosted.org/packages/8e/a6/37e16414bb538ed3e45d7e8ab1e3ba975c058b3a14a2e9a2094fa370a909/emoji-2.4.0.tar.gz
+[2023-06-08 10:56:37] INFO root fetch - processPackages [mistune]: Downloading https://files.pythonhosted.org/packages/02/ff/e7ace92569201aca09b178355505fefe24824e237ff526847337953a2900/mistune-3.0.0rc4.tar.gz
+[2023-06-08 10:56:37] INFO root fetch - processPackages [actymath]: Downloading https://files.pythonhosted.org/packages/f7/1a/34d8827f5e7b16a129d0cc34a80cabab69128228e76aff0df979791c4626/actymath-0.1.2.tar.gz
+[2023-06-08 10:56:37] INFO root fetch - processPackages [zipline-tej]: Downloading https://files.pythonhosted.org/packages/84/15/b5579d7eb6cdb4cc9d6c22c0f36086080b26eabdda5b9d6a1f9a7f8f8df6/zipline-tej-0.0.9.tar.gz
+[2023-06-08 10:56:37] INFO root fetch - processPackages [madtypes]: Downloading https://files.pythonhosted.org/packages/f2/2e/5dadfb9640a7814a6741ecbf42709354dc3c0a657f29693c996d83aa8d27/madtypes-0.0.8.tar.gz
+[2023-06-08 10:56:37] INFO root fetch - processPackages [automation-file-dev]: Downloading https://files.pythonhosted.org/packages/58/b3/bec041a8fd1c1b313b3bea3f9d6c62f73a29b230f98f0f4ebe07b0286749/automation_file_dev-0.0.5.tar.gz
+[2023-06-08 10:56:37] INFO root fetch - processPackages [ocellus]: Downloading https://files.pythonhosted.org/packages/72/ef/a223f62b12bf84e783e7f0eff96182e4184c33ebf4d7ec02218cc74fa0d1/ocellus-0.1.8.tar.gz
+[2023-06-08 10:56:37] INFO root fetch - processPackages [yandex-speechkit]: Downloading https://files.pythonhosted.org/packages/bf/9f/efd021c4ddca7f0e40506bcefa9a54cd7d27becc8c97fdb5b08a20616c63/yandex_speechkit-1.3.1-py3-none-any.whl
+[2023-06-08 10:56:37] INFO root fetch - processPackages [checkov]: Downloading https://files.pythonhosted.org/packages/36/b2/faea7cf4d04d72880327d7e73a0327922cb8cd1c61a51e8fd38f344e9f2f/checkov-2.3.99.tar.gz
+[2023-06-08 10:56:37] INFO root fetch - processPackages [checkov]: executing diffoscope
+[2023-06-08 10:56:37] INFO root fetch - processPackages [checkov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkov-2.3.98.tar.gz tmp/checkov-2.3.99.tar.gz --markdown 20230608/c/checkov/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-06-08 10:56:37] INFO root fetch - processPackages [trl]: Downloading https://files.pythonhosted.org/packages/68/62/067acc116c1ac44853a24d6121ae8986504db276bd9de964d333e02a4e25/trl-0.4.3-py3-none-any.whl
+[2023-06-08 10:56:37] INFO root fetch - processPackages [yandex-speechkit]: executing diffoscope
+[2023-06-08 10:56:37] INFO root fetch - processPackages [yandex-speechkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yandex_speechkit-1.3.0-py3-none-any.whl.zip tmp/yandex_speechkit-1.3.1-py3-none-any.whl.zip --markdown 20230608/y/yandex-speechkit/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-06-08 10:56:37] INFO root fetch - processPackages [zipline-tej]: executing diffoscope
+[2023-06-08 10:56:37] INFO root fetch - processPackages [zipline-tej]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zipline-tej-0.0.8.tar.gz tmp/zipline-tej-0.0.9.tar.gz --markdown 20230608/z/zipline-tej/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-08 10:56:37] INFO root fetch - processPackages [trl]: executing diffoscope
+[2023-06-08 10:56:37] INFO root fetch - processPackages [trl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trl-0.4.2-py3-none-any.whl.zip tmp/trl-0.4.3-py3-none-any.whl.zip --markdown 20230608/t/trl/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-06-08 10:56:37] INFO root fetch - processPackages [emoji]: Downloading https://files.pythonhosted.org/packages/97/32/76ad03dfe94ca7753986974f914b31150323608339c2eafbc4c068bc3049/emoji-2.5.0.tar.gz
+[2023-06-08 10:56:37] INFO root fetch - processPackages [emoji]: executing diffoscope
+[2023-06-08 10:56:37] INFO root fetch - processPackages [emoji]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emoji-2.4.0.tar.gz tmp/emoji-2.5.0.tar.gz --markdown 20230608/e/emoji/2.4.0-2.5.0/diff.md --exclude *.pyd
+[2023-06-08 10:56:37] INFO root fetch - processPackages [automation-file-dev]: Downloading https://files.pythonhosted.org/packages/a9/8e/08df6f648899fb71dea3305a5586d062c73196246c369a3acd82b21dc6f3/automation_file_dev-0.0.6.tar.gz
+[2023-06-08 10:56:37] INFO root fetch - processPackages [actymath]: Downloading https://files.pythonhosted.org/packages/37/c6/142cecf9e85628136a2b24b94e9475597bbf6e35f10f451497d99fac281b/actymath-0.1.3.tar.gz
+[2023-06-08 10:56:37] INFO root fetch - processPackages [automation-file-dev]: executing diffoscope
+[2023-06-08 10:56:37] INFO root fetch - processPackages [automation-file-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automation_file_dev-0.0.5.tar.gz tmp/automation_file_dev-0.0.6.tar.gz --markdown 20230608/a/automation-file-dev/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-08 10:56:37] INFO root fetch - processPackages [madtypes]: Downloading https://files.pythonhosted.org/packages/2d/40/27978a58ae2970f5347c8441ce03a9475edde312ac242e054e472fd91c10/madtypes-0.0.9.tar.gz
+[2023-06-08 10:56:37] INFO root fetch - processPackages [madtypes]: executing diffoscope
+[2023-06-08 10:56:37] INFO root fetch - processPackages [actymath]: executing diffoscope
+[2023-06-08 10:56:37] INFO root fetch - processPackages [madtypes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/madtypes-0.0.8.tar.gz tmp/madtypes-0.0.9.tar.gz --markdown 20230608/m/madtypes/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-08 10:56:37] INFO root fetch - processPackages [actymath]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/actymath-0.1.2.tar.gz tmp/actymath-0.1.3.tar.gz --markdown 20230608/a/actymath/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-08 10:56:37] INFO root fetch - processPackages [ocellus]: Downloading https://files.pythonhosted.org/packages/f3/63/285743adccf20de528ee014f0adc6558116e656fd4eb4e90ba81deab4a6e/ocellus-0.1.9.tar.gz
+[2023-06-08 10:56:37] INFO root fetch - processPackages [ocellus]: executing diffoscope
+[2023-06-08 10:56:37] INFO root fetch - processPackages [ocellus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ocellus-0.1.8.tar.gz tmp/ocellus-0.1.9.tar.gz --markdown 20230608/o/ocellus/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-08 10:56:38] INFO root fetch - processPackages [mistune]: Downloading https://files.pythonhosted.org/packages/5f/d7/1c4319fab01106f24fc0ea166f87033b487bab3155696e62e74505ba0325/mistune-3.0.0rc5.tar.gz
+[2023-06-08 10:56:38] INFO root fetch - processPackages [mistune]: executing diffoscope
+[2023-06-08 10:56:38] INFO root fetch - processPackages [mistune]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mistune-3.0.0rc4.tar.gz tmp/mistune-3.0.0rc5.tar.gz --markdown 20230608/m/mistune/3.0.0rc4-3.0.0rc5/diff.md --exclude *.pyd
+[2023-06-08 10:56:39] INFO root fetch - processPackages [trl]: Remove: archive file [/home/abi/fetcher/tmp/trl-0.4.2-py3-none-any.whl.zip]
+[2023-06-08 10:56:39] INFO root fetch - processPackages [trl]: Remove: archive file [/home/abi/fetcher/tmp/trl-0.4.3-py3-none-any.whl.zip]
+[2023-06-08 10:56:39] INFO root fetch - processPackages [trl]: Start processing: reliably-cli
+[2023-06-08 10:56:39] INFO root fetch - main [MainThread]: End processing [trl]: success
+[2023-06-08 10:56:39] INFO root fetch - processPackages [reliably-cli]: New version: [0.6.0] Old Version: [0.5.9]
+[2023-06-08 10:56:39] INFO root fetch - processPackages [automation-file-dev]: Remove: archive file [/home/abi/fetcher/tmp/automation_file_dev-0.0.5.tar.gz]
+[2023-06-08 10:56:39] INFO root fetch - processPackages [automation-file-dev]: Remove: archive file [/home/abi/fetcher/tmp/automation_file_dev-0.0.6.tar.gz]
+[2023-06-08 10:56:39] INFO root fetch - processPackages [automation-file-dev]: Start processing: pysiml
+[2023-06-08 10:56:39] INFO root fetch - main [MainThread]: End processing [automation-file-dev]: success
+[2023-06-08 10:56:39] INFO root fetch - processPackages [pysiml]: New version: [0.2.9.dev202306080855] Old Version: [0.2.9.dev202306021221]
+[2023-06-08 10:56:39] INFO root fetch - processPackages [madtypes]: Remove: archive file [/home/abi/fetcher/tmp/madtypes-0.0.8.tar.gz]
+[2023-06-08 10:56:39] INFO root fetch - processPackages [madtypes]: Remove: archive file [/home/abi/fetcher/tmp/madtypes-0.0.9.tar.gz]
+[2023-06-08 10:56:39] INFO root fetch - processPackages [madtypes]: Start processing: onnx2kerastl
+[2023-06-08 10:56:39] INFO root fetch - main [MainThread]: End processing [madtypes]: success
+[2023-06-08 10:56:39] INFO root fetch - processPackages [onnx2kerastl]: New version: [0.0.97.dev1] Old Version: [0.0.97]
+[2023-06-08 10:56:39] INFO root fetch - processPackages [reliably-cli]: Downloading https://files.pythonhosted.org/packages/77/7e/4d0e9b960d2604366649d4f6e29e8ca2bc9f4f41e732fdb6a11d55fbf5ee/reliably-cli-0.5.9.tar.gz
+[2023-06-08 10:56:39] INFO root fetch - processPackages [actymath]: Remove: archive file [/home/abi/fetcher/tmp/actymath-0.1.2.tar.gz]
+[2023-06-08 10:56:39] INFO root fetch - processPackages [actymath]: Remove: archive file [/home/abi/fetcher/tmp/actymath-0.1.3.tar.gz]
+[2023-06-08 10:56:39] INFO root fetch - processPackages [actymath]: Start processing: automation-file
+[2023-06-08 10:56:39] INFO root fetch - main [MainThread]: End processing [actymath]: success
+[2023-06-08 10:56:39] INFO root fetch - processPackages [automation-file]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-08 10:56:39] INFO root fetch - processPackages [pysiml]: Downloading https://files.pythonhosted.org/packages/d4/68/1bc6bc5330983e8718cfbc10b29bf4506778dd2f5e32b738887baf4fffe2/pysiml-0.2.9.dev202306021221-py3-none-any.whl
+[2023-06-08 10:56:39] INFO root fetch - processPackages [onnx2kerastl]: Downloading https://files.pythonhosted.org/packages/4e/a7/54cda70525ed66e569fb291fe0631765988fae2677e17c369b1b0181a30a/onnx2kerastl-0.0.97.tar.gz
+[2023-06-08 10:56:39] INFO root fetch - processPackages [onnx2kerastl]: Downloading https://files.pythonhosted.org/packages/a0/e9/a91733f1dda2a0f0d5e5a9c688e988f0e28055e3845020ce8445db37dabf/onnx2kerastl-0.0.97.dev1.tar.gz
+[2023-06-08 10:56:39] INFO root fetch - processPackages [yandex-speechkit]: Remove: archive file [/home/abi/fetcher/tmp/yandex_speechkit-1.3.0-py3-none-any.whl.zip]
+[2023-06-08 10:56:39] INFO root fetch - processPackages [yandex-speechkit]: Remove: archive file [/home/abi/fetcher/tmp/yandex_speechkit-1.3.1-py3-none-any.whl.zip]
+[2023-06-08 10:56:39] INFO root fetch - processPackages [yandex-speechkit]: Start processing: bw-temporalis
+[2023-06-08 10:56:39] INFO root fetch - main [MainThread]: End processing [yandex-speechkit]: success
+[2023-06-08 10:56:39] INFO root fetch - processPackages [automation-file]: Downloading https://files.pythonhosted.org/packages/19/1c/fc61ae8bf26f2a62e3c9ed18b0a8fbeb2167a65cf47e1fd60246d14f6910/automation_file-0.0.4.tar.gz
+[2023-06-08 10:56:39] INFO root fetch - processPackages [onnx2kerastl]: executing diffoscope
+[2023-06-08 10:56:39] INFO root fetch - processPackages [onnx2kerastl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnx2kerastl-0.0.97.tar.gz tmp/onnx2kerastl-0.0.97.dev1.tar.gz --markdown 20230608/o/onnx2kerastl/0.0.97-0.0.97.dev1/diff.md --exclude *.pyd
+[2023-06-08 10:56:39] INFO root fetch - processPackages [reliably-cli]: Downloading https://files.pythonhosted.org/packages/70/e3/3cef0fb9ebdf6a37214b8475317aca7fa2c806899505cbaea37d365c753b/reliably_cli-0.6.0.tar.gz
+[2023-06-08 10:56:39] INFO root fetch - processPackages [reliably-cli]: executing diffoscope
+[2023-06-08 10:56:39] INFO root fetch - processPackages [reliably-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reliably-cli-0.5.9.tar.gz tmp/reliably_cli-0.6.0.tar.gz --markdown 20230608/r/reliably-cli/0.5.9-0.6.0/diff.md --exclude *.pyd
+[2023-06-08 10:56:39] INFO root fetch - processPackages [bw-temporalis]: New version: [0.7] Old Version: [0.6]
+[2023-06-08 10:56:39] INFO root fetch - processPackages [pysiml]: Downloading https://files.pythonhosted.org/packages/c7/f8/6b822931f518edd4b557f612f546515e8e95525d2bc06093d38b7078c798/pysiml-0.2.9.dev202306080855-py3-none-any.whl
+[2023-06-08 10:56:40] INFO root fetch - processPackages [automation-file]: Downloading https://files.pythonhosted.org/packages/08/f3/a6ccb3b1847ab59cf55c67ca17ef5bef0257380d47219f2baab22dcddc8d/automation_file-0.0.5.tar.gz
+[2023-06-08 10:56:40] INFO root fetch - processPackages [automation-file]: executing diffoscope
+[2023-06-08 10:56:40] INFO root fetch - processPackages [automation-file]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automation_file-0.0.4.tar.gz tmp/automation_file-0.0.5.tar.gz --markdown 20230608/a/automation-file/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-08 10:56:40] INFO root fetch - processPackages [bw-temporalis]: Downloading https://files.pythonhosted.org/packages/7a/ee/77adaa3edf07b94cbaf12b93af7fed2d73a2564def557e5335686f6d7528/bw_temporalis-0.6.tar.gz
+[2023-06-08 10:56:40] INFO root fetch - processPackages [pysiml]: executing diffoscope
+[2023-06-08 10:56:40] INFO root fetch - processPackages [pysiml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysiml-0.2.9.dev202306021221-py3-none-any.whl.zip tmp/pysiml-0.2.9.dev202306080855-py3-none-any.whl.zip --markdown 20230608/p/pysiml/0.2.9.dev202306021221-0.2.9.dev202306080855/diff.md --exclude *.pyd
+[2023-06-08 10:56:40] INFO root fetch - processPackages [bw-temporalis]: Downloading https://files.pythonhosted.org/packages/2e/ee/d89b22e29fcdc331ed6b8e2a7ca8ce13f43aec75a4ad202b6f9459afd969/bw_temporalis-0.7.tar.gz
+[2023-06-08 10:56:40] INFO root fetch - processPackages [mistune]: Remove: archive file [/home/abi/fetcher/tmp/mistune-3.0.0rc4.tar.gz]
+[2023-06-08 10:56:40] INFO root fetch - processPackages [mistune]: Remove: archive file [/home/abi/fetcher/tmp/mistune-3.0.0rc5.tar.gz]
+[2023-06-08 10:56:40] INFO root fetch - processPackages [mistune]: Start processing: leap-model-parser
+[2023-06-08 10:56:40] INFO root fetch - main [MainThread]: End processing [mistune]: success
+[2023-06-08 10:56:40] INFO root fetch - processPackages [bw-temporalis]: executing diffoscope
+[2023-06-08 10:56:40] INFO root fetch - processPackages [bw-temporalis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bw_temporalis-0.6.tar.gz tmp/bw_temporalis-0.7.tar.gz --markdown 20230608/b/bw-temporalis/0.6-0.7/diff.md --exclude *.pyd
+[2023-06-08 10:56:40] INFO root fetch - processPackages [leap-model-parser]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-06-08 10:56:40] INFO root fetch - processPackages [leap-model-parser]: Downloading https://files.pythonhosted.org/packages/9e/21/dca060e54af9d262ff3c7db5881970d454aabed10a4a09138f0f135d7271/leap_model_parser-0.1.98.tar.gz
+[2023-06-08 10:56:40] INFO root fetch - processPackages [zipline-tej]: Remove: archive file [/home/abi/fetcher/tmp/zipline-tej-0.0.8.tar.gz]
+[2023-06-08 10:56:40] INFO root fetch - processPackages [zipline-tej]: Remove: archive file [/home/abi/fetcher/tmp/zipline-tej-0.0.9.tar.gz]
+[2023-06-08 10:56:40] INFO root fetch - processPackages [zipline-tej]: Start processing: whatsapp-chatbot-python
+[2023-06-08 10:56:40] INFO root fetch - main [MainThread]: End processing [zipline-tej]: success
+[2023-06-08 10:56:40] INFO root fetch - processPackages [leap-model-parser]: Downloading https://files.pythonhosted.org/packages/de/85/627b6119883db46691990e41cb4a673afe0913625d499dc365b69c6fe6f6/leap_model_parser-0.1.99.tar.gz
+[2023-06-08 10:56:40] INFO root fetch - processPackages [whatsapp-chatbot-python]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-06-08 10:56:40] INFO root fetch - processPackages [leap-model-parser]: executing diffoscope
+[2023-06-08 10:56:40] INFO root fetch - processPackages [leap-model-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leap_model_parser-0.1.98.tar.gz tmp/leap_model_parser-0.1.99.tar.gz --markdown 20230608/l/leap-model-parser/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-06-08 10:56:40] INFO root fetch - processPackages [ocellus]: Remove: archive file [/home/abi/fetcher/tmp/ocellus-0.1.8.tar.gz]
+[2023-06-08 10:56:40] INFO root fetch - processPackages [ocellus]: Remove: archive file [/home/abi/fetcher/tmp/ocellus-0.1.9.tar.gz]
+[2023-06-08 10:56:40] INFO root fetch - main [MainThread]: End processing [ocellus]: success
+[2023-06-08 10:56:40] INFO root fetch - processPackages [whatsapp-chatbot-python]: Downloading https://files.pythonhosted.org/packages/f3/f6/ddcaa88431d5a99bb8229f535859f32eb82306f50df916dd6ee3b87597e2/whatsapp-chatbot-python-0.2.1.tar.gz
+[2023-06-08 10:56:41] INFO root fetch - processPackages [onnx2kerastl]: Remove: archive file [/home/abi/fetcher/tmp/onnx2kerastl-0.0.97.tar.gz]
+[2023-06-08 10:56:41] INFO root fetch - processPackages [onnx2kerastl]: Remove: archive file [/home/abi/fetcher/tmp/onnx2kerastl-0.0.97.dev1.tar.gz]
+[2023-06-08 10:56:41] INFO root fetch - main [MainThread]: End processing [onnx2kerastl]: success
+[2023-06-08 10:56:41] INFO root fetch - processPackages [whatsapp-chatbot-python]: Downloading https://files.pythonhosted.org/packages/aa/fc/b70e18a752674e2ec21bf3ee56d9450df235a577f52d7f12d3d90e7b2dba/whatsapp-chatbot-python-0.2.2.tar.gz
+[2023-06-08 10:56:41] INFO root fetch - processPackages [whatsapp-chatbot-python]: executing diffoscope
+[2023-06-08 10:56:41] INFO root fetch - processPackages [whatsapp-chatbot-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whatsapp-chatbot-python-0.2.1.tar.gz tmp/whatsapp-chatbot-python-0.2.2.tar.gz --markdown 20230608/w/whatsapp-chatbot-python/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-06-08 10:56:41] INFO root fetch - processPackages [reliably-cli]: Remove: archive file [/home/abi/fetcher/tmp/reliably-cli-0.5.9.tar.gz]
+[2023-06-08 10:56:41] INFO root fetch - processPackages [reliably-cli]: Remove: archive file [/home/abi/fetcher/tmp/reliably_cli-0.6.0.tar.gz]
+[2023-06-08 10:56:41] INFO root fetch - main [MainThread]: End processing [reliably-cli]: success
+[2023-06-08 10:56:41] INFO root fetch - processPackages [automation-file]: Remove: archive file [/home/abi/fetcher/tmp/automation_file-0.0.4.tar.gz]
+[2023-06-08 10:56:41] INFO root fetch - processPackages [automation-file]: Remove: archive file [/home/abi/fetcher/tmp/automation_file-0.0.5.tar.gz]
+[2023-06-08 10:56:41] INFO root fetch - main [MainThread]: End processing [automation-file]: success
+[2023-06-08 10:56:42] INFO root fetch - processPackages [bw-temporalis]: Remove: archive file [/home/abi/fetcher/tmp/bw_temporalis-0.6.tar.gz]
+[2023-06-08 10:56:42] INFO root fetch - processPackages [bw-temporalis]: Remove: archive file [/home/abi/fetcher/tmp/bw_temporalis-0.7.tar.gz]
+[2023-06-08 10:56:42] INFO root fetch - main [MainThread]: End processing [bw-temporalis]: success
+[2023-06-08 10:56:42] INFO root fetch - processPackages [pysiml]: Remove: archive file [/home/abi/fetcher/tmp/pysiml-0.2.9.dev202306021221-py3-none-any.whl.zip]
+[2023-06-08 10:56:42] INFO root fetch - processPackages [pysiml]: Remove: archive file [/home/abi/fetcher/tmp/pysiml-0.2.9.dev202306080855-py3-none-any.whl.zip]
+[2023-06-08 10:56:42] INFO root fetch - main [MainThread]: End processing [pysiml]: success
+[2023-06-08 10:56:42] INFO root fetch - processPackages [whatsapp-chatbot-python]: Remove: archive file [/home/abi/fetcher/tmp/whatsapp-chatbot-python-0.2.1.tar.gz]
+[2023-06-08 10:56:42] INFO root fetch - processPackages [whatsapp-chatbot-python]: Remove: archive file [/home/abi/fetcher/tmp/whatsapp-chatbot-python-0.2.2.tar.gz]
+[2023-06-08 10:56:42] INFO root fetch - main [MainThread]: End processing [whatsapp-chatbot-python]: success
+[2023-06-08 10:56:43] INFO root fetch - processPackages [emoji]: Remove: archive file [/home/abi/fetcher/tmp/emoji-2.4.0.tar.gz]
+[2023-06-08 10:56:43] INFO root fetch - processPackages [emoji]: Remove: archive file [/home/abi/fetcher/tmp/emoji-2.5.0.tar.gz]
+[2023-06-08 10:56:43] INFO root fetch - main [MainThread]: End processing [emoji]: success
+[2023-06-08 10:56:59] INFO root fetch - processPackages [leap-model-parser]: Remove: archive file [/home/abi/fetcher/tmp/leap_model_parser-0.1.98.tar.gz]
+[2023-06-08 10:56:59] INFO root fetch - processPackages [leap-model-parser]: Remove: archive file [/home/abi/fetcher/tmp/leap_model_parser-0.1.99.tar.gz]
+[2023-06-08 10:56:59] INFO root fetch - main [MainThread]: End processing [leap-model-parser]: success
+[2023-06-08 10:57:19] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-2.3.98.tar.gz]
+[2023-06-08 10:57:19] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-2.3.99.tar.gz]
+[2023-06-08 10:57:19] INFO root fetch - main [MainThread]: End processing [checkov]: success
+[2023-06-08 10:57:19] INFO root fetch - main [MainThread]: Store serial: [18421721]
