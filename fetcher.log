@@ -18431,3 +18431,81 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-08 08:41:32] INFO root fetch - processPackages [amsterdam-schema-tools]: Remove: archive file [/home/abi/fetcher/tmp/amsterdam-schema-tools-5.9.3.tar.gz]
 [2023-06-08 08:41:32] INFO root fetch - main [MainThread]: End processing [amsterdam-schema-tools]: success
 [2023-06-08 08:41:32] INFO root fetch - main [MainThread]: Store serial: [18420681]
+[2023-06-08 08:46:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18420681]
+[2023-06-08 08:46:41] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-08 08:46:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: amsterdam-schema-tools
+[2023-06-08 08:46:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ohmic
+[2023-06-08 08:46:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lumimqtt
+[2023-06-08 08:46:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: decoratory
+[2023-06-08 08:46:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-pictures
+[2023-06-08 08:46:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cyberdrop-dl
+[2023-06-08 08:46:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cryoet-data-portal
+[2023-06-08 08:46:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: udc
+[2023-06-08 08:46:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cg
+[2023-06-08 08:46:41] INFO root fetch - processPackages [ohmic]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-08 08:46:41] WARNING root fetch - processPackages [decoratory]: Skipping, unable to determine old version
+[2023-06-08 08:46:41] INFO root fetch - main [MainThread]: End processing [decoratory] error
+[2023-06-08 08:46:41] INFO root fetch - processPackages [lumimqtt]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-08 08:46:41] INFO root fetch - processPackages [udc]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-06-08 08:46:41] INFO root fetch - processPackages [django-pictures]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-06-08 08:46:41] INFO root fetch - processPackages [amsterdam-schema-tools]: New version: [5.9.3] Old Version: [5.9.2]
+[2023-06-08 08:46:41] INFO root fetch - processPackages [cryoet-data-portal]: New version: [1.0.0] Old Version: [0.0.2]
+[2023-06-08 08:46:41] INFO root fetch - processPackages [cg]: New version: [33.3.4] Old Version: [33.3.3]
+[2023-06-08 08:46:41] INFO root fetch - processPackages [cyberdrop-dl]: New version: [4.2.78] Old Version: [4.2.77]
+[2023-06-08 08:46:42] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/b8/4f/ab1aaf8b918f3d69fd411c46d2de897e47cf20f3f00e1e486728da1116e9/cg-33.3.3.tar.gz
+[2023-06-08 08:46:42] INFO root fetch - processPackages [cyberdrop-dl]: Downloading https://files.pythonhosted.org/packages/2d/81/8c88207715a1f8aa915cf9ad30a8092d826cf0c5052a2e2d75cf63e2089e/cyberdrop-dl-4.2.77.tar.gz
+[2023-06-08 08:46:42] INFO root fetch - processPackages [ohmic]: Downloading https://files.pythonhosted.org/packages/8e/b4/cf8ca688c1585a09074942cd2d00b8c35f1cb557704d90a62ed662828a6f/ohmic-0.1.0.tar.gz
+[2023-06-08 08:46:42] INFO root fetch - processPackages [django-pictures]: Downloading https://files.pythonhosted.org/packages/85/70/512111c443d97f3e49b19d62fa81d7d5c87519738a404e1407eff2a2901e/django_pictures-1.1.0.tar.gz
+[2023-06-08 08:46:42] INFO root fetch - processPackages [lumimqtt]: Downloading https://files.pythonhosted.org/packages/90/84/9b76f3b824f2cd2442e4ccc240599dd82593ced2e277d337283d12191be9/lumimqtt-1.0.8.tar.gz
+[2023-06-08 08:46:42] INFO root fetch - processPackages [udc]: Downloading https://files.pythonhosted.org/packages/32/69/f9520df01004ae2d1d11f7e959babe8fa0b0c267241bf680303334d290c4/udc-0.3.1.tar.gz
+[2023-06-08 08:46:42] INFO root fetch - processPackages [amsterdam-schema-tools]: Downloading https://files.pythonhosted.org/packages/1f/30/4cb7af8d4d1f00da78de0a18355a2eea64732fcd8654137d6173c80c699d/amsterdam-schema-tools-5.9.2.tar.gz
+[2023-06-08 08:46:42] INFO root fetch - processPackages [cryoet-data-portal]: Downloading https://files.pythonhosted.org/packages/77/e4/a70e82f8b828eb12828a6f10e1ef6b73ea13f692d2462a7f7664340e69f8/cryoet_data_portal-0.0.2.tar.gz
+[2023-06-08 08:46:42] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/26/00/4a1349f0bcf2e9748638b7200a5103b199e427f7a00a0944e776e8d0c362/cg-33.3.4.tar.gz
+[2023-06-08 08:46:42] INFO root fetch - processPackages [udc]: Downloading https://files.pythonhosted.org/packages/d5/15/c4e7db2875500d9a8f04665e426ae3a0869ffe582548075e21f4f04197ef/udc-0.3.2.tar.gz
+[2023-06-08 08:46:42] INFO root fetch - processPackages [django-pictures]: Downloading https://files.pythonhosted.org/packages/f8/fa/5ca82d42af5592c74fdf8ff90047268d87d1e9324e8c8c778ab3904e8918/django_pictures-1.1.1.tar.gz
+[2023-06-08 08:46:42] INFO root fetch - processPackages [cyberdrop-dl]: Downloading https://files.pythonhosted.org/packages/6f/4c/bc4fc69844b4052cb032573a13f5129c961c6e1eb8f2e5d3be1e6496710e/cyberdrop-dl-4.2.78.tar.gz
+[2023-06-08 08:46:42] INFO root fetch - processPackages [lumimqtt]: Downloading https://files.pythonhosted.org/packages/35/62/0dde866f4acc97caf5c262d25c80f7f843a8483198f7b368aea690fe7fde/lumimqtt-1.0.9.tar.gz
+[2023-06-08 08:46:42] INFO root fetch - processPackages [ohmic]: Downloading https://files.pythonhosted.org/packages/32/ce/eb31f7a249eee778b5bb9d0c4062fd9064d6becba3d44dff506dc5965bfe/ohmic-0.1.1.tar.gz
+[2023-06-08 08:46:42] INFO root fetch - processPackages [cryoet-data-portal]: Downloading https://files.pythonhosted.org/packages/f9/cb/7121708ec9ab41a81997e32984aa8dbd2609a6092e95cf58bb4fc155beea/cryoet_data_portal-1.0.0.tar.gz
+[2023-06-08 08:46:42] INFO root fetch - processPackages [udc]: executing diffoscope
+[2023-06-08 08:46:42] INFO root fetch - processPackages [udc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/udc-0.3.1.tar.gz tmp/udc-0.3.2.tar.gz --markdown 20230608/u/udc/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-06-08 08:46:42] INFO root fetch - processPackages [amsterdam-schema-tools]: Downloading https://files.pythonhosted.org/packages/4d/24/9b16605372327f85f59868308c2dc3f6e93f5faf2941312efe6702b27d8c/amsterdam-schema-tools-5.9.3.tar.gz
+[2023-06-08 08:46:42] INFO root fetch - processPackages [cg]: executing diffoscope
+[2023-06-08 08:46:42] INFO root fetch - processPackages [ohmic]: executing diffoscope
+[2023-06-08 08:46:42] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-33.3.3.tar.gz tmp/cg-33.3.4.tar.gz --markdown 20230608/c/cg/33.3.3-33.3.4/diff.md --exclude *.pyd
+[2023-06-08 08:46:42] INFO root fetch - processPackages [ohmic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ohmic-0.1.0.tar.gz tmp/ohmic-0.1.1.tar.gz --markdown 20230608/o/ohmic/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-08 08:46:42] INFO root fetch - processPackages [django-pictures]: executing diffoscope
+[2023-06-08 08:46:42] INFO root fetch - processPackages [django-pictures]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_pictures-1.1.0.tar.gz tmp/django_pictures-1.1.1.tar.gz --markdown 20230608/d/django-pictures/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-06-08 08:46:42] INFO root fetch - processPackages [cyberdrop-dl]: executing diffoscope
+[2023-06-08 08:46:42] INFO root fetch - processPackages [cyberdrop-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cyberdrop-dl-4.2.77.tar.gz tmp/cyberdrop-dl-4.2.78.tar.gz --markdown 20230608/c/cyberdrop-dl/4.2.77-4.2.78/diff.md --exclude *.pyd
+[2023-06-08 08:46:42] INFO root fetch - processPackages [lumimqtt]: executing diffoscope
+[2023-06-08 08:46:42] INFO root fetch - processPackages [lumimqtt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lumimqtt-1.0.8.tar.gz tmp/lumimqtt-1.0.9.tar.gz --markdown 20230608/l/lumimqtt/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-08 08:46:42] INFO root fetch - processPackages [cryoet-data-portal]: executing diffoscope
+[2023-06-08 08:46:42] INFO root fetch - processPackages [cryoet-data-portal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cryoet_data_portal-0.0.2.tar.gz tmp/cryoet_data_portal-1.0.0.tar.gz --markdown 20230608/c/cryoet-data-portal/0.0.2-1.0.0/diff.md --exclude *.pyd
+[2023-06-08 08:46:42] INFO root fetch - processPackages [amsterdam-schema-tools]: executing diffoscope
+[2023-06-08 08:46:42] INFO root fetch - processPackages [amsterdam-schema-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amsterdam-schema-tools-5.9.2.tar.gz tmp/amsterdam-schema-tools-5.9.3.tar.gz --markdown 20230608/a/amsterdam-schema-tools/5.9.2-5.9.3/diff.md --exclude *.pyd
+[2023-06-08 08:46:43] INFO root fetch - processPackages [ohmic]: Remove: archive file [/home/abi/fetcher/tmp/ohmic-0.1.0.tar.gz]
+[2023-06-08 08:46:43] INFO root fetch - processPackages [ohmic]: Remove: archive file [/home/abi/fetcher/tmp/ohmic-0.1.1.tar.gz]
+[2023-06-08 08:46:43] INFO root fetch - main [MainThread]: End processing [ohmic]: success
+[2023-06-08 08:46:43] INFO root fetch - processPackages [udc]: Remove: archive file [/home/abi/fetcher/tmp/udc-0.3.1.tar.gz]
+[2023-06-08 08:46:43] INFO root fetch - processPackages [udc]: Remove: archive file [/home/abi/fetcher/tmp/udc-0.3.2.tar.gz]
+[2023-06-08 08:46:43] INFO root fetch - main [MainThread]: End processing [udc]: success
+[2023-06-08 08:46:44] INFO root fetch - processPackages [django-pictures]: Remove: archive file [/home/abi/fetcher/tmp/django_pictures-1.1.0.tar.gz]
+[2023-06-08 08:46:44] INFO root fetch - processPackages [django-pictures]: Remove: archive file [/home/abi/fetcher/tmp/django_pictures-1.1.1.tar.gz]
+[2023-06-08 08:46:44] INFO root fetch - main [MainThread]: End processing [django-pictures]: success
+[2023-06-08 08:46:44] INFO root fetch - processPackages [amsterdam-schema-tools]: Remove: archive file [/home/abi/fetcher/tmp/amsterdam-schema-tools-5.9.2.tar.gz]
+[2023-06-08 08:46:44] INFO root fetch - processPackages [amsterdam-schema-tools]: Remove: archive file [/home/abi/fetcher/tmp/amsterdam-schema-tools-5.9.3.tar.gz]
+[2023-06-08 08:46:44] INFO root fetch - main [MainThread]: End processing [amsterdam-schema-tools]: success
+[2023-06-08 08:46:44] INFO root fetch - processPackages [lumimqtt]: Remove: archive file [/home/abi/fetcher/tmp/lumimqtt-1.0.8.tar.gz]
+[2023-06-08 08:46:44] INFO root fetch - processPackages [lumimqtt]: Remove: archive file [/home/abi/fetcher/tmp/lumimqtt-1.0.9.tar.gz]
+[2023-06-08 08:46:44] INFO root fetch - main [MainThread]: End processing [lumimqtt]: success
+[2023-06-08 08:46:45] INFO root fetch - processPackages [cyberdrop-dl]: Remove: archive file [/home/abi/fetcher/tmp/cyberdrop-dl-4.2.77.tar.gz]
+[2023-06-08 08:46:45] INFO root fetch - processPackages [cyberdrop-dl]: Remove: archive file [/home/abi/fetcher/tmp/cyberdrop-dl-4.2.78.tar.gz]
+[2023-06-08 08:46:45] INFO root fetch - main [MainThread]: End processing [cyberdrop-dl]: success
+[2023-06-08 08:46:45] INFO root fetch - processPackages [cryoet-data-portal]: Remove: archive file [/home/abi/fetcher/tmp/cryoet_data_portal-0.0.2.tar.gz]
+[2023-06-08 08:46:45] INFO root fetch - processPackages [cryoet-data-portal]: Remove: archive file [/home/abi/fetcher/tmp/cryoet_data_portal-1.0.0.tar.gz]
+[2023-06-08 08:46:45] INFO root fetch - main [MainThread]: End processing [cryoet-data-portal]: success
+[2023-06-08 08:46:56] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-33.3.3.tar.gz]
+[2023-06-08 08:46:56] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-33.3.4.tar.gz]
+[2023-06-08 08:46:56] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2023-06-08 08:46:56] INFO root fetch - main [MainThread]: Store serial: [18420708]
