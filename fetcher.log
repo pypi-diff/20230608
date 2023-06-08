@@ -9154,3 +9154,90 @@ AssertionError: tmp/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip does not
 [2023-06-08 04:00:01] INFO root fetch - processPackages [cdk-wordpress]: Remove: archive file [/home/abi/fetcher/tmp/cdk-wordpress-0.0.99.tar.gz]
 [2023-06-08 04:00:01] INFO root fetch - main [MainThread]: End processing [cdk-wordpress]: success
 [2023-06-08 04:00:01] INFO root fetch - main [MainThread]: Store serial: [18417982]
+[2023-06-08 04:05:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18417982]
+[2023-06-08 04:05:11] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-08 04:05:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyhatching
+[2023-06-08 04:05:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bettershot
+[2023-06-08 04:05:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tdwTauthAuthentication
+[2023-06-08 04:05:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: json-explorer
+[2023-06-08 04:05:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: edge-testing-framework
+[2023-06-08 04:05:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ccxt
+[2023-06-08 04:05:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: anyforce
+[2023-06-08 04:05:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gaohn-common-utils
+[2023-06-08 04:05:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: image-reward
+[2023-06-08 04:05:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sherpa-onnx
+[2023-06-08 04:05:11] WARNING root fetch - processPackages [tdwTauthAuthentication]: Skipping, unable to determine old version
+[2023-06-08 04:05:11] INFO root fetch - main [MainThread]: End processing [tdwTauthAuthentication] error
+[2023-06-08 04:05:11] INFO root fetch - processPackages [bettershot]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-08 04:05:11] INFO root fetch - processPackages [edge-testing-framework]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-08 04:05:11] INFO root fetch - processPackages [anyforce]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-06-08 04:05:11] INFO root fetch - processPackages [json-explorer]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-08 04:05:11] INFO root fetch - processPackages [gaohn-common-utils]: New version: [0.0.24] Old Version: [0.0.23]
+[2023-06-08 04:05:11] INFO root fetch - processPackages [ccxt]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-06-08 04:05:11] INFO root fetch - processPackages [bettershot]: Downloading https://files.pythonhosted.org/packages/04/54/0d5765e335b55228123c41a76dc72f721a90c2ee78239643170f0f14f992/bettershot-0.1.1.tar.gz
+[2023-06-08 04:05:11] INFO root fetch - processPackages [anyforce]: Downloading https://files.pythonhosted.org/packages/75/22/a60c6e897bc29038e83b0aaba8bd40f9465d8ba0f62d101cda65ef7d9d3a/anyforce-0.8.2.tar.gz
+[2023-06-08 04:05:11] INFO root fetch - processPackages [pyhatching]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-08 04:05:11] INFO root fetch - processPackages [sherpa-onnx]: New version: [1.4.4] Old Version: [1.4.3]
+[2023-06-08 04:05:12] INFO root fetch - processPackages [image-reward]: New version: [1.3] Old Version: [1.2]
+[2023-06-08 04:05:12] INFO root fetch - processPackages [anyforce]: Downloading https://files.pythonhosted.org/packages/9b/ab/c662247bed8dd85fa8c1d2517b08f7688328858eb44bfe36bed0b0aed718/anyforce-0.9.0.tar.gz
+[2023-06-08 04:05:12] INFO root fetch - processPackages [gaohn-common-utils]: Downloading https://files.pythonhosted.org/packages/12/77/1d077564a2c365614bb33a54cf467ea5eb994f3027072c565fe738551c14/gaohn-common-utils-0.0.23.tar.gz
+[2023-06-08 04:05:12] INFO root fetch - processPackages [edge-testing-framework]: Downloading https://files.pythonhosted.org/packages/ca/e4/f991e913c919edac797aebb1522a8a62314fe8985d4c4e847bb782245943/edge_testing_framework-0.1.4.tar.gz
+[2023-06-08 04:05:12] INFO root fetch - processPackages [json-explorer]: Downloading https://files.pythonhosted.org/packages/b3/de/bb6de8eb0ea34b67a98f98838da0d3d1e6f2438bbe36e97d114983e78d60/json_explorer-0.1.0.tar.gz
+[2023-06-08 04:05:12] INFO root fetch - processPackages [ccxt]: Downloading https://files.pythonhosted.org/packages/c8/8c/0f6049cfe62c7345061ebc4bc204d5b43328f61a0dea4dba781a9cb6d23c/ccxt-3.1.8.tar.gz
+[2023-06-08 04:05:12] INFO root fetch - processPackages [pyhatching]: Downloading https://files.pythonhosted.org/packages/a0/3b/894ba89946b024f47a6d8de009b5d96589d383e085e8d5a524caa74f1656/pyhatching-0.0.1.tar.gz
+[2023-06-08 04:05:12] INFO root fetch - processPackages [sherpa-onnx]: Downloading https://files.pythonhosted.org/packages/47/b3/ba9e5e96e61be73192ae9bb00c36271ab0ca0cab2f07fe05be29380ef914/sherpa-onnx-1.4.3.tar.gz
+[2023-06-08 04:05:12] INFO root fetch - processPackages [image-reward]: Downloading https://files.pythonhosted.org/packages/f0/08/03c454186f1025ad184d26700984a83a0bdb88272996816e8ec6ddf633a2/image-reward-1.2.tar.gz
+[2023-06-08 04:05:12] INFO root fetch - processPackages [anyforce]: executing diffoscope
+[2023-06-08 04:05:12] INFO root fetch - processPackages [anyforce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anyforce-0.8.2.tar.gz tmp/anyforce-0.9.0.tar.gz --markdown 20230608/a/anyforce/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-06-08 04:05:12] INFO root fetch - processPackages [bettershot]: Downloading https://files.pythonhosted.org/packages/af/0c/ac2c05fbe32d4f40299f3a109ade8e1f6969dba89495805068d92781c2f3/bettershot-0.1.2.tar.gz
+[2023-06-08 04:05:12] INFO root fetch - processPackages [gaohn-common-utils]: Downloading https://files.pythonhosted.org/packages/9b/25/ae9f5b9e3841686c1883e0b7b013a0b8340595aaa7c7fbf40bc507c0488a/gaohn-common-utils-0.0.24.tar.gz
+[2023-06-08 04:05:12] INFO root fetch - processPackages [json-explorer]: Downloading https://files.pythonhosted.org/packages/ae/bf/6e334cce7e2f11175d0bd65b135fec58d46330d864a656d206e3de5ff18c/json_explorer-0.1.1.tar.gz
+[2023-06-08 04:05:12] INFO root fetch - processPackages [bettershot]: executing diffoscope
+[2023-06-08 04:05:12] INFO root fetch - processPackages [bettershot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bettershot-0.1.1.tar.gz tmp/bettershot-0.1.2.tar.gz --markdown 20230608/b/bettershot/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-08 04:05:12] INFO root fetch - processPackages [edge-testing-framework]: Downloading https://files.pythonhosted.org/packages/ca/43/881856a8b279611b2f823e028459cf250f30d5bd4123caf0a8d6117a443d/edge_testing_framework-0.1.5.tar.gz
+[2023-06-08 04:05:12] INFO root fetch - processPackages [image-reward]: Downloading https://files.pythonhosted.org/packages/89/3b/5dd9c723237971401d699d2a7f2ba6ffecbe55bc0ea9b88fc7a5a5f79b62/image-reward-1.3.tar.gz
+[2023-06-08 04:05:12] INFO root fetch - processPackages [pyhatching]: Downloading https://files.pythonhosted.org/packages/b1/73/19141025b7a65e51f3f6e2370d8b51464181940d4e0cf4b278adf7f2b714/pyhatching-0.0.2.tar.gz
+[2023-06-08 04:05:12] INFO root fetch - processPackages [gaohn-common-utils]: executing diffoscope
+[2023-06-08 04:05:12] INFO root fetch - processPackages [gaohn-common-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gaohn-common-utils-0.0.23.tar.gz tmp/gaohn-common-utils-0.0.24.tar.gz --markdown 20230608/g/gaohn-common-utils/0.0.23-0.0.24/diff.md --exclude *.pyd
+[2023-06-08 04:05:12] INFO root fetch - processPackages [sherpa-onnx]: Downloading https://files.pythonhosted.org/packages/62/4b/d5265658d997eb9a5110e6e2b93a9983031082c954986037e4d524971f89/sherpa-onnx-1.4.4.tar.gz
+[2023-06-08 04:05:12] INFO root fetch - processPackages [json-explorer]: executing diffoscope
+[2023-06-08 04:05:12] INFO root fetch - processPackages [json-explorer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/json_explorer-0.1.0.tar.gz tmp/json_explorer-0.1.1.tar.gz --markdown 20230608/j/json-explorer/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-08 04:05:12] INFO root fetch - processPackages [edge-testing-framework]: executing diffoscope
+[2023-06-08 04:05:12] INFO root fetch - processPackages [edge-testing-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edge_testing_framework-0.1.4.tar.gz tmp/edge_testing_framework-0.1.5.tar.gz --markdown 20230608/e/edge-testing-framework/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-08 04:05:12] INFO root fetch - processPackages [image-reward]: executing diffoscope
+[2023-06-08 04:05:12] INFO root fetch - processPackages [image-reward]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/image-reward-1.2.tar.gz tmp/image-reward-1.3.tar.gz --markdown 20230608/i/image-reward/1.2-1.3/diff.md --exclude *.pyd
+[2023-06-08 04:05:12] INFO root fetch - processPackages [sherpa-onnx]: executing diffoscope
+[2023-06-08 04:05:12] INFO root fetch - processPackages [sherpa-onnx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sherpa-onnx-1.4.3.tar.gz tmp/sherpa-onnx-1.4.4.tar.gz --markdown 20230608/s/sherpa-onnx/1.4.3-1.4.4/diff.md --exclude *.pyd
+[2023-06-08 04:05:12] INFO root fetch - processPackages [pyhatching]: executing diffoscope
+[2023-06-08 04:05:12] INFO root fetch - processPackages [pyhatching]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyhatching-0.0.1.tar.gz tmp/pyhatching-0.0.2.tar.gz --markdown 20230608/p/pyhatching/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-08 04:05:12] INFO root fetch - processPackages [ccxt]: Downloading https://files.pythonhosted.org/packages/da/20/697a7c246ccda48f1db7fabcef3d2ae5b059eb38ab11d028ed79393e0d46/ccxt-3.1.9.tar.gz
+[2023-06-08 04:05:13] INFO root fetch - processPackages [ccxt]: executing diffoscope
+[2023-06-08 04:05:13] INFO root fetch - processPackages [ccxt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccxt-3.1.8.tar.gz tmp/ccxt-3.1.9.tar.gz --markdown 20230608/c/ccxt/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-06-08 04:05:13] INFO root fetch - processPackages [bettershot]: Remove: archive file [/home/abi/fetcher/tmp/bettershot-0.1.1.tar.gz]
+[2023-06-08 04:05:13] INFO root fetch - processPackages [bettershot]: Remove: archive file [/home/abi/fetcher/tmp/bettershot-0.1.2.tar.gz]
+[2023-06-08 04:05:13] INFO root fetch - main [MainThread]: End processing [bettershot]: success
+[2023-06-08 04:05:13] INFO root fetch - processPackages [anyforce]: Remove: archive file [/home/abi/fetcher/tmp/anyforce-0.8.2.tar.gz]
+[2023-06-08 04:05:13] INFO root fetch - processPackages [anyforce]: Remove: archive file [/home/abi/fetcher/tmp/anyforce-0.9.0.tar.gz]
+[2023-06-08 04:05:13] INFO root fetch - main [MainThread]: End processing [anyforce]: success
+[2023-06-08 04:05:13] INFO root fetch - processPackages [gaohn-common-utils]: Remove: archive file [/home/abi/fetcher/tmp/gaohn-common-utils-0.0.23.tar.gz]
+[2023-06-08 04:05:13] INFO root fetch - processPackages [gaohn-common-utils]: Remove: archive file [/home/abi/fetcher/tmp/gaohn-common-utils-0.0.24.tar.gz]
+[2023-06-08 04:05:13] INFO root fetch - main [MainThread]: End processing [gaohn-common-utils]: success
+[2023-06-08 04:05:14] INFO root fetch - processPackages [json-explorer]: Remove: archive file [/home/abi/fetcher/tmp/json_explorer-0.1.0.tar.gz]
+[2023-06-08 04:05:14] INFO root fetch - processPackages [json-explorer]: Remove: archive file [/home/abi/fetcher/tmp/json_explorer-0.1.1.tar.gz]
+[2023-06-08 04:05:14] INFO root fetch - main [MainThread]: End processing [json-explorer]: success
+[2023-06-08 04:05:14] INFO root fetch - processPackages [image-reward]: Remove: archive file [/home/abi/fetcher/tmp/image-reward-1.2.tar.gz]
+[2023-06-08 04:05:14] INFO root fetch - processPackages [image-reward]: Remove: archive file [/home/abi/fetcher/tmp/image-reward-1.3.tar.gz]
+[2023-06-08 04:05:14] INFO root fetch - main [MainThread]: End processing [image-reward]: success
+[2023-06-08 04:05:14] INFO root fetch - processPackages [pyhatching]: Remove: archive file [/home/abi/fetcher/tmp/pyhatching-0.0.1.tar.gz]
+[2023-06-08 04:05:14] INFO root fetch - processPackages [pyhatching]: Remove: archive file [/home/abi/fetcher/tmp/pyhatching-0.0.2.tar.gz]
+[2023-06-08 04:05:14] INFO root fetch - main [MainThread]: End processing [pyhatching]: success
+[2023-06-08 04:05:14] INFO root fetch - processPackages [sherpa-onnx]: Remove: archive file [/home/abi/fetcher/tmp/sherpa-onnx-1.4.3.tar.gz]
+[2023-06-08 04:05:14] INFO root fetch - processPackages [sherpa-onnx]: Remove: archive file [/home/abi/fetcher/tmp/sherpa-onnx-1.4.4.tar.gz]
+[2023-06-08 04:05:14] INFO root fetch - main [MainThread]: End processing [sherpa-onnx]: success
+[2023-06-08 04:05:15] INFO root fetch - processPackages [edge-testing-framework]: Remove: archive file [/home/abi/fetcher/tmp/edge_testing_framework-0.1.4.tar.gz]
+[2023-06-08 04:05:15] INFO root fetch - processPackages [edge-testing-framework]: Remove: archive file [/home/abi/fetcher/tmp/edge_testing_framework-0.1.5.tar.gz]
+[2023-06-08 04:05:15] INFO root fetch - main [MainThread]: End processing [edge-testing-framework]: success
+[2023-06-08 04:05:23] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-3.1.8.tar.gz]
+[2023-06-08 04:05:23] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-3.1.9.tar.gz]
+[2023-06-08 04:05:24] INFO root fetch - main [MainThread]: End processing [ccxt]: success
+[2023-06-08 04:05:24] INFO root fetch - main [MainThread]: Store serial: [18418020]
