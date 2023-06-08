@@ -13512,3 +13512,96 @@ AssertionError: tmp/odoo_addon_hr_personal_equipment_request-16.0.1.0.0.7-py3-no
 [2023-06-08 06:00:05] INFO root fetch - processPackages [dolphindb]: Remove: archive file [/home/abi/fetcher/tmp/dolphindb-1.30.22.1-cp36-cp36m-win_amd64.whl.zip]
 [2023-06-08 06:00:05] INFO root fetch - main [MainThread]: End processing [dolphindb]: success
 [2023-06-08 06:00:05] INFO root fetch - main [MainThread]: Store serial: [18419262]
+[2023-06-08 06:05:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18419262]
+[2023-06-08 06:05:20] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-08 06:05:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo8-addon-l10n-lu-ecdf
+[2023-06-08 06:05:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: daam
+[2023-06-08 06:05:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ngm-salam
+[2023-06-08 06:05:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nonebot-plugin-al
+[2023-06-08 06:05:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo8-addon-l10n-ro-vat-on-payment
+[2023-06-08 06:05:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo11-addon-l10n-ro-vat-on-payment
+[2023-06-08 06:05:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cheb3
+[2023-06-08 06:05:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo8-addon-l10n-ro-config
+[2023-06-08 06:05:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo8-addon-l10n-ro-siruta
+[2023-06-08 06:05:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: hyutils-hyutil-hoyun-lab
+[2023-06-08 06:05:20] INFO root fetch - processPackages [daam]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-08 06:05:20] INFO root fetch - processPackages [ngm-salam]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-08 06:05:20] INFO root fetch - processPackages [odoo8-addon-l10n-lu-ecdf]: New version: [8.0.1.1.0.99.dev9] Old Version: [8.0.1.1.0.99.dev8]
+[2023-06-08 06:05:20] INFO root fetch - processPackages [nonebot-plugin-al]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-08 06:05:20] INFO root fetch - processPackages [odoo11-addon-l10n-ro-vat-on-payment]: New version: [11.0.1.0.0.99.dev9] Old Version: [11.0.1.0.0.99.dev8]
+[2023-06-08 06:05:20] INFO root fetch - processPackages [cheb3]: New version: [0.7.4] Old Version: [0.7.3]
+[2023-06-08 06:05:20] INFO root fetch - processPackages [hyutils-hyutil-hoyun-lab]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-08 06:05:20] INFO root fetch - processPackages [odoo8-addon-l10n-ro-vat-on-payment]: New version: [8.0.1.0.0.99.dev33] Old Version: [8.0.1.0.0.99.dev32]
+[2023-06-08 06:05:20] INFO root fetch - processPackages [odoo8-addon-l10n-ro-config]: New version: [8.0.1.0.0.99.dev36] Old Version: [8.0.1.0.0.99.dev35]
+[2023-06-08 06:05:20] INFO root fetch - processPackages [odoo8-addon-l10n-ro-siruta]: New version: [8.0.1.0.0.99.dev33] Old Version: [8.0.1.0.0.99.dev32]
+[2023-06-08 06:05:20] INFO root fetch - processPackages [cheb3]: Downloading https://files.pythonhosted.org/packages/f3/e4/1d773107fd1b05ba0c4f55338bad226d0caf8214c62c8b8390e26a3b27cd/cheb3-0.7.3.tar.gz
+[2023-06-08 06:05:20] INFO root fetch - processPackages [odoo8-addon-l10n-lu-ecdf]: Downloading https://files.pythonhosted.org/packages/ae/85/c0b897a6e220eb5c62981b3d69c31d3cf80b4a9853549ba9905cb401fff9/odoo8_addon_l10n_lu_ecdf-8.0.1.1.0.99.dev8-py2-none-any.whl
+[2023-06-08 06:05:20] INFO root fetch - processPackages [ngm-salam]: Downloading https://files.pythonhosted.org/packages/a4/3e/afc789470feb34dee0b755bff8a30edac9d4acd7d1850ca5b54fab1e300a/ngm_salam-0.0.5.tar.gz
+[2023-06-08 06:05:20] INFO root fetch - processPackages [daam]: Downloading https://files.pythonhosted.org/packages/71/bb/be1f923feac5f8dcde49b864f85ad00908b5739a23c4af342a5269e31ac3/daam-0.0.8.tar.gz
+[2023-06-08 06:05:20] INFO root fetch - processPackages [hyutils-hyutil-hoyun-lab]: Downloading https://files.pythonhosted.org/packages/91/16/b114ac1dd4c0610f466d1cccafacd7ab1c401900f57a1edd777eb141460e/hyutils-hyutil-hoyun-lab-0.0.1.tar.gz
+[2023-06-08 06:05:20] INFO root fetch - processPackages [nonebot-plugin-al]: Downloading https://files.pythonhosted.org/packages/ee/d9/bd1446fe8a94be792e1c30dd0c757dde82417e43eeaaf44a6f5f99c343be/nonebot_plugin_al-0.1.1.tar.gz
+[2023-06-08 06:05:20] INFO root fetch - processPackages [odoo11-addon-l10n-ro-vat-on-payment]: Downloading https://files.pythonhosted.org/packages/e4/2b/c5ca73598f1a81336bac5bb6ad0131bcca8cb1d2095b82b9c160a6d46fd4/odoo11_addon_l10n_ro_vat_on_payment-11.0.1.0.0.99.dev8-py2.py3-none-any.whl
+[2023-06-08 06:05:20] INFO root fetch - processPackages [odoo8-addon-l10n-ro-config]: Downloading https://files.pythonhosted.org/packages/4a/56/5a34b272bcbdf6d67f4ca715cb22e9ae0c9a76841a18299cda91221095bb/odoo8_addon_l10n_ro_config-8.0.1.0.0.99.dev35-py2-none-any.whl
+[2023-06-08 06:05:20] INFO root fetch - processPackages [odoo8-addon-l10n-ro-vat-on-payment]: Downloading https://files.pythonhosted.org/packages/f0/0d/969fd89052c0f40a3991264aabb6c508a7b3ee86a0f67b5a2d292be447ed/odoo8_addon_l10n_ro_vat_on_payment-8.0.1.0.0.99.dev32-py2-none-any.whl
+[2023-06-08 06:05:21] INFO root fetch - processPackages [odoo8-addon-l10n-ro-siruta]: Downloading https://files.pythonhosted.org/packages/24/fc/c7921cc4702f8045bca573c3db311d08c3173e1d07ef7fac91e4f6734ff6/odoo8_addon_l10n_ro_siruta-8.0.1.0.0.99.dev32-py2-none-any.whl
+[2023-06-08 06:05:21] INFO root fetch - processPackages [cheb3]: Downloading https://files.pythonhosted.org/packages/81/90/e77aa00e3649a6b60eb39fd928b81ef2ade25e01e7f2ba41b9e74082ec1f/cheb3-0.7.4.tar.gz
+[2023-06-08 06:05:21] INFO root fetch - processPackages [cheb3]: executing diffoscope
+[2023-06-08 06:05:21] INFO root fetch - processPackages [cheb3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cheb3-0.7.3.tar.gz tmp/cheb3-0.7.4.tar.gz --markdown 20230608/c/cheb3/0.7.3-0.7.4/diff.md --exclude *.pyd
+[2023-06-08 06:05:21] INFO root fetch - processPackages [ngm-salam]: Downloading https://files.pythonhosted.org/packages/88/0e/2230e4b1d9eca818bd070305f9cf1c54e41da5e03d7151529d588640b42a/ngm_salam-0.0.6.tar.gz
+[2023-06-08 06:05:21] INFO root fetch - processPackages [nonebot-plugin-al]: Downloading https://files.pythonhosted.org/packages/92/fa/fcfee8ebc7bb769ad52e2ae1e1c3fe381cd4113463984a50d2aac110f475/nonebot_plugin_al-0.1.2.tar.gz
+[2023-06-08 06:05:21] INFO root fetch - processPackages [odoo8-addon-l10n-lu-ecdf]: Downloading https://files.pythonhosted.org/packages/6e/df/8cc512cc0ea40ad6a548ffa84ebe118448bdfd5aeb45d0b2a6d910716680/odoo8_addon_l10n_lu_ecdf-8.0.1.1.0.99.dev9-py2-none-any.whl
+[2023-06-08 06:05:21] INFO root fetch - processPackages [nonebot-plugin-al]: executing diffoscope
+[2023-06-08 06:05:21] INFO root fetch - processPackages [nonebot-plugin-al]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_al-0.1.1.tar.gz tmp/nonebot_plugin_al-0.1.2.tar.gz --markdown 20230608/n/nonebot-plugin-al/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-08 06:05:21] INFO root fetch - processPackages [ngm-salam]: executing diffoscope
+[2023-06-08 06:05:21] INFO root fetch - processPackages [ngm-salam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ngm_salam-0.0.5.tar.gz tmp/ngm_salam-0.0.6.tar.gz --markdown 20230608/n/ngm-salam/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-08 06:05:21] INFO root fetch - processPackages [hyutils-hyutil-hoyun-lab]: Downloading https://files.pythonhosted.org/packages/82/6d/8a0c2ee2c72dd2179b26daba41d033685e1d5b22f619fa63ef843188f4b8/hyutils-hyutil-hoyun-lab-0.0.2.tar.gz
+[2023-06-08 06:05:21] INFO root fetch - processPackages [odoo8-addon-l10n-ro-config]: Downloading https://files.pythonhosted.org/packages/d1/d3/e62d92b0de1af628e0d08146a4fd2839848a0fae34835bf5d73fdc996812/odoo8_addon_l10n_ro_config-8.0.1.0.0.99.dev36-py2-none-any.whl
+[2023-06-08 06:05:21] INFO root fetch - processPackages [odoo8-addon-l10n-ro-vat-on-payment]: Downloading https://files.pythonhosted.org/packages/72/e8/2fc6dc8e247c1cc6316b06ca2ba9b6d7d470851ce8a4a6f54ca74886ddc8/odoo8_addon_l10n_ro_vat_on_payment-8.0.1.0.0.99.dev33-py2-none-any.whl
+[2023-06-08 06:05:21] INFO root fetch - processPackages [hyutils-hyutil-hoyun-lab]: executing diffoscope
+[2023-06-08 06:05:21] INFO root fetch - processPackages [hyutils-hyutil-hoyun-lab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyutils-hyutil-hoyun-lab-0.0.1.tar.gz tmp/hyutils-hyutil-hoyun-lab-0.0.2.tar.gz --markdown 20230608/h/hyutils-hyutil-hoyun-lab/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-08 06:05:21] INFO root fetch - processPackages [odoo11-addon-l10n-ro-vat-on-payment]: Downloading https://files.pythonhosted.org/packages/88/25/75a3842063ae596b5934436c934809291ae8f3b5b14e1f80d0d329c590d6/odoo11_addon_l10n_ro_vat_on_payment-11.0.1.0.0.99.dev9-py2.py3-none-any.whl
+[2023-06-08 06:05:21] INFO root fetch - processPackages [odoo8-addon-l10n-ro-siruta]: Downloading https://files.pythonhosted.org/packages/fa/b0/97ea0883f9657a9d12bc94a6d99706b97f8e01c00461aa0d1e4a9116b6fb/odoo8_addon_l10n_ro_siruta-8.0.1.0.0.99.dev33-py2-none-any.whl
+[2023-06-08 06:05:21] INFO root fetch - processPackages [odoo8-addon-l10n-lu-ecdf]: executing diffoscope
+[2023-06-08 06:05:21] INFO root fetch - processPackages [odoo8-addon-l10n-lu-ecdf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_l10n_lu_ecdf-8.0.1.1.0.99.dev8-py2-none-any.whl.zip tmp/odoo8_addon_l10n_lu_ecdf-8.0.1.1.0.99.dev9-py2-none-any.whl.zip --markdown 20230608/o/odoo8-addon-l10n-lu-ecdf/8.0.1.1.0.99.dev8-8.0.1.1.0.99.dev9/diff.md --exclude *.pyd
+[2023-06-08 06:05:21] INFO root fetch - processPackages [daam]: Downloading https://files.pythonhosted.org/packages/1d/65/a74b3fb69d50a2d3d432525022a3988da386a6929ac9daf6894056fe77d4/daam-0.0.9.tar.gz
+[2023-06-08 06:05:21] INFO root fetch - processPackages [odoo8-addon-l10n-ro-config]: executing diffoscope
+[2023-06-08 06:05:21] INFO root fetch - processPackages [odoo8-addon-l10n-ro-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_l10n_ro_config-8.0.1.0.0.99.dev35-py2-none-any.whl.zip tmp/odoo8_addon_l10n_ro_config-8.0.1.0.0.99.dev36-py2-none-any.whl.zip --markdown 20230608/o/odoo8-addon-l10n-ro-config/8.0.1.0.0.99.dev35-8.0.1.0.0.99.dev36/diff.md --exclude *.pyd
+[2023-06-08 06:05:21] INFO root fetch - processPackages [odoo8-addon-l10n-ro-vat-on-payment]: executing diffoscope
+[2023-06-08 06:05:21] INFO root fetch - processPackages [odoo8-addon-l10n-ro-vat-on-payment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_l10n_ro_vat_on_payment-8.0.1.0.0.99.dev32-py2-none-any.whl.zip tmp/odoo8_addon_l10n_ro_vat_on_payment-8.0.1.0.0.99.dev33-py2-none-any.whl.zip --markdown 20230608/o/odoo8-addon-l10n-ro-vat-on-payment/8.0.1.0.0.99.dev32-8.0.1.0.0.99.dev33/diff.md --exclude *.pyd
+[2023-06-08 06:05:21] INFO root fetch - processPackages [odoo11-addon-l10n-ro-vat-on-payment]: executing diffoscope
+[2023-06-08 06:05:21] INFO root fetch - processPackages [odoo11-addon-l10n-ro-vat-on-payment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo11_addon_l10n_ro_vat_on_payment-11.0.1.0.0.99.dev8-py2.py3-none-any.whl.zip tmp/odoo11_addon_l10n_ro_vat_on_payment-11.0.1.0.0.99.dev9-py2.py3-none-any.whl.zip --markdown 20230608/o/odoo11-addon-l10n-ro-vat-on-payment/11.0.1.0.0.99.dev8-11.0.1.0.0.99.dev9/diff.md --exclude *.pyd
+[2023-06-08 06:05:21] INFO root fetch - processPackages [odoo8-addon-l10n-ro-siruta]: executing diffoscope
+[2023-06-08 06:05:21] INFO root fetch - processPackages [odoo8-addon-l10n-ro-siruta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_l10n_ro_siruta-8.0.1.0.0.99.dev32-py2-none-any.whl.zip tmp/odoo8_addon_l10n_ro_siruta-8.0.1.0.0.99.dev33-py2-none-any.whl.zip --markdown 20230608/o/odoo8-addon-l10n-ro-siruta/8.0.1.0.0.99.dev32-8.0.1.0.0.99.dev33/diff.md --exclude *.pyd
+[2023-06-08 06:05:21] INFO root fetch - processPackages [daam]: executing diffoscope
+[2023-06-08 06:05:21] INFO root fetch - processPackages [daam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/daam-0.0.8.tar.gz tmp/daam-0.0.9.tar.gz --markdown 20230608/d/daam/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-08 06:05:22] INFO root fetch - processPackages [ngm-salam]: Remove: archive file [/home/abi/fetcher/tmp/ngm_salam-0.0.5.tar.gz]
+[2023-06-08 06:05:22] INFO root fetch - processPackages [ngm-salam]: Remove: archive file [/home/abi/fetcher/tmp/ngm_salam-0.0.6.tar.gz]
+[2023-06-08 06:05:22] INFO root fetch - main [MainThread]: End processing [ngm-salam]: success
+[2023-06-08 06:05:22] INFO root fetch - processPackages [hyutils-hyutil-hoyun-lab]: Remove: archive file [/home/abi/fetcher/tmp/hyutils-hyutil-hoyun-lab-0.0.1.tar.gz]
+[2023-06-08 06:05:22] INFO root fetch - processPackages [hyutils-hyutil-hoyun-lab]: Remove: archive file [/home/abi/fetcher/tmp/hyutils-hyutil-hoyun-lab-0.0.2.tar.gz]
+[2023-06-08 06:05:22] INFO root fetch - main [MainThread]: End processing [hyutils-hyutil-hoyun-lab]: success
+[2023-06-08 06:05:22] INFO root fetch - processPackages [cheb3]: Remove: archive file [/home/abi/fetcher/tmp/cheb3-0.7.3.tar.gz]
+[2023-06-08 06:05:22] INFO root fetch - processPackages [cheb3]: Remove: archive file [/home/abi/fetcher/tmp/cheb3-0.7.4.tar.gz]
+[2023-06-08 06:05:22] INFO root fetch - main [MainThread]: End processing [cheb3]: success
+[2023-06-08 06:05:22] INFO root fetch - processPackages [nonebot-plugin-al]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_al-0.1.1.tar.gz]
+[2023-06-08 06:05:22] INFO root fetch - processPackages [nonebot-plugin-al]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_al-0.1.2.tar.gz]
+[2023-06-08 06:05:22] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-al]: success
+[2023-06-08 06:05:23] INFO root fetch - processPackages [daam]: Remove: archive file [/home/abi/fetcher/tmp/daam-0.0.8.tar.gz]
+[2023-06-08 06:05:23] INFO root fetch - processPackages [daam]: Remove: archive file [/home/abi/fetcher/tmp/daam-0.0.9.tar.gz]
+[2023-06-08 06:05:23] INFO root fetch - main [MainThread]: End processing [daam]: success
+[2023-06-08 06:05:23] INFO root fetch - processPackages [odoo8-addon-l10n-lu-ecdf]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_l10n_lu_ecdf-8.0.1.1.0.99.dev8-py2-none-any.whl.zip]
+[2023-06-08 06:05:23] INFO root fetch - processPackages [odoo8-addon-l10n-lu-ecdf]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_l10n_lu_ecdf-8.0.1.1.0.99.dev9-py2-none-any.whl.zip]
+[2023-06-08 06:05:23] INFO root fetch - main [MainThread]: End processing [odoo8-addon-l10n-lu-ecdf]: success
+[2023-06-08 06:05:23] INFO root fetch - processPackages [odoo8-addon-l10n-ro-config]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_l10n_ro_config-8.0.1.0.0.99.dev35-py2-none-any.whl.zip]
+[2023-06-08 06:05:23] INFO root fetch - processPackages [odoo8-addon-l10n-ro-config]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_l10n_ro_config-8.0.1.0.0.99.dev36-py2-none-any.whl.zip]
+[2023-06-08 06:05:23] INFO root fetch - main [MainThread]: End processing [odoo8-addon-l10n-ro-config]: success
+[2023-06-08 06:05:23] INFO root fetch - processPackages [odoo8-addon-l10n-ro-vat-on-payment]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_l10n_ro_vat_on_payment-8.0.1.0.0.99.dev32-py2-none-any.whl.zip]
+[2023-06-08 06:05:23] INFO root fetch - processPackages [odoo8-addon-l10n-ro-vat-on-payment]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_l10n_ro_vat_on_payment-8.0.1.0.0.99.dev33-py2-none-any.whl.zip]
+[2023-06-08 06:05:23] INFO root fetch - main [MainThread]: End processing [odoo8-addon-l10n-ro-vat-on-payment]: success
+[2023-06-08 06:05:23] INFO root fetch - processPackages [odoo11-addon-l10n-ro-vat-on-payment]: Remove: archive file [/home/abi/fetcher/tmp/odoo11_addon_l10n_ro_vat_on_payment-11.0.1.0.0.99.dev8-py2.py3-none-any.whl.zip]
+[2023-06-08 06:05:23] INFO root fetch - processPackages [odoo11-addon-l10n-ro-vat-on-payment]: Remove: archive file [/home/abi/fetcher/tmp/odoo11_addon_l10n_ro_vat_on_payment-11.0.1.0.0.99.dev9-py2.py3-none-any.whl.zip]
+[2023-06-08 06:05:23] INFO root fetch - main [MainThread]: End processing [odoo11-addon-l10n-ro-vat-on-payment]: success
+[2023-06-08 06:05:23] INFO root fetch - processPackages [odoo8-addon-l10n-ro-siruta]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_l10n_ro_siruta-8.0.1.0.0.99.dev32-py2-none-any.whl.zip]
+[2023-06-08 06:05:23] INFO root fetch - processPackages [odoo8-addon-l10n-ro-siruta]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_l10n_ro_siruta-8.0.1.0.0.99.dev33-py2-none-any.whl.zip]
+[2023-06-08 06:05:23] INFO root fetch - main [MainThread]: End processing [odoo8-addon-l10n-ro-siruta]: success
+[2023-06-08 06:05:23] INFO root fetch - main [MainThread]: Store serial: [18419310]
