@@ -5223,3 +5223,69 @@ EOFError: EOF read where object expected
 [2023-06-08 03:12:14] INFO root fetch - processPackages [pyiron-atomistics]: Remove: archive file [/home/abi/fetcher/tmp/pyiron-atomistics-0.3.0.tar.gz]
 [2023-06-08 03:12:14] INFO root fetch - main [MainThread]: End processing [pyiron-atomistics]: success
 [2023-06-08 03:12:14] INFO root fetch - main [MainThread]: Store serial: [18416568]
+[2023-06-08 03:17:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18416568]
+[2023-06-08 03:17:24] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-08 03:17:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pepperize.cdk-organizations
+[2023-06-08 03:17:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: anyon
+[2023-06-08 03:17:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: posemaro
+[2023-06-08 03:17:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spPersist
+[2023-06-08 03:17:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: googleapiutils2
+[2023-06-08 03:17:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zensols.deeplearn
+[2023-06-08 03:17:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: duckdb
+[2023-06-08 03:17:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aiopusher
+[2023-06-08 03:17:24] INFO root fetch - processPackages [anyon]: New version: [3.4.1] Old Version: [3.2.4]
+[2023-06-08 03:17:24] INFO root fetch - processPackages [googleapiutils2]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-06-08 03:17:24] INFO root fetch - processPackages [posemaro]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-06-08 03:17:24] INFO root fetch - processPackages [spPersist]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-08 03:17:24] INFO root fetch - processPackages [pepperize.cdk-organizations]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-06-08 03:17:24] INFO root fetch - processPackages [zensols.deeplearn]: New version: [1.6.1] Old Version: [1.6.0]
+[2023-06-08 03:17:24] WARNING root fetch - processPackages [aiopusher]: Skipping, unable to determine old version
+[2023-06-08 03:17:24] INFO root fetch - processPackages [spPersist]: Downloading https://files.pythonhosted.org/packages/bd/c8/0a74e2640d8bbbbce738f54e4204fa228a96302cfb6d9b0925cc2267c42e/spPersist-0.2.8.tar.gz
+[2023-06-08 03:17:24] INFO root fetch - main [MainThread]: End processing [aiopusher] error
+[2023-06-08 03:17:24] INFO root fetch - processPackages [pepperize.cdk-organizations]: Downloading https://files.pythonhosted.org/packages/c4/ec/fa2c14031b7b9ce22e4b044c652dd13a1a81769141fcd90e55c9eeb24d66/pepperize.cdk-organizations-0.7.98.tar.gz
+[2023-06-08 03:17:25] INFO root fetch - processPackages [anyon]: Downloading https://files.pythonhosted.org/packages/99/22/0f0dc928f6a78179d196df226337ee8f4d3a6e558328c91a163240dbf5c3/anyon-3.2.4-cp311-cp311-win_amd64.whl
+[2023-06-08 03:17:25] INFO root fetch - processPackages [posemaro]: Downloading https://files.pythonhosted.org/packages/60/60/77b7e8bdbddce7cc674e2437e4f5b571bfc9283e3e98e0c2d33945e075c7/posemaro-1.1.8-py3-none-any.whl
+[2023-06-08 03:17:25] INFO root fetch - processPackages [googleapiutils2]: Downloading https://files.pythonhosted.org/packages/e6/18/74040d3cbf314b3d526115ac50b550402d99b2b092bcdbdf6b630872848d/googleapiutils2-0.9.2.tar.gz
+[2023-06-08 03:17:25] INFO root fetch - processPackages [spPersist]: Downloading https://files.pythonhosted.org/packages/cd/93/cac992297edc6f1eb21b6be41920fae4c80a55e87da240b36138b1ffab73/spPersist-0.2.9.tar.gz
+[2023-06-08 03:17:25] INFO root fetch - processPackages [zensols.deeplearn]: Downloading https://files.pythonhosted.org/packages/9f/9e/cecd7cdefff4fce5af6f77b3ea0a873428b266ea7bb632fd6afdb276855d/zensols.deeplearn-1.6.0-py3-none-any.whl
+[2023-06-08 03:17:25] INFO root fetch - processPackages [duckdb]: New version: [0.8.1.dev355] Old Version: [0.8.1.dev341]
+[2023-06-08 03:17:25] INFO root fetch - processPackages [spPersist]: executing diffoscope
+[2023-06-08 03:17:25] INFO root fetch - processPackages [spPersist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spPersist-0.2.8.tar.gz tmp/spPersist-0.2.9.tar.gz --markdown 20230608/s/spPersist/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-08 03:17:25] INFO root fetch - processPackages [pepperize.cdk-organizations]: Downloading https://files.pythonhosted.org/packages/12/45/1106cc30844f7f4d96f7898a6ef3647d24a597c297bab995920a5915750e/pepperize.cdk-organizations-0.7.99.tar.gz
+[2023-06-08 03:17:25] INFO root fetch - processPackages [anyon]: Downloading https://files.pythonhosted.org/packages/a0/25/f3a01c9b1f22850f3fd9f3247787095acf6163f7a3135fea519d1ee6d1a3/anyon-3.4.1-cp311-cp311-win_amd64.whl
+[2023-06-08 03:17:25] INFO root fetch - processPackages [googleapiutils2]: Downloading https://files.pythonhosted.org/packages/bd/89/f309e4a773eb9fbd1306d44bbe70c3c8cae75bd84beb216ea4abbe437c65/googleapiutils2-0.9.3.tar.gz
+[2023-06-08 03:17:25] INFO root fetch - processPackages [anyon]: executing diffoscope
+[2023-06-08 03:17:25] INFO root fetch - processPackages [anyon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anyon-3.2.4-cp311-cp311-win_amd64.whl.zip tmp/anyon-3.4.1-cp311-cp311-win_amd64.whl.zip --markdown 20230608/a/anyon/3.2.4-3.4.1/diff.md --exclude *.pyd
+[2023-06-08 03:17:25] INFO root fetch - processPackages [pepperize.cdk-organizations]: executing diffoscope
+[2023-06-08 03:17:25] INFO root fetch - processPackages [pepperize.cdk-organizations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-organizations-0.7.98.tar.gz tmp/pepperize.cdk-organizations-0.7.99.tar.gz --markdown 20230608/p/pepperize.cdk-organizations/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-06-08 03:17:25] INFO root fetch - processPackages [googleapiutils2]: executing diffoscope
+[2023-06-08 03:17:25] INFO root fetch - processPackages [googleapiutils2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/googleapiutils2-0.9.2.tar.gz tmp/googleapiutils2-0.9.3.tar.gz --markdown 20230608/g/googleapiutils2/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-06-08 03:17:25] INFO root fetch - processPackages [duckdb]: Downloading https://files.pythonhosted.org/packages/db/9c/8bcdcccee7c042a788f23f8f2fb9436b934d2a1d7f26e7b46f02cb7e6564/duckdb-0.8.1.dev341.tar.gz
+[2023-06-08 03:17:25] INFO root fetch - processPackages [posemaro]: Downloading https://files.pythonhosted.org/packages/47/e0/642c3d4f3356518808da0f2b4ddd54cfb1c49654d1269367b9b7fa41ec13/posemaro-1.1.9-py3-none-any.whl
+[2023-06-08 03:17:25] INFO root fetch - processPackages [posemaro]: executing diffoscope
+[2023-06-08 03:17:25] INFO root fetch - processPackages [posemaro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/posemaro-1.1.8-py3-none-any.whl.zip tmp/posemaro-1.1.9-py3-none-any.whl.zip --markdown 20230608/p/posemaro/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-06-08 03:17:25] INFO root fetch - processPackages [zensols.deeplearn]: Downloading https://files.pythonhosted.org/packages/c1/f3/f5bc8c399ddbaa2e87355dd48ff8c89191e918fcfaad3abe4b13a7f99dd3/zensols.deeplearn-1.6.1-py3-none-any.whl
+[2023-06-08 03:17:26] INFO root fetch - processPackages [zensols.deeplearn]: executing diffoscope
+[2023-06-08 03:17:26] INFO root fetch - processPackages [zensols.deeplearn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zensols.deeplearn-1.6.0-py3-none-any.whl.zip tmp/zensols.deeplearn-1.6.1-py3-none-any.whl.zip --markdown 20230608/z/zensols.deeplearn/1.6.0-1.6.1/diff.md --exclude *.pyd
+[2023-06-08 03:17:26] INFO root fetch - processPackages [anyon]: Remove: archive file [/home/abi/fetcher/tmp/anyon-3.2.4-cp311-cp311-win_amd64.whl.zip]
+[2023-06-08 03:17:26] INFO root fetch - processPackages [anyon]: Remove: archive file [/home/abi/fetcher/tmp/anyon-3.4.1-cp311-cp311-win_amd64.whl.zip]
+[2023-06-08 03:17:26] INFO root fetch - main [MainThread]: End processing [anyon]: success
+[2023-06-08 03:17:26] INFO root fetch - processPackages [spPersist]: Remove: archive file [/home/abi/fetcher/tmp/spPersist-0.2.8.tar.gz]
+[2023-06-08 03:17:26] INFO root fetch - processPackages [spPersist]: Remove: archive file [/home/abi/fetcher/tmp/spPersist-0.2.9.tar.gz]
+[2023-06-08 03:17:26] INFO root fetch - main [MainThread]: End processing [spPersist]: success
+[2023-06-08 03:17:26] INFO root fetch - processPackages [pepperize.cdk-organizations]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-organizations-0.7.98.tar.gz]
+[2023-06-08 03:17:26] INFO root fetch - processPackages [pepperize.cdk-organizations]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-organizations-0.7.99.tar.gz]
+[2023-06-08 03:17:26] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-organizations]: success
+[2023-06-08 03:17:26] INFO root fetch - processPackages [googleapiutils2]: Remove: archive file [/home/abi/fetcher/tmp/googleapiutils2-0.9.2.tar.gz]
+[2023-06-08 03:17:26] INFO root fetch - processPackages [googleapiutils2]: Remove: archive file [/home/abi/fetcher/tmp/googleapiutils2-0.9.3.tar.gz]
+[2023-06-08 03:17:26] INFO root fetch - main [MainThread]: End processing [googleapiutils2]: success
+[2023-06-08 03:17:27] INFO root fetch - processPackages [duckdb]: Downloading https://files.pythonhosted.org/packages/37/9e/f0aeda20dc8e9525ec10d583bb83c20047769952e07512ba707503f9a62b/duckdb-0.8.1.dev355-cp36-cp36m-macosx_10_9_x86_64.whl
+[2023-06-08 03:17:27] WARNING root fetch - processPackages [duckdb]: Skipping package: exceeds size limit 14637739>=10485760
+[2023-06-08 03:17:27] INFO root fetch - main [MainThread]: End processing [duckdb] error
+[2023-06-08 03:17:27] INFO root fetch - processPackages [posemaro]: Remove: archive file [/home/abi/fetcher/tmp/posemaro-1.1.8-py3-none-any.whl.zip]
+[2023-06-08 03:17:27] INFO root fetch - processPackages [posemaro]: Remove: archive file [/home/abi/fetcher/tmp/posemaro-1.1.9-py3-none-any.whl.zip]
+[2023-06-08 03:17:27] INFO root fetch - main [MainThread]: End processing [posemaro]: success
+[2023-06-08 03:17:27] INFO root fetch - processPackages [zensols.deeplearn]: Remove: archive file [/home/abi/fetcher/tmp/zensols.deeplearn-1.6.0-py3-none-any.whl.zip]
+[2023-06-08 03:17:27] INFO root fetch - processPackages [zensols.deeplearn]: Remove: archive file [/home/abi/fetcher/tmp/zensols.deeplearn-1.6.1-py3-none-any.whl.zip]
+[2023-06-08 03:17:27] INFO root fetch - main [MainThread]: End processing [zensols.deeplearn]: success
+[2023-06-08 03:17:27] INFO root fetch - main [MainThread]: Store serial: [18416596]
