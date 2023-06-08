@@ -19427,3 +19427,119 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-08 09:37:05] INFO root fetch - processPackages [lupin-grognard]: Remove: archive file [/home/abi/fetcher/tmp/lupin-grognard-1.9.0.tar.gz]
 [2023-06-08 09:37:05] INFO root fetch - main [MainThread]: End processing [lupin-grognard]: success
 [2023-06-08 09:37:05] INFO root fetch - main [MainThread]: Store serial: [18421138]
+[2023-06-08 09:42:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18421138]
+[2023-06-08 09:42:18] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-08 09:42:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: harborapi
+[2023-06-08 09:42:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pepperize.cdk-apigateway-swagger-ui
+[2023-06-08 09:42:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: acryl-datahub
+[2023-06-08 09:42:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lalsuite
+[2023-06-08 09:42:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: acryl-datahub-airflow-plugin
+[2023-06-08 09:42:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: neuroshape
+[2023-06-08 09:42:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cg
+[2023-06-08 09:42:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sonic-uia2-client
+[2023-06-08 09:42:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fractal-repositories
+[2023-06-08 09:42:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: swh.lister
+[2023-06-08 09:42:18] INFO root fetch - processPackages [harborapi]: New version: [0.9.0] Old Version: [0.8.6]
+[2023-06-08 09:42:18] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: New version: [0.9.6rc1] Old Version: [0.9.6rc0]
+[2023-06-08 09:42:18] INFO root fetch - processPackages [acryl-datahub]: New version: [0.9.6rc1] Old Version: [0.9.6rc0]
+[2023-06-08 09:42:18] INFO root fetch - processPackages [neuroshape]: New version: [0.0.4.1] Old Version: [0.0.4]
+[2023-06-08 09:42:18] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-06-08 09:42:18] INFO root fetch - processPackages [cg]: New version: [33.3.4] Old Version: [33.3.3]
+[2023-06-08 09:42:18] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Downloading https://files.pythonhosted.org/packages/60/74/0b422dc91d4bd8d366dd7b7d0ec02d0dce8acb8fd091783a0270d02e5607/acryl-datahub-airflow-plugin-0.9.6rc0.tar.gz
+[2023-06-08 09:42:18] INFO root fetch - processPackages [lalsuite]: New version: [7.9] Old Version: [7.8]
+[2023-06-08 09:42:18] INFO root fetch - processPackages [sonic-uia2-client]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-08 09:42:18] INFO root fetch - processPackages [swh.lister]: New version: [5.6.2] Old Version: [5.6.1]
+[2023-06-08 09:42:18] INFO root fetch - processPackages [acryl-datahub]: Downloading https://files.pythonhosted.org/packages/5c/93/a89204befbf5a41d498b9204bc4e597e57cf385fbbf058bd74b9e2cff691/acryl-datahub-0.9.6rc0.tar.gz
+[2023-06-08 09:42:18] INFO root fetch - processPackages [harborapi]: Downloading https://files.pythonhosted.org/packages/5c/2a/58d6ecd57c3d1b448b9dc47dc94b6192a2d2a954d42fc450e4d4e9ac2017/harborapi-0.8.6.tar.gz
+[2023-06-08 09:42:18] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/b8/4f/ab1aaf8b918f3d69fd411c46d2de897e47cf20f3f00e1e486728da1116e9/cg-33.3.3.tar.gz
+[2023-06-08 09:42:18] INFO root fetch - processPackages [lalsuite]: Downloading https://files.pythonhosted.org/packages/53/92/fc43211ca56b7c5532fc1b47c701a564c7ddcaf866c62ae45acbfdc34f23/lalsuite-7.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-08 09:42:18] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/b5/4b/0742a4ab14bdc0e7e1a1efa5e089f45c05c18e939582e562ff5095837d67/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz
+[2023-06-08 09:42:18] WARNING root fetch - processPackages [lalsuite]: Skipping package: exceeds size limit 48394251>=10485760
+[2023-06-08 09:42:18] INFO root fetch - processPackages [lalsuite]: Start processing: flatland-railway-extension
+[2023-06-08 09:42:18] INFO root fetch - main [MainThread]: End processing [lalsuite] error
+[2023-06-08 09:42:18] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Downloading https://files.pythonhosted.org/packages/8c/ee/fa9c08b9f255db5385b46e09a7315f48f208b40d651a68bf9966b4745db4/acryl-datahub-airflow-plugin-0.9.6rc1.tar.gz
+[2023-06-08 09:42:18] INFO root fetch - processPackages [neuroshape]: Downloading https://files.pythonhosted.org/packages/c0/81/dcb1d9f2d0616ed1fa3e622d6802b215154606770a4cedbcde607b0aafc8/neuroshape-0.0.4.tar.gz
+[2023-06-08 09:42:18] INFO root fetch - processPackages [fractal-repositories]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-08 09:42:18] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/26/00/4a1349f0bcf2e9748638b7200a5103b199e427f7a00a0944e776e8d0c362/cg-33.3.4.tar.gz
+[2023-06-08 09:42:18] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: executing diffoscope
+[2023-06-08 09:42:18] INFO root fetch - processPackages [acryl-datahub]: Downloading https://files.pythonhosted.org/packages/ad/82/42882429f560fe5f9e20c6f3ee4d421b566a61c843e944997be820243708/acryl-datahub-0.9.6rc1.tar.gz
+[2023-06-08 09:42:18] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acryl-datahub-airflow-plugin-0.9.6rc0.tar.gz tmp/acryl-datahub-airflow-plugin-0.9.6rc1.tar.gz --markdown 20230608/a/acryl-datahub-airflow-plugin/0.9.6rc0-0.9.6rc1/diff.md --exclude *.pyd
+[2023-06-08 09:42:18] INFO root fetch - processPackages [sonic-uia2-client]: Downloading https://files.pythonhosted.org/packages/18/8b/045ee291912bfad150604f5106129eed5befe7942a372b955abd22e997f7/sonic-uia2-client-0.0.3.tar.gz
+[2023-06-08 09:42:18] INFO root fetch - processPackages [flatland-railway-extension]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-06-08 09:42:18] INFO root fetch - processPackages [cg]: executing diffoscope
+[2023-06-08 09:42:18] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-33.3.3.tar.gz tmp/cg-33.3.4.tar.gz --markdown 20230608/c/cg/33.3.3-33.3.4/diff.md --exclude *.pyd
+[2023-06-08 09:42:18] INFO root fetch - processPackages [acryl-datahub]: executing diffoscope
+[2023-06-08 09:42:18] INFO root fetch - processPackages [acryl-datahub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acryl-datahub-0.9.6rc0.tar.gz tmp/acryl-datahub-0.9.6rc1.tar.gz --markdown 20230608/a/acryl-datahub/0.9.6rc0-0.9.6rc1/diff.md --exclude *.pyd
+[2023-06-08 09:42:19] INFO root fetch - processPackages [harborapi]: Downloading https://files.pythonhosted.org/packages/27/2c/7ea076b0aa166efe412bad3f442cd6278d311f903fcb51e89039fee40d71/harborapi-0.9.0.tar.gz
+[2023-06-08 09:42:19] INFO root fetch - processPackages [fractal-repositories]: Downloading https://files.pythonhosted.org/packages/11/57/7b1db863cbf170b12abdbc55170a0bc84980a325056355d24ce42a602274/fractal-repositories-0.0.1.tar.gz
+[2023-06-08 09:42:19] INFO root fetch - processPackages [swh.lister]: Downloading https://files.pythonhosted.org/packages/6c/b7/16ae52ff797fbba1222006fcb86dc3bc349ab8c3a5fdc6771e46e3acc900/swh.lister-5.6.1.tar.gz
+[2023-06-08 09:42:19] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/c7/46/0f42bc025c61bcf7528be4662164372850647ddcc00ec2a211a0b9e071cc/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz
+[2023-06-08 09:42:19] INFO root fetch - processPackages [flatland-railway-extension]: Downloading https://files.pythonhosted.org/packages/8c/f3/df152419f672729fd71f188d865bff164c2d46d5cdf13f49002da418825b/flatland-railway-extension-0.2.4.tar.gz
+[2023-06-08 09:42:19] INFO root fetch - processPackages [neuroshape]: Downloading https://files.pythonhosted.org/packages/e6/69/a1a7c31b8acfd7b94852181a419ec1aaa4ee7b1f3a3c93acb9c1479bde5e/neuroshape-0.0.4.1.tar.gz
+[2023-06-08 09:42:19] INFO root fetch - processPackages [sonic-uia2-client]: Downloading https://files.pythonhosted.org/packages/de/23/75864c9677775e52f669e052bffa00723770dfb82c4be23981c8893dd765/sonic-uia2-client-0.0.4.tar.gz
+[2023-06-08 09:42:19] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: executing diffoscope
+[2023-06-08 09:42:19] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz --markdown 20230608/p/pepperize.cdk-apigateway-swagger-ui/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-06-08 09:42:19] INFO root fetch - processPackages [neuroshape]: executing diffoscope
+[2023-06-08 09:42:19] INFO root fetch - processPackages [neuroshape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neuroshape-0.0.4.tar.gz tmp/neuroshape-0.0.4.1.tar.gz --markdown 20230608/n/neuroshape/0.0.4-0.0.4.1/diff.md --exclude *.pyd
+[2023-06-08 09:42:19] INFO root fetch - processPackages [sonic-uia2-client]: executing diffoscope
+[2023-06-08 09:42:19] INFO root fetch - processPackages [sonic-uia2-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sonic-uia2-client-0.0.3.tar.gz tmp/sonic-uia2-client-0.0.4.tar.gz --markdown 20230608/s/sonic-uia2-client/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-08 09:42:19] INFO root fetch - processPackages [harborapi]: executing diffoscope
+[2023-06-08 09:42:19] INFO root fetch - processPackages [harborapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/harborapi-0.8.6.tar.gz tmp/harborapi-0.9.0.tar.gz --markdown 20230608/h/harborapi/0.8.6-0.9.0/diff.md --exclude *.pyd
+[2023-06-08 09:42:19] INFO root fetch - processPackages [flatland-railway-extension]: Downloading https://files.pythonhosted.org/packages/0c/ab/c66e5d106cf4b572e7b0b169196e8c53bcfa1a291aa9bfca2581e80ca703/flatland-railway-extension-0.2.5.tar.gz
+[2023-06-08 09:42:19] INFO root fetch - processPackages [flatland-railway-extension]: executing diffoscope
+[2023-06-08 09:42:19] INFO root fetch - processPackages [flatland-railway-extension]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flatland-railway-extension-0.2.4.tar.gz tmp/flatland-railway-extension-0.2.5.tar.gz --markdown 20230608/f/flatland-railway-extension/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-06-08 09:42:19] INFO root fetch - processPackages [swh.lister]: Downloading https://files.pythonhosted.org/packages/f2/3f/a9e77b6191453b8341ef9bba9cd2fa2c7c80b89464a38799b47ec2522d88/swh.lister-5.6.2.tar.gz
+[2023-06-08 09:42:19] INFO root fetch - processPackages [fractal-repositories]: Downloading https://files.pythonhosted.org/packages/e8/68/9dc2c04b87f905466ecdb2ad4dc4eb7c29419dc43ed329d56146ba8f5d72/fractal_repositories-0.0.2.tar.gz
+[2023-06-08 09:42:19] INFO root fetch - processPackages [fractal-repositories]: executing diffoscope
+[2023-06-08 09:42:19] INFO root fetch - processPackages [fractal-repositories]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fractal-repositories-0.0.1.tar.gz tmp/fractal_repositories-0.0.2.tar.gz --markdown 20230608/f/fractal-repositories/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-08 09:42:19] INFO root fetch - processPackages [swh.lister]: executing diffoscope
+[2023-06-08 09:42:19] INFO root fetch - processPackages [swh.lister]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swh.lister-5.6.1.tar.gz tmp/swh.lister-5.6.2.tar.gz --markdown 20230608/s/swh.lister/5.6.1-5.6.2/diff.md --exclude *.pyd
+[2023-06-08 09:42:20] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-airflow-plugin-0.9.6rc0.tar.gz]
+[2023-06-08 09:42:20] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-airflow-plugin-0.9.6rc1.tar.gz]
+[2023-06-08 09:42:20] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Start processing: configzen
+[2023-06-08 09:42:20] INFO root fetch - main [MainThread]: End processing [acryl-datahub-airflow-plugin]: success
+[2023-06-08 09:42:20] INFO root fetch - processPackages [configzen]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-06-08 09:42:20] INFO root fetch - processPackages [configzen]: Downloading https://files.pythonhosted.org/packages/6c/57/08c1b72eb51f53a384848410331c1db2eea5455dad9f34cd144ccda23eda/configzen-0.2.7.tar.gz
+[2023-06-08 09:42:20] INFO root fetch - processPackages [configzen]: Downloading https://files.pythonhosted.org/packages/63/21/6a33fb0ae7298fd582936fdcce3fd3034fb23086a4affa57ff43522d147e/configzen-0.2.8.tar.gz
+[2023-06-08 09:42:20] INFO root fetch - processPackages [configzen]: executing diffoscope
+[2023-06-08 09:42:20] INFO root fetch - processPackages [configzen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/configzen-0.2.7.tar.gz tmp/configzen-0.2.8.tar.gz --markdown 20230608/c/configzen/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-06-08 09:42:21] INFO root fetch - processPackages [sonic-uia2-client]: Remove: archive file [/home/abi/fetcher/tmp/sonic-uia2-client-0.0.3.tar.gz]
+[2023-06-08 09:42:21] INFO root fetch - processPackages [sonic-uia2-client]: Remove: archive file [/home/abi/fetcher/tmp/sonic-uia2-client-0.0.4.tar.gz]
+[2023-06-08 09:42:21] INFO root fetch - processPackages [sonic-uia2-client]: Start processing: streamlit-code-editor
+[2023-06-08 09:42:21] INFO root fetch - main [MainThread]: End processing [sonic-uia2-client]: success
+[2023-06-08 09:42:21] INFO root fetch - processPackages [flatland-railway-extension]: Remove: archive file [/home/abi/fetcher/tmp/flatland-railway-extension-0.2.4.tar.gz]
+[2023-06-08 09:42:21] INFO root fetch - processPackages [flatland-railway-extension]: Remove: archive file [/home/abi/fetcher/tmp/flatland-railway-extension-0.2.5.tar.gz]
+[2023-06-08 09:42:21] INFO root fetch - main [MainThread]: End processing [flatland-railway-extension]: success
+[2023-06-08 09:42:21] INFO root fetch - processPackages [streamlit-code-editor]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-08 09:42:21] INFO root fetch - processPackages [streamlit-code-editor]: Downloading https://files.pythonhosted.org/packages/4c/7f/6647372bcada3784a67c9b5e5728f156bd5c199fb4dfc04f4952644bb062/streamlit-code-editor-0.1.2.tar.gz
+[2023-06-08 09:42:21] INFO root fetch - processPackages [streamlit-code-editor]: Downloading https://files.pythonhosted.org/packages/6a/77/d20ebfaf8d078b34ec6d9b1a4e52fe114467e496671cabc8e5af8589174c/streamlit-code-editor-0.1.3.tar.gz
+[2023-06-08 09:42:21] INFO root fetch - processPackages [configzen]: Remove: archive file [/home/abi/fetcher/tmp/configzen-0.2.7.tar.gz]
+[2023-06-08 09:42:21] INFO root fetch - processPackages [configzen]: Remove: archive file [/home/abi/fetcher/tmp/configzen-0.2.8.tar.gz]
+[2023-06-08 09:42:21] INFO root fetch - main [MainThread]: End processing [configzen]: success
+[2023-06-08 09:42:21] INFO root fetch - processPackages [neuroshape]: Remove: archive file [/home/abi/fetcher/tmp/neuroshape-0.0.4.tar.gz]
+[2023-06-08 09:42:21] INFO root fetch - processPackages [neuroshape]: Remove: archive file [/home/abi/fetcher/tmp/neuroshape-0.0.4.1.tar.gz]
+[2023-06-08 09:42:21] INFO root fetch - main [MainThread]: End processing [neuroshape]: success
+[2023-06-08 09:42:22] INFO root fetch - processPackages [fractal-repositories]: Remove: archive file [/home/abi/fetcher/tmp/fractal-repositories-0.0.1.tar.gz]
+[2023-06-08 09:42:22] INFO root fetch - processPackages [fractal-repositories]: Remove: archive file [/home/abi/fetcher/tmp/fractal_repositories-0.0.2.tar.gz]
+[2023-06-08 09:42:22] INFO root fetch - main [MainThread]: End processing [fractal-repositories]: success
+[2023-06-08 09:42:22] INFO root fetch - processPackages [streamlit-code-editor]: executing diffoscope
+[2023-06-08 09:42:22] INFO root fetch - processPackages [streamlit-code-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-code-editor-0.1.2.tar.gz tmp/streamlit-code-editor-0.1.3.tar.gz --markdown 20230608/s/streamlit-code-editor/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-08 09:42:22] INFO root fetch - processPackages [harborapi]: Remove: archive file [/home/abi/fetcher/tmp/harborapi-0.8.6.tar.gz]
+[2023-06-08 09:42:22] INFO root fetch - processPackages [harborapi]: Remove: archive file [/home/abi/fetcher/tmp/harborapi-0.9.0.tar.gz]
+[2023-06-08 09:42:22] INFO root fetch - main [MainThread]: End processing [harborapi]: success
+[2023-06-08 09:42:22] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz]
+[2023-06-08 09:42:22] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz]
+[2023-06-08 09:42:22] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
+[2023-06-08 09:42:24] INFO root fetch - processPackages [swh.lister]: Remove: archive file [/home/abi/fetcher/tmp/swh.lister-5.6.1.tar.gz]
+[2023-06-08 09:42:24] INFO root fetch - processPackages [swh.lister]: Remove: archive file [/home/abi/fetcher/tmp/swh.lister-5.6.2.tar.gz]
+[2023-06-08 09:42:24] INFO root fetch - main [MainThread]: End processing [swh.lister]: success
+[2023-06-08 09:42:25] INFO root fetch - processPackages [acryl-datahub]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-0.9.6rc0.tar.gz]
+[2023-06-08 09:42:25] INFO root fetch - processPackages [acryl-datahub]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-0.9.6rc1.tar.gz]
+[2023-06-08 09:42:25] INFO root fetch - main [MainThread]: End processing [acryl-datahub]: success
+[2023-06-08 09:42:28] INFO root fetch - processPackages [streamlit-code-editor]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-code-editor-0.1.2.tar.gz]
+[2023-06-08 09:42:28] INFO root fetch - processPackages [streamlit-code-editor]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-code-editor-0.1.3.tar.gz]
+[2023-06-08 09:42:28] INFO root fetch - main [MainThread]: End processing [streamlit-code-editor]: success
+[2023-06-08 09:42:30] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-33.3.3.tar.gz]
+[2023-06-08 09:42:30] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-33.3.4.tar.gz]
+[2023-06-08 09:42:30] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2023-06-08 09:42:30] INFO root fetch - main [MainThread]: Store serial: [18421190]
