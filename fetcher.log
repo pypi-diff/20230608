@@ -19151,3 +19151,132 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-08 09:25:41] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz]
 [2023-06-08 09:25:41] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
 [2023-06-08 09:25:41] INFO root fetch - main [MainThread]: Store serial: [18421002]
+[2023-06-08 09:30:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18421002]
+[2023-06-08 09:30:50] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-06-08 09:30:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: muffin-rest
+[2023-06-08 09:30:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Pandora-ChatGPT
+[2023-06-08 09:30:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pepperize.cdk-terraform-state-backend
+[2023-06-08 09:30:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lietorch
+[2023-06-08 09:30:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyarmor.cli.core.alpine
+[2023-06-08 09:30:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-l10n-fr-das2
+[2023-06-08 09:30:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyarmor.cli.core.android
+[2023-06-08 09:30:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: PyNyaaTa
+[2023-06-08 09:30:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: qase-python-commons
+[2023-06-08 09:30:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pepperize.cdk-apigateway-swagger-ui
+[2023-06-08 09:30:50] INFO root fetch - processPackages [odoo-addon-l10n-fr-das2]: New version: [16.0.1.1.0] Old Version: [16.0.1.0.0.3]
+[2023-06-08 09:30:50] INFO root fetch - processPackages [lietorch]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-06-08 09:30:50] INFO root fetch - processPackages [pyarmor.cli.core.alpine]: New version: [3.2.5] Old Version: [3.2.4]
+[2023-06-08 09:30:50] INFO root fetch - processPackages [Pandora-ChatGPT]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-06-08 09:30:50] INFO root fetch - processPackages [pyarmor.cli.core.android]: New version: [3.2.5] Old Version: [3.2.4]
+[2023-06-08 09:30:50] INFO root fetch - processPackages [muffin-rest]: New version: [5.1.3] Old Version: [5.1.2]
+[2023-06-08 09:30:50] INFO root fetch - processPackages [qase-python-commons]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-06-08 09:30:50] INFO root fetch - processPackages [PyNyaaTa]: New version: [202306080728] Old Version: [202305300705]
+[2023-06-08 09:30:50] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-06-08 09:30:50] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-06-08 09:30:50] INFO root fetch - processPackages [qase-python-commons]: Downloading https://files.pythonhosted.org/packages/30/b4/0ac995dd6528b76cf58c86e2a4558250ee42b4faff25b920c44047868722/qase-python-commons-2.0.0.tar.gz
+[2023-06-08 09:30:50] INFO root fetch - processPackages [Pandora-ChatGPT]: Downloading https://files.pythonhosted.org/packages/fe/d6/efeca73535f347494b285886aad06bf516af311af3048957a97727c9a270/Pandora-ChatGPT-1.1.8.tar.gz
+[2023-06-08 09:30:50] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/b5/4b/0742a4ab14bdc0e7e1a1efa5e089f45c05c18e939582e562ff5095837d67/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz
+[2023-06-08 09:30:50] INFO root fetch - processPackages [muffin-rest]: Downloading https://files.pythonhosted.org/packages/e4/7c/d71aabd46a7e011207e661c327c1ecc9c740a3a4a5318a51f537cc4520a6/muffin_rest-5.1.2.tar.gz
+[2023-06-08 09:30:50] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Downloading https://files.pythonhosted.org/packages/67/44/1dba32653c7525f0fbd8908ad6d202d1043a5fcb6cf364972a4c23bffeac/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz
+[2023-06-08 09:30:50] INFO root fetch - processPackages [odoo-addon-l10n-fr-das2]: Downloading https://files.pythonhosted.org/packages/f2/67/d60988135d8683ed99679cb145f11d948a5e5797a184a2fa013b3940dd22/odoo_addon_l10n_fr_das2-16.0.1.0.0.3-py3-none-any.whl
+[2023-06-08 09:30:50] INFO root fetch - processPackages [lietorch]: Downloading https://files.pythonhosted.org/packages/0b/95/cc3884868e8d9529ced6c876488164cfd4e07c7b28a1af23e7aef0f26889/lietorch-0.6.1.tar.gz
+[2023-06-08 09:30:50] INFO root fetch - processPackages [pyarmor.cli.core.android]: Downloading https://files.pythonhosted.org/packages/0c/c4/0e4ca97846de76b3e8f5bb83643c4aec41b260cb4aa1ce6e616adec2bee5/pyarmor.cli.core.android-3.2.4-cp39-none-any.whl
+[2023-06-08 09:30:50] INFO root fetch - processPackages [PyNyaaTa]: Downloading https://files.pythonhosted.org/packages/b6/68/eaf8546db705b35587cb699fbdd3bd78b5b0ef22fb23c11fe13db8317c23/PyNyaaTa-202305300705.tar.gz
+[2023-06-08 09:30:50] INFO root fetch - processPackages [pyarmor.cli.core.alpine]: Downloading https://files.pythonhosted.org/packages/5e/0a/eb645f675e6373df0bb81abac45a97e2b4bab10a0bd09dc057741de3e27e/pyarmor.cli.core.alpine-3.2.4-cp39-none-any.whl
+[2023-06-08 09:30:50] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Downloading https://files.pythonhosted.org/packages/49/e5/a2d418e8a59e46c739ecaa72adebcb65d676b8149513d576b8cd05d6324e/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz
+[2023-06-08 09:30:50] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/c7/46/0f42bc025c61bcf7528be4662164372850647ddcc00ec2a211a0b9e071cc/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz
+[2023-06-08 09:30:50] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: executing diffoscope
+[2023-06-08 09:30:50] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz --markdown 20230608/p/pepperize.cdk-terraform-state-backend/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-06-08 09:30:50] INFO root fetch - processPackages [Pandora-ChatGPT]: Downloading https://files.pythonhosted.org/packages/47/59/13535fd76ba70393c88a85c92754254b83e3c9affcd1079f04f9b3b6259a/Pandora-ChatGPT-1.1.9.tar.gz
+[2023-06-08 09:30:50] WARNING root fetch - processPackages [lietorch]: Skipping package: exceeds size limit 12062660>=10485760
+[2023-06-08 09:30:50] INFO root fetch - processPackages [lietorch]: Start processing: llama-cpp-python
+[2023-06-08 09:30:50] INFO root fetch - main [MainThread]: End processing [lietorch] error
+[2023-06-08 09:30:50] WARNING root fetch - processPackages [pyarmor.cli.core.android]: Skipping package: exceeds size limit 12503404>=10485760
+[2023-06-08 09:30:50] INFO root fetch - processPackages [pyarmor.cli.core.android]: Start processing: bdating-common
+[2023-06-08 09:30:50] INFO root fetch - processPackages [muffin-rest]: Downloading https://files.pythonhosted.org/packages/42/2d/aaa62d6587b7b7ca084f1c613edf386631ae91caf825814ab5cb4f129dfc/muffin_rest-5.1.3.tar.gz
+[2023-06-08 09:30:50] INFO root fetch - main [MainThread]: End processing [pyarmor.cli.core.android] error
+[2023-06-08 09:30:50] INFO root fetch - processPackages [qase-python-commons]: Downloading https://files.pythonhosted.org/packages/17/cf/eb0d0714d02fbfc054c453c534080b50d099421119c9ff400bf6b5826ad9/qase-python-commons-2.0.1.tar.gz
+[2023-06-08 09:30:50] INFO root fetch - processPackages [llama-cpp-python]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-08 09:30:50] INFO root fetch - processPackages [Pandora-ChatGPT]: executing diffoscope
+[2023-06-08 09:30:50] INFO root fetch - processPackages [Pandora-ChatGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Pandora-ChatGPT-1.1.8.tar.gz tmp/Pandora-ChatGPT-1.1.9.tar.gz --markdown 20230608/P/Pandora-ChatGPT/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-06-08 09:30:50] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: executing diffoscope
+[2023-06-08 09:30:50] INFO root fetch - processPackages [qase-python-commons]: executing diffoscope
+[2023-06-08 09:30:50] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz --markdown 20230608/p/pepperize.cdk-apigateway-swagger-ui/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-06-08 09:30:50] INFO root fetch - processPackages [qase-python-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qase-python-commons-2.0.0.tar.gz tmp/qase-python-commons-2.0.1.tar.gz --markdown 20230608/q/qase-python-commons/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-06-08 09:30:50] INFO root fetch - processPackages [muffin-rest]: executing diffoscope
+[2023-06-08 09:30:50] INFO root fetch - processPackages [muffin-rest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/muffin_rest-5.1.2.tar.gz tmp/muffin_rest-5.1.3.tar.gz --markdown 20230608/m/muffin-rest/5.1.2-5.1.3/diff.md --exclude *.pyd
+[2023-06-08 09:30:50] INFO root fetch - processPackages [bdating-common]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-08 09:30:50] INFO root fetch - processPackages [odoo-addon-l10n-fr-das2]: Downloading https://files.pythonhosted.org/packages/87/ba/41d5a681ed962fb0420079a9d57cdc1c0150014f2e15c0bcbe5035716a89/odoo_addon_l10n_fr_das2-16.0.1.1.0-py3-none-any.whl
+[2023-06-08 09:30:50] INFO root fetch - processPackages [PyNyaaTa]: Downloading https://files.pythonhosted.org/packages/c4/00/5b41ba1e5daf20e78089ad9613e875aff66968174cf93d204d6381e9634f/PyNyaaTa-202306080728.tar.gz
+[2023-06-08 09:30:50] INFO root fetch - processPackages [bdating-common]: Downloading https://files.pythonhosted.org/packages/b6/e8/182164ed551405a938d125b986db596ae2ec4c2e63f64a36150e891ba74b/bdating-common-0.9.8.tar.gz
+[2023-06-08 09:30:50] INFO root fetch - processPackages [pyarmor.cli.core.alpine]: Downloading https://files.pythonhosted.org/packages/01/88/7efbda431664573711aa92931898409ccaf85091fe06397552c2485777c1/pyarmor.cli.core.alpine-3.2.5-cp39-none-any.whl
+[2023-06-08 09:30:50] INFO root fetch - processPackages [odoo-addon-l10n-fr-das2]: executing diffoscope
+[2023-06-08 09:30:50] INFO root fetch - processPackages [odoo-addon-l10n-fr-das2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_fr_das2-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_l10n_fr_das2-16.0.1.1.0-py3-none-any.whl.zip --markdown 20230608/o/odoo-addon-l10n-fr-das2/16.0.1.0.0.3-16.0.1.1.0/diff.md --exclude *.pyd
+[2023-06-08 09:30:50] INFO root fetch - processPackages [PyNyaaTa]: executing diffoscope
+[2023-06-08 09:30:50] INFO root fetch - processPackages [PyNyaaTa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyNyaaTa-202305300705.tar.gz tmp/PyNyaaTa-202306080728.tar.gz --markdown 20230608/P/PyNyaaTa/202305300705-202306080728/diff.md --exclude *.pyd
+[2023-06-08 09:30:51] INFO root fetch - processPackages [pyarmor.cli.core.alpine]: executing diffoscope
+[2023-06-08 09:30:51] INFO root fetch - processPackages [pyarmor.cli.core.alpine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyarmor.cli.core.alpine-3.2.4-cp39-none-any.whl.zip tmp/pyarmor.cli.core.alpine-3.2.5-cp39-none-any.whl.zip --markdown 20230608/p/pyarmor.cli.core.alpine/3.2.4-3.2.5/diff.md --exclude *.pyd
+[2023-06-08 09:30:51] INFO root fetch - processPackages [llama-cpp-python]: Downloading https://files.pythonhosted.org/packages/7e/3b/b5f7e1ec5f43a4e980733c63bd4f05e1b7e14fd3b7aa72d9ca91f2415323/llama_cpp_python-0.1.8.tar.gz
+[2023-06-08 09:30:51] INFO root fetch - processPackages [bdating-common]: Downloading https://files.pythonhosted.org/packages/5e/03/279ccb140de56fd96b4d934616aca37e5a50bff8f0684be248f712f24d5a/bdating-common-0.9.9.tar.gz
+[2023-06-08 09:30:51] INFO root fetch - processPackages [bdating-common]: executing diffoscope
+[2023-06-08 09:30:51] INFO root fetch - processPackages [bdating-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bdating-common-0.9.8.tar.gz tmp/bdating-common-0.9.9.tar.gz --markdown 20230608/b/bdating-common/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-08 09:30:51] INFO root fetch - processPackages [llama-cpp-python]: Downloading https://files.pythonhosted.org/packages/9f/24/45a5a3beee1354f668d916eb1a2146835a0eda4dbad0da45252170e105a6/llama_cpp_python-0.1.9.tar.gz
+[2023-06-08 09:30:51] INFO root fetch - processPackages [llama-cpp-python]: executing diffoscope
+[2023-06-08 09:30:51] INFO root fetch - processPackages [llama-cpp-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_cpp_python-0.1.8.tar.gz tmp/llama_cpp_python-0.1.9.tar.gz --markdown 20230608/l/llama-cpp-python/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-08 09:30:52] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz]
+[2023-06-08 09:30:52] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz]
+[2023-06-08 09:30:52] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Start processing: pyarmor.cli.core.darwin
+[2023-06-08 09:30:52] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-terraform-state-backend]: success
+[2023-06-08 09:30:52] INFO root fetch - processPackages [pyarmor.cli.core.darwin]: New version: [3.2.5] Old Version: [3.2.4]
+[2023-06-08 09:30:52] INFO root fetch - processPackages [muffin-rest]: Remove: archive file [/home/abi/fetcher/tmp/muffin_rest-5.1.2.tar.gz]
+[2023-06-08 09:30:52] INFO root fetch - processPackages [muffin-rest]: Remove: archive file [/home/abi/fetcher/tmp/muffin_rest-5.1.3.tar.gz]
+[2023-06-08 09:30:52] INFO root fetch - processPackages [muffin-rest]: Start processing: dissect.target
+[2023-06-08 09:30:52] INFO root fetch - main [MainThread]: End processing [muffin-rest]: success
+[2023-06-08 09:30:52] INFO root fetch - processPackages [dissect.target]: New version: [3.9.dev9] Old Version: [3.9.dev8]
+[2023-06-08 09:30:52] INFO root fetch - processPackages [dissect.target]: Downloading https://files.pythonhosted.org/packages/b1/a4/24f9ce2eb6a1913b82598a01b68b634c9fe5535a9484bff3d7d56a0ae929/dissect.target-3.9.dev8.tar.gz
+[2023-06-08 09:30:52] INFO root fetch - processPackages [odoo-addon-l10n-fr-das2]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_fr_das2-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-06-08 09:30:52] WARNING root fetch - processPackages [dissect.target]: Skipping package: exceeds size limit 63555307>=10485760
+[2023-06-08 09:30:52] INFO root fetch - processPackages [dissect.target]: Start processing: pyarmor.cli.core.freebsd
+[2023-06-08 09:30:52] INFO root fetch - main [MainThread]: End processing [dissect.target] error
+[2023-06-08 09:30:52] INFO root fetch - processPackages [odoo-addon-l10n-fr-das2]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_fr_das2-16.0.1.1.0-py3-none-any.whl.zip]
+[2023-06-08 09:30:52] INFO root fetch - processPackages [odoo-addon-l10n-fr-das2]: Start processing: dataqualityx
+[2023-06-08 09:30:52] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-fr-das2]: success
+[2023-06-08 09:30:52] INFO root fetch - processPackages [pyarmor.cli.core.darwin]: Downloading https://files.pythonhosted.org/packages/11/dc/4ae472c0b8c2f7964e86610363995e995b7c28d1aa52275a75dea4b1efaf/pyarmor.cli.core.darwin-3.2.4-cp39-none-any.whl
+[2023-06-08 09:30:52] WARNING root fetch - processPackages [dataqualityx]: Skipping, unable to determine old version
+[2023-06-08 09:30:52] INFO root fetch - main [MainThread]: End processing [dataqualityx] error
+[2023-06-08 09:30:52] INFO root fetch - processPackages [bdating-common]: Remove: archive file [/home/abi/fetcher/tmp/bdating-common-0.9.8.tar.gz]
+[2023-06-08 09:30:52] INFO root fetch - processPackages [bdating-common]: Remove: archive file [/home/abi/fetcher/tmp/bdating-common-0.9.9.tar.gz]
+[2023-06-08 09:30:52] INFO root fetch - main [MainThread]: End processing [bdating-common]: success
+[2023-06-08 09:30:52] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz]
+[2023-06-08 09:30:52] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz]
+[2023-06-08 09:30:53] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
+[2023-06-08 09:30:53] INFO root fetch - processPackages [pyarmor.cli.core.freebsd]: New version: [3.2.5] Old Version: [3.2.4]
+[2023-06-08 09:30:53] INFO root fetch - processPackages [qase-python-commons]: Remove: archive file [/home/abi/fetcher/tmp/qase-python-commons-2.0.0.tar.gz]
+[2023-06-08 09:30:53] INFO root fetch - processPackages [qase-python-commons]: Remove: archive file [/home/abi/fetcher/tmp/qase-python-commons-2.0.1.tar.gz]
+[2023-06-08 09:30:53] INFO root fetch - main [MainThread]: End processing [qase-python-commons]: success
+[2023-06-08 09:30:53] INFO root fetch - processPackages [PyNyaaTa]: Remove: archive file [/home/abi/fetcher/tmp/PyNyaaTa-202305300705.tar.gz]
+[2023-06-08 09:30:53] INFO root fetch - processPackages [PyNyaaTa]: Remove: archive file [/home/abi/fetcher/tmp/PyNyaaTa-202306080728.tar.gz]
+[2023-06-08 09:30:53] INFO root fetch - main [MainThread]: End processing [PyNyaaTa]: success
+[2023-06-08 09:30:53] INFO root fetch - processPackages [llama-cpp-python]: Remove: archive file [/home/abi/fetcher/tmp/llama_cpp_python-0.1.8.tar.gz]
+[2023-06-08 09:30:53] INFO root fetch - processPackages [llama-cpp-python]: Remove: archive file [/home/abi/fetcher/tmp/llama_cpp_python-0.1.9.tar.gz]
+[2023-06-08 09:30:53] INFO root fetch - main [MainThread]: End processing [llama-cpp-python]: success
+[2023-06-08 09:30:53] INFO root fetch - processPackages [pyarmor.cli.core.darwin]: Downloading https://files.pythonhosted.org/packages/1f/e2/94a5769d36e9ecd8f07f26cb01bd5a2071eba0d9a2476ee587cf7dd0e387/pyarmor.cli.core.darwin-3.2.5-cp39-none-any.whl
+[2023-06-08 09:30:53] INFO root fetch - processPackages [pyarmor.cli.core.freebsd]: Downloading https://files.pythonhosted.org/packages/67/e9/67976af3de23bbc5d9c3b9048e001a3184e9a1505268cd3fec94ff5f87a9/pyarmor.cli.core.freebsd-3.2.4-cp39-none-any.whl
+[2023-06-08 09:30:53] INFO root fetch - processPackages [Pandora-ChatGPT]: Remove: archive file [/home/abi/fetcher/tmp/Pandora-ChatGPT-1.1.8.tar.gz]
+[2023-06-08 09:30:53] INFO root fetch - processPackages [Pandora-ChatGPT]: Remove: archive file [/home/abi/fetcher/tmp/Pandora-ChatGPT-1.1.9.tar.gz]
+[2023-06-08 09:30:53] INFO root fetch - main [MainThread]: End processing [Pandora-ChatGPT]: success
+[2023-06-08 09:30:53] INFO root fetch - processPackages [pyarmor.cli.core.freebsd]: Downloading https://files.pythonhosted.org/packages/1d/ae/6cba2327410d49f5387af50e0bfe3e24d7408dbf84a243d80554c23c9376/pyarmor.cli.core.freebsd-3.2.5-cp39-none-any.whl
+[2023-06-08 09:30:53] INFO root fetch - processPackages [pyarmor.cli.core.darwin]: executing diffoscope
+[2023-06-08 09:30:53] INFO root fetch - processPackages [pyarmor.cli.core.darwin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyarmor.cli.core.darwin-3.2.4-cp39-none-any.whl.zip tmp/pyarmor.cli.core.darwin-3.2.5-cp39-none-any.whl.zip --markdown 20230608/p/pyarmor.cli.core.darwin/3.2.4-3.2.5/diff.md --exclude *.pyd
+[2023-06-08 09:30:54] INFO root fetch - processPackages [pyarmor.cli.core.freebsd]: executing diffoscope
+[2023-06-08 09:30:54] INFO root fetch - processPackages [pyarmor.cli.core.freebsd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyarmor.cli.core.freebsd-3.2.4-cp39-none-any.whl.zip tmp/pyarmor.cli.core.freebsd-3.2.5-cp39-none-any.whl.zip --markdown 20230608/p/pyarmor.cli.core.freebsd/3.2.4-3.2.5/diff.md --exclude *.pyd
+[2023-06-08 09:30:57] INFO root fetch - processPackages [pyarmor.cli.core.freebsd]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli.core.freebsd-3.2.4-cp39-none-any.whl.zip]
+[2023-06-08 09:30:57] INFO root fetch - processPackages [pyarmor.cli.core.freebsd]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli.core.freebsd-3.2.5-cp39-none-any.whl.zip]
+[2023-06-08 09:30:57] INFO root fetch - main [MainThread]: End processing [pyarmor.cli.core.freebsd]: success
+[2023-06-08 09:30:57] INFO root fetch - processPackages [pyarmor.cli.core.alpine]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli.core.alpine-3.2.4-cp39-none-any.whl.zip]
+[2023-06-08 09:30:57] INFO root fetch - processPackages [pyarmor.cli.core.alpine]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli.core.alpine-3.2.5-cp39-none-any.whl.zip]
+[2023-06-08 09:30:57] INFO root fetch - main [MainThread]: End processing [pyarmor.cli.core.alpine]: success
+[2023-06-08 09:30:58] INFO root fetch - processPackages [pyarmor.cli.core.darwin]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli.core.darwin-3.2.4-cp39-none-any.whl.zip]
+[2023-06-08 09:30:58] INFO root fetch - processPackages [pyarmor.cli.core.darwin]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli.core.darwin-3.2.5-cp39-none-any.whl.zip]
+[2023-06-08 09:30:58] INFO root fetch - main [MainThread]: End processing [pyarmor.cli.core.darwin]: success
+[2023-06-08 09:30:58] INFO root fetch - main [MainThread]: Store serial: [18421083]
