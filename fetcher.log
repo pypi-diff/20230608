@@ -13087,3 +13087,35 @@ AssertionError: tmp/odoo_addon_hr_personal_equipment_request-16.0.1.0.0.7-py3-no
 [2023-06-08 05:43:19] INFO root fetch - processPackages [odoo8-addon-account-companyweb]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_account_companyweb-8.0.1.0.0.99.dev9-py2-none-any.whl.zip]
 [2023-06-08 05:43:19] INFO root fetch - main [MainThread]: End processing [odoo8-addon-account-companyweb]: success
 [2023-06-08 05:43:19] INFO root fetch - main [MainThread]: Store serial: [18419121]
+[2023-06-08 05:48:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18419121]
+[2023-06-08 05:48:28] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-08 05:48:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hyutils-hyutil-hoyun-lab
+[2023-06-08 05:48:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ccdt
+[2023-06-08 05:48:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cheb3
+[2023-06-08 05:48:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kwja
+[2023-06-08 05:48:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: email-connector
+[2023-06-08 05:48:28] WARNING root fetch - processPackages [email-connector]: Skipping, unable to determine old version
+[2023-06-08 05:48:28] INFO root fetch - main [MainThread]: End processing [email-connector] error
+[2023-06-08 05:48:28] WARNING root fetch - processPackages [hyutils-hyutil-hoyun-lab]: Skipping, unable to determine old version
+[2023-06-08 05:48:28] INFO root fetch - main [MainThread]: End processing [hyutils-hyutil-hoyun-lab] error
+[2023-06-08 05:48:28] INFO root fetch - processPackages [cheb3]: New version: [0.7.3] Old Version: [0.7.2]
+[2023-06-08 05:48:28] INFO root fetch - processPackages [kwja]: New version: [2.1.2] Old Version: [2.1.1]
+[2023-06-08 05:48:28] INFO root fetch - processPackages [ccdt]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-06-08 05:48:28] INFO root fetch - processPackages [ccdt]: Downloading https://files.pythonhosted.org/packages/4b/74/4580a005cbe4f6dc4e16ce3a9feb5716c4cf901b4839d048dfff2001ee3d/ccdt-2.1.8.tar.gz
+[2023-06-08 05:48:28] INFO root fetch - processPackages [kwja]: Downloading https://files.pythonhosted.org/packages/ee/65/ee9991637adac843bfca35ad69576acd6c6bbc99c3598003a51370bb792f/kwja-2.1.1.tar.gz
+[2023-06-08 05:48:29] INFO root fetch - processPackages [cheb3]: Downloading https://files.pythonhosted.org/packages/e9/60/382c72e6eef96d56d99d15f6aa0c214e03acf02fb904f467c90184adde28/cheb3-0.7.2.tar.gz
+[2023-06-08 05:48:29] INFO root fetch - processPackages [ccdt]: Downloading https://files.pythonhosted.org/packages/d5/f2/7926d58fa933cd6e8d4ce55e92df2097043f323dba456534345b8dd248c1/ccdt-2.1.9.tar.gz
+[2023-06-08 05:48:29] WARNING root fetch - processPackages [kwja]: Skipping package: exceeds size limit 21629452>=10485760
+[2023-06-08 05:48:29] INFO root fetch - main [MainThread]: End processing [kwja] error
+[2023-06-08 05:48:29] INFO root fetch - processPackages [ccdt]: executing diffoscope
+[2023-06-08 05:48:29] INFO root fetch - processPackages [ccdt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccdt-2.1.8.tar.gz tmp/ccdt-2.1.9.tar.gz --markdown 20230608/c/ccdt/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-06-08 05:48:29] INFO root fetch - processPackages [cheb3]: Downloading https://files.pythonhosted.org/packages/f3/e4/1d773107fd1b05ba0c4f55338bad226d0caf8214c62c8b8390e26a3b27cd/cheb3-0.7.3.tar.gz
+[2023-06-08 05:48:29] INFO root fetch - processPackages [cheb3]: executing diffoscope
+[2023-06-08 05:48:29] INFO root fetch - processPackages [cheb3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cheb3-0.7.2.tar.gz tmp/cheb3-0.7.3.tar.gz --markdown 20230608/c/cheb3/0.7.2-0.7.3/diff.md --exclude *.pyd
+[2023-06-08 05:48:30] INFO root fetch - processPackages [ccdt]: Remove: archive file [/home/abi/fetcher/tmp/ccdt-2.1.8.tar.gz]
+[2023-06-08 05:48:30] INFO root fetch - processPackages [ccdt]: Remove: archive file [/home/abi/fetcher/tmp/ccdt-2.1.9.tar.gz]
+[2023-06-08 05:48:30] INFO root fetch - main [MainThread]: End processing [ccdt]: success
+[2023-06-08 05:48:30] INFO root fetch - processPackages [cheb3]: Remove: archive file [/home/abi/fetcher/tmp/cheb3-0.7.2.tar.gz]
+[2023-06-08 05:48:30] INFO root fetch - processPackages [cheb3]: Remove: archive file [/home/abi/fetcher/tmp/cheb3-0.7.3.tar.gz]
+[2023-06-08 05:48:30] INFO root fetch - main [MainThread]: End processing [cheb3]: success
+[2023-06-08 05:48:30] INFO root fetch - main [MainThread]: Store serial: [18419140]
