@@ -19609,3 +19609,78 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-08 09:47:44] INFO root fetch - processPackages [xt-st-common]: Remove: archive file [/home/abi/fetcher/tmp/xt_st_common-0.8.1.tar.gz]
 [2023-06-08 09:47:44] INFO root fetch - main [MainThread]: End processing [xt-st-common]: success
 [2023-06-08 09:47:44] INFO root fetch - main [MainThread]: Store serial: [18421211]
+[2023-06-08 09:52:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18421211]
+[2023-06-08 09:52:54] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-08 09:52:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dfmodule-DSTemplate
+[2023-06-08 09:52:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: configzen
+[2023-06-08 09:52:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: splicekit
+[2023-06-08 09:52:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ezyquant
+[2023-06-08 09:52:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tf-nightly-cpu
+[2023-06-08 09:52:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hun-date-parser
+[2023-06-08 09:52:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: muffin-rest
+[2023-06-08 09:52:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fractal-toolkit
+[2023-06-08 09:52:54] INFO root fetch - processPackages [splicekit]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-06-08 09:52:54] INFO root fetch - processPackages [dfmodule-DSTemplate]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-08 09:52:54] INFO root fetch - processPackages [configzen]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-08 09:52:54] INFO root fetch - processPackages [hun-date-parser]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-06-08 09:52:54] INFO root fetch - processPackages [fractal-toolkit]: New version: [3.1.4] Old Version: [3.1.3]
+[2023-06-08 09:52:54] INFO root fetch - processPackages [ezyquant]: New version: [0.7.3] Old Version: [0.7.2]
+[2023-06-08 09:52:54] INFO root fetch - processPackages [muffin-rest]: New version: [5.1.5] Old Version: [5.1.4]
+[2023-06-08 09:52:54] INFO root fetch - processPackages [fractal-toolkit]: Downloading https://files.pythonhosted.org/packages/a0/0b/8bbadca03b746b0368054aed8477407b7b6b3b5e8d13acf00a8466211b8b/fractal-toolkit-3.1.3.tar.gz
+[2023-06-08 09:52:54] INFO root fetch - processPackages [configzen]: Downloading https://files.pythonhosted.org/packages/63/21/6a33fb0ae7298fd582936fdcce3fd3034fb23086a4affa57ff43522d147e/configzen-0.2.8.tar.gz
+[2023-06-08 09:52:54] INFO root fetch - processPackages [tf-nightly-cpu]: New version: [2.14.0.dev20230608] Old Version: [2.14.0.dev20230607]
+[2023-06-08 09:52:54] INFO root fetch - processPackages [ezyquant]: Downloading https://files.pythonhosted.org/packages/a8/e5/7e4883bd290785c9e97e4256a1c9f880348c5ef95765cf6a5c350338d9fb/ezyquant-0.7.2.tar.gz
+[2023-06-08 09:52:54] INFO root fetch - processPackages [splicekit]: Downloading https://files.pythonhosted.org/packages/4e/aa/8ebf35ce6fa6355931896fddcbd358072229fe262414a6493fd55e9a78a9/splicekit-0.4.2.tar.gz
+[2023-06-08 09:52:54] INFO root fetch - processPackages [dfmodule-DSTemplate]: Downloading https://files.pythonhosted.org/packages/b9/83/a67a369a30ef884afc89967cd0a3c341eda7fe678d996042c5a298264cb5/dfmodule_DSTemplate-0.0.4.tar.gz
+[2023-06-08 09:52:54] INFO root fetch - processPackages [hun-date-parser]: Downloading https://files.pythonhosted.org/packages/1f/7f/1c3fefb5dd7c800bd90cc6f38df72b19fb66c1583cc9c2b894d4a13e680d/hun-date-parser-0.1.1.tar.gz
+[2023-06-08 09:52:54] INFO root fetch - processPackages [muffin-rest]: Downloading https://files.pythonhosted.org/packages/2b/db/480557e9f2314c578ba94b206f28b40be81f8b997bc18edba1d2544b57b5/muffin_rest-5.1.4.tar.gz
+[2023-06-08 09:52:54] INFO root fetch - processPackages [fractal-toolkit]: Downloading https://files.pythonhosted.org/packages/fa/9b/1b38aa47ef540cd4c1e9111077396d9a8d76f4d58519d996a847189c48c8/fractal_toolkit-3.1.4.tar.gz
+[2023-06-08 09:52:54] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/ec/34/431ce053da51fb99da75bd2746c4bd566f782c141a3d01a840e1c452f233/tf_nightly_cpu-2.14.0.dev20230607-cp39-cp39-win_amd64.whl
+[2023-06-08 09:52:54] INFO root fetch - processPackages [configzen]: Downloading https://files.pythonhosted.org/packages/d2/44/aaf306836f4da6453b0a0fac9b3d1d3b2eceab448677380df98d030d82f2/configzen-0.2.9.tar.gz
+[2023-06-08 09:52:54] INFO root fetch - processPackages [ezyquant]: Downloading https://files.pythonhosted.org/packages/59/40/5842c6f8d56792e858dd545ea9fb3405f306dd6c32f0b1d0769ee9043758/ezyquant-0.7.3.tar.gz
+[2023-06-08 09:52:54] INFO root fetch - processPackages [splicekit]: Downloading https://files.pythonhosted.org/packages/b9/b1/169f3ca6a61b3f6f0375c868165c41a7606491334118d34384bcfc0891e1/splicekit-0.4.3.tar.gz
+[2023-06-08 09:52:54] INFO root fetch - processPackages [fractal-toolkit]: executing diffoscope
+[2023-06-08 09:52:54] INFO root fetch - processPackages [fractal-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fractal-toolkit-3.1.3.tar.gz tmp/fractal_toolkit-3.1.4.tar.gz --markdown 20230608/f/fractal-toolkit/3.1.3-3.1.4/diff.md --exclude *.pyd
+[2023-06-08 09:52:54] INFO root fetch - processPackages [ezyquant]: executing diffoscope
+[2023-06-08 09:52:54] INFO root fetch - processPackages [ezyquant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ezyquant-0.7.2.tar.gz tmp/ezyquant-0.7.3.tar.gz --markdown 20230608/e/ezyquant/0.7.2-0.7.3/diff.md --exclude *.pyd
+[2023-06-08 09:52:54] INFO root fetch - processPackages [splicekit]: executing diffoscope
+[2023-06-08 09:52:54] INFO root fetch - processPackages [splicekit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/splicekit-0.4.2.tar.gz tmp/splicekit-0.4.3.tar.gz --markdown 20230608/s/splicekit/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-06-08 09:52:54] INFO root fetch - processPackages [dfmodule-DSTemplate]: Downloading https://files.pythonhosted.org/packages/6a/91/c5216d1222a11f69bdda5ca849337180761e6b7b2afe68d360a86b911f9a/dfmodule_DSTemplate-0.0.5.tar.gz
+[2023-06-08 09:52:54] INFO root fetch - processPackages [configzen]: executing diffoscope
+[2023-06-08 09:52:54] INFO root fetch - processPackages [configzen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/configzen-0.2.8.tar.gz tmp/configzen-0.2.9.tar.gz --markdown 20230608/c/configzen/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-08 09:52:54] INFO root fetch - processPackages [dfmodule-DSTemplate]: executing diffoscope
+[2023-06-08 09:52:54] INFO root fetch - processPackages [dfmodule-DSTemplate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dfmodule_DSTemplate-0.0.4.tar.gz tmp/dfmodule_DSTemplate-0.0.5.tar.gz --markdown 20230608/d/dfmodule-DSTemplate/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-08 09:52:54] INFO root fetch - processPackages [muffin-rest]: Downloading https://files.pythonhosted.org/packages/58/56/bb19b07e22e1fcf6183f569cee144e88c9a3cc9db96eaa47f797d3dd6d47/muffin_rest-5.1.5.tar.gz
+[2023-06-08 09:52:54] INFO root fetch - processPackages [hun-date-parser]: Downloading https://files.pythonhosted.org/packages/12/95/4d7be8d045795b9bf28769bd93cedcf5eb279f091ecc094716d7b8a38526/hun-date-parser-0.2.0.tar.gz
+[2023-06-08 09:52:54] INFO root fetch - processPackages [muffin-rest]: executing diffoscope
+[2023-06-08 09:52:54] INFO root fetch - processPackages [muffin-rest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/muffin_rest-5.1.4.tar.gz tmp/muffin_rest-5.1.5.tar.gz --markdown 20230608/m/muffin-rest/5.1.4-5.1.5/diff.md --exclude *.pyd
+[2023-06-08 09:52:54] INFO root fetch - processPackages [hun-date-parser]: executing diffoscope
+[2023-06-08 09:52:54] INFO root fetch - processPackages [hun-date-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hun-date-parser-0.1.1.tar.gz tmp/hun-date-parser-0.2.0.tar.gz --markdown 20230608/h/hun-date-parser/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-06-08 09:52:55] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/fa/c9/663a5157b2b71ac16fca5c437d18965eed535a4099fb5b9a2bab08c8a7f4/tf_nightly_cpu-2.14.0.dev20230608-cp39-cp39-win_amd64.whl
+[2023-06-08 09:52:55] INFO root fetch - processPackages [tf-nightly-cpu]: executing diffoscope
+[2023-06-08 09:52:55] INFO root fetch - processPackages [tf-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly_cpu-2.14.0.dev20230607-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly_cpu-2.14.0.dev20230608-cp39-cp39-win_amd64.whl.zip --markdown 20230608/t/tf-nightly-cpu/2.14.0.dev20230607-2.14.0.dev20230608/diff.md --exclude *.pyd
+[2023-06-08 09:52:56] INFO root fetch - processPackages [configzen]: Remove: archive file [/home/abi/fetcher/tmp/configzen-0.2.8.tar.gz]
+[2023-06-08 09:52:56] INFO root fetch - processPackages [configzen]: Remove: archive file [/home/abi/fetcher/tmp/configzen-0.2.9.tar.gz]
+[2023-06-08 09:52:56] INFO root fetch - main [MainThread]: End processing [configzen]: success
+[2023-06-08 09:52:56] INFO root fetch - processPackages [ezyquant]: Remove: archive file [/home/abi/fetcher/tmp/ezyquant-0.7.2.tar.gz]
+[2023-06-08 09:52:56] INFO root fetch - processPackages [ezyquant]: Remove: archive file [/home/abi/fetcher/tmp/ezyquant-0.7.3.tar.gz]
+[2023-06-08 09:52:56] INFO root fetch - main [MainThread]: End processing [ezyquant]: success
+[2023-06-08 09:52:56] INFO root fetch - processPackages [dfmodule-DSTemplate]: Remove: archive file [/home/abi/fetcher/tmp/dfmodule_DSTemplate-0.0.4.tar.gz]
+[2023-06-08 09:52:56] INFO root fetch - processPackages [dfmodule-DSTemplate]: Remove: archive file [/home/abi/fetcher/tmp/dfmodule_DSTemplate-0.0.5.tar.gz]
+[2023-06-08 09:52:56] INFO root fetch - main [MainThread]: End processing [dfmodule-DSTemplate]: success
+[2023-06-08 09:52:56] INFO root fetch - processPackages [splicekit]: Remove: archive file [/home/abi/fetcher/tmp/splicekit-0.4.2.tar.gz]
+[2023-06-08 09:52:56] INFO root fetch - processPackages [splicekit]: Remove: archive file [/home/abi/fetcher/tmp/splicekit-0.4.3.tar.gz]
+[2023-06-08 09:52:56] INFO root fetch - main [MainThread]: End processing [splicekit]: success
+[2023-06-08 09:52:56] INFO root fetch - processPackages [hun-date-parser]: Remove: archive file [/home/abi/fetcher/tmp/hun-date-parser-0.1.1.tar.gz]
+[2023-06-08 09:52:56] INFO root fetch - processPackages [hun-date-parser]: Remove: archive file [/home/abi/fetcher/tmp/hun-date-parser-0.2.0.tar.gz]
+[2023-06-08 09:52:56] INFO root fetch - main [MainThread]: End processing [hun-date-parser]: success
+[2023-06-08 09:52:56] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.14.0.dev20230607-cp39-cp39-win_amd64.whl.zip]
+[2023-06-08 09:52:56] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.14.0.dev20230608-cp39-cp39-win_amd64.whl.zip]
+[2023-06-08 09:52:56] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu]: success
+[2023-06-08 09:52:56] INFO root fetch - processPackages [fractal-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/fractal-toolkit-3.1.3.tar.gz]
+[2023-06-08 09:52:56] INFO root fetch - processPackages [fractal-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/fractal_toolkit-3.1.4.tar.gz]
+[2023-06-08 09:52:56] INFO root fetch - main [MainThread]: End processing [fractal-toolkit]: success
+[2023-06-08 09:52:56] INFO root fetch - processPackages [muffin-rest]: Remove: archive file [/home/abi/fetcher/tmp/muffin_rest-5.1.4.tar.gz]
+[2023-06-08 09:52:56] INFO root fetch - processPackages [muffin-rest]: Remove: archive file [/home/abi/fetcher/tmp/muffin_rest-5.1.5.tar.gz]
+[2023-06-08 09:52:56] INFO root fetch - main [MainThread]: End processing [muffin-rest]: success
+[2023-06-08 09:52:56] INFO root fetch - main [MainThread]: Store serial: [18421237]
