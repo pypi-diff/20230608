@@ -5289,3 +5289,75 @@ EOFError: EOF read where object expected
 [2023-06-08 03:17:27] INFO root fetch - processPackages [zensols.deeplearn]: Remove: archive file [/home/abi/fetcher/tmp/zensols.deeplearn-1.6.1-py3-none-any.whl.zip]
 [2023-06-08 03:17:27] INFO root fetch - main [MainThread]: End processing [zensols.deeplearn]: success
 [2023-06-08 03:17:27] INFO root fetch - main [MainThread]: Store serial: [18416596]
+[2023-06-08 03:22:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18416596]
+[2023-06-08 03:22:36] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-08 03:22:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sentientis
+[2023-06-08 03:22:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-hugo-deploy
+[2023-06-08 03:22:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: baseobjects
+[2023-06-08 03:22:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pepperize.cdk-organizations
+[2023-06-08 03:22:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-sops-secrets
+[2023-06-08 03:22:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: auditwheel-emscripten
+[2023-06-08 03:22:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cioc4d
+[2023-06-08 03:22:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: libretrofuzz
+[2023-06-08 03:22:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mygemini
+[2023-06-08 03:22:36] INFO root fetch - processPackages [cdk-hugo-deploy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-08 03:22:36] WARNING root fetch - processPackages [sentientis]: Skipping, unable to determine old version
+[2023-06-08 03:22:36] INFO root fetch - main [MainThread]: End processing [sentientis] error
+[2023-06-08 03:22:36] INFO root fetch - processPackages [baseobjects]: New version: [1.9.0] Old Version: [1.7.0]
+[2023-06-08 03:22:36] INFO root fetch - processPackages [auditwheel-emscripten]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-08 03:22:36] WARNING root fetch - processPackages [mygemini]: Skipping, unable to determine old version
+[2023-06-08 03:22:36] INFO root fetch - main [MainThread]: End processing [mygemini] error
+[2023-06-08 03:22:36] INFO root fetch - processPackages [libretrofuzz]: New version: [2.9.7] Old Version: [2.9.6]
+[2023-06-08 03:22:36] INFO root fetch - processPackages [pepperize.cdk-organizations]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-06-08 03:22:36] INFO root fetch - processPackages [cdk-sops-secrets]: New version: [1.2.99] Old Version: [1.2.98]
+[2023-06-08 03:22:36] INFO root fetch - processPackages [cdk-hugo-deploy]: Downloading https://files.pythonhosted.org/packages/33/a0/02c1c61c08488072b10045f13351cac91a6dc5b3b289a3a38fb162ac9cfa/cdk-hugo-deploy-0.0.98.tar.gz
+[2023-06-08 03:22:36] INFO root fetch - processPackages [pepperize.cdk-organizations]: Downloading https://files.pythonhosted.org/packages/c4/ec/fa2c14031b7b9ce22e4b044c652dd13a1a81769141fcd90e55c9eeb24d66/pepperize.cdk-organizations-0.7.98.tar.gz
+[2023-06-08 03:22:36] INFO root fetch - processPackages [cioc4d]: New version: [0.8.1] Old Version: [0.8.0rc1]
+[2023-06-08 03:22:36] INFO root fetch - processPackages [cdk-sops-secrets]: Downloading https://files.pythonhosted.org/packages/e2/8d/e29915f1e26b1a9d52bb33bc0abeaa259422cbc8e7fb8d8031fb9d7855e5/cdk-sops-secrets-1.2.98.tar.gz
+[2023-06-08 03:22:36] INFO root fetch - processPackages [baseobjects]: Downloading https://files.pythonhosted.org/packages/bc/67/bc4777b94e55272cc31e4680616c705ef68a59964f217e6c36ce19270334/baseobjects-1.7.0.tar.gz
+[2023-06-08 03:22:36] INFO root fetch - processPackages [libretrofuzz]: Downloading https://files.pythonhosted.org/packages/b5/b5/edf978c8607bcea8734472a9a0277ac70cc96f78bc3c9c63e7a04ec88d5f/libretrofuzz-2.9.6.tar.gz
+[2023-06-08 03:22:36] INFO root fetch - processPackages [auditwheel-emscripten]: Downloading https://files.pythonhosted.org/packages/d8/43/b9d723cb59f318a642bed1ad4d6c8864a4a41621d25c1d2dc437a847c4e7/auditwheel_emscripten-0.0.8.tar.gz
+[2023-06-08 03:22:36] INFO root fetch - processPackages [pepperize.cdk-organizations]: Downloading https://files.pythonhosted.org/packages/12/45/1106cc30844f7f4d96f7898a6ef3647d24a597c297bab995920a5915750e/pepperize.cdk-organizations-0.7.99.tar.gz
+[2023-06-08 03:22:36] INFO root fetch - processPackages [cioc4d]: Downloading https://files.pythonhosted.org/packages/96/5a/581a14bff52bc4c6c69b15d8ba02ce92faa7db98e4d03077ed5c917c95cc/cioc4d-0.8.0rc1-py2.py3-none-any.whl
+[2023-06-08 03:22:36] INFO root fetch - processPackages [libretrofuzz]: Downloading https://files.pythonhosted.org/packages/c4/93/c8b2c2f87b198d18a0292dcaad108ee4c654dc1c014e301b2e96be814d5f/libretrofuzz-2.9.7.tar.gz
+[2023-06-08 03:22:36] INFO root fetch - processPackages [pepperize.cdk-organizations]: executing diffoscope
+[2023-06-08 03:22:36] INFO root fetch - processPackages [cdk-sops-secrets]: Downloading https://files.pythonhosted.org/packages/10/33/e08c5e7bb6d5b198c75b53cba42224da6ac877f65fd4a4343fecdad9a93e/cdk-sops-secrets-1.2.99.tar.gz
+[2023-06-08 03:22:36] INFO root fetch - processPackages [pepperize.cdk-organizations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-organizations-0.7.98.tar.gz tmp/pepperize.cdk-organizations-0.7.99.tar.gz --markdown 20230608/p/pepperize.cdk-organizations/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-06-08 03:22:36] INFO root fetch - processPackages [cdk-hugo-deploy]: Downloading https://files.pythonhosted.org/packages/69/65/61cf4e2d01ce9f811649f2d5a9b579e9603a4b6257774c90a60bc13109ee/cdk-hugo-deploy-0.0.99.tar.gz
+[2023-06-08 03:22:36] INFO root fetch - processPackages [libretrofuzz]: executing diffoscope
+[2023-06-08 03:22:36] INFO root fetch - processPackages [libretrofuzz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libretrofuzz-2.9.6.tar.gz tmp/libretrofuzz-2.9.7.tar.gz --markdown 20230608/l/libretrofuzz/2.9.6-2.9.7/diff.md --exclude *.pyd
+[2023-06-08 03:22:36] INFO root fetch - processPackages [cdk-hugo-deploy]: executing diffoscope
+[2023-06-08 03:22:36] INFO root fetch - processPackages [cdk-hugo-deploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-hugo-deploy-0.0.98.tar.gz tmp/cdk-hugo-deploy-0.0.99.tar.gz --markdown 20230608/c/cdk-hugo-deploy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-08 03:22:36] INFO root fetch - processPackages [baseobjects]: Downloading https://files.pythonhosted.org/packages/4f/4b/95e9b9af82c668377effb2a231c67a40a4d703984625d0120c98fa1960db/baseobjects-1.9.0-py3-none-any.whl
+[2023-06-08 03:22:36] INFO root fetch - processPackages [cioc4d]: Downloading https://files.pythonhosted.org/packages/70/e0/aebe37413495d05917df860bc58a6939d8d214fbc8916239be9a0521ceaf/cioc4d-0.8.1-py2.py3-none-any.whl
+[2023-06-08 03:22:36] INFO root fetch - processPackages [baseobjects]: executing diffoscope
+[2023-06-08 03:22:36] INFO root fetch - processPackages [baseobjects]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/baseobjects-1.7.0.tar.gz tmp/baseobjects-1.9.0-py3-none-any.whl.zip --markdown 20230608/b/baseobjects/1.7.0-1.9.0/diff.md --exclude *.pyd
+[2023-06-08 03:22:36] INFO root fetch - processPackages [auditwheel-emscripten]: Downloading https://files.pythonhosted.org/packages/5d/ee/ede93358a5cc6b744df2d38c48028f6c9faa891a29d3afb897d31333db55/auditwheel_emscripten-0.0.9.tar.gz
+[2023-06-08 03:22:36] INFO root fetch - processPackages [cdk-sops-secrets]: executing diffoscope
+[2023-06-08 03:22:36] INFO root fetch - processPackages [cdk-sops-secrets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sops-secrets-1.2.98.tar.gz tmp/cdk-sops-secrets-1.2.99.tar.gz --markdown 20230608/c/cdk-sops-secrets/1.2.98-1.2.99/diff.md --exclude *.pyd
+[2023-06-08 03:22:36] INFO root fetch - processPackages [cioc4d]: executing diffoscope
+[2023-06-08 03:22:36] INFO root fetch - processPackages [cioc4d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cioc4d-0.8.0rc1-py2.py3-none-any.whl.zip tmp/cioc4d-0.8.1-py2.py3-none-any.whl.zip --markdown 20230608/c/cioc4d/0.8.0rc1-0.8.1/diff.md --exclude *.pyd
+[2023-06-08 03:22:37] INFO root fetch - processPackages [auditwheel-emscripten]: executing diffoscope
+[2023-06-08 03:22:37] INFO root fetch - processPackages [auditwheel-emscripten]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auditwheel_emscripten-0.0.8.tar.gz tmp/auditwheel_emscripten-0.0.9.tar.gz --markdown 20230608/a/auditwheel-emscripten/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-08 03:22:37] INFO root fetch - processPackages [pepperize.cdk-organizations]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-organizations-0.7.98.tar.gz]
+[2023-06-08 03:22:37] INFO root fetch - processPackages [pepperize.cdk-organizations]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-organizations-0.7.99.tar.gz]
+[2023-06-08 03:22:37] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-organizations]: success
+[2023-06-08 03:22:37] INFO root fetch - processPackages [libretrofuzz]: Remove: archive file [/home/abi/fetcher/tmp/libretrofuzz-2.9.6.tar.gz]
+[2023-06-08 03:22:37] INFO root fetch - processPackages [libretrofuzz]: Remove: archive file [/home/abi/fetcher/tmp/libretrofuzz-2.9.7.tar.gz]
+[2023-06-08 03:22:37] INFO root fetch - main [MainThread]: End processing [libretrofuzz]: success
+[2023-06-08 03:22:37] INFO root fetch - processPackages [baseobjects]: Remove: archive file [/home/abi/fetcher/tmp/baseobjects-1.7.0.tar.gz]
+[2023-06-08 03:22:37] INFO root fetch - processPackages [baseobjects]: Remove: archive file [/home/abi/fetcher/tmp/baseobjects-1.9.0-py3-none-any.whl.zip]
+[2023-06-08 03:22:37] INFO root fetch - main [MainThread]: End processing [baseobjects]: success
+[2023-06-08 03:22:37] INFO root fetch - processPackages [cdk-hugo-deploy]: Remove: archive file [/home/abi/fetcher/tmp/cdk-hugo-deploy-0.0.98.tar.gz]
+[2023-06-08 03:22:37] INFO root fetch - processPackages [cdk-hugo-deploy]: Remove: archive file [/home/abi/fetcher/tmp/cdk-hugo-deploy-0.0.99.tar.gz]
+[2023-06-08 03:22:37] INFO root fetch - main [MainThread]: End processing [cdk-hugo-deploy]: success
+[2023-06-08 03:22:38] INFO root fetch - processPackages [cioc4d]: Remove: archive file [/home/abi/fetcher/tmp/cioc4d-0.8.0rc1-py2.py3-none-any.whl.zip]
+[2023-06-08 03:22:38] INFO root fetch - processPackages [cioc4d]: Remove: archive file [/home/abi/fetcher/tmp/cioc4d-0.8.1-py2.py3-none-any.whl.zip]
+[2023-06-08 03:22:38] INFO root fetch - main [MainThread]: End processing [cioc4d]: success
+[2023-06-08 03:22:38] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.2.98.tar.gz]
+[2023-06-08 03:22:38] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.2.99.tar.gz]
+[2023-06-08 03:22:38] INFO root fetch - main [MainThread]: End processing [cdk-sops-secrets]: success
+[2023-06-08 03:22:38] INFO root fetch - processPackages [auditwheel-emscripten]: Remove: archive file [/home/abi/fetcher/tmp/auditwheel_emscripten-0.0.8.tar.gz]
+[2023-06-08 03:22:38] INFO root fetch - processPackages [auditwheel-emscripten]: Remove: archive file [/home/abi/fetcher/tmp/auditwheel_emscripten-0.0.9.tar.gz]
+[2023-06-08 03:22:38] INFO root fetch - main [MainThread]: End processing [auditwheel-emscripten]: success
+[2023-06-08 03:22:38] INFO root fetch - main [MainThread]: Store serial: [18416629]
