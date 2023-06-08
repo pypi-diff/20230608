@@ -18557,3 +18557,60 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-08 08:52:14] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
 [2023-06-08 08:52:14] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
 [2023-06-08 08:52:14] INFO root fetch - main [MainThread]: Store serial: [18420721]
+[2023-06-08 08:57:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18420721]
+[2023-06-08 08:57:24] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-08 08:57:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: econdata
+[2023-06-08 08:57:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ff-fasttext-api
+[2023-06-08 08:57:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: modelon-impact-client
+[2023-06-08 08:57:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: envd
+[2023-06-08 08:57:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mlbi-at-dku-lib
+[2023-06-08 08:57:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: muffin-rest
+[2023-06-08 08:57:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: diveplane-reactor-api
+[2023-06-08 08:57:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: app-store-server
+[2023-06-08 08:57:24] WARNING root fetch - processPackages [ff-fasttext-api]: Skipping, unable to determine old version
+[2023-06-08 08:57:24] INFO root fetch - main [MainThread]: End processing [ff-fasttext-api] error
+[2023-06-08 08:57:24] WARNING root fetch - processPackages [app-store-server]: Skipping, unable to determine old version
+[2023-06-08 08:57:24] INFO root fetch - main [MainThread]: End processing [app-store-server] error
+[2023-06-08 08:57:24] INFO root fetch - processPackages [envd]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-08 08:57:24] INFO root fetch - processPackages [econdata]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-06-08 08:57:24] INFO root fetch - processPackages [mlbi-at-dku-lib]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-08 08:57:24] WARNING root fetch - processPackages [diveplane-reactor-api]: Skipping, unable to determine old version
+[2023-06-08 08:57:24] INFO root fetch - main [MainThread]: End processing [diveplane-reactor-api] error
+[2023-06-08 08:57:24] INFO root fetch - processPackages [modelon-impact-client]: New version: [3.0.0.dev9] Old Version: [3.0.0.dev8]
+[2023-06-08 08:57:24] INFO root fetch - processPackages [muffin-rest]: New version: [5.1.1] Old Version: [5.1.0]
+[2023-06-08 08:57:24] INFO root fetch - processPackages [modelon-impact-client]: Downloading https://files.pythonhosted.org/packages/36/b4/452920b23dc5fce52f2d517cc942c5d5772022ddd6efdd2f337fe1b61977/modelon_impact_client-3.0.0.dev8.tar.gz
+[2023-06-08 08:57:24] INFO root fetch - processPackages [econdata]: Downloading https://files.pythonhosted.org/packages/92/3d/b72edefd520868c8485a85e8828592e143b04dedaf213a09861f7b7fe103/econdata-1.0.3.tar.gz
+[2023-06-08 08:57:24] INFO root fetch - processPackages [envd]: Downloading https://files.pythonhosted.org/packages/40/8f/ca38bcdc6fb6476b2f39f7447c21359ec87ef0ed65e589349a047ed332cd/envd-0.3.8.tar.gz
+[2023-06-08 08:57:24] INFO root fetch - processPackages [mlbi-at-dku-lib]: Downloading https://files.pythonhosted.org/packages/3b/65/7f1b5bdc6c3d11bcabdd6093c320d32c34ecc2e7f00900794732ee9ee482/mlbi_at_dku_lib-0.1.3.tar.gz
+[2023-06-08 08:57:25] INFO root fetch - processPackages [muffin-rest]: Downloading https://files.pythonhosted.org/packages/47/70/ae715b04666af8614722f30ff0a832e0b29def6dda3c74414cb31e0b14f3/muffin_rest-5.1.0.tar.gz
+[2023-06-08 08:57:25] INFO root fetch - processPackages [modelon-impact-client]: Downloading https://files.pythonhosted.org/packages/4a/46/39f10d958eb7e1d3b6b332803f3e61b95fe2d424c01272f00a98cf4ec411/modelon_impact_client-3.0.0.dev9.tar.gz
+[2023-06-08 08:57:25] INFO root fetch - processPackages [modelon-impact-client]: executing diffoscope
+[2023-06-08 08:57:25] INFO root fetch - processPackages [modelon-impact-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelon_impact_client-3.0.0.dev8.tar.gz tmp/modelon_impact_client-3.0.0.dev9.tar.gz --markdown 20230608/m/modelon-impact-client/3.0.0.dev8-3.0.0.dev9/diff.md --exclude *.pyd
+[2023-06-08 08:57:25] INFO root fetch - processPackages [econdata]: Downloading https://files.pythonhosted.org/packages/16/54/ccd63ea51acc844535988b6bd4825a8d53cffad8e11b87a0049789ef6d9e/econdata-1.0.4.tar.gz
+[2023-06-08 08:57:25] INFO root fetch - processPackages [econdata]: executing diffoscope
+[2023-06-08 08:57:25] INFO root fetch - processPackages [econdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/econdata-1.0.3.tar.gz tmp/econdata-1.0.4.tar.gz --markdown 20230608/e/econdata/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-06-08 08:57:25] INFO root fetch - processPackages [muffin-rest]: Downloading https://files.pythonhosted.org/packages/32/52/033f1de71d7953eb97f1b868a75d5a98121d04f1f9456719030141e24909/muffin_rest-5.1.1.tar.gz
+[2023-06-08 08:57:25] INFO root fetch - processPackages [muffin-rest]: executing diffoscope
+[2023-06-08 08:57:25] INFO root fetch - processPackages [muffin-rest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/muffin_rest-5.1.0.tar.gz tmp/muffin_rest-5.1.1.tar.gz --markdown 20230608/m/muffin-rest/5.1.0-5.1.1/diff.md --exclude *.pyd
+[2023-06-08 08:57:25] INFO root fetch - processPackages [mlbi-at-dku-lib]: Downloading https://files.pythonhosted.org/packages/b1/33/42bcea03054d837277a05a57dee62a11f6c0a05e24d69957243e5264cff1/mlbi_at_dku_lib-0.1.4.tar.gz
+[2023-06-08 08:57:25] INFO root fetch - processPackages [mlbi-at-dku-lib]: executing diffoscope
+[2023-06-08 08:57:25] INFO root fetch - processPackages [mlbi-at-dku-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlbi_at_dku_lib-0.1.3.tar.gz tmp/mlbi_at_dku_lib-0.1.4.tar.gz --markdown 20230608/m/mlbi-at-dku-lib/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-08 08:57:26] INFO root fetch - processPackages [econdata]: Remove: archive file [/home/abi/fetcher/tmp/econdata-1.0.3.tar.gz]
+[2023-06-08 08:57:26] INFO root fetch - processPackages [econdata]: Remove: archive file [/home/abi/fetcher/tmp/econdata-1.0.4.tar.gz]
+[2023-06-08 08:57:26] INFO root fetch - main [MainThread]: End processing [econdata]: success
+[2023-06-08 08:57:26] INFO root fetch - processPackages [muffin-rest]: Remove: archive file [/home/abi/fetcher/tmp/muffin_rest-5.1.0.tar.gz]
+[2023-06-08 08:57:26] INFO root fetch - processPackages [muffin-rest]: Remove: archive file [/home/abi/fetcher/tmp/muffin_rest-5.1.1.tar.gz]
+[2023-06-08 08:57:26] INFO root fetch - main [MainThread]: End processing [muffin-rest]: success
+[2023-06-08 08:57:26] INFO root fetch - processPackages [modelon-impact-client]: Remove: archive file [/home/abi/fetcher/tmp/modelon_impact_client-3.0.0.dev8.tar.gz]
+[2023-06-08 08:57:26] INFO root fetch - processPackages [modelon-impact-client]: Remove: archive file [/home/abi/fetcher/tmp/modelon_impact_client-3.0.0.dev9.tar.gz]
+[2023-06-08 08:57:26] INFO root fetch - main [MainThread]: End processing [modelon-impact-client]: success
+[2023-06-08 08:57:26] INFO root fetch - processPackages [mlbi-at-dku-lib]: Remove: archive file [/home/abi/fetcher/tmp/mlbi_at_dku_lib-0.1.3.tar.gz]
+[2023-06-08 08:57:26] INFO root fetch - processPackages [mlbi-at-dku-lib]: Remove: archive file [/home/abi/fetcher/tmp/mlbi_at_dku_lib-0.1.4.tar.gz]
+[2023-06-08 08:57:26] INFO root fetch - main [MainThread]: End processing [mlbi-at-dku-lib]: success
+[2023-06-08 08:57:27] INFO root fetch - processPackages [envd]: Downloading https://files.pythonhosted.org/packages/6f/e2/02e4db7e4affa6e54962dd795208ba1de5a9bbca208205fca85382498bfa/envd-0.3.9.tar.gz
+[2023-06-08 08:57:30] INFO root fetch - processPackages [envd]: executing diffoscope
+[2023-06-08 08:57:30] INFO root fetch - processPackages [envd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/envd-0.3.8.tar.gz tmp/envd-0.3.9.tar.gz --markdown 20230608/e/envd/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-08 08:58:48] INFO root fetch - processPackages [envd]: Remove: archive file [/home/abi/fetcher/tmp/envd-0.3.8.tar.gz]
+[2023-06-08 08:58:48] INFO root fetch - processPackages [envd]: Remove: archive file [/home/abi/fetcher/tmp/envd-0.3.9.tar.gz]
+[2023-06-08 08:58:48] INFO root fetch - main [MainThread]: End processing [envd]: success
+[2023-06-08 08:58:48] INFO root fetch - main [MainThread]: Store serial: [18420752]
