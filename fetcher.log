@@ -4975,3 +4975,137 @@ EOFError: EOF read where object expected
 [2023-06-08 02:59:07] INFO root fetch - processPackages [airbyte]: Remove: archive file [/home/abi/fetcher/tmp/airbyte-1.9.3.tar.gz]
 [2023-06-08 02:59:07] INFO root fetch - main [MainThread]: End processing [airbyte]: success
 [2023-06-08 02:59:07] INFO root fetch - main [MainThread]: Store serial: [18416486]
+[2023-06-08 03:04:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18416486]
+[2023-06-08 03:04:17] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-06-08 03:04:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flash-attn-wheels
+[2023-06-08 03:04:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-account-invoice-report-grouped-by-picking
+[2023-06-08 03:04:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bioversions
+[2023-06-08 03:04:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ciocore
+[2023-06-08 03:04:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-allianceutils
+[2023-06-08 03:04:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: proxystore
+[2023-06-08 03:04:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdk-sns-notify
+[2023-06-08 03:04:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: EnergyCapSdk
+[2023-06-08 03:04:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tencentcloud-sdk-python-intl-en
+[2023-06-08 03:04:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: wintertoo
+[2023-06-08 03:04:17] INFO root fetch - processPackages [odoo-addon-account-invoice-report-grouped-by-picking]: New version: [16.0.1.1.0] Old Version: [16.0.1.0.0.4]
+[2023-06-08 03:04:17] INFO root fetch - processPackages [flash-attn-wheels]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-08 03:04:17] INFO root fetch - processPackages [proxystore]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-06-08 03:04:17] INFO root fetch - processPackages [django-allianceutils]: New version: [3.0.0] Old Version: [2.2.0]
+[2023-06-08 03:04:17] INFO root fetch - processPackages [ciocore]: New version: [6.0.0rc4] Old Version: [6.0.0rc3]
+[2023-06-08 03:04:17] INFO root fetch - processPackages [wintertoo]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-06-08 03:04:17] INFO root fetch - processPackages [cdk-sns-notify]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-08 03:04:17] INFO root fetch - processPackages [bioversions]: New version: [0.5.99] Old Version: [0.5.98]
+[2023-06-08 03:04:17] INFO root fetch - processPackages [EnergyCapSdk]: New version: [8.2304.4585] Old Version: [8.2304.4584]
+[2023-06-08 03:04:17] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: New version: [3.0.99] Old Version: [3.0.98]
+[2023-06-08 03:04:17] INFO root fetch - processPackages [EnergyCapSdk]: Downloading https://files.pythonhosted.org/packages/54/86/600c9e1c8d77e203705f7008fb503b2d16c9622938a5a58c0d6857e19769/EnergyCapSdk-8.2304.4584.tar.gz
+[2023-06-08 03:04:17] INFO root fetch - processPackages [cdk-sns-notify]: Downloading https://files.pythonhosted.org/packages/63/7d/ec62f3b7c0e08e1437b2036911a0d42b75ee30ea2cbb819399bdf8b55111/cdk-sns-notify-0.0.98.tar.gz
+[2023-06-08 03:04:17] INFO root fetch - processPackages [bioversions]: Downloading https://files.pythonhosted.org/packages/e6/34/7c40209c13edc9fe7c611a00fd4b0d6e59d501613427ed6713ad6398b655/bioversions-0.5.98.tar.gz
+[2023-06-08 03:04:17] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: Downloading https://files.pythonhosted.org/packages/47/ec/491739e9cb7da970b8f280ea2383dc94da0c3d39e938ac559e0f2e52aea8/tencentcloud-sdk-python-intl-en-3.0.98.tar.gz
+[2023-06-08 03:04:17] INFO root fetch - processPackages [odoo-addon-account-invoice-report-grouped-by-picking]: Downloading https://files.pythonhosted.org/packages/db/31/de0ec87cb39387a10592822811cd2357bf4ce7b29450716acbdf563397c7/odoo_addon_account_invoice_report_grouped_by_picking-16.0.1.0.0.4-py3-none-any.whl
+[2023-06-08 03:04:17] INFO root fetch - processPackages [flash-attn-wheels]: Downloading https://files.pythonhosted.org/packages/24/7f/f477dbc5d6f4a6f032dcc59752cdc6db509ed4f7e1fe32e453f5989c43c7/flash_attn_wheels-1.0.8.tar.gz
+[2023-06-08 03:04:17] INFO root fetch - processPackages [proxystore]: Downloading https://files.pythonhosted.org/packages/35/44/9a63b9b646dec3f2bd465dde238c51f43d1d5fc0d3494335c9073e6383c1/proxystore-0.5.0.tar.gz
+[2023-06-08 03:04:17] INFO root fetch - processPackages [django-allianceutils]: Downloading https://files.pythonhosted.org/packages/93/a7/c796721257f56ebce6187bce42305b3113e7c0aba9d3b7305fac744206a2/django-allianceutils-2.2.0.tar.gz
+[2023-06-08 03:04:17] INFO root fetch - processPackages [ciocore]: Downloading https://files.pythonhosted.org/packages/50/85/ff07aa57720b1348a94effb91e533187d48e768234fab83b35e4a9210f94/ciocore-6.0.0rc3-py2.py3-none-any.whl
+[2023-06-08 03:04:17] INFO root fetch - processPackages [wintertoo]: Downloading https://files.pythonhosted.org/packages/f0/eb/3db53496f27efd4366836f6e1c97dc0f04a9328c1bccab94acf6b5c7d94d/wintertoo-0.3.4.tar.gz
+[2023-06-08 03:04:17] WARNING root fetch - processPackages [wintertoo]: Skipping package: exceeds size limit 18785259>=10485760
+[2023-06-08 03:04:17] INFO root fetch - processPackages [wintertoo]: Start processing: leeger
+[2023-06-08 03:04:17] INFO root fetch - main [MainThread]: End processing [wintertoo] error
+[2023-06-08 03:04:17] INFO root fetch - processPackages [cdk-sns-notify]: Downloading https://files.pythonhosted.org/packages/18/81/3593e022c53913815c1207f0d20763efc2764992a13c81d641f3a01edf7d/cdk-sns-notify-0.0.99.tar.gz
+[2023-06-08 03:04:17] INFO root fetch - processPackages [EnergyCapSdk]: Downloading https://files.pythonhosted.org/packages/a9/b4/eba23dc6689069d0993966e323e37cbc6a19831481045dc66df5d9dc40ca/EnergyCapSdk-8.2304.4585.tar.gz
+[2023-06-08 03:04:17] INFO root fetch - processPackages [leeger]: New version: [2.5.2] Old Version: [2.5.1]
+[2023-06-08 03:04:17] INFO root fetch - processPackages [bioversions]: Downloading https://files.pythonhosted.org/packages/0d/f5/5956eccd9643084cc5f7aba6325ec9de1ed3a2bb3568a8ee7ab88d0eac77/bioversions-0.5.99.tar.gz
+[2023-06-08 03:04:18] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: Downloading https://files.pythonhosted.org/packages/ee/9c/2dcfed598218dfd2d81fa3078c736962b265e5ae724bec2686e853a74d71/tencentcloud-sdk-python-intl-en-3.0.99.tar.gz
+[2023-06-08 03:04:18] INFO root fetch - processPackages [flash-attn-wheels]: Downloading https://files.pythonhosted.org/packages/f9/2e/0ff829365bcffb2a215f1d5d95016b073c2dc90e359333c4a3e3b60d6698/flash_attn_wheels-1.0.9.tar.gz
+[2023-06-08 03:04:18] INFO root fetch - processPackages [leeger]: Downloading https://files.pythonhosted.org/packages/ee/be/107dc2a1213d30b8019d424259fcd754f766bb1519e0249d24a1d5ee2ab3/leeger-2.5.1.tar.gz
+[2023-06-08 03:04:18] INFO root fetch - processPackages [EnergyCapSdk]: executing diffoscope
+[2023-06-08 03:04:18] INFO root fetch - processPackages [EnergyCapSdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EnergyCapSdk-8.2304.4584.tar.gz tmp/EnergyCapSdk-8.2304.4585.tar.gz --markdown 20230608/E/EnergyCapSdk/8.2304.4584-8.2304.4585/diff.md --exclude *.pyd
+[2023-06-08 03:04:18] INFO root fetch - processPackages [flash-attn-wheels]: executing diffoscope
+[2023-06-08 03:04:18] INFO root fetch - processPackages [flash-attn-wheels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flash_attn_wheels-1.0.8.tar.gz tmp/flash_attn_wheels-1.0.9.tar.gz --markdown 20230608/f/flash-attn-wheels/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-08 03:04:18] INFO root fetch - processPackages [cdk-sns-notify]: executing diffoscope
+[2023-06-08 03:04:18] INFO root fetch - processPackages [cdk-sns-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sns-notify-0.0.98.tar.gz tmp/cdk-sns-notify-0.0.99.tar.gz --markdown 20230608/c/cdk-sns-notify/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-08 03:04:18] INFO root fetch - processPackages [proxystore]: Downloading https://files.pythonhosted.org/packages/2f/ad/8c8ffd772431baa07da3a3bdc50ec5698c1226a78824bb955c65465e0184/proxystore-0.5.1.tar.gz
+[2023-06-08 03:04:18] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: executing diffoscope
+[2023-06-08 03:04:18] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-intl-en-3.0.98.tar.gz tmp/tencentcloud-sdk-python-intl-en-3.0.99.tar.gz --markdown 20230608/t/tencentcloud-sdk-python-intl-en/3.0.98-3.0.99/diff.md --exclude *.pyd
+[2023-06-08 03:04:18] INFO root fetch - processPackages [ciocore]: Downloading https://files.pythonhosted.org/packages/f7/45/0efbb30b6babd67bd5a1b358490f116711873e30f6c64961036122378bfa/ciocore-6.0.0rc4-py2.py3-none-any.whl
+[2023-06-08 03:04:18] INFO root fetch - processPackages [odoo-addon-account-invoice-report-grouped-by-picking]: Downloading https://files.pythonhosted.org/packages/ca/25/3cbfb5fd75e936bb5264d283be99fbe4b8a8b5155ababd65cac5054c968d/odoo_addon_account_invoice_report_grouped_by_picking-16.0.1.1.0-py3-none-any.whl
+[2023-06-08 03:04:18] INFO root fetch - processPackages [bioversions]: executing diffoscope
+[2023-06-08 03:04:18] INFO root fetch - processPackages [bioversions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioversions-0.5.98.tar.gz tmp/bioversions-0.5.99.tar.gz --markdown 20230608/b/bioversions/0.5.98-0.5.99/diff.md --exclude *.pyd
+[2023-06-08 03:04:18] INFO root fetch - processPackages [proxystore]: executing diffoscope
+[2023-06-08 03:04:18] INFO root fetch - processPackages [proxystore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proxystore-0.5.0.tar.gz tmp/proxystore-0.5.1.tar.gz --markdown 20230608/p/proxystore/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-06-08 03:04:18] INFO root fetch - processPackages [django-allianceutils]: Downloading https://files.pythonhosted.org/packages/0a/65/966b085bf5453cb69846ed5ce4413970be5c04f8dc8e4387699c34ff787b/django_allianceutils-3.0.0.tar.gz
+[2023-06-08 03:04:18] INFO root fetch - processPackages [odoo-addon-account-invoice-report-grouped-by-picking]: executing diffoscope
+[2023-06-08 03:04:18] INFO root fetch - processPackages [odoo-addon-account-invoice-report-grouped-by-picking]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_invoice_report_grouped_by_picking-16.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_account_invoice_report_grouped_by_picking-16.0.1.1.0-py3-none-any.whl.zip --markdown 20230608/o/odoo-addon-account-invoice-report-grouped-by-picking/16.0.1.0.0.4-16.0.1.1.0/diff.md --exclude *.pyd
+[2023-06-08 03:04:18] INFO root fetch - processPackages [django-allianceutils]: executing diffoscope
+[2023-06-08 03:04:18] INFO root fetch - processPackages [django-allianceutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-allianceutils-2.2.0.tar.gz tmp/django_allianceutils-3.0.0.tar.gz --markdown 20230608/d/django-allianceutils/2.2.0-3.0.0/diff.md --exclude *.pyd
+[2023-06-08 03:04:18] INFO root fetch - processPackages [leeger]: Downloading https://files.pythonhosted.org/packages/c9/78/86121470f28ad061c7e9fa996238761ff6c99d1924d7cada604a88870fce/leeger-2.5.2.tar.gz
+[2023-06-08 03:04:18] INFO root fetch - processPackages [ciocore]: executing diffoscope
+[2023-06-08 03:04:18] INFO root fetch - processPackages [ciocore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ciocore-6.0.0rc3-py2.py3-none-any.whl.zip tmp/ciocore-6.0.0rc4-py2.py3-none-any.whl.zip --markdown 20230608/c/ciocore/6.0.0rc3-6.0.0rc4/diff.md --exclude *.pyd
+[2023-06-08 03:04:18] INFO root fetch - processPackages [leeger]: executing diffoscope
+[2023-06-08 03:04:18] INFO root fetch - processPackages [leeger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leeger-2.5.1.tar.gz tmp/leeger-2.5.2.tar.gz --markdown 20230608/l/leeger/2.5.1-2.5.2/diff.md --exclude *.pyd
+[2023-06-08 03:04:19] INFO root fetch - processPackages [cdk-sns-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sns-notify-0.0.98.tar.gz]
+[2023-06-08 03:04:19] INFO root fetch - processPackages [cdk-sns-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sns-notify-0.0.99.tar.gz]
+[2023-06-08 03:04:19] INFO root fetch - processPackages [cdk-sns-notify]: Start processing: pyakamai
+[2023-06-08 03:04:19] INFO root fetch - main [MainThread]: End processing [cdk-sns-notify]: success
+[2023-06-08 03:04:19] INFO root fetch - processPackages [pyakamai]: New version: [1.11] Old Version: [1.1]
+[2023-06-08 03:04:19] INFO root fetch - processPackages [pyakamai]: Downloading https://files.pythonhosted.org/packages/ea/34/52360764e03298724c60edf5abd287c5c8e74987245aff9f68cc02fff5bf/pyakamai-1.1-py3-none-any.whl
+[2023-06-08 03:04:19] INFO root fetch - processPackages [pyakamai]: Downloading https://files.pythonhosted.org/packages/f9/df/92831962a7f4aea8ce961d842e0674e29389f61829c1bb1b3ab7a1135d23/pyakamai-1.11-py3-none-any.whl
+[2023-06-08 03:04:20] INFO root fetch - processPackages [odoo-addon-account-invoice-report-grouped-by-picking]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_invoice_report_grouped_by_picking-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2023-06-08 03:04:20] INFO root fetch - processPackages [odoo-addon-account-invoice-report-grouped-by-picking]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_invoice_report_grouped_by_picking-16.0.1.1.0-py3-none-any.whl.zip]
+[2023-06-08 03:04:20] INFO root fetch - processPackages [odoo-addon-account-invoice-report-grouped-by-picking]: Start processing: cdk-lambda-layer-wget
+[2023-06-08 03:04:20] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-invoice-report-grouped-by-picking]: success
+[2023-06-08 03:04:20] INFO root fetch - processPackages [cdk-lambda-layer-wget]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-08 03:04:20] INFO root fetch - processPackages [pyakamai]: executing diffoscope
+[2023-06-08 03:04:20] INFO root fetch - processPackages [pyakamai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyakamai-1.1-py3-none-any.whl.zip tmp/pyakamai-1.11-py3-none-any.whl.zip --markdown 20230608/p/pyakamai/1.1-1.11/diff.md --exclude *.pyd
+[2023-06-08 03:04:20] INFO root fetch - processPackages [cdk-lambda-layer-wget]: Downloading https://files.pythonhosted.org/packages/f8/35/e47c6ddfa64ed9ac5f5a4b035ea0cc02916916c4bdbbbb9cc31928af9582/cdk-lambda-layer-wget-2.0.98.tar.gz
+[2023-06-08 03:04:20] INFO root fetch - processPackages [ciocore]: Remove: archive file [/home/abi/fetcher/tmp/ciocore-6.0.0rc3-py2.py3-none-any.whl.zip]
+[2023-06-08 03:04:20] INFO root fetch - processPackages [ciocore]: Remove: archive file [/home/abi/fetcher/tmp/ciocore-6.0.0rc4-py2.py3-none-any.whl.zip]
+[2023-06-08 03:04:20] INFO root fetch - processPackages [ciocore]: Start processing: tccli-intl-en
+[2023-06-08 03:04:20] INFO root fetch - main [MainThread]: End processing [ciocore]: success
+[2023-06-08 03:04:20] INFO root fetch - processPackages [tccli-intl-en]: New version: [3.0.99.1] Old Version: [3.0.98.1]
+[2023-06-08 03:04:20] INFO root fetch - processPackages [tccli-intl-en]: Downloading https://files.pythonhosted.org/packages/f1/30/41af4d3a9dae71d94a6518cc57186cc8cf5a5b38d29a6a50861712b42078/tccli-intl-en-3.0.98.1.tar.gz
+[2023-06-08 03:04:20] INFO root fetch - processPackages [django-allianceutils]: Remove: archive file [/home/abi/fetcher/tmp/django-allianceutils-2.2.0.tar.gz]
+[2023-06-08 03:04:20] INFO root fetch - processPackages [django-allianceutils]: Remove: archive file [/home/abi/fetcher/tmp/django_allianceutils-3.0.0.tar.gz]
+[2023-06-08 03:04:20] INFO root fetch - processPackages [django-allianceutils]: Start processing: raydp-nightly
+[2023-06-08 03:04:20] INFO root fetch - main [MainThread]: End processing [django-allianceutils]: success
+[2023-06-08 03:04:20] INFO root fetch - processPackages [raydp-nightly]: New version: [2023.6.8.dev0] Old Version: [2023.5.27.dev0]
+[2023-06-08 03:04:20] INFO root fetch - processPackages [flash-attn-wheels]: Remove: archive file [/home/abi/fetcher/tmp/flash_attn_wheels-1.0.8.tar.gz]
+[2023-06-08 03:04:20] INFO root fetch - processPackages [flash-attn-wheels]: Remove: archive file [/home/abi/fetcher/tmp/flash_attn_wheels-1.0.9.tar.gz]
+[2023-06-08 03:04:20] INFO root fetch - main [MainThread]: End processing [flash-attn-wheels]: success
+[2023-06-08 03:04:20] INFO root fetch - processPackages [tccli-intl-en]: Downloading https://files.pythonhosted.org/packages/08/e0/99b129dd2c25cb88719c0b1692fbc03b299057b179a6c33831623b44d96b/tccli-intl-en-3.0.99.1.tar.gz
+[2023-06-08 03:04:21] INFO root fetch - processPackages [raydp-nightly]: Downloading https://files.pythonhosted.org/packages/91/ba/a58071243b346e6a50632abfa11440519285e20714efbfa9cfeacd88c451/raydp_nightly-2023.5.27.dev0-py3-none-any.whl
+[2023-06-08 03:04:21] INFO root fetch - processPackages [pyakamai]: Remove: archive file [/home/abi/fetcher/tmp/pyakamai-1.1-py3-none-any.whl.zip]
+[2023-06-08 03:04:21] INFO root fetch - processPackages [pyakamai]: Remove: archive file [/home/abi/fetcher/tmp/pyakamai-1.11-py3-none-any.whl.zip]
+[2023-06-08 03:04:21] INFO root fetch - main [MainThread]: End processing [pyakamai]: success
+[2023-06-08 03:04:21] INFO root fetch - processPackages [leeger]: Remove: archive file [/home/abi/fetcher/tmp/leeger-2.5.1.tar.gz]
+[2023-06-08 03:04:21] INFO root fetch - processPackages [leeger]: Remove: archive file [/home/abi/fetcher/tmp/leeger-2.5.2.tar.gz]
+[2023-06-08 03:04:21] INFO root fetch - main [MainThread]: End processing [leeger]: success
+[2023-06-08 03:04:21] INFO root fetch - processPackages [tccli-intl-en]: executing diffoscope
+[2023-06-08 03:04:21] INFO root fetch - processPackages [tccli-intl-en]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tccli-intl-en-3.0.98.1.tar.gz tmp/tccli-intl-en-3.0.99.1.tar.gz --markdown 20230608/t/tccli-intl-en/3.0.98.1-3.0.99.1/diff.md --exclude *.pyd
+[2023-06-08 03:04:21] INFO root fetch - processPackages [proxystore]: Remove: archive file [/home/abi/fetcher/tmp/proxystore-0.5.0.tar.gz]
+[2023-06-08 03:04:21] INFO root fetch - processPackages [proxystore]: Remove: archive file [/home/abi/fetcher/tmp/proxystore-0.5.1.tar.gz]
+[2023-06-08 03:04:21] INFO root fetch - main [MainThread]: End processing [proxystore]: success
+[2023-06-08 03:04:21] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-intl-en-3.0.98.tar.gz]
+[2023-06-08 03:04:21] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-intl-en-3.0.99.tar.gz]
+[2023-06-08 03:04:21] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-intl-en]: success
+[2023-06-08 03:04:22] INFO root fetch - processPackages [cdk-lambda-layer-wget]: Downloading https://files.pythonhosted.org/packages/98/52/07cb776b41ec70fb5cc0faffb812732ed10edeb529408976a37a888ef997/cdk-lambda-layer-wget-2.0.99.tar.gz
+[2023-06-08 03:04:22] INFO root fetch - processPackages [raydp-nightly]: Downloading https://files.pythonhosted.org/packages/ec/f8/04753a6a7c3224c83d610b130fe15ddf35b1c481c55564992b81086e83f0/raydp_nightly-2023.6.8.dev0-py3-none-any.whl
+[2023-06-08 03:04:23] INFO root fetch - processPackages [raydp-nightly]: executing diffoscope
+[2023-06-08 03:04:23] INFO root fetch - processPackages [raydp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raydp_nightly-2023.5.27.dev0-py3-none-any.whl.zip tmp/raydp_nightly-2023.6.8.dev0-py3-none-any.whl.zip --markdown 20230608/r/raydp-nightly/2023.5.27.dev0-2023.6.8.dev0/diff.md --exclude *.pyd
+[2023-06-08 03:04:23] INFO root fetch - processPackages [cdk-lambda-layer-wget]: executing diffoscope
+[2023-06-08 03:04:23] INFO root fetch - processPackages [cdk-lambda-layer-wget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-wget-2.0.98.tar.gz tmp/cdk-lambda-layer-wget-2.0.99.tar.gz --markdown 20230608/c/cdk-lambda-layer-wget/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-08 03:04:25] INFO root fetch - processPackages [cdk-lambda-layer-wget]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-wget-2.0.98.tar.gz]
+[2023-06-08 03:04:25] INFO root fetch - processPackages [cdk-lambda-layer-wget]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-wget-2.0.99.tar.gz]
+[2023-06-08 03:04:25] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-wget]: success
+[2023-06-08 03:04:25] INFO root fetch - processPackages [tccli-intl-en]: Remove: archive file [/home/abi/fetcher/tmp/tccli-intl-en-3.0.98.1.tar.gz]
+[2023-06-08 03:04:25] INFO root fetch - processPackages [tccli-intl-en]: Remove: archive file [/home/abi/fetcher/tmp/tccli-intl-en-3.0.99.1.tar.gz]
+[2023-06-08 03:04:25] INFO root fetch - main [MainThread]: End processing [tccli-intl-en]: success
+[2023-06-08 03:04:39] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.98.tar.gz]
+[2023-06-08 03:04:39] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.99.tar.gz]
+[2023-06-08 03:04:39] INFO root fetch - main [MainThread]: End processing [bioversions]: success
+[2023-06-08 03:04:50] INFO root fetch - processPackages [EnergyCapSdk]: Remove: archive file [/home/abi/fetcher/tmp/EnergyCapSdk-8.2304.4584.tar.gz]
+[2023-06-08 03:04:50] INFO root fetch - processPackages [EnergyCapSdk]: Remove: archive file [/home/abi/fetcher/tmp/EnergyCapSdk-8.2304.4585.tar.gz]
+[2023-06-08 03:04:50] INFO root fetch - main [MainThread]: End processing [EnergyCapSdk]: success
+[2023-06-08 03:06:56] INFO root fetch - processPackages [raydp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/raydp_nightly-2023.5.27.dev0-py3-none-any.whl.zip]
+[2023-06-08 03:06:56] INFO root fetch - processPackages [raydp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/raydp_nightly-2023.6.8.dev0-py3-none-any.whl.zip]
+[2023-06-08 03:06:56] INFO root fetch - main [MainThread]: End processing [raydp-nightly]: success
+[2023-06-08 03:06:56] INFO root fetch - main [MainThread]: Store serial: [18416528]
