@@ -18052,3 +18052,90 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-08 08:09:20] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.4.0.dev20230607.tar.gz]
 [2023-06-08 08:09:20] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
 [2023-06-08 08:09:20] INFO root fetch - main [MainThread]: Store serial: [18420535]
+[2023-06-08 08:14:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18420535]
+[2023-06-08 08:14:30] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-08 08:14:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: quickmpc
+[2023-06-08 08:14:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Pandora-Cloud
+[2023-06-08 08:14:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jupyter_echarts
+[2023-06-08 08:14:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Accuinsight
+[2023-06-08 08:14:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: yplib
+[2023-06-08 08:14:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hctest-record
+[2023-06-08 08:14:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: chatgpt-Cloud
+[2023-06-08 08:14:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: un-yaml
+[2023-06-08 08:14:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: huza
+[2023-06-08 08:14:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: vcsc-data-common
+[2023-06-08 08:14:30] INFO root fetch - processPackages [jupyter_echarts]: New version: [0.1.7] Old Version: [0.1]
+[2023-06-08 08:14:30] INFO root fetch - processPackages [quickmpc]: New version: [0.4.0] Old Version: [0.3.9]
+[2023-06-08 08:14:30] WARNING root fetch - processPackages [hctest-record]: Skipping, unable to determine old version
+[2023-06-08 08:14:30] INFO root fetch - processPackages [un-yaml]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-08 08:14:30] INFO root fetch - main [MainThread]: End processing [hctest-record] error
+[2023-06-08 08:14:30] INFO root fetch - processPackages [yplib]: New version: [0.0.9] Old Version: [0.0.7]
+[2023-06-08 08:14:30] INFO root fetch - processPackages [chatgpt-Cloud]: New version: [0.5.5] Old Version: [0.5.4]
+[2023-06-08 08:14:30] INFO root fetch - processPackages [vcsc-data-common]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-08 08:14:30] INFO root fetch - processPackages [Pandora-Cloud]: New version: [0.4.8] Old Version: [0.4.7]
+[2023-06-08 08:14:30] INFO root fetch - processPackages [huza]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-08 08:14:30] INFO root fetch - processPackages [Accuinsight]: New version: [3.4.230530] Old Version: [3.4.230516rc1]
+[2023-06-08 08:14:30] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/ae/a7/0827333aa7cee3e90269f4614b5ade7329584884917d236be5f60a60033c/yplib-0.0.7.tar.gz
+[2023-06-08 08:14:30] INFO root fetch - processPackages [vcsc-data-common]: Downloading https://files.pythonhosted.org/packages/59/c3/bef4578cf573ee145432c0193911cbbefa93ad209648c14a282c3f675db4/vcsc_data_common-0.1.7.tar.gz
+[2023-06-08 08:14:30] INFO root fetch - processPackages [chatgpt-Cloud]: Downloading https://files.pythonhosted.org/packages/a8/aa/330a171ecc368593c86e3ca751f44465bdd7afffb6fa372b3a07bf276a7a/chatgpt-Cloud-0.5.4.tar.gz
+[2023-06-08 08:14:30] INFO root fetch - processPackages [huza]: Downloading https://files.pythonhosted.org/packages/4a/dc/e8dedef054a8b1138d0206a6b7324a30f569a3f30add09539aed7012c9a6/huza-0.2.8.tar.gz
+[2023-06-08 08:14:30] INFO root fetch - processPackages [Pandora-Cloud]: Downloading https://files.pythonhosted.org/packages/b1/dc/fddeef6e3cca06066de58b6d27e70141616104f94fff638f668e381053b4/Pandora-Cloud-0.4.7.tar.gz
+[2023-06-08 08:14:30] INFO root fetch - processPackages [jupyter_echarts]: Downloading https://files.pythonhosted.org/packages/83/48/fd77f71db27923702b684a082ebeacb8a5ff3f999cd0d2c8284806221f11/jupyter_echarts-0.1.tar.gz
+[2023-06-08 08:14:30] INFO root fetch - processPackages [quickmpc]: Downloading https://files.pythonhosted.org/packages/5b/6f/6f1053f2f186d8c46cef3668a01724ee90c75f8009fc395e29f010b5c9f5/quickmpc-0.3.9.tar.gz
+[2023-06-08 08:14:30] INFO root fetch - processPackages [un-yaml]: Downloading https://files.pythonhosted.org/packages/eb/28/76ddb9fed8c0b7efc9c37b262f63b24e579464067f765925ac9f0f2e2743/un_yaml-0.3.0.tar.gz
+[2023-06-08 08:14:30] INFO root fetch - processPackages [Accuinsight]: Downloading https://files.pythonhosted.org/packages/a3/74/24160bcfe107e2545b51dae55876ed752d0a278ce0517ba4ab6493a20a92/Accuinsight-3.4.230516rc1.tar.gz
+[2023-06-08 08:14:30] INFO root fetch - processPackages [vcsc-data-common]: Downloading https://files.pythonhosted.org/packages/a3/09/2b1b71c23f3f796ed9c363696a0f4a6b4de2b33c46b536ad37af0fa48cb2/vcsc_data_common-0.1.8.tar.gz
+[2023-06-08 08:14:30] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/e1/05/1918c25e01c44fc4ee2f53424eb65def6564395d90b7a574a55f97ae75a4/yplib-0.0.9.tar.gz
+[2023-06-08 08:14:30] INFO root fetch - processPackages [vcsc-data-common]: executing diffoscope
+[2023-06-08 08:14:30] INFO root fetch - processPackages [vcsc-data-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vcsc_data_common-0.1.7.tar.gz tmp/vcsc_data_common-0.1.8.tar.gz --markdown 20230608/v/vcsc-data-common/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-08 08:14:30] INFO root fetch - processPackages [huza]: Downloading https://files.pythonhosted.org/packages/97/6f/1f32bc0b4d50df2fe53edb286c1e75702196fe17a4417eb12400da611c09/huza-0.2.9.tar.gz
+[2023-06-08 08:14:30] INFO root fetch - processPackages [quickmpc]: Downloading https://files.pythonhosted.org/packages/f6/dc/98970863851422a7c80d97301fec8aa98fe9feeb3d93ed5d249d9efc3dd1/quickmpc-0.4.0.tar.gz
+[2023-06-08 08:14:30] INFO root fetch - processPackages [chatgpt-Cloud]: Downloading https://files.pythonhosted.org/packages/20/b7/b687c4af2ee0c848bf2a6fc241ad752927f262a1f2b51ed76c172774b826/chatgpt-Cloud-0.5.5.tar.gz
+[2023-06-08 08:14:30] INFO root fetch - processPackages [Pandora-Cloud]: Downloading https://files.pythonhosted.org/packages/be/dc/5d231208195fea893e82d74c6850b9ee48d854dce9dc4316674c0fa5591d/Pandora-Cloud-0.4.8.tar.gz
+[2023-06-08 08:14:30] INFO root fetch - processPackages [jupyter_echarts]: Downloading https://files.pythonhosted.org/packages/d0/ed/170c5a3a2ae69e122b76abeda454688dbe1fadf21329cf0109928a29ad33/jupyter_echarts-0.1.7.tar.gz
+[2023-06-08 08:14:30] INFO root fetch - processPackages [quickmpc]: executing diffoscope
+[2023-06-08 08:14:30] INFO root fetch - processPackages [quickmpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickmpc-0.3.9.tar.gz tmp/quickmpc-0.4.0.tar.gz --markdown 20230608/q/quickmpc/0.3.9-0.4.0/diff.md --exclude *.pyd
+[2023-06-08 08:14:30] INFO root fetch - processPackages [yplib]: executing diffoscope
+[2023-06-08 08:14:30] INFO root fetch - processPackages [yplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yplib-0.0.7.tar.gz tmp/yplib-0.0.9.tar.gz --markdown 20230608/y/yplib/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2023-06-08 08:14:30] INFO root fetch - processPackages [chatgpt-Cloud]: executing diffoscope
+[2023-06-08 08:14:30] INFO root fetch - processPackages [chatgpt-Cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatgpt-Cloud-0.5.4.tar.gz tmp/chatgpt-Cloud-0.5.5.tar.gz --markdown 20230608/c/chatgpt-Cloud/0.5.4-0.5.5/diff.md --exclude *.pyd
+[2023-06-08 08:14:30] INFO root fetch - processPackages [un-yaml]: Downloading https://files.pythonhosted.org/packages/25/26/82942f2d5bb728173b22527954ed0f4d115480fb2ca039ce02d77c9c2b6a/un_yaml-0.3.1.tar.gz
+[2023-06-08 08:14:30] INFO root fetch - processPackages [huza]: executing diffoscope
+[2023-06-08 08:14:30] INFO root fetch - processPackages [huza]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huza-0.2.8.tar.gz tmp/huza-0.2.9.tar.gz --markdown 20230608/h/huza/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-08 08:14:30] INFO root fetch - processPackages [jupyter_echarts]: executing diffoscope
+[2023-06-08 08:14:30] INFO root fetch - processPackages [jupyter_echarts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyter_echarts-0.1.tar.gz tmp/jupyter_echarts-0.1.7.tar.gz --markdown 20230608/j/jupyter_echarts/0.1-0.1.7/diff.md --exclude *.pyd
+[2023-06-08 08:14:30] INFO root fetch - processPackages [un-yaml]: executing diffoscope
+[2023-06-08 08:14:30] INFO root fetch - processPackages [un-yaml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/un_yaml-0.3.0.tar.gz tmp/un_yaml-0.3.1.tar.gz --markdown 20230608/u/un-yaml/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-08 08:14:30] INFO root fetch - processPackages [Accuinsight]: Downloading https://files.pythonhosted.org/packages/4e/5a/b5c015b7df70d45b696d6939e0a90221416bbe87757b22d95a2e47b572dd/Accuinsight-3.4.230530.tar.gz
+[2023-06-08 08:14:31] INFO root fetch - processPackages [Accuinsight]: executing diffoscope
+[2023-06-08 08:14:31] INFO root fetch - processPackages [Accuinsight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Accuinsight-3.4.230516rc1.tar.gz tmp/Accuinsight-3.4.230530.tar.gz --markdown 20230608/A/Accuinsight/3.4.230516rc1-3.4.230530/diff.md --exclude *.pyd
+[2023-06-08 08:14:31] INFO root fetch - processPackages [Pandora-Cloud]: executing diffoscope
+[2023-06-08 08:14:31] INFO root fetch - processPackages [Pandora-Cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Pandora-Cloud-0.4.7.tar.gz tmp/Pandora-Cloud-0.4.8.tar.gz --markdown 20230608/P/Pandora-Cloud/0.4.7-0.4.8/diff.md --exclude *.pyd
+[2023-06-08 08:14:32] INFO root fetch - processPackages [vcsc-data-common]: Remove: archive file [/home/abi/fetcher/tmp/vcsc_data_common-0.1.7.tar.gz]
+[2023-06-08 08:14:32] INFO root fetch - processPackages [vcsc-data-common]: Remove: archive file [/home/abi/fetcher/tmp/vcsc_data_common-0.1.8.tar.gz]
+[2023-06-08 08:14:32] INFO root fetch - main [MainThread]: End processing [vcsc-data-common]: success
+[2023-06-08 08:14:32] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-0.0.7.tar.gz]
+[2023-06-08 08:14:32] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-0.0.9.tar.gz]
+[2023-06-08 08:14:32] INFO root fetch - main [MainThread]: End processing [yplib]: success
+[2023-06-08 08:14:32] INFO root fetch - processPackages [jupyter_echarts]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_echarts-0.1.tar.gz]
+[2023-06-08 08:14:32] INFO root fetch - processPackages [jupyter_echarts]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_echarts-0.1.7.tar.gz]
+[2023-06-08 08:14:32] INFO root fetch - main [MainThread]: End processing [jupyter_echarts]: success
+[2023-06-08 08:14:32] INFO root fetch - processPackages [un-yaml]: Remove: archive file [/home/abi/fetcher/tmp/un_yaml-0.3.0.tar.gz]
+[2023-06-08 08:14:32] INFO root fetch - processPackages [un-yaml]: Remove: archive file [/home/abi/fetcher/tmp/un_yaml-0.3.1.tar.gz]
+[2023-06-08 08:14:32] INFO root fetch - main [MainThread]: End processing [un-yaml]: success
+[2023-06-08 08:14:32] INFO root fetch - processPackages [Accuinsight]: Remove: archive file [/home/abi/fetcher/tmp/Accuinsight-3.4.230516rc1.tar.gz]
+[2023-06-08 08:14:32] INFO root fetch - processPackages [Accuinsight]: Remove: archive file [/home/abi/fetcher/tmp/Accuinsight-3.4.230530.tar.gz]
+[2023-06-08 08:14:32] INFO root fetch - main [MainThread]: End processing [Accuinsight]: success
+[2023-06-08 08:14:33] INFO root fetch - processPackages [quickmpc]: Remove: archive file [/home/abi/fetcher/tmp/quickmpc-0.3.9.tar.gz]
+[2023-06-08 08:14:33] INFO root fetch - processPackages [quickmpc]: Remove: archive file [/home/abi/fetcher/tmp/quickmpc-0.4.0.tar.gz]
+[2023-06-08 08:14:33] INFO root fetch - main [MainThread]: End processing [quickmpc]: success
+[2023-06-08 08:14:34] INFO root fetch - processPackages [Pandora-Cloud]: Remove: archive file [/home/abi/fetcher/tmp/Pandora-Cloud-0.4.7.tar.gz]
+[2023-06-08 08:14:34] INFO root fetch - processPackages [Pandora-Cloud]: Remove: archive file [/home/abi/fetcher/tmp/Pandora-Cloud-0.4.8.tar.gz]
+[2023-06-08 08:14:34] INFO root fetch - main [MainThread]: End processing [Pandora-Cloud]: success
+[2023-06-08 08:14:34] INFO root fetch - processPackages [huza]: Remove: archive file [/home/abi/fetcher/tmp/huza-0.2.8.tar.gz]
+[2023-06-08 08:14:34] INFO root fetch - processPackages [huza]: Remove: archive file [/home/abi/fetcher/tmp/huza-0.2.9.tar.gz]
+[2023-06-08 08:14:34] INFO root fetch - main [MainThread]: End processing [huza]: success
+[2023-06-08 08:14:35] INFO root fetch - processPackages [chatgpt-Cloud]: Remove: archive file [/home/abi/fetcher/tmp/chatgpt-Cloud-0.5.4.tar.gz]
+[2023-06-08 08:14:35] INFO root fetch - processPackages [chatgpt-Cloud]: Remove: archive file [/home/abi/fetcher/tmp/chatgpt-Cloud-0.5.5.tar.gz]
+[2023-06-08 08:14:35] INFO root fetch - main [MainThread]: End processing [chatgpt-Cloud]: success
+[2023-06-08 08:14:35] INFO root fetch - main [MainThread]: Store serial: [18420570]
