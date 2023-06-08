@@ -13119,3 +13119,120 @@ AssertionError: tmp/odoo_addon_hr_personal_equipment_request-16.0.1.0.0.7-py3-no
 [2023-06-08 05:48:30] INFO root fetch - processPackages [cheb3]: Remove: archive file [/home/abi/fetcher/tmp/cheb3-0.7.3.tar.gz]
 [2023-06-08 05:48:30] INFO root fetch - main [MainThread]: End processing [cheb3]: success
 [2023-06-08 05:48:30] INFO root fetch - main [MainThread]: Store serial: [18419140]
+[2023-06-08 05:53:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18419140]
+[2023-06-08 05:53:40] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-08 05:53:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bm-test
+[2023-06-08 05:53:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: langflow
+[2023-06-08 05:53:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bm-test
+[2023-06-08 05:53:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: alibabacloud-avatar20220130-py2
+[2023-06-08 05:53:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: antchain-nftx
+[2023-06-08 05:53:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: alibabacloud-avatar20220130
+[2023-06-08 05:53:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo8-addon-account-banking-fr-lcr
+[2023-06-08 05:53:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo8-addon-l10n-fr-department
+[2023-06-08 05:53:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo10-addon-hr-holidays-jours-ouvrables
+[2023-06-08 05:53:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo8-addon-l10n-fr-fec
+[2023-06-08 05:53:40] INFO root fetch - processPackages [alibabacloud-avatar20220130-py2]: New version: [1.0.3] Old Version: [1.0.21]
+[2023-06-08 05:53:40] INFO root fetch - processPackages [langflow]: New version: [0.0.86] Old Version: [0.0.85]
+[2023-06-08 05:53:40] INFO root fetch - processPackages [alibabacloud-avatar20220130]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-08 05:53:40] INFO root fetch - processPackages [odoo8-addon-l10n-fr-department]: New version: [8.0.0.1.1.99.dev9] Old Version: [8.0.0.1.1.99.dev8]
+[2023-06-08 05:53:40] INFO root fetch - processPackages [antchain-nftx]: New version: [1.8.2] Old Version: [1.8.1]
+[2023-06-08 05:53:40] INFO root fetch - processPackages [odoo10-addon-hr-holidays-jours-ouvrables]: New version: [10.0.1.0.0.99.dev8] Old Version: [10.0.1.0.0.99.dev7]
+[2023-06-08 05:53:40] ERROR root fetch - processPackages [bm-test]: Unable to get metadata: No such project 'bm-test'
+[2023-06-08 05:53:40] INFO root fetch - processPackages [odoo8-addon-account-banking-fr-lcr]: New version: [8.0.0.1.0.99.dev9] Old Version: [8.0.0.1.0.99.dev8]
+[2023-06-08 05:53:40] INFO root fetch - processPackages [bm-test]: Start processing: odoo11-addon-l10n-fr-department
+[2023-06-08 05:53:40] INFO root fetch - processPackages [odoo8-addon-l10n-fr-fec]: New version: [8.0.0.2.0.99.dev9] Old Version: [8.0.0.2.0.99.dev8]
+[2023-06-08 05:53:40] INFO root fetch - main [MainThread]: End processing [bm-test] error
+[2023-06-08 05:53:40] ERROR root fetch - processPackages [bm-test]: Unable to get metadata: No such project 'bm-test'
+[2023-06-08 05:53:40] INFO root fetch - processPackages [bm-test]: Start processing: odoo11-addon-l10n-fr-intrastat-product
+[2023-06-08 05:53:40] INFO root fetch - main [MainThread]: End processing [bm-test] error
+[2023-06-08 05:53:40] INFO root fetch - processPackages [langflow]: Downloading https://files.pythonhosted.org/packages/d6/63/5dddbeb2f665b3bcb810f216e4b15cc5067e8dab384b7ddd45dd19411fbe/langflow-0.0.85.tar.gz
+[2023-06-08 05:53:41] INFO root fetch - processPackages [alibabacloud-avatar20220130-py2]: Downloading https://files.pythonhosted.org/packages/a0/a3/47d10751ba6436b3ec124083794cc28f8d3e511b3aafa49132cc75663df9/alibabacloud_avatar20220130_py2-1.0.21.tar.gz
+[2023-06-08 05:53:41] INFO root fetch - processPackages [odoo11-addon-l10n-fr-intrastat-product]: New version: [11.0.1.0.0.99.dev7] Old Version: [11.0.1.0.0.99.dev6]
+[2023-06-08 05:53:41] INFO root fetch - processPackages [odoo8-addon-l10n-fr-department]: Downloading https://files.pythonhosted.org/packages/fb/5d/a5a36b98473c9260b8567470e1021d34476bcb294474c8d916afaa1e13f4/odoo8_addon_l10n_fr_department-8.0.0.1.1.99.dev8-py2-none-any.whl
+[2023-06-08 05:53:41] INFO root fetch - processPackages [odoo11-addon-l10n-fr-department]: New version: [11.0.1.1.0.99.dev1] Old Version: [11.0.1.1.0]
+[2023-06-08 05:53:41] INFO root fetch - processPackages [alibabacloud-avatar20220130]: Downloading https://files.pythonhosted.org/packages/4b/a0/6a2a2e8ff44efdba82be0a18fd74ded8f0ce81b1d6dd876f82c0c84b6521/alibabacloud_avatar20220130-1.0.8.tar.gz
+[2023-06-08 05:53:41] INFO root fetch - processPackages [odoo8-addon-account-banking-fr-lcr]: Downloading https://files.pythonhosted.org/packages/78/cc/924fdf78449ac91ee475f4d7a842e390df839299571c9698e6921dedade2/odoo8_addon_account_banking_fr_lcr-8.0.0.1.0.99.dev8-py2-none-any.whl
+[2023-06-08 05:53:41] INFO root fetch - processPackages [odoo10-addon-hr-holidays-jours-ouvrables]: Downloading https://files.pythonhosted.org/packages/70/b8/3fbd04f80bd5272f1e0fd5d0eb71ca87534c7900db91b3f0adb19eadce7e/odoo10_addon_hr_holidays_jours_ouvrables-10.0.1.0.0.99.dev7-py2-none-any.whl
+[2023-06-08 05:53:41] INFO root fetch - processPackages [antchain-nftx]: Downloading https://files.pythonhosted.org/packages/41/f9/61a73c1ed7f5835f1c843dcb2a2c1ed2be7a5f2734ca02541929b30e606d/antchain_nftx-1.8.1.tar.gz
+[2023-06-08 05:53:41] INFO root fetch - processPackages [odoo8-addon-l10n-fr-fec]: Downloading https://files.pythonhosted.org/packages/42/b6/d80c555e610a6da6335d4efc85211c5324460f2d6a8014103db6d4e038cd/odoo8_addon_l10n_fr_fec-8.0.0.2.0.99.dev8-py2-none-any.whl
+[2023-06-08 05:53:41] INFO root fetch - processPackages [odoo11-addon-l10n-fr-intrastat-product]: Downloading https://files.pythonhosted.org/packages/d3/50/00826746688efc285ea8c43f9ed4bbc6e1f5b1488df42a64f7112c38dd4b/odoo11_addon_l10n_fr_intrastat_product-11.0.1.0.0.99.dev6-py2.py3-none-any.whl
+[2023-06-08 05:53:41] INFO root fetch - processPackages [langflow]: Downloading https://files.pythonhosted.org/packages/11/3d/6af2f2ecc412a3b2af33434131f097f9fba8cf6adf0c325187fce88e68ac/langflow-0.0.86.tar.gz
+[2023-06-08 05:53:41] INFO root fetch - processPackages [odoo11-addon-l10n-fr-department]: Downloading https://files.pythonhosted.org/packages/33/a1/12cb2c6f479a0cee73c1c3b40c8b85ab0f9b42a53bd333c0fbc4a34ff84b/odoo11_addon_l10n_fr_department-11.0.1.1.0-py2.py3-none-any.whl
+[2023-06-08 05:53:41] INFO root fetch - processPackages [alibabacloud-avatar20220130-py2]: Downloading https://files.pythonhosted.org/packages/24/54/b74d23547b44c5f4f5fc8e9a3db510f9e11eabcd357c464590fdd9af7ee1/alibabacloud_avatar20220130_py2-1.0.3.tar.gz
+[2023-06-08 05:53:41] INFO root fetch - processPackages [antchain-nftx]: Downloading https://files.pythonhosted.org/packages/1f/2d/532ac40933f481f16e885bbefb0c53b27c57f77c4533dd756620c35b640f/antchain_nftx-1.8.2.tar.gz
+[2023-06-08 05:53:41] INFO root fetch - processPackages [odoo8-addon-l10n-fr-department]: Downloading https://files.pythonhosted.org/packages/07/20/01b3c56c128c0e0840b6caa4edcdb62973142be51c21a3f4fb550c381792/odoo8_addon_l10n_fr_department-8.0.0.1.1.99.dev9-py2-none-any.whl
+[2023-06-08 05:53:41] INFO root fetch - processPackages [odoo8-addon-account-banking-fr-lcr]: Downloading https://files.pythonhosted.org/packages/e2/5c/22d6e8e5eea43b12fb73650de46b9f8a05a2235bc8f95dd3d7ae00218493/odoo8_addon_account_banking_fr_lcr-8.0.0.1.0.99.dev9-py2-none-any.whl
+[2023-06-08 05:53:41] INFO root fetch - processPackages [alibabacloud-avatar20220130-py2]: executing diffoscope
+[2023-06-08 05:53:41] INFO root fetch - processPackages [alibabacloud-avatar20220130-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_avatar20220130_py2-1.0.21.tar.gz tmp/alibabacloud_avatar20220130_py2-1.0.3.tar.gz --markdown 20230608/a/alibabacloud-avatar20220130-py2/1.0.21-1.0.3/diff.md --exclude *.pyd
+[2023-06-08 05:53:41] INFO root fetch - processPackages [alibabacloud-avatar20220130]: Downloading https://files.pythonhosted.org/packages/1d/b4/4bb6f09cc7b58637e751863262974a4cb14ab1d86ab3e80fe0ef8fa9db9a/alibabacloud_avatar20220130-1.0.9.tar.gz
+[2023-06-08 05:53:41] INFO root fetch - processPackages [odoo10-addon-hr-holidays-jours-ouvrables]: Downloading https://files.pythonhosted.org/packages/f6/ca/34158c5e95c28049cc8e64610f7f73631103aec8a4b8eb4dd2cd21af2a87/odoo10_addon_hr_holidays_jours_ouvrables-10.0.1.0.0.99.dev8-py2-none-any.whl
+[2023-06-08 05:53:41] INFO root fetch - processPackages [langflow]: executing diffoscope
+[2023-06-08 05:53:41] INFO root fetch - processPackages [langflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langflow-0.0.85.tar.gz tmp/langflow-0.0.86.tar.gz --markdown 20230608/l/langflow/0.0.85-0.0.86/diff.md --exclude *.pyd
+[2023-06-08 05:53:41] INFO root fetch - processPackages [odoo8-addon-account-banking-fr-lcr]: executing diffoscope
+[2023-06-08 05:53:41] INFO root fetch - processPackages [odoo8-addon-account-banking-fr-lcr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_account_banking_fr_lcr-8.0.0.1.0.99.dev8-py2-none-any.whl.zip tmp/odoo8_addon_account_banking_fr_lcr-8.0.0.1.0.99.dev9-py2-none-any.whl.zip --markdown 20230608/o/odoo8-addon-account-banking-fr-lcr/8.0.0.1.0.99.dev8-8.0.0.1.0.99.dev9/diff.md --exclude *.pyd
+[2023-06-08 05:53:41] INFO root fetch - processPackages [antchain-nftx]: executing diffoscope
+[2023-06-08 05:53:41] INFO root fetch - processPackages [antchain-nftx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_nftx-1.8.1.tar.gz tmp/antchain_nftx-1.8.2.tar.gz --markdown 20230608/a/antchain-nftx/1.8.1-1.8.2/diff.md --exclude *.pyd
+[2023-06-08 05:53:41] INFO root fetch - processPackages [odoo8-addon-l10n-fr-fec]: Downloading https://files.pythonhosted.org/packages/88/19/8f7729abf853dce88a015531635820a4a5e493205b01cb21123eccf57824/odoo8_addon_l10n_fr_fec-8.0.0.2.0.99.dev9-py2-none-any.whl
+[2023-06-08 05:53:41] INFO root fetch - processPackages [odoo11-addon-l10n-fr-intrastat-product]: Downloading https://files.pythonhosted.org/packages/f1/27/14a447d3a9f8168b0539499b3b19a6b49eff95f53d063ff29711631465e2/odoo11_addon_l10n_fr_intrastat_product-11.0.1.0.0.99.dev7-py2.py3-none-any.whl
+[2023-06-08 05:53:41] INFO root fetch - processPackages [alibabacloud-avatar20220130]: executing diffoscope
+[2023-06-08 05:53:41] INFO root fetch - processPackages [alibabacloud-avatar20220130]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_avatar20220130-1.0.8.tar.gz tmp/alibabacloud_avatar20220130-1.0.9.tar.gz --markdown 20230608/a/alibabacloud-avatar20220130/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-08 05:53:41] INFO root fetch - processPackages [odoo8-addon-l10n-fr-department]: executing diffoscope
+[2023-06-08 05:53:41] INFO root fetch - processPackages [odoo8-addon-l10n-fr-department]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_l10n_fr_department-8.0.0.1.1.99.dev8-py2-none-any.whl.zip tmp/odoo8_addon_l10n_fr_department-8.0.0.1.1.99.dev9-py2-none-any.whl.zip --markdown 20230608/o/odoo8-addon-l10n-fr-department/8.0.0.1.1.99.dev8-8.0.0.1.1.99.dev9/diff.md --exclude *.pyd
+[2023-06-08 05:53:41] INFO root fetch - processPackages [odoo11-addon-l10n-fr-department]: Downloading https://files.pythonhosted.org/packages/77/66/1bdff15424668f5b34202fcedac7d6036dbd0f6b12a9a975cc343ad664b4/odoo11_addon_l10n_fr_department-11.0.1.1.0.99.dev1-py2.py3-none-any.whl
+[2023-06-08 05:53:41] INFO root fetch - processPackages [odoo8-addon-l10n-fr-fec]: executing diffoscope
+[2023-06-08 05:53:41] INFO root fetch - processPackages [odoo8-addon-l10n-fr-fec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_l10n_fr_fec-8.0.0.2.0.99.dev8-py2-none-any.whl.zip tmp/odoo8_addon_l10n_fr_fec-8.0.0.2.0.99.dev9-py2-none-any.whl.zip --markdown 20230608/o/odoo8-addon-l10n-fr-fec/8.0.0.2.0.99.dev8-8.0.0.2.0.99.dev9/diff.md --exclude *.pyd
+[2023-06-08 05:53:41] INFO root fetch - processPackages [odoo11-addon-l10n-fr-intrastat-product]: executing diffoscope
+[2023-06-08 05:53:41] INFO root fetch - processPackages [odoo11-addon-l10n-fr-intrastat-product]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo11_addon_l10n_fr_intrastat_product-11.0.1.0.0.99.dev6-py2.py3-none-any.whl.zip tmp/odoo11_addon_l10n_fr_intrastat_product-11.0.1.0.0.99.dev7-py2.py3-none-any.whl.zip --markdown 20230608/o/odoo11-addon-l10n-fr-intrastat-product/11.0.1.0.0.99.dev6-11.0.1.0.0.99.dev7/diff.md --exclude *.pyd
+[2023-06-08 05:53:41] INFO root fetch - processPackages [odoo10-addon-hr-holidays-jours-ouvrables]: executing diffoscope
+[2023-06-08 05:53:41] INFO root fetch - processPackages [odoo10-addon-hr-holidays-jours-ouvrables]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo10_addon_hr_holidays_jours_ouvrables-10.0.1.0.0.99.dev7-py2-none-any.whl.zip tmp/odoo10_addon_hr_holidays_jours_ouvrables-10.0.1.0.0.99.dev8-py2-none-any.whl.zip --markdown 20230608/o/odoo10-addon-hr-holidays-jours-ouvrables/10.0.1.0.0.99.dev7-10.0.1.0.0.99.dev8/diff.md --exclude *.pyd
+[2023-06-08 05:53:42] INFO root fetch - processPackages [odoo11-addon-l10n-fr-department]: executing diffoscope
+[2023-06-08 05:53:42] INFO root fetch - processPackages [odoo11-addon-l10n-fr-department]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo11_addon_l10n_fr_department-11.0.1.1.0-py2.py3-none-any.whl.zip tmp/odoo11_addon_l10n_fr_department-11.0.1.1.0.99.dev1-py2.py3-none-any.whl.zip --markdown 20230608/o/odoo11-addon-l10n-fr-department/11.0.1.1.0-11.0.1.1.0.99.dev1/diff.md --exclude *.pyd
+[2023-06-08 05:53:43] INFO root fetch - processPackages [odoo8-addon-account-banking-fr-lcr]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_account_banking_fr_lcr-8.0.0.1.0.99.dev8-py2-none-any.whl.zip]
+[2023-06-08 05:53:43] INFO root fetch - processPackages [odoo8-addon-account-banking-fr-lcr]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_account_banking_fr_lcr-8.0.0.1.0.99.dev9-py2-none-any.whl.zip]
+[2023-06-08 05:53:43] INFO root fetch - processPackages [odoo8-addon-account-banking-fr-lcr]: Start processing: ngm-salam
+[2023-06-08 05:53:43] INFO root fetch - main [MainThread]: End processing [odoo8-addon-account-banking-fr-lcr]: success
+[2023-06-08 05:53:43] INFO root fetch - processPackages [ngm-salam]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-08 05:53:43] INFO root fetch - processPackages [ngm-salam]: Downloading https://files.pythonhosted.org/packages/f0/dd/6efdf2668be11c0def0a9c5bed5bffbd0833ca73fec9a06749e0ec56a2fd/ngm_salam-0.0.3.tar.gz
+[2023-06-08 05:53:43] INFO root fetch - processPackages [odoo10-addon-hr-holidays-jours-ouvrables]: Remove: archive file [/home/abi/fetcher/tmp/odoo10_addon_hr_holidays_jours_ouvrables-10.0.1.0.0.99.dev7-py2-none-any.whl.zip]
+[2023-06-08 05:53:43] INFO root fetch - processPackages [odoo10-addon-hr-holidays-jours-ouvrables]: Remove: archive file [/home/abi/fetcher/tmp/odoo10_addon_hr_holidays_jours_ouvrables-10.0.1.0.0.99.dev8-py2-none-any.whl.zip]
+[2023-06-08 05:53:43] INFO root fetch - processPackages [odoo10-addon-hr-holidays-jours-ouvrables]: Start processing: Pandora-Cloud
+[2023-06-08 05:53:43] INFO root fetch - main [MainThread]: End processing [odoo10-addon-hr-holidays-jours-ouvrables]: success
+[2023-06-08 05:53:43] INFO root fetch - processPackages [ngm-salam]: Downloading https://files.pythonhosted.org/packages/0a/22/285c9ae25f92e409934cde2fed4d203d8db8575989530c647ea7e289031c/ngm_salam-0.0.4.tar.gz
+[2023-06-08 05:53:43] INFO root fetch - processPackages [Pandora-Cloud]: New version: [0.4.5] Old Version: [0.4.4]
+[2023-06-08 05:53:43] INFO root fetch - processPackages [antchain-nftx]: Remove: archive file [/home/abi/fetcher/tmp/antchain_nftx-1.8.1.tar.gz]
+[2023-06-08 05:53:43] INFO root fetch - processPackages [antchain-nftx]: Remove: archive file [/home/abi/fetcher/tmp/antchain_nftx-1.8.2.tar.gz]
+[2023-06-08 05:53:43] INFO root fetch - main [MainThread]: End processing [antchain-nftx]: success
+[2023-06-08 05:53:43] INFO root fetch - processPackages [ngm-salam]: executing diffoscope
+[2023-06-08 05:53:43] INFO root fetch - processPackages [ngm-salam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ngm_salam-0.0.3.tar.gz tmp/ngm_salam-0.0.4.tar.gz --markdown 20230608/n/ngm-salam/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-08 05:53:43] INFO root fetch - processPackages [Pandora-Cloud]: Downloading https://files.pythonhosted.org/packages/0a/f5/f708754abddf8f5ae93daa6c890ed64187014de9100ac48356f64e2fa2d9/Pandora-Cloud-0.4.4.tar.gz
+[2023-06-08 05:53:43] INFO root fetch - processPackages [alibabacloud-avatar20220130-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_avatar20220130_py2-1.0.21.tar.gz]
+[2023-06-08 05:53:43] INFO root fetch - processPackages [alibabacloud-avatar20220130-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_avatar20220130_py2-1.0.3.tar.gz]
+[2023-06-08 05:53:43] INFO root fetch - main [MainThread]: End processing [alibabacloud-avatar20220130-py2]: success
+[2023-06-08 05:53:43] INFO root fetch - processPackages [odoo8-addon-l10n-fr-department]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_l10n_fr_department-8.0.0.1.1.99.dev8-py2-none-any.whl.zip]
+[2023-06-08 05:53:43] INFO root fetch - processPackages [odoo8-addon-l10n-fr-department]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_l10n_fr_department-8.0.0.1.1.99.dev9-py2-none-any.whl.zip]
+[2023-06-08 05:53:43] INFO root fetch - main [MainThread]: End processing [odoo8-addon-l10n-fr-department]: success
+[2023-06-08 05:53:43] INFO root fetch - processPackages [odoo11-addon-l10n-fr-intrastat-product]: Remove: archive file [/home/abi/fetcher/tmp/odoo11_addon_l10n_fr_intrastat_product-11.0.1.0.0.99.dev6-py2.py3-none-any.whl.zip]
+[2023-06-08 05:53:43] INFO root fetch - processPackages [odoo11-addon-l10n-fr-intrastat-product]: Remove: archive file [/home/abi/fetcher/tmp/odoo11_addon_l10n_fr_intrastat_product-11.0.1.0.0.99.dev7-py2.py3-none-any.whl.zip]
+[2023-06-08 05:53:43] INFO root fetch - main [MainThread]: End processing [odoo11-addon-l10n-fr-intrastat-product]: success
+[2023-06-08 05:53:43] INFO root fetch - processPackages [odoo11-addon-l10n-fr-department]: Remove: archive file [/home/abi/fetcher/tmp/odoo11_addon_l10n_fr_department-11.0.1.1.0-py2.py3-none-any.whl.zip]
+[2023-06-08 05:53:43] INFO root fetch - processPackages [odoo11-addon-l10n-fr-department]: Remove: archive file [/home/abi/fetcher/tmp/odoo11_addon_l10n_fr_department-11.0.1.1.0.99.dev1-py2.py3-none-any.whl.zip]
+[2023-06-08 05:53:43] INFO root fetch - main [MainThread]: End processing [odoo11-addon-l10n-fr-department]: success
+[2023-06-08 05:53:43] INFO root fetch - processPackages [Pandora-Cloud]: Downloading https://files.pythonhosted.org/packages/c5/69/d7c92f93eaaa92fa0a7c378e288bdacb59b5132d4076c95cf86d0c41e5f3/Pandora-Cloud-0.4.5.tar.gz
+[2023-06-08 05:53:44] INFO root fetch - processPackages [alibabacloud-avatar20220130]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_avatar20220130-1.0.8.tar.gz]
+[2023-06-08 05:53:44] INFO root fetch - processPackages [alibabacloud-avatar20220130]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_avatar20220130-1.0.9.tar.gz]
+[2023-06-08 05:53:44] INFO root fetch - main [MainThread]: End processing [alibabacloud-avatar20220130]: success
+[2023-06-08 05:53:44] INFO root fetch - processPackages [odoo8-addon-l10n-fr-fec]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_l10n_fr_fec-8.0.0.2.0.99.dev8-py2-none-any.whl.zip]
+[2023-06-08 05:53:44] INFO root fetch - processPackages [odoo8-addon-l10n-fr-fec]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_l10n_fr_fec-8.0.0.2.0.99.dev9-py2-none-any.whl.zip]
+[2023-06-08 05:53:44] INFO root fetch - main [MainThread]: End processing [odoo8-addon-l10n-fr-fec]: success
+[2023-06-08 05:53:44] INFO root fetch - processPackages [Pandora-Cloud]: executing diffoscope
+[2023-06-08 05:53:44] INFO root fetch - processPackages [Pandora-Cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Pandora-Cloud-0.4.4.tar.gz tmp/Pandora-Cloud-0.4.5.tar.gz --markdown 20230608/P/Pandora-Cloud/0.4.4-0.4.5/diff.md --exclude *.pyd
+[2023-06-08 05:53:44] INFO root fetch - processPackages [ngm-salam]: Remove: archive file [/home/abi/fetcher/tmp/ngm_salam-0.0.3.tar.gz]
+[2023-06-08 05:53:44] INFO root fetch - processPackages [ngm-salam]: Remove: archive file [/home/abi/fetcher/tmp/ngm_salam-0.0.4.tar.gz]
+[2023-06-08 05:53:44] INFO root fetch - main [MainThread]: End processing [ngm-salam]: success
+[2023-06-08 05:53:46] INFO root fetch - processPackages [Pandora-Cloud]: Remove: archive file [/home/abi/fetcher/tmp/Pandora-Cloud-0.4.4.tar.gz]
+[2023-06-08 05:53:46] INFO root fetch - processPackages [Pandora-Cloud]: Remove: archive file [/home/abi/fetcher/tmp/Pandora-Cloud-0.4.5.tar.gz]
+[2023-06-08 05:53:46] INFO root fetch - main [MainThread]: End processing [Pandora-Cloud]: success
+[2023-06-08 05:53:46] INFO root fetch - processPackages [langflow]: Remove: archive file [/home/abi/fetcher/tmp/langflow-0.0.85.tar.gz]
+[2023-06-08 05:53:46] INFO root fetch - processPackages [langflow]: Remove: archive file [/home/abi/fetcher/tmp/langflow-0.0.86.tar.gz]
+[2023-06-08 05:53:46] INFO root fetch - main [MainThread]: End processing [langflow]: success
+[2023-06-08 05:53:46] INFO root fetch - main [MainThread]: Store serial: [18419186]
