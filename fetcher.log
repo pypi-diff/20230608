@@ -17624,3 +17624,78 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-08 07:43:03] INFO root fetch - processPackages [Pandora-ChatGPT]: Remove: archive file [/home/abi/fetcher/tmp/Pandora-ChatGPT-1.1.9.tar.gz]
 [2023-06-08 07:43:03] INFO root fetch - main [MainThread]: End processing [Pandora-ChatGPT]: success
 [2023-06-08 07:43:03] INFO root fetch - main [MainThread]: Store serial: [18420372]
+[2023-06-08 07:48:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18420372]
+[2023-06-08 07:48:14] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-08 07:48:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fuse-client
+[2023-06-08 07:48:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo10-addon-stock-picking-mass-action
+[2023-06-08 07:48:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo10-addon-stock-move-backdating
+[2023-06-08 07:48:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: seledroid
+[2023-06-08 07:48:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ebank
+[2023-06-08 07:48:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rsrpc
+[2023-06-08 07:48:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dune-harmonizer
+[2023-06-08 07:48:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: etos-lib
+[2023-06-08 07:48:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: prismstudio-demo
+[2023-06-08 07:48:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: icd-validator
+[2023-06-08 07:48:14] INFO root fetch - processPackages [odoo10-addon-stock-move-backdating]: New version: [10.0.1.0.0.99.dev8] Old Version: [10.0.1.0.0.99.dev7]
+[2023-06-08 07:48:14] INFO root fetch - processPackages [odoo10-addon-stock-picking-mass-action]: New version: [10.0.1.0.0.99.dev8] Old Version: [10.0.1.0.0.99.dev7]
+[2023-06-08 07:48:14] INFO root fetch - processPackages [fuse-client]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-08 07:48:14] INFO root fetch - processPackages [dune-harmonizer]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-08 07:48:14] INFO root fetch - processPackages [etos-lib]: New version: [3.1.0] Old Version: [3.0.0]
+[2023-06-08 07:48:14] INFO root fetch - processPackages [prismstudio-demo]: New version: [1.1.2b0] Old Version: [1.1.2a0]
+[2023-06-08 07:48:14] WARNING root fetch - processPackages [rsrpc]: Skipping, unable to determine old version
+[2023-06-08 07:48:14] WARNING root fetch - processPackages [seledroid]: Skipping, unable to determine old version
+[2023-06-08 07:48:14] INFO root fetch - processPackages [ebank]: New version: [2023.6.8.3] Old Version: [2023.6.8.2]
+[2023-06-08 07:48:14] INFO root fetch - main [MainThread]: End processing [rsrpc] error
+[2023-06-08 07:48:14] INFO root fetch - main [MainThread]: End processing [seledroid] error
+[2023-06-08 07:48:14] INFO root fetch - processPackages [prismstudio-demo]: Downloading https://files.pythonhosted.org/packages/f9/a9/5dbd6c96b6ec9b01eb0e9e65570048f4a807db8d09b87a66b2b140417f59/prismstudio-demo-1.1.2a0.tar.gz
+[2023-06-08 07:48:14] WARNING root fetch - processPackages [icd-validator]: Skipping, unable to determine old version
+[2023-06-08 07:48:14] INFO root fetch - main [MainThread]: End processing [icd-validator] error
+[2023-06-08 07:48:15] INFO root fetch - processPackages [odoo10-addon-stock-picking-mass-action]: Downloading https://files.pythonhosted.org/packages/69/87/f130addbf856a1d8b2cad286ff7ddc10821e230e17f97c0d1ec6e9fede74/odoo10_addon_stock_picking_mass_action-10.0.1.0.0.99.dev7-py2-none-any.whl
+[2023-06-08 07:48:15] INFO root fetch - processPackages [fuse-client]: Downloading https://files.pythonhosted.org/packages/9a/21/138519c88f9d90560802d68fbffedbc6d792520df33f90f2bf7a5e7babd9/fuse-client-1.0.8.tar.gz
+[2023-06-08 07:48:15] INFO root fetch - processPackages [ebank]: Downloading https://files.pythonhosted.org/packages/83/23/cf4c5ce4a1b25b485cf04c3024fcd2e3f04706739aeb7bf7587e5e755985/ebank-2023.6.8.2.tar.gz
+[2023-06-08 07:48:15] INFO root fetch - processPackages [odoo10-addon-stock-move-backdating]: Downloading https://files.pythonhosted.org/packages/32/fd/9b7ec48fff1c65e1863e849d513c55f46c10bb614cb82c37efb0621aa79d/odoo10_addon_stock_move_backdating-10.0.1.0.0.99.dev7-py2-none-any.whl
+[2023-06-08 07:48:15] INFO root fetch - processPackages [dune-harmonizer]: Downloading https://files.pythonhosted.org/packages/78/03/557e18e62003264a5315906abc868164bf906618d89e83ea7ec9501e060b/dune_harmonizer-0.8.0.tar.gz
+[2023-06-08 07:48:15] INFO root fetch - processPackages [etos-lib]: Downloading https://files.pythonhosted.org/packages/f6/d5/a254d180772e95056ca73cdbe80816d516c34b2659323ad2cff0932dcd7e/etos_lib-3.0.0.tar.gz
+[2023-06-08 07:48:15] INFO root fetch - processPackages [ebank]: Downloading https://files.pythonhosted.org/packages/b7/50/a6ddae7ab1a1f4d91fdf13894f0978c027618f6a3f74692e20483ef5ab93/ebank-2023.6.8.3.tar.gz
+[2023-06-08 07:48:15] INFO root fetch - processPackages [ebank]: executing diffoscope
+[2023-06-08 07:48:15] INFO root fetch - processPackages [ebank]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ebank-2023.6.8.2.tar.gz tmp/ebank-2023.6.8.3.tar.gz --markdown 20230608/e/ebank/2023.6.8.2-2023.6.8.3/diff.md --exclude *.pyd
+[2023-06-08 07:48:15] INFO root fetch - processPackages [odoo10-addon-stock-picking-mass-action]: Downloading https://files.pythonhosted.org/packages/1c/d9/69a13ccfb2b65fad61f9ce2ea03a80b25b9666e58a2e36f7543ce0ec244b/odoo10_addon_stock_picking_mass_action-10.0.1.0.0.99.dev8-py2-none-any.whl
+[2023-06-08 07:48:15] INFO root fetch - processPackages [odoo10-addon-stock-move-backdating]: Downloading https://files.pythonhosted.org/packages/5b/73/d8df407801fca329f3e01101fbab4f7fa3a41b365ceee72dab798f589937/odoo10_addon_stock_move_backdating-10.0.1.0.0.99.dev8-py2-none-any.whl
+[2023-06-08 07:48:15] INFO root fetch - processPackages [etos-lib]: Downloading https://files.pythonhosted.org/packages/bd/20/a3219ee871657017db9e186ef8a1183527efafe5942a5177b1dacdba3708/etos_lib-3.1.0.tar.gz
+[2023-06-08 07:48:15] INFO root fetch - processPackages [prismstudio-demo]: Downloading https://files.pythonhosted.org/packages/16/7f/a243c28543ca3f1ab33341763aa52dc207556d33ce1fa1c83d1a1e629645/prismstudio-demo-1.1.2b0.tar.gz
+[2023-06-08 07:48:15] INFO root fetch - processPackages [dune-harmonizer]: Downloading https://files.pythonhosted.org/packages/1a/d4/89c417ac730e0448e708d536f273bf29ee1ccbaba9643d6e2a40d3d12b8d/dune_harmonizer-0.9.0.tar.gz
+[2023-06-08 07:48:15] INFO root fetch - processPackages [odoo10-addon-stock-picking-mass-action]: executing diffoscope
+[2023-06-08 07:48:15] INFO root fetch - processPackages [odoo10-addon-stock-picking-mass-action]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo10_addon_stock_picking_mass_action-10.0.1.0.0.99.dev7-py2-none-any.whl.zip tmp/odoo10_addon_stock_picking_mass_action-10.0.1.0.0.99.dev8-py2-none-any.whl.zip --markdown 20230608/o/odoo10-addon-stock-picking-mass-action/10.0.1.0.0.99.dev7-10.0.1.0.0.99.dev8/diff.md --exclude *.pyd
+[2023-06-08 07:48:15] INFO root fetch - processPackages [fuse-client]: Downloading https://files.pythonhosted.org/packages/9f/28/6906364967b44d92a7e318a9dc58b01f5283fa11fb25d34ea32d97bc68d4/fuse-client-1.0.9.tar.gz
+[2023-06-08 07:48:15] INFO root fetch - processPackages [etos-lib]: executing diffoscope
+[2023-06-08 07:48:15] INFO root fetch - processPackages [etos-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/etos_lib-3.0.0.tar.gz tmp/etos_lib-3.1.0.tar.gz --markdown 20230608/e/etos-lib/3.0.0-3.1.0/diff.md --exclude *.pyd
+[2023-06-08 07:48:15] INFO root fetch - processPackages [odoo10-addon-stock-move-backdating]: executing diffoscope
+[2023-06-08 07:48:15] INFO root fetch - processPackages [odoo10-addon-stock-move-backdating]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo10_addon_stock_move_backdating-10.0.1.0.0.99.dev7-py2-none-any.whl.zip tmp/odoo10_addon_stock_move_backdating-10.0.1.0.0.99.dev8-py2-none-any.whl.zip --markdown 20230608/o/odoo10-addon-stock-move-backdating/10.0.1.0.0.99.dev7-10.0.1.0.0.99.dev8/diff.md --exclude *.pyd
+[2023-06-08 07:48:15] INFO root fetch - processPackages [dune-harmonizer]: executing diffoscope
+[2023-06-08 07:48:15] INFO root fetch - processPackages [dune-harmonizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dune_harmonizer-0.8.0.tar.gz tmp/dune_harmonizer-0.9.0.tar.gz --markdown 20230608/d/dune-harmonizer/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-08 07:48:15] INFO root fetch - processPackages [fuse-client]: executing diffoscope
+[2023-06-08 07:48:15] INFO root fetch - processPackages [fuse-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fuse-client-1.0.8.tar.gz tmp/fuse-client-1.0.9.tar.gz --markdown 20230608/f/fuse-client/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-08 07:48:15] INFO root fetch - processPackages [prismstudio-demo]: executing diffoscope
+[2023-06-08 07:48:15] INFO root fetch - processPackages [prismstudio-demo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prismstudio-demo-1.1.2a0.tar.gz tmp/prismstudio-demo-1.1.2b0.tar.gz --markdown 20230608/p/prismstudio-demo/1.1.2a0-1.1.2b0/diff.md --exclude *.pyd
+[2023-06-08 07:48:16] INFO root fetch - processPackages [ebank]: Remove: archive file [/home/abi/fetcher/tmp/ebank-2023.6.8.2.tar.gz]
+[2023-06-08 07:48:16] INFO root fetch - processPackages [ebank]: Remove: archive file [/home/abi/fetcher/tmp/ebank-2023.6.8.3.tar.gz]
+[2023-06-08 07:48:16] INFO root fetch - main [MainThread]: End processing [ebank]: success
+[2023-06-08 07:48:17] INFO root fetch - processPackages [etos-lib]: Remove: archive file [/home/abi/fetcher/tmp/etos_lib-3.0.0.tar.gz]
+[2023-06-08 07:48:17] INFO root fetch - processPackages [etos-lib]: Remove: archive file [/home/abi/fetcher/tmp/etos_lib-3.1.0.tar.gz]
+[2023-06-08 07:48:17] INFO root fetch - main [MainThread]: End processing [etos-lib]: success
+[2023-06-08 07:48:17] INFO root fetch - processPackages [odoo10-addon-stock-move-backdating]: Remove: archive file [/home/abi/fetcher/tmp/odoo10_addon_stock_move_backdating-10.0.1.0.0.99.dev7-py2-none-any.whl.zip]
+[2023-06-08 07:48:17] INFO root fetch - processPackages [odoo10-addon-stock-move-backdating]: Remove: archive file [/home/abi/fetcher/tmp/odoo10_addon_stock_move_backdating-10.0.1.0.0.99.dev8-py2-none-any.whl.zip]
+[2023-06-08 07:48:17] INFO root fetch - main [MainThread]: End processing [odoo10-addon-stock-move-backdating]: success
+[2023-06-08 07:48:17] INFO root fetch - processPackages [dune-harmonizer]: Remove: archive file [/home/abi/fetcher/tmp/dune_harmonizer-0.8.0.tar.gz]
+[2023-06-08 07:48:17] INFO root fetch - processPackages [dune-harmonizer]: Remove: archive file [/home/abi/fetcher/tmp/dune_harmonizer-0.9.0.tar.gz]
+[2023-06-08 07:48:17] INFO root fetch - main [MainThread]: End processing [dune-harmonizer]: success
+[2023-06-08 07:48:17] INFO root fetch - processPackages [odoo10-addon-stock-picking-mass-action]: Remove: archive file [/home/abi/fetcher/tmp/odoo10_addon_stock_picking_mass_action-10.0.1.0.0.99.dev7-py2-none-any.whl.zip]
+[2023-06-08 07:48:17] INFO root fetch - processPackages [odoo10-addon-stock-picking-mass-action]: Remove: archive file [/home/abi/fetcher/tmp/odoo10_addon_stock_picking_mass_action-10.0.1.0.0.99.dev8-py2-none-any.whl.zip]
+[2023-06-08 07:48:17] INFO root fetch - main [MainThread]: End processing [odoo10-addon-stock-picking-mass-action]: success
+[2023-06-08 07:48:18] INFO root fetch - processPackages [prismstudio-demo]: Remove: archive file [/home/abi/fetcher/tmp/prismstudio-demo-1.1.2a0.tar.gz]
+[2023-06-08 07:48:18] INFO root fetch - processPackages [prismstudio-demo]: Remove: archive file [/home/abi/fetcher/tmp/prismstudio-demo-1.1.2b0.tar.gz]
+[2023-06-08 07:48:18] INFO root fetch - main [MainThread]: End processing [prismstudio-demo]: success
+[2023-06-08 07:48:18] INFO root fetch - processPackages [fuse-client]: Remove: archive file [/home/abi/fetcher/tmp/fuse-client-1.0.8.tar.gz]
+[2023-06-08 07:48:18] INFO root fetch - processPackages [fuse-client]: Remove: archive file [/home/abi/fetcher/tmp/fuse-client-1.0.9.tar.gz]
+[2023-06-08 07:48:18] INFO root fetch - main [MainThread]: End processing [fuse-client]: success
+[2023-06-08 07:48:18] INFO root fetch - main [MainThread]: Store serial: [18420407]
