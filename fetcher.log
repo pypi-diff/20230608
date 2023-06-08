@@ -11992,3 +11992,87 @@ AssertionError: tmp/flet_ivid_hks-1.1.tar.gz does not exist
 [2023-06-08 05:21:57] INFO root fetch - processPackages [ruff]: Remove: archive file [/home/abi/fetcher/tmp/ruff-0.0.99.tar.gz]
 [2023-06-08 05:21:57] INFO root fetch - main [MainThread]: End processing [ruff]: success
 [2023-06-08 05:21:57] INFO root fetch - main [MainThread]: Store serial: [18418819]
+[2023-06-08 05:27:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18418819]
+[2023-06-08 05:27:06] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-08 05:27:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: genio-bootrom
+[2023-06-08 05:27:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Orbus
+[2023-06-08 05:27:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cs-models
+[2023-06-08 05:27:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pepperize.cdk-autoscaling-gitlab-runner
+[2023-06-08 05:27:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vstutils
+[2023-06-08 05:27:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ngm-salam
+[2023-06-08 05:27:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdktf-cdktf-provider-vault
+[2023-06-08 05:27:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: publicsuffixlist
+[2023-06-08 05:27:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo12-addon-fieldservice-isp-account
+[2023-06-08 05:27:06] INFO root fetch - processPackages [Orbus]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-06-08 05:27:06] INFO root fetch - processPackages [genio-bootrom]: New version: [1.1.7] Old Version: [1.1.6]
+[2023-06-08 05:27:06] INFO root fetch - processPackages [ngm-salam]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-08 05:27:06] INFO root fetch - processPackages [odoo12-addon-fieldservice-isp-account]: New version: [12.0.2.3.2.99.dev7] Old Version: [12.0.2.3.2.99.dev6]
+[2023-06-08 05:27:06] INFO root fetch - processPackages [publicsuffixlist]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-08 05:27:06] INFO root fetch - processPackages [cdktf-cdktf-provider-vault]: New version: [7.0.4] Old Version: [7.0.3]
+[2023-06-08 05:27:07] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: New version: [0.2.99] Old Version: [0.2.98]
+[2023-06-08 05:27:07] INFO root fetch - processPackages [Orbus]: Downloading https://files.pythonhosted.org/packages/1a/5f/9facfbe125c1b289158c131e6a4aa77e1580b2c66557da8464a5babe949c/Orbus-1.0.4.tar.gz
+[2023-06-08 05:27:07] INFO root fetch - processPackages [cs-models]: New version: [0.0.99.dev4] Old Version: [0.0.99.dev3]
+[2023-06-08 05:27:07] INFO root fetch - processPackages [vstutils]: New version: [5.4.9] Old Version: [5.4.8]
+[2023-06-08 05:27:07] INFO root fetch - processPackages [ngm-salam]: Downloading https://files.pythonhosted.org/packages/37/a3/f8fa60f16baa976d8c10c552cf85494efb339e6a9daf57479de0705afd1c/ngm_salam-0.0.2.tar.gz
+[2023-06-08 05:27:07] INFO root fetch - processPackages [genio-bootrom]: Downloading https://files.pythonhosted.org/packages/2c/c4/56e0e94b4b8712c4a4d6dfcc66d8c94ba517566e61ae5578e8a642ca844a/genio_bootrom-1.1.6-py3-none-any.whl
+[2023-06-08 05:27:07] INFO root fetch - processPackages [cs-models]: Downloading https://files.pythonhosted.org/packages/0e/4f/33efc921aa3ee23f877dda213d1b962dac83a38135b32d2850eb48c2c6a8/cs-models-0.0.99.dev3.tar.gz
+[2023-06-08 05:27:07] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/20/7a/1cf95cd827a5bc2353d4a04fac9ad2282341306d1871323109bc1fcdc1bf/pepperize.cdk-autoscaling-gitlab-runner-0.2.98.tar.gz
+[2023-06-08 05:27:07] INFO root fetch - processPackages [vstutils]: Downloading https://files.pythonhosted.org/packages/93/71/ffc4838cd7e27cad7cd401f4d32e58bc09b0268ee7255474cad2eedb1029/vstutils-5.4.8.tar.gz
+[2023-06-08 05:27:07] INFO root fetch - processPackages [cdktf-cdktf-provider-vault]: Downloading https://files.pythonhosted.org/packages/17/dc/f842bb62727cf5a6fa7d1b9782180be2dd4724d07450db7ffab66541e761/cdktf-cdktf-provider-vault-7.0.3.tar.gz
+[2023-06-08 05:27:07] INFO root fetch - processPackages [cs-models]: Downloading https://files.pythonhosted.org/packages/8c/4c/e48ab48e00c2dd2f9799da4f76632085fd545ef18606abde256a640ffa7a/cs-models-0.0.99.dev4.tar.gz
+[2023-06-08 05:27:07] INFO root fetch - processPackages [Orbus]: Downloading https://files.pythonhosted.org/packages/a9/2a/829f71f52a05e9999b6bf2d7931f86eb55a4087e32439ed632a4e950dcab/Orbus-1.0.5.tar.gz
+[2023-06-08 05:27:07] INFO root fetch - processPackages [odoo12-addon-fieldservice-isp-account]: Downloading https://files.pythonhosted.org/packages/7c/9e/0d209b5c85d13a29f2eb41162ada5a4f183aadae0583095e33cfa28c6879/odoo12_addon_fieldservice_isp_account-12.0.2.3.2.99.dev6-py3-none-any.whl
+[2023-06-08 05:27:07] INFO root fetch - processPackages [ngm-salam]: Downloading https://files.pythonhosted.org/packages/f0/dd/6efdf2668be11c0def0a9c5bed5bffbd0833ca73fec9a06749e0ec56a2fd/ngm_salam-0.0.3.tar.gz
+[2023-06-08 05:27:07] INFO root fetch - processPackages [Orbus]: executing diffoscope
+[2023-06-08 05:27:07] INFO root fetch - processPackages [Orbus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Orbus-1.0.4.tar.gz tmp/Orbus-1.0.5.tar.gz --markdown 20230608/O/Orbus/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-06-08 05:27:07] INFO root fetch - processPackages [cs-models]: executing diffoscope
+[2023-06-08 05:27:07] INFO root fetch - processPackages [cs-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cs-models-0.0.99.dev3.tar.gz tmp/cs-models-0.0.99.dev4.tar.gz --markdown 20230608/c/cs-models/0.0.99.dev3-0.0.99.dev4/diff.md --exclude *.pyd
+[2023-06-08 05:27:07] INFO root fetch - processPackages [vstutils]: Downloading https://files.pythonhosted.org/packages/c3/e9/d4abad63dcfc1004b5c1557a027354436691c249a98f05da7bf8d54b856f/vstutils-5.4.9.tar.gz
+[2023-06-08 05:27:07] INFO root fetch - processPackages [ngm-salam]: executing diffoscope
+[2023-06-08 05:27:07] INFO root fetch - processPackages [ngm-salam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ngm_salam-0.0.2.tar.gz tmp/ngm_salam-0.0.3.tar.gz --markdown 20230608/n/ngm-salam/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-08 05:27:07] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/a1/02/a44f26db0508904ac5d6e70c575bf20e4f99ab1df68dad57967a57b3a117/pepperize.cdk-autoscaling-gitlab-runner-0.2.99.tar.gz
+[2023-06-08 05:27:07] INFO root fetch - processPackages [publicsuffixlist]: Downloading https://files.pythonhosted.org/packages/e9/d3/789ccc7b502183c3ca52f463a65a341194fd8caf884d33f4eedf4ae8f390/publicsuffixlist-0.9.3.tar.gz
+[2023-06-08 05:27:07] INFO root fetch - processPackages [genio-bootrom]: Downloading https://files.pythonhosted.org/packages/5d/b0/34a438e3ecf5a35807937887797dedb83da7c79a4953984dc11438238e8f/genio_bootrom-1.1.7-py3-none-any.whl
+[2023-06-08 05:27:07] INFO root fetch - processPackages [vstutils]: executing diffoscope
+[2023-06-08 05:27:07] INFO root fetch - processPackages [vstutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vstutils-5.4.8.tar.gz tmp/vstutils-5.4.9.tar.gz --markdown 20230608/v/vstutils/5.4.8-5.4.9/diff.md --exclude *.pyd
+[2023-06-08 05:27:07] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: executing diffoscope
+[2023-06-08 05:27:07] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.98.tar.gz tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.99.tar.gz --markdown 20230608/p/pepperize.cdk-autoscaling-gitlab-runner/0.2.98-0.2.99/diff.md --exclude *.pyd
+[2023-06-08 05:27:07] INFO root fetch - processPackages [genio-bootrom]: executing diffoscope
+[2023-06-08 05:27:07] INFO root fetch - processPackages [genio-bootrom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genio_bootrom-1.1.6-py3-none-any.whl.zip tmp/genio_bootrom-1.1.7-py3-none-any.whl.zip --markdown 20230608/g/genio-bootrom/1.1.6-1.1.7/diff.md --exclude *.pyd
+[2023-06-08 05:27:07] INFO root fetch - processPackages [odoo12-addon-fieldservice-isp-account]: Downloading https://files.pythonhosted.org/packages/3c/e0/0fa671f70a46a83ab86059b05826fa031b2f3038228362a3f7f0b341aa15/odoo12_addon_fieldservice_isp_account-12.0.2.3.2.99.dev7-py3-none-any.whl
+[2023-06-08 05:27:07] INFO root fetch - processPackages [odoo12-addon-fieldservice-isp-account]: executing diffoscope
+[2023-06-08 05:27:07] INFO root fetch - processPackages [odoo12-addon-fieldservice-isp-account]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_fieldservice_isp_account-12.0.2.3.2.99.dev6-py3-none-any.whl.zip tmp/odoo12_addon_fieldservice_isp_account-12.0.2.3.2.99.dev7-py3-none-any.whl.zip --markdown 20230608/o/odoo12-addon-fieldservice-isp-account/12.0.2.3.2.99.dev6-12.0.2.3.2.99.dev7/diff.md --exclude *.pyd
+[2023-06-08 05:27:07] INFO root fetch - processPackages [publicsuffixlist]: Downloading https://files.pythonhosted.org/packages/3c/09/9dc48e18dc8c917eb66fe2caef48273e4f55dea0f8d56f9f6a427373c08b/publicsuffixlist-0.9.4.tar.gz
+[2023-06-08 05:27:07] INFO root fetch - processPackages [cdktf-cdktf-provider-vault]: Downloading https://files.pythonhosted.org/packages/f8/22/28e6586838cb54745fadee000daa77a9283c9ff851e0d613c3a2e8b4c3f4/cdktf-cdktf-provider-vault-7.0.4.tar.gz
+[2023-06-08 05:27:08] INFO root fetch - processPackages [publicsuffixlist]: executing diffoscope
+[2023-06-08 05:27:08] INFO root fetch - processPackages [publicsuffixlist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/publicsuffixlist-0.9.3.tar.gz tmp/publicsuffixlist-0.9.4.tar.gz --markdown 20230608/p/publicsuffixlist/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-08 05:27:08] INFO root fetch - processPackages [cdktf-cdktf-provider-vault]: executing diffoscope
+[2023-06-08 05:27:08] INFO root fetch - processPackages [cdktf-cdktf-provider-vault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-vault-7.0.3.tar.gz tmp/cdktf-cdktf-provider-vault-7.0.4.tar.gz --markdown 20230608/c/cdktf-cdktf-provider-vault/7.0.3-7.0.4/diff.md --exclude *.pyd
+[2023-06-08 05:27:08] INFO root fetch - processPackages [Orbus]: Remove: archive file [/home/abi/fetcher/tmp/Orbus-1.0.4.tar.gz]
+[2023-06-08 05:27:08] INFO root fetch - processPackages [Orbus]: Remove: archive file [/home/abi/fetcher/tmp/Orbus-1.0.5.tar.gz]
+[2023-06-08 05:27:08] INFO root fetch - main [MainThread]: End processing [Orbus]: success
+[2023-06-08 05:27:08] INFO root fetch - processPackages [ngm-salam]: Remove: archive file [/home/abi/fetcher/tmp/ngm_salam-0.0.2.tar.gz]
+[2023-06-08 05:27:08] INFO root fetch - processPackages [ngm-salam]: Remove: archive file [/home/abi/fetcher/tmp/ngm_salam-0.0.3.tar.gz]
+[2023-06-08 05:27:08] INFO root fetch - main [MainThread]: End processing [ngm-salam]: success
+[2023-06-08 05:27:09] INFO root fetch - processPackages [odoo12-addon-fieldservice-isp-account]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_fieldservice_isp_account-12.0.2.3.2.99.dev6-py3-none-any.whl.zip]
+[2023-06-08 05:27:09] INFO root fetch - processPackages [odoo12-addon-fieldservice-isp-account]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_fieldservice_isp_account-12.0.2.3.2.99.dev7-py3-none-any.whl.zip]
+[2023-06-08 05:27:09] INFO root fetch - main [MainThread]: End processing [odoo12-addon-fieldservice-isp-account]: success
+[2023-06-08 05:27:09] INFO root fetch - processPackages [publicsuffixlist]: Remove: archive file [/home/abi/fetcher/tmp/publicsuffixlist-0.9.3.tar.gz]
+[2023-06-08 05:27:09] INFO root fetch - processPackages [publicsuffixlist]: Remove: archive file [/home/abi/fetcher/tmp/publicsuffixlist-0.9.4.tar.gz]
+[2023-06-08 05:27:09] INFO root fetch - main [MainThread]: End processing [publicsuffixlist]: success
+[2023-06-08 05:27:09] INFO root fetch - processPackages [genio-bootrom]: Remove: archive file [/home/abi/fetcher/tmp/genio_bootrom-1.1.6-py3-none-any.whl.zip]
+[2023-06-08 05:27:09] INFO root fetch - processPackages [genio-bootrom]: Remove: archive file [/home/abi/fetcher/tmp/genio_bootrom-1.1.7-py3-none-any.whl.zip]
+[2023-06-08 05:27:09] INFO root fetch - main [MainThread]: End processing [genio-bootrom]: success
+[2023-06-08 05:27:10] INFO root fetch - processPackages [vstutils]: Remove: archive file [/home/abi/fetcher/tmp/vstutils-5.4.8.tar.gz]
+[2023-06-08 05:27:10] INFO root fetch - processPackages [vstutils]: Remove: archive file [/home/abi/fetcher/tmp/vstutils-5.4.9.tar.gz]
+[2023-06-08 05:27:10] INFO root fetch - main [MainThread]: End processing [vstutils]: success
+[2023-06-08 05:27:10] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.98.tar.gz]
+[2023-06-08 05:27:10] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.99.tar.gz]
+[2023-06-08 05:27:10] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-autoscaling-gitlab-runner]: success
+[2023-06-08 05:27:10] INFO root fetch - processPackages [cs-models]: Remove: archive file [/home/abi/fetcher/tmp/cs-models-0.0.99.dev3.tar.gz]
+[2023-06-08 05:27:10] INFO root fetch - processPackages [cs-models]: Remove: archive file [/home/abi/fetcher/tmp/cs-models-0.0.99.dev4.tar.gz]
+[2023-06-08 05:27:10] INFO root fetch - main [MainThread]: End processing [cs-models]: success
+[2023-06-08 05:27:17] INFO root fetch - processPackages [cdktf-cdktf-provider-vault]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-vault-7.0.3.tar.gz]
+[2023-06-08 05:27:17] INFO root fetch - processPackages [cdktf-cdktf-provider-vault]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-vault-7.0.4.tar.gz]
+[2023-06-08 05:27:17] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-vault]: success
+[2023-06-08 05:27:17] INFO root fetch - main [MainThread]: Store serial: [18418853]
