@@ -20037,3 +20037,126 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-06-08 10:08:50] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.3.1.dev20230608.tar.gz]
 [2023-06-08 10:08:50] INFO root fetch - main [MainThread]: End processing [pyglove]: success
 [2023-06-08 10:08:50] INFO root fetch - main [MainThread]: Store serial: [18421340]
+[2023-06-08 10:13:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18421340]
+[2023-06-08 10:14:00] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-08 10:14:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: configzen
+[2023-06-08 10:14:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: act-scio
+[2023-06-08 10:14:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: alibabacloud-aligeniessp-1-0
+[2023-06-08 10:14:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bert-pruners
+[2023-06-08 10:14:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qiskit-iqm
+[2023-06-08 10:14:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: keegcpass
+[2023-06-08 10:14:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: biobb-amber
+[2023-06-08 10:14:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aiopenapi3
+[2023-06-08 10:14:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: SpatialViewPy
+[2023-06-08 10:14:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lastpasslib
+[2023-06-08 10:14:00] INFO root fetch - processPackages [bert-pruners]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-08 10:14:00] INFO root fetch - processPackages [configzen]: New version: [0.3.0] Old Version: [0.2.9]
+[2023-06-08 10:14:00] INFO root fetch - processPackages [act-scio]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-08 10:14:00] INFO root fetch - processPackages [biobb-amber]: New version: [4.0.1] Old Version: [4.0.0]
+[2023-06-08 10:14:00] INFO root fetch - processPackages [qiskit-iqm]: New version: [9.0] Old Version: [8.3]
+[2023-06-08 10:14:00] INFO root fetch - processPackages [lastpasslib]: New version: [0.8.0] Old Version: [0.7.7]
+[2023-06-08 10:14:00] INFO root fetch - processPackages [SpatialViewPy]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-08 10:14:00] INFO root fetch - processPackages [keegcpass]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-06-08 10:14:00] INFO root fetch - processPackages [aiopenapi3]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-06-08 10:14:00] INFO root fetch - processPackages [alibabacloud-aligeniessp-1-0]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-06-08 10:14:00] INFO root fetch - processPackages [configzen]: Downloading https://files.pythonhosted.org/packages/d2/44/aaf306836f4da6453b0a0fac9b3d1d3b2eceab448677380df98d030d82f2/configzen-0.2.9.tar.gz
+[2023-06-08 10:14:00] INFO root fetch - processPackages [bert-pruners]: Downloading https://files.pythonhosted.org/packages/9f/2e/7eb0065296d51530dc37f82fc83f3130c6d0621a59c9ff2e8506f669c9e9/bert_pruners-0.0.2.tar.gz
+[2023-06-08 10:14:01] INFO root fetch - processPackages [SpatialViewPy]: Downloading https://files.pythonhosted.org/packages/13/67/c510697d5250facf76002f8f91d892f8244adbd76b4ba08438eb8f58f510/SpatialViewPy-0.1.0.tar.gz
+[2023-06-08 10:14:01] INFO root fetch - processPackages [biobb-amber]: Downloading https://files.pythonhosted.org/packages/f1/3d/1ecdf12f4be1e0c9ae3d6477ea56c56cc7ceaa3c156712e8142c8ed227eb/biobb_amber-4.0.0.tar.gz
+[2023-06-08 10:14:01] INFO root fetch - processPackages [lastpasslib]: Downloading https://files.pythonhosted.org/packages/86/ac/2ccc62891a34cc66a4f1c35eef1cc02bd1f317f761b96b8cf930b558d4f1/lastpasslib-0.7.7.tar.gz
+[2023-06-08 10:14:01] INFO root fetch - processPackages [alibabacloud-aligeniessp-1-0]: Downloading https://files.pythonhosted.org/packages/e9/8d/44368ee49463902c4beb6ab9696558ab08497e436cbcf1b70c3b8b621b72/alibabacloud_aligeniessp_1_0-2.0.0.tar.gz
+[2023-06-08 10:14:01] INFO root fetch - processPackages [act-scio]: Downloading https://files.pythonhosted.org/packages/cc/79/b3ecb2e35635fe3751ab12fe4d5e551974a5253e8355ed5d23cf96be3d2b/act-scio-0.0.8.tar.gz
+[2023-06-08 10:14:01] INFO root fetch - processPackages [aiopenapi3]: Downloading https://files.pythonhosted.org/packages/c9/29/17b4a8c5ca861c6de44ca15e581ddec9f3a04ecf3d83b58c1300b622df8a/aiopenapi3-0.2.0.tar.gz
+[2023-06-08 10:14:01] INFO root fetch - processPackages [keegcpass]: Downloading https://files.pythonhosted.org/packages/0a/5b/70bbda0b05978d308cf13d08898c1378456ac39b24c813b47ac4d96c81e4/keegcpass-0.1.0.tar.gz
+[2023-06-08 10:14:01] INFO root fetch - processPackages [qiskit-iqm]: Downloading https://files.pythonhosted.org/packages/6f/9f/9f7666c7e61e4ba8b3f959e0c5eef07e997c7500f0d051b41a202380e0fc/qiskit-iqm-8.3.tar.gz
+[2023-06-08 10:14:01] INFO root fetch - processPackages [bert-pruners]: Downloading https://files.pythonhosted.org/packages/27/3c/b5dc4bc644b2b5cd70ecb848436ed124d339554307723ccd3de6b2e90eea/bert_pruners-0.0.3.tar.gz
+[2023-06-08 10:14:01] INFO root fetch - processPackages [SpatialViewPy]: Downloading https://files.pythonhosted.org/packages/bc/49/269a23028da96c4ffcab6d799993646cc7d1b38d6e36dd571043c5eb7682/SpatialViewPy-0.1.1.tar.gz
+[2023-06-08 10:14:01] INFO root fetch - processPackages [alibabacloud-aligeniessp-1-0]: Downloading https://files.pythonhosted.org/packages/73/67/e30211e110711f66a910d0539b72e6ae926596f6e71ce2d747c1a1f7599b/alibabacloud_aligeniessp_1_0-2.0.1.tar.gz
+[2023-06-08 10:14:01] INFO root fetch - processPackages [bert-pruners]: executing diffoscope
+[2023-06-08 10:14:01] INFO root fetch - processPackages [bert-pruners]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bert_pruners-0.0.2.tar.gz tmp/bert_pruners-0.0.3.tar.gz --markdown 20230608/b/bert-pruners/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-08 10:14:01] INFO root fetch - processPackages [biobb-amber]: Downloading https://files.pythonhosted.org/packages/68/3e/f749113f4623510b31805c2ac1afae2389e443ebe1746991496c409afe4b/biobb_amber-4.0.1.tar.gz
+[2023-06-08 10:14:01] INFO root fetch - processPackages [configzen]: Downloading https://files.pythonhosted.org/packages/5c/5f/c34631dd40d9686728e02cbb3460b999b62e6a138721c4cc2569ce017bfc/configzen-0.3.0.tar.gz
+[2023-06-08 10:14:01] INFO root fetch - processPackages [SpatialViewPy]: executing diffoscope
+[2023-06-08 10:14:01] INFO root fetch - processPackages [SpatialViewPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SpatialViewPy-0.1.0.tar.gz tmp/SpatialViewPy-0.1.1.tar.gz --markdown 20230608/S/SpatialViewPy/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-08 10:14:01] INFO root fetch - processPackages [alibabacloud-aligeniessp-1-0]: executing diffoscope
+[2023-06-08 10:14:01] INFO root fetch - processPackages [alibabacloud-aligeniessp-1-0]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_aligeniessp_1_0-2.0.0.tar.gz tmp/alibabacloud_aligeniessp_1_0-2.0.1.tar.gz --markdown 20230608/a/alibabacloud-aligeniessp-1-0/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-06-08 10:14:01] INFO root fetch - processPackages [keegcpass]: Downloading https://files.pythonhosted.org/packages/d1/a0/5445616757070b5c2c785e0cc2b5877740e3b15bfd516524a0d7a419ba20/keegcpass-0.2.0.tar.gz
+[2023-06-08 10:14:01] INFO root fetch - processPackages [configzen]: executing diffoscope
+[2023-06-08 10:14:01] INFO root fetch - processPackages [configzen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/configzen-0.2.9.tar.gz tmp/configzen-0.3.0.tar.gz --markdown 20230608/c/configzen/0.2.9-0.3.0/diff.md --exclude *.pyd
+[2023-06-08 10:14:01] INFO root fetch - processPackages [biobb-amber]: executing diffoscope
+[2023-06-08 10:14:01] INFO root fetch - processPackages [biobb-amber]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biobb_amber-4.0.0.tar.gz tmp/biobb_amber-4.0.1.tar.gz --markdown 20230608/b/biobb-amber/4.0.0-4.0.1/diff.md --exclude *.pyd
+[2023-06-08 10:14:01] INFO root fetch - processPackages [keegcpass]: executing diffoscope
+[2023-06-08 10:14:01] INFO root fetch - processPackages [keegcpass]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keegcpass-0.1.0.tar.gz tmp/keegcpass-0.2.0.tar.gz --markdown 20230608/k/keegcpass/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-06-08 10:14:01] INFO root fetch - processPackages [qiskit-iqm]: Downloading https://files.pythonhosted.org/packages/21/fa/19188be4ca367f4ebaec7bd7ee3b5daab94d4a3a20da3ac629796190e76b/qiskit-iqm-9.0.tar.gz
+[2023-06-08 10:14:01] INFO root fetch - processPackages [aiopenapi3]: Downloading https://files.pythonhosted.org/packages/44/8c/601c656562a15b0045d961c3532b615492582da9fa2210c74abf7e541a7a/aiopenapi3-0.2.1.tar.gz
+[2023-06-08 10:14:01] INFO root fetch - processPackages [lastpasslib]: Downloading https://files.pythonhosted.org/packages/34/b0/93b6ea58efcc739071317e55dbb7fd1d887e482c55ce2c7a49b753f86c87/lastpasslib-0.8.0.tar.gz
+[2023-06-08 10:14:01] INFO root fetch - processPackages [qiskit-iqm]: executing diffoscope
+[2023-06-08 10:14:01] INFO root fetch - processPackages [qiskit-iqm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qiskit-iqm-8.3.tar.gz tmp/qiskit-iqm-9.0.tar.gz --markdown 20230608/q/qiskit-iqm/8.3-9.0/diff.md --exclude *.pyd
+[2023-06-08 10:14:01] INFO root fetch - processPackages [aiopenapi3]: executing diffoscope
+[2023-06-08 10:14:01] INFO root fetch - processPackages [aiopenapi3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiopenapi3-0.2.0.tar.gz tmp/aiopenapi3-0.2.1.tar.gz --markdown 20230608/a/aiopenapi3/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-06-08 10:14:01] INFO root fetch - processPackages [lastpasslib]: executing diffoscope
+[2023-06-08 10:14:01] INFO root fetch - processPackages [lastpasslib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lastpasslib-0.7.7.tar.gz tmp/lastpasslib-0.8.0.tar.gz --markdown 20230608/l/lastpasslib/0.7.7-0.8.0/diff.md --exclude *.pyd
+[2023-06-08 10:14:01] INFO root fetch - processPackages [act-scio]: Downloading https://files.pythonhosted.org/packages/4e/5f/3f6f35286ec7966992c930e83b49be860cd2820687276994905004881d87/act-scio-0.0.9.tar.gz
+[2023-06-08 10:14:02] INFO root fetch - processPackages [act-scio]: executing diffoscope
+[2023-06-08 10:14:02] INFO root fetch - processPackages [act-scio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/act-scio-0.0.8.tar.gz tmp/act-scio-0.0.9.tar.gz --markdown 20230608/a/act-scio/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-08 10:14:02] INFO root fetch - processPackages [bert-pruners]: Remove: archive file [/home/abi/fetcher/tmp/bert_pruners-0.0.2.tar.gz]
+[2023-06-08 10:14:02] INFO root fetch - processPackages [bert-pruners]: Remove: archive file [/home/abi/fetcher/tmp/bert_pruners-0.0.3.tar.gz]
+[2023-06-08 10:14:02] INFO root fetch - processPackages [bert-pruners]: Start processing: custom-gpt-client
+[2023-06-08 10:14:02] INFO root fetch - main [MainThread]: End processing [bert-pruners]: success
+[2023-06-08 10:14:02] WARNING root fetch - processPackages [custom-gpt-client]: Skipping, unable to determine old version
+[2023-06-08 10:14:02] INFO root fetch - processPackages [custom-gpt-client]: Start processing: rosa-python-client
+[2023-06-08 10:14:02] INFO root fetch - main [MainThread]: End processing [custom-gpt-client] error
+[2023-06-08 10:14:03] INFO root fetch - processPackages [rosa-python-client]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-06-08 10:14:03] INFO root fetch - processPackages [keegcpass]: Remove: archive file [/home/abi/fetcher/tmp/keegcpass-0.1.0.tar.gz]
+[2023-06-08 10:14:03] INFO root fetch - processPackages [keegcpass]: Remove: archive file [/home/abi/fetcher/tmp/keegcpass-0.2.0.tar.gz]
+[2023-06-08 10:14:03] INFO root fetch - processPackages [keegcpass]: Start processing: pythogen
+[2023-06-08 10:14:03] INFO root fetch - main [MainThread]: End processing [keegcpass]: success
+[2023-06-08 10:14:03] INFO root fetch - processPackages [configzen]: Remove: archive file [/home/abi/fetcher/tmp/configzen-0.2.9.tar.gz]
+[2023-06-08 10:14:03] INFO root fetch - processPackages [configzen]: Remove: archive file [/home/abi/fetcher/tmp/configzen-0.3.0.tar.gz]
+[2023-06-08 10:14:03] INFO root fetch - processPackages [configzen]: Start processing: python-opensky
+[2023-06-08 10:14:03] INFO root fetch - main [MainThread]: End processing [configzen]: success
+[2023-06-08 10:14:03] INFO root fetch - processPackages [SpatialViewPy]: Remove: archive file [/home/abi/fetcher/tmp/SpatialViewPy-0.1.0.tar.gz]
+[2023-06-08 10:14:03] INFO root fetch - processPackages [SpatialViewPy]: Remove: archive file [/home/abi/fetcher/tmp/SpatialViewPy-0.1.1.tar.gz]
+[2023-06-08 10:14:03] INFO root fetch - main [MainThread]: End processing [SpatialViewPy]: success
+[2023-06-08 10:14:03] INFO root fetch - processPackages [rosa-python-client]: Downloading https://files.pythonhosted.org/packages/b8/47/7024cedf46bd9905d8e37d5767b186490c740821a22324e536fb0bea3e60/rosa_python_client-1.0.7.tar.gz
+[2023-06-08 10:14:03] INFO root fetch - processPackages [pythogen]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-08 10:14:03] INFO root fetch - processPackages [python-opensky]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-08 10:14:03] INFO root fetch - processPackages [biobb-amber]: Remove: archive file [/home/abi/fetcher/tmp/biobb_amber-4.0.0.tar.gz]
+[2023-06-08 10:14:03] INFO root fetch - processPackages [biobb-amber]: Remove: archive file [/home/abi/fetcher/tmp/biobb_amber-4.0.1.tar.gz]
+[2023-06-08 10:14:03] INFO root fetch - main [MainThread]: End processing [biobb-amber]: success
+[2023-06-08 10:14:03] INFO root fetch - processPackages [pythogen]: Downloading https://files.pythonhosted.org/packages/48/3e/eac273da1103a200129011044b18d51ccfccd6907915ce6033be8583b016/pythogen-0.1.8.tar.gz
+[2023-06-08 10:14:03] INFO root fetch - processPackages [python-opensky]: Downloading https://files.pythonhosted.org/packages/3a/b7/9a1441afb51ecf9dafc6bdfcb437e9bd2d2c364125d96b4b17b25dddf05d/python_opensky-0.0.8.tar.gz
+[2023-06-08 10:14:03] INFO root fetch - processPackages [rosa-python-client]: Downloading https://files.pythonhosted.org/packages/9d/3d/13a352dc8b1b3b85a795352b1cee6cd40ca9d5cb9e015f6174830f9ffb0e/rosa_python_client-1.0.8.tar.gz
+[2023-06-08 10:14:03] INFO root fetch - processPackages [lastpasslib]: Remove: archive file [/home/abi/fetcher/tmp/lastpasslib-0.7.7.tar.gz]
+[2023-06-08 10:14:03] INFO root fetch - processPackages [lastpasslib]: Remove: archive file [/home/abi/fetcher/tmp/lastpasslib-0.8.0.tar.gz]
+[2023-06-08 10:14:03] INFO root fetch - main [MainThread]: End processing [lastpasslib]: success
+[2023-06-08 10:14:03] INFO root fetch - processPackages [qiskit-iqm]: Remove: archive file [/home/abi/fetcher/tmp/qiskit-iqm-8.3.tar.gz]
+[2023-06-08 10:14:03] INFO root fetch - processPackages [qiskit-iqm]: Remove: archive file [/home/abi/fetcher/tmp/qiskit-iqm-9.0.tar.gz]
+[2023-06-08 10:14:03] INFO root fetch - main [MainThread]: End processing [qiskit-iqm]: success
+[2023-06-08 10:14:03] INFO root fetch - processPackages [rosa-python-client]: executing diffoscope
+[2023-06-08 10:14:03] INFO root fetch - processPackages [rosa-python-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rosa_python_client-1.0.7.tar.gz tmp/rosa_python_client-1.0.8.tar.gz --markdown 20230608/r/rosa-python-client/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-06-08 10:14:03] INFO root fetch - processPackages [python-opensky]: Downloading https://files.pythonhosted.org/packages/e6/3d/25e229d9939cb5c1bb3d644d0c9187192e12b344d411531125485f326cb7/python_opensky-0.0.9.tar.gz
+[2023-06-08 10:14:03] INFO root fetch - processPackages [pythogen]: Downloading https://files.pythonhosted.org/packages/03/0b/5ab5f47d2b0ccac1ff22db3f9bf4792249988f69499046a2bfd29059e576/pythogen-0.1.9.tar.gz
+[2023-06-08 10:14:03] INFO root fetch - processPackages [python-opensky]: executing diffoscope
+[2023-06-08 10:14:03] INFO root fetch - processPackages [python-opensky]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_opensky-0.0.8.tar.gz tmp/python_opensky-0.0.9.tar.gz --markdown 20230608/p/python-opensky/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-08 10:14:03] INFO root fetch - processPackages [pythogen]: executing diffoscope
+[2023-06-08 10:14:03] INFO root fetch - processPackages [pythogen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythogen-0.1.8.tar.gz tmp/pythogen-0.1.9.tar.gz --markdown 20230608/p/pythogen/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-08 10:14:04] INFO root fetch - processPackages [act-scio]: Remove: archive file [/home/abi/fetcher/tmp/act-scio-0.0.8.tar.gz]
+[2023-06-08 10:14:04] INFO root fetch - processPackages [act-scio]: Remove: archive file [/home/abi/fetcher/tmp/act-scio-0.0.9.tar.gz]
+[2023-06-08 10:14:04] INFO root fetch - main [MainThread]: End processing [act-scio]: success
+[2023-06-08 10:14:04] INFO root fetch - processPackages [aiopenapi3]: Remove: archive file [/home/abi/fetcher/tmp/aiopenapi3-0.2.0.tar.gz]
+[2023-06-08 10:14:04] INFO root fetch - processPackages [aiopenapi3]: Remove: archive file [/home/abi/fetcher/tmp/aiopenapi3-0.2.1.tar.gz]
+[2023-06-08 10:14:04] INFO root fetch - main [MainThread]: End processing [aiopenapi3]: success
+[2023-06-08 10:14:04] INFO root fetch - processPackages [rosa-python-client]: Remove: archive file [/home/abi/fetcher/tmp/rosa_python_client-1.0.7.tar.gz]
+[2023-06-08 10:14:04] INFO root fetch - processPackages [rosa-python-client]: Remove: archive file [/home/abi/fetcher/tmp/rosa_python_client-1.0.8.tar.gz]
+[2023-06-08 10:14:04] INFO root fetch - main [MainThread]: End processing [rosa-python-client]: success
+[2023-06-08 10:14:04] INFO root fetch - processPackages [python-opensky]: Remove: archive file [/home/abi/fetcher/tmp/python_opensky-0.0.8.tar.gz]
+[2023-06-08 10:14:04] INFO root fetch - processPackages [python-opensky]: Remove: archive file [/home/abi/fetcher/tmp/python_opensky-0.0.9.tar.gz]
+[2023-06-08 10:14:04] INFO root fetch - main [MainThread]: End processing [python-opensky]: success
+[2023-06-08 10:14:05] INFO root fetch - processPackages [pythogen]: Remove: archive file [/home/abi/fetcher/tmp/pythogen-0.1.8.tar.gz]
+[2023-06-08 10:14:05] INFO root fetch - processPackages [pythogen]: Remove: archive file [/home/abi/fetcher/tmp/pythogen-0.1.9.tar.gz]
+[2023-06-08 10:14:05] INFO root fetch - main [MainThread]: End processing [pythogen]: success
+[2023-06-08 10:14:05] INFO root fetch - processPackages [alibabacloud-aligeniessp-1-0]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_aligeniessp_1_0-2.0.0.tar.gz]
+[2023-06-08 10:14:05] INFO root fetch - processPackages [alibabacloud-aligeniessp-1-0]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_aligeniessp_1_0-2.0.1.tar.gz]
+[2023-06-08 10:14:05] INFO root fetch - main [MainThread]: End processing [alibabacloud-aligeniessp-1-0]: success
+[2023-06-08 10:14:05] INFO root fetch - main [MainThread]: Store serial: [18421391]
