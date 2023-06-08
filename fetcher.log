@@ -18614,3 +18614,108 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-08 08:58:48] INFO root fetch - processPackages [envd]: Remove: archive file [/home/abi/fetcher/tmp/envd-0.3.9.tar.gz]
 [2023-06-08 08:58:48] INFO root fetch - main [MainThread]: End processing [envd]: success
 [2023-06-08 08:58:48] INFO root fetch - main [MainThread]: Store serial: [18420752]
+[2023-06-08 09:04:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18420752]
+[2023-06-08 09:04:12] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-08 09:04:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dune-harmonizer
+[2023-06-08 09:04:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: MySQLPandas
+[2023-06-08 09:04:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nanobind
+[2023-06-08 09:04:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: timeitpoj
+[2023-06-08 09:04:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nfonistax
+[2023-06-08 09:04:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: deepchecks
+[2023-06-08 09:04:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lycoris-lora
+[2023-06-08 09:04:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: vnpy-xex
+[2023-06-08 09:04:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: moftransformer
+[2023-06-08 09:04:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: zoviz
+[2023-06-08 09:04:12] INFO root fetch - processPackages [dune-harmonizer]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-08 09:04:12] INFO root fetch - processPackages [timeitpoj]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-08 09:04:12] INFO root fetch - processPackages [nanobind]: New version: [1.4.0] Old Version: [1.3.2]
+[2023-06-08 09:04:12] INFO root fetch - processPackages [deepchecks]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-06-08 09:04:12] INFO root fetch - processPackages [moftransformer]: New version: [2.1.1] Old Version: [2.1.0]
+[2023-06-08 09:04:12] INFO root fetch - processPackages [MySQLPandas]: New version: [0.0.19] Old Version: [0.0.18]
+[2023-06-08 09:04:12] INFO root fetch - processPackages [lycoris-lora]: New version: [0.1.7.dev1] Old Version: [0.1.6.dev1]
+[2023-06-08 09:04:12] WARNING root fetch - processPackages [nfonistax]: Skipping, unable to determine old version
+[2023-06-08 09:04:12] INFO root fetch - processPackages [nfonistax]: Start processing: seqio-nightly
+[2023-06-08 09:04:12] INFO root fetch - main [MainThread]: End processing [nfonistax] error
+[2023-06-08 09:04:12] INFO root fetch - processPackages [vnpy-xex]: New version: [2023.6.8.1] Old Version: [2023.6.6.2]
+[2023-06-08 09:04:12] INFO root fetch - processPackages [zoviz]: New version: [0.4.99] Old Version: [0.4.98]
+[2023-06-08 09:04:12] INFO root fetch - processPackages [seqio-nightly]: New version: [0.0.8.dev20220907] Old Version: [0.0.8.dev20220906]
+[2023-06-08 09:04:12] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/43/a0/f60ad514b6f8534fa5ba8cc5fcc2a8f2e32e7d06d2dbfd43b12c2cb29931/seqio-nightly-0.0.8.dev20220906.tar.gz
+[2023-06-08 09:04:12] INFO root fetch - processPackages [nanobind]: Downloading https://files.pythonhosted.org/packages/46/67/f3e50c54f061f93741e5b289264a6efdac2a0ece7cf15bf0aac55bfeff76/nanobind-1.3.2-py3-none-any.whl
+[2023-06-08 09:04:12] INFO root fetch - processPackages [deepchecks]: Downloading https://files.pythonhosted.org/packages/a6/cc/4ad18eb7dd1a77550fbb2fdb6d0c60769b45944eff49da4931f1524ef20d/deepchecks-0.9.1.tar.gz
+[2023-06-08 09:04:12] INFO root fetch - processPackages [dune-harmonizer]: Downloading https://files.pythonhosted.org/packages/78/03/557e18e62003264a5315906abc868164bf906618d89e83ea7ec9501e060b/dune_harmonizer-0.8.0.tar.gz
+[2023-06-08 09:04:12] INFO root fetch - processPackages [vnpy-xex]: Downloading https://files.pythonhosted.org/packages/cd/d0/38bb315e05d91ad477d17cf117f3e7a8d2fbc8df27e5aa5e8ae4642094e7/vnpy_xex-2023.6.6.2.tar.gz
+[2023-06-08 09:04:12] INFO root fetch - processPackages [MySQLPandas]: Downloading https://files.pythonhosted.org/packages/0c/8f/06f36a0655c71eb3ec4d89bf8efd46cf1f461ee9c443a4e5e0ab0c0f730f/MySQLPandas-0.0.18.tar.gz
+[2023-06-08 09:04:12] INFO root fetch - processPackages [zoviz]: Downloading https://files.pythonhosted.org/packages/39/01/118ff39e3e5bc58e05756a517d2b426abe032aa3420d27e3000aaac3b14a/zoviz-0.4.98.tar.gz
+[2023-06-08 09:04:12] INFO root fetch - processPackages [moftransformer]: Downloading https://files.pythonhosted.org/packages/bd/75/fbbbdf2a588d8e390572e7528db7e92e90f91265ff837777805e2bac5335/moftransformer-2.1.0.tar.gz
+[2023-06-08 09:04:12] INFO root fetch - processPackages [timeitpoj]: Downloading https://files.pythonhosted.org/packages/bf/4f/f4b9719f92900aef1be0ccf613a1a94e322448f88ec63ba62fc35f4859ce/timeitpoj-0.1.5.tar.gz
+[2023-06-08 09:04:12] INFO root fetch - processPackages [lycoris-lora]: Downloading https://files.pythonhosted.org/packages/cb/b5/31a4a709ff6e641650048d9deb3a23a6c43944bee21a82fd706fc37922ac/lycoris_lora-0.1.6.dev1.tar.gz
+[2023-06-08 09:04:12] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/2a/76/25f4c7602cdd724deac948a914e454756abfad2119a525c06d9ce341b918/seqio-nightly-0.0.8.dev20220907.tar.gz
+[2023-06-08 09:04:13] INFO root fetch - processPackages [seqio-nightly]: executing diffoscope
+[2023-06-08 09:04:13] INFO root fetch - processPackages [seqio-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seqio-nightly-0.0.8.dev20220906.tar.gz tmp/seqio-nightly-0.0.8.dev20220907.tar.gz --markdown 20230608/s/seqio-nightly/0.0.8.dev20220906-0.0.8.dev20220907/diff.md --exclude *.pyd
+[2023-06-08 09:04:13] INFO root fetch - processPackages [deepchecks]: Downloading https://files.pythonhosted.org/packages/eb/30/c76562ae6e60b918f9dceb0c7f07786febcdc4d4520a33df89d40679a041/deepchecks-0.9.2.tar.gz
+[2023-06-08 09:04:13] INFO root fetch - processPackages [dune-harmonizer]: Downloading https://files.pythonhosted.org/packages/1a/d4/89c417ac730e0448e708d536f273bf29ee1ccbaba9643d6e2a40d3d12b8d/dune_harmonizer-0.9.0.tar.gz
+[2023-06-08 09:04:13] INFO root fetch - processPackages [vnpy-xex]: Downloading https://files.pythonhosted.org/packages/4a/25/85f6b4b35ae742259f326b2572ad0be4c10e38d631991a5bc3c795aec095/vnpy_xex-2023.6.8.1.tar.gz
+[2023-06-08 09:04:13] INFO root fetch - processPackages [nanobind]: Downloading https://files.pythonhosted.org/packages/67/ce/1b20a4c92f607eb7229775c0babb409484e5d62fcecc083f8d7d0a8b5270/nanobind-1.4.0-py3-none-any.whl
+[2023-06-08 09:04:13] INFO root fetch - processPackages [timeitpoj]: Downloading https://files.pythonhosted.org/packages/b2/4a/1ab79f39caa4d13c0ed5ccccd7fe8030f75d6da4d7bdec8d6b66307614ea/timeitpoj-0.1.6.tar.gz
+[2023-06-08 09:04:13] INFO root fetch - processPackages [dune-harmonizer]: executing diffoscope
+[2023-06-08 09:04:13] INFO root fetch - processPackages [dune-harmonizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dune_harmonizer-0.8.0.tar.gz tmp/dune_harmonizer-0.9.0.tar.gz --markdown 20230608/d/dune-harmonizer/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-08 09:04:13] INFO root fetch - processPackages [MySQLPandas]: Downloading https://files.pythonhosted.org/packages/2a/6f/ca3e11623c0f63337892acb901b2d1a9a6b63a632486f1348da4af1cef00/MySQLPandas-0.0.19.tar.gz
+[2023-06-08 09:04:13] INFO root fetch - processPackages [vnpy-xex]: executing diffoscope
+[2023-06-08 09:04:13] INFO root fetch - processPackages [vnpy-xex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vnpy_xex-2023.6.6.2.tar.gz tmp/vnpy_xex-2023.6.8.1.tar.gz --markdown 20230608/v/vnpy-xex/2023.6.6.2-2023.6.8.1/diff.md --exclude *.pyd
+[2023-06-08 09:04:13] INFO root fetch - processPackages [timeitpoj]: executing diffoscope
+[2023-06-08 09:04:13] INFO root fetch - processPackages [timeitpoj]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/timeitpoj-0.1.5.tar.gz tmp/timeitpoj-0.1.6.tar.gz --markdown 20230608/t/timeitpoj/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-08 09:04:13] INFO root fetch - processPackages [nanobind]: executing diffoscope
+[2023-06-08 09:04:13] INFO root fetch - processPackages [nanobind]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nanobind-1.3.2-py3-none-any.whl.zip tmp/nanobind-1.4.0-py3-none-any.whl.zip --markdown 20230608/n/nanobind/1.3.2-1.4.0/diff.md --exclude *.pyd
+[2023-06-08 09:04:13] INFO root fetch - processPackages [deepchecks]: executing diffoscope
+[2023-06-08 09:04:13] INFO root fetch - processPackages [MySQLPandas]: executing diffoscope
+[2023-06-08 09:04:13] INFO root fetch - processPackages [MySQLPandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MySQLPandas-0.0.18.tar.gz tmp/MySQLPandas-0.0.19.tar.gz --markdown 20230608/M/MySQLPandas/0.0.18-0.0.19/diff.md --exclude *.pyd
+[2023-06-08 09:04:13] INFO root fetch - processPackages [deepchecks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepchecks-0.9.1.tar.gz tmp/deepchecks-0.9.2.tar.gz --markdown 20230608/d/deepchecks/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-06-08 09:04:13] INFO root fetch - processPackages [lycoris-lora]: Downloading https://files.pythonhosted.org/packages/00/48/5d6761366da7e615be630d7a1214a1e5eda368c5125bb7ec8db17bbfb03c/lycoris_lora-0.1.7.dev1.tar.gz
+[2023-06-08 09:04:13] INFO root fetch - processPackages [lycoris-lora]: executing diffoscope
+[2023-06-08 09:04:13] INFO root fetch - processPackages [lycoris-lora]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lycoris_lora-0.1.6.dev1.tar.gz tmp/lycoris_lora-0.1.7.dev1.tar.gz --markdown 20230608/l/lycoris-lora/0.1.6.dev1-0.1.7.dev1/diff.md --exclude *.pyd
+[2023-06-08 09:04:13] INFO root fetch - processPackages [moftransformer]: Downloading https://files.pythonhosted.org/packages/7b/3f/31dec70c96cab3123f36761630625b1426d1cd9001a30a57e30bacce252f/moftransformer-2.1.1.tar.gz
+[2023-06-08 09:04:13] INFO root fetch - processPackages [moftransformer]: executing diffoscope
+[2023-06-08 09:04:13] INFO root fetch - processPackages [moftransformer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moftransformer-2.1.0.tar.gz tmp/moftransformer-2.1.1.tar.gz --markdown 20230608/m/moftransformer/2.1.0-2.1.1/diff.md --exclude *.pyd
+[2023-06-08 09:04:13] INFO root fetch - processPackages [zoviz]: Downloading https://files.pythonhosted.org/packages/4b/9a/dea269ed1403497e3e963b49e4d08cdc0e831c8642e0f505481d42cdc405/zoviz-0.4.99.tar.gz
+[2023-06-08 09:04:13] INFO root fetch - processPackages [zoviz]: executing diffoscope
+[2023-06-08 09:04:13] INFO root fetch - processPackages [zoviz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zoviz-0.4.98.tar.gz tmp/zoviz-0.4.99.tar.gz --markdown 20230608/z/zoviz/0.4.98-0.4.99/diff.md --exclude *.pyd
+[2023-06-08 09:04:14] INFO root fetch - processPackages [timeitpoj]: Remove: archive file [/home/abi/fetcher/tmp/timeitpoj-0.1.5.tar.gz]
+[2023-06-08 09:04:14] INFO root fetch - processPackages [timeitpoj]: Remove: archive file [/home/abi/fetcher/tmp/timeitpoj-0.1.6.tar.gz]
+[2023-06-08 09:04:14] INFO root fetch - processPackages [timeitpoj]: Start processing: httpx-cache
+[2023-06-08 09:04:14] INFO root fetch - main [MainThread]: End processing [timeitpoj]: success
+[2023-06-08 09:04:14] INFO root fetch - processPackages [httpx-cache]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-08 09:04:14] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220906.tar.gz]
+[2023-06-08 09:04:14] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220907.tar.gz]
+[2023-06-08 09:04:14] INFO root fetch - main [MainThread]: End processing [seqio-nightly]: success
+[2023-06-08 09:04:15] INFO root fetch - processPackages [vnpy-xex]: Remove: archive file [/home/abi/fetcher/tmp/vnpy_xex-2023.6.6.2.tar.gz]
+[2023-06-08 09:04:15] INFO root fetch - processPackages [vnpy-xex]: Remove: archive file [/home/abi/fetcher/tmp/vnpy_xex-2023.6.8.1.tar.gz]
+[2023-06-08 09:04:15] INFO root fetch - main [MainThread]: End processing [vnpy-xex]: success
+[2023-06-08 09:04:15] INFO root fetch - processPackages [dune-harmonizer]: Remove: archive file [/home/abi/fetcher/tmp/dune_harmonizer-0.8.0.tar.gz]
+[2023-06-08 09:04:15] INFO root fetch - processPackages [dune-harmonizer]: Remove: archive file [/home/abi/fetcher/tmp/dune_harmonizer-0.9.0.tar.gz]
+[2023-06-08 09:04:15] INFO root fetch - main [MainThread]: End processing [dune-harmonizer]: success
+[2023-06-08 09:04:15] INFO root fetch - processPackages [httpx-cache]: Downloading https://files.pythonhosted.org/packages/b3/39/7b45d452862f014d4477d5c28dba76b3ec74c511b648b0bb1b2d2a3a99ef/httpx_cache-0.8.0.tar.gz
+[2023-06-08 09:04:15] INFO root fetch - processPackages [MySQLPandas]: Remove: archive file [/home/abi/fetcher/tmp/MySQLPandas-0.0.18.tar.gz]
+[2023-06-08 09:04:15] INFO root fetch - processPackages [MySQLPandas]: Remove: archive file [/home/abi/fetcher/tmp/MySQLPandas-0.0.19.tar.gz]
+[2023-06-08 09:04:15] INFO root fetch - main [MainThread]: End processing [MySQLPandas]: success
+[2023-06-08 09:04:15] INFO root fetch - processPackages [lycoris-lora]: Remove: archive file [/home/abi/fetcher/tmp/lycoris_lora-0.1.6.dev1.tar.gz]
+[2023-06-08 09:04:15] INFO root fetch - processPackages [lycoris-lora]: Remove: archive file [/home/abi/fetcher/tmp/lycoris_lora-0.1.7.dev1.tar.gz]
+[2023-06-08 09:04:15] INFO root fetch - main [MainThread]: End processing [lycoris-lora]: success
+[2023-06-08 09:04:15] INFO root fetch - processPackages [zoviz]: Remove: archive file [/home/abi/fetcher/tmp/zoviz-0.4.98.tar.gz]
+[2023-06-08 09:04:15] INFO root fetch - processPackages [zoviz]: Remove: archive file [/home/abi/fetcher/tmp/zoviz-0.4.99.tar.gz]
+[2023-06-08 09:04:15] INFO root fetch - main [MainThread]: End processing [zoviz]: success
+[2023-06-08 09:04:15] INFO root fetch - processPackages [httpx-cache]: Downloading https://files.pythonhosted.org/packages/6b/8f/b7db1a3faca267d04ed8ccec8b64a56ac2bc5c9a1dae41752f5c6364f12f/httpx_cache-0.9.0.tar.gz
+[2023-06-08 09:04:15] INFO root fetch - processPackages [nanobind]: Remove: archive file [/home/abi/fetcher/tmp/nanobind-1.3.2-py3-none-any.whl.zip]
+[2023-06-08 09:04:15] INFO root fetch - processPackages [nanobind]: Remove: archive file [/home/abi/fetcher/tmp/nanobind-1.4.0-py3-none-any.whl.zip]
+[2023-06-08 09:04:15] INFO root fetch - main [MainThread]: End processing [nanobind]: success
+[2023-06-08 09:04:15] INFO root fetch - processPackages [httpx-cache]: executing diffoscope
+[2023-06-08 09:04:15] INFO root fetch - processPackages [httpx-cache]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/httpx_cache-0.8.0.tar.gz tmp/httpx_cache-0.9.0.tar.gz --markdown 20230608/h/httpx-cache/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-08 09:04:17] INFO root fetch - processPackages [moftransformer]: Remove: archive file [/home/abi/fetcher/tmp/moftransformer-2.1.0.tar.gz]
+[2023-06-08 09:04:17] INFO root fetch - processPackages [moftransformer]: Remove: archive file [/home/abi/fetcher/tmp/moftransformer-2.1.1.tar.gz]
+[2023-06-08 09:04:17] INFO root fetch - main [MainThread]: End processing [moftransformer]: success
+[2023-06-08 09:04:17] INFO root fetch - processPackages [httpx-cache]: Remove: archive file [/home/abi/fetcher/tmp/httpx_cache-0.8.0.tar.gz]
+[2023-06-08 09:04:17] INFO root fetch - processPackages [httpx-cache]: Remove: archive file [/home/abi/fetcher/tmp/httpx_cache-0.9.0.tar.gz]
+[2023-06-08 09:04:17] INFO root fetch - main [MainThread]: End processing [httpx-cache]: success
+[2023-06-08 09:04:20] INFO root fetch - processPackages [deepchecks]: Remove: archive file [/home/abi/fetcher/tmp/deepchecks-0.9.1.tar.gz]
+[2023-06-08 09:04:20] INFO root fetch - processPackages [deepchecks]: Remove: archive file [/home/abi/fetcher/tmp/deepchecks-0.9.2.tar.gz]
+[2023-06-08 09:04:20] INFO root fetch - main [MainThread]: End processing [deepchecks]: success
+[2023-06-08 09:04:20] INFO root fetch - main [MainThread]: Store serial: [18420793]
