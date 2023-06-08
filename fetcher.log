@@ -4793,3 +4793,111 @@ EOFError: EOF read where object expected
 [2023-06-08 02:48:37] INFO root fetch - processPackages [np-workflows]: Remove: archive file [/home/abi/fetcher/tmp/np_workflows-1.4.9.tar.gz]
 [2023-06-08 02:48:37] INFO root fetch - main [MainThread]: End processing [np-workflows]: success
 [2023-06-08 02:48:37] INFO root fetch - main [MainThread]: Store serial: [18416389]
+[2023-06-08 02:53:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18416389]
+[2023-06-08 02:53:46] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-08 02:53:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-image-pipeline
+[2023-06-08 02:53:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spPersist
+[2023-06-08 02:53:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-comprehend-s3olap
+[2023-06-08 02:53:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ponder
+[2023-06-08 02:53:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rendersrt
+[2023-06-08 02:53:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyenv-encrypt
+[2023-06-08 02:53:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dinohub-seedwork-be
+[2023-06-08 02:53:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: d20-orm
+[2023-06-08 02:53:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: projen
+[2023-06-08 02:53:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: spPersist
+[2023-06-08 02:53:46] INFO root fetch - processPackages [dinohub-seedwork-be]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-08 02:53:46] INFO root fetch - processPackages [cdk-image-pipeline]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-06-08 02:53:46] WARNING root fetch - processPackages [pyenv-encrypt]: Skipping, unable to determine old version
+[2023-06-08 02:53:46] INFO root fetch - processPackages [pyenv-encrypt]: Start processing: cdk-slack-chatbot
+[2023-06-08 02:53:46] INFO root fetch - main [MainThread]: End processing [pyenv-encrypt] error
+[2023-06-08 02:53:46] INFO root fetch - processPackages [ponder]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-08 02:53:46] INFO root fetch - processPackages [rendersrt]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-08 02:53:46] INFO root fetch - processPackages [spPersist]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-08 02:53:46] INFO root fetch - processPackages [cdk-comprehend-s3olap]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-08 02:53:46] INFO root fetch - processPackages [spPersist]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-08 02:53:46] INFO root fetch - processPackages [d20-orm]: New version: [2.0.2a9] Old Version: [2.0.2a8]
+[2023-06-08 02:53:46] INFO root fetch - processPackages [cdk-slack-chatbot]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-06-08 02:53:46] INFO root fetch - processPackages [projen]: New version: [0.71.9] Old Version: [0.71.86]
+[2023-06-08 02:53:46] INFO root fetch - processPackages [rendersrt]: Downloading https://files.pythonhosted.org/packages/68/f1/b2ecbf48976241072576438e42e384cd7ce62476785fe5579e789996ba55/rendersrt-0.0.5.tar.gz
+[2023-06-08 02:53:46] INFO root fetch - processPackages [cdk-slack-chatbot]: Downloading https://files.pythonhosted.org/packages/18/e1/39c7ef0a63f08b4cdd9206beb69861062b890aa42bf0ead00ce61f92d7e4/cdk-slack-chatbot-1.0.98.tar.gz
+[2023-06-08 02:53:46] INFO root fetch - processPackages [cdk-slack-chatbot]: Downloading https://files.pythonhosted.org/packages/12/72/dc851f78a8ed85e11196ca9ee9dd0d9524d10ba5e6a193ae2ce79645cb38/cdk-slack-chatbot-1.0.99.tar.gz
+[2023-06-08 02:53:46] INFO root fetch - processPackages [cdk-image-pipeline]: Downloading https://files.pythonhosted.org/packages/09/68/aeabcbd72a08230d50d6c15c4e633f5ad59f72ddf422835883d89853a4c3/cdk-image-pipeline-0.3.3.tar.gz
+[2023-06-08 02:53:46] INFO root fetch - processPackages [spPersist]: Downloading https://files.pythonhosted.org/packages/bd/c8/0a74e2640d8bbbbce738f54e4204fa228a96302cfb6d9b0925cc2267c42e/spPersist-0.2.8.tar.gz
+[2023-06-08 02:53:46] INFO root fetch - processPackages [dinohub-seedwork-be]: Downloading https://files.pythonhosted.org/packages/4c/46/d1887f78ab55b1b70017664e8a938e6744c93233a84d21e028aea8a6a379/dinohub_seedwork_be-0.1.8.tar.gz
+[2023-06-08 02:53:46] INFO root fetch - processPackages [spPersist]: Downloading https://files.pythonhosted.org/packages/bd/c8/0a74e2640d8bbbbce738f54e4204fa228a96302cfb6d9b0925cc2267c42e/spPersist-0.2.8.tar.gz
+[2023-06-08 02:53:46] INFO root fetch - processPackages [projen]: Downloading https://files.pythonhosted.org/packages/e3/fe/5c0a58b287214e5582fcf1e42a914afe74255e96dc12f2b29050f546c5fb/projen-0.71.86.tar.gz
+[2023-06-08 02:53:46] INFO root fetch - processPackages [cdk-slack-chatbot]: executing diffoscope
+[2023-06-08 02:53:46] INFO root fetch - processPackages [cdk-slack-chatbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-slack-chatbot-1.0.98.tar.gz tmp/cdk-slack-chatbot-1.0.99.tar.gz --markdown 20230608/c/cdk-slack-chatbot/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-06-08 02:53:46] INFO root fetch - processPackages [d20-orm]: Downloading https://files.pythonhosted.org/packages/ad/29/9c0d1509e2bf24fcaf67bf27a72aca82c69934060a5b97d4e95f982bdf7c/d20-orm-2.0.2a8.tar.gz
+[2023-06-08 02:53:46] INFO root fetch - processPackages [ponder]: Downloading https://files.pythonhosted.org/packages/29/2f/e7d6ae637d2fdf2bf52c86dfec45b6028551fc6c9a3261ae5a2b9fd24d0d/ponder-0.1.8-cp39-cp39-win_amd64.whl
+[2023-06-08 02:53:46] INFO root fetch - processPackages [rendersrt]: Downloading https://files.pythonhosted.org/packages/82/28/a01bdd0fbd33c490b11008f8401c6672b5eba8638a37eaf8d7d441e9cd84/rendersrt-0.0.6.tar.gz
+[2023-06-08 02:53:46] INFO root fetch - processPackages [cdk-comprehend-s3olap]: Downloading https://files.pythonhosted.org/packages/d2/64/ec00fce58a2563fe9a768f5ee5a77ecba74bfccf89b1ec489306be4a20a8/cdk_comprehend_s3olap-2.0.98.tar.gz
+[2023-06-08 02:53:46] INFO root fetch - processPackages [rendersrt]: executing diffoscope
+[2023-06-08 02:53:46] INFO root fetch - processPackages [rendersrt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rendersrt-0.0.5.tar.gz tmp/rendersrt-0.0.6.tar.gz --markdown 20230608/r/rendersrt/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-08 02:53:46] INFO root fetch - processPackages [projen]: Downloading https://files.pythonhosted.org/packages/ce/49/8d0875fd46d32b42ce93e5014d26cffc8a31bf69b96a163c695d1d9c84d7/projen-0.71.9.tar.gz
+[2023-06-08 02:53:46] INFO root fetch - processPackages [spPersist]: Downloading https://files.pythonhosted.org/packages/cd/93/cac992297edc6f1eb21b6be41920fae4c80a55e87da240b36138b1ffab73/spPersist-0.2.9.tar.gz
+[2023-06-08 02:53:46] INFO root fetch - processPackages [spPersist]: Downloading https://files.pythonhosted.org/packages/cd/93/cac992297edc6f1eb21b6be41920fae4c80a55e87da240b36138b1ffab73/spPersist-0.2.9.tar.gz
+[2023-06-08 02:53:47] INFO root fetch - processPackages [cdk-image-pipeline]: Downloading https://files.pythonhosted.org/packages/86/61/79ce97f17b824fea447b3b6e2a9e75edfc956a7fe36c4e7c1302697dab8b/cdk-image-pipeline-0.3.4.tar.gz
+[2023-06-08 02:53:47] INFO root fetch - processPackages [spPersist]: executing diffoscope
+[2023-06-08 02:53:47] INFO root fetch - processPackages [spPersist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spPersist-0.2.8.tar.gz tmp/spPersist-0.2.9.tar.gz --markdown 20230608/s/spPersist/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-08 02:53:47] INFO root fetch - processPackages [spPersist]: executing diffoscope
+[2023-06-08 02:53:47] INFO root fetch - processPackages [spPersist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spPersist-0.2.8.tar.gz tmp/spPersist-0.2.9.tar.gz --markdown 20230608/s/spPersist/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-08 02:53:47] INFO root fetch - processPackages [cdk-image-pipeline]: executing diffoscope
+[2023-06-08 02:53:47] INFO root fetch - processPackages [cdk-image-pipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-image-pipeline-0.3.3.tar.gz tmp/cdk-image-pipeline-0.3.4.tar.gz --markdown 20230608/c/cdk-image-pipeline/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-06-08 02:53:47] INFO root fetch - processPackages [d20-orm]: Downloading https://files.pythonhosted.org/packages/ec/d6/9944a71f3f3439824eb114714153a4971feff7168ee963722e0da95de7ea/d20-orm-2.0.2a9.tar.gz
+[2023-06-08 02:53:47] INFO root fetch - processPackages [ponder]: Downloading https://files.pythonhosted.org/packages/58/a8/114c7590f22c3d0cbdd91fb5e3b48100248c937ae5c6c7cbc4764d62b91f/ponder-0.1.9-cp39-cp39-win_amd64.whl
+[2023-06-08 02:53:47] INFO root fetch - processPackages [projen]: executing diffoscope
+[2023-06-08 02:53:47] INFO root fetch - processPackages [projen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/projen-0.71.86.tar.gz tmp/projen-0.71.9.tar.gz --markdown 20230608/p/projen/0.71.86-0.71.9/diff.md --exclude *.pyd
+[2023-06-08 02:53:47] INFO root fetch - processPackages [d20-orm]: executing diffoscope
+[2023-06-08 02:53:47] INFO root fetch - processPackages [d20-orm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/d20-orm-2.0.2a8.tar.gz tmp/d20-orm-2.0.2a9.tar.gz --markdown 20230608/d/d20-orm/2.0.2a8-2.0.2a9/diff.md --exclude *.pyd
+[2023-06-08 02:53:47] INFO root fetch - processPackages [ponder]: executing diffoscope
+[2023-06-08 02:53:47] INFO root fetch - processPackages [ponder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ponder-0.1.8-cp39-cp39-win_amd64.whl.zip tmp/ponder-0.1.9-cp39-cp39-win_amd64.whl.zip --markdown 20230608/p/ponder/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-08 02:53:47] INFO root fetch - processPackages [dinohub-seedwork-be]: Downloading https://files.pythonhosted.org/packages/c7/f0/83f951a0ce5587c272db2365405ce0774dee3aaa3ce05609cb806a402d92/dinohub_seedwork_be-0.1.9.tar.gz
+[2023-06-08 02:53:47] WARNING root fetch - processPackages [cdk-comprehend-s3olap]: Skipping package: exceeds size limit 14179128>=10485760
+[2023-06-08 02:53:47] INFO root fetch - processPackages [cdk-comprehend-s3olap]: Start processing: HanLabImport
+[2023-06-08 02:53:47] INFO root fetch - main [MainThread]: End processing [cdk-comprehend-s3olap] error
+[2023-06-08 02:53:47] INFO root fetch - processPackages [cdk-slack-chatbot]: Remove: archive file [/home/abi/fetcher/tmp/cdk-slack-chatbot-1.0.98.tar.gz]
+[2023-06-08 02:53:47] INFO root fetch - processPackages [cdk-slack-chatbot]: Remove: archive file [/home/abi/fetcher/tmp/cdk-slack-chatbot-1.0.99.tar.gz]
+[2023-06-08 02:53:47] INFO root fetch - processPackages [cdk-slack-chatbot]: Start processing: pyschlage
+[2023-06-08 02:53:47] INFO root fetch - main [MainThread]: End processing [cdk-slack-chatbot]: success
+[2023-06-08 02:53:48] INFO root fetch - processPackages [HanLabImport]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-08 02:53:48] INFO root fetch - processPackages [rendersrt]: Remove: archive file [/home/abi/fetcher/tmp/rendersrt-0.0.5.tar.gz]
+[2023-06-08 02:53:48] INFO root fetch - processPackages [pyschlage]: New version: [2023.6.0] Old Version: [2023.5.0]
+[2023-06-08 02:53:48] INFO root fetch - processPackages [rendersrt]: Remove: archive file [/home/abi/fetcher/tmp/rendersrt-0.0.6.tar.gz]
+[2023-06-08 02:53:48] INFO root fetch - main [MainThread]: End processing [rendersrt]: success
+[2023-06-08 02:53:48] INFO root fetch - processPackages [HanLabImport]: Downloading https://files.pythonhosted.org/packages/13/b1/0ae94a106064c38d802944500912831bd09c547607724b689daeae810084/HanLabImport-0.1.0.tar.gz
+[2023-06-08 02:53:48] INFO root fetch - processPackages [dinohub-seedwork-be]: executing diffoscope
+[2023-06-08 02:53:48] INFO root fetch - processPackages [dinohub-seedwork-be]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dinohub_seedwork_be-0.1.8.tar.gz tmp/dinohub_seedwork_be-0.1.9.tar.gz --markdown 20230608/d/dinohub-seedwork-be/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-08 02:53:48] INFO root fetch - processPackages [pyschlage]: Downloading https://files.pythonhosted.org/packages/9a/51/f205fb8e4847cf368291f88eeb81b6fd7d5802c2210f2ec4a74e8881fda8/pyschlage-2023.5.0.tar.gz
+[2023-06-08 02:53:48] INFO root fetch - processPackages [cdk-image-pipeline]: Remove: archive file [/home/abi/fetcher/tmp/cdk-image-pipeline-0.3.3.tar.gz]
+[2023-06-08 02:53:48] INFO root fetch - processPackages [cdk-image-pipeline]: Remove: archive file [/home/abi/fetcher/tmp/cdk-image-pipeline-0.3.4.tar.gz]
+[2023-06-08 02:53:48] INFO root fetch - main [MainThread]: End processing [cdk-image-pipeline]: success
+[2023-06-08 02:53:48] INFO root fetch - processPackages [spPersist]: Remove: archive file [/home/abi/fetcher/tmp/spPersist-0.2.8.tar.gz]
+[2023-06-08 02:53:48] INFO root fetch - processPackages [spPersist]: Remove: archive file [/home/abi/fetcher/tmp/spPersist-0.2.9.tar.gz]
+[2023-06-08 02:53:48] INFO root fetch - main [MainThread]: End processing [spPersist]: success
+[2023-06-08 02:53:48] INFO root fetch - processPackages [HanLabImport]: Downloading https://files.pythonhosted.org/packages/c7/10/0991f5121dc951fe34e8b2dc67fa918c70b79e8266e29c7869f24db5a076/HanLabImport-0.1.1.tar.gz
+[2023-06-08 02:53:48] INFO root fetch - processPackages [pyschlage]: Downloading https://files.pythonhosted.org/packages/3d/0d/60141989b3478f301cccc38f273ce7a3f5d0122ff0ead0a7c833d1defc62/pyschlage-2023.6.0.tar.gz
+[2023-06-08 02:53:48] INFO root fetch - processPackages [ponder]: Remove: archive file [/home/abi/fetcher/tmp/ponder-0.1.8-cp39-cp39-win_amd64.whl.zip]
+[2023-06-08 02:53:48] INFO root fetch - processPackages [ponder]: Remove: archive file [/home/abi/fetcher/tmp/ponder-0.1.9-cp39-cp39-win_amd64.whl.zip]
+[2023-06-08 02:53:48] INFO root fetch - main [MainThread]: End processing [ponder]: success
+[2023-06-08 02:53:48] INFO root fetch - processPackages [d20-orm]: Remove: archive file [/home/abi/fetcher/tmp/d20-orm-2.0.2a8.tar.gz]
+[2023-06-08 02:53:48] INFO root fetch - processPackages [d20-orm]: Remove: archive file [/home/abi/fetcher/tmp/d20-orm-2.0.2a9.tar.gz]
+[2023-06-08 02:53:48] INFO root fetch - main [MainThread]: End processing [d20-orm]: success
+[2023-06-08 02:53:48] INFO root fetch - processPackages [HanLabImport]: executing diffoscope
+[2023-06-08 02:53:48] INFO root fetch - processPackages [HanLabImport]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HanLabImport-0.1.0.tar.gz tmp/HanLabImport-0.1.1.tar.gz --markdown 20230608/H/HanLabImport/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-08 02:53:48] INFO root fetch - main [MainThread]: End processing [spPersist]: success
+[2023-06-08 02:53:48] INFO root fetch - processPackages [pyschlage]: executing diffoscope
+[2023-06-08 02:53:48] INFO root fetch - processPackages [pyschlage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyschlage-2023.5.0.tar.gz tmp/pyschlage-2023.6.0.tar.gz --markdown 20230608/p/pyschlage/2023.5.0-2023.6.0/diff.md --exclude *.pyd
+[2023-06-08 02:53:49] INFO root fetch - processPackages [dinohub-seedwork-be]: Remove: archive file [/home/abi/fetcher/tmp/dinohub_seedwork_be-0.1.8.tar.gz]
+[2023-06-08 02:53:49] INFO root fetch - processPackages [dinohub-seedwork-be]: Remove: archive file [/home/abi/fetcher/tmp/dinohub_seedwork_be-0.1.9.tar.gz]
+[2023-06-08 02:53:49] INFO root fetch - main [MainThread]: End processing [dinohub-seedwork-be]: success
+[2023-06-08 02:53:49] INFO root fetch - processPackages [HanLabImport]: Remove: archive file [/home/abi/fetcher/tmp/HanLabImport-0.1.0.tar.gz]
+[2023-06-08 02:53:49] INFO root fetch - processPackages [HanLabImport]: Remove: archive file [/home/abi/fetcher/tmp/HanLabImport-0.1.1.tar.gz]
+[2023-06-08 02:53:49] INFO root fetch - main [MainThread]: End processing [HanLabImport]: success
+[2023-06-08 02:53:49] INFO root fetch - processPackages [pyschlage]: Remove: archive file [/home/abi/fetcher/tmp/pyschlage-2023.5.0.tar.gz]
+[2023-06-08 02:53:49] INFO root fetch - processPackages [pyschlage]: Remove: archive file [/home/abi/fetcher/tmp/pyschlage-2023.6.0.tar.gz]
+[2023-06-08 02:53:49] INFO root fetch - main [MainThread]: End processing [pyschlage]: success
+[2023-06-08 02:53:51] INFO root fetch - processPackages [projen]: Remove: archive file [/home/abi/fetcher/tmp/projen-0.71.86.tar.gz]
+[2023-06-08 02:53:51] INFO root fetch - processPackages [projen]: Remove: archive file [/home/abi/fetcher/tmp/projen-0.71.9.tar.gz]
+[2023-06-08 02:53:51] INFO root fetch - main [MainThread]: End processing [projen]: success
+[2023-06-08 02:53:51] INFO root fetch - main [MainThread]: Store serial: [18416452]
