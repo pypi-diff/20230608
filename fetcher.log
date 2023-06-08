@@ -17838,3 +17838,75 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-08 07:53:36] INFO root fetch - processPackages [prismstudio-stg]: Remove: archive file [/home/abi/fetcher/tmp/prismstudio-stg-1.1.3.tar.gz]
 [2023-06-08 07:53:36] INFO root fetch - main [MainThread]: End processing [prismstudio-stg]: success
 [2023-06-08 07:53:36] INFO root fetch - main [MainThread]: Store serial: [18420461]
+[2023-06-08 07:58:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18420461]
+[2023-06-08 07:58:48] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-08 07:58:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: salt-rewrite
+[2023-06-08 07:58:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aiearth-core
+[2023-06-08 07:58:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: promptengine-catapult
+[2023-06-08 07:58:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: voxline-pdk
+[2023-06-08 07:58:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jquants-derivatives
+[2023-06-08 07:58:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cognica
+[2023-06-08 07:58:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyxk
+[2023-06-08 07:58:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo14-addon-web-dialog-size
+[2023-06-08 07:58:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addon-web-dialog-size
+[2023-06-08 07:58:48] ERROR root fetch - processPackages [voxline-pdk]: Unable to get metadata: No such project 'voxline-pdk'
+[2023-06-08 07:58:48] INFO root fetch - main [MainThread]: End processing [voxline-pdk] error
+[2023-06-08 07:58:48] WARNING root fetch - processPackages [aiearth-core]: Skipping, unable to determine old version
+[2023-06-08 07:58:48] INFO root fetch - main [MainThread]: End processing [aiearth-core] error
+[2023-06-08 07:58:48] INFO root fetch - processPackages [promptengine-catapult]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-08 07:58:48] INFO root fetch - processPackages [jquants-derivatives]: New version: [0.1.0a3] Old Version: [0.1.0a2]
+[2023-06-08 07:58:48] INFO root fetch - processPackages [salt-rewrite]: New version: [2.4.3] Old Version: [2.4.2]
+[2023-06-08 07:58:48] INFO root fetch - processPackages [cognica]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-08 07:58:48] INFO root fetch - processPackages [pyxk]: New version: [0.6.3] Old Version: [0.6.2]
+[2023-06-08 07:58:48] INFO root fetch - processPackages [odoo14-addon-web-dialog-size]: New version: [14.0.1.0.1.dev9] Old Version: [14.0.1.0.1.dev7]
+[2023-06-08 07:58:48] INFO root fetch - processPackages [promptengine-catapult]: Downloading https://files.pythonhosted.org/packages/48/e8/00c118ba684bb0479a2e40b42e099ab3ad93c51fb6899f474620c2a6e46e/promptengine_catapult-0.0.7.tar.gz
+[2023-06-08 07:58:48] INFO root fetch - processPackages [jquants-derivatives]: Downloading https://files.pythonhosted.org/packages/67/76/b902d44515485da6faa462d4de7b3ed71f85e031aa032c60232a373779e0/jquants_derivatives-0.1.0a2.tar.gz
+[2023-06-08 07:58:48] INFO root fetch - processPackages [cognica]: Downloading https://files.pythonhosted.org/packages/2f/f5/95b5ab56741f40f1c4a41dc48b1555915d28998e8b9616d0bc9a90bc73e9/cognica-0.1.5.tar.gz
+[2023-06-08 07:58:48] INFO root fetch - processPackages [odoo-addon-web-dialog-size]: New version: [16.0.1.0.0.3] Old Version: [16.0.1.0.0.2]
+[2023-06-08 07:58:48] INFO root fetch - processPackages [salt-rewrite]: Downloading https://files.pythonhosted.org/packages/14/a6/94d39ff031f812bed06d92a5875475391aed2bbd395fbb036d9d8714ac91/salt-rewrite-2.4.2.tar.gz
+[2023-06-08 07:58:48] INFO root fetch - processPackages [pyxk]: Downloading https://files.pythonhosted.org/packages/b0/78/3056dba60c752439e03413efa4e8d464b5b68781d466e8da09c3223dd778/pyxk-0.6.2.tar.gz
+[2023-06-08 07:58:48] INFO root fetch - processPackages [odoo-addon-web-dialog-size]: Downloading https://files.pythonhosted.org/packages/55/24/62b5454de7e86dc8962defd73ca26bec4a3e49e70fb0d268aff963ddea46/odoo_addon_web_dialog_size-16.0.1.0.0.2-py3-none-any.whl
+[2023-06-08 07:58:48] INFO root fetch - processPackages [promptengine-catapult]: Downloading https://files.pythonhosted.org/packages/13/c6/747bc41470289791850e2c6976d14a4f3a3de499ffd4781c5ab0ec0cb6f3/promptengine_catapult-0.0.8.tar.gz
+[2023-06-08 07:58:48] INFO root fetch - processPackages [jquants-derivatives]: Downloading https://files.pythonhosted.org/packages/28/7f/99367e10620339f3454cb0ca6fced3f9d256934717c3c92fee84fcf954f0/jquants_derivatives-0.1.0a3.tar.gz
+[2023-06-08 07:58:48] INFO root fetch - processPackages [cognica]: Downloading https://files.pythonhosted.org/packages/f3/32/8e5a9557dcf1571f8e869bdfff1fd840c648f3c1330da4988c207ef8b2f1/cognica-0.1.6.tar.gz
+[2023-06-08 07:58:48] INFO root fetch - processPackages [odoo14-addon-web-dialog-size]: Downloading https://files.pythonhosted.org/packages/b7/f4/55df73d11c2a392737caf96629c8691bff08ef9062f54e739bffafe293a3/odoo14_addon_web_dialog_size-14.0.1.0.1.dev7-py3-none-any.whl
+[2023-06-08 07:58:48] INFO root fetch - processPackages [promptengine-catapult]: executing diffoscope
+[2023-06-08 07:58:48] INFO root fetch - processPackages [promptengine-catapult]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/promptengine_catapult-0.0.7.tar.gz tmp/promptengine_catapult-0.0.8.tar.gz --markdown 20230608/p/promptengine-catapult/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-08 07:58:48] INFO root fetch - processPackages [salt-rewrite]: Downloading https://files.pythonhosted.org/packages/b4/2d/e4eb31ec3df88fdc066f0a90f613302fc91673efb7ad3369270d4f26df9b/salt-rewrite-2.4.3.tar.gz
+[2023-06-08 07:58:48] INFO root fetch - processPackages [pyxk]: Downloading https://files.pythonhosted.org/packages/a1/15/296d04b5dbdfd5535a53fbdd5ebe784f7f76b57f38a238278973e7d022ab/pyxk-0.6.3.tar.gz
+[2023-06-08 07:58:48] INFO root fetch - processPackages [cognica]: executing diffoscope
+[2023-06-08 07:58:48] INFO root fetch - processPackages [cognica]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognica-0.1.5.tar.gz tmp/cognica-0.1.6.tar.gz --markdown 20230608/c/cognica/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-08 07:58:48] INFO root fetch - processPackages [jquants-derivatives]: executing diffoscope
+[2023-06-08 07:58:48] INFO root fetch - processPackages [jquants-derivatives]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jquants_derivatives-0.1.0a2.tar.gz tmp/jquants_derivatives-0.1.0a3.tar.gz --markdown 20230608/j/jquants-derivatives/0.1.0a2-0.1.0a3/diff.md --exclude *.pyd
+[2023-06-08 07:58:48] INFO root fetch - processPackages [salt-rewrite]: executing diffoscope
+[2023-06-08 07:58:48] INFO root fetch - processPackages [salt-rewrite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/salt-rewrite-2.4.2.tar.gz tmp/salt-rewrite-2.4.3.tar.gz --markdown 20230608/s/salt-rewrite/2.4.2-2.4.3/diff.md --exclude *.pyd
+[2023-06-08 07:58:48] INFO root fetch - processPackages [pyxk]: executing diffoscope
+[2023-06-08 07:58:48] INFO root fetch - processPackages [pyxk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyxk-0.6.2.tar.gz tmp/pyxk-0.6.3.tar.gz --markdown 20230608/p/pyxk/0.6.2-0.6.3/diff.md --exclude *.pyd
+[2023-06-08 07:58:49] INFO root fetch - processPackages [odoo14-addon-web-dialog-size]: Downloading https://files.pythonhosted.org/packages/a1/32/5e080ef601f5618122d32d38c5ede630ebbecc0f602f18eeceaa00fc2870/odoo14_addon_web_dialog_size-14.0.1.0.1.dev9-py3-none-any.whl
+[2023-06-08 07:58:49] INFO root fetch - processPackages [odoo14-addon-web-dialog-size]: executing diffoscope
+[2023-06-08 07:58:49] INFO root fetch - processPackages [odoo14-addon-web-dialog-size]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_web_dialog_size-14.0.1.0.1.dev7-py3-none-any.whl.zip tmp/odoo14_addon_web_dialog_size-14.0.1.0.1.dev9-py3-none-any.whl.zip --markdown 20230608/o/odoo14-addon-web-dialog-size/14.0.1.0.1.dev7-14.0.1.0.1.dev9/diff.md --exclude *.pyd
+[2023-06-08 07:58:49] INFO root fetch - processPackages [odoo-addon-web-dialog-size]: Downloading https://files.pythonhosted.org/packages/b8/8a/b1b446005c7ebb2b3699b4de2d15309431a02168dcb9e4f0e0e38ea23060/odoo_addon_web_dialog_size-16.0.1.0.0.3-py3-none-any.whl
+[2023-06-08 07:58:49] INFO root fetch - processPackages [odoo-addon-web-dialog-size]: executing diffoscope
+[2023-06-08 07:58:49] INFO root fetch - processPackages [odoo-addon-web-dialog-size]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_web_dialog_size-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_web_dialog_size-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20230608/o/odoo-addon-web-dialog-size/16.0.1.0.0.2-16.0.1.0.0.3/diff.md --exclude *.pyd
+[2023-06-08 07:58:50] INFO root fetch - processPackages [jquants-derivatives]: Remove: archive file [/home/abi/fetcher/tmp/jquants_derivatives-0.1.0a2.tar.gz]
+[2023-06-08 07:58:50] INFO root fetch - processPackages [jquants-derivatives]: Remove: archive file [/home/abi/fetcher/tmp/jquants_derivatives-0.1.0a3.tar.gz]
+[2023-06-08 07:58:50] INFO root fetch - main [MainThread]: End processing [jquants-derivatives]: success
+[2023-06-08 07:58:50] INFO root fetch - processPackages [promptengine-catapult]: Remove: archive file [/home/abi/fetcher/tmp/promptengine_catapult-0.0.7.tar.gz]
+[2023-06-08 07:58:50] INFO root fetch - processPackages [promptengine-catapult]: Remove: archive file [/home/abi/fetcher/tmp/promptengine_catapult-0.0.8.tar.gz]
+[2023-06-08 07:58:50] INFO root fetch - main [MainThread]: End processing [promptengine-catapult]: success
+[2023-06-08 07:58:50] INFO root fetch - processPackages [salt-rewrite]: Remove: archive file [/home/abi/fetcher/tmp/salt-rewrite-2.4.2.tar.gz]
+[2023-06-08 07:58:50] INFO root fetch - processPackages [salt-rewrite]: Remove: archive file [/home/abi/fetcher/tmp/salt-rewrite-2.4.3.tar.gz]
+[2023-06-08 07:58:50] INFO root fetch - main [MainThread]: End processing [salt-rewrite]: success
+[2023-06-08 07:58:50] INFO root fetch - processPackages [cognica]: Remove: archive file [/home/abi/fetcher/tmp/cognica-0.1.5.tar.gz]
+[2023-06-08 07:58:50] INFO root fetch - processPackages [cognica]: Remove: archive file [/home/abi/fetcher/tmp/cognica-0.1.6.tar.gz]
+[2023-06-08 07:58:50] INFO root fetch - main [MainThread]: End processing [cognica]: success
+[2023-06-08 07:58:50] INFO root fetch - processPackages [pyxk]: Remove: archive file [/home/abi/fetcher/tmp/pyxk-0.6.2.tar.gz]
+[2023-06-08 07:58:50] INFO root fetch - processPackages [pyxk]: Remove: archive file [/home/abi/fetcher/tmp/pyxk-0.6.3.tar.gz]
+[2023-06-08 07:58:50] INFO root fetch - main [MainThread]: End processing [pyxk]: success
+[2023-06-08 07:58:50] INFO root fetch - processPackages [odoo14-addon-web-dialog-size]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_web_dialog_size-14.0.1.0.1.dev7-py3-none-any.whl.zip]
+[2023-06-08 07:58:50] INFO root fetch - processPackages [odoo14-addon-web-dialog-size]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_web_dialog_size-14.0.1.0.1.dev9-py3-none-any.whl.zip]
+[2023-06-08 07:58:50] INFO root fetch - main [MainThread]: End processing [odoo14-addon-web-dialog-size]: success
+[2023-06-08 07:58:50] INFO root fetch - processPackages [odoo-addon-web-dialog-size]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_web_dialog_size-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-06-08 07:58:50] INFO root fetch - processPackages [odoo-addon-web-dialog-size]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_web_dialog_size-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-06-08 07:58:50] INFO root fetch - main [MainThread]: End processing [odoo-addon-web-dialog-size]: success
+[2023-06-08 07:58:50] INFO root fetch - main [MainThread]: Store serial: [18420491]
