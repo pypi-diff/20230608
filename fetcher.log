@@ -5399,3 +5399,96 @@ EOFError: EOF read where object expected
 [2023-06-08 03:27:49] INFO root fetch - processPackages [ovos-utils]: Remove: archive file [/home/abi/fetcher/tmp/ovos_utils-0.0.9a1.tar.gz]
 [2023-06-08 03:27:49] INFO root fetch - main [MainThread]: End processing [ovos-utils]: success
 [2023-06-08 03:27:49] INFO root fetch - main [MainThread]: Store serial: [18416671]
+[2023-06-08 03:32:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18416671]
+[2023-06-08 03:32:59] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-08 03:32:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: raydp
+[2023-06-08 03:32:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ruspeechstress
+[2023-06-08 03:32:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: concept-erasure
+[2023-06-08 03:32:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-lambda-layer-curl
+[2023-06-08 03:32:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: weathon
+[2023-06-08 03:32:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ovos-local-backend
+[2023-06-08 03:32:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bspcpy
+[2023-06-08 03:32:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pepperize.cdk-organizations
+[2023-06-08 03:32:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: configzen
+[2023-06-08 03:32:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dcrx
+[2023-06-08 03:32:59] INFO root fetch - processPackages [ruspeechstress]: New version: [0.9] Old Version: [0.8]
+[2023-06-08 03:32:59] INFO root fetch - processPackages [weathon]: New version: [0.0.0.9] Old Version: [0.0.0.8]
+[2023-06-08 03:32:59] INFO root fetch - processPackages [ovos-local-backend]: New version: [0.2.0a9] Old Version: [0.2.0a8]
+[2023-06-08 03:32:59] INFO root fetch - processPackages [configzen]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-06-08 03:32:59] INFO root fetch - processPackages [dcrx]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-08 03:32:59] INFO root fetch - processPackages [concept-erasure]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-08 03:32:59] INFO root fetch - processPackages [raydp]: New version: [1.6.0b20230608.dev0] Old Version: [1.6.0b20230527.dev0]
+[2023-06-08 03:32:59] INFO root fetch - processPackages [bspcpy]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-08 03:32:59] INFO root fetch - processPackages [cdk-lambda-layer-curl]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-08 03:32:59] INFO root fetch - processPackages [pepperize.cdk-organizations]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-06-08 03:32:59] INFO root fetch - processPackages [ruspeechstress]: Downloading https://files.pythonhosted.org/packages/e0/5d/95de21021ad9606fc965123527d189566d8381c0ba8f157271261eb8ab9c/ruspeechstress-0.8.tar.gz
+[2023-06-08 03:32:59] INFO root fetch - processPackages [configzen]: Downloading https://files.pythonhosted.org/packages/6c/57/08c1b72eb51f53a384848410331c1db2eea5455dad9f34cd144ccda23eda/configzen-0.2.7.tar.gz
+[2023-06-08 03:32:59] INFO root fetch - processPackages [dcrx]: Downloading https://files.pythonhosted.org/packages/2b/ec/717b0a7e15113468e6a7a7c96b448a7c69caa8cc11a62abc6bcb71d52816/dcrx-0.0.5.tar.gz
+[2023-06-08 03:32:59] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/c8/e2/39c88cfa63f418383f3a383b2b62dfe801cbfd5c53de4d005804c19d76dc/cdk-lambda-layer-curl-2.0.98.tar.gz
+[2023-06-08 03:32:59] INFO root fetch - processPackages [ovos-local-backend]: Downloading https://files.pythonhosted.org/packages/aa/cb/d2765c107910f6bc1dca69dcc16c73a0986ab984fe77cf33633045941028/ovos_local_backend-0.2.0a8-py3-none-any.whl
+[2023-06-08 03:32:59] INFO root fetch - processPackages [pepperize.cdk-organizations]: Downloading https://files.pythonhosted.org/packages/c4/ec/fa2c14031b7b9ce22e4b044c652dd13a1a81769141fcd90e55c9eeb24d66/pepperize.cdk-organizations-0.7.98.tar.gz
+[2023-06-08 03:32:59] INFO root fetch - processPackages [concept-erasure]: Downloading https://files.pythonhosted.org/packages/db/b7/e6b38e5cb1191976d02af89e30e4d467fc13ad3cd6a55fdb9ca879faa804/concept-erasure-0.0.1.tar.gz
+[2023-06-08 03:32:59] INFO root fetch - processPackages [weathon]: Downloading https://files.pythonhosted.org/packages/f7/23/56fe4fc5b2ecb460556eac7973be4608604e239b1cf7ce1b154ce77ff48d/weathon-0.0.0.8.tar.gz
+[2023-06-08 03:32:59] INFO root fetch - processPackages [ruspeechstress]: Downloading https://files.pythonhosted.org/packages/d2/96/2292ab202f3c3fbf6734d5c96611d626d48df328383236c1aea5c8df1042/ruspeechstress-0.9.tar.gz
+[2023-06-08 03:32:59] INFO root fetch - processPackages [bspcpy]: Downloading https://files.pythonhosted.org/packages/37/05/109a16776a8dd1b406746509d06b8fc2640600de1dac853c500cb317d5a3/bspcpy-1.0.2.tar.gz
+[2023-06-08 03:32:59] INFO root fetch - processPackages [raydp]: Downloading https://files.pythonhosted.org/packages/90/60/50f8067a9026c2a1fec3158f997e7f75e705ab53bfbb10642bac19a90730/raydp-1.6.0b20230527.dev0-py3-none-any.whl
+[2023-06-08 03:32:59] INFO root fetch - processPackages [ruspeechstress]: executing diffoscope
+[2023-06-08 03:32:59] INFO root fetch - processPackages [ovos-local-backend]: Downloading https://files.pythonhosted.org/packages/5f/f7/ba89e3c2dfaeb03aac975f2afbaa1980ccbe7273dcd7f5b525280a59d733/ovos_local_backend-0.2.0a9-py3-none-any.whl
+[2023-06-08 03:32:59] INFO root fetch - processPackages [ruspeechstress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ruspeechstress-0.8.tar.gz tmp/ruspeechstress-0.9.tar.gz --markdown 20230608/r/ruspeechstress/0.8-0.9/diff.md --exclude *.pyd
+[2023-06-08 03:32:59] INFO root fetch - processPackages [pepperize.cdk-organizations]: Downloading https://files.pythonhosted.org/packages/12/45/1106cc30844f7f4d96f7898a6ef3647d24a597c297bab995920a5915750e/pepperize.cdk-organizations-0.7.99.tar.gz
+[2023-06-08 03:32:59] INFO root fetch - processPackages [configzen]: Downloading https://files.pythonhosted.org/packages/63/21/6a33fb0ae7298fd582936fdcce3fd3034fb23086a4affa57ff43522d147e/configzen-0.2.8.tar.gz
+[2023-06-08 03:32:59] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/2e/02/9e7ab6bc6191e2cbe6705c1530f695ed00527096133668b731e72d6a6445/cdk-lambda-layer-curl-2.0.99.tar.gz
+[2023-06-08 03:32:59] INFO root fetch - processPackages [dcrx]: Downloading https://files.pythonhosted.org/packages/97/05/25676a1436fbdc68c7622c47ad1fafc5f532157cbde004cd34b9c22f1ddc/dcrx-0.0.6.tar.gz
+[2023-06-08 03:32:59] INFO root fetch - processPackages [pepperize.cdk-organizations]: executing diffoscope
+[2023-06-08 03:32:59] INFO root fetch - processPackages [pepperize.cdk-organizations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-organizations-0.7.98.tar.gz tmp/pepperize.cdk-organizations-0.7.99.tar.gz --markdown 20230608/p/pepperize.cdk-organizations/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-06-08 03:32:59] INFO root fetch - processPackages [ovos-local-backend]: executing diffoscope
+[2023-06-08 03:32:59] INFO root fetch - processPackages [ovos-local-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos_local_backend-0.2.0a8-py3-none-any.whl.zip tmp/ovos_local_backend-0.2.0a9-py3-none-any.whl.zip --markdown 20230608/o/ovos-local-backend/0.2.0a8-0.2.0a9/diff.md --exclude *.pyd
+[2023-06-08 03:32:59] INFO root fetch - processPackages [cdk-lambda-layer-curl]: executing diffoscope
+[2023-06-08 03:32:59] INFO root fetch - processPackages [cdk-lambda-layer-curl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-curl-2.0.98.tar.gz tmp/cdk-lambda-layer-curl-2.0.99.tar.gz --markdown 20230608/c/cdk-lambda-layer-curl/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-08 03:32:59] INFO root fetch - processPackages [concept-erasure]: Downloading https://files.pythonhosted.org/packages/48/3e/14452a8b33059a708c4483fcef742dacb71ee8812109667d4a355421b4e7/concept-erasure-0.0.2.tar.gz
+[2023-06-08 03:33:00] INFO root fetch - processPackages [dcrx]: executing diffoscope
+[2023-06-08 03:33:00] INFO root fetch - processPackages [dcrx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcrx-0.0.5.tar.gz tmp/dcrx-0.0.6.tar.gz --markdown 20230608/d/dcrx/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-08 03:33:00] INFO root fetch - processPackages [configzen]: executing diffoscope
+[2023-06-08 03:33:00] INFO root fetch - processPackages [configzen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/configzen-0.2.7.tar.gz tmp/configzen-0.2.8.tar.gz --markdown 20230608/c/configzen/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-06-08 03:33:00] INFO root fetch - processPackages [concept-erasure]: executing diffoscope
+[2023-06-08 03:33:00] INFO root fetch - processPackages [concept-erasure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/concept-erasure-0.0.1.tar.gz tmp/concept-erasure-0.0.2.tar.gz --markdown 20230608/c/concept-erasure/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-08 03:33:00] INFO root fetch - processPackages [bspcpy]: Downloading https://files.pythonhosted.org/packages/9d/f9/c6735d8a328abed012a7831ba5a6693341d5f7a4f2898fb5cce5907bc164/bspcpy-1.0.3.tar.gz
+[2023-06-08 03:33:00] INFO root fetch - processPackages [bspcpy]: executing diffoscope
+[2023-06-08 03:33:00] INFO root fetch - processPackages [bspcpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bspcpy-1.0.2.tar.gz tmp/bspcpy-1.0.3.tar.gz --markdown 20230608/b/bspcpy/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-08 03:33:01] INFO root fetch - processPackages [raydp]: Downloading https://files.pythonhosted.org/packages/de/92/2c7d77c08afc2a20f9609e316b294024d499f294e4721fe3dd3063477e97/raydp-1.6.0b20230608.dev0-py3-none-any.whl
+[2023-06-08 03:33:01] INFO root fetch - processPackages [ruspeechstress]: Remove: archive file [/home/abi/fetcher/tmp/ruspeechstress-0.8.tar.gz]
+[2023-06-08 03:33:01] INFO root fetch - processPackages [ruspeechstress]: Remove: archive file [/home/abi/fetcher/tmp/ruspeechstress-0.9.tar.gz]
+[2023-06-08 03:33:01] INFO root fetch - main [MainThread]: End processing [ruspeechstress]: success
+[2023-06-08 03:33:01] INFO root fetch - processPackages [pepperize.cdk-organizations]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-organizations-0.7.98.tar.gz]
+[2023-06-08 03:33:01] INFO root fetch - processPackages [pepperize.cdk-organizations]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-organizations-0.7.99.tar.gz]
+[2023-06-08 03:33:01] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-organizations]: success
+[2023-06-08 03:33:01] INFO root fetch - processPackages [configzen]: Remove: archive file [/home/abi/fetcher/tmp/configzen-0.2.7.tar.gz]
+[2023-06-08 03:33:01] INFO root fetch - processPackages [configzen]: Remove: archive file [/home/abi/fetcher/tmp/configzen-0.2.8.tar.gz]
+[2023-06-08 03:33:01] INFO root fetch - main [MainThread]: End processing [configzen]: success
+[2023-06-08 03:33:01] INFO root fetch - processPackages [ovos-local-backend]: Remove: archive file [/home/abi/fetcher/tmp/ovos_local_backend-0.2.0a8-py3-none-any.whl.zip]
+[2023-06-08 03:33:01] INFO root fetch - processPackages [ovos-local-backend]: Remove: archive file [/home/abi/fetcher/tmp/ovos_local_backend-0.2.0a9-py3-none-any.whl.zip]
+[2023-06-08 03:33:01] INFO root fetch - main [MainThread]: End processing [ovos-local-backend]: success
+[2023-06-08 03:33:01] INFO root fetch - processPackages [concept-erasure]: Remove: archive file [/home/abi/fetcher/tmp/concept-erasure-0.0.1.tar.gz]
+[2023-06-08 03:33:01] INFO root fetch - processPackages [concept-erasure]: Remove: archive file [/home/abi/fetcher/tmp/concept-erasure-0.0.2.tar.gz]
+[2023-06-08 03:33:01] INFO root fetch - main [MainThread]: End processing [concept-erasure]: success
+[2023-06-08 03:33:01] INFO root fetch - processPackages [dcrx]: Remove: archive file [/home/abi/fetcher/tmp/dcrx-0.0.5.tar.gz]
+[2023-06-08 03:33:01] INFO root fetch - processPackages [dcrx]: Remove: archive file [/home/abi/fetcher/tmp/dcrx-0.0.6.tar.gz]
+[2023-06-08 03:33:01] INFO root fetch - main [MainThread]: End processing [dcrx]: success
+[2023-06-08 03:33:01] INFO root fetch - processPackages [bspcpy]: Remove: archive file [/home/abi/fetcher/tmp/bspcpy-1.0.2.tar.gz]
+[2023-06-08 03:33:01] INFO root fetch - processPackages [bspcpy]: Remove: archive file [/home/abi/fetcher/tmp/bspcpy-1.0.3.tar.gz]
+[2023-06-08 03:33:01] INFO root fetch - main [MainThread]: End processing [bspcpy]: success
+[2023-06-08 03:33:01] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.98.tar.gz]
+[2023-06-08 03:33:01] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
+[2023-06-08 03:33:01] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
+[2023-06-08 03:33:02] INFO root fetch - processPackages [weathon]: Downloading https://files.pythonhosted.org/packages/17/2c/1c6bbaf3c6dc7499f0c81355184c929ea8d8279bdf525f4d062f71b85612/weathon-0.0.0.9.tar.gz
+[2023-06-08 03:33:02] INFO root fetch - processPackages [raydp]: executing diffoscope
+[2023-06-08 03:33:02] INFO root fetch - processPackages [raydp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raydp-1.6.0b20230527.dev0-py3-none-any.whl.zip tmp/raydp-1.6.0b20230608.dev0-py3-none-any.whl.zip --markdown 20230608/r/raydp/1.6.0b20230527.dev0-1.6.0b20230608.dev0/diff.md --exclude *.pyd
+[2023-06-08 03:33:03] INFO root fetch - processPackages [weathon]: executing diffoscope
+[2023-06-08 03:33:03] INFO root fetch - processPackages [weathon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weathon-0.0.0.8.tar.gz tmp/weathon-0.0.0.9.tar.gz --markdown 20230608/w/weathon/0.0.0.8-0.0.0.9/diff.md --exclude *.pyd
+[2023-06-08 03:33:06] INFO root fetch - processPackages [weathon]: Remove: archive file [/home/abi/fetcher/tmp/weathon-0.0.0.8.tar.gz]
+[2023-06-08 03:33:06] INFO root fetch - processPackages [weathon]: Remove: archive file [/home/abi/fetcher/tmp/weathon-0.0.0.9.tar.gz]
+[2023-06-08 03:33:06] INFO root fetch - main [MainThread]: End processing [weathon]: success
+[2023-06-08 03:35:35] INFO root fetch - processPackages [raydp]: Remove: archive file [/home/abi/fetcher/tmp/raydp-1.6.0b20230527.dev0-py3-none-any.whl.zip]
+[2023-06-08 03:35:35] INFO root fetch - processPackages [raydp]: Remove: archive file [/home/abi/fetcher/tmp/raydp-1.6.0b20230608.dev0-py3-none-any.whl.zip]
+[2023-06-08 03:35:35] INFO root fetch - main [MainThread]: End processing [raydp]: success
+[2023-06-08 03:35:35] INFO root fetch - main [MainThread]: Store serial: [18416704]
