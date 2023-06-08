@@ -18782,3 +18782,155 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-08 09:09:32] INFO root fetch - processPackages [TeamsGraphApi]: Remove: archive file [/home/abi/fetcher/tmp/teamsgraphapi-0.0.2.tar.gz]
 [2023-06-08 09:09:32] INFO root fetch - main [MainThread]: End processing [TeamsGraphApi]: success
 [2023-06-08 09:09:32] INFO root fetch - main [MainThread]: Store serial: [18420833]
+[2023-06-08 09:14:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18420833]
+[2023-06-08 09:14:45] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-06-08 09:14:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mxcube-video-streamer
+[2023-06-08 09:14:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: iOSReSignApp
+[2023-06-08 09:14:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-mptt2
+[2023-06-08 09:14:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: shioaji
+[2023-06-08 09:14:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mxcubecore
+[2023-06-08 09:14:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: muffin-rest
+[2023-06-08 09:14:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: anyon
+[2023-06-08 09:14:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: milvus-ingestion
+[2023-06-08 09:14:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ubi-population-tool
+[2023-06-08 09:14:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pfizer-components
+[2023-06-08 09:14:45] INFO root fetch - processPackages [mxcube-video-streamer]: New version: [1.0.0] Old Version: [0.0.0]
+[2023-06-08 09:14:45] INFO root fetch - processPackages [iOSReSignApp]: New version: [1.5.6] Old Version: [1.5.5]
+[2023-06-08 09:14:45] INFO root fetch - processPackages [mxcubecore]: New version: [1.6.0] Old Version: [1.0.0]
+[2023-06-08 09:14:45] INFO root fetch - processPackages [milvus-ingestion]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-06-08 09:14:45] INFO root fetch - processPackages [anyon]: New version: [3.4.3] Old Version: [3.2.4]
+[2023-06-08 09:14:45] INFO root fetch - processPackages [ubi-population-tool]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-08 09:14:45] INFO root fetch - processPackages [muffin-rest]: New version: [5.1.2] Old Version: [5.1.1]
+[2023-06-08 09:14:45] INFO root fetch - processPackages [django-mptt2]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-08 09:14:45] INFO root fetch - processPackages [pfizer-components]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-08 09:14:45] INFO root fetch - processPackages [shioaji]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-06-08 09:14:45] INFO root fetch - processPackages [muffin-rest]: Downloading https://files.pythonhosted.org/packages/32/52/033f1de71d7953eb97f1b868a75d5a98121d04f1f9456719030141e24909/muffin_rest-5.1.1.tar.gz
+[2023-06-08 09:14:45] INFO root fetch - processPackages [pfizer-components]: Downloading https://files.pythonhosted.org/packages/d3/9b/4f4daa23e2db3765f230788c2fa6705f2fb9cfcfe27b1a2e05e7433b3f40/pfizer_components-0.1.0-py3-none-any.whl
+[2023-06-08 09:14:45] INFO root fetch - processPackages [mxcube-video-streamer]: Downloading https://files.pythonhosted.org/packages/b1/06/3745e13131025ff6b1485b584ec968e0670448deaedbb061bf64da0a7eea/mxcube_video_streamer-0.0.0.tar.gz
+[2023-06-08 09:14:45] INFO root fetch - processPackages [anyon]: Downloading https://files.pythonhosted.org/packages/99/22/0f0dc928f6a78179d196df226337ee8f4d3a6e558328c91a163240dbf5c3/anyon-3.2.4-cp311-cp311-win_amd64.whl
+[2023-06-08 09:14:45] INFO root fetch - processPackages [iOSReSignApp]: Downloading https://files.pythonhosted.org/packages/07/b5/f159c6fa6f9327d8529bc53b98021aafcdc6f5092458e06f6f017b6ed04f/iOSReSignApp-1.5.5.tar.gz
+[2023-06-08 09:14:45] INFO root fetch - processPackages [mxcubecore]: Downloading https://files.pythonhosted.org/packages/09/c6/7f28e17324f006c78a734a9d079f63877e9be1a4793c819bf8330f0290b9/mxcubecore-1.0.0.tar.gz
+[2023-06-08 09:14:45] INFO root fetch - processPackages [milvus-ingestion]: Downloading https://files.pythonhosted.org/packages/f0/ae/057036e1e96b4659846719c7da08384ee8fdbd9d362dcf9ce3d46b2630d2/milvus-ingestion-0.4.0.tar.gz
+[2023-06-08 09:14:45] INFO root fetch - processPackages [django-mptt2]: Downloading https://files.pythonhosted.org/packages/ee/14/9ae5cac6dd16393ac45fa9b3b5ebdc8ac542986211f92e3db76b562c7190/django-mptt2-0.1.0.tar.gz
+[2023-06-08 09:14:45] INFO root fetch - processPackages [ubi-population-tool]: Downloading https://files.pythonhosted.org/packages/91/d0/210447413dbc8a53cb298ac1430e36baa05d99d980f2d63d7fa1c979fcaa/ubi-population-tool-0.8.0.tar.gz
+[2023-06-08 09:14:45] INFO root fetch - processPackages [pfizer-components]: Downloading https://files.pythonhosted.org/packages/79/be/39f3c52de7d662350436e219405bb0e421d43028f9938fc467bcea86d3f3/pfizer_components-0.1.1-py3-none-any.whl
+[2023-06-08 09:14:45] INFO root fetch - processPackages [muffin-rest]: Downloading https://files.pythonhosted.org/packages/e4/7c/d71aabd46a7e011207e661c327c1ecc9c740a3a4a5318a51f537cc4520a6/muffin_rest-5.1.2.tar.gz
+[2023-06-08 09:14:45] INFO root fetch - processPackages [shioaji]: Downloading https://files.pythonhosted.org/packages/ae/4b/dbb32e7dcd707f6dbb40efe17c243b3a7a93a0709f45a04ff4bd948bcd9f/shioaji-1.1.4-cp39-cp39-win_amd64.whl
+[2023-06-08 09:14:45] INFO root fetch - processPackages [muffin-rest]: executing diffoscope
+[2023-06-08 09:14:45] INFO root fetch - processPackages [muffin-rest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/muffin_rest-5.1.1.tar.gz tmp/muffin_rest-5.1.2.tar.gz --markdown 20230608/m/muffin-rest/5.1.1-5.1.2/diff.md --exclude *.pyd
+[2023-06-08 09:14:45] INFO root fetch - processPackages [mxcube-video-streamer]: Downloading https://files.pythonhosted.org/packages/45/47/733b4e77d0e2c270d762dcf2dce6df7fc844b814d2647c50070e1bcadc30/mxcube_video_streamer-1.0.0.tar.gz
+[2023-06-08 09:14:45] INFO root fetch - processPackages [pfizer-components]: executing diffoscope
+[2023-06-08 09:14:45] INFO root fetch - processPackages [pfizer-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pfizer_components-0.1.0-py3-none-any.whl.zip tmp/pfizer_components-0.1.1-py3-none-any.whl.zip --markdown 20230608/p/pfizer-components/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-08 09:14:45] INFO root fetch - processPackages [anyon]: Downloading https://files.pythonhosted.org/packages/d6/5f/09ad6a9618b88017068ed0cbb6a78af8a1c6679b5a6803786207a822c55e/anyon-3.4.3-cp311-cp311-win_amd64.whl
+[2023-06-08 09:14:45] INFO root fetch - processPackages [mxcube-video-streamer]: executing diffoscope
+[2023-06-08 09:14:45] INFO root fetch - processPackages [mxcube-video-streamer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mxcube_video_streamer-0.0.0.tar.gz tmp/mxcube_video_streamer-1.0.0.tar.gz --markdown 20230608/m/mxcube-video-streamer/0.0.0-1.0.0/diff.md --exclude *.pyd
+[2023-06-08 09:14:45] INFO root fetch - processPackages [milvus-ingestion]: Downloading https://files.pythonhosted.org/packages/eb/3f/7f0b7a6d7c5e06ac3a4e4959c8b320952dcb4fa79564c018feb21159f650/milvus-ingestion-0.5.0.tar.gz
+[2023-06-08 09:14:45] INFO root fetch - processPackages [iOSReSignApp]: Downloading https://files.pythonhosted.org/packages/b1/49/04c370d471f7b5493bb743b8bc738e707e57107982072f7e7f4530b8aad7/iOSReSignApp-1.5.6.tar.gz
+[2023-06-08 09:14:45] INFO root fetch - processPackages [anyon]: executing diffoscope
+[2023-06-08 09:14:45] INFO root fetch - processPackages [anyon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anyon-3.2.4-cp311-cp311-win_amd64.whl.zip tmp/anyon-3.4.3-cp311-cp311-win_amd64.whl.zip --markdown 20230608/a/anyon/3.2.4-3.4.3/diff.md --exclude *.pyd
+[2023-06-08 09:14:45] INFO root fetch - processPackages [milvus-ingestion]: executing diffoscope
+[2023-06-08 09:14:45] INFO root fetch - processPackages [milvus-ingestion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/milvus-ingestion-0.4.0.tar.gz tmp/milvus-ingestion-0.5.0.tar.gz --markdown 20230608/m/milvus-ingestion/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-06-08 09:14:45] INFO root fetch - processPackages [iOSReSignApp]: executing diffoscope
+[2023-06-08 09:14:45] INFO root fetch - processPackages [iOSReSignApp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iOSReSignApp-1.5.5.tar.gz tmp/iOSReSignApp-1.5.6.tar.gz --markdown 20230608/i/iOSReSignApp/1.5.5-1.5.6/diff.md --exclude *.pyd
+[2023-06-08 09:14:45] INFO root fetch - processPackages [django-mptt2]: Downloading https://files.pythonhosted.org/packages/77/e9/1b691ab00216fbd145ff42adad91b83174bea50680d94633eb97a3f0ebde/django-mptt2-0.1.1.tar.gz
+[2023-06-08 09:14:45] INFO root fetch - processPackages [shioaji]: Downloading https://files.pythonhosted.org/packages/5f/ac/80786da8f83340de38423cbff90d2e22d334538da4613eb92c53e674df2c/shioaji-1.1.5-cp39-cp39-win_amd64.whl
+[2023-06-08 09:14:45] INFO root fetch - processPackages [django-mptt2]: executing diffoscope
+[2023-06-08 09:14:45] INFO root fetch - processPackages [django-mptt2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-mptt2-0.1.0.tar.gz tmp/django-mptt2-0.1.1.tar.gz --markdown 20230608/d/django-mptt2/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-08 09:14:45] INFO root fetch - processPackages [shioaji]: executing diffoscope
+[2023-06-08 09:14:45] INFO root fetch - processPackages [shioaji]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shioaji-1.1.4-cp39-cp39-win_amd64.whl.zip tmp/shioaji-1.1.5-cp39-cp39-win_amd64.whl.zip --markdown 20230608/s/shioaji/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-06-08 09:14:46] INFO root fetch - processPackages [ubi-population-tool]: Downloading https://files.pythonhosted.org/packages/25/a1/19e30b957f08c4a84a747fbb8f8d3484c6450f7f45341f80ea209d8c5f9f/ubi-population-tool-0.9.0.tar.gz
+[2023-06-08 09:14:46] INFO root fetch - processPackages [mxcubecore]: Downloading https://files.pythonhosted.org/packages/11/da/1b7746d0f8ee767c0ed7d8469465b60ece2b8f8fc43aa505ea8081f6f6a8/mxcubecore-1.6.0.tar.gz
+[2023-06-08 09:14:46] WARNING root fetch - processPackages [mxcubecore]: Skipping package: exceeds size limit 29045689>=10485760
+[2023-06-08 09:14:46] INFO root fetch - processPackages [mxcubecore]: Start processing: mxcubeweb
+[2023-06-08 09:14:46] INFO root fetch - main [MainThread]: End processing [mxcubecore] error
+[2023-06-08 09:14:46] WARNING root fetch - processPackages [mxcubeweb]: Skipping, unable to determine old version
+[2023-06-08 09:14:46] INFO root fetch - processPackages [mxcubeweb]: Start processing: django-data-browser
+[2023-06-08 09:14:46] INFO root fetch - main [MainThread]: End processing [mxcubeweb] error
+[2023-06-08 09:14:46] INFO root fetch - processPackages [django-data-browser]: New version: [4.2.2] Old Version: [4.2.1]
+[2023-06-08 09:14:46] INFO root fetch - processPackages [ubi-population-tool]: executing diffoscope
+[2023-06-08 09:14:46] INFO root fetch - processPackages [ubi-population-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ubi-population-tool-0.8.0.tar.gz tmp/ubi-population-tool-0.9.0.tar.gz --markdown 20230608/u/ubi-population-tool/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-08 09:14:46] INFO root fetch - processPackages [django-data-browser]: Downloading https://files.pythonhosted.org/packages/08/ba/c6410522f67aa574b63e26f7c671a2f334cf79a92c1e029460d383b498b9/django-data-browser-4.2.1.tar.gz
+[2023-06-08 09:14:47] INFO root fetch - processPackages [django-data-browser]: Downloading https://files.pythonhosted.org/packages/ae/5a/941a87d31d53593d065d4040d4c4cafdc0f085409283ea6671f240e7c968/django-data-browser-4.2.2.tar.gz
+[2023-06-08 09:14:47] INFO root fetch - processPackages [anyon]: Remove: archive file [/home/abi/fetcher/tmp/anyon-3.2.4-cp311-cp311-win_amd64.whl.zip]
+[2023-06-08 09:14:47] INFO root fetch - processPackages [anyon]: Remove: archive file [/home/abi/fetcher/tmp/anyon-3.4.3-cp311-cp311-win_amd64.whl.zip]
+[2023-06-08 09:14:47] INFO root fetch - processPackages [anyon]: Start processing: zhousf-lib
+[2023-06-08 09:14:47] INFO root fetch - main [MainThread]: End processing [anyon]: success
+[2023-06-08 09:14:47] INFO root fetch - processPackages [django-data-browser]: executing diffoscope
+[2023-06-08 09:14:47] INFO root fetch - processPackages [django-data-browser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-data-browser-4.2.1.tar.gz tmp/django-data-browser-4.2.2.tar.gz --markdown 20230608/d/django-data-browser/4.2.1-4.2.2/diff.md --exclude *.pyd
+[2023-06-08 09:14:47] INFO root fetch - processPackages [zhousf-lib]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-06-08 09:14:47] INFO root fetch - processPackages [muffin-rest]: Remove: archive file [/home/abi/fetcher/tmp/muffin_rest-5.1.1.tar.gz]
+[2023-06-08 09:14:47] INFO root fetch - processPackages [muffin-rest]: Remove: archive file [/home/abi/fetcher/tmp/muffin_rest-5.1.2.tar.gz]
+[2023-06-08 09:14:47] INFO root fetch - processPackages [muffin-rest]: Start processing: xj-user
+[2023-06-08 09:14:47] INFO root fetch - main [MainThread]: End processing [muffin-rest]: success
+[2023-06-08 09:14:47] INFO root fetch - processPackages [xj-user]: New version: [1.2.99] Old Version: [1.2.98]
+[2023-06-08 09:14:47] INFO root fetch - processPackages [iOSReSignApp]: Remove: archive file [/home/abi/fetcher/tmp/iOSReSignApp-1.5.5.tar.gz]
+[2023-06-08 09:14:47] INFO root fetch - processPackages [iOSReSignApp]: Remove: archive file [/home/abi/fetcher/tmp/iOSReSignApp-1.5.6.tar.gz]
+[2023-06-08 09:14:47] INFO root fetch - processPackages [iOSReSignApp]: Start processing: pepperize.cdk-apigateway-swagger-ui
+[2023-06-08 09:14:47] INFO root fetch - main [MainThread]: End processing [iOSReSignApp]: success
+[2023-06-08 09:14:47] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-06-08 09:14:47] INFO root fetch - processPackages [zhousf-lib]: Downloading https://files.pythonhosted.org/packages/0f/87/62a3312b76801929de059d1ec1c68e4fa3fdd9d3a25dbc65214de894998a/zhousf-lib-0.6.1.tar.gz
+[2023-06-08 09:14:47] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/b5/4b/0742a4ab14bdc0e7e1a1efa5e089f45c05c18e939582e562ff5095837d67/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz
+[2023-06-08 09:14:47] INFO root fetch - processPackages [django-mptt2]: Remove: archive file [/home/abi/fetcher/tmp/django-mptt2-0.1.0.tar.gz]
+[2023-06-08 09:14:47] INFO root fetch - processPackages [django-mptt2]: Remove: archive file [/home/abi/fetcher/tmp/django-mptt2-0.1.1.tar.gz]
+[2023-06-08 09:14:47] INFO root fetch - processPackages [django-mptt2]: Start processing: py_dev_support
+[2023-06-08 09:14:47] INFO root fetch - processPackages [pfizer-components]: Remove: archive file [/home/abi/fetcher/tmp/pfizer_components-0.1.0-py3-none-any.whl.zip]
+[2023-06-08 09:14:47] INFO root fetch - main [MainThread]: End processing [django-mptt2]: success
+[2023-06-08 09:14:47] INFO root fetch - processPackages [pfizer-components]: Remove: archive file [/home/abi/fetcher/tmp/pfizer_components-0.1.1-py3-none-any.whl.zip]
+[2023-06-08 09:14:47] INFO root fetch - processPackages [pfizer-components]: Start processing: pulumiverse-buildkite
+[2023-06-08 09:14:47] INFO root fetch - main [MainThread]: End processing [pfizer-components]: success
+[2023-06-08 09:14:47] INFO root fetch - processPackages [pulumiverse-buildkite]: New version: [2.1.0] Old Version: [2.0.0]
+[2023-06-08 09:14:47] INFO root fetch - processPackages [py_dev_support]: New version: [0.1.14] Old Version: [0.1.13]
+[2023-06-08 09:14:47] INFO root fetch - processPackages [milvus-ingestion]: Remove: archive file [/home/abi/fetcher/tmp/milvus-ingestion-0.4.0.tar.gz]
+[2023-06-08 09:14:47] INFO root fetch - processPackages [milvus-ingestion]: Remove: archive file [/home/abi/fetcher/tmp/milvus-ingestion-0.5.0.tar.gz]
+[2023-06-08 09:14:47] INFO root fetch - processPackages [milvus-ingestion]: Start processing: lazyearth
+[2023-06-08 09:14:47] INFO root fetch - main [MainThread]: End processing [milvus-ingestion]: success
+[2023-06-08 09:14:47] INFO root fetch - processPackages [xj-user]: Downloading https://files.pythonhosted.org/packages/26/be/e0d28eecf05fff47ab8dc5bf0e46eff90f3cee3ae03596f052698e5df93d/xj_user-1.2.98.tar.gz
+[2023-06-08 09:14:47] WARNING root fetch - processPackages [zhousf-lib]: Skipping package: exceeds size limit 14956083>=10485760
+[2023-06-08 09:14:47] INFO root fetch - main [MainThread]: End processing [zhousf-lib] error
+[2023-06-08 09:14:47] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/c7/46/0f42bc025c61bcf7528be4662164372850647ddcc00ec2a211a0b9e071cc/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz
+[2023-06-08 09:14:47] INFO root fetch - processPackages [lazyearth]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-06-08 09:14:47] INFO root fetch - processPackages [lazyearth]: Downloading https://files.pythonhosted.org/packages/d9/c7/af1d2c78694d1c93c56f540f2905e5ba84ce2e701c057e6ed55b4a5924bd/lazyearth-1.0.7.tar.gz
+[2023-06-08 09:14:47] INFO root fetch - processPackages [pulumiverse-buildkite]: Downloading https://files.pythonhosted.org/packages/b2/8b/c1f05ebc065252313b40547658319c85a0ddf9bbc2252a81fae13e028bf8/pulumiverse_buildkite-2.0.0.tar.gz
+[2023-06-08 09:14:47] INFO root fetch - processPackages [py_dev_support]: Downloading https://files.pythonhosted.org/packages/b2/b6/b6ca958694c3e95f2cc98e0fa0938b2898d84254f149a2eeaab40836e6ed/py_dev_support-0.1.13.tar.gz
+[2023-06-08 09:14:47] INFO root fetch - processPackages [lazyearth]: Downloading https://files.pythonhosted.org/packages/57/a4/1f336b2de35597565a2417d8be51639317ff136edaf8e169f5f0828f24fc/lazyearth-1.0.8.tar.gz
+[2023-06-08 09:14:47] INFO root fetch - processPackages [lazyearth]: executing diffoscope
+[2023-06-08 09:14:47] INFO root fetch - processPackages [lazyearth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazyearth-1.0.7.tar.gz tmp/lazyearth-1.0.8.tar.gz --markdown 20230608/l/lazyearth/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-06-08 09:14:47] INFO root fetch - processPackages [xj-user]: Downloading https://files.pythonhosted.org/packages/f9/79/9b7536f52cd2a21b092678ce5bc888a17a7c527cef9ae891d864354f2e5c/xj_user-1.2.99.tar.gz
+[2023-06-08 09:14:47] INFO root fetch - processPackages [xj-user]: executing diffoscope
+[2023-06-08 09:14:47] INFO root fetch - processPackages [xj-user]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_user-1.2.98.tar.gz tmp/xj_user-1.2.99.tar.gz --markdown 20230608/x/xj-user/1.2.98-1.2.99/diff.md --exclude *.pyd
+[2023-06-08 09:14:47] INFO root fetch - processPackages [py_dev_support]: Downloading https://files.pythonhosted.org/packages/ec/1f/3353ab386d9f80952f636041ec0430d15d809dac58383ea478096b3f4a46/py_dev_support-0.1.14.tar.gz
+[2023-06-08 09:14:47] INFO root fetch - processPackages [pulumiverse-buildkite]: Downloading https://files.pythonhosted.org/packages/f9/3d/74ae19213867a64007cbfab680ba95f0032c23b049f0bbdcc222f13b5c22/pulumiverse_buildkite-2.1.0.tar.gz
+[2023-06-08 09:14:47] INFO root fetch - processPackages [py_dev_support]: executing diffoscope
+[2023-06-08 09:14:47] INFO root fetch - processPackages [py_dev_support]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_dev_support-0.1.13.tar.gz tmp/py_dev_support-0.1.14.tar.gz --markdown 20230608/p/py_dev_support/0.1.13-0.1.14/diff.md --exclude *.pyd
+[2023-06-08 09:14:47] INFO root fetch - processPackages [pulumiverse-buildkite]: executing diffoscope
+[2023-06-08 09:14:47] INFO root fetch - processPackages [pulumiverse-buildkite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumiverse_buildkite-2.0.0.tar.gz tmp/pulumiverse_buildkite-2.1.0.tar.gz --markdown 20230608/p/pulumiverse-buildkite/2.0.0-2.1.0/diff.md --exclude *.pyd
+[2023-06-08 09:14:48] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: executing diffoscope
+[2023-06-08 09:14:48] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz --markdown 20230608/p/pepperize.cdk-apigateway-swagger-ui/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-06-08 09:14:48] INFO root fetch - processPackages [ubi-population-tool]: Remove: archive file [/home/abi/fetcher/tmp/ubi-population-tool-0.8.0.tar.gz]
+[2023-06-08 09:14:48] INFO root fetch - processPackages [ubi-population-tool]: Remove: archive file [/home/abi/fetcher/tmp/ubi-population-tool-0.9.0.tar.gz]
+[2023-06-08 09:14:48] INFO root fetch - main [MainThread]: End processing [ubi-population-tool]: success
+[2023-06-08 09:14:48] INFO root fetch - processPackages [lazyearth]: Remove: archive file [/home/abi/fetcher/tmp/lazyearth-1.0.7.tar.gz]
+[2023-06-08 09:14:48] INFO root fetch - processPackages [lazyearth]: Remove: archive file [/home/abi/fetcher/tmp/lazyearth-1.0.8.tar.gz]
+[2023-06-08 09:14:48] INFO root fetch - main [MainThread]: End processing [lazyearth]: success
+[2023-06-08 09:14:49] INFO root fetch - processPackages [py_dev_support]: Remove: archive file [/home/abi/fetcher/tmp/py_dev_support-0.1.13.tar.gz]
+[2023-06-08 09:14:49] INFO root fetch - processPackages [py_dev_support]: Remove: archive file [/home/abi/fetcher/tmp/py_dev_support-0.1.14.tar.gz]
+[2023-06-08 09:14:49] INFO root fetch - main [MainThread]: End processing [py_dev_support]: success
+[2023-06-08 09:14:49] INFO root fetch - processPackages [django-data-browser]: Remove: archive file [/home/abi/fetcher/tmp/django-data-browser-4.2.1.tar.gz]
+[2023-06-08 09:14:49] INFO root fetch - processPackages [django-data-browser]: Remove: archive file [/home/abi/fetcher/tmp/django-data-browser-4.2.2.tar.gz]
+[2023-06-08 09:14:49] INFO root fetch - main [MainThread]: End processing [django-data-browser]: success
+[2023-06-08 09:14:49] INFO root fetch - processPackages [pulumiverse-buildkite]: Remove: archive file [/home/abi/fetcher/tmp/pulumiverse_buildkite-2.0.0.tar.gz]
+[2023-06-08 09:14:49] INFO root fetch - processPackages [pulumiverse-buildkite]: Remove: archive file [/home/abi/fetcher/tmp/pulumiverse_buildkite-2.1.0.tar.gz]
+[2023-06-08 09:14:49] INFO root fetch - main [MainThread]: End processing [pulumiverse-buildkite]: success
+[2023-06-08 09:14:49] INFO root fetch - processPackages [mxcube-video-streamer]: Remove: archive file [/home/abi/fetcher/tmp/mxcube_video_streamer-0.0.0.tar.gz]
+[2023-06-08 09:14:49] INFO root fetch - processPackages [mxcube-video-streamer]: Remove: archive file [/home/abi/fetcher/tmp/mxcube_video_streamer-1.0.0.tar.gz]
+[2023-06-08 09:14:49] INFO root fetch - main [MainThread]: End processing [mxcube-video-streamer]: success
+[2023-06-08 09:14:49] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz]
+[2023-06-08 09:14:49] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz]
+[2023-06-08 09:14:49] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
+[2023-06-08 09:14:49] INFO root fetch - processPackages [xj-user]: Remove: archive file [/home/abi/fetcher/tmp/xj_user-1.2.98.tar.gz]
+[2023-06-08 09:14:49] INFO root fetch - processPackages [xj-user]: Remove: archive file [/home/abi/fetcher/tmp/xj_user-1.2.99.tar.gz]
+[2023-06-08 09:14:49] INFO root fetch - main [MainThread]: End processing [xj-user]: success
+[2023-06-08 09:14:50] INFO root fetch - processPackages [shioaji]: Remove: archive file [/home/abi/fetcher/tmp/shioaji-1.1.4-cp39-cp39-win_amd64.whl.zip]
+[2023-06-08 09:14:50] INFO root fetch - processPackages [shioaji]: Remove: archive file [/home/abi/fetcher/tmp/shioaji-1.1.5-cp39-cp39-win_amd64.whl.zip]
+[2023-06-08 09:14:50] INFO root fetch - main [MainThread]: End processing [shioaji]: success
+[2023-06-08 09:14:50] INFO root fetch - main [MainThread]: Store serial: [18420909]
