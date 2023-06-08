@@ -19846,3 +19846,99 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-06-08 09:58:18] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip]
 [2023-06-08 09:58:18] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
 [2023-06-08 09:58:18] INFO root fetch - main [MainThread]: Store serial: [18421270]
+[2023-06-08 10:03:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18421270]
+[2023-06-08 10:03:28] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-08 10:03:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pipeline-feature
+[2023-06-08 10:03:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: graphce
+[2023-06-08 10:03:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lincs
+[2023-06-08 10:03:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dummy-kinematics
+[2023-06-08 10:03:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ensta
+[2023-06-08 10:03:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: procuret
+[2023-06-08 10:03:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: zipline-tej
+[2023-06-08 10:03:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nunchaku
+[2023-06-08 10:03:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: zesty.zbs-api-securonix
+[2023-06-08 10:03:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: aioairzone-cloud
+[2023-06-08 10:03:29] INFO root fetch - processPackages [pipeline-feature]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-08 10:03:29] INFO root fetch - processPackages [aioairzone-cloud]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-08 10:03:29] INFO root fetch - processPackages [zipline-tej]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-08 10:03:29] WARNING root fetch - processPackages [graphce]: Skipping, unable to determine old version
+[2023-06-08 10:03:29] INFO root fetch - processPackages [graphce]: Start processing: state-space-generator
+[2023-06-08 10:03:29] INFO root fetch - main [MainThread]: End processing [graphce] error
+[2023-06-08 10:03:29] INFO root fetch - processPackages [procuret]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-08 10:03:29] INFO root fetch - processPackages [lincs]: New version: [0.4.0] Old Version: [0.3.7]
+[2023-06-08 10:03:29] INFO root fetch - processPackages [zesty.zbs-api-securonix]: New version: [1.0.2023.6.8.1686211382] Old Version: [1.0.2023.6.5.1685967950]
+[2023-06-08 10:03:29] INFO root fetch - processPackages [ensta]: New version: [1.2] Old Version: [1.1]
+[2023-06-08 10:03:29] INFO root fetch - processPackages [nunchaku]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-08 10:03:29] INFO root fetch - processPackages [dummy-kinematics]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-08 10:03:29] INFO root fetch - processPackages [zipline-tej]: Downloading https://files.pythonhosted.org/packages/81/74/1c77fcc7996870f973250f70f5fd993fbdf66e25b3c8f01eb1d263d75c6a/zipline-tej-0.0.8.tar.gz
+[2023-06-08 10:03:29] INFO root fetch - processPackages [ensta]: Downloading https://files.pythonhosted.org/packages/11/67/8e4193ac55a26f1166ea1a62feb0a196fb758231937b6a71c1c2a9c7d959/ensta-1.1.tar.gz
+[2023-06-08 10:03:29] INFO root fetch - processPackages [state-space-generator]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-08 10:03:29] INFO root fetch - processPackages [zipline-tej]: Downloading https://files.pythonhosted.org/packages/84/15/b5579d7eb6cdb4cc9d6c22c0f36086080b26eabdda5b9d6a1f9a7f8f8df6/zipline-tej-0.0.9.tar.gz
+[2023-06-08 10:03:29] INFO root fetch - processPackages [aioairzone-cloud]: Downloading https://files.pythonhosted.org/packages/d5/38/0346caf3fb3b7f57bccd49e726c18891744c754b2153b63f81017ba066e6/aioairzone-cloud-0.1.7.tar.gz
+[2023-06-08 10:03:29] INFO root fetch - processPackages [lincs]: Downloading https://files.pythonhosted.org/packages/a2/7f/2aa61aaed81a638fbd3d907189a41eda7fd216b41a2f3869b82306880a46/lincs-0.3.7.tar.gz
+[2023-06-08 10:03:29] INFO root fetch - processPackages [zesty.zbs-api-securonix]: Downloading https://files.pythonhosted.org/packages/12/bf/4cdfe774f9ab0bcfa5023dcbcd5cf38ffad6f25339384794489f8ae1594a/zesty.zbs-api-securonix-1.0.2023.6.5.1685967950.tar.gz
+[2023-06-08 10:03:29] INFO root fetch - processPackages [procuret]: Downloading https://files.pythonhosted.org/packages/db/55/e814ec1276674fee30cda18258fe788724ffe5176e4ac40a05e6d3d3c1e2/procuret-0.0.8.tar.gz
+[2023-06-08 10:03:29] INFO root fetch - processPackages [pipeline-feature]: Downloading https://files.pythonhosted.org/packages/f3/4a/2e80d65029b16741c3837546037e85683a420fa8ed5653d5378655998e68/pipeline-feature-0.0.8.tar.gz
+[2023-06-08 10:03:29] INFO root fetch - processPackages [dummy-kinematics]: Downloading https://files.pythonhosted.org/packages/a4/7b/af37ab929aa9cff0f32639a911cbe61bfb13f40509d3d18a92dcd1badfd6/dummy_kinematics-0.0.8.tar.gz
+[2023-06-08 10:03:29] INFO root fetch - processPackages [nunchaku]: Downloading https://files.pythonhosted.org/packages/89/f9/0d457f52e7312f50884bba65c472eb79a9f40093f57a2d1d7dbb80644c45/nunchaku-0.8.0.tar.gz
+[2023-06-08 10:03:29] INFO root fetch - processPackages [zipline-tej]: executing diffoscope
+[2023-06-08 10:03:29] INFO root fetch - processPackages [zipline-tej]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zipline-tej-0.0.8.tar.gz tmp/zipline-tej-0.0.9.tar.gz --markdown 20230608/z/zipline-tej/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-08 10:03:29] INFO root fetch - processPackages [ensta]: Downloading https://files.pythonhosted.org/packages/22/db/097dbb02a5b9d30c9c19e875a78564d7347c8ca6bde29f7db2b9e480f4c6/ensta-1.2.tar.gz
+[2023-06-08 10:03:29] INFO root fetch - processPackages [state-space-generator]: Downloading https://files.pythonhosted.org/packages/b4/96/d4245ae474b5d2a537be7d671cde3b5869f9d7b5906acb5c62b37b7eadac/state_space_generator-0.1.7.tar.gz
+[2023-06-08 10:03:29] INFO root fetch - processPackages [ensta]: executing diffoscope
+[2023-06-08 10:03:29] INFO root fetch - processPackages [ensta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ensta-1.1.tar.gz tmp/ensta-1.2.tar.gz --markdown 20230608/e/ensta/1.1-1.2/diff.md --exclude *.pyd
+[2023-06-08 10:03:29] INFO root fetch - processPackages [zesty.zbs-api-securonix]: Downloading https://files.pythonhosted.org/packages/1f/94/dfef4cdfb5eb5ef9aa8178811e27d51bdb2191b8d726e4f54e0578914705/zesty.zbs-api-securonix-1.0.2023.6.8.1686211382.tar.gz
+[2023-06-08 10:03:29] INFO root fetch - processPackages [aioairzone-cloud]: Downloading https://files.pythonhosted.org/packages/56/b8/3606b792ab179eb2b2922541215c89611817b832788e3cad8d76c81c78a4/aioairzone-cloud-0.1.8.tar.gz
+[2023-06-08 10:03:29] INFO root fetch - processPackages [zesty.zbs-api-securonix]: executing diffoscope
+[2023-06-08 10:03:29] INFO root fetch - processPackages [zesty.zbs-api-securonix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zesty.zbs-api-securonix-1.0.2023.6.5.1685967950.tar.gz tmp/zesty.zbs-api-securonix-1.0.2023.6.8.1686211382.tar.gz --markdown 20230608/z/zesty.zbs-api-securonix/1.0.2023.6.5.1685967950-1.0.2023.6.8.1686211382/diff.md --exclude *.pyd
+[2023-06-08 10:03:29] INFO root fetch - processPackages [lincs]: Downloading https://files.pythonhosted.org/packages/ea/f0/b72b900a3b9db7f9cebdda7931c848fe36c959f90a39668ecff65215f529/lincs-0.4.0.tar.gz
+[2023-06-08 10:03:29] INFO root fetch - processPackages [aioairzone-cloud]: executing diffoscope
+[2023-06-08 10:03:29] INFO root fetch - processPackages [aioairzone-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioairzone-cloud-0.1.7.tar.gz tmp/aioairzone-cloud-0.1.8.tar.gz --markdown 20230608/a/aioairzone-cloud/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-08 10:03:29] INFO root fetch - processPackages [pipeline-feature]: Downloading https://files.pythonhosted.org/packages/2d/7d/8d87cbdf414b1b7a2a9cc9b2bd5f360572b7da334ce7f3ff61009413e3d6/pipeline-feature-0.0.9.tar.gz
+[2023-06-08 10:03:29] INFO root fetch - processPackages [lincs]: executing diffoscope
+[2023-06-08 10:03:29] INFO root fetch - processPackages [dummy-kinematics]: Downloading https://files.pythonhosted.org/packages/63/a0/5915b363048bb6cad23c49dc0e1b27d6bd77ccdbc5f9c3e1af9778c63886/dummy_kinematics-0.0.9.tar.gz
+[2023-06-08 10:03:29] INFO root fetch - processPackages [lincs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lincs-0.3.7.tar.gz tmp/lincs-0.4.0.tar.gz --markdown 20230608/l/lincs/0.3.7-0.4.0/diff.md --exclude *.pyd
+[2023-06-08 10:03:29] INFO root fetch - processPackages [procuret]: Downloading https://files.pythonhosted.org/packages/0f/55/4a26771cff6e711310604e04c804960bb8e7d3c0ef512ace7476955047a4/procuret-0.0.9.tar.gz
+[2023-06-08 10:03:29] INFO root fetch - processPackages [pipeline-feature]: executing diffoscope
+[2023-06-08 10:03:29] INFO root fetch - processPackages [pipeline-feature]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipeline-feature-0.0.8.tar.gz tmp/pipeline-feature-0.0.9.tar.gz --markdown 20230608/p/pipeline-feature/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-08 10:03:29] INFO root fetch - processPackages [nunchaku]: Downloading https://files.pythonhosted.org/packages/47/fd/ee1b9ab8e0926d89375c4d1fd31e401e579194cec021026c7f29618c4623/nunchaku-0.9.0.tar.gz
+[2023-06-08 10:03:29] INFO root fetch - processPackages [dummy-kinematics]: executing diffoscope
+[2023-06-08 10:03:29] INFO root fetch - processPackages [dummy-kinematics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dummy_kinematics-0.0.8.tar.gz tmp/dummy_kinematics-0.0.9.tar.gz --markdown 20230608/d/dummy-kinematics/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-08 10:03:29] INFO root fetch - processPackages [state-space-generator]: Downloading https://files.pythonhosted.org/packages/0e/a6/9849cec0bd4a51da69022c20c4d4f9f761da69168907db089ea52751d24a/state_space_generator-0.1.8.tar.gz
+[2023-06-08 10:03:29] INFO root fetch - processPackages [procuret]: executing diffoscope
+[2023-06-08 10:03:29] INFO root fetch - processPackages [procuret]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/procuret-0.0.8.tar.gz tmp/procuret-0.0.9.tar.gz --markdown 20230608/p/procuret/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-08 10:03:29] INFO root fetch - processPackages [state-space-generator]: executing diffoscope
+[2023-06-08 10:03:29] INFO root fetch - processPackages [state-space-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/state_space_generator-0.1.7.tar.gz tmp/state_space_generator-0.1.8.tar.gz --markdown 20230608/s/state-space-generator/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-08 10:03:30] INFO root fetch - processPackages [nunchaku]: executing diffoscope
+[2023-06-08 10:03:30] INFO root fetch - processPackages [nunchaku]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nunchaku-0.8.0.tar.gz tmp/nunchaku-0.9.0.tar.gz --markdown 20230608/n/nunchaku/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-08 10:03:30] INFO root fetch - processPackages [ensta]: Remove: archive file [/home/abi/fetcher/tmp/ensta-1.1.tar.gz]
+[2023-06-08 10:03:30] INFO root fetch - processPackages [ensta]: Remove: archive file [/home/abi/fetcher/tmp/ensta-1.2.tar.gz]
+[2023-06-08 10:03:30] INFO root fetch - main [MainThread]: End processing [ensta]: success
+[2023-06-08 10:03:31] INFO root fetch - processPackages [pipeline-feature]: Remove: archive file [/home/abi/fetcher/tmp/pipeline-feature-0.0.8.tar.gz]
+[2023-06-08 10:03:31] INFO root fetch - processPackages [pipeline-feature]: Remove: archive file [/home/abi/fetcher/tmp/pipeline-feature-0.0.9.tar.gz]
+[2023-06-08 10:03:31] INFO root fetch - main [MainThread]: End processing [pipeline-feature]: success
+[2023-06-08 10:03:31] INFO root fetch - processPackages [dummy-kinematics]: Remove: archive file [/home/abi/fetcher/tmp/dummy_kinematics-0.0.8.tar.gz]
+[2023-06-08 10:03:31] INFO root fetch - processPackages [dummy-kinematics]: Remove: archive file [/home/abi/fetcher/tmp/dummy_kinematics-0.0.9.tar.gz]
+[2023-06-08 10:03:31] INFO root fetch - main [MainThread]: End processing [dummy-kinematics]: success
+[2023-06-08 10:03:31] INFO root fetch - processPackages [aioairzone-cloud]: Remove: archive file [/home/abi/fetcher/tmp/aioairzone-cloud-0.1.7.tar.gz]
+[2023-06-08 10:03:31] INFO root fetch - processPackages [aioairzone-cloud]: Remove: archive file [/home/abi/fetcher/tmp/aioairzone-cloud-0.1.8.tar.gz]
+[2023-06-08 10:03:31] INFO root fetch - main [MainThread]: End processing [aioairzone-cloud]: success
+[2023-06-08 10:03:31] INFO root fetch - processPackages [nunchaku]: Remove: archive file [/home/abi/fetcher/tmp/nunchaku-0.8.0.tar.gz]
+[2023-06-08 10:03:31] INFO root fetch - processPackages [nunchaku]: Remove: archive file [/home/abi/fetcher/tmp/nunchaku-0.9.0.tar.gz]
+[2023-06-08 10:03:31] INFO root fetch - main [MainThread]: End processing [nunchaku]: success
+[2023-06-08 10:03:31] INFO root fetch - processPackages [procuret]: Remove: archive file [/home/abi/fetcher/tmp/procuret-0.0.8.tar.gz]
+[2023-06-08 10:03:31] INFO root fetch - processPackages [procuret]: Remove: archive file [/home/abi/fetcher/tmp/procuret-0.0.9.tar.gz]
+[2023-06-08 10:03:31] INFO root fetch - main [MainThread]: End processing [procuret]: success
+[2023-06-08 10:03:31] INFO root fetch - processPackages [zesty.zbs-api-securonix]: Remove: archive file [/home/abi/fetcher/tmp/zesty.zbs-api-securonix-1.0.2023.6.5.1685967950.tar.gz]
+[2023-06-08 10:03:31] INFO root fetch - processPackages [zesty.zbs-api-securonix]: Remove: archive file [/home/abi/fetcher/tmp/zesty.zbs-api-securonix-1.0.2023.6.8.1686211382.tar.gz]
+[2023-06-08 10:03:31] INFO root fetch - main [MainThread]: End processing [zesty.zbs-api-securonix]: success
+[2023-06-08 10:03:31] INFO root fetch - processPackages [lincs]: Remove: archive file [/home/abi/fetcher/tmp/lincs-0.3.7.tar.gz]
+[2023-06-08 10:03:31] INFO root fetch - processPackages [lincs]: Remove: archive file [/home/abi/fetcher/tmp/lincs-0.4.0.tar.gz]
+[2023-06-08 10:03:31] INFO root fetch - main [MainThread]: End processing [lincs]: success
+[2023-06-08 10:03:32] INFO root fetch - processPackages [zipline-tej]: Remove: archive file [/home/abi/fetcher/tmp/zipline-tej-0.0.8.tar.gz]
+[2023-06-08 10:03:32] INFO root fetch - processPackages [zipline-tej]: Remove: archive file [/home/abi/fetcher/tmp/zipline-tej-0.0.9.tar.gz]
+[2023-06-08 10:03:32] INFO root fetch - main [MainThread]: End processing [zipline-tej]: success
+[2023-06-08 10:03:36] INFO root fetch - processPackages [state-space-generator]: Remove: archive file [/home/abi/fetcher/tmp/state_space_generator-0.1.7.tar.gz]
+[2023-06-08 10:03:36] INFO root fetch - processPackages [state-space-generator]: Remove: archive file [/home/abi/fetcher/tmp/state_space_generator-0.1.8.tar.gz]
+[2023-06-08 10:03:36] INFO root fetch - main [MainThread]: End processing [state-space-generator]: success
+[2023-06-08 10:03:36] INFO root fetch - main [MainThread]: Store serial: [18421306]
