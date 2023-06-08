@@ -20507,3 +20507,59 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-06-08 10:35:09] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.99.tar.gz]
 [2023-06-08 10:35:09] INFO root fetch - main [MainThread]: End processing [akshare]: success
 [2023-06-08 10:35:09] INFO root fetch - main [MainThread]: Store serial: [18421528]
+[2023-06-08 10:40:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18421528]
+[2023-06-08 10:40:18] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-08 10:40:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-eigen-ingenuity
+[2023-06-08 10:40:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: automation-file
+[2023-06-08 10:40:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: drf-misc
+[2023-06-08 10:40:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: eea.dexterity.indicators
+[2023-06-08 10:40:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: python-code-outline
+[2023-06-08 10:40:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: robotic
+[2023-06-08 10:40:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pymodaq-plugins-daqmx
+[2023-06-08 10:40:18] INFO root fetch - processPackages [python-eigen-ingenuity]: New version: [0.4.8.1] Old Version: [0.4.8]
+[2023-06-08 10:40:18] INFO root fetch - processPackages [eea.dexterity.indicators]: New version: [6.2] Old Version: [6.1]
+[2023-06-08 10:40:18] INFO root fetch - processPackages [pymodaq-plugins-daqmx]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-06-08 10:40:18] WARNING root fetch - processPackages [drf-misc]: Skipping, unable to determine old version
+[2023-06-08 10:40:18] INFO root fetch - processPackages [python-code-outline]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-08 10:40:18] INFO root fetch - main [MainThread]: End processing [drf-misc] error
+[2023-06-08 10:40:18] INFO root fetch - processPackages [automation-file]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-08 10:40:18] INFO root fetch - processPackages [robotic]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-08 10:40:18] INFO root fetch - processPackages [python-eigen-ingenuity]: Downloading https://files.pythonhosted.org/packages/84/89/3c53ff4be542cfc10c07f16d0437fc0c21897173bc9a04852f315de7f14e/python-eigen-ingenuity-0.4.8.tar.gz
+[2023-06-08 10:40:18] INFO root fetch - processPackages [python-code-outline]: Downloading https://files.pythonhosted.org/packages/81/b2/5be21ba131c2dab6325e77eb059c051813eff2164c6bbde0fa8a160cbf61/python_code_outline-0.1.5.tar.gz
+[2023-06-08 10:40:19] INFO root fetch - processPackages [eea.dexterity.indicators]: Downloading https://files.pythonhosted.org/packages/45/2e/4ef51a5f059356f3a122eb2befc78e5d21e0e52ff14502efffd0951ecaa3/eea.dexterity.indicators-6.1.zip
+[2023-06-08 10:40:19] INFO root fetch - processPackages [pymodaq-plugins-daqmx]: Downloading https://files.pythonhosted.org/packages/bd/f9/a3774fce6eb8f05d954499bbc9aebc07d6f77644724382e9b75d8ea34e7f/pymodaq_plugins_daqmx-0.1.0.tar.gz
+[2023-06-08 10:40:19] INFO root fetch - processPackages [automation-file]: Downloading https://files.pythonhosted.org/packages/2e/43/089cddb2d68fdf1a5b4a7f8dbb79093fe4cdf623d63c00257ed8c9ef3853/automation_file-0.0.3.tar.gz
+[2023-06-08 10:40:19] INFO root fetch - processPackages [robotic]: Downloading https://files.pythonhosted.org/packages/34/a9/a4575e5556c65e745516c498a2bfe9aaaf1b460ff5faa412b064787999e8/robotic-0.0.8-cp39-cp39-manylinux2014_x86_64.whl
+[2023-06-08 10:40:19] INFO root fetch - processPackages [python-eigen-ingenuity]: Downloading https://files.pythonhosted.org/packages/0a/87/4d2a072e2d00352e27192bb2cffc128d93ec8dd4b5374a4c0d2264af101e/python-eigen-ingenuity-0.4.8.1.tar.gz
+[2023-06-08 10:40:19] INFO root fetch - processPackages [python-code-outline]: Downloading https://files.pythonhosted.org/packages/a0/14/25bb34c9cf13c47a18a170d302c8e279f1c6c7e1a00a6f2b7b35d0402b8f/python_code_outline-0.1.6.tar.gz
+[2023-06-08 10:40:19] INFO root fetch - processPackages [python-eigen-ingenuity]: executing diffoscope
+[2023-06-08 10:40:19] INFO root fetch - processPackages [python-eigen-ingenuity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-eigen-ingenuity-0.4.8.tar.gz tmp/python-eigen-ingenuity-0.4.8.1.tar.gz --markdown 20230608/p/python-eigen-ingenuity/0.4.8-0.4.8.1/diff.md --exclude *.pyd
+[2023-06-08 10:40:19] INFO root fetch - processPackages [python-code-outline]: executing diffoscope
+[2023-06-08 10:40:19] INFO root fetch - processPackages [python-code-outline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_code_outline-0.1.5.tar.gz tmp/python_code_outline-0.1.6.tar.gz --markdown 20230608/p/python-code-outline/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-08 10:40:19] INFO root fetch - processPackages [eea.dexterity.indicators]: Downloading https://files.pythonhosted.org/packages/f0/91/b17c8c94a39a838a4fa28242220ad755e647c7602f1bf60ef66d886ad5bd/eea.dexterity.indicators-6.2.zip
+[2023-06-08 10:40:19] WARNING root fetch - processPackages [robotic]: Skipping package: exceeds size limit 12240177>=10485760
+[2023-06-08 10:40:19] INFO root fetch - main [MainThread]: End processing [robotic] error
+[2023-06-08 10:40:19] INFO root fetch - processPackages [eea.dexterity.indicators]: executing diffoscope
+[2023-06-08 10:40:19] INFO root fetch - processPackages [eea.dexterity.indicators]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eea.dexterity.indicators-6.1.zip tmp/eea.dexterity.indicators-6.2.zip --markdown 20230608/e/eea.dexterity.indicators/6.1-6.2/diff.md --exclude *.pyd
+[2023-06-08 10:40:19] INFO root fetch - processPackages [automation-file]: Downloading https://files.pythonhosted.org/packages/19/1c/fc61ae8bf26f2a62e3c9ed18b0a8fbeb2167a65cf47e1fd60246d14f6910/automation_file-0.0.4.tar.gz
+[2023-06-08 10:40:19] INFO root fetch - processPackages [automation-file]: executing diffoscope
+[2023-06-08 10:40:19] INFO root fetch - processPackages [automation-file]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automation_file-0.0.3.tar.gz tmp/automation_file-0.0.4.tar.gz --markdown 20230608/a/automation-file/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-08 10:40:19] INFO root fetch - processPackages [pymodaq-plugins-daqmx]: Downloading https://files.pythonhosted.org/packages/61/64/75e6e0e86cbb71d10d21a566537c7aedefd0a617635eab9dddf65bd50146/pymodaq_plugins_daqmx-0.2.0.tar.gz
+[2023-06-08 10:40:19] INFO root fetch - processPackages [pymodaq-plugins-daqmx]: executing diffoscope
+[2023-06-08 10:40:19] INFO root fetch - processPackages [pymodaq-plugins-daqmx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymodaq_plugins_daqmx-0.1.0.tar.gz tmp/pymodaq_plugins_daqmx-0.2.0.tar.gz --markdown 20230608/p/pymodaq-plugins-daqmx/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-06-08 10:40:20] INFO root fetch - processPackages [python-eigen-ingenuity]: Remove: archive file [/home/abi/fetcher/tmp/python-eigen-ingenuity-0.4.8.tar.gz]
+[2023-06-08 10:40:20] INFO root fetch - processPackages [python-eigen-ingenuity]: Remove: archive file [/home/abi/fetcher/tmp/python-eigen-ingenuity-0.4.8.1.tar.gz]
+[2023-06-08 10:40:20] INFO root fetch - main [MainThread]: End processing [python-eigen-ingenuity]: success
+[2023-06-08 10:40:20] INFO root fetch - processPackages [automation-file]: Remove: archive file [/home/abi/fetcher/tmp/automation_file-0.0.3.tar.gz]
+[2023-06-08 10:40:20] INFO root fetch - processPackages [automation-file]: Remove: archive file [/home/abi/fetcher/tmp/automation_file-0.0.4.tar.gz]
+[2023-06-08 10:40:20] INFO root fetch - main [MainThread]: End processing [automation-file]: success
+[2023-06-08 10:40:20] INFO root fetch - processPackages [python-code-outline]: Remove: archive file [/home/abi/fetcher/tmp/python_code_outline-0.1.5.tar.gz]
+[2023-06-08 10:40:20] INFO root fetch - processPackages [python-code-outline]: Remove: archive file [/home/abi/fetcher/tmp/python_code_outline-0.1.6.tar.gz]
+[2023-06-08 10:40:20] INFO root fetch - main [MainThread]: End processing [python-code-outline]: success
+[2023-06-08 10:40:20] INFO root fetch - processPackages [pymodaq-plugins-daqmx]: Remove: archive file [/home/abi/fetcher/tmp/pymodaq_plugins_daqmx-0.1.0.tar.gz]
+[2023-06-08 10:40:20] INFO root fetch - processPackages [pymodaq-plugins-daqmx]: Remove: archive file [/home/abi/fetcher/tmp/pymodaq_plugins_daqmx-0.2.0.tar.gz]
+[2023-06-08 10:40:20] INFO root fetch - main [MainThread]: End processing [pymodaq-plugins-daqmx]: success
+[2023-06-08 10:40:21] INFO root fetch - processPackages [eea.dexterity.indicators]: Remove: archive file [/home/abi/fetcher/tmp/eea.dexterity.indicators-6.1.zip]
+[2023-06-08 10:40:21] INFO root fetch - processPackages [eea.dexterity.indicators]: Remove: archive file [/home/abi/fetcher/tmp/eea.dexterity.indicators-6.2.zip]
+[2023-06-08 10:40:21] INFO root fetch - main [MainThread]: End processing [eea.dexterity.indicators]: success
+[2023-06-08 10:40:21] INFO root fetch - main [MainThread]: Store serial: [18421556]
