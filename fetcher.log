@@ -15136,3 +15136,351 @@ AssertionError: tmp/odoo_addon_hr_personal_equipment_request-16.0.1.0.0.7-py3-no
 [2023-06-08 06:51:03] INFO root fetch - processPackages [acryl-datahub]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-0.9.6rc1.tar.gz]
 [2023-06-08 06:51:03] INFO root fetch - main [MainThread]: End processing [acryl-datahub]: success
 [2023-06-08 06:51:03] INFO root fetch - main [MainThread]: Store serial: [18419745]
+[2023-06-08 06:56:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18419745]
+[2023-06-08 06:56:12] INFO root fetch - main [MainThread]: Found 30 changed packages
+[2023-06-08 06:56:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo8-addon-project-classification
+[2023-06-08 06:56:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo9-addon-project-task-delegate
+[2023-06-08 06:56:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo8-addon-project-gtd
+[2023-06-08 06:56:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo8-addon-project-issue-reassign
+[2023-06-08 06:56:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo8-addon-project-recalculate
+[2023-06-08 06:56:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: autotrading
+[2023-06-08 06:56:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: autotrading
+[2023-06-08 06:56:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: autotrading
+[2023-06-08 06:56:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aind-data-schema
+[2023-06-08 06:56:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: autotrading
+[2023-06-08 06:56:12] INFO root fetch - processPackages [odoo8-addon-project-classification]: New version: [8.0.1.0.0.99.dev49] Old Version: [8.0.1.0.0.99.dev47]
+[2023-06-08 06:56:12] INFO root fetch - processPackages [odoo9-addon-project-task-delegate]: New version: [9.0.1.0.0.99.dev8] Old Version: [9.0.1.0.0.99.dev7]
+[2023-06-08 06:56:12] INFO root fetch - processPackages [odoo8-addon-project-recalculate]: New version: [8.0.1.0.0.99.dev35] Old Version: [8.0.1.0.0.99.dev33]
+[2023-06-08 06:56:12] INFO root fetch - processPackages [autotrading]: New version: [0.9.0] Old Version: [0.8.8]
+[2023-06-08 06:56:12] INFO root fetch - processPackages [autotrading]: New version: [0.9.0] Old Version: [0.8.8]
+[2023-06-08 06:56:12] INFO root fetch - processPackages [autotrading]: New version: [0.9.0] Old Version: [0.8.8]
+[2023-06-08 06:56:12] INFO root fetch - processPackages [odoo8-addon-project-gtd]: New version: [8.0.2.0.0.99.dev9] Old Version: [8.0.2.0.0.99.dev36]
+[2023-06-08 06:56:12] INFO root fetch - processPackages [odoo8-addon-project-issue-reassign]: New version: [8.0.1.1.0.99.dev9] Old Version: [8.0.1.1.0.99.dev8]
+[2023-06-08 06:56:12] INFO root fetch - processPackages [autotrading]: New version: [0.9.0] Old Version: [0.8.8]
+[2023-06-08 06:56:12] INFO root fetch - processPackages [odoo8-addon-project-classification]: Downloading https://files.pythonhosted.org/packages/c5/10/a1de3fa0709b227feda4be7af7c128d5e23be7638ec2119f6bfde4fb12bc/odoo8_addon_project_classification-8.0.1.0.0.99.dev47-py2-none-any.whl
+[2023-06-08 06:56:12] INFO root fetch - processPackages [aind-data-schema]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-06-08 06:56:12] INFO root fetch - processPackages [odoo9-addon-project-task-delegate]: Downloading https://files.pythonhosted.org/packages/e4/19/26d65fb920a626b8198a5af12a32f79f5bf3d4031e9c742a378cbc2c1c2b/odoo9_addon_project_task_delegate-9.0.1.0.0.99.dev7-py2-none-any.whl
+[2023-06-08 06:56:12] INFO root fetch - processPackages [autotrading]: Downloading https://files.pythonhosted.org/packages/5b/ea/9d6b95b8bcc933a3f5485c154a7b51df157114ab1d0c16c4221c0f55c0da/autotrading-0.8.8.tar.gz
+[2023-06-08 06:56:12] INFO root fetch - processPackages [autotrading]: Downloading https://files.pythonhosted.org/packages/5b/ea/9d6b95b8bcc933a3f5485c154a7b51df157114ab1d0c16c4221c0f55c0da/autotrading-0.8.8.tar.gz
+[2023-06-08 06:56:12] INFO root fetch - processPackages [autotrading]: Downloading https://files.pythonhosted.org/packages/5b/ea/9d6b95b8bcc933a3f5485c154a7b51df157114ab1d0c16c4221c0f55c0da/autotrading-0.8.8.tar.gz
+[2023-06-08 06:56:12] INFO root fetch - processPackages [autotrading]: Downloading https://files.pythonhosted.org/packages/5b/ea/9d6b95b8bcc933a3f5485c154a7b51df157114ab1d0c16c4221c0f55c0da/autotrading-0.8.8.tar.gz
+[2023-06-08 06:56:12] INFO root fetch - processPackages [odoo8-addon-project-gtd]: Downloading https://files.pythonhosted.org/packages/f9/de/0928c63eca4ff41ffd57fb1e202d7cda4dae8afaa55f488340911a8d0212/odoo8_addon_project_gtd-8.0.2.0.0.99.dev36-py2-none-any.whl
+[2023-06-08 06:56:12] INFO root fetch - processPackages [odoo8-addon-project-classification]: Downloading https://files.pythonhosted.org/packages/13/e5/88741f93ac8a3986930c4ad843cd77abcfc7b48b683d6f13d3a0325a1d59/odoo8_addon_project_classification-8.0.1.0.0.99.dev49-py2-none-any.whl
+[2023-06-08 06:56:12] INFO root fetch - processPackages [odoo9-addon-project-task-delegate]: Downloading https://files.pythonhosted.org/packages/92/39/bdaf19b3e276f350e07e81080658b2d9828936b84b72c95519c2b1106c66/odoo9_addon_project_task_delegate-9.0.1.0.0.99.dev8-py2-none-any.whl
+[2023-06-08 06:56:12] INFO root fetch - processPackages [odoo8-addon-project-recalculate]: Downloading https://files.pythonhosted.org/packages/04/ac/9b8d78b44fea2cc6eab744a7bf0f8b537ce2ebbb9d26f21b94742fdb633d/odoo8_addon_project_recalculate-8.0.1.0.0.99.dev33-py2-none-any.whl
+[2023-06-08 06:56:12] INFO root fetch - processPackages [odoo8-addon-project-issue-reassign]: Downloading https://files.pythonhosted.org/packages/6d/da/52c2fa1286ab9e084c5c00c73c6950dfbf1fd1dddd4189d9f14f1b6440bc/odoo8_addon_project_issue_reassign-8.0.1.1.0.99.dev8-py2-none-any.whl
+[2023-06-08 06:56:12] INFO root fetch - processPackages [odoo8-addon-project-classification]: executing diffoscope
+[2023-06-08 06:56:12] INFO root fetch - processPackages [odoo8-addon-project-classification]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_project_classification-8.0.1.0.0.99.dev47-py2-none-any.whl.zip tmp/odoo8_addon_project_classification-8.0.1.0.0.99.dev49-py2-none-any.whl.zip --markdown 20230608/o/odoo8-addon-project-classification/8.0.1.0.0.99.dev47-8.0.1.0.0.99.dev49/diff.md --exclude *.pyd
+[2023-06-08 06:56:12] INFO root fetch - processPackages [odoo9-addon-project-task-delegate]: executing diffoscope
+[2023-06-08 06:56:12] INFO root fetch - processPackages [odoo9-addon-project-task-delegate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo9_addon_project_task_delegate-9.0.1.0.0.99.dev7-py2-none-any.whl.zip tmp/odoo9_addon_project_task_delegate-9.0.1.0.0.99.dev8-py2-none-any.whl.zip --markdown 20230608/o/odoo9-addon-project-task-delegate/9.0.1.0.0.99.dev7-9.0.1.0.0.99.dev8/diff.md --exclude *.pyd
+[2023-06-08 06:56:12] INFO root fetch - processPackages [aind-data-schema]: Downloading https://files.pythonhosted.org/packages/f0/3d/4b855ccf3f1b8204c6d84b119d9c98b856c1659bfafe8aa893009a0e4d63/aind-data-schema-0.9.5.tar.gz
+[2023-06-08 06:56:12] INFO root fetch - processPackages [autotrading]: Downloading https://files.pythonhosted.org/packages/31/b3/fe52b004e061e84534eb6eda5992e7203e0cc4d98978b38d5985003165f0/autotrading-0.9.0.tar.gz
+[2023-06-08 06:56:12] INFO root fetch - processPackages [autotrading]: Downloading https://files.pythonhosted.org/packages/31/b3/fe52b004e061e84534eb6eda5992e7203e0cc4d98978b38d5985003165f0/autotrading-0.9.0.tar.gz
+[2023-06-08 06:56:12] INFO root fetch - processPackages [autotrading]: Downloading https://files.pythonhosted.org/packages/31/b3/fe52b004e061e84534eb6eda5992e7203e0cc4d98978b38d5985003165f0/autotrading-0.9.0.tar.gz
+[2023-06-08 06:56:12] INFO root fetch - processPackages [autotrading]: Downloading https://files.pythonhosted.org/packages/31/b3/fe52b004e061e84534eb6eda5992e7203e0cc4d98978b38d5985003165f0/autotrading-0.9.0.tar.gz
+[2023-06-08 06:56:12] INFO root fetch - processPackages [autotrading]: executing diffoscope
+[2023-06-08 06:56:12] INFO root fetch - processPackages [autotrading]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autotrading-0.8.8.tar.gz tmp/autotrading-0.9.0.tar.gz --markdown 20230608/a/autotrading/0.8.8-0.9.0/diff.md --exclude *.pyd
+[2023-06-08 06:56:12] INFO root fetch - processPackages [autotrading]: executing diffoscope
+[2023-06-08 06:56:12] INFO root fetch - processPackages [autotrading]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autotrading-0.8.8.tar.gz tmp/autotrading-0.9.0.tar.gz --markdown 20230608/a/autotrading/0.8.8-0.9.0/diff.md --exclude *.pyd
+[2023-06-08 06:56:12] INFO root fetch - processPackages [odoo8-addon-project-recalculate]: Downloading https://files.pythonhosted.org/packages/09/1e/b624d5476b494d274c00c933ca15c9e7bb9c42b9ec15900d17d2bf3a751d/odoo8_addon_project_recalculate-8.0.1.0.0.99.dev35-py2-none-any.whl
+[2023-06-08 06:56:12] INFO root fetch - processPackages [autotrading]: executing diffoscope
+[2023-06-08 06:56:12] INFO root fetch - processPackages [autotrading]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autotrading-0.8.8.tar.gz tmp/autotrading-0.9.0.tar.gz --markdown 20230608/a/autotrading/0.8.8-0.9.0/diff.md --exclude *.pyd
+[2023-06-08 06:56:12] INFO root fetch - processPackages [autotrading]: executing diffoscope
+[2023-06-08 06:56:12] INFO root fetch - processPackages [autotrading]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autotrading-0.8.8.tar.gz tmp/autotrading-0.9.0.tar.gz --markdown 20230608/a/autotrading/0.8.8-0.9.0/diff.md --exclude *.pyd
+[2023-06-08 06:56:12] INFO root fetch - processPackages [odoo8-addon-project-gtd]: Downloading https://files.pythonhosted.org/packages/e9/15/ebb00f5d45e138450a4736f3b71e3bf448f84b28cb103e5fb6f46d6fa827/odoo8_addon_project_gtd-8.0.2.0.0.99.dev9-py2-none-any.whl
+[2023-06-08 06:56:12] INFO root fetch - processPackages [odoo8-addon-project-issue-reassign]: Downloading https://files.pythonhosted.org/packages/99/3d/a4a7a9abafb2a216f4e19912ca1bc5a35cc87115e29b59b39d744c32c8ce/odoo8_addon_project_issue_reassign-8.0.1.1.0.99.dev9-py2-none-any.whl
+[2023-06-08 06:56:12] INFO root fetch - processPackages [aind-data-schema]: Downloading https://files.pythonhosted.org/packages/42/51/6b230e8ca198de797130787e0cd5036fc8d11696d1c43a8c8c07152176e8/aind-data-schema-0.9.6.tar.gz
+[2023-06-08 06:56:12] INFO root fetch - processPackages [odoo8-addon-project-recalculate]: executing diffoscope
+[2023-06-08 06:56:12] INFO root fetch - processPackages [odoo8-addon-project-recalculate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_project_recalculate-8.0.1.0.0.99.dev33-py2-none-any.whl.zip tmp/odoo8_addon_project_recalculate-8.0.1.0.0.99.dev35-py2-none-any.whl.zip --markdown 20230608/o/odoo8-addon-project-recalculate/8.0.1.0.0.99.dev33-8.0.1.0.0.99.dev35/diff.md --exclude *.pyd
+[2023-06-08 06:56:13] INFO root fetch - processPackages [odoo8-addon-project-gtd]: executing diffoscope
+[2023-06-08 06:56:13] INFO root fetch - processPackages [odoo8-addon-project-gtd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_project_gtd-8.0.2.0.0.99.dev36-py2-none-any.whl.zip tmp/odoo8_addon_project_gtd-8.0.2.0.0.99.dev9-py2-none-any.whl.zip --markdown 20230608/o/odoo8-addon-project-gtd/8.0.2.0.0.99.dev36-8.0.2.0.0.99.dev9/diff.md --exclude *.pyd
+[2023-06-08 06:56:13] INFO root fetch - processPackages [odoo8-addon-project-issue-reassign]: executing diffoscope
+[2023-06-08 06:56:13] INFO root fetch - processPackages [odoo8-addon-project-issue-reassign]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_project_issue_reassign-8.0.1.1.0.99.dev8-py2-none-any.whl.zip tmp/odoo8_addon_project_issue_reassign-8.0.1.1.0.99.dev9-py2-none-any.whl.zip --markdown 20230608/o/odoo8-addon-project-issue-reassign/8.0.1.1.0.99.dev8-8.0.1.1.0.99.dev9/diff.md --exclude *.pyd
+[2023-06-08 06:56:13] INFO root fetch - processPackages [aind-data-schema]: executing diffoscope
+[2023-06-08 06:56:13] INFO root fetch - processPackages [aind-data-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aind-data-schema-0.9.5.tar.gz tmp/aind-data-schema-0.9.6.tar.gz --markdown 20230608/a/aind-data-schema/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-06-08 06:56:14] INFO root fetch - processPackages [odoo8-addon-project-classification]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_project_classification-8.0.1.0.0.99.dev47-py2-none-any.whl.zip]
+[2023-06-08 06:56:14] INFO root fetch - processPackages [odoo8-addon-project-classification]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_project_classification-8.0.1.0.0.99.dev49-py2-none-any.whl.zip]
+[2023-06-08 06:56:14] INFO root fetch - processPackages [odoo8-addon-project-classification]: Start processing: autotrading
+[2023-06-08 06:56:14] INFO root fetch - main [MainThread]: End processing [odoo8-addon-project-classification]: success
+[2023-06-08 06:56:14] INFO root fetch - processPackages [autotrading]: New version: [0.9.0] Old Version: [0.8.8]
+[2023-06-08 06:56:14] INFO root fetch - processPackages [autotrading]: executing diffoscope
+[2023-06-08 06:56:14] INFO root fetch - processPackages [autotrading]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autotrading-0.8.8.tar.gz tmp/autotrading-0.9.0.tar.gz --markdown 20230608/a/autotrading/0.8.8-0.9.0/diff.md --exclude *.pyd
+[2023-06-08 06:56:14] INFO root fetch - processPackages [autotrading]: Remove: archive file [/home/abi/fetcher/tmp/autotrading-0.8.8.tar.gz]
+[2023-06-08 06:56:14] INFO root fetch - processPackages [autotrading]: Remove: archive file [/home/abi/fetcher/tmp/autotrading-0.9.0.tar.gz]
+[2023-06-08 06:56:14] INFO root fetch - processPackages [autotrading]: Start processing: autotrading
+[2023-06-08 06:56:14] INFO root fetch - main [MainThread]: End processing [autotrading]: success
+[2023-06-08 06:56:14] INFO root fetch - processPackages [odoo9-addon-project-task-delegate]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_project_task_delegate-9.0.1.0.0.99.dev7-py2-none-any.whl.zip]
+[2023-06-08 06:56:14] INFO root fetch - processPackages [odoo9-addon-project-task-delegate]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_project_task_delegate-9.0.1.0.0.99.dev8-py2-none-any.whl.zip]
+[2023-06-08 06:56:14] INFO root fetch - processPackages [odoo9-addon-project-task-delegate]: Start processing: autotrading
+[2023-06-08 06:56:14] INFO root fetch - main [MainThread]: End processing [odoo9-addon-project-task-delegate]: success
+[2023-06-08 06:56:14] INFO root fetch - processPackages [autotrading]: New version: [0.9.0] Old Version: [0.8.8]
+[2023-06-08 06:56:14] INFO root fetch - processPackages [autotrading]: New version: [0.9.0] Old Version: [0.8.8]
+[2023-06-08 06:56:14] INFO root fetch - processPackages [autotrading]: Downloading https://files.pythonhosted.org/packages/5b/ea/9d6b95b8bcc933a3f5485c154a7b51df157114ab1d0c16c4221c0f55c0da/autotrading-0.8.8.tar.gz
+[2023-06-08 06:56:14] INFO root fetch - processPackages [autotrading]: Downloading https://files.pythonhosted.org/packages/5b/ea/9d6b95b8bcc933a3f5485c154a7b51df157114ab1d0c16c4221c0f55c0da/autotrading-0.8.8.tar.gz
+[2023-06-08 06:56:14] INFO root fetch - processPackages [autotrading]: Downloading https://files.pythonhosted.org/packages/31/b3/fe52b004e061e84534eb6eda5992e7203e0cc4d98978b38d5985003165f0/autotrading-0.9.0.tar.gz
+[2023-06-08 06:56:14] INFO root fetch - processPackages [autotrading]: executing diffoscope
+[2023-06-08 06:56:14] INFO root fetch - processPackages [autotrading]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autotrading-0.8.8.tar.gz tmp/autotrading-0.9.0.tar.gz --markdown 20230608/a/autotrading/0.8.8-0.9.0/diff.md --exclude *.pyd
+[2023-06-08 06:56:14] INFO root fetch - processPackages [autotrading]: executing diffoscope
+[2023-06-08 06:56:14] INFO root fetch - processPackages [autotrading]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autotrading-0.8.8.tar.gz tmp/autotrading-0.9.0.tar.gz --markdown 20230608/a/autotrading/0.8.8-0.9.0/diff.md --exclude *.pyd
+[2023-06-08 06:56:14] INFO root fetch - processPackages [autotrading]: Remove: archive file [/home/abi/fetcher/tmp/autotrading-0.8.8.tar.gz]
+[2023-06-08 06:56:14] INFO root fetch - processPackages [autotrading]: Remove: archive file [/home/abi/fetcher/tmp/autotrading-0.9.0.tar.gz]
+[2023-06-08 06:56:14] INFO root fetch - processPackages [autotrading]: Start processing: autotrading
+[2023-06-08 06:56:14] INFO root fetch - main [MainThread]: End processing [autotrading]: success
+[2023-06-08 06:56:14] INFO root fetch - processPackages [autotrading]: New version: [0.9.0] Old Version: [0.8.8]
+[2023-06-08 06:56:14] ERROR root fetch - processPackages [autotrading]: Diffoscope failed: gzip: tmp/autotrading-0.9.0.tar.gz: No such file or directory
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 131, in comparisons
+    other_members = OrderedDict(other.get_adjusted_members_sizes())
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 126, in get_adjusted_members_sizes
+    size = path_apparent_size(member.path)
+                              ^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/archive.py", line 114, in path
+    self._path = self.container.extract(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/tools.py", line 141, in tool_check
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/gzip.py", line 51, in extract
+    subprocess.check_call(
+  File "/usr/lib/python3.11/subprocess.py", line 413, in check_call
+    raise CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command '['gzip', '-d', '-c', 'tmp/autotrading-0.9.0.tar.gz']' returned non-zero exit status 1.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 536, in compare
+    difference = self.compare_bytes(other, source=source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 395, in compare_bytes
+    return compare_binary_files(self, other, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 176, in compare_binary_files
+    return Difference.from_operation(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+[2023-06-08 06:56:14] INFO root fetch - processPackages [autotrading]: Start processing: autotrading
+[2023-06-08 06:56:14] INFO root fetch - main [MainThread]: End processing [autotrading] error
+[2023-06-08 06:56:15] INFO root fetch - processPackages [autotrading]: New version: [0.9.0] Old Version: [0.8.8]
+[2023-06-08 06:56:15] INFO root fetch - processPackages [autotrading]: Downloading https://files.pythonhosted.org/packages/5b/ea/9d6b95b8bcc933a3f5485c154a7b51df157114ab1d0c16c4221c0f55c0da/autotrading-0.8.8.tar.gz
+[2023-06-08 06:56:15] INFO root fetch - processPackages [autotrading]: Downloading https://files.pythonhosted.org/packages/5b/ea/9d6b95b8bcc933a3f5485c154a7b51df157114ab1d0c16c4221c0f55c0da/autotrading-0.8.8.tar.gz
+[2023-06-08 06:56:15] INFO root fetch - processPackages [autotrading]: Downloading https://files.pythonhosted.org/packages/31/b3/fe52b004e061e84534eb6eda5992e7203e0cc4d98978b38d5985003165f0/autotrading-0.9.0.tar.gz
+[2023-06-08 06:56:15] INFO root fetch - processPackages [autotrading]: Remove: archive file [/home/abi/fetcher/tmp/autotrading-0.8.8.tar.gz]
+[2023-06-08 06:56:15] INFO root fetch - processPackages [autotrading]: Start processing: volstreet
+[2023-06-08 06:56:15] INFO root fetch - main [MainThread]: End processing [autotrading]: success
+[2023-06-08 06:56:15] WARNING root fetch - processPackages [volstreet]: Skipping, unable to determine old version
+[2023-06-08 06:56:15] INFO root fetch - processPackages [volstreet]: Start processing: gs2
+[2023-06-08 06:56:15] INFO root fetch - main [MainThread]: End processing [volstreet] error
+[2023-06-08 06:56:15] INFO root fetch - processPackages [autotrading]: Downloading https://files.pythonhosted.org/packages/31/b3/fe52b004e061e84534eb6eda5992e7203e0cc4d98978b38d5985003165f0/autotrading-0.9.0.tar.gz
+[2023-06-08 06:56:15] INFO root fetch - processPackages [odoo8-addon-project-recalculate]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_project_recalculate-8.0.1.0.0.99.dev33-py2-none-any.whl.zip]
+[2023-06-08 06:56:15] INFO root fetch - processPackages [odoo8-addon-project-recalculate]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_project_recalculate-8.0.1.0.0.99.dev35-py2-none-any.whl.zip]
+[2023-06-08 06:56:15] INFO root fetch - processPackages [odoo8-addon-project-recalculate]: Start processing: odoo8-addon-purchase-request-to-rfq
+[2023-06-08 06:56:15] INFO root fetch - main [MainThread]: End processing [odoo8-addon-project-recalculate]: success
+[2023-06-08 06:56:15] INFO root fetch - processPackages [gs2]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-06-08 06:56:15] INFO root fetch - processPackages [autotrading]: executing diffoscope
+[2023-06-08 06:56:15] INFO root fetch - processPackages [autotrading]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autotrading-0.8.8.tar.gz tmp/autotrading-0.9.0.tar.gz --markdown 20230608/a/autotrading/0.8.8-0.9.0/diff.md --exclude *.pyd
+[2023-06-08 06:56:15] INFO root fetch - processPackages [odoo8-addon-purchase-request-to-rfq]: New version: [8.0.1.0.0.99.dev64] Old Version: [8.0.1.0.0.99.dev62]
+[2023-06-08 06:56:15] INFO root fetch - processPackages [odoo8-addon-project-issue-reassign]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_project_issue_reassign-8.0.1.1.0.99.dev8-py2-none-any.whl.zip]
+[2023-06-08 06:56:15] INFO root fetch - processPackages [odoo8-addon-project-issue-reassign]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_project_issue_reassign-8.0.1.1.0.99.dev9-py2-none-any.whl.zip]
+[2023-06-08 06:56:15] INFO root fetch - processPackages [odoo8-addon-project-issue-reassign]: Start processing: odoo8-addon-framework-agreement
+[2023-06-08 06:56:15] INFO root fetch - main [MainThread]: End processing [odoo8-addon-project-issue-reassign]: success
+[2023-06-08 06:56:15] INFO root fetch - processPackages [autotrading]: executing diffoscope
+[2023-06-08 06:56:15] INFO root fetch - processPackages [autotrading]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autotrading-0.8.8.tar.gz tmp/autotrading-0.9.0.tar.gz --markdown 20230608/a/autotrading/0.8.8-0.9.0/diff.md --exclude *.pyd
+[2023-06-08 06:56:15] INFO root fetch - processPackages [odoo8-addon-framework-agreement]: New version: [8.0.2.0.0.99.dev9] Old Version: [8.0.2.0.0.99.dev8]
+[2023-06-08 06:56:15] ERROR root fetch - processPackages [autotrading]: Diffoscope failed: /srv/diffoscope/bin/diffoscope: tmp/autotrading-0.8.8.tar.gz: No such file or directory
+
+[2023-06-08 06:56:15] INFO root fetch - processPackages [autotrading]: Start processing: odoo8-addon-purchase-request
+[2023-06-08 06:56:15] INFO root fetch - main [MainThread]: End processing [autotrading] error
+[2023-06-08 06:56:15] INFO root fetch - processPackages [gs2]: Downloading https://files.pythonhosted.org/packages/f4/b1/13ed585befcfa8c69b52af73acb96e39e14f443b95942ebcb9c4e9c2db0e/gs2-1.1.8.tar.gz
+[2023-06-08 06:56:15] INFO root fetch - processPackages [odoo8-addon-purchase-request-to-rfq]: Downloading https://files.pythonhosted.org/packages/f8/1f/03f691d24278e941dad0e803d425c6650629f552908a64ff384c59c4f215/odoo8_addon_purchase_request_to_rfq-8.0.1.0.0.99.dev62-py2-none-any.whl
+[2023-06-08 06:56:15] INFO root fetch - processPackages [odoo8-addon-purchase-request]: New version: [8.0.1.1.0.99.dev9] Old Version: [8.0.1.1.0.99.dev8]
+[2023-06-08 06:56:15] INFO root fetch - processPackages [odoo8-addon-framework-agreement]: Downloading https://files.pythonhosted.org/packages/6a/86/390c1a600af419833b5b021aa902103d1c3b00d3df7769c532f1dc0ec9df/odoo8_addon_framework_agreement-8.0.2.0.0.99.dev8-py2-none-any.whl
+[2023-06-08 06:56:15] INFO root fetch - processPackages [odoo8-addon-project-gtd]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_project_gtd-8.0.2.0.0.99.dev36-py2-none-any.whl.zip]
+[2023-06-08 06:56:15] INFO root fetch - processPackages [odoo8-addon-project-gtd]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_project_gtd-8.0.2.0.0.99.dev9-py2-none-any.whl.zip]
+[2023-06-08 06:56:15] INFO root fetch - processPackages [odoo8-addon-project-gtd]: Start processing: unmarkd
+[2023-06-08 06:56:15] INFO root fetch - main [MainThread]: End processing [odoo8-addon-project-gtd]: success
+[2023-06-08 06:56:15] INFO root fetch - processPackages [unmarkd]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-06-08 06:56:15] INFO root fetch - processPackages [odoo8-addon-purchase-request]: Downloading https://files.pythonhosted.org/packages/34/e3/20ba06ffaa42bc3391b6f6eb364c7cabe58e599ec2f3eaba87fae1f531a7/odoo8_addon_purchase_request-8.0.1.1.0.99.dev8-py2-none-any.whl
+[2023-06-08 06:56:15] INFO root fetch - processPackages [unmarkd]: Downloading https://files.pythonhosted.org/packages/03/a1/ee37dc08030ebde46955bde5acc84623a68682081cb6b01d6e0d5a180855/unmarkd-1.0.0.tar.gz
+[2023-06-08 06:56:15] INFO root fetch - processPackages [gs2]: Downloading https://files.pythonhosted.org/packages/9e/ad/b84dd85efc1650d47b3308d729fd537f26fee338fdb19a43c7a243d07107/gs2-1.1.9.tar.gz
+[2023-06-08 06:56:15] INFO root fetch - processPackages [gs2]: executing diffoscope
+[2023-06-08 06:56:15] INFO root fetch - processPackages [gs2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gs2-1.1.8.tar.gz tmp/gs2-1.1.9.tar.gz --markdown 20230608/g/gs2/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-06-08 06:56:15] INFO root fetch - processPackages [odoo8-addon-purchase-request-to-rfq]: Downloading https://files.pythonhosted.org/packages/5f/ee/c6ef5e5c0b64510d4e400c2ebfb50e357d773c8eaed658463a67f796268d/odoo8_addon_purchase_request_to_rfq-8.0.1.0.0.99.dev64-py2-none-any.whl
+[2023-06-08 06:56:15] INFO root fetch - processPackages [unmarkd]: Downloading https://files.pythonhosted.org/packages/e7/c3/217b328e9011e52133c8054551125a656bd2fe5b163b62be6aa9159b3477/unmarkd-1.1.0.tar.gz
+[2023-06-08 06:56:15] INFO root fetch - processPackages [odoo8-addon-framework-agreement]: Downloading https://files.pythonhosted.org/packages/1a/1c/e3cfe7f6bfe1c5cb50226eeced1fcbcd2dce05a78d19fcfba8c96055dfd4/odoo8_addon_framework_agreement-8.0.2.0.0.99.dev9-py2-none-any.whl
+[2023-06-08 06:56:15] INFO root fetch - processPackages [unmarkd]: executing diffoscope
+[2023-06-08 06:56:15] INFO root fetch - processPackages [unmarkd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unmarkd-1.0.0.tar.gz tmp/unmarkd-1.1.0.tar.gz --markdown 20230608/u/unmarkd/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-06-08 06:56:15] INFO root fetch - processPackages [odoo8-addon-purchase-request-to-rfq]: executing diffoscope
+[2023-06-08 06:56:15] INFO root fetch - processPackages [odoo8-addon-purchase-request-to-rfq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_purchase_request_to_rfq-8.0.1.0.0.99.dev62-py2-none-any.whl.zip tmp/odoo8_addon_purchase_request_to_rfq-8.0.1.0.0.99.dev64-py2-none-any.whl.zip --markdown 20230608/o/odoo8-addon-purchase-request-to-rfq/8.0.1.0.0.99.dev62-8.0.1.0.0.99.dev64/diff.md --exclude *.pyd
+[2023-06-08 06:56:15] ERROR root fetch - processPackages [autotrading]: Diffoscope failed: /srv/diffoscope/bin/diffoscope: tmp/autotrading-0.8.8.tar.gz: No such file or directory
+
+[2023-06-08 06:56:15] INFO root fetch - processPackages [autotrading]: Start processing: odoo8-addon-purchase-transport-document
+[2023-06-08 06:56:15] INFO root fetch - main [MainThread]: End processing [autotrading] error
+[2023-06-08 06:56:15] INFO root fetch - processPackages [odoo8-addon-purchase-transport-document]: New version: [8.0.0.1.0.99.dev9] Old Version: [8.0.0.1.0.99.dev8]
+[2023-06-08 06:56:15] ERROR root fetch - processPackages [autotrading]: Diffoscope failed: /srv/diffoscope/bin/diffoscope: tmp/autotrading-0.8.8.tar.gz: No such file or directory
+
+[2023-06-08 06:56:15] INFO root fetch - processPackages [autotrading]: Start processing: odoo10-addon-purchase-landed-cost
+[2023-06-08 06:56:15] INFO root fetch - main [MainThread]: End processing [autotrading] error
+[2023-06-08 06:56:15] INFO root fetch - processPackages [odoo8-addon-framework-agreement]: executing diffoscope
+[2023-06-08 06:56:15] INFO root fetch - processPackages [odoo8-addon-framework-agreement]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_framework_agreement-8.0.2.0.0.99.dev8-py2-none-any.whl.zip tmp/odoo8_addon_framework_agreement-8.0.2.0.0.99.dev9-py2-none-any.whl.zip --markdown 20230608/o/odoo8-addon-framework-agreement/8.0.2.0.0.99.dev8-8.0.2.0.0.99.dev9/diff.md --exclude *.pyd
+[2023-06-08 06:56:15] INFO root fetch - processPackages [odoo10-addon-purchase-landed-cost]: New version: [10.0.2.0.0.99.dev9] Old Version: [10.0.2.0.0.99.dev8]
+[2023-06-08 06:56:16] INFO root fetch - processPackages [odoo8-addon-purchase-transport-document]: Downloading https://files.pythonhosted.org/packages/b3/c6/f12204cc0607d753f1aed20c83f023f5a8cc0e2ac64d845083a7222f276e/odoo8_addon_purchase_transport_document-8.0.0.1.0.99.dev8-py2-none-any.whl
+[2023-06-08 06:56:16] ERROR root fetch - processPackages [autotrading]: Diffoscope failed: /srv/diffoscope/bin/diffoscope: tmp/autotrading-0.8.8.tar.gz: No such file or directory
+
+[2023-06-08 06:56:16] INFO root fetch - processPackages [autotrading]: Start processing: odoo8-addon-purchase-requisition-bid-selection
+[2023-06-08 06:56:16] INFO root fetch - main [MainThread]: End processing [autotrading] error
+[2023-06-08 06:56:16] INFO root fetch - processPackages [odoo8-addon-purchase-requisition-bid-selection]: New version: [8.0.2.1.0.99.dev9] Old Version: [8.0.2.1.0.99.dev8]
+[2023-06-08 06:56:16] INFO root fetch - processPackages [odoo10-addon-purchase-landed-cost]: Downloading https://files.pythonhosted.org/packages/3d/70/5d05e8ab7da8ed2255a917efaa6d108da43ec6aecac94121e2ecbb3792f6/odoo10_addon_purchase_landed_cost-10.0.2.0.0.99.dev8-py2-none-any.whl
+[2023-06-08 06:56:16] ERROR root fetch - processPackages [autotrading]: Diffoscope failed: /srv/diffoscope/bin/diffoscope: tmp/autotrading-0.8.8.tar.gz: No such file or directory
+
+[2023-06-08 06:56:16] INFO root fetch - processPackages [autotrading]: Start processing: odoo10-addon-purchase-request
+[2023-06-08 06:56:16] INFO root fetch - main [MainThread]: End processing [autotrading] error
+[2023-06-08 06:56:16] INFO root fetch - processPackages [odoo10-addon-purchase-request]: New version: [10.0.1.2.2.99.dev8] Old Version: [10.0.1.2.2.99.dev7]
+[2023-06-08 06:56:16] INFO root fetch - processPackages [odoo8-addon-purchase-request]: Downloading https://files.pythonhosted.org/packages/c9/ec/ebdca117cda7b507d9a149fed48e0427000ffb9e5ee938effdc471d06e90/odoo8_addon_purchase_request-8.0.1.1.0.99.dev9-py2-none-any.whl
+[2023-06-08 06:56:16] INFO root fetch - processPackages [odoo8-addon-purchase-request]: executing diffoscope
+[2023-06-08 06:56:16] INFO root fetch - processPackages [odoo8-addon-purchase-request]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_purchase_request-8.0.1.1.0.99.dev8-py2-none-any.whl.zip tmp/odoo8_addon_purchase_request-8.0.1.1.0.99.dev9-py2-none-any.whl.zip --markdown 20230608/o/odoo8-addon-purchase-request/8.0.1.1.0.99.dev8-8.0.1.1.0.99.dev9/diff.md --exclude *.pyd
+[2023-06-08 06:56:16] INFO root fetch - processPackages [odoo8-addon-purchase-transport-document]: Downloading https://files.pythonhosted.org/packages/5e/40/ed0c8538bc3de33a87405062c65aa6ef474e8c2c68453d3ac41220d6664a/odoo8_addon_purchase_transport_document-8.0.0.1.0.99.dev9-py2-none-any.whl
+[2023-06-08 06:56:16] INFO root fetch - processPackages [odoo8-addon-purchase-requisition-bid-selection]: Downloading https://files.pythonhosted.org/packages/ea/44/8c03369d52c112d747de2335d6467322d7918342fb48e324a3653af8fa30/odoo8_addon_purchase_requisition_bid_selection-8.0.2.1.0.99.dev8-py2-none-any.whl
+[2023-06-08 06:56:16] INFO root fetch - processPackages [odoo10-addon-purchase-request]: Downloading https://files.pythonhosted.org/packages/1d/e9/bc91da753c5a9e13f9136e6e887c4923f9066d4984cb24f8d17ce8f3478b/odoo10_addon_purchase_request-10.0.1.2.2.99.dev7-py2-none-any.whl
+[2023-06-08 06:56:16] INFO root fetch - processPackages [odoo8-addon-purchase-transport-document]: executing diffoscope
+[2023-06-08 06:56:16] INFO root fetch - processPackages [odoo8-addon-purchase-transport-document]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_purchase_transport_document-8.0.0.1.0.99.dev8-py2-none-any.whl.zip tmp/odoo8_addon_purchase_transport_document-8.0.0.1.0.99.dev9-py2-none-any.whl.zip --markdown 20230608/o/odoo8-addon-purchase-transport-document/8.0.0.1.0.99.dev8-8.0.0.1.0.99.dev9/diff.md --exclude *.pyd
+[2023-06-08 06:56:16] INFO root fetch - processPackages [aind-data-schema]: Remove: archive file [/home/abi/fetcher/tmp/aind-data-schema-0.9.5.tar.gz]
+[2023-06-08 06:56:16] INFO root fetch - processPackages [aind-data-schema]: Remove: archive file [/home/abi/fetcher/tmp/aind-data-schema-0.9.6.tar.gz]
+[2023-06-08 06:56:16] INFO root fetch - processPackages [aind-data-schema]: Start processing: odoo8-addon-purchase-partial-invoicing
+[2023-06-08 06:56:16] INFO root fetch - main [MainThread]: End processing [aind-data-schema]: success
+[2023-06-08 06:56:16] INFO root fetch - processPackages [odoo8-addon-purchase-partial-invoicing]: New version: [8.0.0.1.2.99.dev9] Old Version: [8.0.0.1.2.99.dev8]
+[2023-06-08 06:56:16] INFO root fetch - processPackages [odoo10-addon-purchase-request]: Downloading https://files.pythonhosted.org/packages/97/47/4c0919476ddb0f1bf33bb2111cee607e75f4d109ef78b795393dfbacdce0/odoo10_addon_purchase_request-10.0.1.2.2.99.dev8-py2-none-any.whl
+[2023-06-08 06:56:16] INFO root fetch - processPackages [odoo10-addon-purchase-landed-cost]: Downloading https://files.pythonhosted.org/packages/c9/c0/56f0571940d31c8c570e04ca04cbac58449c9a4c035568e003d635aa2806/odoo10_addon_purchase_landed_cost-10.0.2.0.0.99.dev9-py2-none-any.whl
+[2023-06-08 06:56:16] INFO root fetch - processPackages [odoo10-addon-purchase-request]: executing diffoscope
+[2023-06-08 06:56:16] INFO root fetch - processPackages [odoo10-addon-purchase-request]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo10_addon_purchase_request-10.0.1.2.2.99.dev7-py2-none-any.whl.zip tmp/odoo10_addon_purchase_request-10.0.1.2.2.99.dev8-py2-none-any.whl.zip --markdown 20230608/o/odoo10-addon-purchase-request/10.0.1.2.2.99.dev7-10.0.1.2.2.99.dev8/diff.md --exclude *.pyd
+[2023-06-08 06:56:16] INFO root fetch - processPackages [odoo8-addon-purchase-partial-invoicing]: Downloading https://files.pythonhosted.org/packages/f9/19/487ce614206fc5f96968a23f8a31b75da9252ccbb7620b7355687e51d38b/odoo8_addon_purchase_partial_invoicing-8.0.0.1.2.99.dev8-py2-none-any.whl
+[2023-06-08 06:56:16] INFO root fetch - processPackages [odoo8-addon-purchase-requisition-bid-selection]: Downloading https://files.pythonhosted.org/packages/1d/3a/8b349784ac2c84f323454eb3df9364fdf0bd50f0dd4fe736c45441e915c3/odoo8_addon_purchase_requisition_bid_selection-8.0.2.1.0.99.dev9-py2-none-any.whl
+[2023-06-08 06:56:16] INFO root fetch - processPackages [odoo10-addon-purchase-landed-cost]: executing diffoscope
+[2023-06-08 06:56:16] INFO root fetch - processPackages [odoo10-addon-purchase-landed-cost]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo10_addon_purchase_landed_cost-10.0.2.0.0.99.dev8-py2-none-any.whl.zip tmp/odoo10_addon_purchase_landed_cost-10.0.2.0.0.99.dev9-py2-none-any.whl.zip --markdown 20230608/o/odoo10-addon-purchase-landed-cost/10.0.2.0.0.99.dev8-10.0.2.0.0.99.dev9/diff.md --exclude *.pyd
+[2023-06-08 06:56:17] INFO root fetch - processPackages [odoo8-addon-purchase-requisition-bid-selection]: executing diffoscope
+[2023-06-08 06:56:17] INFO root fetch - processPackages [odoo8-addon-purchase-requisition-bid-selection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_purchase_requisition_bid_selection-8.0.2.1.0.99.dev8-py2-none-any.whl.zip tmp/odoo8_addon_purchase_requisition_bid_selection-8.0.2.1.0.99.dev9-py2-none-any.whl.zip --markdown 20230608/o/odoo8-addon-purchase-requisition-bid-selection/8.0.2.1.0.99.dev8-8.0.2.1.0.99.dev9/diff.md --exclude *.pyd
+[2023-06-08 06:56:17] INFO root fetch - processPackages [odoo8-addon-purchase-partial-invoicing]: Downloading https://files.pythonhosted.org/packages/18/8e/4586b7b2d6161d83bc13c1fac1197d9f16ef25fb4eb5eb6c7c3617a141d4/odoo8_addon_purchase_partial_invoicing-8.0.0.1.2.99.dev9-py2-none-any.whl
+[2023-06-08 06:56:17] INFO root fetch - processPackages [odoo8-addon-purchase-partial-invoicing]: executing diffoscope
+[2023-06-08 06:56:17] INFO root fetch - processPackages [odoo8-addon-purchase-partial-invoicing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_purchase_partial_invoicing-8.0.0.1.2.99.dev8-py2-none-any.whl.zip tmp/odoo8_addon_purchase_partial_invoicing-8.0.0.1.2.99.dev9-py2-none-any.whl.zip --markdown 20230608/o/odoo8-addon-purchase-partial-invoicing/8.0.0.1.2.99.dev8-8.0.0.1.2.99.dev9/diff.md --exclude *.pyd
+[2023-06-08 06:56:17] INFO root fetch - processPackages [unmarkd]: Remove: archive file [/home/abi/fetcher/tmp/unmarkd-1.0.0.tar.gz]
+[2023-06-08 06:56:17] INFO root fetch - processPackages [unmarkd]: Remove: archive file [/home/abi/fetcher/tmp/unmarkd-1.1.0.tar.gz]
+[2023-06-08 06:56:17] INFO root fetch - processPackages [unmarkd]: Start processing: odoo8-addon-purchase-order-type
+[2023-06-08 06:56:17] INFO root fetch - main [MainThread]: End processing [unmarkd]: success
+[2023-06-08 06:56:17] INFO root fetch - processPackages [odoo8-addon-purchase-order-type]: New version: [8.0.1.0.0.99.dev9] Old Version: [8.0.1.0.0.99.dev8]
+[2023-06-08 06:56:17] INFO root fetch - processPackages [odoo8-addon-purchase-order-type]: Downloading https://files.pythonhosted.org/packages/72/d0/ae68104dbacedfc5972d2c3c7e71960b4d2f4342f853bc610bf6ddd6a06d/odoo8_addon_purchase_order_type-8.0.1.0.0.99.dev8-py2-none-any.whl
+[2023-06-08 06:56:17] INFO root fetch - processPackages [odoo8-addon-framework-agreement]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_framework_agreement-8.0.2.0.0.99.dev8-py2-none-any.whl.zip]
+[2023-06-08 06:56:17] INFO root fetch - processPackages [odoo8-addon-framework-agreement]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_framework_agreement-8.0.2.0.0.99.dev9-py2-none-any.whl.zip]
+[2023-06-08 06:56:17] INFO root fetch - processPackages [odoo8-addon-framework-agreement]: Start processing: vector-vault
+[2023-06-08 06:56:17] INFO root fetch - main [MainThread]: End processing [odoo8-addon-framework-agreement]: success
+[2023-06-08 06:56:17] INFO root fetch - processPackages [vector-vault]: New version: [2.0.4] Old Version: [2.0.3]
+[2023-06-08 06:56:17] INFO root fetch - processPackages [vector-vault]: Downloading https://files.pythonhosted.org/packages/a8/b3/024fb346fa239b2fac09b4edaca2033d9020e85f5a97bc133ce24fba1b39/vector_vault-2.0.3.tar.gz
+[2023-06-08 06:56:18] INFO root fetch - processPackages [vector-vault]: Downloading https://files.pythonhosted.org/packages/a9/53/8f74eadda194d1e5fe48a3bf50a7626f3beb2f40ad50f8139bf7521ceaee/vector_vault-2.0.4.tar.gz
+[2023-06-08 06:56:18] INFO root fetch - processPackages [vector-vault]: executing diffoscope
+[2023-06-08 06:56:18] INFO root fetch - processPackages [vector-vault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vector_vault-2.0.3.tar.gz tmp/vector_vault-2.0.4.tar.gz --markdown 20230608/v/vector-vault/2.0.3-2.0.4/diff.md --exclude *.pyd
+[2023-06-08 06:56:18] INFO root fetch - processPackages [odoo8-addon-purchase-order-type]: Downloading https://files.pythonhosted.org/packages/34/c9/979732b3dca4af54aa54d3bebe6ffdafe2ca785dd26c901e5d4cd66d99ea/odoo8_addon_purchase_order_type-8.0.1.0.0.99.dev9-py2-none-any.whl
+[2023-06-08 06:56:18] INFO root fetch - processPackages [odoo8-addon-purchase-request-to-rfq]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_purchase_request_to_rfq-8.0.1.0.0.99.dev62-py2-none-any.whl.zip]
+[2023-06-08 06:56:18] INFO root fetch - processPackages [odoo8-addon-purchase-request-to-rfq]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_purchase_request_to_rfq-8.0.1.0.0.99.dev64-py2-none-any.whl.zip]
+[2023-06-08 06:56:18] INFO root fetch - processPackages [odoo8-addon-purchase-request-to-rfq]: Start processing: odoo11-addon-purchase-request
+[2023-06-08 06:56:18] INFO root fetch - main [MainThread]: End processing [odoo8-addon-purchase-request-to-rfq]: success
+[2023-06-08 06:56:18] INFO root fetch - processPackages [odoo8-addon-purchase-order-type]: executing diffoscope
+[2023-06-08 06:56:18] INFO root fetch - processPackages [odoo8-addon-purchase-order-type]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_purchase_order_type-8.0.1.0.0.99.dev8-py2-none-any.whl.zip tmp/odoo8_addon_purchase_order_type-8.0.1.0.0.99.dev9-py2-none-any.whl.zip --markdown 20230608/o/odoo8-addon-purchase-order-type/8.0.1.0.0.99.dev8-8.0.1.0.0.99.dev9/diff.md --exclude *.pyd
+[2023-06-08 06:56:18] INFO root fetch - processPackages [odoo11-addon-purchase-request]: New version: [11.0.1.2.6.99.dev7] Old Version: [11.0.1.2.6.99.dev6]
+[2023-06-08 06:56:18] INFO root fetch - processPackages [odoo8-addon-purchase-transport-document]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_purchase_transport_document-8.0.0.1.0.99.dev8-py2-none-any.whl.zip]
+[2023-06-08 06:56:18] INFO root fetch - processPackages [odoo8-addon-purchase-transport-document]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_purchase_transport_document-8.0.0.1.0.99.dev9-py2-none-any.whl.zip]
+[2023-06-08 06:56:18] INFO root fetch - processPackages [odoo8-addon-purchase-transport-document]: Start processing: odoo12-addon-purchase-request
+[2023-06-08 06:56:18] INFO root fetch - main [MainThread]: End processing [odoo8-addon-purchase-transport-document]: success
+[2023-06-08 06:56:18] INFO root fetch - processPackages [odoo12-addon-purchase-request]: New version: [12.0.5.3.1.99.dev9] Old Version: [12.0.5.3.1.99.dev8]
+[2023-06-08 06:56:18] INFO root fetch - processPackages [odoo11-addon-purchase-request]: Downloading https://files.pythonhosted.org/packages/83/33/dc537d52ed9999e8bf4fe63a46980a44b4007bfb57d05d5d791704d244b6/odoo11_addon_purchase_request-11.0.1.2.6.99.dev6-py2.py3-none-any.whl
+[2023-06-08 06:56:18] INFO root fetch - processPackages [odoo8-addon-purchase-request]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_purchase_request-8.0.1.1.0.99.dev8-py2-none-any.whl.zip]
+[2023-06-08 06:56:18] INFO root fetch - processPackages [odoo8-addon-purchase-request]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_purchase_request-8.0.1.1.0.99.dev9-py2-none-any.whl.zip]
+[2023-06-08 06:56:18] INFO root fetch - main [MainThread]: End processing [odoo8-addon-purchase-request]: success
+[2023-06-08 06:56:18] INFO root fetch - processPackages [odoo12-addon-purchase-request]: Downloading https://files.pythonhosted.org/packages/e8/d9/abd7242c7e6a2a6028581dd577cabb7eb48eb9682f10b368f5fe84dfd8d9/odoo12_addon_purchase_request-12.0.5.3.1.99.dev8-py3-none-any.whl
+[2023-06-08 06:56:18] INFO root fetch - processPackages [odoo10-addon-purchase-landed-cost]: Remove: archive file [/home/abi/fetcher/tmp/odoo10_addon_purchase_landed_cost-10.0.2.0.0.99.dev8-py2-none-any.whl.zip]
+[2023-06-08 06:56:18] INFO root fetch - processPackages [odoo10-addon-purchase-landed-cost]: Remove: archive file [/home/abi/fetcher/tmp/odoo10_addon_purchase_landed_cost-10.0.2.0.0.99.dev9-py2-none-any.whl.zip]
+[2023-06-08 06:56:18] INFO root fetch - main [MainThread]: End processing [odoo10-addon-purchase-landed-cost]: success
+[2023-06-08 06:56:18] INFO root fetch - processPackages [odoo11-addon-purchase-request]: Downloading https://files.pythonhosted.org/packages/31/e7/c7e6bba4a72f0945ca70197790cb48ad6413ed7e1e443ca35bea7e452ba7/odoo11_addon_purchase_request-11.0.1.2.6.99.dev7-py2.py3-none-any.whl
+[2023-06-08 06:56:18] INFO root fetch - processPackages [odoo10-addon-purchase-request]: Remove: archive file [/home/abi/fetcher/tmp/odoo10_addon_purchase_request-10.0.1.2.2.99.dev7-py2-none-any.whl.zip]
+[2023-06-08 06:56:18] INFO root fetch - processPackages [odoo10-addon-purchase-request]: Remove: archive file [/home/abi/fetcher/tmp/odoo10_addon_purchase_request-10.0.1.2.2.99.dev8-py2-none-any.whl.zip]
+[2023-06-08 06:56:18] INFO root fetch - main [MainThread]: End processing [odoo10-addon-purchase-request]: success
+[2023-06-08 06:56:19] INFO root fetch - processPackages [odoo12-addon-purchase-request]: Downloading https://files.pythonhosted.org/packages/f5/48/6e22a348e37f58f638a45b4b54cd20f78e391f87be769fe36f28c939593f/odoo12_addon_purchase_request-12.0.5.3.1.99.dev9-py3-none-any.whl
+[2023-06-08 06:56:19] INFO root fetch - processPackages [odoo11-addon-purchase-request]: executing diffoscope
+[2023-06-08 06:56:19] INFO root fetch - processPackages [odoo11-addon-purchase-request]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo11_addon_purchase_request-11.0.1.2.6.99.dev6-py2.py3-none-any.whl.zip tmp/odoo11_addon_purchase_request-11.0.1.2.6.99.dev7-py2.py3-none-any.whl.zip --markdown 20230608/o/odoo11-addon-purchase-request/11.0.1.2.6.99.dev6-11.0.1.2.6.99.dev7/diff.md --exclude *.pyd
+[2023-06-08 06:56:19] INFO root fetch - processPackages [odoo8-addon-purchase-requisition-bid-selection]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_purchase_requisition_bid_selection-8.0.2.1.0.99.dev8-py2-none-any.whl.zip]
+[2023-06-08 06:56:19] INFO root fetch - processPackages [odoo8-addon-purchase-requisition-bid-selection]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_purchase_requisition_bid_selection-8.0.2.1.0.99.dev9-py2-none-any.whl.zip]
+[2023-06-08 06:56:19] INFO root fetch - main [MainThread]: End processing [odoo8-addon-purchase-requisition-bid-selection]: success
+[2023-06-08 06:56:19] INFO root fetch - processPackages [odoo12-addon-purchase-request]: executing diffoscope
+[2023-06-08 06:56:19] INFO root fetch - processPackages [odoo12-addon-purchase-request]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_purchase_request-12.0.5.3.1.99.dev8-py3-none-any.whl.zip tmp/odoo12_addon_purchase_request-12.0.5.3.1.99.dev9-py3-none-any.whl.zip --markdown 20230608/o/odoo12-addon-purchase-request/12.0.5.3.1.99.dev8-12.0.5.3.1.99.dev9/diff.md --exclude *.pyd
+[2023-06-08 06:56:19] INFO root fetch - processPackages [odoo8-addon-purchase-partial-invoicing]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_purchase_partial_invoicing-8.0.0.1.2.99.dev8-py2-none-any.whl.zip]
+[2023-06-08 06:56:19] INFO root fetch - processPackages [odoo8-addon-purchase-partial-invoicing]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_purchase_partial_invoicing-8.0.0.1.2.99.dev9-py2-none-any.whl.zip]
+[2023-06-08 06:56:19] INFO root fetch - main [MainThread]: End processing [odoo8-addon-purchase-partial-invoicing]: success
+[2023-06-08 06:56:19] INFO root fetch - processPackages [vector-vault]: Remove: archive file [/home/abi/fetcher/tmp/vector_vault-2.0.3.tar.gz]
+[2023-06-08 06:56:19] INFO root fetch - processPackages [vector-vault]: Remove: archive file [/home/abi/fetcher/tmp/vector_vault-2.0.4.tar.gz]
+[2023-06-08 06:56:19] INFO root fetch - main [MainThread]: End processing [vector-vault]: success
+[2023-06-08 06:56:19] INFO root fetch - processPackages [gs2]: Remove: archive file [/home/abi/fetcher/tmp/gs2-1.1.8.tar.gz]
+[2023-06-08 06:56:19] INFO root fetch - processPackages [gs2]: Remove: archive file [/home/abi/fetcher/tmp/gs2-1.1.9.tar.gz]
+[2023-06-08 06:56:19] INFO root fetch - main [MainThread]: End processing [gs2]: success
+[2023-06-08 06:56:19] INFO root fetch - processPackages [odoo8-addon-purchase-order-type]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_purchase_order_type-8.0.1.0.0.99.dev8-py2-none-any.whl.zip]
+[2023-06-08 06:56:19] INFO root fetch - processPackages [odoo8-addon-purchase-order-type]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_purchase_order_type-8.0.1.0.0.99.dev9-py2-none-any.whl.zip]
+[2023-06-08 06:56:19] INFO root fetch - main [MainThread]: End processing [odoo8-addon-purchase-order-type]: success
+[2023-06-08 06:56:20] INFO root fetch - processPackages [odoo11-addon-purchase-request]: Remove: archive file [/home/abi/fetcher/tmp/odoo11_addon_purchase_request-11.0.1.2.6.99.dev6-py2.py3-none-any.whl.zip]
+[2023-06-08 06:56:20] INFO root fetch - processPackages [odoo11-addon-purchase-request]: Remove: archive file [/home/abi/fetcher/tmp/odoo11_addon_purchase_request-11.0.1.2.6.99.dev7-py2.py3-none-any.whl.zip]
+[2023-06-08 06:56:20] INFO root fetch - main [MainThread]: End processing [odoo11-addon-purchase-request]: success
+[2023-06-08 06:56:21] INFO root fetch - processPackages [odoo12-addon-purchase-request]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_purchase_request-12.0.5.3.1.99.dev8-py3-none-any.whl.zip]
+[2023-06-08 06:56:21] INFO root fetch - processPackages [odoo12-addon-purchase-request]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_purchase_request-12.0.5.3.1.99.dev9-py3-none-any.whl.zip]
+[2023-06-08 06:56:21] INFO root fetch - main [MainThread]: End processing [odoo12-addon-purchase-request]: success
+[2023-06-08 06:56:21] INFO root fetch - main [MainThread]: Store serial: [18419822]
