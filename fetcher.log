@@ -4901,3 +4901,77 @@ EOFError: EOF read where object expected
 [2023-06-08 02:53:51] INFO root fetch - processPackages [projen]: Remove: archive file [/home/abi/fetcher/tmp/projen-0.71.9.tar.gz]
 [2023-06-08 02:53:51] INFO root fetch - main [MainThread]: End processing [projen]: success
 [2023-06-08 02:53:51] INFO root fetch - main [MainThread]: Store serial: [18416452]
+[2023-06-08 02:58:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18416452]
+[2023-06-08 02:59:01] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-08 02:59:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: LabGym
+[2023-06-08 02:59:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-databrew-cicd
+[2023-06-08 02:59:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: airbyte
+[2023-06-08 02:59:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: OpenGeode-GeosciencesIO
+[2023-06-08 02:59:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ansys-api-fluent
+[2023-06-08 02:59:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: LabGym
+[2023-06-08 02:59:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: projectaria-tools-dev
+[2023-06-08 02:59:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fintekkers-ledger-models
+[2023-06-08 02:59:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: formalmath
+[2023-06-08 02:59:01] INFO root fetch - processPackages [ansys-api-fluent]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-08 02:59:01] INFO root fetch - processPackages [LabGym]: New version: [1.9.4] Old Version: [1.9.2]
+[2023-06-08 02:59:01] INFO root fetch - processPackages [LabGym]: New version: [1.9.4] Old Version: [1.9.2]
+[2023-06-08 02:59:01] INFO root fetch - processPackages [airbyte]: New version: [1.9.3] Old Version: [1.9.2]
+[2023-06-08 02:59:01] INFO root fetch - processPackages [formalmath]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-08 02:59:01] INFO root fetch - processPackages [cdk-databrew-cicd]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-08 02:59:01] INFO root fetch - processPackages [OpenGeode-GeosciencesIO]: New version: [4.1.4rc1] Old Version: [4.1.4]
+[2023-06-08 02:59:01] INFO root fetch - processPackages [projectaria-tools-dev]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-08 02:59:01] INFO root fetch - processPackages [formalmath]: Downloading https://files.pythonhosted.org/packages/01/ac/014eb9252a21da6b0fb5e5aa287ff897ba6ccaa6a5635397e8a645521bbc/formalmath-0.0.4.tar.gz
+[2023-06-08 02:59:02] INFO root fetch - processPackages [cdk-databrew-cicd]: Downloading https://files.pythonhosted.org/packages/9c/18/acad9d22fe20a13d93a1aee49739981e3ab739a2edcb478344aa0fc5b783/cdk_databrew_cicd-2.0.98.tar.gz
+[2023-06-08 02:59:02] INFO root fetch - processPackages [fintekkers-ledger-models]: New version: [0.1.48] Old Version: [0.1.47]
+[2023-06-08 02:59:02] ERROR root fetch - processPackages [LabGym]: Unable to fetch info: No such project/version 'LabGym' 1.9.2
+[2023-06-08 02:59:02] INFO root fetch - main [MainThread]: End processing [LabGym] error
+[2023-06-08 02:59:02] ERROR root fetch - processPackages [LabGym]: Unable to fetch info: No such project/version 'LabGym' 1.9.2
+[2023-06-08 02:59:02] INFO root fetch - main [MainThread]: End processing [LabGym] error
+[2023-06-08 02:59:02] INFO root fetch - processPackages [OpenGeode-GeosciencesIO]: Downloading https://files.pythonhosted.org/packages/ee/e6/aba388b2d733d551283c4bf0ff3214208b8d0f70f49d22517a49a4b0d37d/OpenGeode_GeosciencesIO-4.1.4-cp39-cp39-win_amd64.whl
+[2023-06-08 02:59:02] INFO root fetch - processPackages [ansys-api-fluent]: Downloading https://files.pythonhosted.org/packages/92/6c/d9e3332610449fb8dd5f58fa8e1e340141302cb3ac74df49a9b079b4899b/ansys_api_fluent-0.3.8-py3-none-any.whl
+[2023-06-08 02:59:02] INFO root fetch - processPackages [airbyte]: Downloading https://files.pythonhosted.org/packages/95/09/eea230e893ab55370e867c76f081945c8f60016ebdb0b385d9f077a4fc0c/airbyte-1.9.2.tar.gz
+[2023-06-08 02:59:02] INFO root fetch - processPackages [projectaria-tools-dev]: Downloading https://files.pythonhosted.org/packages/04/ab/4c2674249fb0e5281ad41344779777cc9d96640105c261a65d596dcc3ad3/projectaria_tools_dev-0.8.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-08 02:59:02] INFO root fetch - processPackages [cdk-databrew-cicd]: Downloading https://files.pythonhosted.org/packages/66/41/4c5089b171b28b627753bb3de1b4b696fdaeb4f78ef49dcb72a79fcb6e9d/cdk_databrew_cicd-2.0.99.tar.gz
+[2023-06-08 02:59:02] INFO root fetch - processPackages [formalmath]: Downloading https://files.pythonhosted.org/packages/91/62/e1996f69a9b9888e194a6b6aa4b934d4acc2bfe4e81a4330b3def36ae076/formalmath-0.0.5.tar.gz
+[2023-06-08 02:59:02] INFO root fetch - processPackages [fintekkers-ledger-models]: Downloading https://files.pythonhosted.org/packages/29/a8/b74380b7d7631814adf6a41b63fed1ed83ce55d978416c232aa5a548396c/fintekkers-ledger-models-0.1.47.tar.gz
+[2023-06-08 02:59:02] INFO root fetch - processPackages [formalmath]: executing diffoscope
+[2023-06-08 02:59:02] INFO root fetch - processPackages [formalmath]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/formalmath-0.0.4.tar.gz tmp/formalmath-0.0.5.tar.gz --markdown 20230608/f/formalmath/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-08 02:59:02] INFO root fetch - processPackages [airbyte]: Downloading https://files.pythonhosted.org/packages/c8/0f/877b6add49894978bf75b52f0cac1579d618edd3403e2547fc5a23f4705e/airbyte-1.9.3.tar.gz
+[2023-06-08 02:59:02] INFO root fetch - processPackages [cdk-databrew-cicd]: executing diffoscope
+[2023-06-08 02:59:02] INFO root fetch - processPackages [cdk-databrew-cicd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_databrew_cicd-2.0.98.tar.gz tmp/cdk_databrew_cicd-2.0.99.tar.gz --markdown 20230608/c/cdk-databrew-cicd/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-08 02:59:02] INFO root fetch - processPackages [OpenGeode-GeosciencesIO]: Downloading https://files.pythonhosted.org/packages/f8/4d/aabae0755cf12e86d042c184306091f45e890151658d42849c276ed3b1cc/OpenGeode_GeosciencesIO-4.1.4rc1-cp39-cp39-win_amd64.whl
+[2023-06-08 02:59:02] INFO root fetch - processPackages [airbyte]: executing diffoscope
+[2023-06-08 02:59:02] INFO root fetch - processPackages [airbyte]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte-1.9.2.tar.gz tmp/airbyte-1.9.3.tar.gz --markdown 20230608/a/airbyte/1.9.2-1.9.3/diff.md --exclude *.pyd
+[2023-06-08 02:59:02] INFO root fetch - processPackages [OpenGeode-GeosciencesIO]: executing diffoscope
+[2023-06-08 02:59:02] INFO root fetch - processPackages [OpenGeode-GeosciencesIO]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OpenGeode_GeosciencesIO-4.1.4-cp39-cp39-win_amd64.whl.zip tmp/OpenGeode_GeosciencesIO-4.1.4rc1-cp39-cp39-win_amd64.whl.zip --markdown 20230608/O/OpenGeode-GeosciencesIO/4.1.4-4.1.4rc1/diff.md --exclude *.pyd
+[2023-06-08 02:59:02] INFO root fetch - processPackages [ansys-api-fluent]: Downloading https://files.pythonhosted.org/packages/91/3f/3641a3fcda51e1eb122b0eecd800262e2a484e5f57e43383d60df727d6dc/ansys_api_fluent-0.3.9-py3-none-any.whl
+[2023-06-08 02:59:02] INFO root fetch - processPackages [projectaria-tools-dev]: Downloading https://files.pythonhosted.org/packages/60/d4/a47513079d1180a9156062e55c3e578462aa43d97824a0109a4f5c91f863/projectaria_tools_dev-0.9.0-cp39-cp39-macosx_11_0_arm64.whl
+[2023-06-08 02:59:02] INFO root fetch - processPackages [fintekkers-ledger-models]: Downloading https://files.pythonhosted.org/packages/1a/c6/4df99bf09885b9140e4d391075b0a0603c2db6bfb800ae1fe726c33f09e8/fintekkers-ledger-models-0.1.48.tar.gz
+[2023-06-08 02:59:02] INFO root fetch - processPackages [projectaria-tools-dev]: executing diffoscope
+[2023-06-08 02:59:02] INFO root fetch - processPackages [projectaria-tools-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/projectaria_tools_dev-0.8.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/projectaria_tools_dev-0.9.0-cp39-cp39-macosx_11_0_arm64.whl.zip --markdown 20230608/p/projectaria-tools-dev/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-08 02:59:02] INFO root fetch - processPackages [fintekkers-ledger-models]: executing diffoscope
+[2023-06-08 02:59:02] INFO root fetch - processPackages [fintekkers-ledger-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fintekkers-ledger-models-0.1.47.tar.gz tmp/fintekkers-ledger-models-0.1.48.tar.gz --markdown 20230608/f/fintekkers-ledger-models/0.1.47-0.1.48/diff.md --exclude *.pyd
+[2023-06-08 02:59:02] INFO root fetch - processPackages [ansys-api-fluent]: executing diffoscope
+[2023-06-08 02:59:02] INFO root fetch - processPackages [ansys-api-fluent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansys_api_fluent-0.3.8-py3-none-any.whl.zip tmp/ansys_api_fluent-0.3.9-py3-none-any.whl.zip --markdown 20230608/a/ansys-api-fluent/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-08 02:59:03] INFO root fetch - processPackages [formalmath]: Remove: archive file [/home/abi/fetcher/tmp/formalmath-0.0.4.tar.gz]
+[2023-06-08 02:59:03] INFO root fetch - processPackages [formalmath]: Remove: archive file [/home/abi/fetcher/tmp/formalmath-0.0.5.tar.gz]
+[2023-06-08 02:59:03] INFO root fetch - main [MainThread]: End processing [formalmath]: success
+[2023-06-08 02:59:04] INFO root fetch - processPackages [projectaria-tools-dev]: Remove: archive file [/home/abi/fetcher/tmp/projectaria_tools_dev-0.8.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-08 02:59:04] INFO root fetch - processPackages [projectaria-tools-dev]: Remove: archive file [/home/abi/fetcher/tmp/projectaria_tools_dev-0.9.0-cp39-cp39-macosx_11_0_arm64.whl.zip]
+[2023-06-08 02:59:04] INFO root fetch - main [MainThread]: End processing [projectaria-tools-dev]: success
+[2023-06-08 02:59:04] INFO root fetch - processPackages [ansys-api-fluent]: Remove: archive file [/home/abi/fetcher/tmp/ansys_api_fluent-0.3.8-py3-none-any.whl.zip]
+[2023-06-08 02:59:04] INFO root fetch - processPackages [ansys-api-fluent]: Remove: archive file [/home/abi/fetcher/tmp/ansys_api_fluent-0.3.9-py3-none-any.whl.zip]
+[2023-06-08 02:59:04] INFO root fetch - main [MainThread]: End processing [ansys-api-fluent]: success
+[2023-06-08 02:59:04] INFO root fetch - processPackages [fintekkers-ledger-models]: Remove: archive file [/home/abi/fetcher/tmp/fintekkers-ledger-models-0.1.47.tar.gz]
+[2023-06-08 02:59:04] INFO root fetch - processPackages [fintekkers-ledger-models]: Remove: archive file [/home/abi/fetcher/tmp/fintekkers-ledger-models-0.1.48.tar.gz]
+[2023-06-08 02:59:04] INFO root fetch - main [MainThread]: End processing [fintekkers-ledger-models]: success
+[2023-06-08 02:59:05] INFO root fetch - processPackages [cdk-databrew-cicd]: Remove: archive file [/home/abi/fetcher/tmp/cdk_databrew_cicd-2.0.98.tar.gz]
+[2023-06-08 02:59:05] INFO root fetch - processPackages [cdk-databrew-cicd]: Remove: archive file [/home/abi/fetcher/tmp/cdk_databrew_cicd-2.0.99.tar.gz]
+[2023-06-08 02:59:05] INFO root fetch - main [MainThread]: End processing [cdk-databrew-cicd]: success
+[2023-06-08 02:59:06] INFO root fetch - processPackages [OpenGeode-GeosciencesIO]: Remove: archive file [/home/abi/fetcher/tmp/OpenGeode_GeosciencesIO-4.1.4-cp39-cp39-win_amd64.whl.zip]
+[2023-06-08 02:59:06] INFO root fetch - processPackages [OpenGeode-GeosciencesIO]: Remove: archive file [/home/abi/fetcher/tmp/OpenGeode_GeosciencesIO-4.1.4rc1-cp39-cp39-win_amd64.whl.zip]
+[2023-06-08 02:59:06] INFO root fetch - main [MainThread]: End processing [OpenGeode-GeosciencesIO]: success
+[2023-06-08 02:59:07] INFO root fetch - processPackages [airbyte]: Remove: archive file [/home/abi/fetcher/tmp/airbyte-1.9.2.tar.gz]
+[2023-06-08 02:59:07] INFO root fetch - processPackages [airbyte]: Remove: archive file [/home/abi/fetcher/tmp/airbyte-1.9.3.tar.gz]
+[2023-06-08 02:59:07] INFO root fetch - main [MainThread]: End processing [airbyte]: success
+[2023-06-08 02:59:07] INFO root fetch - main [MainThread]: Store serial: [18416486]
