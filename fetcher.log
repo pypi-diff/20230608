@@ -20249,3 +20249,120 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-06-08 10:19:27] INFO root fetch - processPackages [ksmm]: Remove: archive file [/home/abi/fetcher/tmp/ksmm-1.0.0.tar.gz]
 [2023-06-08 10:19:27] INFO root fetch - main [MainThread]: End processing [ksmm]: success
 [2023-06-08 10:19:27] INFO root fetch - main [MainThread]: Store serial: [18421424]
+[2023-06-08 10:24:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18421424]
+[2023-06-08 10:24:37] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-08 10:24:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dls-servbase
+[2023-06-08 10:24:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: EdgeGPT
+[2023-06-08 10:24:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: DLMS-SPODES
+[2023-06-08 10:24:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mpyl
+[2023-06-08 10:24:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zarrita
+[2023-06-08 10:24:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: my-sdk
+[2023-06-08 10:24:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mkdocs-blogging-plugin
+[2023-06-08 10:24:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: phylotreelib
+[2023-06-08 10:24:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: vecpot
+[2023-06-08 10:24:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: layerx-sdk-beta
+[2023-06-08 10:24:38] INFO root fetch - processPackages [mpyl]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-08 10:24:38] INFO root fetch - processPackages [dls-servbase]: New version: [1.7.1] Old Version: [1.7.0]
+[2023-06-08 10:24:38] INFO root fetch - processPackages [mkdocs-blogging-plugin]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-06-08 10:24:38] INFO root fetch - processPackages [DLMS-SPODES]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-06-08 10:24:38] WARNING root fetch - processPackages [my-sdk]: Skipping, unable to determine old version
+[2023-06-08 10:24:38] INFO root fetch - processPackages [EdgeGPT]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-06-08 10:24:38] INFO root fetch - processPackages [my-sdk]: Start processing: nbox
+[2023-06-08 10:24:38] WARNING root fetch - processPackages [vecpot]: Skipping, unable to determine old version
+[2023-06-08 10:24:38] INFO root fetch - processPackages [zarrita]: New version: [0.1.0a3] Old Version: [0.1.0a2]
+[2023-06-08 10:24:38] INFO root fetch - main [MainThread]: End processing [my-sdk] error
+[2023-06-08 10:24:38] INFO root fetch - processPackages [vecpot]: Start processing: duckduckgo-search
+[2023-06-08 10:24:38] INFO root fetch - main [MainThread]: End processing [vecpot] error
+[2023-06-08 10:24:38] INFO root fetch - processPackages [layerx-sdk-beta]: New version: [1.0.9b2] Old Version: [1.0.9b1]
+[2023-06-08 10:24:38] INFO root fetch - processPackages [phylotreelib]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-06-08 10:24:38] INFO root fetch - processPackages [duckduckgo-search]: New version: [3.8.2] Old Version: [3.8.1]
+[2023-06-08 10:24:38] INFO root fetch - processPackages [nbox]: New version: [0.9.9rc0] Old Version: [0.9.9]
+[2023-06-08 10:24:38] INFO root fetch - processPackages [zarrita]: Downloading https://files.pythonhosted.org/packages/a1/d3/84435c35aa838494b079279088719b501dc9b583c020f3f43dadfd5ecc7d/zarrita-0.1.0a2.tar.gz
+[2023-06-08 10:24:38] INFO root fetch - processPackages [layerx-sdk-beta]: Downloading https://files.pythonhosted.org/packages/82/30/49db849a17663ef31174e31654b943efd6d652d8fead1d082f103f9ab59e/layerx-sdk-beta-1.0.9b1.tar.gz
+[2023-06-08 10:24:38] INFO root fetch - processPackages [DLMS-SPODES]: Downloading https://files.pythonhosted.org/packages/97/e2/60be495fca055220080de90e294b2c16ad5a60ea6485cdee969131f05bf4/DLMS_SPODES-0.8.3.tar.gz
+[2023-06-08 10:24:38] INFO root fetch - processPackages [EdgeGPT]: Downloading https://files.pythonhosted.org/packages/d7/29/f3e955f076747e360e385767e052138c8bbb1b5b8564bb0a8e3ac80aa517/EdgeGPT-0.9.1.tar.gz
+[2023-06-08 10:24:38] INFO root fetch - processPackages [dls-servbase]: Downloading https://files.pythonhosted.org/packages/c2/02/5fa6fb88b9441e4d4ab172c8aabec519334ef5ea5099631d8998aedeb591/dls-servbase-1.7.0.tar.gz
+[2023-06-08 10:24:38] INFO root fetch - processPackages [mkdocs-blogging-plugin]: Downloading https://files.pythonhosted.org/packages/67/84/98e0c44e669de54a206c20e0b0a90f091a4166b4e68c92d36893352fe675/mkdocs-blogging-plugin-2.2.8.tar.gz
+[2023-06-08 10:24:38] INFO root fetch - processPackages [DLMS-SPODES]: Downloading https://files.pythonhosted.org/packages/78/a8/0e1e9fd1aa9750b28e12462781d408863affaeb92dbdb8c020b6d3078e67/DLMS_SPODES-0.9.0.tar.gz
+[2023-06-08 10:24:38] INFO root fetch - processPackages [mpyl]: Downloading https://files.pythonhosted.org/packages/2d/d2/e329fbf74ee913798ada2191792b496a9f72b5cc9fc1b0daec4257e93f19/mpyl-1.0.2-py3-none-any.whl
+[2023-06-08 10:24:38] INFO root fetch - processPackages [phylotreelib]: Downloading https://files.pythonhosted.org/packages/cb/fb/4129474e203eb7ff7a6c9f42fad45c6afbf7415569c6e2ec1fcba40d0357/phylotreelib-1.9.0.tar.gz
+[2023-06-08 10:24:38] INFO root fetch - processPackages [layerx-sdk-beta]: Downloading https://files.pythonhosted.org/packages/80/17/9c39f674089d0687a6ebb4bb5cb263194817e74bbf02632c5b1f95ed63ed/layerx-sdk-beta-1.0.9b2.tar.gz
+[2023-06-08 10:24:38] INFO root fetch - processPackages [EdgeGPT]: Downloading https://files.pythonhosted.org/packages/cd/5b/21684fc9845465c26158f409058121cb077ae7db9cd74c4027491d8a2a42/EdgeGPT-0.9.2.tar.gz
+[2023-06-08 10:24:38] INFO root fetch - processPackages [duckduckgo-search]: Downloading https://files.pythonhosted.org/packages/7a/cb/4b259c6d753d71329130cbedd3b49f69b809bd4f39ed8ee84e0a7f106068/duckduckgo_search-3.8.1.tar.gz
+[2023-06-08 10:24:38] INFO root fetch - processPackages [nbox]: Downloading https://files.pythonhosted.org/packages/3d/74/98cb97a2dc0cd9f45292cd8ded3d3da9318b1bede8a34420822679c48c34/nbox-0.9.9.tar.gz
+[2023-06-08 10:24:38] INFO root fetch - processPackages [layerx-sdk-beta]: executing diffoscope
+[2023-06-08 10:24:38] INFO root fetch - processPackages [layerx-sdk-beta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/layerx-sdk-beta-1.0.9b1.tar.gz tmp/layerx-sdk-beta-1.0.9b2.tar.gz --markdown 20230608/l/layerx-sdk-beta/1.0.9b1-1.0.9b2/diff.md --exclude *.pyd
+[2023-06-08 10:24:38] INFO root fetch - processPackages [EdgeGPT]: executing diffoscope
+[2023-06-08 10:24:38] INFO root fetch - processPackages [EdgeGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EdgeGPT-0.9.1.tar.gz tmp/EdgeGPT-0.9.2.tar.gz --markdown 20230608/E/EdgeGPT/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-06-08 10:24:38] INFO root fetch - processPackages [DLMS-SPODES]: executing diffoscope
+[2023-06-08 10:24:38] INFO root fetch - processPackages [DLMS-SPODES]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DLMS_SPODES-0.8.3.tar.gz tmp/DLMS_SPODES-0.9.0.tar.gz --markdown 20230608/D/DLMS-SPODES/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2023-06-08 10:24:38] INFO root fetch - processPackages [mkdocs-blogging-plugin]: Downloading https://files.pythonhosted.org/packages/85/b2/e1dfc4600c5bf0d1b401219c115887d6b2bd83825c76fcc79c0a2136a95c/mkdocs-blogging-plugin-2.2.9.tar.gz
+[2023-06-08 10:24:38] INFO root fetch - processPackages [dls-servbase]: Downloading https://files.pythonhosted.org/packages/2d/01/71994246551b402fa545c82f74b638c4a69c49a4e391449d37758c005f9a/dls-servbase-1.7.1.tar.gz
+[2023-06-08 10:24:38] INFO root fetch - processPackages [zarrita]: Downloading https://files.pythonhosted.org/packages/ba/b4/27269f597c9526fd723d4d44dfcb5c42034df3827b93ced019ad2fbdcd99/zarrita-0.1.0a3.tar.gz
+[2023-06-08 10:24:38] INFO root fetch - processPackages [mpyl]: Downloading https://files.pythonhosted.org/packages/f4/00/258d9c931ead8313cca5dc5a8e8fd50e00aceebf9fc4f76c7e49881073bf/mpyl-1.0.3-py3-none-any.whl
+[2023-06-08 10:24:38] INFO root fetch - processPackages [mkdocs-blogging-plugin]: executing diffoscope
+[2023-06-08 10:24:38] INFO root fetch - processPackages [mkdocs-blogging-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs-blogging-plugin-2.2.8.tar.gz tmp/mkdocs-blogging-plugin-2.2.9.tar.gz --markdown 20230608/m/mkdocs-blogging-plugin/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-06-08 10:24:38] INFO root fetch - processPackages [dls-servbase]: executing diffoscope
+[2023-06-08 10:24:38] INFO root fetch - processPackages [dls-servbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dls-servbase-1.7.0.tar.gz tmp/dls-servbase-1.7.1.tar.gz --markdown 20230608/d/dls-servbase/1.7.0-1.7.1/diff.md --exclude *.pyd
+[2023-06-08 10:24:38] INFO root fetch - processPackages [mpyl]: executing diffoscope
+[2023-06-08 10:24:38] INFO root fetch - processPackages [mpyl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpyl-1.0.2-py3-none-any.whl.zip tmp/mpyl-1.0.3-py3-none-any.whl.zip --markdown 20230608/m/mpyl/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-08 10:24:38] INFO root fetch - processPackages [phylotreelib]: Downloading https://files.pythonhosted.org/packages/0b/9c/4b0689963cdbd3666b5a42d32decedfd9833c728f364b00bea9f7b6a98f3/phylotreelib-1.9.1.tar.gz
+[2023-06-08 10:24:38] INFO root fetch - processPackages [nbox]: Downloading https://files.pythonhosted.org/packages/e9/5a/a1cec5678c7bcca81531e8e340b7ace580efc6d998e285970e6d0a94f7cd/nbox-0.9.9rc0.tar.gz
+[2023-06-08 10:24:38] INFO root fetch - processPackages [duckduckgo-search]: Downloading https://files.pythonhosted.org/packages/33/63/64115e1bcd9d5430d7475ed64375f1de133f0801226da569c174d0323a40/duckduckgo_search-3.8.2.tar.gz
+[2023-06-08 10:24:38] INFO root fetch - processPackages [zarrita]: executing diffoscope
+[2023-06-08 10:24:38] INFO root fetch - processPackages [zarrita]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zarrita-0.1.0a2.tar.gz tmp/zarrita-0.1.0a3.tar.gz --markdown 20230608/z/zarrita/0.1.0a2-0.1.0a3/diff.md --exclude *.pyd
+[2023-06-08 10:24:38] INFO root fetch - processPackages [duckduckgo-search]: executing diffoscope
+[2023-06-08 10:24:38] INFO root fetch - processPackages [duckduckgo-search]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/duckduckgo_search-3.8.1.tar.gz tmp/duckduckgo_search-3.8.2.tar.gz --markdown 20230608/d/duckduckgo-search/3.8.1-3.8.2/diff.md --exclude *.pyd
+[2023-06-08 10:24:38] INFO root fetch - processPackages [phylotreelib]: executing diffoscope
+[2023-06-08 10:24:38] INFO root fetch - processPackages [phylotreelib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phylotreelib-1.9.0.tar.gz tmp/phylotreelib-1.9.1.tar.gz --markdown 20230608/p/phylotreelib/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-06-08 10:24:38] INFO root fetch - processPackages [nbox]: executing diffoscope
+[2023-06-08 10:24:38] INFO root fetch - processPackages [nbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbox-0.9.9.tar.gz tmp/nbox-0.9.9rc0.tar.gz --markdown 20230608/n/nbox/0.9.9-0.9.9rc0/diff.md --exclude *.pyd
+[2023-06-08 10:24:39] INFO root fetch - processPackages [EdgeGPT]: Remove: archive file [/home/abi/fetcher/tmp/EdgeGPT-0.9.1.tar.gz]
+[2023-06-08 10:24:39] INFO root fetch - processPackages [EdgeGPT]: Remove: archive file [/home/abi/fetcher/tmp/EdgeGPT-0.9.2.tar.gz]
+[2023-06-08 10:24:40] INFO root fetch - processPackages [EdgeGPT]: Start processing: anastruct
+[2023-06-08 10:24:40] INFO root fetch - main [MainThread]: End processing [EdgeGPT]: success
+[2023-06-08 10:24:40] INFO root fetch - processPackages [anastruct]: New version: [1.4.2] Old Version: [1.4.1]
+[2023-06-08 10:24:40] INFO root fetch - processPackages [mkdocs-blogging-plugin]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs-blogging-plugin-2.2.8.tar.gz]
+[2023-06-08 10:24:40] INFO root fetch - processPackages [mkdocs-blogging-plugin]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs-blogging-plugin-2.2.9.tar.gz]
+[2023-06-08 10:24:40] INFO root fetch - processPackages [mkdocs-blogging-plugin]: Start processing: jupyterlab-notify
+[2023-06-08 10:24:40] INFO root fetch - main [MainThread]: End processing [mkdocs-blogging-plugin]: success
+[2023-06-08 10:24:40] INFO root fetch - processPackages [anastruct]: Downloading https://files.pythonhosted.org/packages/8e/2f/ceb1d5f6bac4978961f2d40a9f9a84bf1aa59b1a844d24b2f6395991bb0e/anastruct-1.4.1.tar.gz
+[2023-06-08 10:24:40] INFO root fetch - processPackages [zarrita]: Remove: archive file [/home/abi/fetcher/tmp/zarrita-0.1.0a2.tar.gz]
+[2023-06-08 10:24:40] INFO root fetch - processPackages [zarrita]: Remove: archive file [/home/abi/fetcher/tmp/zarrita-0.1.0a3.tar.gz]
+[2023-06-08 10:24:40] INFO root fetch - main [MainThread]: End processing [zarrita]: success
+[2023-06-08 10:24:40] INFO root fetch - processPackages [jupyterlab-notify]: New version: [2.0.0] Old Version: [1.0.0]
+[2023-06-08 10:24:40] INFO root fetch - processPackages [layerx-sdk-beta]: Remove: archive file [/home/abi/fetcher/tmp/layerx-sdk-beta-1.0.9b1.tar.gz]
+[2023-06-08 10:24:40] INFO root fetch - processPackages [layerx-sdk-beta]: Remove: archive file [/home/abi/fetcher/tmp/layerx-sdk-beta-1.0.9b2.tar.gz]
+[2023-06-08 10:24:40] INFO root fetch - main [MainThread]: End processing [layerx-sdk-beta]: success
+[2023-06-08 10:24:40] INFO root fetch - processPackages [duckduckgo-search]: Remove: archive file [/home/abi/fetcher/tmp/duckduckgo_search-3.8.1.tar.gz]
+[2023-06-08 10:24:40] INFO root fetch - processPackages [duckduckgo-search]: Remove: archive file [/home/abi/fetcher/tmp/duckduckgo_search-3.8.2.tar.gz]
+[2023-06-08 10:24:40] INFO root fetch - main [MainThread]: End processing [duckduckgo-search]: success
+[2023-06-08 10:24:40] INFO root fetch - processPackages [anastruct]: Downloading https://files.pythonhosted.org/packages/b6/ae/1b901b02eb538cb3f2adac8c71dd2ae21a57d9d2b93785e32d47374d7e81/anastruct-1.4.2.tar.gz
+[2023-06-08 10:24:40] INFO root fetch - processPackages [jupyterlab-notify]: Downloading https://files.pythonhosted.org/packages/7c/87/6141e30eaf5a76c1ba36c76f58356032e341ed313c806e9ae86e95edd81e/jupyterlab_notify-1.0.0.tar.gz
+[2023-06-08 10:24:40] INFO root fetch - processPackages [mpyl]: Remove: archive file [/home/abi/fetcher/tmp/mpyl-1.0.2-py3-none-any.whl.zip]
+[2023-06-08 10:24:40] INFO root fetch - processPackages [mpyl]: Remove: archive file [/home/abi/fetcher/tmp/mpyl-1.0.3-py3-none-any.whl.zip]
+[2023-06-08 10:24:40] INFO root fetch - main [MainThread]: End processing [mpyl]: success
+[2023-06-08 10:24:40] INFO root fetch - processPackages [anastruct]: executing diffoscope
+[2023-06-08 10:24:40] INFO root fetch - processPackages [anastruct]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anastruct-1.4.1.tar.gz tmp/anastruct-1.4.2.tar.gz --markdown 20230608/a/anastruct/1.4.1-1.4.2/diff.md --exclude *.pyd
+[2023-06-08 10:24:40] INFO root fetch - processPackages [jupyterlab-notify]: Downloading https://files.pythonhosted.org/packages/ef/92/87563a1f696e672985d12cc2e4a599a467d08fad7510a0e1067fb0cc3c1a/jupyterlab_notify-2.0.0.tar.gz
+[2023-06-08 10:24:40] INFO root fetch - processPackages [jupyterlab-notify]: executing diffoscope
+[2023-06-08 10:24:40] INFO root fetch - processPackages [jupyterlab-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlab_notify-1.0.0.tar.gz tmp/jupyterlab_notify-2.0.0.tar.gz --markdown 20230608/j/jupyterlab-notify/1.0.0-2.0.0/diff.md --exclude *.pyd
+[2023-06-08 10:24:42] INFO root fetch - processPackages [jupyterlab-notify]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_notify-1.0.0.tar.gz]
+[2023-06-08 10:24:42] INFO root fetch - processPackages [jupyterlab-notify]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_notify-2.0.0.tar.gz]
+[2023-06-08 10:24:42] INFO root fetch - main [MainThread]: End processing [jupyterlab-notify]: success
+[2023-06-08 10:24:42] INFO root fetch - processPackages [phylotreelib]: Remove: archive file [/home/abi/fetcher/tmp/phylotreelib-1.9.0.tar.gz]
+[2023-06-08 10:24:42] INFO root fetch - processPackages [phylotreelib]: Remove: archive file [/home/abi/fetcher/tmp/phylotreelib-1.9.1.tar.gz]
+[2023-06-08 10:24:42] INFO root fetch - main [MainThread]: End processing [phylotreelib]: success
+[2023-06-08 10:24:42] INFO root fetch - processPackages [anastruct]: Remove: archive file [/home/abi/fetcher/tmp/anastruct-1.4.1.tar.gz]
+[2023-06-08 10:24:42] INFO root fetch - processPackages [anastruct]: Remove: archive file [/home/abi/fetcher/tmp/anastruct-1.4.2.tar.gz]
+[2023-06-08 10:24:42] INFO root fetch - main [MainThread]: End processing [anastruct]: success
+[2023-06-08 10:24:42] INFO root fetch - processPackages [nbox]: Remove: archive file [/home/abi/fetcher/tmp/nbox-0.9.9.tar.gz]
+[2023-06-08 10:24:42] INFO root fetch - processPackages [nbox]: Remove: archive file [/home/abi/fetcher/tmp/nbox-0.9.9rc0.tar.gz]
+[2023-06-08 10:24:42] INFO root fetch - main [MainThread]: End processing [nbox]: success
+[2023-06-08 10:24:42] INFO root fetch - processPackages [dls-servbase]: Remove: archive file [/home/abi/fetcher/tmp/dls-servbase-1.7.0.tar.gz]
+[2023-06-08 10:24:42] INFO root fetch - processPackages [dls-servbase]: Remove: archive file [/home/abi/fetcher/tmp/dls-servbase-1.7.1.tar.gz]
+[2023-06-08 10:24:42] INFO root fetch - main [MainThread]: End processing [dls-servbase]: success
+[2023-06-08 10:24:42] INFO root fetch - processPackages [DLMS-SPODES]: Remove: archive file [/home/abi/fetcher/tmp/DLMS_SPODES-0.8.3.tar.gz]
+[2023-06-08 10:24:42] INFO root fetch - processPackages [DLMS-SPODES]: Remove: archive file [/home/abi/fetcher/tmp/DLMS_SPODES-0.9.0.tar.gz]
+[2023-06-08 10:24:42] INFO root fetch - main [MainThread]: End processing [DLMS-SPODES]: success
+[2023-06-08 10:24:42] INFO root fetch - main [MainThread]: Store serial: [18421473]
