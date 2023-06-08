@@ -18719,3 +18719,66 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-08 09:04:20] INFO root fetch - processPackages [deepchecks]: Remove: archive file [/home/abi/fetcher/tmp/deepchecks-0.9.2.tar.gz]
 [2023-06-08 09:04:20] INFO root fetch - main [MainThread]: End processing [deepchecks]: success
 [2023-06-08 09:04:20] INFO root fetch - main [MainThread]: Store serial: [18420793]
+[2023-06-08 09:09:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18420793]
+[2023-06-08 09:09:31] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-08 09:09:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tej-tool-api
+[2023-06-08 09:09:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: anyon
+[2023-06-08 09:09:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: TeamsGraphApi
+[2023-06-08 09:09:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hcristian
+[2023-06-08 09:09:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: py_dev_support
+[2023-06-08 09:09:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tf-hub-nightly
+[2023-06-08 09:09:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lazyearth
+[2023-06-08 09:09:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pepperize.cdk-terraform-state-backend
+[2023-06-08 09:09:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mxcube-video-streamer
+[2023-06-08 09:09:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: SpatialViewPy
+[2023-06-08 09:09:31] INFO root fetch - processPackages [hcristian]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-08 09:09:31] WARNING root fetch - processPackages [SpatialViewPy]: Skipping, unable to determine old version
+[2023-06-08 09:09:31] INFO root fetch - main [MainThread]: End processing [SpatialViewPy] error
+[2023-06-08 09:09:31] WARNING root fetch - processPackages [py_dev_support]: Skipping, unable to determine old version
+[2023-06-08 09:09:31] INFO root fetch - main [MainThread]: End processing [py_dev_support] error
+[2023-06-08 09:09:31] INFO root fetch - processPackages [TeamsGraphApi]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-08 09:09:31] WARNING root fetch - processPackages [anyon]: Skipping, unable to determine old version
+[2023-06-08 09:09:31] INFO root fetch - main [MainThread]: End processing [anyon] error
+[2023-06-08 09:09:31] WARNING root fetch - processPackages [mxcube-video-streamer]: Skipping, unable to determine old version
+[2023-06-08 09:09:31] INFO root fetch - main [MainThread]: End processing [mxcube-video-streamer] error
+[2023-06-08 09:09:31] INFO root fetch - processPackages [lazyearth]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-06-08 09:09:31] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-06-08 09:09:31] INFO root fetch - processPackages [tf-hub-nightly]: New version: [0.9.0.dev202008190006] Old Version: [0.9.0.dev202008180006]
+[2023-06-08 09:09:31] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Downloading https://files.pythonhosted.org/packages/67/44/1dba32653c7525f0fbd8908ad6d202d1043a5fcb6cf364972a4c23bffeac/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz
+[2023-06-08 09:09:31] WARNING root fetch - processPackages [tej-tool-api]: Skipping, unable to determine old version
+[2023-06-08 09:09:31] INFO root fetch - main [MainThread]: End processing [tej-tool-api] error
+[2023-06-08 09:09:31] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/e8/6b/02811fcd79aec590e7355647130c822f1bd53092a205ce986e6df7364f52/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl
+[2023-06-08 09:09:31] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Downloading https://files.pythonhosted.org/packages/49/e5/a2d418e8a59e46c739ecaa72adebcb65d676b8149513d576b8cd05d6324e/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz
+[2023-06-08 09:09:31] INFO root fetch - processPackages [hcristian]: Downloading https://files.pythonhosted.org/packages/c6/e6/c5148d53718e1c6b4baab3877e5c44e82799355d127a8e8a51b238217961/hcristian-0.0.1.tar.gz
+[2023-06-08 09:09:31] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/d1/9a/6b02d0906847e11386093420119d147f7306d7a9cad79e8e575a9d29ae76/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl
+[2023-06-08 09:09:31] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: executing diffoscope
+[2023-06-08 09:09:31] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz --markdown 20230608/p/pepperize.cdk-terraform-state-backend/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-06-08 09:09:31] INFO root fetch - processPackages [lazyearth]: Downloading https://files.pythonhosted.org/packages/d9/c7/af1d2c78694d1c93c56f540f2905e5ba84ce2e701c057e6ed55b4a5924bd/lazyearth-1.0.7.tar.gz
+[2023-06-08 09:09:31] INFO root fetch - processPackages [tf-hub-nightly]: executing diffoscope
+[2023-06-08 09:09:31] INFO root fetch - processPackages [tf-hub-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip --markdown 20230608/t/tf-hub-nightly/0.9.0.dev202008180006-0.9.0.dev202008190006/diff.md --exclude *.pyd
+[2023-06-08 09:09:31] INFO root fetch - processPackages [TeamsGraphApi]: Downloading https://files.pythonhosted.org/packages/c3/35/5b61b215824e825bbcc7606d9946e39086dab6cd7cc005ec9cf347d82599/teamsgraphapi-0.0.1.tar.gz
+[2023-06-08 09:09:31] INFO root fetch - processPackages [hcristian]: Downloading https://files.pythonhosted.org/packages/f1/9d/ffcb7a7a7f9b8b26b674d592f571fc783fb6e8912bb5a3934de569010707/hcristian-0.0.2.tar.gz
+[2023-06-08 09:09:31] INFO root fetch - processPackages [hcristian]: executing diffoscope
+[2023-06-08 09:09:31] INFO root fetch - processPackages [hcristian]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hcristian-0.0.1.tar.gz tmp/hcristian-0.0.2.tar.gz --markdown 20230608/h/hcristian/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-08 09:09:31] INFO root fetch - processPackages [TeamsGraphApi]: Downloading https://files.pythonhosted.org/packages/b0/12/5a3785235f9a2c492106cbad8904844d504de5ed27d85783bd14fe1b4309/teamsgraphapi-0.0.2.tar.gz
+[2023-06-08 09:09:31] INFO root fetch - processPackages [lazyearth]: Downloading https://files.pythonhosted.org/packages/57/a4/1f336b2de35597565a2417d8be51639317ff136edaf8e169f5f0828f24fc/lazyearth-1.0.8.tar.gz
+[2023-06-08 09:09:31] INFO root fetch - processPackages [TeamsGraphApi]: executing diffoscope
+[2023-06-08 09:09:31] INFO root fetch - processPackages [TeamsGraphApi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/teamsgraphapi-0.0.1.tar.gz tmp/teamsgraphapi-0.0.2.tar.gz --markdown 20230608/T/TeamsGraphApi/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-08 09:09:31] INFO root fetch - processPackages [lazyearth]: executing diffoscope
+[2023-06-08 09:09:31] INFO root fetch - processPackages [lazyearth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazyearth-1.0.7.tar.gz tmp/lazyearth-1.0.8.tar.gz --markdown 20230608/l/lazyearth/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-06-08 09:09:32] INFO root fetch - processPackages [hcristian]: Remove: archive file [/home/abi/fetcher/tmp/hcristian-0.0.1.tar.gz]
+[2023-06-08 09:09:32] INFO root fetch - processPackages [hcristian]: Remove: archive file [/home/abi/fetcher/tmp/hcristian-0.0.2.tar.gz]
+[2023-06-08 09:09:32] INFO root fetch - main [MainThread]: End processing [hcristian]: success
+[2023-06-08 09:09:32] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip]
+[2023-06-08 09:09:32] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip]
+[2023-06-08 09:09:32] INFO root fetch - main [MainThread]: End processing [tf-hub-nightly]: success
+[2023-06-08 09:09:32] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz]
+[2023-06-08 09:09:32] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz]
+[2023-06-08 09:09:32] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-terraform-state-backend]: success
+[2023-06-08 09:09:32] INFO root fetch - processPackages [lazyearth]: Remove: archive file [/home/abi/fetcher/tmp/lazyearth-1.0.7.tar.gz]
+[2023-06-08 09:09:32] INFO root fetch - processPackages [lazyearth]: Remove: archive file [/home/abi/fetcher/tmp/lazyearth-1.0.8.tar.gz]
+[2023-06-08 09:09:32] INFO root fetch - main [MainThread]: End processing [lazyearth]: success
+[2023-06-08 09:09:32] INFO root fetch - processPackages [TeamsGraphApi]: Remove: archive file [/home/abi/fetcher/tmp/teamsgraphapi-0.0.1.tar.gz]
+[2023-06-08 09:09:32] INFO root fetch - processPackages [TeamsGraphApi]: Remove: archive file [/home/abi/fetcher/tmp/teamsgraphapi-0.0.2.tar.gz]
+[2023-06-08 09:09:32] INFO root fetch - main [MainThread]: End processing [TeamsGraphApi]: success
+[2023-06-08 09:09:32] INFO root fetch - main [MainThread]: Store serial: [18420833]
