@@ -18383,3 +18383,51 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-08 08:36:18] INFO root fetch - processPackages [feature-engine]: Remove: archive file [/home/abi/fetcher/tmp/feature_engine-1.6.1.tar.gz]
 [2023-06-08 08:36:18] INFO root fetch - main [MainThread]: End processing [feature-engine]: success
 [2023-06-08 08:36:18] INFO root fetch - main [MainThread]: Store serial: [18420670]
+[2023-06-08 08:41:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18420670]
+[2023-06-08 08:41:28] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-08 08:41:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tsgettoolbox
+[2023-06-08 08:41:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Clone-ChatGPT
+[2023-06-08 08:41:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: layerx-sdk-beta
+[2023-06-08 08:41:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: CausalPy
+[2023-06-08 08:41:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: amsterdam-schema-tools
+[2023-06-08 08:41:28] INFO root fetch - processPackages [tsgettoolbox]: New version: [9.14.5.8] Old Version: [9.13.5.8]
+[2023-06-08 08:41:28] INFO root fetch - processPackages [layerx-sdk-beta]: New version: [1.0.9b2] Old Version: [1.0.9b1]
+[2023-06-08 08:41:28] INFO root fetch - processPackages [Clone-ChatGPT]: New version: [1.1.17] Old Version: [1.1.15]
+[2023-06-08 08:41:28] INFO root fetch - processPackages [CausalPy]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-08 08:41:29] INFO root fetch - processPackages [Clone-ChatGPT]: Downloading https://files.pythonhosted.org/packages/0c/a4/700a0d0178a7231f4ba81bf8fd2f7361df1672589949cff128dc0aeeeb76/Clone-ChatGPT-1.1.15.tar.gz
+[2023-06-08 08:41:29] INFO root fetch - processPackages [layerx-sdk-beta]: Downloading https://files.pythonhosted.org/packages/82/30/49db849a17663ef31174e31654b943efd6d652d8fead1d082f103f9ab59e/layerx-sdk-beta-1.0.9b1.tar.gz
+[2023-06-08 08:41:29] INFO root fetch - processPackages [tsgettoolbox]: Downloading https://files.pythonhosted.org/packages/fc/dd/bda5da91cda89fa91dc5b7a7fd21d076cab7b03b7f254bde7fc31549e3cf/tsgettoolbox-9.13.5.8.tar.gz
+[2023-06-08 08:41:29] INFO root fetch - processPackages [amsterdam-schema-tools]: New version: [5.9.3] Old Version: [5.9.2]
+[2023-06-08 08:41:29] INFO root fetch - processPackages [CausalPy]: Downloading https://files.pythonhosted.org/packages/58/a1/5ef70803ec1f2b3929956ef61756ade2bbfb64bea47c4cbfb590f34adcf1/CausalPy-0.0.8.tar.gz
+[2023-06-08 08:41:29] INFO root fetch - processPackages [layerx-sdk-beta]: Downloading https://files.pythonhosted.org/packages/80/17/9c39f674089d0687a6ebb4bb5cb263194817e74bbf02632c5b1f95ed63ed/layerx-sdk-beta-1.0.9b2.tar.gz
+[2023-06-08 08:41:29] INFO root fetch - processPackages [layerx-sdk-beta]: executing diffoscope
+[2023-06-08 08:41:29] INFO root fetch - processPackages [layerx-sdk-beta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/layerx-sdk-beta-1.0.9b1.tar.gz tmp/layerx-sdk-beta-1.0.9b2.tar.gz --markdown 20230608/l/layerx-sdk-beta/1.0.9b1-1.0.9b2/diff.md --exclude *.pyd
+[2023-06-08 08:41:29] INFO root fetch - processPackages [Clone-ChatGPT]: Downloading https://files.pythonhosted.org/packages/2d/de/61f210cc2b3aa9959181b3b187552f405e1d3b231e427da5bc39712fc005/Clone-ChatGPT-1.1.17.tar.gz
+[2023-06-08 08:41:29] INFO root fetch - processPackages [amsterdam-schema-tools]: Downloading https://files.pythonhosted.org/packages/1f/30/4cb7af8d4d1f00da78de0a18355a2eea64732fcd8654137d6173c80c699d/amsterdam-schema-tools-5.9.2.tar.gz
+[2023-06-08 08:41:29] INFO root fetch - processPackages [Clone-ChatGPT]: executing diffoscope
+[2023-06-08 08:41:29] INFO root fetch - processPackages [Clone-ChatGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Clone-ChatGPT-1.1.15.tar.gz tmp/Clone-ChatGPT-1.1.17.tar.gz --markdown 20230608/C/Clone-ChatGPT/1.1.15-1.1.17/diff.md --exclude *.pyd
+[2023-06-08 08:41:29] INFO root fetch - processPackages [CausalPy]: Downloading https://files.pythonhosted.org/packages/ad/4e/44a6554d1516e44e7307c532ab52f046be22879de63b9fc058f788d93279/CausalPy-0.0.9.tar.gz
+[2023-06-08 08:41:29] INFO root fetch - processPackages [CausalPy]: executing diffoscope
+[2023-06-08 08:41:29] INFO root fetch - processPackages [CausalPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CausalPy-0.0.8.tar.gz tmp/CausalPy-0.0.9.tar.gz --markdown 20230608/C/CausalPy/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-08 08:41:29] INFO root fetch - processPackages [amsterdam-schema-tools]: Downloading https://files.pythonhosted.org/packages/4d/24/9b16605372327f85f59868308c2dc3f6e93f5faf2941312efe6702b27d8c/amsterdam-schema-tools-5.9.3.tar.gz
+[2023-06-08 08:41:29] INFO root fetch - processPackages [tsgettoolbox]: Downloading https://files.pythonhosted.org/packages/74/fa/372cffb2c2b7ef8edf6ffb440c7e8c42f5cd5d7c129e12b6b3c8a803eaa5/tsgettoolbox-9.14.5.8.tar.gz
+[2023-06-08 08:41:29] INFO root fetch - processPackages [amsterdam-schema-tools]: executing diffoscope
+[2023-06-08 08:41:29] INFO root fetch - processPackages [amsterdam-schema-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amsterdam-schema-tools-5.9.2.tar.gz tmp/amsterdam-schema-tools-5.9.3.tar.gz --markdown 20230608/a/amsterdam-schema-tools/5.9.2-5.9.3/diff.md --exclude *.pyd
+[2023-06-08 08:41:30] INFO root fetch - processPackages [tsgettoolbox]: executing diffoscope
+[2023-06-08 08:41:30] INFO root fetch - processPackages [tsgettoolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tsgettoolbox-9.13.5.8.tar.gz tmp/tsgettoolbox-9.14.5.8.tar.gz --markdown 20230608/t/tsgettoolbox/9.13.5.8-9.14.5.8/diff.md --exclude *.pyd
+[2023-06-08 08:41:30] INFO root fetch - processPackages [layerx-sdk-beta]: Remove: archive file [/home/abi/fetcher/tmp/layerx-sdk-beta-1.0.9b1.tar.gz]
+[2023-06-08 08:41:30] INFO root fetch - processPackages [layerx-sdk-beta]: Remove: archive file [/home/abi/fetcher/tmp/layerx-sdk-beta-1.0.9b2.tar.gz]
+[2023-06-08 08:41:30] INFO root fetch - main [MainThread]: End processing [layerx-sdk-beta]: success
+[2023-06-08 08:41:30] INFO root fetch - processPackages [CausalPy]: Remove: archive file [/home/abi/fetcher/tmp/CausalPy-0.0.8.tar.gz]
+[2023-06-08 08:41:30] INFO root fetch - processPackages [CausalPy]: Remove: archive file [/home/abi/fetcher/tmp/CausalPy-0.0.9.tar.gz]
+[2023-06-08 08:41:30] INFO root fetch - main [MainThread]: End processing [CausalPy]: success
+[2023-06-08 08:41:31] INFO root fetch - processPackages [Clone-ChatGPT]: Remove: archive file [/home/abi/fetcher/tmp/Clone-ChatGPT-1.1.15.tar.gz]
+[2023-06-08 08:41:31] INFO root fetch - processPackages [Clone-ChatGPT]: Remove: archive file [/home/abi/fetcher/tmp/Clone-ChatGPT-1.1.17.tar.gz]
+[2023-06-08 08:41:31] INFO root fetch - main [MainThread]: End processing [Clone-ChatGPT]: success
+[2023-06-08 08:41:31] INFO root fetch - processPackages [tsgettoolbox]: Remove: archive file [/home/abi/fetcher/tmp/tsgettoolbox-9.13.5.8.tar.gz]
+[2023-06-08 08:41:31] INFO root fetch - processPackages [tsgettoolbox]: Remove: archive file [/home/abi/fetcher/tmp/tsgettoolbox-9.14.5.8.tar.gz]
+[2023-06-08 08:41:31] INFO root fetch - main [MainThread]: End processing [tsgettoolbox]: success
+[2023-06-08 08:41:32] INFO root fetch - processPackages [amsterdam-schema-tools]: Remove: archive file [/home/abi/fetcher/tmp/amsterdam-schema-tools-5.9.2.tar.gz]
+[2023-06-08 08:41:32] INFO root fetch - processPackages [amsterdam-schema-tools]: Remove: archive file [/home/abi/fetcher/tmp/amsterdam-schema-tools-5.9.3.tar.gz]
+[2023-06-08 08:41:32] INFO root fetch - main [MainThread]: End processing [amsterdam-schema-tools]: success
+[2023-06-08 08:41:32] INFO root fetch - main [MainThread]: Store serial: [18420681]
