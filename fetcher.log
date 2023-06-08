@@ -9352,3 +9352,44 @@ AssertionError: tmp/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip does not
 [2023-06-08 04:11:21] INFO root fetch - processPackages [homeassistant-stubs]: Remove: archive file [/home/abi/fetcher/tmp/homeassistant_stubs-2023.6.0b6.tar.gz]
 [2023-06-08 04:11:21] INFO root fetch - main [MainThread]: End processing [homeassistant-stubs]: success
 [2023-06-08 04:11:21] INFO root fetch - main [MainThread]: Store serial: [18418057]
+[2023-06-08 04:16:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18418057]
+[2023-06-08 04:16:30] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-08 04:16:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tgr-wdn-query-lang
+[2023-06-08 04:16:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chatglmclient
+[2023-06-08 04:16:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyLiang
+[2023-06-08 04:16:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ebank
+[2023-06-08 04:16:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: emi
+[2023-06-08 04:16:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dronebuddylib
+[2023-06-08 04:16:30] INFO root fetch - processPackages [ebank]: New version: [2.0.0] Old Version: [1.0.2]
+[2023-06-08 04:16:30] WARNING root fetch - processPackages [pyLiang]: Skipping, unable to determine old version
+[2023-06-08 04:16:30] INFO root fetch - main [MainThread]: End processing [pyLiang] error
+[2023-06-08 04:16:30] INFO root fetch - processPackages [tgr-wdn-query-lang]: New version: [1.1.7] Old Version: [1.1.5]
+[2023-06-08 04:16:30] INFO root fetch - processPackages [emi]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-08 04:16:30] WARNING root fetch - processPackages [chatglmclient]: Skipping, unable to determine old version
+[2023-06-08 04:16:30] INFO root fetch - main [MainThread]: End processing [chatglmclient] error
+[2023-06-08 04:16:30] INFO root fetch - processPackages [dronebuddylib]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-06-08 04:16:30] INFO root fetch - processPackages [ebank]: Downloading https://files.pythonhosted.org/packages/a4/16/a7f445efa603184de4db52aca1c2d192360d9b1e95e0f0da1604f1cd889d/ebank-1.0.2.tar.gz
+[2023-06-08 04:16:30] INFO root fetch - processPackages [tgr-wdn-query-lang]: Downloading https://files.pythonhosted.org/packages/f6/1c/43d9720f10d566513e4ee52bc5955b25b75118bdc65f767ab7048069af93/tgr_wdn_query_lang-1.1.5.tar.gz
+[2023-06-08 04:16:30] INFO root fetch - processPackages [dronebuddylib]: Downloading https://files.pythonhosted.org/packages/cc/08/1fc587f718fbda1e92d0b1934d96c82ad307b57c3254b4a710b9942df517/dronebuddylib-1.0.3.tar.gz
+[2023-06-08 04:16:30] INFO root fetch - processPackages [emi]: Downloading https://files.pythonhosted.org/packages/db/27/d4329d565f16cc66d41c98d25e3afdeed7df9d077130b5d0f4ccb901d717/emi-0.0.8.tar.gz
+[2023-06-08 04:16:30] INFO root fetch - processPackages [ebank]: Downloading https://files.pythonhosted.org/packages/18/5d/cc55c68c4134d65978c710417c8444284f329a4f0413a511d75787a5e943/ebank-2.0.0.tar.gz
+[2023-06-08 04:16:30] WARNING root fetch - processPackages [dronebuddylib]: Skipping package: exceeds size limit 41146581>=10485760
+[2023-06-08 04:16:30] INFO root fetch - main [MainThread]: End processing [dronebuddylib] error
+[2023-06-08 04:16:30] INFO root fetch - processPackages [ebank]: executing diffoscope
+[2023-06-08 04:16:30] INFO root fetch - processPackages [ebank]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ebank-1.0.2.tar.gz tmp/ebank-2.0.0.tar.gz --markdown 20230608/e/ebank/1.0.2-2.0.0/diff.md --exclude *.pyd
+[2023-06-08 04:16:31] INFO root fetch - processPackages [tgr-wdn-query-lang]: Downloading https://files.pythonhosted.org/packages/d1/af/03f948884a2fea7568c61aaf9338f14fceed3434a00c08e9145aa4bbdc60/tgr_wdn_query_lang-1.1.7.tar.gz
+[2023-06-08 04:16:31] INFO root fetch - processPackages [tgr-wdn-query-lang]: executing diffoscope
+[2023-06-08 04:16:31] INFO root fetch - processPackages [tgr-wdn-query-lang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tgr_wdn_query_lang-1.1.5.tar.gz tmp/tgr_wdn_query_lang-1.1.7.tar.gz --markdown 20230608/t/tgr-wdn-query-lang/1.1.5-1.1.7/diff.md --exclude *.pyd
+[2023-06-08 04:16:31] INFO root fetch - processPackages [emi]: Downloading https://files.pythonhosted.org/packages/b7/1c/aa5692c8ef0315d460418fdc71e91ebf3a526ae0b82eace70b34f0385fe6/emi-0.0.9.tar.gz
+[2023-06-08 04:16:31] INFO root fetch - processPackages [ebank]: Remove: archive file [/home/abi/fetcher/tmp/ebank-1.0.2.tar.gz]
+[2023-06-08 04:16:31] INFO root fetch - processPackages [ebank]: Remove: archive file [/home/abi/fetcher/tmp/ebank-2.0.0.tar.gz]
+[2023-06-08 04:16:31] INFO root fetch - main [MainThread]: End processing [ebank]: success
+[2023-06-08 04:16:32] INFO root fetch - processPackages [tgr-wdn-query-lang]: Remove: archive file [/home/abi/fetcher/tmp/tgr_wdn_query_lang-1.1.5.tar.gz]
+[2023-06-08 04:16:32] INFO root fetch - processPackages [tgr-wdn-query-lang]: Remove: archive file [/home/abi/fetcher/tmp/tgr_wdn_query_lang-1.1.7.tar.gz]
+[2023-06-08 04:16:32] INFO root fetch - main [MainThread]: End processing [tgr-wdn-query-lang]: success
+[2023-06-08 04:16:32] INFO root fetch - processPackages [emi]: executing diffoscope
+[2023-06-08 04:16:32] INFO root fetch - processPackages [emi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emi-0.0.8.tar.gz tmp/emi-0.0.9.tar.gz --markdown 20230608/e/emi/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-08 04:16:33] INFO root fetch - processPackages [emi]: Remove: archive file [/home/abi/fetcher/tmp/emi-0.0.8.tar.gz]
+[2023-06-08 04:16:33] INFO root fetch - processPackages [emi]: Remove: archive file [/home/abi/fetcher/tmp/emi-0.0.9.tar.gz]
+[2023-06-08 04:16:33] INFO root fetch - main [MainThread]: End processing [emi]: success
+[2023-06-08 04:16:33] INFO root fetch - main [MainThread]: Store serial: [18418083]
