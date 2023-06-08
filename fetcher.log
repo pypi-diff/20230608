@@ -9044,3 +9044,113 @@ AssertionError: tmp/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip does not
 [2023-06-08 03:54:44] INFO root fetch - processPackages [dqrobotics]: Remove: archive file [/home/abi/fetcher/tmp/dqrobotics-23.4.0a9-cp39-cp39-win_amd64.whl.zip]
 [2023-06-08 03:54:44] INFO root fetch - main [MainThread]: End processing [dqrobotics]: success
 [2023-06-08 03:54:44] INFO root fetch - main [MainThread]: Store serial: [18417863]
+[2023-06-08 03:59:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18417863]
+[2023-06-08 03:59:53] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-08 03:59:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-wordpress
+[2023-06-08 03:59:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyenv-encrypt
+[2023-06-08 03:59:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: plasmapy
+[2023-06-08 03:59:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bettershot
+[2023-06-08 03:59:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: alibabacloud-adcp20220101-py2
+[2023-06-08 03:59:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: d20-orm
+[2023-06-08 03:59:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: alibabacloud-adcp20220101
+[2023-06-08 03:59:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: yplib
+[2023-06-08 03:59:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: georasters
+[2023-06-08 03:59:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: raya
+[2023-06-08 03:59:53] INFO root fetch - processPackages [bettershot]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-08 03:59:53] INFO root fetch - processPackages [alibabacloud-adcp20220101-py2]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-08 03:59:53] INFO root fetch - processPackages [raya]: New version: [3.5.0.dev0] Old Version: [3.4.3.dev0]
+[2023-06-08 03:59:53] WARNING root fetch - processPackages [yplib]: Skipping, unable to determine old version
+[2023-06-08 03:59:53] INFO root fetch - processPackages [yplib]: Start processing: good-cache
+[2023-06-08 03:59:53] INFO root fetch - main [MainThread]: End processing [yplib] error
+[2023-06-08 03:59:53] INFO root fetch - processPackages [alibabacloud-adcp20220101]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-08 03:59:53] INFO root fetch - processPackages [plasmapy]: New version: [2023.5.1] Old Version: [2023.5.0]
+[2023-06-08 03:59:53] INFO root fetch - processPackages [pyenv-encrypt]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-06-08 03:59:53] INFO root fetch - processPackages [georasters]: New version: [0.5.9b] Old Version: [0.5.9a]
+[2023-06-08 03:59:53] INFO root fetch - processPackages [d20-orm]: New version: [2.0.2a9] Old Version: [2.0.2a8]
+[2023-06-08 03:59:53] INFO root fetch - processPackages [cdk-wordpress]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-08 03:59:53] INFO root fetch - processPackages [good-cache]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-08 03:59:53] INFO root fetch - processPackages [georasters]: Downloading https://files.pythonhosted.org/packages/f0/79/21eca74c4ae8d3e4f28969c775967f369b3863635849a87ddc444ea8c561/georasters-0.5.9a.tar.gz
+[2023-06-08 03:59:53] INFO root fetch - processPackages [raya]: Downloading https://files.pythonhosted.org/packages/b3/03/235ac8e62525ba22771e9d75b070a0fafee784746b5f44054e94e0f83048/raya-3.4.3.dev0.tar.gz
+[2023-06-08 03:59:53] INFO root fetch - processPackages [d20-orm]: Downloading https://files.pythonhosted.org/packages/ad/29/9c0d1509e2bf24fcaf67bf27a72aca82c69934060a5b97d4e95f982bdf7c/d20-orm-2.0.2a8.tar.gz
+[2023-06-08 03:59:53] INFO root fetch - processPackages [good-cache]: Downloading https://files.pythonhosted.org/packages/c6/e1/a32f84492637819d59d02e0f8e1e4cbf8242982506d98313d71244b41061/good_cache-0.1.1.tar.gz
+[2023-06-08 03:59:53] INFO root fetch - processPackages [georasters]: Downloading https://files.pythonhosted.org/packages/28/fc/561ea81499587e592fc7311d457d7228eb8ed84af372d040bb68cd948a73/georasters-0.5.9b.tar.gz
+[2023-06-08 03:59:53] INFO root fetch - processPackages [pyenv-encrypt]: Downloading https://files.pythonhosted.org/packages/86/ad/1065e9d7030f43636cc56cf57827bb8e42d466b2b1e2ea8231e69a39cb68/pyenv-encrypt-0.0.1.tar.gz
+[2023-06-08 03:59:53] INFO root fetch - processPackages [bettershot]: Downloading https://files.pythonhosted.org/packages/21/86/17401359f0552a03be97713dfc1372430004bd3c6fee83b25fd9ae768a89/bettershot-0.1.0.tar.gz
+[2023-06-08 03:59:53] INFO root fetch - processPackages [d20-orm]: Downloading https://files.pythonhosted.org/packages/ec/d6/9944a71f3f3439824eb114714153a4971feff7168ee963722e0da95de7ea/d20-orm-2.0.2a9.tar.gz
+[2023-06-08 03:59:53] INFO root fetch - processPackages [alibabacloud-adcp20220101-py2]: Downloading https://files.pythonhosted.org/packages/13/3f/4240c93301da021fc74d38c854f0bcd1dce9190402235e7a047c82113040/alibabacloud_adcp20220101_py2-1.0.8.tar.gz
+[2023-06-08 03:59:53] INFO root fetch - processPackages [alibabacloud-adcp20220101]: Downloading https://files.pythonhosted.org/packages/8f/c8/f5c22630f386956e161e12b3ad0f78e0020a99f5bcb2acd303e66c8a7c69/alibabacloud_adcp20220101-1.0.8.tar.gz
+[2023-06-08 03:59:53] INFO root fetch - processPackages [georasters]: executing diffoscope
+[2023-06-08 03:59:53] INFO root fetch - processPackages [georasters]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/georasters-0.5.9a.tar.gz tmp/georasters-0.5.9b.tar.gz --markdown 20230608/g/georasters/0.5.9a-0.5.9b/diff.md --exclude *.pyd
+[2023-06-08 03:59:53] INFO root fetch - processPackages [plasmapy]: Downloading https://files.pythonhosted.org/packages/f3/f9/7647b0a9150d4653d1d553c9180d68fe04b55a0ed960f9551d07dcf4146d/plasmapy-2023.5.0.tar.gz
+[2023-06-08 03:59:53] INFO root fetch - processPackages [d20-orm]: executing diffoscope
+[2023-06-08 03:59:53] INFO root fetch - processPackages [d20-orm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/d20-orm-2.0.2a8.tar.gz tmp/d20-orm-2.0.2a9.tar.gz --markdown 20230608/d/d20-orm/2.0.2a8-2.0.2a9/diff.md --exclude *.pyd
+[2023-06-08 03:59:53] INFO root fetch - processPackages [cdk-wordpress]: Downloading https://files.pythonhosted.org/packages/95/5a/46730445b7c8db7cad33c0b319cbd75004ba42b6cbe2f00628d2191c5516/cdk-wordpress-0.0.98.tar.gz
+[2023-06-08 03:59:53] INFO root fetch - processPackages [raya]: Downloading https://files.pythonhosted.org/packages/0b/7a/4fa8384f407b937298c0f274227b9d3173000ab1039f41a8dd795c7bc00a/raya-3.5.0.dev0.tar.gz
+[2023-06-08 03:59:53] INFO root fetch - processPackages [good-cache]: Downloading https://files.pythonhosted.org/packages/4c/66/bc5f579615706ea31c9614d8ef6121aef743239c78e211653d47c6ca1af2/good_cache-0.1.2.tar.gz
+[2023-06-08 03:59:53] WARNING root fetch - processPackages [plasmapy]: Skipping package: exceeds size limit 13347263>=10485760
+[2023-06-08 03:59:53] INFO root fetch - processPackages [plasmapy]: Start processing: cdk-lambda-layer-wget
+[2023-06-08 03:59:53] INFO root fetch - main [MainThread]: End processing [plasmapy] error
+[2023-06-08 03:59:53] INFO root fetch - processPackages [pyenv-encrypt]: Downloading https://files.pythonhosted.org/packages/f7/be/7d83626288f9892cc40a396c3e3897208bb910d8336af810fc10234f8a83/pyenv-encrypt-0.1.0.tar.gz
+[2023-06-08 03:59:53] INFO root fetch - processPackages [cdk-lambda-layer-wget]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-08 03:59:53] INFO root fetch - processPackages [good-cache]: executing diffoscope
+[2023-06-08 03:59:53] INFO root fetch - processPackages [good-cache]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/good_cache-0.1.1.tar.gz tmp/good_cache-0.1.2.tar.gz --markdown 20230608/g/good-cache/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-08 03:59:53] INFO root fetch - processPackages [raya]: executing diffoscope
+[2023-06-08 03:59:53] INFO root fetch - processPackages [raya]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raya-3.4.3.dev0.tar.gz tmp/raya-3.5.0.dev0.tar.gz --markdown 20230608/r/raya/3.4.3.dev0-3.5.0.dev0/diff.md --exclude *.pyd
+[2023-06-08 03:59:53] INFO root fetch - processPackages [pyenv-encrypt]: executing diffoscope
+[2023-06-08 03:59:53] INFO root fetch - processPackages [pyenv-encrypt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyenv-encrypt-0.0.1.tar.gz tmp/pyenv-encrypt-0.1.0.tar.gz --markdown 20230608/p/pyenv-encrypt/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-06-08 03:59:53] INFO root fetch - processPackages [bettershot]: Downloading https://files.pythonhosted.org/packages/04/54/0d5765e335b55228123c41a76dc72f721a90c2ee78239643170f0f14f992/bettershot-0.1.1.tar.gz
+[2023-06-08 03:59:53] INFO root fetch - processPackages [cdk-lambda-layer-wget]: Downloading https://files.pythonhosted.org/packages/f8/35/e47c6ddfa64ed9ac5f5a4b035ea0cc02916916c4bdbbbb9cc31928af9582/cdk-lambda-layer-wget-2.0.98.tar.gz
+[2023-06-08 03:59:54] INFO root fetch - processPackages [bettershot]: executing diffoscope
+[2023-06-08 03:59:54] INFO root fetch - processPackages [bettershot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bettershot-0.1.0.tar.gz tmp/bettershot-0.1.1.tar.gz --markdown 20230608/b/bettershot/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-08 03:59:54] INFO root fetch - processPackages [alibabacloud-adcp20220101-py2]: Downloading https://files.pythonhosted.org/packages/ae/e5/619462215a3c970eb39abe26ec09f8adb76bbcd8592a429b0087d3b086a3/alibabacloud_adcp20220101_py2-1.0.9.tar.gz
+[2023-06-08 03:59:54] INFO root fetch - processPackages [alibabacloud-adcp20220101]: Downloading https://files.pythonhosted.org/packages/f2/51/280ed019d65606c603eea1657742822d32a9c98f4ed15ac1411f571fd0ce/alibabacloud_adcp20220101-1.0.9.tar.gz
+[2023-06-08 03:59:54] INFO root fetch - processPackages [cdk-lambda-layer-wget]: Downloading https://files.pythonhosted.org/packages/98/52/07cb776b41ec70fb5cc0faffb812732ed10edeb529408976a37a888ef997/cdk-lambda-layer-wget-2.0.99.tar.gz
+[2023-06-08 03:59:54] INFO root fetch - processPackages [alibabacloud-adcp20220101-py2]: executing diffoscope
+[2023-06-08 03:59:54] INFO root fetch - processPackages [alibabacloud-adcp20220101-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_adcp20220101_py2-1.0.8.tar.gz tmp/alibabacloud_adcp20220101_py2-1.0.9.tar.gz --markdown 20230608/a/alibabacloud-adcp20220101-py2/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-08 03:59:54] INFO root fetch - processPackages [alibabacloud-adcp20220101]: executing diffoscope
+[2023-06-08 03:59:54] INFO root fetch - processPackages [alibabacloud-adcp20220101]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_adcp20220101-1.0.8.tar.gz tmp/alibabacloud_adcp20220101-1.0.9.tar.gz --markdown 20230608/a/alibabacloud-adcp20220101/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-08 03:59:54] INFO root fetch - processPackages [cdk-lambda-layer-wget]: executing diffoscope
+[2023-06-08 03:59:54] INFO root fetch - processPackages [cdk-lambda-layer-wget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-wget-2.0.98.tar.gz tmp/cdk-lambda-layer-wget-2.0.99.tar.gz --markdown 20230608/c/cdk-lambda-layer-wget/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-08 03:59:55] INFO root fetch - processPackages [good-cache]: Remove: archive file [/home/abi/fetcher/tmp/good_cache-0.1.1.tar.gz]
+[2023-06-08 03:59:55] INFO root fetch - processPackages [good-cache]: Remove: archive file [/home/abi/fetcher/tmp/good_cache-0.1.2.tar.gz]
+[2023-06-08 03:59:55] INFO root fetch - processPackages [good-cache]: Start processing: charset-mnbvc
+[2023-06-08 03:59:55] INFO root fetch - main [MainThread]: End processing [good-cache]: success
+[2023-06-08 03:59:55] INFO root fetch - processPackages [charset-mnbvc]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-08 03:59:55] INFO root fetch - processPackages [pyenv-encrypt]: Remove: archive file [/home/abi/fetcher/tmp/pyenv-encrypt-0.0.1.tar.gz]
+[2023-06-08 03:59:55] INFO root fetch - processPackages [pyenv-encrypt]: Remove: archive file [/home/abi/fetcher/tmp/pyenv-encrypt-0.1.0.tar.gz]
+[2023-06-08 03:59:55] INFO root fetch - main [MainThread]: End processing [pyenv-encrypt]: success
+[2023-06-08 03:59:55] INFO root fetch - processPackages [bettershot]: Remove: archive file [/home/abi/fetcher/tmp/bettershot-0.1.0.tar.gz]
+[2023-06-08 03:59:55] INFO root fetch - processPackages [bettershot]: Remove: archive file [/home/abi/fetcher/tmp/bettershot-0.1.1.tar.gz]
+[2023-06-08 03:59:55] INFO root fetch - main [MainThread]: End processing [bettershot]: success
+[2023-06-08 03:59:55] INFO root fetch - processPackages [charset-mnbvc]: Downloading https://files.pythonhosted.org/packages/61/dc/e048ed93cbfdb1e93c24476edccad600705d650c8eb7f2f3d50a6883821e/charset_mnbvc-0.0.6.tar.gz
+[2023-06-08 03:59:55] INFO root fetch - processPackages [d20-orm]: Remove: archive file [/home/abi/fetcher/tmp/d20-orm-2.0.2a8.tar.gz]
+[2023-06-08 03:59:55] INFO root fetch - processPackages [d20-orm]: Remove: archive file [/home/abi/fetcher/tmp/d20-orm-2.0.2a9.tar.gz]
+[2023-06-08 03:59:55] INFO root fetch - main [MainThread]: End processing [d20-orm]: success
+[2023-06-08 03:59:55] INFO root fetch - processPackages [georasters]: Remove: archive file [/home/abi/fetcher/tmp/georasters-0.5.9a.tar.gz]
+[2023-06-08 03:59:55] INFO root fetch - processPackages [georasters]: Remove: archive file [/home/abi/fetcher/tmp/georasters-0.5.9b.tar.gz]
+[2023-06-08 03:59:55] INFO root fetch - main [MainThread]: End processing [georasters]: success
+[2023-06-08 03:59:55] INFO root fetch - processPackages [charset-mnbvc]: Downloading https://files.pythonhosted.org/packages/40/f6/5907c12a54ce55a02a206d3214e36f2b107d7a7fcf3ac29956bd656a4f71/charset_mnbvc-0.0.7.tar.gz
+[2023-06-08 03:59:55] INFO root fetch - processPackages [charset-mnbvc]: executing diffoscope
+[2023-06-08 03:59:55] INFO root fetch - processPackages [charset-mnbvc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/charset_mnbvc-0.0.6.tar.gz tmp/charset_mnbvc-0.0.7.tar.gz --markdown 20230608/c/charset-mnbvc/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-08 03:59:55] INFO root fetch - processPackages [raya]: Remove: archive file [/home/abi/fetcher/tmp/raya-3.4.3.dev0.tar.gz]
+[2023-06-08 03:59:55] INFO root fetch - processPackages [raya]: Remove: archive file [/home/abi/fetcher/tmp/raya-3.5.0.dev0.tar.gz]
+[2023-06-08 03:59:55] INFO root fetch - main [MainThread]: End processing [raya]: success
+[2023-06-08 03:59:55] INFO root fetch - processPackages [alibabacloud-adcp20220101]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_adcp20220101-1.0.8.tar.gz]
+[2023-06-08 03:59:55] INFO root fetch - processPackages [alibabacloud-adcp20220101]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_adcp20220101-1.0.9.tar.gz]
+[2023-06-08 03:59:55] INFO root fetch - main [MainThread]: End processing [alibabacloud-adcp20220101]: success
+[2023-06-08 03:59:55] INFO root fetch - processPackages [alibabacloud-adcp20220101-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_adcp20220101_py2-1.0.8.tar.gz]
+[2023-06-08 03:59:55] INFO root fetch - processPackages [alibabacloud-adcp20220101-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_adcp20220101_py2-1.0.9.tar.gz]
+[2023-06-08 03:59:55] INFO root fetch - main [MainThread]: End processing [alibabacloud-adcp20220101-py2]: success
+[2023-06-08 03:59:55] INFO root fetch - processPackages [cdk-lambda-layer-wget]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-wget-2.0.98.tar.gz]
+[2023-06-08 03:59:55] INFO root fetch - processPackages [cdk-lambda-layer-wget]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-wget-2.0.99.tar.gz]
+[2023-06-08 03:59:55] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-wget]: success
+[2023-06-08 03:59:56] INFO root fetch - processPackages [charset-mnbvc]: Remove: archive file [/home/abi/fetcher/tmp/charset_mnbvc-0.0.6.tar.gz]
+[2023-06-08 03:59:56] INFO root fetch - processPackages [charset-mnbvc]: Remove: archive file [/home/abi/fetcher/tmp/charset_mnbvc-0.0.7.tar.gz]
+[2023-06-08 03:59:56] INFO root fetch - main [MainThread]: End processing [charset-mnbvc]: success
+[2023-06-08 04:00:00] INFO root fetch - processPackages [cdk-wordpress]: Downloading https://files.pythonhosted.org/packages/f5/33/8bc435266e926cea52eb7df452e54c2c0657beef07580a86eae44236d88b/cdk-wordpress-0.0.99.tar.gz
+[2023-06-08 04:00:00] INFO root fetch - processPackages [cdk-wordpress]: executing diffoscope
+[2023-06-08 04:00:00] INFO root fetch - processPackages [cdk-wordpress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-wordpress-0.0.98.tar.gz tmp/cdk-wordpress-0.0.99.tar.gz --markdown 20230608/c/cdk-wordpress/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-08 04:00:01] INFO root fetch - processPackages [cdk-wordpress]: Remove: archive file [/home/abi/fetcher/tmp/cdk-wordpress-0.0.98.tar.gz]
+[2023-06-08 04:00:01] INFO root fetch - processPackages [cdk-wordpress]: Remove: archive file [/home/abi/fetcher/tmp/cdk-wordpress-0.0.99.tar.gz]
+[2023-06-08 04:00:01] INFO root fetch - main [MainThread]: End processing [cdk-wordpress]: success
+[2023-06-08 04:00:01] INFO root fetch - main [MainThread]: Store serial: [18417982]
