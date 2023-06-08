@@ -11179,3 +11179,141 @@ AssertionError: tmp/nucliadb_sdk-2.9.0.post266-py3-none-any.whl.zip does not exi
 [2023-06-08 04:55:25] INFO root fetch - processPackages [odoo-addon-account-payment-mode]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_payment_mode-16.0.1.1.0.4-py3-none-any.whl.zip]
 [2023-06-08 04:55:25] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-payment-mode]: success
 [2023-06-08 04:55:25] INFO root fetch - main [MainThread]: Store serial: [18418575]
+[2023-06-08 05:00:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18418575]
+[2023-06-08 05:00:34] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-06-08 05:00:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Orbus
+[2023-06-08 05:00:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo9-addon-contract-commission
+[2023-06-08 05:00:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo8-addon-contract-commission
+[2023-06-08 05:00:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo10-addon-website-sale-commission-lead-geo-assign
+[2023-06-08 05:00:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo11-addon-sale-commission
+[2023-06-08 05:00:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Orbus
+[2023-06-08 05:00:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: MDbrew
+[2023-06-08 05:00:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo13-addon-sale-commission
+[2023-06-08 05:00:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo12-addon-sale-commission
+[2023-06-08 05:00:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo12-addon-contract-commission
+[2023-06-08 05:00:34] INFO root fetch - processPackages [odoo13-addon-sale-commission]: New version: [13.0.1.8.1.dev9] Old Version: [13.0.1.8.1.dev8]
+[2023-06-08 05:00:34] INFO root fetch - processPackages [odoo10-addon-website-sale-commission-lead-geo-assign]: New version: [10.0.1.0.0.99.dev6] Old Version: [10.0.1.0.0.99.dev5]
+[2023-06-08 05:00:34] INFO root fetch - processPackages [odoo9-addon-contract-commission]: New version: [9.0.1.0.0.99.dev2] Old Version: [9.0.1.0.0.99.dev1]
+[2023-06-08 05:00:34] ERROR root fetch - processPackages [Orbus]: Unable to get metadata: No such project 'Orbus'
+[2023-06-08 05:00:34] INFO root fetch - processPackages [Orbus]: Start processing: alibabacloud-oceanbasepro20190901-py2
+[2023-06-08 05:00:34] INFO root fetch - processPackages [odoo8-addon-contract-commission]: New version: [8.0.1.0.0.99.dev8] Old Version: [8.0.1.0.0.99.dev7]
+[2023-06-08 05:00:34] INFO root fetch - main [MainThread]: End processing [Orbus] error
+[2023-06-08 05:00:34] INFO root fetch - processPackages [MDbrew]: New version: [2.3.5] Old Version: [2.3.3]
+[2023-06-08 05:00:34] ERROR root fetch - processPackages [Orbus]: Unable to get metadata: No such project 'Orbus'
+[2023-06-08 05:00:34] INFO root fetch - processPackages [Orbus]: Start processing: alibabacloud-oceanbasepro20190901
+[2023-06-08 05:00:34] INFO root fetch - processPackages [odoo12-addon-contract-commission]: New version: [12.0.1.0.1.99.dev1] Old Version: [12.0.1.0.1]
+[2023-06-08 05:00:34] INFO root fetch - main [MainThread]: End processing [Orbus] error
+[2023-06-08 05:00:34] INFO root fetch - processPackages [alibabacloud-oceanbasepro20190901-py2]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-06-08 05:00:34] INFO root fetch - processPackages [odoo12-addon-sale-commission]: New version: [12.0.3.3.2.99.dev8] Old Version: [12.0.3.3.2.99.dev7]
+[2023-06-08 05:00:34] INFO root fetch - processPackages [alibabacloud-oceanbasepro20190901]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-08 05:00:34] INFO root fetch - processPackages [odoo13-addon-sale-commission]: Downloading https://files.pythonhosted.org/packages/42/63/af124af572288fc9b52cc50bf309008b0ae4cb4312f0f3b6d94cc20df777/odoo13_addon_sale_commission-13.0.1.8.1.dev8-py3-none-any.whl
+[2023-06-08 05:00:34] INFO root fetch - processPackages [MDbrew]: Downloading https://files.pythonhosted.org/packages/95/dd/d79729071196471238b092903b11ebea9ecf56f8fc2bc1294be75b3e60ef/MDbrew-2.3.3.tar.gz
+[2023-06-08 05:00:34] INFO root fetch - processPackages [odoo9-addon-contract-commission]: Downloading https://files.pythonhosted.org/packages/3b/03/cfe4ff40bf426d178aa738fa5da27b437b50ceb92af0e6823c334359cf90/odoo9_addon_contract_commission-9.0.1.0.0.99.dev1-py2-none-any.whl
+[2023-06-08 05:00:34] INFO root fetch - processPackages [odoo12-addon-sale-commission]: Downloading https://files.pythonhosted.org/packages/91/ad/30e6502909c8c2b02ec42c58e10dffa19959f487b04a58fb59142da09be2/odoo12_addon_sale_commission-12.0.3.3.2.99.dev7-py3-none-any.whl
+[2023-06-08 05:00:34] INFO root fetch - processPackages [odoo11-addon-sale-commission]: New version: [11.0.2.3.0.99.dev9] Old Version: [11.0.2.3.0.99.dev8]
+[2023-06-08 05:00:34] INFO root fetch - processPackages [alibabacloud-oceanbasepro20190901]: Downloading https://files.pythonhosted.org/packages/5f/7e/09c162e8194df2c8816b9de268fc5450740ff5d0592b6b59976a6ff0a6f2/alibabacloud_oceanbasepro20190901-1.0.8.tar.gz
+[2023-06-08 05:00:34] INFO root fetch - processPackages [alibabacloud-oceanbasepro20190901-py2]: Downloading https://files.pythonhosted.org/packages/4d/f2/dc94125d770df12c267677758d5789230eb9051eb790bf7c869372bc5d61/alibabacloud_oceanbasepro20190901_py2-1.0.3.tar.gz
+[2023-06-08 05:00:34] INFO root fetch - processPackages [odoo10-addon-website-sale-commission-lead-geo-assign]: Downloading https://files.pythonhosted.org/packages/50/c5/34c07b6437a6a384727f522f82575e16e2f4776912c763f252b3358b7ab9/odoo10_addon_website_sale_commission_lead_geo_assign-10.0.1.0.0.99.dev5-py2-none-any.whl
+[2023-06-08 05:00:34] INFO root fetch - processPackages [odoo8-addon-contract-commission]: Downloading https://files.pythonhosted.org/packages/ec/14/3954a0e30577148fe595c56d822aff3bc3d0da00298d56e2a549a69c95b1/odoo8_addon_contract_commission-8.0.1.0.0.99.dev7-py2-none-any.whl
+[2023-06-08 05:00:34] INFO root fetch - processPackages [odoo12-addon-contract-commission]: Downloading https://files.pythonhosted.org/packages/81/3d/67f5ede85cd0bad3a0d4963630b3790d7cf253e7fad2e87a7e6f74dfe03e/odoo12_addon_contract_commission-12.0.1.0.1-py3-none-any.whl
+[2023-06-08 05:00:34] INFO root fetch - processPackages [odoo11-addon-sale-commission]: Downloading https://files.pythonhosted.org/packages/67/b7/b74401694f0b73a360341f5c25267a37061e564fe779f28a6f2bdd7a4f5d/odoo11_addon_sale_commission-11.0.2.3.0.99.dev8-py2.py3-none-any.whl
+[2023-06-08 05:00:34] INFO root fetch - processPackages [odoo10-addon-website-sale-commission-lead-geo-assign]: Downloading https://files.pythonhosted.org/packages/2a/4b/ea148712317695001da54a4147e4e731e504702de8ff9881f6df187f0c1c/odoo10_addon_website_sale_commission_lead_geo_assign-10.0.1.0.0.99.dev6-py2-none-any.whl
+[2023-06-08 05:00:34] INFO root fetch - processPackages [odoo9-addon-contract-commission]: Downloading https://files.pythonhosted.org/packages/f8/03/6f100b6ba000f610fac7f5a94bea600cfd71fb98d63204db5d7c91eb57f1/odoo9_addon_contract_commission-9.0.1.0.0.99.dev2-py2-none-any.whl
+[2023-06-08 05:00:34] INFO root fetch - processPackages [MDbrew]: Downloading https://files.pythonhosted.org/packages/35/28/7111b63c399b0a5d37a46536bd740ac54032dd6448b2bd04daec1db9fd97/MDbrew-2.3.5.tar.gz
+[2023-06-08 05:00:34] INFO root fetch - processPackages [odoo12-addon-contract-commission]: Downloading https://files.pythonhosted.org/packages/72/c1/8786f3542ead272b708ced4468efb21a4c1087516476ec99c13202eca0a5/odoo12_addon_contract_commission-12.0.1.0.1.99.dev1-py3-none-any.whl
+[2023-06-08 05:00:34] INFO root fetch - processPackages [odoo12-addon-sale-commission]: Downloading https://files.pythonhosted.org/packages/3e/9d/6208e6664ab9350db0f9f102b7495397e4fa2249e0c4ca1c80ca0431a95b/odoo12_addon_sale_commission-12.0.3.3.2.99.dev8-py3-none-any.whl
+[2023-06-08 05:00:34] INFO root fetch - processPackages [odoo13-addon-sale-commission]: Downloading https://files.pythonhosted.org/packages/94/7c/d7b233d3e0aa7cf28d8428217e2297ca0c3f2d996dd4cd4bd49eb76c37f0/odoo13_addon_sale_commission-13.0.1.8.1.dev9-py3-none-any.whl
+[2023-06-08 05:00:34] INFO root fetch - processPackages [MDbrew]: executing diffoscope
+[2023-06-08 05:00:34] INFO root fetch - processPackages [MDbrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MDbrew-2.3.3.tar.gz tmp/MDbrew-2.3.5.tar.gz --markdown 20230608/M/MDbrew/2.3.3-2.3.5/diff.md --exclude *.pyd
+[2023-06-08 05:00:34] INFO root fetch - processPackages [odoo10-addon-website-sale-commission-lead-geo-assign]: executing diffoscope
+[2023-06-08 05:00:34] INFO root fetch - processPackages [odoo10-addon-website-sale-commission-lead-geo-assign]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo10_addon_website_sale_commission_lead_geo_assign-10.0.1.0.0.99.dev5-py2-none-any.whl.zip tmp/odoo10_addon_website_sale_commission_lead_geo_assign-10.0.1.0.0.99.dev6-py2-none-any.whl.zip --markdown 20230608/o/odoo10-addon-website-sale-commission-lead-geo-assign/10.0.1.0.0.99.dev5-10.0.1.0.0.99.dev6/diff.md --exclude *.pyd
+[2023-06-08 05:00:34] INFO root fetch - processPackages [odoo9-addon-contract-commission]: executing diffoscope
+[2023-06-08 05:00:34] INFO root fetch - processPackages [odoo9-addon-contract-commission]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo9_addon_contract_commission-9.0.1.0.0.99.dev1-py2-none-any.whl.zip tmp/odoo9_addon_contract_commission-9.0.1.0.0.99.dev2-py2-none-any.whl.zip --markdown 20230608/o/odoo9-addon-contract-commission/9.0.1.0.0.99.dev1-9.0.1.0.0.99.dev2/diff.md --exclude *.pyd
+[2023-06-08 05:00:35] INFO root fetch - processPackages [alibabacloud-oceanbasepro20190901-py2]: Downloading https://files.pythonhosted.org/packages/4f/68/46ef1e8647be06402e149b1ae615d4b402e5666b1ab602fea4213bcf4ea0/alibabacloud_oceanbasepro20190901_py2-1.0.4.tar.gz
+[2023-06-08 05:00:35] INFO root fetch - processPackages [odoo13-addon-sale-commission]: executing diffoscope
+[2023-06-08 05:00:35] INFO root fetch - processPackages [odoo13-addon-sale-commission]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_sale_commission-13.0.1.8.1.dev8-py3-none-any.whl.zip tmp/odoo13_addon_sale_commission-13.0.1.8.1.dev9-py3-none-any.whl.zip --markdown 20230608/o/odoo13-addon-sale-commission/13.0.1.8.1.dev8-13.0.1.8.1.dev9/diff.md --exclude *.pyd
+[2023-06-08 05:00:35] INFO root fetch - processPackages [alibabacloud-oceanbasepro20190901-py2]: executing diffoscope
+[2023-06-08 05:00:35] INFO root fetch - processPackages [alibabacloud-oceanbasepro20190901-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_oceanbasepro20190901_py2-1.0.3.tar.gz tmp/alibabacloud_oceanbasepro20190901_py2-1.0.4.tar.gz --markdown 20230608/a/alibabacloud-oceanbasepro20190901-py2/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-06-08 05:00:35] INFO root fetch - processPackages [alibabacloud-oceanbasepro20190901]: Downloading https://files.pythonhosted.org/packages/57/69/276efbba323f1b396f13527fd50c3e08c9bbc83ac3e4e8655e583b3cb59a/alibabacloud_oceanbasepro20190901-1.0.9.tar.gz
+[2023-06-08 05:00:35] INFO root fetch - processPackages [odoo8-addon-contract-commission]: Downloading https://files.pythonhosted.org/packages/81/3d/2854f37e06f95c8bc4a40dbb4784e0889c5c261fd9ffb893132818ee9aad/odoo8_addon_contract_commission-8.0.1.0.0.99.dev8-py2-none-any.whl
+[2023-06-08 05:00:35] INFO root fetch - processPackages [odoo12-addon-sale-commission]: executing diffoscope
+[2023-06-08 05:00:35] INFO root fetch - processPackages [odoo12-addon-sale-commission]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_sale_commission-12.0.3.3.2.99.dev7-py3-none-any.whl.zip tmp/odoo12_addon_sale_commission-12.0.3.3.2.99.dev8-py3-none-any.whl.zip --markdown 20230608/o/odoo12-addon-sale-commission/12.0.3.3.2.99.dev7-12.0.3.3.2.99.dev8/diff.md --exclude *.pyd
+[2023-06-08 05:00:35] INFO root fetch - processPackages [odoo12-addon-contract-commission]: executing diffoscope
+[2023-06-08 05:00:35] INFO root fetch - processPackages [odoo12-addon-contract-commission]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_contract_commission-12.0.1.0.1-py3-none-any.whl.zip tmp/odoo12_addon_contract_commission-12.0.1.0.1.99.dev1-py3-none-any.whl.zip --markdown 20230608/o/odoo12-addon-contract-commission/12.0.1.0.1-12.0.1.0.1.99.dev1/diff.md --exclude *.pyd
+[2023-06-08 05:00:35] INFO root fetch - processPackages [alibabacloud-oceanbasepro20190901]: executing diffoscope
+[2023-06-08 05:00:35] INFO root fetch - processPackages [alibabacloud-oceanbasepro20190901]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_oceanbasepro20190901-1.0.8.tar.gz tmp/alibabacloud_oceanbasepro20190901-1.0.9.tar.gz --markdown 20230608/a/alibabacloud-oceanbasepro20190901/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-08 05:00:35] INFO root fetch - processPackages [odoo11-addon-sale-commission]: Downloading https://files.pythonhosted.org/packages/4a/01/d6cc3284ace845f14f14031ce76e7d12696f491d6f619120cbc65f5839d3/odoo11_addon_sale_commission-11.0.2.3.0.99.dev9-py2.py3-none-any.whl
+[2023-06-08 05:00:35] INFO root fetch - processPackages [odoo8-addon-contract-commission]: executing diffoscope
+[2023-06-08 05:00:35] INFO root fetch - processPackages [odoo8-addon-contract-commission]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_contract_commission-8.0.1.0.0.99.dev7-py2-none-any.whl.zip tmp/odoo8_addon_contract_commission-8.0.1.0.0.99.dev8-py2-none-any.whl.zip --markdown 20230608/o/odoo8-addon-contract-commission/8.0.1.0.0.99.dev7-8.0.1.0.0.99.dev8/diff.md --exclude *.pyd
+[2023-06-08 05:00:35] INFO root fetch - processPackages [odoo11-addon-sale-commission]: executing diffoscope
+[2023-06-08 05:00:35] INFO root fetch - processPackages [odoo11-addon-sale-commission]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo11_addon_sale_commission-11.0.2.3.0.99.dev8-py2.py3-none-any.whl.zip tmp/odoo11_addon_sale_commission-11.0.2.3.0.99.dev9-py2.py3-none-any.whl.zip --markdown 20230608/o/odoo11-addon-sale-commission/11.0.2.3.0.99.dev8-11.0.2.3.0.99.dev9/diff.md --exclude *.pyd
+[2023-06-08 05:00:36] INFO root fetch - processPackages [MDbrew]: Remove: archive file [/home/abi/fetcher/tmp/MDbrew-2.3.3.tar.gz]
+[2023-06-08 05:00:36] INFO root fetch - processPackages [MDbrew]: Remove: archive file [/home/abi/fetcher/tmp/MDbrew-2.3.5.tar.gz]
+[2023-06-08 05:00:36] INFO root fetch - processPackages [MDbrew]: Start processing: flet-ivid-hks
+[2023-06-08 05:00:36] INFO root fetch - main [MainThread]: End processing [MDbrew]: success
+[2023-06-08 05:00:36] INFO root fetch - processPackages [flet-ivid-hks]: New version: [1.1] Old Version: [1.0]
+[2023-06-08 05:00:36] INFO root fetch - processPackages [odoo10-addon-website-sale-commission-lead-geo-assign]: Remove: archive file [/home/abi/fetcher/tmp/odoo10_addon_website_sale_commission_lead_geo_assign-10.0.1.0.0.99.dev5-py2-none-any.whl.zip]
+[2023-06-08 05:00:36] INFO root fetch - processPackages [odoo10-addon-website-sale-commission-lead-geo-assign]: Remove: archive file [/home/abi/fetcher/tmp/odoo10_addon_website_sale_commission_lead_geo_assign-10.0.1.0.0.99.dev6-py2-none-any.whl.zip]
+[2023-06-08 05:00:36] INFO root fetch - processPackages [odoo10-addon-website-sale-commission-lead-geo-assign]: Start processing: Orbus
+[2023-06-08 05:00:36] INFO root fetch - main [MainThread]: End processing [odoo10-addon-website-sale-commission-lead-geo-assign]: success
+[2023-06-08 05:00:36] ERROR root fetch - processPackages [Orbus]: Unable to get metadata: No such project 'Orbus'
+[2023-06-08 05:00:36] INFO root fetch - processPackages [Orbus]: Start processing: flet-ivid-hks
+[2023-06-08 05:00:36] INFO root fetch - main [MainThread]: End processing [Orbus] error
+[2023-06-08 05:00:36] INFO root fetch - processPackages [odoo9-addon-contract-commission]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_contract_commission-9.0.1.0.0.99.dev1-py2-none-any.whl.zip]
+[2023-06-08 05:00:36] INFO root fetch - processPackages [odoo9-addon-contract-commission]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_contract_commission-9.0.1.0.0.99.dev2-py2-none-any.whl.zip]
+[2023-06-08 05:00:36] INFO root fetch - main [MainThread]: End processing [odoo9-addon-contract-commission]: success
+[2023-06-08 05:00:36] INFO root fetch - processPackages [flet-ivid-hks]: New version: [1.2] Old Version: [1.1]
+[2023-06-08 05:00:36] INFO root fetch - processPackages [flet-ivid-hks]: Downloading https://files.pythonhosted.org/packages/ba/30/7408bac213adf4c438385ba448a7fe1397d0591f0017bc555c3fc92a50d9/flet_ivid_hks-1.0.tar.gz
+[2023-06-08 05:00:36] INFO root fetch - processPackages [odoo12-addon-contract-commission]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_contract_commission-12.0.1.0.1-py3-none-any.whl.zip]
+[2023-06-08 05:00:36] INFO root fetch - processPackages [odoo12-addon-contract-commission]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_contract_commission-12.0.1.0.1.99.dev1-py3-none-any.whl.zip]
+[2023-06-08 05:00:36] INFO root fetch - main [MainThread]: End processing [odoo12-addon-contract-commission]: success
+[2023-06-08 05:00:36] INFO root fetch - processPackages [flet-ivid-hks]: Downloading https://files.pythonhosted.org/packages/8c/cb/4335a95d652468d21756ff83269365230ecd431a35e92a760ed37c1ca80f/flet_ivid_hks-1.1.tar.gz
+[2023-06-08 05:00:36] INFO root fetch - processPackages [flet-ivid-hks]: Downloading https://files.pythonhosted.org/packages/8c/cb/4335a95d652468d21756ff83269365230ecd431a35e92a760ed37c1ca80f/flet_ivid_hks-1.1.tar.gz
+[2023-06-08 05:00:36] INFO root fetch - processPackages [flet-ivid-hks]: executing diffoscope
+[2023-06-08 05:00:36] INFO root fetch - processPackages [flet-ivid-hks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet_ivid_hks-1.0.tar.gz tmp/flet_ivid_hks-1.1.tar.gz --markdown 20230608/f/flet-ivid-hks/1.0-1.1/diff.md --exclude *.pyd
+[2023-06-08 05:00:37] INFO root fetch - processPackages [odoo12-addon-sale-commission]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_sale_commission-12.0.3.3.2.99.dev7-py3-none-any.whl.zip]
+[2023-06-08 05:00:37] INFO root fetch - processPackages [odoo12-addon-sale-commission]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_sale_commission-12.0.3.3.2.99.dev8-py3-none-any.whl.zip]
+[2023-06-08 05:00:37] INFO root fetch - main [MainThread]: End processing [odoo12-addon-sale-commission]: success
+[2023-06-08 05:00:37] INFO root fetch - processPackages [flet-ivid-hks]: Downloading https://files.pythonhosted.org/packages/b5/5c/22953eac60fe23085e9b82699ef7719f5630eb4a6567981fde7ea31f03a6/flet_ivid_hks-1.2.tar.gz
+[2023-06-08 05:00:37] INFO root fetch - processPackages [flet-ivid-hks]: executing diffoscope
+[2023-06-08 05:00:37] INFO root fetch - processPackages [flet-ivid-hks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet_ivid_hks-1.1.tar.gz tmp/flet_ivid_hks-1.2.tar.gz --markdown 20230608/f/flet-ivid-hks/1.1-1.2/diff.md --exclude *.pyd
+[2023-06-08 05:00:37] INFO root fetch - processPackages [odoo11-addon-sale-commission]: Remove: archive file [/home/abi/fetcher/tmp/odoo11_addon_sale_commission-11.0.2.3.0.99.dev8-py2.py3-none-any.whl.zip]
+[2023-06-08 05:00:37] INFO root fetch - processPackages [odoo11-addon-sale-commission]: Remove: archive file [/home/abi/fetcher/tmp/odoo11_addon_sale_commission-11.0.2.3.0.99.dev9-py2.py3-none-any.whl.zip]
+[2023-06-08 05:00:37] INFO root fetch - main [MainThread]: End processing [odoo11-addon-sale-commission]: success
+[2023-06-08 05:00:37] INFO root fetch - processPackages [odoo13-addon-sale-commission]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_sale_commission-13.0.1.8.1.dev8-py3-none-any.whl.zip]
+[2023-06-08 05:00:37] INFO root fetch - processPackages [odoo13-addon-sale-commission]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_sale_commission-13.0.1.8.1.dev9-py3-none-any.whl.zip]
+[2023-06-08 05:00:37] INFO root fetch - main [MainThread]: End processing [odoo13-addon-sale-commission]: success
+[2023-06-08 05:00:37] INFO root fetch - processPackages [odoo8-addon-contract-commission]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_contract_commission-8.0.1.0.0.99.dev7-py2-none-any.whl.zip]
+[2023-06-08 05:00:37] INFO root fetch - processPackages [odoo8-addon-contract-commission]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_contract_commission-8.0.1.0.0.99.dev8-py2-none-any.whl.zip]
+[2023-06-08 05:00:37] INFO root fetch - main [MainThread]: End processing [odoo8-addon-contract-commission]: success
+[2023-06-08 05:00:37] INFO root fetch - processPackages [flet-ivid-hks]: Remove: archive file [/home/abi/fetcher/tmp/flet_ivid_hks-1.0.tar.gz]
+[2023-06-08 05:00:37] INFO root fetch - processPackages [flet-ivid-hks]: Remove: archive file [/home/abi/fetcher/tmp/flet_ivid_hks-1.1.tar.gz]
+[2023-06-08 05:00:37] INFO root fetch - main [MainThread]: End processing [flet-ivid-hks]: success
+[2023-06-08 05:00:38] ERROR root fetch - processPackages [flet-ivid-hks]: Diffoscope failed: Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 66, in compare_root_paths
+    file1 = specialize(FilesystemFile(path1, container=container1))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/specialize.py", line 54, in specialize
+    if try_recognize(file, cls, cls.recognizes):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/specialize.py", line 37, in try_recognize
+    if not recognizes(file):
+           ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/missing_file.py", line 43, in recognizes
+    assert Config().new_file, f"{file.name} does not exist"
+AssertionError: tmp/flet_ivid_hks-1.1.tar.gz does not exist
+
+[2023-06-08 05:00:38] INFO root fetch - main [MainThread]: End processing [flet-ivid-hks] error
+[2023-06-08 05:00:38] INFO root fetch - processPackages [alibabacloud-oceanbasepro20190901-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_oceanbasepro20190901_py2-1.0.3.tar.gz]
+[2023-06-08 05:00:38] INFO root fetch - processPackages [alibabacloud-oceanbasepro20190901-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_oceanbasepro20190901_py2-1.0.4.tar.gz]
+[2023-06-08 05:00:38] INFO root fetch - main [MainThread]: End processing [alibabacloud-oceanbasepro20190901-py2]: success
+[2023-06-08 05:00:39] INFO root fetch - processPackages [alibabacloud-oceanbasepro20190901]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_oceanbasepro20190901-1.0.8.tar.gz]
+[2023-06-08 05:00:39] INFO root fetch - processPackages [alibabacloud-oceanbasepro20190901]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_oceanbasepro20190901-1.0.9.tar.gz]
+[2023-06-08 05:00:39] INFO root fetch - main [MainThread]: End processing [alibabacloud-oceanbasepro20190901]: success
+[2023-06-08 05:00:39] INFO root fetch - main [MainThread]: Store serial: [18418614]
