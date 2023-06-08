@@ -20160,3 +20160,92 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-06-08 10:14:05] INFO root fetch - processPackages [alibabacloud-aligeniessp-1-0]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_aligeniessp_1_0-2.0.1.tar.gz]
 [2023-06-08 10:14:05] INFO root fetch - main [MainThread]: End processing [alibabacloud-aligeniessp-1-0]: success
 [2023-06-08 10:14:05] INFO root fetch - main [MainThread]: Store serial: [18421391]
+[2023-06-08 10:19:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18421391]
+[2023-06-08 10:19:14] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-08 10:19:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: infrasonar
+[2023-06-08 10:19:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lumigo-opentelemetry
+[2023-06-08 10:19:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ksmm
+[2023-06-08 10:19:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-agreement-legal
+[2023-06-08 10:19:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pdm-backend
+[2023-06-08 10:19:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: BasicLibrary.PY
+[2023-06-08 10:19:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: HawaData
+[2023-06-08 10:19:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fro-AI
+[2023-06-08 10:19:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: specmatic
+[2023-06-08 10:19:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: automation-file-dev
+[2023-06-08 10:19:14] INFO root fetch - processPackages [ksmm]: New version: [1.0.0] Old Version: [0.1.8]
+[2023-06-08 10:19:14] INFO root fetch - processPackages [pdm-backend]: New version: [2.1.0] Old Version: [2.0.7]
+[2023-06-08 10:19:14] INFO root fetch - processPackages [infrasonar]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-08 10:19:14] INFO root fetch - processPackages [lumigo-opentelemetry]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-08 10:19:14] INFO root fetch - processPackages [odoo-addon-agreement-legal]: New version: [16.0.1.0.0.4] Old Version: [15.0.1.1.0.1]
+[2023-06-08 10:19:14] INFO root fetch - processPackages [specmatic]: New version: [0.8.2] Old Version: [0.8.1]
+[2023-06-08 10:19:14] INFO root fetch - processPackages [BasicLibrary.PY]: New version: [0.5.8] Old Version: [0.5.7]
+[2023-06-08 10:19:14] INFO root fetch - processPackages [fro-AI]: New version: [0.9.0] Old Version: [0.8.4]
+[2023-06-08 10:19:14] INFO root fetch - processPackages [HawaData]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-06-08 10:19:14] INFO root fetch - processPackages [automation-file-dev]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-08 10:19:14] INFO root fetch - processPackages [BasicLibrary.PY]: Downloading https://files.pythonhosted.org/packages/7b/5c/55ab6fbfe958d31dd8fc29f366bf135c7eec02c509a525e830b5f841d3e3/BasicLibrary.PY-0.5.7.tar.gz
+[2023-06-08 10:19:15] INFO root fetch - processPackages [ksmm]: Downloading https://files.pythonhosted.org/packages/de/1d/803aa8e67611c28541f952db3aaadc88a5a196f05f88d10bbe34fa9aabe9/ksmm-0.1.8.tar.gz
+[2023-06-08 10:19:15] INFO root fetch - processPackages [infrasonar]: Downloading https://files.pythonhosted.org/packages/33/e8/c996734825599996a6fb47b7a1511f19acde5e85a19d8d3fe5727f9ca27c/infrasonar-0.1.8.tar.gz
+[2023-06-08 10:19:15] INFO root fetch - processPackages [odoo-addon-agreement-legal]: Downloading https://files.pythonhosted.org/packages/19/ce/7d20728c534aa0f1b02b7b13f80146059db5d91d4ee0d541ef6eca5b05f8/odoo_addon_agreement_legal-15.0.1.1.0.1-py3-none-any.whl
+[2023-06-08 10:19:15] INFO root fetch - processPackages [lumigo-opentelemetry]: Downloading https://files.pythonhosted.org/packages/9c/64/2e350612673dcde2f1bd79c8b6fea2e0ef8b6239bdff92276be501c2c300/lumigo_opentelemetry-1.0.8-py3-none-any.whl
+[2023-06-08 10:19:15] INFO root fetch - processPackages [fro-AI]: Downloading https://files.pythonhosted.org/packages/2c/e1/8e7e5e39aac483244aae5abf2395c77f4026e065caf10068e4727bda7c1a/fro_AI-0.8.4.tar.gz
+[2023-06-08 10:19:15] INFO root fetch - processPackages [specmatic]: Downloading https://files.pythonhosted.org/packages/2e/70/c31273455932b1fcc85ebdcbe57a7e6d23f6f440b4180c6b900d3c479b8e/specmatic-0.8.1.tar.gz
+[2023-06-08 10:19:15] INFO root fetch - processPackages [pdm-backend]: Downloading https://files.pythonhosted.org/packages/d5/13/0142d63beff0a14d1213d600645b84694f8c34e4382cfb710a6e7279de4a/pdm_backend-2.0.7.tar.gz
+[2023-06-08 10:19:15] INFO root fetch - processPackages [automation-file-dev]: Downloading https://files.pythonhosted.org/packages/10/01/5e09c9cbd6e91df3f96c37d63e09a7d3a1dbf5af7324d6064990cd94a0cc/automation_file_dev-0.0.4.tar.gz
+[2023-06-08 10:19:15] INFO root fetch - processPackages [HawaData]: Downloading https://files.pythonhosted.org/packages/21/25/64369bf8cce6eff1273b5c831d17e38a520ffd1cdfbaa1f66f55891f31cc/HawaData-0.5.8.tar.gz
+[2023-06-08 10:19:15] WARNING root fetch - processPackages [specmatic]: Skipping package: exceeds size limit 79090627>=10485760
+[2023-06-08 10:19:15] INFO root fetch - main [MainThread]: End processing [specmatic] error
+[2023-06-08 10:19:15] INFO root fetch - processPackages [BasicLibrary.PY]: Downloading https://files.pythonhosted.org/packages/59/bf/9586d033d933f7cb3b61400f06434cc83e4bb33f0b11bab8ff293cd0c316/BasicLibrary.PY-0.5.8.tar.gz
+[2023-06-08 10:19:15] INFO root fetch - processPackages [BasicLibrary.PY]: executing diffoscope
+[2023-06-08 10:19:15] INFO root fetch - processPackages [BasicLibrary.PY]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BasicLibrary.PY-0.5.7.tar.gz tmp/BasicLibrary.PY-0.5.8.tar.gz --markdown 20230608/B/BasicLibrary.PY/0.5.7-0.5.8/diff.md --exclude *.pyd
+[2023-06-08 10:19:15] INFO root fetch - processPackages [pdm-backend]: Downloading https://files.pythonhosted.org/packages/8f/aa/df3ad85bf4eeb7a7a3364610ca399f56812e4827cff6495c2a20e4bf1bb4/pdm_backend-2.1.0.tar.gz
+[2023-06-08 10:19:15] INFO root fetch - processPackages [ksmm]: Downloading https://files.pythonhosted.org/packages/23/d1/dc2a1a5003dce7814c739989658797d4af63d91316a82a699a0a2bb358ca/ksmm-1.0.0.tar.gz
+[2023-06-08 10:19:15] INFO root fetch - processPackages [infrasonar]: Downloading https://files.pythonhosted.org/packages/7b/6b/fc139387718f9f774687ee7b1c5738276142ad2c902cbfd701e4ae212594/infrasonar-0.1.9.tar.gz
+[2023-06-08 10:19:15] INFO root fetch - processPackages [pdm-backend]: executing diffoscope
+[2023-06-08 10:19:15] INFO root fetch - processPackages [pdm-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdm_backend-2.0.7.tar.gz tmp/pdm_backend-2.1.0.tar.gz --markdown 20230608/p/pdm-backend/2.0.7-2.1.0/diff.md --exclude *.pyd
+[2023-06-08 10:19:15] INFO root fetch - processPackages [automation-file-dev]: Downloading https://files.pythonhosted.org/packages/58/b3/bec041a8fd1c1b313b3bea3f9d6c62f73a29b230f98f0f4ebe07b0286749/automation_file_dev-0.0.5.tar.gz
+[2023-06-08 10:19:15] INFO root fetch - processPackages [odoo-addon-agreement-legal]: Downloading https://files.pythonhosted.org/packages/28/b4/f4e352853a777669a1aff58e6677403e66f070f5ffc32568869b91eb4e06/odoo_addon_agreement_legal-16.0.1.0.0.4-py3-none-any.whl
+[2023-06-08 10:19:15] INFO root fetch - processPackages [lumigo-opentelemetry]: Downloading https://files.pythonhosted.org/packages/f7/5b/deb6be16415fe585d5fa6fd34df7999995f7157a010bcaddba8ef665f9ae/lumigo_opentelemetry-1.0.9-py3-none-any.whl
+[2023-06-08 10:19:15] INFO root fetch - processPackages [automation-file-dev]: executing diffoscope
+[2023-06-08 10:19:15] INFO root fetch - processPackages [automation-file-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automation_file_dev-0.0.4.tar.gz tmp/automation_file_dev-0.0.5.tar.gz --markdown 20230608/a/automation-file-dev/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-08 10:19:15] INFO root fetch - processPackages [HawaData]: Downloading https://files.pythonhosted.org/packages/99/d8/96d1465039bb05e277629e64c940c7b283cf7bed99f64a941592a592b9cd/HawaData-0.5.9.tar.gz
+[2023-06-08 10:19:15] INFO root fetch - processPackages [ksmm]: executing diffoscope
+[2023-06-08 10:19:15] INFO root fetch - processPackages [ksmm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ksmm-0.1.8.tar.gz tmp/ksmm-1.0.0.tar.gz --markdown 20230608/k/ksmm/0.1.8-1.0.0/diff.md --exclude *.pyd
+[2023-06-08 10:19:15] INFO root fetch - processPackages [infrasonar]: executing diffoscope
+[2023-06-08 10:19:15] INFO root fetch - processPackages [infrasonar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/infrasonar-0.1.8.tar.gz tmp/infrasonar-0.1.9.tar.gz --markdown 20230608/i/infrasonar/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-08 10:19:15] INFO root fetch - processPackages [odoo-addon-agreement-legal]: executing diffoscope
+[2023-06-08 10:19:15] INFO root fetch - processPackages [odoo-addon-agreement-legal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_agreement_legal-15.0.1.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_agreement_legal-16.0.1.0.0.4-py3-none-any.whl.zip --markdown 20230608/o/odoo-addon-agreement-legal/15.0.1.1.0.1-16.0.1.0.0.4/diff.md --exclude *.pyd
+[2023-06-08 10:19:15] INFO root fetch - processPackages [lumigo-opentelemetry]: executing diffoscope
+[2023-06-08 10:19:15] INFO root fetch - processPackages [lumigo-opentelemetry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lumigo_opentelemetry-1.0.8-py3-none-any.whl.zip tmp/lumigo_opentelemetry-1.0.9-py3-none-any.whl.zip --markdown 20230608/l/lumigo-opentelemetry/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-08 10:19:15] INFO root fetch - processPackages [HawaData]: executing diffoscope
+[2023-06-08 10:19:15] INFO root fetch - processPackages [HawaData]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HawaData-0.5.8.tar.gz tmp/HawaData-0.5.9.tar.gz --markdown 20230608/H/HawaData/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-06-08 10:19:15] INFO root fetch - processPackages [fro-AI]: Downloading https://files.pythonhosted.org/packages/31/09/59f8f601a18d6a7ed27407cbd256de525c2382ab14e45af10803241882d1/fro_AI-0.9.0.tar.gz
+[2023-06-08 10:19:16] INFO root fetch - processPackages [fro-AI]: executing diffoscope
+[2023-06-08 10:19:16] INFO root fetch - processPackages [fro-AI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fro_AI-0.8.4.tar.gz tmp/fro_AI-0.9.0.tar.gz --markdown 20230608/f/fro-AI/0.8.4-0.9.0/diff.md --exclude *.pyd
+[2023-06-08 10:19:16] INFO root fetch - processPackages [automation-file-dev]: Remove: archive file [/home/abi/fetcher/tmp/automation_file_dev-0.0.4.tar.gz]
+[2023-06-08 10:19:16] INFO root fetch - processPackages [automation-file-dev]: Remove: archive file [/home/abi/fetcher/tmp/automation_file_dev-0.0.5.tar.gz]
+[2023-06-08 10:19:16] INFO root fetch - main [MainThread]: End processing [automation-file-dev]: success
+[2023-06-08 10:19:17] INFO root fetch - processPackages [infrasonar]: Remove: archive file [/home/abi/fetcher/tmp/infrasonar-0.1.8.tar.gz]
+[2023-06-08 10:19:17] INFO root fetch - processPackages [infrasonar]: Remove: archive file [/home/abi/fetcher/tmp/infrasonar-0.1.9.tar.gz]
+[2023-06-08 10:19:17] INFO root fetch - main [MainThread]: End processing [infrasonar]: success
+[2023-06-08 10:19:17] INFO root fetch - processPackages [HawaData]: Remove: archive file [/home/abi/fetcher/tmp/HawaData-0.5.8.tar.gz]
+[2023-06-08 10:19:17] INFO root fetch - processPackages [HawaData]: Remove: archive file [/home/abi/fetcher/tmp/HawaData-0.5.9.tar.gz]
+[2023-06-08 10:19:17] INFO root fetch - main [MainThread]: End processing [HawaData]: success
+[2023-06-08 10:19:17] INFO root fetch - processPackages [lumigo-opentelemetry]: Remove: archive file [/home/abi/fetcher/tmp/lumigo_opentelemetry-1.0.8-py3-none-any.whl.zip]
+[2023-06-08 10:19:17] INFO root fetch - processPackages [BasicLibrary.PY]: Remove: archive file [/home/abi/fetcher/tmp/BasicLibrary.PY-0.5.7.tar.gz]
+[2023-06-08 10:19:17] INFO root fetch - processPackages [BasicLibrary.PY]: Remove: archive file [/home/abi/fetcher/tmp/BasicLibrary.PY-0.5.8.tar.gz]
+[2023-06-08 10:19:17] INFO root fetch - processPackages [lumigo-opentelemetry]: Remove: archive file [/home/abi/fetcher/tmp/lumigo_opentelemetry-1.0.9-py3-none-any.whl.zip]
+[2023-06-08 10:19:17] INFO root fetch - main [MainThread]: End processing [BasicLibrary.PY]: success
+[2023-06-08 10:19:17] INFO root fetch - main [MainThread]: End processing [lumigo-opentelemetry]: success
+[2023-06-08 10:19:17] INFO root fetch - processPackages [fro-AI]: Remove: archive file [/home/abi/fetcher/tmp/fro_AI-0.8.4.tar.gz]
+[2023-06-08 10:19:17] INFO root fetch - processPackages [fro-AI]: Remove: archive file [/home/abi/fetcher/tmp/fro_AI-0.9.0.tar.gz]
+[2023-06-08 10:19:17] INFO root fetch - main [MainThread]: End processing [fro-AI]: success
+[2023-06-08 10:19:17] INFO root fetch - processPackages [odoo-addon-agreement-legal]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_agreement_legal-15.0.1.1.0.1-py3-none-any.whl.zip]
+[2023-06-08 10:19:17] INFO root fetch - processPackages [odoo-addon-agreement-legal]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_agreement_legal-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2023-06-08 10:19:17] INFO root fetch - main [MainThread]: End processing [odoo-addon-agreement-legal]: success
+[2023-06-08 10:19:19] INFO root fetch - processPackages [pdm-backend]: Remove: archive file [/home/abi/fetcher/tmp/pdm_backend-2.0.7.tar.gz]
+[2023-06-08 10:19:19] INFO root fetch - processPackages [pdm-backend]: Remove: archive file [/home/abi/fetcher/tmp/pdm_backend-2.1.0.tar.gz]
+[2023-06-08 10:19:19] INFO root fetch - main [MainThread]: End processing [pdm-backend]: success
+[2023-06-08 10:19:27] INFO root fetch - processPackages [ksmm]: Remove: archive file [/home/abi/fetcher/tmp/ksmm-0.1.8.tar.gz]
+[2023-06-08 10:19:27] INFO root fetch - processPackages [ksmm]: Remove: archive file [/home/abi/fetcher/tmp/ksmm-1.0.0.tar.gz]
+[2023-06-08 10:19:27] INFO root fetch - main [MainThread]: End processing [ksmm]: success
+[2023-06-08 10:19:27] INFO root fetch - main [MainThread]: Store serial: [18421424]
