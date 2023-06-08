@@ -19053,3 +19053,101 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-08 09:20:26] INFO root fetch - processPackages [insights-core]: Remove: archive file [/home/abi/fetcher/tmp/insights-core-3.2.0.tar.gz]
 [2023-06-08 09:20:26] INFO root fetch - main [MainThread]: End processing [insights-core]: success
 [2023-06-08 09:20:26] INFO root fetch - main [MainThread]: Store serial: [18420949]
+[2023-06-08 09:25:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18420949]
+[2023-06-08 09:25:37] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-08 09:25:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cstag
+[2023-06-08 09:25:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nameless-deploy-tools
+[2023-06-08 09:25:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: s3dlib
+[2023-06-08 09:25:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyarmor.cli.core
+[2023-06-08 09:25:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pepperize.cdk-apigateway-swagger-ui
+[2023-06-08 09:25:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kalk
+[2023-06-08 09:25:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mynacode
+[2023-06-08 09:25:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: toori-server
+[2023-06-08 09:25:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: zipline-tej
+[2023-06-08 09:25:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cic-contracts
+[2023-06-08 09:25:37] INFO root fetch - processPackages [kalk]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-08 09:25:37] INFO root fetch - processPackages [toori-server]: New version: [1.1.6] Old Version: [1.1.5]
+[2023-06-08 09:25:37] INFO root fetch - processPackages [cstag]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-06-08 09:25:37] INFO root fetch - processPackages [s3dlib]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-06-08 09:25:37] INFO root fetch - processPackages [mynacode]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-06-08 09:25:37] INFO root fetch - processPackages [zipline-tej]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-08 09:25:37] INFO root fetch - processPackages [pyarmor.cli.core]: New version: [3.2.dev2] Old Version: [3.2.dev1]
+[2023-06-08 09:25:37] INFO root fetch - processPackages [cic-contracts]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-08 09:25:37] INFO root fetch - processPackages [nameless-deploy-tools]: New version: [1.99] Old Version: [1.98]
+[2023-06-08 09:25:37] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-06-08 09:25:37] INFO root fetch - processPackages [cstag]: Downloading https://files.pythonhosted.org/packages/fc/54/0ad6221d2774cdbd6551118093221d7a0b49c58e0609e1ef535414631946/cstag-0.4.0.zip
+[2023-06-08 09:25:37] INFO root fetch - processPackages [toori-server]: Downloading https://files.pythonhosted.org/packages/13/2f/5a02b67339a7e816632ee3325d98fefaa9ac881f488bf1ffaff20cc6a908/toori-server-1.1.5.tar.gz
+[2023-06-08 09:25:37] INFO root fetch - processPackages [zipline-tej]: Downloading https://files.pythonhosted.org/packages/81/74/1c77fcc7996870f973250f70f5fd993fbdf66e25b3c8f01eb1d263d75c6a/zipline-tej-0.0.8.tar.gz
+[2023-06-08 09:25:37] INFO root fetch - processPackages [nameless-deploy-tools]: Downloading https://files.pythonhosted.org/packages/0d/c8/8c3c9f7254326f089bfaaf17c4f26d37fda0baf5993e7674c3c324a4ddc8/nameless-deploy-tools-1.98.tar.gz
+[2023-06-08 09:25:37] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/b5/4b/0742a4ab14bdc0e7e1a1efa5e089f45c05c18e939582e562ff5095837d67/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz
+[2023-06-08 09:25:37] INFO root fetch - processPackages [kalk]: Downloading https://files.pythonhosted.org/packages/d9/7a/541cfb703a5e77c39a4422ba20749e0d7b482cb8069886b97394fabea74d/kalk-0.8.0.tar.gz
+[2023-06-08 09:25:37] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/1d/24/3d4ef0a0a267fb47bcbac68ff9b760a9b892095f2ee727874f0286d600c3/mynacode-1.0.98-py3-none-any.whl
+[2023-06-08 09:25:37] INFO root fetch - processPackages [cic-contracts]: Downloading https://files.pythonhosted.org/packages/3e/67/9f315ba04575c4ebf500c688c599f42c22cc4ad4fa643159005ed7fe5437/cic-contracts-0.3.0.tar.gz
+[2023-06-08 09:25:37] INFO root fetch - processPackages [s3dlib]: Downloading https://files.pythonhosted.org/packages/73/a9/b997bfc0265bcc11c0c3aa51e4b2e0c527402c044c54517e4c7acea777e1/s3dlib-1.0.0.tar.gz
+[2023-06-08 09:25:37] INFO root fetch - processPackages [pyarmor.cli.core]: Downloading https://files.pythonhosted.org/packages/48/21/f309e3e6a66c267acb350a388359fa9cf280f6e75c917b4f765a9b99881e/pyarmor.cli.core-3.2.dev1-cp39-none-win_amd64.whl
+[2023-06-08 09:25:37] INFO root fetch - processPackages [zipline-tej]: Downloading https://files.pythonhosted.org/packages/84/15/b5579d7eb6cdb4cc9d6c22c0f36086080b26eabdda5b9d6a1f9a7f8f8df6/zipline-tej-0.0.9.tar.gz
+[2023-06-08 09:25:37] INFO root fetch - processPackages [nameless-deploy-tools]: Downloading https://files.pythonhosted.org/packages/fe/19/ea262f36b269c4dbb14250dd1ad53e26d137416f57251e88cd4db4227090/nameless-deploy-tools-1.99.tar.gz
+[2023-06-08 09:25:37] INFO root fetch - processPackages [toori-server]: Downloading https://files.pythonhosted.org/packages/62/bb/f20665610061309eb9ddbc97640187a58e8d989ee25c32a3be9baf39c9a4/toori-server-1.1.6.tar.gz
+[2023-06-08 09:25:37] INFO root fetch - processPackages [cstag]: Downloading https://files.pythonhosted.org/packages/06/e5/f703e78e01b232adfe86448918717b4d6404e8f35ddce0b63606f2ded8d1/cstag-0.4.1.zip
+[2023-06-08 09:25:37] INFO root fetch - processPackages [zipline-tej]: executing diffoscope
+[2023-06-08 09:25:37] INFO root fetch - processPackages [zipline-tej]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zipline-tej-0.0.8.tar.gz tmp/zipline-tej-0.0.9.tar.gz --markdown 20230608/z/zipline-tej/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-08 09:25:37] INFO root fetch - processPackages [toori-server]: executing diffoscope
+[2023-06-08 09:25:37] INFO root fetch - processPackages [toori-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/toori-server-1.1.5.tar.gz tmp/toori-server-1.1.6.tar.gz --markdown 20230608/t/toori-server/1.1.5-1.1.6/diff.md --exclude *.pyd
+[2023-06-08 09:25:37] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/c7/46/0f42bc025c61bcf7528be4662164372850647ddcc00ec2a211a0b9e071cc/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz
+[2023-06-08 09:25:37] INFO root fetch - processPackages [nameless-deploy-tools]: executing diffoscope
+[2023-06-08 09:25:37] INFO root fetch - processPackages [nameless-deploy-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nameless-deploy-tools-1.98.tar.gz tmp/nameless-deploy-tools-1.99.tar.gz --markdown 20230608/n/nameless-deploy-tools/1.98-1.99/diff.md --exclude *.pyd
+[2023-06-08 09:25:37] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/38/32/362f7abef6d28b78afa03843fa2eadc7bb1454ef66bde894a08e281d5bfb/mynacode-1.0.99-py3-none-any.whl
+[2023-06-08 09:25:37] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: executing diffoscope
+[2023-06-08 09:25:37] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz --markdown 20230608/p/pepperize.cdk-apigateway-swagger-ui/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-06-08 09:25:37] INFO root fetch - processPackages [cstag]: executing diffoscope
+[2023-06-08 09:25:37] INFO root fetch - processPackages [cstag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cstag-0.4.0.zip tmp/cstag-0.4.1.zip --markdown 20230608/c/cstag/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-06-08 09:25:37] INFO root fetch - processPackages [s3dlib]: Downloading https://files.pythonhosted.org/packages/b9/a5/a16393eb91624a05048040555bf90d3353f08f222d7d1f995ccaaa335798/s3dlib-1.1.0.tar.gz
+[2023-06-08 09:25:37] INFO root fetch - processPackages [mynacode]: executing diffoscope
+[2023-06-08 09:25:37] INFO root fetch - processPackages [mynacode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mynacode-1.0.98-py3-none-any.whl.zip tmp/mynacode-1.0.99-py3-none-any.whl.zip --markdown 20230608/m/mynacode/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-06-08 09:25:37] INFO root fetch - processPackages [cic-contracts]: Downloading https://files.pythonhosted.org/packages/20/47/89cd5020c374e865089d7511f84669c8b76e16b8c9309008691a1e432006/cic-contracts-0.3.1.tar.gz
+[2023-06-08 09:25:37] INFO root fetch - processPackages [cic-contracts]: executing diffoscope
+[2023-06-08 09:25:37] INFO root fetch - processPackages [cic-contracts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cic-contracts-0.3.0.tar.gz tmp/cic-contracts-0.3.1.tar.gz --markdown 20230608/c/cic-contracts/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-08 09:25:37] INFO root fetch - processPackages [pyarmor.cli.core]: Downloading https://files.pythonhosted.org/packages/fd/1a/f6bf6d3f325ce7a27ea433aee7c098a8d878b83307538ce49c7ef9c1c891/pyarmor.cli.core-3.2.dev2-cp39-none-win_amd64.whl
+[2023-06-08 09:25:37] INFO root fetch - processPackages [s3dlib]: executing diffoscope
+[2023-06-08 09:25:37] INFO root fetch - processPackages [s3dlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/s3dlib-1.0.0.tar.gz tmp/s3dlib-1.1.0.tar.gz --markdown 20230608/s/s3dlib/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-06-08 09:25:37] INFO root fetch - processPackages [pyarmor.cli.core]: executing diffoscope
+[2023-06-08 09:25:37] INFO root fetch - processPackages [pyarmor.cli.core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyarmor.cli.core-3.2.dev1-cp39-none-win_amd64.whl.zip tmp/pyarmor.cli.core-3.2.dev2-cp39-none-win_amd64.whl.zip --markdown 20230608/p/pyarmor.cli.core/3.2.dev1-3.2.dev2/diff.md --exclude *.pyd
+[2023-06-08 09:25:37] INFO root fetch - processPackages [kalk]: Downloading https://files.pythonhosted.org/packages/41/87/59f890ee2ca6bd1d9f20587bf234162f72d7d360692f7d47f3e92efeaa19/kalk-0.9.0.tar.gz
+[2023-06-08 09:25:38] INFO root fetch - processPackages [kalk]: executing diffoscope
+[2023-06-08 09:25:38] INFO root fetch - processPackages [kalk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kalk-0.8.0.tar.gz tmp/kalk-0.9.0.tar.gz --markdown 20230608/k/kalk/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-08 09:25:39] INFO root fetch - processPackages [toori-server]: Remove: archive file [/home/abi/fetcher/tmp/toori-server-1.1.5.tar.gz]
+[2023-06-08 09:25:39] INFO root fetch - processPackages [toori-server]: Remove: archive file [/home/abi/fetcher/tmp/toori-server-1.1.6.tar.gz]
+[2023-06-08 09:25:39] INFO root fetch - processPackages [toori-server]: Start processing: nameless-deploy-tools
+[2023-06-08 09:25:39] INFO root fetch - main [MainThread]: End processing [toori-server]: success
+[2023-06-08 09:25:39] INFO root fetch - processPackages [nameless-deploy-tools]: New version: [1.99] Old Version: [1.98]
+[2023-06-08 09:25:39] INFO root fetch - processPackages [nameless-deploy-tools]: executing diffoscope
+[2023-06-08 09:25:39] INFO root fetch - processPackages [nameless-deploy-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nameless-deploy-tools-1.98.tar.gz tmp/nameless-deploy-tools-1.99.tar.gz --markdown 20230608/n/nameless-deploy-tools/1.98-1.99/diff.md --exclude *.pyd
+[2023-06-08 09:25:39] INFO root fetch - processPackages [mynacode]: Remove: archive file [/home/abi/fetcher/tmp/mynacode-1.0.98-py3-none-any.whl.zip]
+[2023-06-08 09:25:39] INFO root fetch - processPackages [mynacode]: Remove: archive file [/home/abi/fetcher/tmp/mynacode-1.0.99-py3-none-any.whl.zip]
+[2023-06-08 09:25:39] INFO root fetch - main [MainThread]: End processing [mynacode]: success
+[2023-06-08 09:25:39] INFO root fetch - processPackages [cstag]: Remove: archive file [/home/abi/fetcher/tmp/cstag-0.4.0.zip]
+[2023-06-08 09:25:39] INFO root fetch - processPackages [cstag]: Remove: archive file [/home/abi/fetcher/tmp/cstag-0.4.1.zip]
+[2023-06-08 09:25:39] INFO root fetch - main [MainThread]: End processing [cstag]: success
+[2023-06-08 09:25:39] INFO root fetch - processPackages [s3dlib]: Remove: archive file [/home/abi/fetcher/tmp/s3dlib-1.0.0.tar.gz]
+[2023-06-08 09:25:39] INFO root fetch - processPackages [s3dlib]: Remove: archive file [/home/abi/fetcher/tmp/s3dlib-1.1.0.tar.gz]
+[2023-06-08 09:25:39] INFO root fetch - main [MainThread]: End processing [s3dlib]: success
+[2023-06-08 09:25:39] INFO root fetch - processPackages [pyarmor.cli.core]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli.core-3.2.dev1-cp39-none-win_amd64.whl.zip]
+[2023-06-08 09:25:39] INFO root fetch - processPackages [pyarmor.cli.core]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli.core-3.2.dev2-cp39-none-win_amd64.whl.zip]
+[2023-06-08 09:25:39] INFO root fetch - main [MainThread]: End processing [pyarmor.cli.core]: success
+[2023-06-08 09:25:39] INFO root fetch - processPackages [cic-contracts]: Remove: archive file [/home/abi/fetcher/tmp/cic-contracts-0.3.0.tar.gz]
+[2023-06-08 09:25:39] INFO root fetch - processPackages [cic-contracts]: Remove: archive file [/home/abi/fetcher/tmp/cic-contracts-0.3.1.tar.gz]
+[2023-06-08 09:25:39] INFO root fetch - main [MainThread]: End processing [cic-contracts]: success
+[2023-06-08 09:25:39] INFO root fetch - processPackages [kalk]: Remove: archive file [/home/abi/fetcher/tmp/kalk-0.8.0.tar.gz]
+[2023-06-08 09:25:39] INFO root fetch - processPackages [kalk]: Remove: archive file [/home/abi/fetcher/tmp/kalk-0.9.0.tar.gz]
+[2023-06-08 09:25:39] INFO root fetch - main [MainThread]: End processing [kalk]: success
+[2023-06-08 09:25:40] INFO root fetch - processPackages [zipline-tej]: Remove: archive file [/home/abi/fetcher/tmp/zipline-tej-0.0.8.tar.gz]
+[2023-06-08 09:25:40] INFO root fetch - processPackages [zipline-tej]: Remove: archive file [/home/abi/fetcher/tmp/zipline-tej-0.0.9.tar.gz]
+[2023-06-08 09:25:40] INFO root fetch - main [MainThread]: End processing [zipline-tej]: success
+[2023-06-08 09:25:40] INFO root fetch - processPackages [nameless-deploy-tools]: Remove: archive file [/home/abi/fetcher/tmp/nameless-deploy-tools-1.98.tar.gz]
+[2023-06-08 09:25:40] INFO root fetch - processPackages [nameless-deploy-tools]: Remove: archive file [/home/abi/fetcher/tmp/nameless-deploy-tools-1.99.tar.gz]
+[2023-06-08 09:25:40] INFO root fetch - main [MainThread]: End processing [nameless-deploy-tools]: success
+[2023-06-08 09:25:41] INFO root fetch - main [MainThread]: End processing [nameless-deploy-tools]: success
+[2023-06-08 09:25:41] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz]
+[2023-06-08 09:25:41] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz]
+[2023-06-08 09:25:41] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
+[2023-06-08 09:25:41] INFO root fetch - main [MainThread]: Store serial: [18421002]
