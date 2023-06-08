@@ -18193,3 +18193,78 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-08 08:19:55] INFO root fetch - processPackages [ezbeq]: Remove: archive file [/home/abi/fetcher/tmp/ezbeq-1.0.0b9.tar.gz]
 [2023-06-08 08:19:55] INFO root fetch - main [MainThread]: End processing [ezbeq]: success
 [2023-06-08 08:19:55] INFO root fetch - main [MainThread]: Store serial: [18420596]
+[2023-06-08 08:25:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18420596]
+[2023-06-08 08:25:06] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-08 08:25:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cg
+[2023-06-08 08:25:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: radstar
+[2023-06-08 08:25:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: monerosub
+[2023-06-08 08:25:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: quiltplus
+[2023-06-08 08:25:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vcsc-data-common
+[2023-06-08 08:25:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cfn-ci-helper
+[2023-06-08 08:25:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pretext
+[2023-06-08 08:25:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: yplib
+[2023-06-08 08:25:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aiearth-openapi
+[2023-06-08 08:25:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo14-addon-l10n-br-cnpj-search
+[2023-06-08 08:25:06] WARNING root fetch - processPackages [radstar]: Skipping, unable to determine old version
+[2023-06-08 08:25:06] INFO root fetch - main [MainThread]: End processing [radstar] error
+[2023-06-08 08:25:06] WARNING root fetch - processPackages [monerosub]: Skipping, unable to determine old version
+[2023-06-08 08:25:06] INFO root fetch - main [MainThread]: End processing [monerosub] error
+[2023-06-08 08:25:06] INFO root fetch - processPackages [quiltplus]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-06-08 08:25:06] INFO root fetch - processPackages [pretext]: New version: [1.6.1.dev20230608] Old Version: [1.6.1.dev20230607]
+[2023-06-08 08:25:06] INFO root fetch - processPackages [cfn-ci-helper]: New version: [2023.6.7.0] Old Version: [2023.5.18.0]
+[2023-06-08 08:25:06] INFO root fetch - processPackages [yplib]: New version: [0.0.9] Old Version: [0.0.7]
+[2023-06-08 08:25:06] INFO root fetch - processPackages [odoo14-addon-l10n-br-cnpj-search]: New version: [14.0.1.1.1] Old Version: [14.0.1.1.0]
+[2023-06-08 08:25:06] INFO root fetch - processPackages [vcsc-data-common]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-08 08:25:06] WARNING root fetch - processPackages [aiearth-openapi]: Skipping, unable to determine old version
+[2023-06-08 08:25:06] INFO root fetch - main [MainThread]: End processing [aiearth-openapi] error
+[2023-06-08 08:25:06] INFO root fetch - processPackages [cg]: New version: [33.3.3] Old Version: [33.3.2]
+[2023-06-08 08:25:06] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/ae/a7/0827333aa7cee3e90269f4614b5ade7329584884917d236be5f60a60033c/yplib-0.0.7.tar.gz
+[2023-06-08 08:25:06] INFO root fetch - processPackages [vcsc-data-common]: Downloading https://files.pythonhosted.org/packages/59/c3/bef4578cf573ee145432c0193911cbbefa93ad209648c14a282c3f675db4/vcsc_data_common-0.1.7.tar.gz
+[2023-06-08 08:25:06] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/0f/29/c591b9773610770c36e94fb8a7ee9fb31823fdc93c24f4595db03b6202a5/cg-33.3.2.tar.gz
+[2023-06-08 08:25:06] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/07/dc/f30320ed66c67f0965bf39d7fdf289c3a420250296c63d183724e15f6a4c/pretext-1.6.1.dev20230607.tar.gz
+[2023-06-08 08:25:06] INFO root fetch - processPackages [quiltplus]: Downloading https://files.pythonhosted.org/packages/cf/e4/6e2f81eb4d8c033ee86bdb9c35598c0ff33759570ecc5b058945c7e09532/quiltplus-0.9.2.tar.gz
+[2023-06-08 08:25:06] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/e1/05/1918c25e01c44fc4ee2f53424eb65def6564395d90b7a574a55f97ae75a4/yplib-0.0.9.tar.gz
+[2023-06-08 08:25:06] INFO root fetch - processPackages [cfn-ci-helper]: Downloading https://files.pythonhosted.org/packages/04/96/573463a81acae0b32975039407214daeee9b719a7e8d9d22997d0428d246/cfn-ci-helper-2023.5.18.0.tar.gz
+[2023-06-08 08:25:06] INFO root fetch - processPackages [vcsc-data-common]: Downloading https://files.pythonhosted.org/packages/a3/09/2b1b71c23f3f796ed9c363696a0f4a6b4de2b33c46b536ad37af0fa48cb2/vcsc_data_common-0.1.8.tar.gz
+[2023-06-08 08:25:06] INFO root fetch - processPackages [odoo14-addon-l10n-br-cnpj-search]: Downloading https://files.pythonhosted.org/packages/0e/26/a12ede71df4ef62ebbbc9f5c05c60a780b7ee10eb7f6dd0c3c2eb157b5b2/odoo14_addon_l10n_br_cnpj_search-14.0.1.1.0-py3-none-any.whl
+[2023-06-08 08:25:06] INFO root fetch - processPackages [yplib]: executing diffoscope
+[2023-06-08 08:25:06] INFO root fetch - processPackages [yplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yplib-0.0.7.tar.gz tmp/yplib-0.0.9.tar.gz --markdown 20230608/y/yplib/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2023-06-08 08:25:06] INFO root fetch - processPackages [vcsc-data-common]: executing diffoscope
+[2023-06-08 08:25:06] INFO root fetch - processPackages [vcsc-data-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vcsc_data_common-0.1.7.tar.gz tmp/vcsc_data_common-0.1.8.tar.gz --markdown 20230608/v/vcsc-data-common/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-08 08:25:07] INFO root fetch - processPackages [quiltplus]: Downloading https://files.pythonhosted.org/packages/cd/f7/e7506f3a144e4be18e63ba83d27f5dd8e8c5ba3790de68f7119fffea7050/quiltplus-0.9.3.tar.gz
+[2023-06-08 08:25:07] INFO root fetch - processPackages [cfn-ci-helper]: Downloading https://files.pythonhosted.org/packages/63/eb/4e1b7ba8e98bd58b9b2307de6d525b1b294988489dc96025a94c3468b176/cfn-ci-helper-2023.6.7.0.tar.gz
+[2023-06-08 08:25:07] INFO root fetch - processPackages [odoo14-addon-l10n-br-cnpj-search]: Downloading https://files.pythonhosted.org/packages/18/5f/7a90b97ada8214c748795370e5428944b8a000bce254fab1b00d2a81eefd/odoo14_addon_l10n_br_cnpj_search-14.0.1.1.1-py3-none-any.whl
+[2023-06-08 08:25:07] INFO root fetch - processPackages [quiltplus]: executing diffoscope
+[2023-06-08 08:25:07] INFO root fetch - processPackages [quiltplus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quiltplus-0.9.2.tar.gz tmp/quiltplus-0.9.3.tar.gz --markdown 20230608/q/quiltplus/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-06-08 08:25:07] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/1f/12/d7b7c865f8300c2f680a196405f68af9f4ecc2faf6327fa9b8dcf37b3f19/pretext-1.6.1.dev20230608.tar.gz
+[2023-06-08 08:25:07] INFO root fetch - processPackages [cfn-ci-helper]: executing diffoscope
+[2023-06-08 08:25:07] INFO root fetch - processPackages [cfn-ci-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cfn-ci-helper-2023.5.18.0.tar.gz tmp/cfn-ci-helper-2023.6.7.0.tar.gz --markdown 20230608/c/cfn-ci-helper/2023.5.18.0-2023.6.7.0/diff.md --exclude *.pyd
+[2023-06-08 08:25:07] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/b8/4f/ab1aaf8b918f3d69fd411c46d2de897e47cf20f3f00e1e486728da1116e9/cg-33.3.3.tar.gz
+[2023-06-08 08:25:07] INFO root fetch - processPackages [odoo14-addon-l10n-br-cnpj-search]: executing diffoscope
+[2023-06-08 08:25:07] INFO root fetch - processPackages [odoo14-addon-l10n-br-cnpj-search]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_br_cnpj_search-14.0.1.1.0-py3-none-any.whl.zip tmp/odoo14_addon_l10n_br_cnpj_search-14.0.1.1.1-py3-none-any.whl.zip --markdown 20230608/o/odoo14-addon-l10n-br-cnpj-search/14.0.1.1.0-14.0.1.1.1/diff.md --exclude *.pyd
+[2023-06-08 08:25:07] INFO root fetch - processPackages [cg]: executing diffoscope
+[2023-06-08 08:25:07] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-33.3.2.tar.gz tmp/cg-33.3.3.tar.gz --markdown 20230608/c/cg/33.3.2-33.3.3/diff.md --exclude *.pyd
+[2023-06-08 08:25:07] INFO root fetch - processPackages [pretext]: executing diffoscope
+[2023-06-08 08:25:07] INFO root fetch - processPackages [pretext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pretext-1.6.1.dev20230607.tar.gz tmp/pretext-1.6.1.dev20230608.tar.gz --markdown 20230608/p/pretext/1.6.1.dev20230607-1.6.1.dev20230608/diff.md --exclude *.pyd
+[2023-06-08 08:25:08] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-0.0.7.tar.gz]
+[2023-06-08 08:25:08] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-0.0.9.tar.gz]
+[2023-06-08 08:25:08] INFO root fetch - main [MainThread]: End processing [yplib]: success
+[2023-06-08 08:25:08] INFO root fetch - processPackages [quiltplus]: Remove: archive file [/home/abi/fetcher/tmp/quiltplus-0.9.2.tar.gz]
+[2023-06-08 08:25:08] INFO root fetch - processPackages [quiltplus]: Remove: archive file [/home/abi/fetcher/tmp/quiltplus-0.9.3.tar.gz]
+[2023-06-08 08:25:08] INFO root fetch - main [MainThread]: End processing [quiltplus]: success
+[2023-06-08 08:25:08] INFO root fetch - processPackages [vcsc-data-common]: Remove: archive file [/home/abi/fetcher/tmp/vcsc_data_common-0.1.7.tar.gz]
+[2023-06-08 08:25:08] INFO root fetch - processPackages [vcsc-data-common]: Remove: archive file [/home/abi/fetcher/tmp/vcsc_data_common-0.1.8.tar.gz]
+[2023-06-08 08:25:08] INFO root fetch - main [MainThread]: End processing [vcsc-data-common]: success
+[2023-06-08 08:25:08] INFO root fetch - processPackages [cfn-ci-helper]: Remove: archive file [/home/abi/fetcher/tmp/cfn-ci-helper-2023.5.18.0.tar.gz]
+[2023-06-08 08:25:08] INFO root fetch - processPackages [cfn-ci-helper]: Remove: archive file [/home/abi/fetcher/tmp/cfn-ci-helper-2023.6.7.0.tar.gz]
+[2023-06-08 08:25:08] INFO root fetch - main [MainThread]: End processing [cfn-ci-helper]: success
+[2023-06-08 08:25:08] INFO root fetch - processPackages [odoo14-addon-l10n-br-cnpj-search]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_cnpj_search-14.0.1.1.0-py3-none-any.whl.zip]
+[2023-06-08 08:25:08] INFO root fetch - processPackages [odoo14-addon-l10n-br-cnpj-search]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_cnpj_search-14.0.1.1.1-py3-none-any.whl.zip]
+[2023-06-08 08:25:08] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-cnpj-search]: success
+[2023-06-08 08:25:13] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-1.6.1.dev20230607.tar.gz]
+[2023-06-08 08:25:13] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-1.6.1.dev20230608.tar.gz]
+[2023-06-08 08:25:13] INFO root fetch - main [MainThread]: End processing [pretext]: success
+[2023-06-08 08:25:18] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-33.3.2.tar.gz]
+[2023-06-08 08:25:18] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-33.3.3.tar.gz]
+[2023-06-08 08:25:18] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2023-06-08 08:25:18] INFO root fetch - main [MainThread]: Store serial: [18420630]
