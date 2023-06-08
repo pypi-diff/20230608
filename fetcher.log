@@ -18934,3 +18934,122 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-08 09:14:50] INFO root fetch - processPackages [shioaji]: Remove: archive file [/home/abi/fetcher/tmp/shioaji-1.1.5-cp39-cp39-win_amd64.whl.zip]
 [2023-06-08 09:14:50] INFO root fetch - main [MainThread]: End processing [shioaji]: success
 [2023-06-08 09:14:50] INFO root fetch - main [MainThread]: Store serial: [18420909]
+[2023-06-08 09:19:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18420909]
+[2023-06-08 09:19:59] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-08 09:19:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: timona
+[2023-06-08 09:19:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pepperize.cdk-terraform-state-backend
+[2023-06-08 09:19:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: easy-logs
+[2023-06-08 09:19:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: streamlit-nightly
+[2023-06-08 09:19:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: py_dev_support
+[2023-06-08 09:19:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: insights-core
+[2023-06-08 09:19:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nameless-deploy-tools
+[2023-06-08 09:19:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: neulabs-cdk-constructs
+[2023-06-08 09:19:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: easy-logs
+[2023-06-08 09:19:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pepperize.cdk-terraform-state-backend
+[2023-06-08 09:19:59] INFO root fetch - processPackages [timona]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-08 09:19:59] INFO root fetch - processPackages [py_dev_support]: New version: [0.1.15] Old Version: [0.1.14]
+[2023-06-08 09:19:59] INFO root fetch - processPackages [insights-core]: New version: [3.2.0] Old Version: [3.1.9]
+[2023-06-08 09:19:59] INFO root fetch - processPackages [easy-logs]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-06-08 09:19:59] INFO root fetch - processPackages [easy-logs]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-06-08 09:19:59] INFO root fetch - processPackages [nameless-deploy-tools]: New version: [1.99] Old Version: [1.98]
+[2023-06-08 09:19:59] INFO root fetch - processPackages [neulabs-cdk-constructs]: New version: [0.4.6] Old Version: [0.4.5]
+[2023-06-08 09:19:59] INFO root fetch - processPackages [streamlit-nightly]: New version: [1.9.3.dev20220601] Old Version: [1.9.3.dev20220531]
+[2023-06-08 09:19:59] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-06-08 09:19:59] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-06-08 09:19:59] INFO root fetch - processPackages [py_dev_support]: Downloading https://files.pythonhosted.org/packages/ec/1f/3353ab386d9f80952f636041ec0430d15d809dac58383ea478096b3f4a46/py_dev_support-0.1.14.tar.gz
+[2023-06-08 09:19:59] INFO root fetch - processPackages [streamlit-nightly]: Downloading https://files.pythonhosted.org/packages/bb/77/73ca36b159a0852f16710c30eca243772d04e8d37c1497e26e837ebad465/streamlit-nightly-1.9.3.dev20220531.tar.gz
+[2023-06-08 09:19:59] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Downloading https://files.pythonhosted.org/packages/67/44/1dba32653c7525f0fbd8908ad6d202d1043a5fcb6cf364972a4c23bffeac/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz
+[2023-06-08 09:19:59] INFO root fetch - processPackages [neulabs-cdk-constructs]: Downloading https://files.pythonhosted.org/packages/2b/ea/b24c61c2d20eba8e21ffec579b7ba95362bee7b755764371447339c24f90/neulabs-cdk-constructs-0.4.5.tar.gz
+[2023-06-08 09:19:59] INFO root fetch - processPackages [nameless-deploy-tools]: Downloading https://files.pythonhosted.org/packages/0d/c8/8c3c9f7254326f089bfaaf17c4f26d37fda0baf5993e7674c3c324a4ddc8/nameless-deploy-tools-1.98.tar.gz
+[2023-06-08 09:19:59] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Downloading https://files.pythonhosted.org/packages/67/44/1dba32653c7525f0fbd8908ad6d202d1043a5fcb6cf364972a4c23bffeac/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz
+[2023-06-08 09:20:00] INFO root fetch - processPackages [timona]: Downloading https://files.pythonhosted.org/packages/79/9c/dd26cad234ccdfea6aa3a7ede64189558b53d32726212536e45878ca1c44/timona-0.0.4.tar.gz
+[2023-06-08 09:20:00] INFO root fetch - processPackages [insights-core]: Downloading https://files.pythonhosted.org/packages/f5/b2/60deb6f5b9efa1b3747c5a8d04cebd550974d0cf3d58f995c286096830b7/insights-core-3.1.9.tar.gz
+[2023-06-08 09:20:00] INFO root fetch - processPackages [easy-logs]: Downloading https://files.pythonhosted.org/packages/94/23/4c967026b0116f08426b44652a5253b5b8fe64d0d70dcea123f744bf9877/easy_logs-1.1.1.tar.gz
+[2023-06-08 09:20:00] INFO root fetch - processPackages [easy-logs]: Downloading https://files.pythonhosted.org/packages/94/23/4c967026b0116f08426b44652a5253b5b8fe64d0d70dcea123f744bf9877/easy_logs-1.1.1.tar.gz
+[2023-06-08 09:20:00] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Downloading https://files.pythonhosted.org/packages/49/e5/a2d418e8a59e46c739ecaa72adebcb65d676b8149513d576b8cd05d6324e/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz
+[2023-06-08 09:20:00] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Downloading https://files.pythonhosted.org/packages/49/e5/a2d418e8a59e46c739ecaa72adebcb65d676b8149513d576b8cd05d6324e/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz
+[2023-06-08 09:20:00] INFO root fetch - processPackages [nameless-deploy-tools]: Downloading https://files.pythonhosted.org/packages/fe/19/ea262f36b269c4dbb14250dd1ad53e26d137416f57251e88cd4db4227090/nameless-deploy-tools-1.99.tar.gz
+[2023-06-08 09:20:00] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: executing diffoscope
+[2023-06-08 09:20:00] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz --markdown 20230608/p/pepperize.cdk-terraform-state-backend/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-06-08 09:20:00] INFO root fetch - processPackages [neulabs-cdk-constructs]: Downloading https://files.pythonhosted.org/packages/7a/c4/630450b36ac46a65ff2400e91878b7e9e0278a927e2de2d079e6cea86a46/neulabs-cdk-constructs-0.4.6.tar.gz
+[2023-06-08 09:20:00] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: executing diffoscope
+[2023-06-08 09:20:00] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz --markdown 20230608/p/pepperize.cdk-terraform-state-backend/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-06-08 09:20:00] INFO root fetch - processPackages [timona]: Downloading https://files.pythonhosted.org/packages/69/b8/ba95656f5ca6324fdb2d87dbfb16d674d3e49b1f0aff1e5a4f410d82f94b/timona-0.0.5.tar.gz
+[2023-06-08 09:20:00] INFO root fetch - processPackages [nameless-deploy-tools]: executing diffoscope
+[2023-06-08 09:20:00] INFO root fetch - processPackages [nameless-deploy-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nameless-deploy-tools-1.98.tar.gz tmp/nameless-deploy-tools-1.99.tar.gz --markdown 20230608/n/nameless-deploy-tools/1.98-1.99/diff.md --exclude *.pyd
+[2023-06-08 09:20:00] INFO root fetch - processPackages [py_dev_support]: Downloading https://files.pythonhosted.org/packages/9a/c1/e33845c98ba07a751980861a3187e0bb3eaf7468bfdedceaa2a6a01e6d9b/py_dev_support-0.1.15.tar.gz
+[2023-06-08 09:20:00] INFO root fetch - processPackages [insights-core]: Downloading https://files.pythonhosted.org/packages/15/ca/4e56e7cc1189b8df29d2e7f14d6e73d8472de65fe5800bae451f363aec3e/insights-core-3.2.0.tar.gz
+[2023-06-08 09:20:00] INFO root fetch - processPackages [neulabs-cdk-constructs]: executing diffoscope
+[2023-06-08 09:20:00] INFO root fetch - processPackages [neulabs-cdk-constructs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neulabs-cdk-constructs-0.4.5.tar.gz tmp/neulabs-cdk-constructs-0.4.6.tar.gz --markdown 20230608/n/neulabs-cdk-constructs/0.4.5-0.4.6/diff.md --exclude *.pyd
+[2023-06-08 09:20:00] INFO root fetch - processPackages [timona]: executing diffoscope
+[2023-06-08 09:20:00] INFO root fetch - processPackages [timona]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/timona-0.0.4.tar.gz tmp/timona-0.0.5.tar.gz --markdown 20230608/t/timona/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-08 09:20:00] INFO root fetch - processPackages [easy-logs]: Downloading https://files.pythonhosted.org/packages/2b/e4/39f938d61626892584b09ffdca0f112183020e18fd9704a3adb934a47528/easy_logs-1.1.2.tar.gz
+[2023-06-08 09:20:00] INFO root fetch - processPackages [easy-logs]: Downloading https://files.pythonhosted.org/packages/2b/e4/39f938d61626892584b09ffdca0f112183020e18fd9704a3adb934a47528/easy_logs-1.1.2.tar.gz
+[2023-06-08 09:20:00] INFO root fetch - processPackages [py_dev_support]: executing diffoscope
+[2023-06-08 09:20:00] INFO root fetch - processPackages [py_dev_support]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_dev_support-0.1.14.tar.gz tmp/py_dev_support-0.1.15.tar.gz --markdown 20230608/p/py_dev_support/0.1.14-0.1.15/diff.md --exclude *.pyd
+[2023-06-08 09:20:00] INFO root fetch - processPackages [insights-core]: executing diffoscope
+[2023-06-08 09:20:00] INFO root fetch - processPackages [insights-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/insights-core-3.1.9.tar.gz tmp/insights-core-3.2.0.tar.gz --markdown 20230608/i/insights-core/3.1.9-3.2.0/diff.md --exclude *.pyd
+[2023-06-08 09:20:00] INFO root fetch - processPackages [easy-logs]: executing diffoscope
+[2023-06-08 09:20:00] INFO root fetch - processPackages [easy-logs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easy_logs-1.1.1.tar.gz tmp/easy_logs-1.1.2.tar.gz --markdown 20230608/e/easy-logs/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-06-08 09:20:00] INFO root fetch - processPackages [easy-logs]: executing diffoscope
+[2023-06-08 09:20:00] INFO root fetch - processPackages [easy-logs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easy_logs-1.1.1.tar.gz tmp/easy_logs-1.1.2.tar.gz --markdown 20230608/e/easy-logs/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-06-08 09:20:01] INFO root fetch - processPackages [streamlit-nightly]: Downloading https://files.pythonhosted.org/packages/3f/2a/57340e81e1d94e80229a3f8d9acc663cdad9ffd0ead21e2c20c76b879c18/streamlit-nightly-1.9.3.dev20220601.tar.gz
+[2023-06-08 09:20:01] INFO root fetch - processPackages [streamlit-nightly]: executing diffoscope
+[2023-06-08 09:20:01] INFO root fetch - processPackages [streamlit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-nightly-1.9.3.dev20220531.tar.gz tmp/streamlit-nightly-1.9.3.dev20220601.tar.gz --markdown 20230608/s/streamlit-nightly/1.9.3.dev20220531-1.9.3.dev20220601/diff.md --exclude *.pyd
+[2023-06-08 09:20:02] INFO root fetch - processPackages [timona]: Remove: archive file [/home/abi/fetcher/tmp/timona-0.0.4.tar.gz]
+[2023-06-08 09:20:02] INFO root fetch - processPackages [timona]: Remove: archive file [/home/abi/fetcher/tmp/timona-0.0.5.tar.gz]
+[2023-06-08 09:20:02] INFO root fetch - processPackages [timona]: Start processing: onyx-client
+[2023-06-08 09:20:02] INFO root fetch - main [MainThread]: End processing [timona]: success
+[2023-06-08 09:20:02] INFO root fetch - processPackages [onyx-client]: New version: [7.0.0] Old Version: [6.1.0]
+[2023-06-08 09:20:02] INFO root fetch - processPackages [py_dev_support]: Remove: archive file [/home/abi/fetcher/tmp/py_dev_support-0.1.14.tar.gz]
+[2023-06-08 09:20:02] INFO root fetch - processPackages [py_dev_support]: Remove: archive file [/home/abi/fetcher/tmp/py_dev_support-0.1.15.tar.gz]
+[2023-06-08 09:20:02] INFO root fetch - processPackages [py_dev_support]: Start processing: cic-contracts
+[2023-06-08 09:20:02] INFO root fetch - main [MainThread]: End processing [py_dev_support]: success
+[2023-06-08 09:20:02] WARNING root fetch - processPackages [cic-contracts]: Skipping, unable to determine old version
+[2023-06-08 09:20:02] INFO root fetch - processPackages [cic-contracts]: Start processing: alibabacloud-cloudauth-intl20220809
+[2023-06-08 09:20:02] INFO root fetch - main [MainThread]: End processing [cic-contracts] error
+[2023-06-08 09:20:02] INFO root fetch - processPackages [onyx-client]: Downloading https://files.pythonhosted.org/packages/49/f7/1caeb0e5f153141820486f6a544fe943682c6fb5fcbd6423ead0c8206417/onyx_client-6.1.0.tar.gz
+[2023-06-08 09:20:02] INFO root fetch - processPackages [alibabacloud-cloudauth-intl20220809]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-08 09:20:02] INFO root fetch - processPackages [easy-logs]: Remove: archive file [/home/abi/fetcher/tmp/easy_logs-1.1.1.tar.gz]
+[2023-06-08 09:20:02] INFO root fetch - processPackages [easy-logs]: Remove: archive file [/home/abi/fetcher/tmp/easy_logs-1.1.2.tar.gz]
+[2023-06-08 09:20:02] INFO root fetch - processPackages [easy-logs]: Start processing: cstag
+[2023-06-08 09:20:02] INFO root fetch - main [MainThread]: End processing [easy-logs]: success
+[2023-06-08 09:20:02] INFO root fetch - processPackages [neulabs-cdk-constructs]: Remove: archive file [/home/abi/fetcher/tmp/neulabs-cdk-constructs-0.4.5.tar.gz]
+[2023-06-08 09:20:02] INFO root fetch - processPackages [neulabs-cdk-constructs]: Remove: archive file [/home/abi/fetcher/tmp/neulabs-cdk-constructs-0.4.6.tar.gz]
+[2023-06-08 09:20:02] INFO root fetch - main [MainThread]: End processing [neulabs-cdk-constructs]: success
+[2023-06-08 09:20:02] INFO root fetch - processPackages [alibabacloud-cloudauth-intl20220809]: Downloading https://files.pythonhosted.org/packages/37/35/259c3aa555207e4d91b23968971272c6ea56a80fc524d28cbb85ce6eb7f7/alibabacloud_cloudauth-intl20220809-1.0.8.tar.gz
+[2023-06-08 09:20:02] INFO root fetch - processPackages [cstag]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-06-08 09:20:02] INFO root fetch - processPackages [onyx-client]: Downloading https://files.pythonhosted.org/packages/6a/53/bc32526d1dafc412b6792942a26ae4ba69d37c86a7d0bd01460ce70a0502/onyx_client-7.0.0.tar.gz
+[2023-06-08 09:20:02] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz]
+[2023-06-08 09:20:02] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz]
+[2023-06-08 09:20:02] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-terraform-state-backend]: success
+[2023-06-08 09:20:02] INFO root fetch - main [MainThread]: End processing [easy-logs]: success
+[2023-06-08 09:20:02] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-terraform-state-backend]: success
+[2023-06-08 09:20:02] INFO root fetch - processPackages [onyx-client]: executing diffoscope
+[2023-06-08 09:20:02] INFO root fetch - processPackages [onyx-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onyx_client-6.1.0.tar.gz tmp/onyx_client-7.0.0.tar.gz --markdown 20230608/o/onyx-client/6.1.0-7.0.0/diff.md --exclude *.pyd
+[2023-06-08 09:20:02] INFO root fetch - processPackages [cstag]: Downloading https://files.pythonhosted.org/packages/fc/54/0ad6221d2774cdbd6551118093221d7a0b49c58e0609e1ef535414631946/cstag-0.4.0.zip
+[2023-06-08 09:20:02] INFO root fetch - processPackages [alibabacloud-cloudauth-intl20220809]: Downloading https://files.pythonhosted.org/packages/ad/36/84c60dbc4bd71732b1f42a730f927c0bebb5c4901567505c35110c65639f/alibabacloud_cloudauth-intl20220809-1.0.9.tar.gz
+[2023-06-08 09:20:02] INFO root fetch - processPackages [nameless-deploy-tools]: Remove: archive file [/home/abi/fetcher/tmp/nameless-deploy-tools-1.98.tar.gz]
+[2023-06-08 09:20:02] INFO root fetch - processPackages [nameless-deploy-tools]: Remove: archive file [/home/abi/fetcher/tmp/nameless-deploy-tools-1.99.tar.gz]
+[2023-06-08 09:20:02] INFO root fetch - main [MainThread]: End processing [nameless-deploy-tools]: success
+[2023-06-08 09:20:02] INFO root fetch - processPackages [alibabacloud-cloudauth-intl20220809]: executing diffoscope
+[2023-06-08 09:20:02] INFO root fetch - processPackages [alibabacloud-cloudauth-intl20220809]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_cloudauth-intl20220809-1.0.8.tar.gz tmp/alibabacloud_cloudauth-intl20220809-1.0.9.tar.gz --markdown 20230608/a/alibabacloud-cloudauth-intl20220809/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-08 09:20:03] INFO root fetch - processPackages [cstag]: Downloading https://files.pythonhosted.org/packages/06/e5/f703e78e01b232adfe86448918717b4d6404e8f35ddce0b63606f2ded8d1/cstag-0.4.1.zip
+[2023-06-08 09:20:03] INFO root fetch - processPackages [cstag]: executing diffoscope
+[2023-06-08 09:20:03] INFO root fetch - processPackages [cstag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cstag-0.4.0.zip tmp/cstag-0.4.1.zip --markdown 20230608/c/cstag/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-06-08 09:20:03] INFO root fetch - processPackages [onyx-client]: Remove: archive file [/home/abi/fetcher/tmp/onyx_client-6.1.0.tar.gz]
+[2023-06-08 09:20:03] INFO root fetch - processPackages [onyx-client]: Remove: archive file [/home/abi/fetcher/tmp/onyx_client-7.0.0.tar.gz]
+[2023-06-08 09:20:03] INFO root fetch - main [MainThread]: End processing [onyx-client]: success
+[2023-06-08 09:20:03] INFO root fetch - processPackages [alibabacloud-cloudauth-intl20220809]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_cloudauth-intl20220809-1.0.8.tar.gz]
+[2023-06-08 09:20:03] INFO root fetch - processPackages [alibabacloud-cloudauth-intl20220809]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_cloudauth-intl20220809-1.0.9.tar.gz]
+[2023-06-08 09:20:03] INFO root fetch - main [MainThread]: End processing [alibabacloud-cloudauth-intl20220809]: success
+[2023-06-08 09:20:04] INFO root fetch - processPackages [cstag]: Remove: archive file [/home/abi/fetcher/tmp/cstag-0.4.0.zip]
+[2023-06-08 09:20:04] INFO root fetch - processPackages [cstag]: Remove: archive file [/home/abi/fetcher/tmp/cstag-0.4.1.zip]
+[2023-06-08 09:20:04] INFO root fetch - main [MainThread]: End processing [cstag]: success
+[2023-06-08 09:20:13] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-nightly-1.9.3.dev20220531.tar.gz]
+[2023-06-08 09:20:13] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-nightly-1.9.3.dev20220601.tar.gz]
+[2023-06-08 09:20:13] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
+[2023-06-08 09:20:26] INFO root fetch - processPackages [insights-core]: Remove: archive file [/home/abi/fetcher/tmp/insights-core-3.1.9.tar.gz]
+[2023-06-08 09:20:26] INFO root fetch - processPackages [insights-core]: Remove: archive file [/home/abi/fetcher/tmp/insights-core-3.2.0.tar.gz]
+[2023-06-08 09:20:26] INFO root fetch - main [MainThread]: End processing [insights-core]: success
+[2023-06-08 09:20:26] INFO root fetch - main [MainThread]: Store serial: [18420949]
