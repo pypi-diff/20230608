@@ -20563,3 +20563,107 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-06-08 10:40:21] INFO root fetch - processPackages [eea.dexterity.indicators]: Remove: archive file [/home/abi/fetcher/tmp/eea.dexterity.indicators-6.2.zip]
 [2023-06-08 10:40:21] INFO root fetch - main [MainThread]: End processing [eea.dexterity.indicators]: success
 [2023-06-08 10:40:21] INFO root fetch - main [MainThread]: Store serial: [18421556]
+[2023-06-08 10:45:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18421556]
+[2023-06-08 10:45:30] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-08 10:45:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jupyterhub
+[2023-06-08 10:45:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: label-noise-correction
+[2023-06-08 10:45:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pikanetwork.py
+[2023-06-08 10:45:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tff-nightly
+[2023-06-08 10:45:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ionicons-python
+[2023-06-08 10:45:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyart-mch
+[2023-06-08 10:45:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: atelier-toolbox
+[2023-06-08 10:45:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: index-calculator
+[2023-06-08 10:45:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: anx-interface
+[2023-06-08 10:45:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tfp-nightly
+[2023-06-08 10:45:30] INFO root fetch - processPackages [pyart-mch]: New version: [1.8.1] Old Version: [1.8.0]
+[2023-06-08 10:45:30] WARNING root fetch - processPackages [label-noise-correction]: Skipping, unable to determine old version
+[2023-06-08 10:45:30] WARNING root fetch - processPackages [ionicons-python]: Skipping, unable to determine old version
+[2023-06-08 10:45:30] INFO root fetch - processPackages [label-noise-correction]: Start processing: gitlint-core
+[2023-06-08 10:45:30] INFO root fetch - main [MainThread]: End processing [label-noise-correction] error
+[2023-06-08 10:45:30] INFO root fetch - processPackages [ionicons-python]: Start processing: ttcore
+[2023-06-08 10:45:30] INFO root fetch - main [MainThread]: End processing [ionicons-python] error
+[2023-06-08 10:45:30] INFO root fetch - processPackages [jupyterhub]: New version: [4.0.1] Old Version: [4.0.0b2]
+[2023-06-08 10:45:30] INFO root fetch - processPackages [index-calculator]: New version: [0.7.4] Old Version: [0.7.3]
+[2023-06-08 10:45:30] INFO root fetch - processPackages [pikanetwork.py]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-08 10:45:30] INFO root fetch - processPackages [atelier-toolbox]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-08 10:45:30] INFO root fetch - processPackages [anx-interface]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-06-08 10:45:30] INFO root fetch - processPackages [tfp-nightly]: New version: [0.9.0.dev20200114] Old Version: [0.9.0.dev20200113]
+[2023-06-08 10:45:30] INFO root fetch - processPackages [tff-nightly]: New version: [0.0.1.dev20230607] Old Version: [0.0.1.dev20230606]
+[2023-06-08 10:45:30] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/be/16/ebf16b1094e104257af6265eee53833e4f737ef6d11426d959009fa9952a/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl
+[2023-06-08 10:45:30] INFO root fetch - processPackages [tff-nightly]: Downloading https://files.pythonhosted.org/packages/8d/77/bfa69c8a6e24b71680334fa1063ac97642bca188d166edc1edae3000b6c7/tff_nightly-0.0.1.dev20230606-py2.py3-none-any.whl
+[2023-06-08 10:45:30] INFO root fetch - processPackages [ttcore]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-08 10:45:30] INFO root fetch - processPackages [jupyterhub]: Downloading https://files.pythonhosted.org/packages/d4/56/9e5f1c432c8c8a3f9ab52be8c79a01f3f471e78c9fbc04d99f864b416b5a/jupyterhub-4.0.0b2.tar.gz
+[2023-06-08 10:45:30] INFO root fetch - processPackages [pikanetwork.py]: Downloading https://files.pythonhosted.org/packages/d4/c4/be0b06e614a28271184279d5f16b0c3595d1912b96c5c3ce3eec605744d6/pikanetwork.py-1.0.0.tar.gz
+[2023-06-08 10:45:30] INFO root fetch - processPackages [gitlint-core]: New version: [0.20.0.dev9] Old Version: [0.20.0.dev8]
+[2023-06-08 10:45:30] INFO root fetch - processPackages [pyart-mch]: Downloading https://files.pythonhosted.org/packages/52/7c/f6e1ee2e384bd09b21f1067faec8a97e8c8b14e3afc1e6711ea28fc4597f/pyart_mch-1.8.0.tar.gz
+[2023-06-08 10:45:30] INFO root fetch - processPackages [anx-interface]: Downloading https://files.pythonhosted.org/packages/2f/1c/07ed38cfd1463f5686fc6ffe59dd533b44f06acb4b008444c7141474fdc5/anx_interface-0.5.2.tar.gz
+[2023-06-08 10:45:30] INFO root fetch - processPackages [index-calculator]: Downloading https://files.pythonhosted.org/packages/32/7c/798be05ad7d2397eb3b2fbca6389020087d40be21902501dd4bda3556748/index_calculator-0.7.3.tar.gz
+[2023-06-08 10:45:30] INFO root fetch - processPackages [atelier-toolbox]: Downloading https://files.pythonhosted.org/packages/5a/49/8d0a6d40cb1f3c6ba45fc4af6895df20bfb688a062d02187b4612585e384/atelier_toolbox-1.0.2.tar.gz
+[2023-06-08 10:45:30] WARNING root fetch - processPackages [index-calculator]: Skipping package: exceeds size limit 18514029>=10485760
+[2023-06-08 10:45:30] INFO root fetch - processPackages [index-calculator]: Start processing: gitlint
+[2023-06-08 10:45:30] INFO root fetch - main [MainThread]: End processing [index-calculator] error
+[2023-06-08 10:45:30] INFO root fetch - processPackages [ttcore]: Downloading https://files.pythonhosted.org/packages/51/1c/70d33d101f025bedf2fc3756d7a4fab630b1d605e1bf088f4a8c10697614/ttcore-0.1.8.tar.gz
+[2023-06-08 10:45:30] INFO root fetch - processPackages [pikanetwork.py]: Downloading https://files.pythonhosted.org/packages/9a/fd/190192e8cf0d8b494f3a9c8ee8c15a00f54fdb171289b74db4572ef5d9b8/pikanetwork.py-1.0.1.tar.gz
+[2023-06-08 10:45:30] INFO root fetch - processPackages [gitlint-core]: Downloading https://files.pythonhosted.org/packages/7a/3f/c11be6426880b469fbe1a3c199b57eee705a7cb7966f301cc09f257733a7/gitlint_core-0.20.0.dev8.tar.gz
+[2023-06-08 10:45:30] INFO root fetch - processPackages [pikanetwork.py]: executing diffoscope
+[2023-06-08 10:45:30] INFO root fetch - processPackages [pikanetwork.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pikanetwork.py-1.0.0.tar.gz tmp/pikanetwork.py-1.0.1.tar.gz --markdown 20230608/p/pikanetwork.py/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-08 10:45:30] INFO root fetch - processPackages [gitlint]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-06-08 10:45:30] INFO root fetch - processPackages [anx-interface]: Downloading https://files.pythonhosted.org/packages/63/7d/9d389ce14bafe08dc9ccf062214ce740a2fd74f5323bd375495138ed4679/anx_interface-0.5.3.tar.gz
+[2023-06-08 10:45:30] INFO root fetch - processPackages [anx-interface]: executing diffoscope
+[2023-06-08 10:45:30] INFO root fetch - processPackages [anx-interface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anx_interface-0.5.2.tar.gz tmp/anx_interface-0.5.3.tar.gz --markdown 20230608/a/anx-interface/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2023-06-08 10:45:30] INFO root fetch - processPackages [atelier-toolbox]: Downloading https://files.pythonhosted.org/packages/25/75/0dc6b3a74304405029af21d1d0ea5425bb74e615f915418db5fec20a1f17/atelier_toolbox-1.0.3.tar.gz
+[2023-06-08 10:45:31] INFO root fetch - processPackages [atelier-toolbox]: executing diffoscope
+[2023-06-08 10:45:31] INFO root fetch - processPackages [atelier-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atelier_toolbox-1.0.2.tar.gz tmp/atelier_toolbox-1.0.3.tar.gz --markdown 20230608/a/atelier-toolbox/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-08 10:45:31] INFO root fetch - processPackages [tff-nightly]: Downloading https://files.pythonhosted.org/packages/54/95/7e0e094dc733e0d7928b6135ca5b392758c76a5cb7c06af1283d1ca084a9/tff_nightly-0.0.1.dev20230607-py2.py3-none-any.whl
+[2023-06-08 10:45:31] INFO root fetch - processPackages [ttcore]: Downloading https://files.pythonhosted.org/packages/3f/46/0608e5be850842dbcb21cd1f71acb784b21570acd86223548ac7b762195f/ttcore-0.1.9.tar.gz
+[2023-06-08 10:45:31] INFO root fetch - processPackages [gitlint]: Downloading https://files.pythonhosted.org/packages/5b/5a/21a35893dc478dbadf89b2b03261ee5585494ba6e801a8f94c9664f78490/gitlint-0.8.2.tar.gz
+[2023-06-08 10:45:31] INFO root fetch - processPackages [gitlint-core]: Downloading https://files.pythonhosted.org/packages/bd/76/20021dcb9ac1f8236b853a783b3b68d9f84ad9527e2fd5c583ef08249923/gitlint_core-0.20.0.dev9.tar.gz
+[2023-06-08 10:45:31] INFO root fetch - processPackages [ttcore]: executing diffoscope
+[2023-06-08 10:45:31] INFO root fetch - processPackages [ttcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ttcore-0.1.8.tar.gz tmp/ttcore-0.1.9.tar.gz --markdown 20230608/t/ttcore/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-08 10:45:31] INFO root fetch - processPackages [tff-nightly]: executing diffoscope
+[2023-06-08 10:45:31] INFO root fetch - processPackages [tff-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tff_nightly-0.0.1.dev20230606-py2.py3-none-any.whl.zip tmp/tff_nightly-0.0.1.dev20230607-py2.py3-none-any.whl.zip --markdown 20230608/t/tff-nightly/0.0.1.dev20230606-0.0.1.dev20230607/diff.md --exclude *.pyd
+[2023-06-08 10:45:31] INFO root fetch - processPackages [gitlint-core]: executing diffoscope
+[2023-06-08 10:45:31] INFO root fetch - processPackages [gitlint-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitlint_core-0.20.0.dev8.tar.gz tmp/gitlint_core-0.20.0.dev9.tar.gz --markdown 20230608/g/gitlint-core/0.20.0.dev8-0.20.0.dev9/diff.md --exclude *.pyd
+[2023-06-08 10:45:31] INFO root fetch - processPackages [gitlint]: Downloading https://files.pythonhosted.org/packages/d6/f1/3556a8e92846fac5b29b34e3c9c20fb5dcfddbf558227ac15ee4a4e4b06c/gitlint-0.9.0.tar.gz
+[2023-06-08 10:45:31] INFO root fetch - processPackages [pyart-mch]: Downloading https://files.pythonhosted.org/packages/85/45/de52c0ea25e8eefa532ff21b23e5ec4f2d6dcf48aa8dab2347ec06999274/pyart_mch-1.8.1.tar.gz
+[2023-06-08 10:45:31] INFO root fetch - processPackages [gitlint]: executing diffoscope
+[2023-06-08 10:45:31] INFO root fetch - processPackages [gitlint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitlint-0.8.2.tar.gz tmp/gitlint-0.9.0.tar.gz --markdown 20230608/g/gitlint/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-06-08 10:45:31] INFO root fetch - processPackages [pyart-mch]: executing diffoscope
+[2023-06-08 10:45:31] INFO root fetch - processPackages [pyart-mch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyart_mch-1.8.0.tar.gz tmp/pyart_mch-1.8.1.tar.gz --markdown 20230608/p/pyart-mch/1.8.0-1.8.1/diff.md --exclude *.pyd
+[2023-06-08 10:45:31] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/f1/98/c1f5a754a26ea1f08e3558803ffb67dd65482de4f6bfadc5415573cd3cb7/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl
+[2023-06-08 10:45:32] INFO root fetch - processPackages [pikanetwork.py]: Remove: archive file [/home/abi/fetcher/tmp/pikanetwork.py-1.0.0.tar.gz]
+[2023-06-08 10:45:32] INFO root fetch - processPackages [pikanetwork.py]: Remove: archive file [/home/abi/fetcher/tmp/pikanetwork.py-1.0.1.tar.gz]
+[2023-06-08 10:45:32] INFO root fetch - main [MainThread]: End processing [pikanetwork.py]: success
+[2023-06-08 10:45:32] INFO root fetch - processPackages [tfp-nightly]: executing diffoscope
+[2023-06-08 10:45:32] INFO root fetch - processPackages [tfp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip --markdown 20230608/t/tfp-nightly/0.9.0.dev20200113-0.9.0.dev20200114/diff.md --exclude *.pyd
+[2023-06-08 10:45:32] INFO root fetch - processPackages [anx-interface]: Remove: archive file [/home/abi/fetcher/tmp/anx_interface-0.5.2.tar.gz]
+[2023-06-08 10:45:32] INFO root fetch - processPackages [anx-interface]: Remove: archive file [/home/abi/fetcher/tmp/anx_interface-0.5.3.tar.gz]
+[2023-06-08 10:45:32] INFO root fetch - main [MainThread]: End processing [anx-interface]: success
+[2023-06-08 10:45:32] INFO root fetch - processPackages [atelier-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/atelier_toolbox-1.0.2.tar.gz]
+[2023-06-08 10:45:32] INFO root fetch - processPackages [atelier-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/atelier_toolbox-1.0.3.tar.gz]
+[2023-06-08 10:45:32] INFO root fetch - main [MainThread]: End processing [atelier-toolbox]: success
+[2023-06-08 10:45:32] INFO root fetch - processPackages [ttcore]: Remove: archive file [/home/abi/fetcher/tmp/ttcore-0.1.8.tar.gz]
+[2023-06-08 10:45:32] INFO root fetch - processPackages [ttcore]: Remove: archive file [/home/abi/fetcher/tmp/ttcore-0.1.9.tar.gz]
+[2023-06-08 10:45:32] INFO root fetch - main [MainThread]: End processing [ttcore]: success
+[2023-06-08 10:45:32] INFO root fetch - processPackages [jupyterhub]: Downloading https://files.pythonhosted.org/packages/0a/6a/6a137879d504acd127951fff7ee4934f85136e563274e658b36a6144e088/jupyterhub-4.0.1.tar.gz
+[2023-06-08 10:45:32] INFO root fetch - processPackages [jupyterhub]: executing diffoscope
+[2023-06-08 10:45:32] INFO root fetch - processPackages [jupyterhub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterhub-4.0.0b2.tar.gz tmp/jupyterhub-4.0.1.tar.gz --markdown 20230608/j/jupyterhub/4.0.0b2-4.0.1/diff.md --exclude *.pyd
+[2023-06-08 10:45:32] INFO root fetch - processPackages [gitlint-core]: Remove: archive file [/home/abi/fetcher/tmp/gitlint_core-0.20.0.dev8.tar.gz]
+[2023-06-08 10:45:32] INFO root fetch - processPackages [gitlint-core]: Remove: archive file [/home/abi/fetcher/tmp/gitlint_core-0.20.0.dev9.tar.gz]
+[2023-06-08 10:45:32] INFO root fetch - main [MainThread]: End processing [gitlint-core]: success
+[2023-06-08 10:45:33] INFO root fetch - processPackages [gitlint]: Remove: archive file [/home/abi/fetcher/tmp/gitlint-0.8.2.tar.gz]
+[2023-06-08 10:45:33] INFO root fetch - processPackages [gitlint]: Remove: archive file [/home/abi/fetcher/tmp/gitlint-0.9.0.tar.gz]
+[2023-06-08 10:45:33] INFO root fetch - main [MainThread]: End processing [gitlint]: success
+[2023-06-08 10:45:34] INFO root fetch - processPackages [tff-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tff_nightly-0.0.1.dev20230606-py2.py3-none-any.whl.zip]
+[2023-06-08 10:45:34] INFO root fetch - processPackages [tff-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tff_nightly-0.0.1.dev20230607-py2.py3-none-any.whl.zip]
+[2023-06-08 10:45:34] INFO root fetch - main [MainThread]: End processing [tff-nightly]: success
+[2023-06-08 10:45:40] INFO root fetch - processPackages [pyart-mch]: Remove: archive file [/home/abi/fetcher/tmp/pyart_mch-1.8.0.tar.gz]
+[2023-06-08 10:45:40] INFO root fetch - processPackages [pyart-mch]: Remove: archive file [/home/abi/fetcher/tmp/pyart_mch-1.8.1.tar.gz]
+[2023-06-08 10:45:40] INFO root fetch - main [MainThread]: End processing [pyart-mch]: success
+[2023-06-08 10:45:45] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip]
+[2023-06-08 10:45:45] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip]
+[2023-06-08 10:45:45] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
+[2023-06-08 10:45:57] INFO root fetch - processPackages [jupyterhub]: Remove: archive file [/home/abi/fetcher/tmp/jupyterhub-4.0.0b2.tar.gz]
+[2023-06-08 10:45:57] INFO root fetch - processPackages [jupyterhub]: Remove: archive file [/home/abi/fetcher/tmp/jupyterhub-4.0.1.tar.gz]
+[2023-06-08 10:45:57] INFO root fetch - main [MainThread]: End processing [jupyterhub]: success
+[2023-06-08 10:45:57] INFO root fetch - main [MainThread]: Store serial: [18421612]
