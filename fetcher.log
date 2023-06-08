@@ -11879,3 +11879,116 @@ AssertionError: tmp/flet_ivid_hks-1.1.tar.gz does not exist
 [2023-06-08 05:16:40] INFO root fetch - processPackages [scinode]: Remove: archive file [/home/abi/fetcher/tmp/scinode-0.3.1.tar.gz]
 [2023-06-08 05:16:40] INFO root fetch - main [MainThread]: End processing [scinode]: success
 [2023-06-08 05:16:40] INFO root fetch - main [MainThread]: Store serial: [18418770]
+[2023-06-08 05:21:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18418770]
+[2023-06-08 05:21:49] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-08 05:21:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo13-addon-dms
+[2023-06-08 05:21:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vcarhilclient
+[2023-06-08 05:21:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: yplib
+[2023-06-08 05:21:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cs-models
+[2023-06-08 05:21:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdktf-cdktf-provider-upcloud
+[2023-06-08 05:21:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ebank
+[2023-06-08 05:21:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo14-addon-website-sale-payment-term-acquirer
+[2023-06-08 05:21:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: selenium2df-locate-element
+[2023-06-08 05:21:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cdktf-cdktf-provider-spotinst
+[2023-06-08 05:21:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: spPersist
+[2023-06-08 05:21:49] INFO root fetch - processPackages [vcarhilclient]: New version: [1.0.608] Old Version: [1.0.601]
+[2023-06-08 05:21:49] INFO root fetch - processPackages [ebank]: New version: [2023.6.8.1] Old Version: [2023.6.8]
+[2023-06-08 05:21:49] INFO root fetch - processPackages [yplib]: New version: [0.0.7] Old Version: [0.0.5]
+[2023-06-08 05:21:49] INFO root fetch - processPackages [odoo13-addon-dms]: New version: [13.0.8.5.2.dev4] Old Version: [13.0.8.5.2.dev3]
+[2023-06-08 05:21:49] INFO root fetch - processPackages [spPersist]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-08 05:21:49] WARNING root fetch - processPackages [selenium2df-locate-element]: Skipping, unable to determine old version
+[2023-06-08 05:21:49] INFO root fetch - processPackages [selenium2df-locate-element]: Start processing: odoo-addon-website-sale-attribute-filter-multiselect
+[2023-06-08 05:21:49] INFO root fetch - main [MainThread]: End processing [selenium2df-locate-element] error
+[2023-06-08 05:21:49] INFO root fetch - processPackages [odoo14-addon-website-sale-payment-term-acquirer]: New version: [14.0.1.0.1.dev7] Old Version: [14.0.1.0.1.dev6]
+[2023-06-08 05:21:49] INFO root fetch - processPackages [cdktf-cdktf-provider-spotinst]: New version: [7.0.9] Old Version: [7.0.8]
+[2023-06-08 05:21:49] INFO root fetch - processPackages [cdktf-cdktf-provider-upcloud]: New version: [6.0.3] Old Version: [6.0.2]
+[2023-06-08 05:21:49] INFO root fetch - processPackages [cs-models]: New version: [0.0.99.dev4] Old Version: [0.0.99.dev3]
+[2023-06-08 05:21:49] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/f0/8f/d091a0f05db2cb99e361d5bb880b47d5d2b94918186895f34a635c921a33/yplib-0.0.5.tar.gz
+[2023-06-08 05:21:50] INFO root fetch - processPackages [odoo-addon-website-sale-attribute-filter-multiselect]: New version: [16.0.1.0.0.3] Old Version: [16.0.1.0.0.2]
+[2023-06-08 05:21:50] INFO root fetch - processPackages [cs-models]: Downloading https://files.pythonhosted.org/packages/0e/4f/33efc921aa3ee23f877dda213d1b962dac83a38135b32d2850eb48c2c6a8/cs-models-0.0.99.dev3.tar.gz
+[2023-06-08 05:21:50] INFO root fetch - processPackages [spPersist]: Downloading https://files.pythonhosted.org/packages/0b/33/39c85eb4b0318c014fc481694d9d64785f749e3334fcbf0bb6e3c1d1715a/spPersist-0.3.0.tar.gz
+[2023-06-08 05:21:50] INFO root fetch - processPackages [cs-models]: Downloading https://files.pythonhosted.org/packages/8c/4c/e48ab48e00c2dd2f9799da4f76632085fd545ef18606abde256a640ffa7a/cs-models-0.0.99.dev4.tar.gz
+[2023-06-08 05:21:50] INFO root fetch - processPackages [ebank]: Downloading https://files.pythonhosted.org/packages/e6/c8/9248071111aa61de75c43ad2fcdf7bedc61afd3afdb55b97de4a9f12463f/ebank-2023.6.8.tar.gz
+[2023-06-08 05:21:50] INFO root fetch - processPackages [vcarhilclient]: Downloading https://files.pythonhosted.org/packages/b2/e3/189e7efab5de98fd478827251bd029753293d09bbe746616f5b081417860/vcarhilclient-1.0.601.tar.gz
+[2023-06-08 05:21:50] INFO root fetch - processPackages [cdktf-cdktf-provider-spotinst]: Downloading https://files.pythonhosted.org/packages/22/cb/a908fffd3a374c82945e6989941dff531670e31cb15703c3551502f54e3b/cdktf-cdktf-provider-spotinst-7.0.8.tar.gz
+[2023-06-08 05:21:50] INFO root fetch - processPackages [odoo-addon-website-sale-attribute-filter-multiselect]: Downloading https://files.pythonhosted.org/packages/3e/bf/7d3407532becb54979ab8a2f49d1923fd6a96553aa6452cd6e6494fc3d03/odoo_addon_website_sale_attribute_filter_multiselect-16.0.1.0.0.2-py3-none-any.whl
+[2023-06-08 05:21:50] INFO root fetch - processPackages [odoo13-addon-dms]: Downloading https://files.pythonhosted.org/packages/0d/de/d2fb26fed665b625f88c8211b37df8ddb93e3487d42eadcfeecacb3c585f/odoo13_addon_dms-13.0.8.5.2.dev3-py3-none-any.whl
+[2023-06-08 05:21:50] INFO root fetch - processPackages [cdktf-cdktf-provider-upcloud]: Downloading https://files.pythonhosted.org/packages/bb/50/58dc7c891aa21f2e71c3ba6bcbf1699c0e12979c7eb9936512d5836a990a/cdktf-cdktf-provider-upcloud-6.0.2.tar.gz
+[2023-06-08 05:21:50] INFO root fetch - processPackages [odoo14-addon-website-sale-payment-term-acquirer]: Downloading https://files.pythonhosted.org/packages/51/b3/3e859bf5347933e46019aacaeb272df926496334316206d306253911eaac/odoo14_addon_website_sale_payment_term_acquirer-14.0.1.0.1.dev6-py3-none-any.whl
+[2023-06-08 05:21:50] INFO root fetch - processPackages [cs-models]: executing diffoscope
+[2023-06-08 05:21:50] INFO root fetch - processPackages [cs-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cs-models-0.0.99.dev3.tar.gz tmp/cs-models-0.0.99.dev4.tar.gz --markdown 20230608/c/cs-models/0.0.99.dev3-0.0.99.dev4/diff.md --exclude *.pyd
+[2023-06-08 05:21:50] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/ae/a7/0827333aa7cee3e90269f4614b5ade7329584884917d236be5f60a60033c/yplib-0.0.7.tar.gz
+[2023-06-08 05:21:50] INFO root fetch - processPackages [spPersist]: Downloading https://files.pythonhosted.org/packages/f6/70/6c9e9b94d15b5144ee2d48ce1071b12d90bb40151b9e0b13a822d0e2f049/spPersist-0.3.1.tar.gz
+[2023-06-08 05:21:50] INFO root fetch - processPackages [yplib]: executing diffoscope
+[2023-06-08 05:21:50] INFO root fetch - processPackages [yplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yplib-0.0.5.tar.gz tmp/yplib-0.0.7.tar.gz --markdown 20230608/y/yplib/0.0.5-0.0.7/diff.md --exclude *.pyd
+[2023-06-08 05:21:50] INFO root fetch - processPackages [spPersist]: executing diffoscope
+[2023-06-08 05:21:50] INFO root fetch - processPackages [spPersist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spPersist-0.3.0.tar.gz tmp/spPersist-0.3.1.tar.gz --markdown 20230608/s/spPersist/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-08 05:21:50] INFO root fetch - processPackages [ebank]: Downloading https://files.pythonhosted.org/packages/04/28/9d907350a4dc3224ae7bd974ded2fe69af63d2f8e458bd7871522edafe7d/ebank-2023.6.8.1.tar.gz
+[2023-06-08 05:21:50] INFO root fetch - processPackages [cdktf-cdktf-provider-upcloud]: Downloading https://files.pythonhosted.org/packages/05/cc/bca1e06d461250cdb3fb49154be1d86a651f4836489a99587d15ac969d27/cdktf-cdktf-provider-upcloud-6.0.3.tar.gz
+[2023-06-08 05:21:50] INFO root fetch - processPackages [ebank]: executing diffoscope
+[2023-06-08 05:21:50] INFO root fetch - processPackages [ebank]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ebank-2023.6.8.tar.gz tmp/ebank-2023.6.8.1.tar.gz --markdown 20230608/e/ebank/2023.6.8-2023.6.8.1/diff.md --exclude *.pyd
+[2023-06-08 05:21:50] INFO root fetch - processPackages [vcarhilclient]: Downloading https://files.pythonhosted.org/packages/46/f1/c1f4e7173b679a3a6d152fcc7853aef0b4c4ea9e9f0a635decfa54a5b2c3/vcarhilclient-1.0.608.tar.gz
+[2023-06-08 05:21:50] INFO root fetch - processPackages [odoo-addon-website-sale-attribute-filter-multiselect]: Downloading https://files.pythonhosted.org/packages/bb/c0/efcd853b53606c4932bbf320ffc6f9c234010dc782eddc9267970763f3d7/odoo_addon_website_sale_attribute_filter_multiselect-16.0.1.0.0.3-py3-none-any.whl
+[2023-06-08 05:21:50] INFO root fetch - processPackages [cdktf-cdktf-provider-upcloud]: executing diffoscope
+[2023-06-08 05:21:50] INFO root fetch - processPackages [cdktf-cdktf-provider-upcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-upcloud-6.0.2.tar.gz tmp/cdktf-cdktf-provider-upcloud-6.0.3.tar.gz --markdown 20230608/c/cdktf-cdktf-provider-upcloud/6.0.2-6.0.3/diff.md --exclude *.pyd
+[2023-06-08 05:21:50] INFO root fetch - processPackages [odoo14-addon-website-sale-payment-term-acquirer]: Downloading https://files.pythonhosted.org/packages/2c/70/c7b33f130f0657ff3c4b52b6358cb7091d687868e3f89f95b374211f7d51/odoo14_addon_website_sale_payment_term_acquirer-14.0.1.0.1.dev7-py3-none-any.whl
+[2023-06-08 05:21:50] INFO root fetch - processPackages [vcarhilclient]: executing diffoscope
+[2023-06-08 05:21:50] INFO root fetch - processPackages [vcarhilclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vcarhilclient-1.0.601.tar.gz tmp/vcarhilclient-1.0.608.tar.gz --markdown 20230608/v/vcarhilclient/1.0.601-1.0.608/diff.md --exclude *.pyd
+[2023-06-08 05:21:50] INFO root fetch - processPackages [odoo-addon-website-sale-attribute-filter-multiselect]: executing diffoscope
+[2023-06-08 05:21:50] INFO root fetch - processPackages [odoo-addon-website-sale-attribute-filter-multiselect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_website_sale_attribute_filter_multiselect-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_website_sale_attribute_filter_multiselect-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20230608/o/odoo-addon-website-sale-attribute-filter-multiselect/16.0.1.0.0.2-16.0.1.0.0.3/diff.md --exclude *.pyd
+[2023-06-08 05:21:50] INFO root fetch - processPackages [odoo14-addon-website-sale-payment-term-acquirer]: executing diffoscope
+[2023-06-08 05:21:50] INFO root fetch - processPackages [odoo14-addon-website-sale-payment-term-acquirer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_website_sale_payment_term_acquirer-14.0.1.0.1.dev6-py3-none-any.whl.zip tmp/odoo14_addon_website_sale_payment_term_acquirer-14.0.1.0.1.dev7-py3-none-any.whl.zip --markdown 20230608/o/odoo14-addon-website-sale-payment-term-acquirer/14.0.1.0.1.dev6-14.0.1.0.1.dev7/diff.md --exclude *.pyd
+[2023-06-08 05:21:51] WARNING root fetch - processPackages [odoo13-addon-dms]: Skipping package: exceeds size limit 15629097>=10485760
+[2023-06-08 05:21:51] INFO root fetch - processPackages [odoo13-addon-dms]: Start processing: ruff
+[2023-06-08 05:21:51] INFO root fetch - main [MainThread]: End processing [odoo13-addon-dms] error
+[2023-06-08 05:21:51] INFO root fetch - processPackages [cdktf-cdktf-provider-spotinst]: Downloading https://files.pythonhosted.org/packages/ef/b4/fb2777b6ee3bdbddf28d9c9f6b0538010b9fb7ac79f206a8f7e5abc8606d/cdktf-cdktf-provider-spotinst-7.0.9.tar.gz
+[2023-06-08 05:21:51] INFO root fetch - processPackages [ruff]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-08 05:21:51] INFO root fetch - processPackages [ruff]: Downloading https://files.pythonhosted.org/packages/47/03/d97ee64c6c8899eed05f51278ea3a1de7aec597d746afa99b689f7e91c3c/ruff-0.0.98.tar.gz
+[2023-06-08 05:21:51] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-0.0.5.tar.gz]
+[2023-06-08 05:21:51] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-0.0.7.tar.gz]
+[2023-06-08 05:21:51] INFO root fetch - processPackages [yplib]: Start processing: odoo-addons-oca-e-commerce
+[2023-06-08 05:21:51] INFO root fetch - main [MainThread]: End processing [yplib]: success
+[2023-06-08 05:21:51] INFO root fetch - processPackages [ruff]: Downloading https://files.pythonhosted.org/packages/43/74/128be8dbfb351ff04131ec18fb5b96694cd3ca0c92c6acacfdfe8dc4235f/ruff-0.0.99.tar.gz
+[2023-06-08 05:21:51] INFO root fetch - processPackages [odoo-addons-oca-e-commerce]: New version: [16.0.20230607.1] Old Version: [16.0.20230601.0]
+[2023-06-08 05:21:51] INFO root fetch - processPackages [ruff]: executing diffoscope
+[2023-06-08 05:21:51] INFO root fetch - processPackages [ruff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ruff-0.0.98.tar.gz tmp/ruff-0.0.99.tar.gz --markdown 20230608/r/ruff/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-08 05:21:51] INFO root fetch - processPackages [ebank]: Remove: archive file [/home/abi/fetcher/tmp/ebank-2023.6.8.tar.gz]
+[2023-06-08 05:21:51] INFO root fetch - processPackages [ebank]: Remove: archive file [/home/abi/fetcher/tmp/ebank-2023.6.8.1.tar.gz]
+[2023-06-08 05:21:51] INFO root fetch - processPackages [ebank]: Start processing: antchain-ak-429c38c9f7374a5f9ad9e5401325ebb0
+[2023-06-08 05:21:51] INFO root fetch - main [MainThread]: End processing [ebank]: success
+[2023-06-08 05:21:51] WARNING root fetch - processPackages [antchain-ak-429c38c9f7374a5f9ad9e5401325ebb0]: Skipping, unable to determine old version
+[2023-06-08 05:21:51] INFO root fetch - main [MainThread]: End processing [antchain-ak-429c38c9f7374a5f9ad9e5401325ebb0] error
+[2023-06-08 05:21:51] INFO root fetch - processPackages [spPersist]: Remove: archive file [/home/abi/fetcher/tmp/spPersist-0.3.0.tar.gz]
+[2023-06-08 05:21:51] INFO root fetch - processPackages [spPersist]: Remove: archive file [/home/abi/fetcher/tmp/spPersist-0.3.1.tar.gz]
+[2023-06-08 05:21:51] INFO root fetch - main [MainThread]: End processing [spPersist]: success
+[2023-06-08 05:21:51] INFO root fetch - processPackages [cdktf-cdktf-provider-spotinst]: executing diffoscope
+[2023-06-08 05:21:51] INFO root fetch - processPackages [cdktf-cdktf-provider-spotinst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-spotinst-7.0.8.tar.gz tmp/cdktf-cdktf-provider-spotinst-7.0.9.tar.gz --markdown 20230608/c/cdktf-cdktf-provider-spotinst/7.0.8-7.0.9/diff.md --exclude *.pyd
+[2023-06-08 05:21:51] INFO root fetch - processPackages [odoo-addons-oca-e-commerce]: Downloading https://files.pythonhosted.org/packages/dd/20/84cfd587d1f65304c07d4eee9eb017fab6395ae0b92b39cc1b5642902971/odoo_addons_oca_e_commerce-16.0.20230601.0-py3-none-any.whl
+[2023-06-08 05:21:52] INFO root fetch - processPackages [vcarhilclient]: Remove: archive file [/home/abi/fetcher/tmp/vcarhilclient-1.0.601.tar.gz]
+[2023-06-08 05:21:52] INFO root fetch - processPackages [vcarhilclient]: Remove: archive file [/home/abi/fetcher/tmp/vcarhilclient-1.0.608.tar.gz]
+[2023-06-08 05:21:52] INFO root fetch - main [MainThread]: End processing [vcarhilclient]: success
+[2023-06-08 05:21:52] INFO root fetch - processPackages [odoo-addons-oca-e-commerce]: Downloading https://files.pythonhosted.org/packages/5c/a0/6e7284fbc832fbaec8be67c8811c1b7bdf0432b4f03d1c5c0b30f3f9cd3d/odoo_addons_oca_e_commerce-16.0.20230607.1-py3-none-any.whl
+[2023-06-08 05:21:52] INFO root fetch - processPackages [odoo14-addon-website-sale-payment-term-acquirer]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_website_sale_payment_term_acquirer-14.0.1.0.1.dev6-py3-none-any.whl.zip]
+[2023-06-08 05:21:52] INFO root fetch - processPackages [odoo14-addon-website-sale-payment-term-acquirer]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_website_sale_payment_term_acquirer-14.0.1.0.1.dev7-py3-none-any.whl.zip]
+[2023-06-08 05:21:52] INFO root fetch - main [MainThread]: End processing [odoo14-addon-website-sale-payment-term-acquirer]: success
+[2023-06-08 05:21:52] INFO root fetch - processPackages [odoo-addons-oca-e-commerce]: executing diffoscope
+[2023-06-08 05:21:52] INFO root fetch - processPackages [odoo-addons-oca-e-commerce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_e_commerce-16.0.20230601.0-py3-none-any.whl.zip tmp/odoo_addons_oca_e_commerce-16.0.20230607.1-py3-none-any.whl.zip --markdown 20230608/o/odoo-addons-oca-e-commerce/16.0.20230601.0-16.0.20230607.1/diff.md --exclude *.pyd
+[2023-06-08 05:21:52] INFO root fetch - processPackages [odoo-addon-website-sale-attribute-filter-multiselect]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_website_sale_attribute_filter_multiselect-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-06-08 05:21:52] INFO root fetch - processPackages [odoo-addon-website-sale-attribute-filter-multiselect]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_website_sale_attribute_filter_multiselect-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-06-08 05:21:52] INFO root fetch - main [MainThread]: End processing [odoo-addon-website-sale-attribute-filter-multiselect]: success
+[2023-06-08 05:21:53] INFO root fetch - processPackages [odoo-addons-oca-e-commerce]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_e_commerce-16.0.20230601.0-py3-none-any.whl.zip]
+[2023-06-08 05:21:53] INFO root fetch - processPackages [odoo-addons-oca-e-commerce]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_e_commerce-16.0.20230607.1-py3-none-any.whl.zip]
+[2023-06-08 05:21:53] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-e-commerce]: success
+[2023-06-08 05:21:53] INFO root fetch - processPackages [cdktf-cdktf-provider-upcloud]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-upcloud-6.0.2.tar.gz]
+[2023-06-08 05:21:53] INFO root fetch - processPackages [cdktf-cdktf-provider-upcloud]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-upcloud-6.0.3.tar.gz]
+[2023-06-08 05:21:53] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-upcloud]: success
+[2023-06-08 05:21:53] INFO root fetch - processPackages [cdktf-cdktf-provider-spotinst]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-spotinst-7.0.8.tar.gz]
+[2023-06-08 05:21:53] INFO root fetch - processPackages [cdktf-cdktf-provider-spotinst]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-spotinst-7.0.9.tar.gz]
+[2023-06-08 05:21:53] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-spotinst]: success
+[2023-06-08 05:21:53] INFO root fetch - processPackages [cs-models]: Remove: archive file [/home/abi/fetcher/tmp/cs-models-0.0.99.dev3.tar.gz]
+[2023-06-08 05:21:53] INFO root fetch - processPackages [cs-models]: Remove: archive file [/home/abi/fetcher/tmp/cs-models-0.0.99.dev4.tar.gz]
+[2023-06-08 05:21:53] INFO root fetch - main [MainThread]: End processing [cs-models]: success
+[2023-06-08 05:21:57] INFO root fetch - processPackages [ruff]: Remove: archive file [/home/abi/fetcher/tmp/ruff-0.0.98.tar.gz]
+[2023-06-08 05:21:57] INFO root fetch - processPackages [ruff]: Remove: archive file [/home/abi/fetcher/tmp/ruff-0.0.99.tar.gz]
+[2023-06-08 05:21:57] INFO root fetch - main [MainThread]: End processing [ruff]: success
+[2023-06-08 05:21:57] INFO root fetch - main [MainThread]: Store serial: [18418819]
