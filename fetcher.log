@@ -18314,3 +18314,72 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-08 08:30:48] INFO root fetch - processPackages [avwx-engine]: Remove: archive file [/home/abi/fetcher/tmp/avwx_engine-1.8.9.tar.gz]
 [2023-06-08 08:30:48] INFO root fetch - main [MainThread]: End processing [avwx-engine]: success
 [2023-06-08 08:30:48] INFO root fetch - main [MainThread]: Store serial: [18420646]
+[2023-06-08 08:36:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18420646]
+[2023-06-08 08:36:14] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-08 08:36:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vcsc-data-common
+[2023-06-08 08:36:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: shibuya
+[2023-06-08 08:36:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: remindmail
+[2023-06-08 08:36:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-email-disposable-checker
+[2023-06-08 08:36:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: browserstack-sdk
+[2023-06-08 08:36:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: feature-engine
+[2023-06-08 08:36:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hicstuff
+[2023-06-08 08:36:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: myelectricaldatapy
+[2023-06-08 08:36:14] INFO root fetch - processPackages [vcsc-data-common]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-08 08:36:14] WARNING root fetch - processPackages [django-email-disposable-checker]: Skipping, unable to determine old version
+[2023-06-08 08:36:14] INFO root fetch - main [MainThread]: End processing [django-email-disposable-checker] error
+[2023-06-08 08:36:14] INFO root fetch - processPackages [remindmail]: New version: [2023.6.8.1] Old Version: [2023.6.4.2]
+[2023-06-08 08:36:14] INFO root fetch - processPackages [feature-engine]: New version: [1.6.1] Old Version: [1.6.0]
+[2023-06-08 08:36:14] INFO root fetch - processPackages [shibuya]: New version: [2023.6.8] Old Version: [2023.6.7]
+[2023-06-08 08:36:14] INFO root fetch - processPackages [hicstuff]: New version: [3.1.6] Old Version: [3.1.5]
+[2023-06-08 08:36:14] INFO root fetch - processPackages [browserstack-sdk]: New version: [1.9.2] Old Version: [1.8.1]
+[2023-06-08 08:36:14] INFO root fetch - processPackages [shibuya]: Downloading https://files.pythonhosted.org/packages/b6/14/00db2c90848d599e4f70c512628854b186fdf662e7762054ba0866112e97/shibuya-2023.6.7.tar.gz
+[2023-06-08 08:36:14] INFO root fetch - processPackages [remindmail]: Downloading https://files.pythonhosted.org/packages/b3/73/d06ede570a844307c75d91e105fc9f7a789f8d264b78962a5e8cec1ea933/remindmail-2023.6.4.2.tar.gz
+[2023-06-08 08:36:14] INFO root fetch - processPackages [vcsc-data-common]: Downloading https://files.pythonhosted.org/packages/59/c3/bef4578cf573ee145432c0193911cbbefa93ad209648c14a282c3f675db4/vcsc_data_common-0.1.7.tar.gz
+[2023-06-08 08:36:14] INFO root fetch - processPackages [feature-engine]: Downloading https://files.pythonhosted.org/packages/5e/71/60f381ce9e68004e96cb325b8c040800b35f3854a95a197412260edee124/feature_engine-1.6.0.tar.gz
+[2023-06-08 08:36:14] INFO root fetch - processPackages [hicstuff]: Downloading https://files.pythonhosted.org/packages/db/2f/555171aae026916e47800901464768573d8ccd5f2a662ba60d3460676a1c/hicstuff-3.1.5.tar.gz
+[2023-06-08 08:36:14] INFO root fetch - processPackages [browserstack-sdk]: Downloading https://files.pythonhosted.org/packages/8f/f6/ebeb5204570d76f86be6985afe10789f1b21d91816239c06b11f19bfbb72/browserstack_sdk-1.8.1.tar.gz
+[2023-06-08 08:36:14] INFO root fetch - processPackages [shibuya]: Downloading https://files.pythonhosted.org/packages/e6/40/4b864a64d501e1d83a559bb6bb6e458c888311611d1d01f9ec67d9636fef/shibuya-2023.6.8.tar.gz
+[2023-06-08 08:36:14] INFO root fetch - processPackages [myelectricaldatapy]: New version: [2.1.0] Old Version: [2.0.0]
+[2023-06-08 08:36:14] INFO root fetch - processPackages [remindmail]: Downloading https://files.pythonhosted.org/packages/57/f4/27b007bb1348d6f0b913c46781c7c5a0a4bd8e30cb21648e9d9b8a134f17/remindmail-2023.6.8.1.tar.gz
+[2023-06-08 08:36:14] INFO root fetch - processPackages [shibuya]: executing diffoscope
+[2023-06-08 08:36:14] INFO root fetch - processPackages [shibuya]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shibuya-2023.6.7.tar.gz tmp/shibuya-2023.6.8.tar.gz --markdown 20230608/s/shibuya/2023.6.7-2023.6.8/diff.md --exclude *.pyd
+[2023-06-08 08:36:14] INFO root fetch - processPackages [vcsc-data-common]: Downloading https://files.pythonhosted.org/packages/a3/09/2b1b71c23f3f796ed9c363696a0f4a6b4de2b33c46b536ad37af0fa48cb2/vcsc_data_common-0.1.8.tar.gz
+[2023-06-08 08:36:14] INFO root fetch - processPackages [remindmail]: executing diffoscope
+[2023-06-08 08:36:14] INFO root fetch - processPackages [remindmail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remindmail-2023.6.4.2.tar.gz tmp/remindmail-2023.6.8.1.tar.gz --markdown 20230608/r/remindmail/2023.6.4.2-2023.6.8.1/diff.md --exclude *.pyd
+[2023-06-08 08:36:14] INFO root fetch - processPackages [vcsc-data-common]: executing diffoscope
+[2023-06-08 08:36:14] INFO root fetch - processPackages [vcsc-data-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vcsc_data_common-0.1.7.tar.gz tmp/vcsc_data_common-0.1.8.tar.gz --markdown 20230608/v/vcsc-data-common/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-08 08:36:14] INFO root fetch - processPackages [browserstack-sdk]: Downloading https://files.pythonhosted.org/packages/bf/46/3ee8b5068073adc3791ac682b7a8c14bc7a10d24e6da05a093fbf74efc9b/browserstack_sdk-1.9.2.tar.gz
+[2023-06-08 08:36:14] INFO root fetch - processPackages [myelectricaldatapy]: Downloading https://files.pythonhosted.org/packages/80/7c/0aea09c711089352d1483cf38c91695e5d8f52c18cbf495f2d98e3aa1f81/myelectricaldatapy-2.0.0.tar.gz
+[2023-06-08 08:36:14] INFO root fetch - processPackages [hicstuff]: Downloading https://files.pythonhosted.org/packages/8d/9f/1705c3c126a992f5b0c00961bd8404461717c1c9be0d5be0ea62637a8472/hicstuff-3.1.6.tar.gz
+[2023-06-08 08:36:14] INFO root fetch - processPackages [browserstack-sdk]: executing diffoscope
+[2023-06-08 08:36:14] INFO root fetch - processPackages [browserstack-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/browserstack_sdk-1.8.1.tar.gz tmp/browserstack_sdk-1.9.2.tar.gz --markdown 20230608/b/browserstack-sdk/1.8.1-1.9.2/diff.md --exclude *.pyd
+[2023-06-08 08:36:14] INFO root fetch - processPackages [hicstuff]: executing diffoscope
+[2023-06-08 08:36:14] INFO root fetch - processPackages [hicstuff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hicstuff-3.1.5.tar.gz tmp/hicstuff-3.1.6.tar.gz --markdown 20230608/h/hicstuff/3.1.5-3.1.6/diff.md --exclude *.pyd
+[2023-06-08 08:36:15] INFO root fetch - processPackages [feature-engine]: Downloading https://files.pythonhosted.org/packages/08/a3/047832cd6bfa979707343b642b48e3888085298b9068a7f866617a7f2826/feature_engine-1.6.1.tar.gz
+[2023-06-08 08:36:15] INFO root fetch - processPackages [myelectricaldatapy]: Downloading https://files.pythonhosted.org/packages/c8/2f/327149a4aca388afe9ddf3b8d26c18dfd91aad00a397ce651336eca75b0a/myelectricaldatapy-2.1.0.tar.gz
+[2023-06-08 08:36:15] INFO root fetch - processPackages [feature-engine]: executing diffoscope
+[2023-06-08 08:36:15] INFO root fetch - processPackages [feature-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/feature_engine-1.6.0.tar.gz tmp/feature_engine-1.6.1.tar.gz --markdown 20230608/f/feature-engine/1.6.0-1.6.1/diff.md --exclude *.pyd
+[2023-06-08 08:36:15] INFO root fetch - processPackages [myelectricaldatapy]: executing diffoscope
+[2023-06-08 08:36:15] INFO root fetch - processPackages [myelectricaldatapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myelectricaldatapy-2.0.0.tar.gz tmp/myelectricaldatapy-2.1.0.tar.gz --markdown 20230608/m/myelectricaldatapy/2.0.0-2.1.0/diff.md --exclude *.pyd
+[2023-06-08 08:36:15] INFO root fetch - processPackages [vcsc-data-common]: Remove: archive file [/home/abi/fetcher/tmp/vcsc_data_common-0.1.7.tar.gz]
+[2023-06-08 08:36:15] INFO root fetch - processPackages [vcsc-data-common]: Remove: archive file [/home/abi/fetcher/tmp/vcsc_data_common-0.1.8.tar.gz]
+[2023-06-08 08:36:15] INFO root fetch - main [MainThread]: End processing [vcsc-data-common]: success
+[2023-06-08 08:36:15] INFO root fetch - processPackages [shibuya]: Remove: archive file [/home/abi/fetcher/tmp/shibuya-2023.6.7.tar.gz]
+[2023-06-08 08:36:15] INFO root fetch - processPackages [shibuya]: Remove: archive file [/home/abi/fetcher/tmp/shibuya-2023.6.8.tar.gz]
+[2023-06-08 08:36:15] INFO root fetch - main [MainThread]: End processing [shibuya]: success
+[2023-06-08 08:36:16] INFO root fetch - processPackages [hicstuff]: Remove: archive file [/home/abi/fetcher/tmp/hicstuff-3.1.5.tar.gz]
+[2023-06-08 08:36:16] INFO root fetch - processPackages [hicstuff]: Remove: archive file [/home/abi/fetcher/tmp/hicstuff-3.1.6.tar.gz]
+[2023-06-08 08:36:16] INFO root fetch - main [MainThread]: End processing [hicstuff]: success
+[2023-06-08 08:36:16] INFO root fetch - processPackages [myelectricaldatapy]: Remove: archive file [/home/abi/fetcher/tmp/myelectricaldatapy-2.0.0.tar.gz]
+[2023-06-08 08:36:16] INFO root fetch - processPackages [myelectricaldatapy]: Remove: archive file [/home/abi/fetcher/tmp/myelectricaldatapy-2.1.0.tar.gz]
+[2023-06-08 08:36:16] INFO root fetch - main [MainThread]: End processing [myelectricaldatapy]: success
+[2023-06-08 08:36:16] INFO root fetch - processPackages [remindmail]: Remove: archive file [/home/abi/fetcher/tmp/remindmail-2023.6.4.2.tar.gz]
+[2023-06-08 08:36:16] INFO root fetch - processPackages [remindmail]: Remove: archive file [/home/abi/fetcher/tmp/remindmail-2023.6.8.1.tar.gz]
+[2023-06-08 08:36:16] INFO root fetch - main [MainThread]: End processing [remindmail]: success
+[2023-06-08 08:36:16] INFO root fetch - processPackages [browserstack-sdk]: Remove: archive file [/home/abi/fetcher/tmp/browserstack_sdk-1.8.1.tar.gz]
+[2023-06-08 08:36:16] INFO root fetch - processPackages [browserstack-sdk]: Remove: archive file [/home/abi/fetcher/tmp/browserstack_sdk-1.9.2.tar.gz]
+[2023-06-08 08:36:16] INFO root fetch - main [MainThread]: End processing [browserstack-sdk]: success
+[2023-06-08 08:36:18] INFO root fetch - processPackages [feature-engine]: Remove: archive file [/home/abi/fetcher/tmp/feature_engine-1.6.0.tar.gz]
+[2023-06-08 08:36:18] INFO root fetch - processPackages [feature-engine]: Remove: archive file [/home/abi/fetcher/tmp/feature_engine-1.6.1.tar.gz]
+[2023-06-08 08:36:18] INFO root fetch - main [MainThread]: End processing [feature-engine]: success
+[2023-06-08 08:36:18] INFO root fetch - main [MainThread]: Store serial: [18420670]
