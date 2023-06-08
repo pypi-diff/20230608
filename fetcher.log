@@ -19280,3 +19280,150 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-08 09:30:58] INFO root fetch - processPackages [pyarmor.cli.core.darwin]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli.core.darwin-3.2.5-cp39-none-any.whl.zip]
 [2023-06-08 09:30:58] INFO root fetch - main [MainThread]: End processing [pyarmor.cli.core.darwin]: success
 [2023-06-08 09:30:58] INFO root fetch - main [MainThread]: Store serial: [18421083]
+[2023-06-08 09:36:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18421083]
+[2023-06-08 09:36:11] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-06-08 09:36:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyarmor.cli.core.linux
+[2023-06-08 09:36:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyarmor.cli.core.themida
+[2023-06-08 09:36:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: terragit
+[2023-06-08 09:36:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyarmor.cli.core.windows
+[2023-06-08 09:36:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: leanit-mweb
+[2023-06-08 09:36:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-expanded-test-cases
+[2023-06-08 09:36:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pclick
+[2023-06-08 09:36:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyarmor
+[2023-06-08 09:36:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: th2-grpc-lw-data-provider
+[2023-06-08 09:36:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: qase-pytest
+[2023-06-08 09:36:11] INFO root fetch - processPackages [pyarmor.cli.core.themida]: New version: [3.2.5] Old Version: [3.2.4]
+[2023-06-08 09:36:11] INFO root fetch - processPackages [leanit-mweb]: New version: [23.6.8] Old Version: [23.6.7]
+[2023-06-08 09:36:11] INFO root fetch - processPackages [pyarmor.cli.core.linux]: New version: [3.2.5] Old Version: [3.2.4]
+[2023-06-08 09:36:11] INFO root fetch - processPackages [django-expanded-test-cases]: New version: [0.3.0] Old Version: [0.2.4]
+[2023-06-08 09:36:11] INFO root fetch - processPackages [terragit]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-08 09:36:11] INFO root fetch - processPackages [pyarmor.cli.core.windows]: New version: [3.2.5] Old Version: [3.2.4]
+[2023-06-08 09:36:11] INFO root fetch - processPackages [pclick]: New version: [0.1.30] Old Version: [0.1.29]
+[2023-06-08 09:36:11] INFO root fetch - processPackages [qase-pytest]: New version: [5.0.0] Old Version: [4.2.0]
+[2023-06-08 09:36:11] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: New version: [2.1.0.dev3871883101] Old Version: [2.0.0.dev5208589391]
+[2023-06-08 09:36:11] INFO root fetch - processPackages [pyarmor]: New version: [8.2.dev2] Old Version: [8.2.dev1]
+[2023-06-08 09:36:11] INFO root fetch - processPackages [terragit]: Downloading https://files.pythonhosted.org/packages/8f/1e/1dbf0848bbcdd033628c4113f8d980aafb860aac99b44453e05e661ce615/terragit-0.3.8.tar.gz
+[2023-06-08 09:36:11] INFO root fetch - processPackages [pclick]: Downloading https://files.pythonhosted.org/packages/c2/10/4383df5e2af057fd2579f63fe71d2f3005dcb2747194d21ac01529a65c18/pclick-0.1.29.tar.gz
+[2023-06-08 09:36:11] INFO root fetch - processPackages [leanit-mweb]: Downloading https://files.pythonhosted.org/packages/74/29/8b758e6dd7525194c8cb0d21d989c719029421a2948faaa2320fb5c09fe4/leanit-mweb-23.6.7.tar.gz
+[2023-06-08 09:36:11] INFO root fetch - processPackages [pyarmor.cli.core.linux]: Downloading https://files.pythonhosted.org/packages/5a/b5/bfc2498ee451294e7178349b293805ee19a9ea18bb61d274ffce5f97db45/pyarmor.cli.core.linux-3.2.4-cp39-none-any.whl
+[2023-06-08 09:36:11] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Downloading https://files.pythonhosted.org/packages/f9/50/1c524638b998a35dcdc908c4d84a55c126fc2dba78bb2eed89340b31fea7/th2_grpc_lw_data_provider-2.0.0.dev5208589391.tar.gz
+[2023-06-08 09:36:11] INFO root fetch - processPackages [terragit]: Downloading https://files.pythonhosted.org/packages/4e/c8/27f80e582c732d4cc538d5f875a5646217b24d63a5d9e4664ac07e1198f0/terragit-0.3.9.tar.gz
+[2023-06-08 09:36:11] INFO root fetch - processPackages [pyarmor.cli.core.windows]: Downloading https://files.pythonhosted.org/packages/ec/5b/fe7673b74e5289923735fb82ef13dc1e2d827d247b20b12ab574878ba54a/pyarmor.cli.core.windows-3.2.4-cp39-none-any.whl
+[2023-06-08 09:36:11] INFO root fetch - processPackages [qase-pytest]: Downloading https://files.pythonhosted.org/packages/fb/23/87d03dab29de9042aaa503c2c2de0993e3a0bf484ad74e2ca6ab70e587a8/qase-pytest-4.2.0.tar.gz
+[2023-06-08 09:36:11] INFO root fetch - processPackages [pyarmor.cli.core.themida]: Downloading https://files.pythonhosted.org/packages/70/09/7de229f302113dad1809839ab6820ed4ff4c3a1ffffdd0d586889edd716c/pyarmor.cli.core.themida-3.2.4-cp39-none-any.whl
+[2023-06-08 09:36:11] INFO root fetch - processPackages [django-expanded-test-cases]: Downloading https://files.pythonhosted.org/packages/50/6a/8c0c32772c4c7a72de1357e35e17d3a27b249d22b7efa65a511a44a723f4/django-expanded-test-cases-0.2.4.tar.gz
+[2023-06-08 09:36:11] INFO root fetch - processPackages [terragit]: executing diffoscope
+[2023-06-08 09:36:11] INFO root fetch - processPackages [terragit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/terragit-0.3.8.tar.gz tmp/terragit-0.3.9.tar.gz --markdown 20230608/t/terragit/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-08 09:36:11] INFO root fetch - processPackages [pyarmor]: Downloading https://files.pythonhosted.org/packages/96/1b/288b5edb2e942102823ed6f5d76b16985b19fc91a1bcb12b2269e6f87467/pyarmor-8.2.dev1.zip
+[2023-06-08 09:36:11] INFO root fetch - processPackages [pclick]: Downloading https://files.pythonhosted.org/packages/32/fa/0b5beea7d5dcf1f57fc41c35b7aac792a15b165945708e48a1d68e23afd3/pclick-0.1.30.tar.gz
+[2023-06-08 09:36:11] INFO root fetch - processPackages [leanit-mweb]: Downloading https://files.pythonhosted.org/packages/e3/d0/8c5e3921ce223331411d07702b5a482ff39b4312be82341c518fe3649360/leanit-mweb-23.6.8.tar.gz
+[2023-06-08 09:36:11] INFO root fetch - processPackages [pclick]: executing diffoscope
+[2023-06-08 09:36:11] INFO root fetch - processPackages [pclick]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pclick-0.1.29.tar.gz tmp/pclick-0.1.30.tar.gz --markdown 20230608/p/pclick/0.1.29-0.1.30/diff.md --exclude *.pyd
+[2023-06-08 09:36:11] INFO root fetch - processPackages [leanit-mweb]: executing diffoscope
+[2023-06-08 09:36:11] INFO root fetch - processPackages [leanit-mweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leanit-mweb-23.6.7.tar.gz tmp/leanit-mweb-23.6.8.tar.gz --markdown 20230608/l/leanit-mweb/23.6.7-23.6.8/diff.md --exclude *.pyd
+[2023-06-08 09:36:11] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Downloading https://files.pythonhosted.org/packages/b8/71/939eea7287068082732ec066dc1b9af347f7ee06c935058691236acf7459/th2_grpc_lw_data_provider-2.1.0.dev3871883101.tar.gz
+[2023-06-08 09:36:11] INFO root fetch - processPackages [pyarmor.cli.core.windows]: Downloading https://files.pythonhosted.org/packages/1c/75/de4ce122418341579cf1a8d2efe5a2f6c95729663ad6386b4918d7d4a9d0/pyarmor.cli.core.windows-3.2.5-cp39-none-any.whl
+[2023-06-08 09:36:11] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: executing diffoscope
+[2023-06-08 09:36:11] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_grpc_lw_data_provider-2.0.0.dev5208589391.tar.gz tmp/th2_grpc_lw_data_provider-2.1.0.dev3871883101.tar.gz --markdown 20230608/t/th2-grpc-lw-data-provider/2.0.0.dev5208589391-2.1.0.dev3871883101/diff.md --exclude *.pyd
+[2023-06-08 09:36:11] INFO root fetch - processPackages [pyarmor.cli.core.windows]: executing diffoscope
+[2023-06-08 09:36:11] INFO root fetch - processPackages [pyarmor.cli.core.windows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyarmor.cli.core.windows-3.2.4-cp39-none-any.whl.zip tmp/pyarmor.cli.core.windows-3.2.5-cp39-none-any.whl.zip --markdown 20230608/p/pyarmor.cli.core.windows/3.2.4-3.2.5/diff.md --exclude *.pyd
+[2023-06-08 09:36:11] INFO root fetch - processPackages [django-expanded-test-cases]: Downloading https://files.pythonhosted.org/packages/fc/10/0bad2f4e65475b2d4f1e105a807978f2b006b5f430c2d0f45801674dc15c/django-expanded-test-cases-0.3.0.tar.gz
+[2023-06-08 09:36:11] INFO root fetch - processPackages [qase-pytest]: Downloading https://files.pythonhosted.org/packages/49/56/c61e3cb147a1bd9310795d8d1bf26c18d5dbd53e04e5db2100521fa885b2/qase-pytest-5.0.0.tar.gz
+[2023-06-08 09:36:11] INFO root fetch - processPackages [qase-pytest]: executing diffoscope
+[2023-06-08 09:36:11] INFO root fetch - processPackages [qase-pytest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qase-pytest-4.2.0.tar.gz tmp/qase-pytest-5.0.0.tar.gz --markdown 20230608/q/qase-pytest/4.2.0-5.0.0/diff.md --exclude *.pyd
+[2023-06-08 09:36:11] INFO root fetch - processPackages [django-expanded-test-cases]: executing diffoscope
+[2023-06-08 09:36:11] INFO root fetch - processPackages [django-expanded-test-cases]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-expanded-test-cases-0.2.4.tar.gz tmp/django-expanded-test-cases-0.3.0.tar.gz --markdown 20230608/d/django-expanded-test-cases/0.2.4-0.3.0/diff.md --exclude *.pyd
+[2023-06-08 09:36:11] INFO root fetch - processPackages [pyarmor.cli.core.linux]: Downloading https://files.pythonhosted.org/packages/9f/31/fba929331f51f1f3d5a9aa2e639349b373c858380f14fe54637a9a549e29/pyarmor.cli.core.linux-3.2.5-cp39-none-any.whl
+[2023-06-08 09:36:11] INFO root fetch - processPackages [pyarmor]: Downloading https://files.pythonhosted.org/packages/32/cb/ab0b2546de84f234426daaf0c25fc6f42e8534f2b48f2a77db88903e3fd3/pyarmor-8.2.dev2.zip
+[2023-06-08 09:36:11] INFO root fetch - processPackages [pyarmor.cli.core.linux]: executing diffoscope
+[2023-06-08 09:36:11] INFO root fetch - processPackages [pyarmor.cli.core.linux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyarmor.cli.core.linux-3.2.4-cp39-none-any.whl.zip tmp/pyarmor.cli.core.linux-3.2.5-cp39-none-any.whl.zip --markdown 20230608/p/pyarmor.cli.core.linux/3.2.4-3.2.5/diff.md --exclude *.pyd
+[2023-06-08 09:36:12] INFO root fetch - processPackages [pyarmor.cli.core.themida]: Downloading https://files.pythonhosted.org/packages/5d/8b/a51c836a54374a620b4d7e1423b2afebff36285afa82f4f1292a48e10c80/pyarmor.cli.core.themida-3.2.5-cp39-none-any.whl
+[2023-06-08 09:36:12] INFO root fetch - processPackages [pyarmor.cli.core.themida]: executing diffoscope
+[2023-06-08 09:36:12] INFO root fetch - processPackages [pyarmor.cli.core.themida]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyarmor.cli.core.themida-3.2.4-cp39-none-any.whl.zip tmp/pyarmor.cli.core.themida-3.2.5-cp39-none-any.whl.zip --markdown 20230608/p/pyarmor.cli.core.themida/3.2.4-3.2.5/diff.md --exclude *.pyd
+[2023-06-08 09:36:12] INFO root fetch - processPackages [leanit-mweb]: Remove: archive file [/home/abi/fetcher/tmp/leanit-mweb-23.6.7.tar.gz]
+[2023-06-08 09:36:12] INFO root fetch - processPackages [leanit-mweb]: Remove: archive file [/home/abi/fetcher/tmp/leanit-mweb-23.6.8.tar.gz]
+[2023-06-08 09:36:12] INFO root fetch - processPackages [leanit-mweb]: Start processing: agxclick
+[2023-06-08 09:36:12] INFO root fetch - main [MainThread]: End processing [leanit-mweb]: success
+[2023-06-08 09:36:12] INFO root fetch - processPackages [agxclick]: New version: [0.1.30] Old Version: [0.1.29]
+[2023-06-08 09:36:12] INFO root fetch - processPackages [agxclick]: Downloading https://files.pythonhosted.org/packages/99/60/7f6a55770291d9c2bb7b0aa2c0638fa885280346d590a3e0dc94f593abf0/agxclick-0.1.29.tar.gz
+[2023-06-08 09:36:13] INFO root fetch - processPackages [pyarmor.cli.core.windows]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli.core.windows-3.2.4-cp39-none-any.whl.zip]
+[2023-06-08 09:36:13] INFO root fetch - processPackages [pyarmor.cli.core.windows]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli.core.windows-3.2.5-cp39-none-any.whl.zip]
+[2023-06-08 09:36:13] INFO root fetch - processPackages [pyarmor.cli.core.windows]: Start processing: geolibs
+[2023-06-08 09:36:13] INFO root fetch - main [MainThread]: End processing [pyarmor.cli.core.windows]: success
+[2023-06-08 09:36:13] INFO root fetch - processPackages [geolibs]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-08 09:36:13] INFO root fetch - processPackages [pyarmor]: executing diffoscope
+[2023-06-08 09:36:13] INFO root fetch - processPackages [pyarmor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyarmor-8.2.dev1.zip tmp/pyarmor-8.2.dev2.zip --markdown 20230608/p/pyarmor/8.2.dev1-8.2.dev2/diff.md --exclude *.pyd
+[2023-06-08 09:36:13] INFO root fetch - processPackages [agxclick]: Downloading https://files.pythonhosted.org/packages/ad/2a/d207c950b390ce5af1dcacce9e495f9669ca1aa4e117830c6760db6bc125/agxclick-0.1.30.tar.gz
+[2023-06-08 09:36:13] INFO root fetch - processPackages [geolibs]: Downloading https://files.pythonhosted.org/packages/c6/6c/24a43fc52a0a1932185f92c1abd67aa331ee1a719a6df450bd493bb0342d/geolibs-0.0.7.tar.gz
+[2023-06-08 09:36:13] INFO root fetch - processPackages [pclick]: Remove: archive file [/home/abi/fetcher/tmp/pclick-0.1.29.tar.gz]
+[2023-06-08 09:36:13] INFO root fetch - processPackages [pclick]: Remove: archive file [/home/abi/fetcher/tmp/pclick-0.1.30.tar.gz]
+[2023-06-08 09:36:13] INFO root fetch - processPackages [pclick]: Start processing: lupin-grognard
+[2023-06-08 09:36:13] INFO root fetch - main [MainThread]: End processing [pclick]: success
+[2023-06-08 09:36:13] INFO root fetch - processPackages [agxclick]: executing diffoscope
+[2023-06-08 09:36:13] INFO root fetch - processPackages [agxclick]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agxclick-0.1.29.tar.gz tmp/agxclick-0.1.30.tar.gz --markdown 20230608/a/agxclick/0.1.29-0.1.30/diff.md --exclude *.pyd
+[2023-06-08 09:36:13] INFO root fetch - processPackages [lupin-grognard]: New version: [1.9.0] Old Version: [1.7.0]
+[2023-06-08 09:36:13] INFO root fetch - processPackages [geolibs]: Downloading https://files.pythonhosted.org/packages/a0/85/4c693147e4e3db31fd0e219334cdc985b0c0b65f4d40b5e1f5fda7fc9944/geolibs-0.0.8.tar.gz
+[2023-06-08 09:36:13] INFO root fetch - processPackages [lupin-grognard]: Downloading https://files.pythonhosted.org/packages/26/b3/9a961658affd6954a57ec000b5ea89912c12beb41382bb262947475dfbd6/lupin-grognard-1.7.0.tar.gz
+[2023-06-08 09:36:13] INFO root fetch - processPackages [qase-pytest]: Remove: archive file [/home/abi/fetcher/tmp/qase-pytest-4.2.0.tar.gz]
+[2023-06-08 09:36:13] INFO root fetch - processPackages [qase-pytest]: Remove: archive file [/home/abi/fetcher/tmp/qase-pytest-5.0.0.tar.gz]
+[2023-06-08 09:36:13] INFO root fetch - processPackages [qase-pytest]: Start processing: cic-contracts
+[2023-06-08 09:36:13] INFO root fetch - main [MainThread]: End processing [qase-pytest]: success
+[2023-06-08 09:36:13] INFO root fetch - processPackages [geolibs]: executing diffoscope
+[2023-06-08 09:36:13] INFO root fetch - processPackages [geolibs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geolibs-0.0.7.tar.gz tmp/geolibs-0.0.8.tar.gz --markdown 20230608/g/geolibs/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-08 09:36:13] INFO root fetch - processPackages [cic-contracts]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-08 09:36:13] INFO root fetch - processPackages [terragit]: Remove: archive file [/home/abi/fetcher/tmp/terragit-0.3.8.tar.gz]
+[2023-06-08 09:36:13] INFO root fetch - processPackages [terragit]: Remove: archive file [/home/abi/fetcher/tmp/terragit-0.3.9.tar.gz]
+[2023-06-08 09:36:13] INFO root fetch - processPackages [terragit]: Start processing: martin-binance
+[2023-06-08 09:36:13] INFO root fetch - main [MainThread]: End processing [terragit]: success
+[2023-06-08 09:36:13] INFO root fetch - processPackages [lupin-grognard]: Downloading https://files.pythonhosted.org/packages/63/f4/2df11a5aed46a791c22609c2233d309499d655d76697dd2980b8e739d68b/lupin-grognard-1.9.0.tar.gz
+[2023-06-08 09:36:13] INFO root fetch - processPackages [cic-contracts]: Downloading https://files.pythonhosted.org/packages/3e/67/9f315ba04575c4ebf500c688c599f42c22cc4ad4fa643159005ed7fe5437/cic-contracts-0.3.0.tar.gz
+[2023-06-08 09:36:13] INFO root fetch - processPackages [lupin-grognard]: executing diffoscope
+[2023-06-08 09:36:13] INFO root fetch - processPackages [lupin-grognard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lupin-grognard-1.7.0.tar.gz tmp/lupin-grognard-1.9.0.tar.gz --markdown 20230608/l/lupin-grognard/1.7.0-1.9.0/diff.md --exclude *.pyd
+[2023-06-08 09:36:13] INFO root fetch - processPackages [cic-contracts]: Downloading https://files.pythonhosted.org/packages/20/47/89cd5020c374e865089d7511f84669c8b76e16b8c9309008691a1e432006/cic-contracts-0.3.1.tar.gz
+[2023-06-08 09:36:13] INFO root fetch - processPackages [martin-binance]: New version: [1.3.0b23] Old Version: [1.3.0b22]
+[2023-06-08 09:36:13] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_lw_data_provider-2.0.0.dev5208589391.tar.gz]
+[2023-06-08 09:36:13] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_lw_data_provider-2.1.0.dev3871883101.tar.gz]
+[2023-06-08 09:36:13] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Start processing: muffin-rest
+[2023-06-08 09:36:13] INFO root fetch - main [MainThread]: End processing [th2-grpc-lw-data-provider]: success
+[2023-06-08 09:36:13] INFO root fetch - processPackages [muffin-rest]: New version: [5.1.3] Old Version: [5.1.2]
+[2023-06-08 09:36:13] INFO root fetch - processPackages [cic-contracts]: executing diffoscope
+[2023-06-08 09:36:13] INFO root fetch - processPackages [cic-contracts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cic-contracts-0.3.0.tar.gz tmp/cic-contracts-0.3.1.tar.gz --markdown 20230608/c/cic-contracts/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-08 09:36:13] INFO root fetch - processPackages [muffin-rest]: Downloading https://files.pythonhosted.org/packages/e4/7c/d71aabd46a7e011207e661c327c1ecc9c740a3a4a5318a51f537cc4520a6/muffin_rest-5.1.2.tar.gz
+[2023-06-08 09:36:13] INFO root fetch - processPackages [martin-binance]: Downloading https://files.pythonhosted.org/packages/32/7f/21482083329194ffc44e5f108cfe23c2815c82dc76aef7fa8ec091de6452/martin-binance-1.3.0b22.tar.gz
+[2023-06-08 09:36:13] INFO root fetch - processPackages [muffin-rest]: Downloading https://files.pythonhosted.org/packages/42/2d/aaa62d6587b7b7ca084f1c613edf386631ae91caf825814ab5cb4f129dfc/muffin_rest-5.1.3.tar.gz
+[2023-06-08 09:36:13] INFO root fetch - processPackages [pyarmor.cli.core.themida]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli.core.themida-3.2.4-cp39-none-any.whl.zip]
+[2023-06-08 09:36:13] INFO root fetch - processPackages [pyarmor.cli.core.themida]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli.core.themida-3.2.5-cp39-none-any.whl.zip]
+[2023-06-08 09:36:13] INFO root fetch - main [MainThread]: End processing [pyarmor.cli.core.themida]: success
+[2023-06-08 09:36:13] INFO root fetch - processPackages [muffin-rest]: executing diffoscope
+[2023-06-08 09:36:13] INFO root fetch - processPackages [muffin-rest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/muffin_rest-5.1.2.tar.gz tmp/muffin_rest-5.1.3.tar.gz --markdown 20230608/m/muffin-rest/5.1.2-5.1.3/diff.md --exclude *.pyd
+[2023-06-08 09:36:14] INFO root fetch - processPackages [agxclick]: Remove: archive file [/home/abi/fetcher/tmp/agxclick-0.1.29.tar.gz]
+[2023-06-08 09:36:14] INFO root fetch - processPackages [agxclick]: Remove: archive file [/home/abi/fetcher/tmp/agxclick-0.1.30.tar.gz]
+[2023-06-08 09:36:14] INFO root fetch - main [MainThread]: End processing [agxclick]: success
+[2023-06-08 09:36:14] INFO root fetch - processPackages [geolibs]: Remove: archive file [/home/abi/fetcher/tmp/geolibs-0.0.7.tar.gz]
+[2023-06-08 09:36:14] INFO root fetch - processPackages [geolibs]: Remove: archive file [/home/abi/fetcher/tmp/geolibs-0.0.8.tar.gz]
+[2023-06-08 09:36:14] INFO root fetch - main [MainThread]: End processing [geolibs]: success
+[2023-06-08 09:36:14] INFO root fetch - processPackages [django-expanded-test-cases]: Remove: archive file [/home/abi/fetcher/tmp/django-expanded-test-cases-0.2.4.tar.gz]
+[2023-06-08 09:36:14] INFO root fetch - processPackages [django-expanded-test-cases]: Remove: archive file [/home/abi/fetcher/tmp/django-expanded-test-cases-0.3.0.tar.gz]
+[2023-06-08 09:36:14] INFO root fetch - main [MainThread]: End processing [django-expanded-test-cases]: success
+[2023-06-08 09:36:15] INFO root fetch - processPackages [muffin-rest]: Remove: archive file [/home/abi/fetcher/tmp/muffin_rest-5.1.2.tar.gz]
+[2023-06-08 09:36:15] INFO root fetch - processPackages [muffin-rest]: Remove: archive file [/home/abi/fetcher/tmp/muffin_rest-5.1.3.tar.gz]
+[2023-06-08 09:36:15] INFO root fetch - main [MainThread]: End processing [muffin-rest]: success
+[2023-06-08 09:36:15] INFO root fetch - processPackages [martin-binance]: Downloading https://files.pythonhosted.org/packages/19/b8/ddf53e62e2d664f05b4ce7b11718e0f55cc8b02f3c2753cc425d54981254/martin-binance-1.3.0b23.tar.gz
+[2023-06-08 09:36:15] INFO root fetch - processPackages [cic-contracts]: Remove: archive file [/home/abi/fetcher/tmp/cic-contracts-0.3.0.tar.gz]
+[2023-06-08 09:36:15] INFO root fetch - processPackages [cic-contracts]: Remove: archive file [/home/abi/fetcher/tmp/cic-contracts-0.3.1.tar.gz]
+[2023-06-08 09:36:15] INFO root fetch - main [MainThread]: End processing [cic-contracts]: success
+[2023-06-08 09:36:15] INFO root fetch - processPackages [martin-binance]: executing diffoscope
+[2023-06-08 09:36:15] INFO root fetch - processPackages [martin-binance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/martin-binance-1.3.0b22.tar.gz tmp/martin-binance-1.3.0b23.tar.gz --markdown 20230608/m/martin-binance/1.3.0b22-1.3.0b23/diff.md --exclude *.pyd
+[2023-06-08 09:36:16] INFO root fetch - processPackages [pyarmor]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor-8.2.dev1.zip]
+[2023-06-08 09:36:16] INFO root fetch - processPackages [pyarmor]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor-8.2.dev2.zip]
+[2023-06-08 09:36:16] INFO root fetch - main [MainThread]: End processing [pyarmor]: success
+[2023-06-08 09:36:17] INFO root fetch - processPackages [martin-binance]: Remove: archive file [/home/abi/fetcher/tmp/martin-binance-1.3.0b22.tar.gz]
+[2023-06-08 09:36:17] INFO root fetch - processPackages [martin-binance]: Remove: archive file [/home/abi/fetcher/tmp/martin-binance-1.3.0b23.tar.gz]
+[2023-06-08 09:36:17] INFO root fetch - main [MainThread]: End processing [martin-binance]: success
+[2023-06-08 09:36:32] INFO root fetch - processPackages [pyarmor.cli.core.linux]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli.core.linux-3.2.4-cp39-none-any.whl.zip]
+[2023-06-08 09:36:32] INFO root fetch - processPackages [pyarmor.cli.core.linux]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli.core.linux-3.2.5-cp39-none-any.whl.zip]
+[2023-06-08 09:36:32] INFO root fetch - main [MainThread]: End processing [pyarmor.cli.core.linux]: success
+[2023-06-08 09:37:05] INFO root fetch - processPackages [lupin-grognard]: Remove: archive file [/home/abi/fetcher/tmp/lupin-grognard-1.7.0.tar.gz]
+[2023-06-08 09:37:05] INFO root fetch - processPackages [lupin-grognard]: Remove: archive file [/home/abi/fetcher/tmp/lupin-grognard-1.9.0.tar.gz]
+[2023-06-08 09:37:05] INFO root fetch - main [MainThread]: End processing [lupin-grognard]: success
+[2023-06-08 09:37:05] INFO root fetch - main [MainThread]: Store serial: [18421138]
