@@ -19684,3 +19684,165 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-08 09:52:56] INFO root fetch - processPackages [muffin-rest]: Remove: archive file [/home/abi/fetcher/tmp/muffin_rest-5.1.5.tar.gz]
 [2023-06-08 09:52:56] INFO root fetch - main [MainThread]: End processing [muffin-rest]: success
 [2023-06-08 09:52:56] INFO root fetch - main [MainThread]: Store serial: [18421237]
+[2023-06-08 09:58:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18421237]
+[2023-06-08 09:58:07] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-08 09:58:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: trmnl-colors
+[2023-06-08 09:58:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ezbeq
+[2023-06-08 09:58:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zipline-tej
+[2023-06-08 09:58:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdklabs.cdk-validator-cfnguard
+[2023-06-08 09:58:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: docarray
+[2023-06-08 09:58:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: scdeepinsight
+[2023-06-08 09:58:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: keras-nightly
+[2023-06-08 09:58:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: chdb
+[2023-06-08 09:58:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dongwha-datalab
+[2023-06-08 09:58:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pulumi-proxmoxve
+[2023-06-08 09:58:07] INFO root fetch - processPackages [zipline-tej]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-08 09:58:07] INFO root fetch - processPackages [ezbeq]: New version: [1.0.0b9] Old Version: [1.0.0b8]
+[2023-06-08 09:58:07] WARNING root fetch - processPackages [trmnl-colors]: Skipping, unable to determine old version
+[2023-06-08 09:58:07] INFO root fetch - main [MainThread]: End processing [trmnl-colors] error
+[2023-06-08 09:58:07] INFO root fetch - processPackages [pulumi-proxmoxve]: New version: [5.5.0] Old Version: [5.4.0]
+[2023-06-08 09:58:07] INFO root fetch - processPackages [dongwha-datalab]: New version: [0.0.0.17] Old Version: [0.0.0.16]
+[2023-06-08 09:58:07] INFO root fetch - processPackages [scdeepinsight]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-06-08 09:58:07] INFO root fetch - processPackages [cdklabs.cdk-validator-cfnguard]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-08 09:58:07] INFO root fetch - processPackages [chdb]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-08 09:58:07] INFO root fetch - processPackages [docarray]: New version: [0.9.9.dev5] Old Version: [0.9.9.dev4]
+[2023-06-08 09:58:07] INFO root fetch - processPackages [docarray]: Downloading https://files.pythonhosted.org/packages/da/d0/4e039d9e7c4e19f30fbd831f0bd4670ae9aa6b5c8b29e21ed55f7886c9fe/docarray-0.9.9.dev4.tar.gz
+[2023-06-08 09:58:07] INFO root fetch - processPackages [ezbeq]: Downloading https://files.pythonhosted.org/packages/40/f4/b0ed80140e26a49763ebb750a2e45e2b8e31fd86699b28f44391dfd0eff4/ezbeq-1.0.0b8.tar.gz
+[2023-06-08 09:58:07] INFO root fetch - processPackages [zipline-tej]: Downloading https://files.pythonhosted.org/packages/81/74/1c77fcc7996870f973250f70f5fd993fbdf66e25b3c8f01eb1d263d75c6a/zipline-tej-0.0.8.tar.gz
+[2023-06-08 09:58:07] INFO root fetch - processPackages [cdklabs.cdk-validator-cfnguard]: Downloading https://files.pythonhosted.org/packages/ca/bf/82d7858f5b89f9588b018ab4ea93c6508a4508ce23569695827cdc5c3992/cdklabs.cdk-validator-cfnguard-0.0.8.tar.gz
+[2023-06-08 09:58:07] INFO root fetch - processPackages [keras-nightly]: New version: [2.9.0.dev2022033107] Old Version: [2.9.0.dev2022033007]
+[2023-06-08 09:58:07] INFO root fetch - processPackages [scdeepinsight]: Downloading https://files.pythonhosted.org/packages/a5/40/54f9acc9c466b743ffc73d42fd12b06725381d3f6095948bef52221a3fcf/scdeepinsight-1.1.0.tar.gz
+[2023-06-08 09:58:07] INFO root fetch - processPackages [pulumi-proxmoxve]: Downloading https://files.pythonhosted.org/packages/9a/92/706ee402b514d5ef845d4d929e96bc1db9b283a992fae3a646de091296d9/pulumi_proxmoxve-5.4.0.tar.gz
+[2023-06-08 09:58:07] WARNING root fetch - processPackages [scdeepinsight]: Skipping package: exceeds size limit 41348890>=10485760
+[2023-06-08 09:58:07] INFO root fetch - main [MainThread]: End processing [scdeepinsight] error
+[2023-06-08 09:58:08] INFO root fetch - processPackages [docarray]: Downloading https://files.pythonhosted.org/packages/2b/4f/53a641fcaefc8774128d5f48cb2a7b2e692c8adfce1e2afaf8d9260d8b2a/docarray-0.9.9.dev5.tar.gz
+[2023-06-08 09:58:08] INFO root fetch - processPackages [ezbeq]: Downloading https://files.pythonhosted.org/packages/01/2c/eb8009743c7049f955b3b3ffb989398ca1433d2be1f0bf9848674fa1e2f9/ezbeq-1.0.0b9.tar.gz
+[2023-06-08 09:58:08] INFO root fetch - processPackages [zipline-tej]: Downloading https://files.pythonhosted.org/packages/84/15/b5579d7eb6cdb4cc9d6c22c0f36086080b26eabdda5b9d6a1f9a7f8f8df6/zipline-tej-0.0.9.tar.gz
+[2023-06-08 09:58:08] INFO root fetch - processPackages [chdb]: Downloading https://files.pythonhosted.org/packages/46/34/78cda0c6a8c072a692d2240af17a7c99de4739831f72ec6589ec96e8952b/chdb-0.8.0-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-08 09:58:08] INFO root fetch - processPackages [docarray]: executing diffoscope
+[2023-06-08 09:58:08] INFO root fetch - processPackages [docarray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docarray-0.9.9.dev4.tar.gz tmp/docarray-0.9.9.dev5.tar.gz --markdown 20230608/d/docarray/0.9.9.dev4-0.9.9.dev5/diff.md --exclude *.pyd
+[2023-06-08 09:58:08] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/9c/ac/df626672be5af4204ef9c477f1110050afecb7a0f086fef8a6a2e3469a56/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl
+[2023-06-08 09:58:08] INFO root fetch - processPackages [ezbeq]: executing diffoscope
+[2023-06-08 09:58:08] INFO root fetch - processPackages [ezbeq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ezbeq-1.0.0b8.tar.gz tmp/ezbeq-1.0.0b9.tar.gz --markdown 20230608/e/ezbeq/1.0.0b8-1.0.0b9/diff.md --exclude *.pyd
+[2023-06-08 09:58:08] INFO root fetch - processPackages [zipline-tej]: executing diffoscope
+[2023-06-08 09:58:08] INFO root fetch - processPackages [zipline-tej]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zipline-tej-0.0.8.tar.gz tmp/zipline-tej-0.0.9.tar.gz --markdown 20230608/z/zipline-tej/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-08 09:58:08] INFO root fetch - processPackages [cdklabs.cdk-validator-cfnguard]: Downloading https://files.pythonhosted.org/packages/87/72/a3d8003ada4028ea6518698c5f3ee208044ed9363e979c066104afb06a6a/cdklabs.cdk-validator-cfnguard-0.0.9.tar.gz
+[2023-06-08 09:58:08] INFO root fetch - processPackages [dongwha-datalab]: Downloading https://files.pythonhosted.org/packages/f1/67/d467cbca83053c2c5382b2c3a6e615d3379dc7de5c40414fe3d8ae17a4a5/dongwha_datalab-0.0.0.17-py3-none-any.whl
+[2023-06-08 09:58:08] INFO root fetch - processPackages [dongwha-datalab]: executing diffoscope
+[2023-06-08 09:58:08] INFO root fetch - processPackages [dongwha-datalab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dongwha_datalab-0.0.0.16-py3-none-any.whl.zip tmp/dongwha_datalab-0.0.0.17-py3-none-any.whl.zip --markdown 20230608/d/dongwha-datalab/0.0.0.16-0.0.0.17/diff.md --exclude *.pyd
+[2023-06-08 09:58:08] INFO root fetch - processPackages [cdklabs.cdk-validator-cfnguard]: executing diffoscope
+[2023-06-08 09:58:08] INFO root fetch - processPackages [cdklabs.cdk-validator-cfnguard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.cdk-validator-cfnguard-0.0.8.tar.gz tmp/cdklabs.cdk-validator-cfnguard-0.0.9.tar.gz --markdown 20230608/c/cdklabs.cdk-validator-cfnguard/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-08 09:58:08] INFO root fetch - processPackages [pulumi-proxmoxve]: Downloading https://files.pythonhosted.org/packages/db/e7/955c462da1b95246bb4fedc97778fbda7f38319cec70dd6e52cd6ab1bae1/pulumi_proxmoxve-5.5.0.tar.gz
+[2023-06-08 09:58:08] INFO root fetch - processPackages [pulumi-proxmoxve]: executing diffoscope
+[2023-06-08 09:58:08] INFO root fetch - processPackages [pulumi-proxmoxve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_proxmoxve-5.4.0.tar.gz tmp/pulumi_proxmoxve-5.5.0.tar.gz --markdown 20230608/p/pulumi-proxmoxve/5.4.0-5.5.0/diff.md --exclude *.pyd
+[2023-06-08 09:58:08] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/64/5c/effcf86e94e42de7429f684d499233617aaa054e929986d65d4d72fb5c19/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl
+[2023-06-08 09:58:08] INFO root fetch - processPackages [keras-nightly]: executing diffoscope
+[2023-06-08 09:58:08] INFO root fetch - processPackages [keras-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl.zip tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip --markdown 20230608/k/keras-nightly/2.9.0.dev2022033007-2.9.0.dev2022033107/diff.md --exclude *.pyd
+[2023-06-08 09:58:08] WARNING root fetch - processPackages [chdb]: Skipping package: exceeds size limit 108993016>=10485760
+[2023-06-08 09:58:08] INFO root fetch - main [MainThread]: End processing [chdb] error
+[2023-06-08 09:58:09] ERROR root fetch - processPackages [dongwha-datalab]: Diffoscope failed: Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 126, in feeder
+    end_nl = feeder(out_file)
+             ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 81, in feeder
+    out = filter_reader(buf, filter)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 47, in filter_reader
+    buf = additional_filter(buf)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 57, in filter
+    m = self.re_strip_path.match(line.decode("utf-8"))
+                                 ^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid start byte
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 416, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 252, in compare_details
+    differences.extend(zipinfo_differences(self, other))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 127, in zipinfo_differences
+    zipinfo = Difference.from_operation(Zipinfo, file.path, other.path)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 126, in feeder
+    end_nl = feeder(out_file)
+             ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 81, in feeder
+    out = filter_reader(buf, filter)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 47, in filter_reader
+    buf = additional_filter(buf)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 57, in filter
+    m = self.re_strip_path.match(line.decode("utf-8"))
+                                 ^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid start byte
+
+[2023-06-08 09:58:09] INFO root fetch - main [MainThread]: End processing [dongwha-datalab] error
+[2023-06-08 09:58:09] INFO root fetch - processPackages [pulumi-proxmoxve]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_proxmoxve-5.4.0.tar.gz]
+[2023-06-08 09:58:09] INFO root fetch - processPackages [pulumi-proxmoxve]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_proxmoxve-5.5.0.tar.gz]
+[2023-06-08 09:58:09] INFO root fetch - main [MainThread]: End processing [pulumi-proxmoxve]: success
+[2023-06-08 09:58:10] INFO root fetch - processPackages [docarray]: Remove: archive file [/home/abi/fetcher/tmp/docarray-0.9.9.dev4.tar.gz]
+[2023-06-08 09:58:10] INFO root fetch - processPackages [docarray]: Remove: archive file [/home/abi/fetcher/tmp/docarray-0.9.9.dev5.tar.gz]
+[2023-06-08 09:58:10] INFO root fetch - main [MainThread]: End processing [docarray]: success
+[2023-06-08 09:58:10] INFO root fetch - processPackages [zipline-tej]: Remove: archive file [/home/abi/fetcher/tmp/zipline-tej-0.0.8.tar.gz]
+[2023-06-08 09:58:10] INFO root fetch - processPackages [zipline-tej]: Remove: archive file [/home/abi/fetcher/tmp/zipline-tej-0.0.9.tar.gz]
+[2023-06-08 09:58:10] INFO root fetch - main [MainThread]: End processing [zipline-tej]: success
+[2023-06-08 09:58:11] INFO root fetch - processPackages [cdklabs.cdk-validator-cfnguard]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-validator-cfnguard-0.0.8.tar.gz]
+[2023-06-08 09:58:11] INFO root fetch - processPackages [cdklabs.cdk-validator-cfnguard]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-validator-cfnguard-0.0.9.tar.gz]
+[2023-06-08 09:58:11] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-validator-cfnguard]: success
+[2023-06-08 09:58:17] INFO root fetch - processPackages [ezbeq]: Remove: archive file [/home/abi/fetcher/tmp/ezbeq-1.0.0b8.tar.gz]
+[2023-06-08 09:58:17] INFO root fetch - processPackages [ezbeq]: Remove: archive file [/home/abi/fetcher/tmp/ezbeq-1.0.0b9.tar.gz]
+[2023-06-08 09:58:17] INFO root fetch - main [MainThread]: End processing [ezbeq]: success
+[2023-06-08 09:58:18] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl.zip]
+[2023-06-08 09:58:18] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip]
+[2023-06-08 09:58:18] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
+[2023-06-08 09:58:18] INFO root fetch - main [MainThread]: Store serial: [18421270]
