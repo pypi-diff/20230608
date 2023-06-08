@@ -9438,3 +9438,109 @@ AssertionError: tmp/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip does not
 [2023-06-08 04:21:44] INFO root fetch - processPackages [rubi]: Remove: archive file [/home/abi/fetcher/tmp/rubi-2.0.3.tar.gz]
 [2023-06-08 04:21:44] INFO root fetch - main [MainThread]: End processing [rubi]: success
 [2023-06-08 04:21:44] INFO root fetch - main [MainThread]: Store serial: [18418110]
+[2023-06-08 04:26:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18418110]
+[2023-06-08 04:26:53] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-08 04:26:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mi-libreria
+[2023-06-08 04:26:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: baysalt-christmas
+[2023-06-08 04:26:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: meetupscraper
+[2023-06-08 04:26:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ayomide-sdk
+[2023-06-08 04:26:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ayomide-sdk
+[2023-06-08 04:26:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ayomide-sdk
+[2023-06-08 04:26:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rongdavbaaddins
+[2023-06-08 04:26:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: CADPR
+[2023-06-08 04:26:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bettershot
+[2023-06-08 04:26:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: d20-orm
+[2023-06-08 04:26:53] INFO root fetch - processPackages [baysalt-christmas]: New version: [0.1.7.6] Old Version: [0.1.7.5]
+[2023-06-08 04:26:53] INFO root fetch - processPackages [mi-libreria]: New version: [0.3] Old Version: [0.2]
+[2023-06-08 04:26:53] INFO root fetch - processPackages [ayomide-sdk]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-08 04:26:53] INFO root fetch - processPackages [rongdavbaaddins]: New version: [0.0.0.6] Old Version: [0.0.0.2]
+[2023-06-08 04:26:53] INFO root fetch - processPackages [ayomide-sdk]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-08 04:26:53] INFO root fetch - processPackages [CADPR]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-08 04:26:53] INFO root fetch - processPackages [bettershot]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-08 04:26:53] INFO root fetch - processPackages [ayomide-sdk]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-08 04:26:53] INFO root fetch - processPackages [meetupscraper]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-06-08 04:26:53] INFO root fetch - processPackages [d20-orm]: New version: [2.0.2a9] Old Version: [2.0.2a8]
+[2023-06-08 04:26:53] INFO root fetch - processPackages [CADPR]: Downloading https://files.pythonhosted.org/packages/4b/18/a36e4ce7b9c9ac3c8b6ababfa42f8661382080ad5e40abe97e7086682944/CADPR-0.1.0.tar.gz
+[2023-06-08 04:26:53] INFO root fetch - processPackages [bettershot]: Downloading https://files.pythonhosted.org/packages/af/0c/ac2c05fbe32d4f40299f3a109ade8e1f6969dba89495805068d92781c2f3/bettershot-0.1.2.tar.gz
+[2023-06-08 04:26:53] INFO root fetch - processPackages [d20-orm]: Downloading https://files.pythonhosted.org/packages/ad/29/9c0d1509e2bf24fcaf67bf27a72aca82c69934060a5b97d4e95f982bdf7c/d20-orm-2.0.2a8.tar.gz
+[2023-06-08 04:26:53] INFO root fetch - processPackages [ayomide-sdk]: Downloading https://files.pythonhosted.org/packages/b6/90/01bd9bbb0a8cc20f5589943e253e1fcc289ce8d52f1a92340cfebea65191/ayomide-sdk-0.0.2.tar.gz
+[2023-06-08 04:26:53] INFO root fetch - processPackages [ayomide-sdk]: Downloading https://files.pythonhosted.org/packages/b6/90/01bd9bbb0a8cc20f5589943e253e1fcc289ce8d52f1a92340cfebea65191/ayomide-sdk-0.0.2.tar.gz
+[2023-06-08 04:26:53] INFO root fetch - processPackages [baysalt-christmas]: Downloading https://files.pythonhosted.org/packages/a9/71/1ba3f177541aee0961c67504bef7d8edd85b7be185c16a4cc21090d7ea07/baysalt_christmas-0.1.7.5.tar.gz
+[2023-06-08 04:26:53] INFO root fetch - processPackages [ayomide-sdk]: Downloading https://files.pythonhosted.org/packages/b6/90/01bd9bbb0a8cc20f5589943e253e1fcc289ce8d52f1a92340cfebea65191/ayomide-sdk-0.0.2.tar.gz
+[2023-06-08 04:26:53] INFO root fetch - processPackages [CADPR]: Downloading https://files.pythonhosted.org/packages/a2/1a/777f79380400c6635b4580baa1557a16ef0cb5f11c6cd772cfddf2a43f4b/CADPR-0.1.1.tar.gz
+[2023-06-08 04:26:53] INFO root fetch - processPackages [mi-libreria]: Downloading https://files.pythonhosted.org/packages/8a/52/f8971817ce83d4c75607f6baaeee0800cd8debef26a4f354ece4961c944d/mi_libreria-0.2.tar.gz
+[2023-06-08 04:26:53] INFO root fetch - processPackages [meetupscraper]: Downloading https://files.pythonhosted.org/packages/c9/9c/9fc6df3b6ce0baba2da63e540fba09bc1d520b4403e84fc2978c871cf84b/meetupscraper-0.9.2.tar.gz
+[2023-06-08 04:26:53] INFO root fetch - processPackages [d20-orm]: Downloading https://files.pythonhosted.org/packages/ec/d6/9944a71f3f3439824eb114714153a4971feff7168ee963722e0da95de7ea/d20-orm-2.0.2a9.tar.gz
+[2023-06-08 04:26:53] INFO root fetch - processPackages [rongdavbaaddins]: Downloading https://files.pythonhosted.org/packages/e7/d6/9906c0e32d7b06282fc66d39fa67d9b7861a511aeb4b20087db5b6baa3db/rongdavbaaddins-0.0.0.2.tar.gz
+[2023-06-08 04:26:53] INFO root fetch - processPackages [CADPR]: executing diffoscope
+[2023-06-08 04:26:53] INFO root fetch - processPackages [CADPR]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CADPR-0.1.0.tar.gz tmp/CADPR-0.1.1.tar.gz --markdown 20230608/C/CADPR/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-08 04:26:53] INFO root fetch - processPackages [bettershot]: Downloading https://files.pythonhosted.org/packages/d8/89/19c572c353530a911717d33a4d602cb583e3f0c2bec1ce6b8758aa88323e/bettershot-0.1.3.tar.gz
+[2023-06-08 04:26:53] INFO root fetch - processPackages [d20-orm]: executing diffoscope
+[2023-06-08 04:26:53] INFO root fetch - processPackages [d20-orm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/d20-orm-2.0.2a8.tar.gz tmp/d20-orm-2.0.2a9.tar.gz --markdown 20230608/d/d20-orm/2.0.2a8-2.0.2a9/diff.md --exclude *.pyd
+[2023-06-08 04:26:53] INFO root fetch - processPackages [bettershot]: executing diffoscope
+[2023-06-08 04:26:53] INFO root fetch - processPackages [bettershot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bettershot-0.1.2.tar.gz tmp/bettershot-0.1.3.tar.gz --markdown 20230608/b/bettershot/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-08 04:26:53] INFO root fetch - processPackages [baysalt-christmas]: Downloading https://files.pythonhosted.org/packages/f7/46/ac1c6bcb7a978db30c44e51efc09c7ba40042f2c69662feef0bce238178a/baysalt_christmas-0.1.7.6.tar.gz
+[2023-06-08 04:26:53] INFO root fetch - processPackages [baysalt-christmas]: executing diffoscope
+[2023-06-08 04:26:53] INFO root fetch - processPackages [baysalt-christmas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/baysalt_christmas-0.1.7.5.tar.gz tmp/baysalt_christmas-0.1.7.6.tar.gz --markdown 20230608/b/baysalt-christmas/0.1.7.5-0.1.7.6/diff.md --exclude *.pyd
+[2023-06-08 04:26:53] INFO root fetch - processPackages [rongdavbaaddins]: Downloading https://files.pythonhosted.org/packages/81/73/5b4607ca408f274474ee6a864865e48bd79529326ecd4eb0d9b5f72f1b57/rongdavbaaddins-0.0.0.6.tar.gz
+[2023-06-08 04:26:53] INFO root fetch - processPackages [ayomide-sdk]: Downloading https://files.pythonhosted.org/packages/d5/f9/8f13fd570575a770d21e01a5ec4481875c0dbcd24e2ce8c60b6f34141afa/ayomide-sdk-0.0.3.tar.gz
+[2023-06-08 04:26:53] INFO root fetch - processPackages [ayomide-sdk]: Downloading https://files.pythonhosted.org/packages/d5/f9/8f13fd570575a770d21e01a5ec4481875c0dbcd24e2ce8c60b6f34141afa/ayomide-sdk-0.0.3.tar.gz
+[2023-06-08 04:26:53] INFO root fetch - processPackages [ayomide-sdk]: Downloading https://files.pythonhosted.org/packages/d5/f9/8f13fd570575a770d21e01a5ec4481875c0dbcd24e2ce8c60b6f34141afa/ayomide-sdk-0.0.3.tar.gz
+[2023-06-08 04:26:53] INFO root fetch - processPackages [mi-libreria]: Downloading https://files.pythonhosted.org/packages/eb/46/1ccafa4b438d901865a172851cf5a5feb61ad0d1a38974da18e852c4aeb3/mi_libreria-0.3.tar.gz
+[2023-06-08 04:26:53] INFO root fetch - processPackages [ayomide-sdk]: executing diffoscope
+[2023-06-08 04:26:53] INFO root fetch - processPackages [ayomide-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ayomide-sdk-0.0.2.tar.gz tmp/ayomide-sdk-0.0.3.tar.gz --markdown 20230608/a/ayomide-sdk/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-08 04:26:53] INFO root fetch - processPackages [ayomide-sdk]: executing diffoscope
+[2023-06-08 04:26:53] INFO root fetch - processPackages [ayomide-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ayomide-sdk-0.0.2.tar.gz tmp/ayomide-sdk-0.0.3.tar.gz --markdown 20230608/a/ayomide-sdk/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-08 04:26:53] INFO root fetch - processPackages [ayomide-sdk]: executing diffoscope
+[2023-06-08 04:26:53] INFO root fetch - processPackages [meetupscraper]: Downloading https://files.pythonhosted.org/packages/20/5d/be5048dee647f92424ae56af13338eb3037cd65f08c854a933c4ba6c8daa/meetupscraper-0.9.3.tar.gz
+[2023-06-08 04:26:53] INFO root fetch - processPackages [ayomide-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ayomide-sdk-0.0.2.tar.gz tmp/ayomide-sdk-0.0.3.tar.gz --markdown 20230608/a/ayomide-sdk/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-08 04:26:54] INFO root fetch - processPackages [mi-libreria]: executing diffoscope
+[2023-06-08 04:26:54] INFO root fetch - processPackages [mi-libreria]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mi_libreria-0.2.tar.gz tmp/mi_libreria-0.3.tar.gz --markdown 20230608/m/mi-libreria/0.2-0.3/diff.md --exclude *.pyd
+[2023-06-08 04:26:54] INFO root fetch - processPackages [rongdavbaaddins]: executing diffoscope
+[2023-06-08 04:26:54] INFO root fetch - processPackages [rongdavbaaddins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rongdavbaaddins-0.0.0.2.tar.gz tmp/rongdavbaaddins-0.0.0.6.tar.gz --markdown 20230608/r/rongdavbaaddins/0.0.0.2-0.0.0.6/diff.md --exclude *.pyd
+[2023-06-08 04:26:54] INFO root fetch - processPackages [meetupscraper]: executing diffoscope
+[2023-06-08 04:26:54] INFO root fetch - processPackages [meetupscraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meetupscraper-0.9.2.tar.gz tmp/meetupscraper-0.9.3.tar.gz --markdown 20230608/m/meetupscraper/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-06-08 04:26:55] INFO root fetch - processPackages [bettershot]: Remove: archive file [/home/abi/fetcher/tmp/bettershot-0.1.2.tar.gz]
+[2023-06-08 04:26:55] INFO root fetch - processPackages [bettershot]: Remove: archive file [/home/abi/fetcher/tmp/bettershot-0.1.3.tar.gz]
+[2023-06-08 04:26:55] INFO root fetch - processPackages [bettershot]: Start processing: good-cache
+[2023-06-08 04:26:55] INFO root fetch - main [MainThread]: End processing [bettershot]: success
+[2023-06-08 04:26:55] INFO root fetch - processPackages [good-cache]: New version: [0.1.31] Old Version: [0.1.3]
+[2023-06-08 04:26:55] INFO root fetch - processPackages [d20-orm]: Remove: archive file [/home/abi/fetcher/tmp/d20-orm-2.0.2a8.tar.gz]
+[2023-06-08 04:26:55] INFO root fetch - processPackages [d20-orm]: Remove: archive file [/home/abi/fetcher/tmp/d20-orm-2.0.2a9.tar.gz]
+[2023-06-08 04:26:55] INFO root fetch - processPackages [d20-orm]: Start processing: mi-libreria
+[2023-06-08 04:26:55] INFO root fetch - main [MainThread]: End processing [d20-orm]: success
+[2023-06-08 04:26:55] INFO root fetch - processPackages [mi-libreria]: New version: [0.3] Old Version: [0.2]
+[2023-06-08 04:26:55] INFO root fetch - processPackages [good-cache]: Downloading https://files.pythonhosted.org/packages/e2/32/e64de08a7ce78fe9218f34c4eeb89ad36cbf59e85628ee0e466e1ce59d64/good_cache-0.1.3.tar.gz
+[2023-06-08 04:26:55] INFO root fetch - processPackages [mi-libreria]: executing diffoscope
+[2023-06-08 04:26:55] INFO root fetch - processPackages [mi-libreria]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mi_libreria-0.2.tar.gz tmp/mi_libreria-0.3.tar.gz --markdown 20230608/m/mi-libreria/0.2-0.3/diff.md --exclude *.pyd
+[2023-06-08 04:26:55] INFO root fetch - processPackages [meetupscraper]: Remove: archive file [/home/abi/fetcher/tmp/meetupscraper-0.9.2.tar.gz]
+[2023-06-08 04:26:55] INFO root fetch - processPackages [meetupscraper]: Remove: archive file [/home/abi/fetcher/tmp/meetupscraper-0.9.3.tar.gz]
+[2023-06-08 04:26:55] INFO root fetch - main [MainThread]: End processing [meetupscraper]: success
+[2023-06-08 04:26:55] INFO root fetch - processPackages [mi-libreria]: Remove: archive file [/home/abi/fetcher/tmp/mi_libreria-0.2.tar.gz]
+[2023-06-08 04:26:55] INFO root fetch - processPackages [mi-libreria]: Remove: archive file [/home/abi/fetcher/tmp/mi_libreria-0.3.tar.gz]
+[2023-06-08 04:26:55] INFO root fetch - main [MainThread]: End processing [mi-libreria]: success
+[2023-06-08 04:26:55] INFO root fetch - processPackages [ayomide-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ayomide-sdk-0.0.2.tar.gz]
+[2023-06-08 04:26:55] INFO root fetch - processPackages [ayomide-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ayomide-sdk-0.0.3.tar.gz]
+[2023-06-08 04:26:55] INFO root fetch - main [MainThread]: End processing [ayomide-sdk]: success
+[2023-06-08 04:26:55] INFO root fetch - processPackages [CADPR]: Remove: archive file [/home/abi/fetcher/tmp/CADPR-0.1.0.tar.gz]
+[2023-06-08 04:26:55] INFO root fetch - processPackages [CADPR]: Remove: archive file [/home/abi/fetcher/tmp/CADPR-0.1.1.tar.gz]
+[2023-06-08 04:26:55] INFO root fetch - main [MainThread]: End processing [CADPR]: success
+[2023-06-08 04:26:55] INFO root fetch - processPackages [good-cache]: Downloading https://files.pythonhosted.org/packages/2f/96/6947820095d3e784f154508563acddc6a9a3ceddf4d22d32002e714b592c/good_cache-0.1.31.tar.gz
+[2023-06-08 04:26:55] INFO root fetch - processPackages [good-cache]: executing diffoscope
+[2023-06-08 04:26:55] INFO root fetch - processPackages [good-cache]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/good_cache-0.1.3.tar.gz tmp/good_cache-0.1.31.tar.gz --markdown 20230608/g/good-cache/0.1.3-0.1.31/diff.md --exclude *.pyd
+[2023-06-08 04:26:55] INFO root fetch - processPackages [baysalt-christmas]: Remove: archive file [/home/abi/fetcher/tmp/baysalt_christmas-0.1.7.5.tar.gz]
+[2023-06-08 04:26:55] INFO root fetch - processPackages [baysalt-christmas]: Remove: archive file [/home/abi/fetcher/tmp/baysalt_christmas-0.1.7.6.tar.gz]
+[2023-06-08 04:26:55] INFO root fetch - main [MainThread]: End processing [baysalt-christmas]: success
+[2023-06-08 04:26:55] INFO root fetch - main [MainThread]: End processing [ayomide-sdk]: success
+[2023-06-08 04:26:55] INFO root fetch - main [MainThread]: End processing [ayomide-sdk]: success
+[2023-06-08 04:26:56] ERROR root fetch - processPackages [mi-libreria]: Diffoscope failed: /srv/diffoscope/bin/diffoscope: tmp/mi_libreria-0.2.tar.gz: No such file or directory
+/srv/diffoscope/bin/diffoscope: tmp/mi_libreria-0.3.tar.gz: No such file or directory
+
+[2023-06-08 04:26:56] INFO root fetch - main [MainThread]: End processing [mi-libreria] error
+[2023-06-08 04:26:56] INFO root fetch - processPackages [good-cache]: Remove: archive file [/home/abi/fetcher/tmp/good_cache-0.1.3.tar.gz]
+[2023-06-08 04:26:56] INFO root fetch - processPackages [good-cache]: Remove: archive file [/home/abi/fetcher/tmp/good_cache-0.1.31.tar.gz]
+[2023-06-08 04:26:56] INFO root fetch - main [MainThread]: End processing [good-cache]: success
+[2023-06-08 04:26:57] INFO root fetch - processPackages [rongdavbaaddins]: Remove: archive file [/home/abi/fetcher/tmp/rongdavbaaddins-0.0.0.2.tar.gz]
+[2023-06-08 04:26:57] INFO root fetch - processPackages [rongdavbaaddins]: Remove: archive file [/home/abi/fetcher/tmp/rongdavbaaddins-0.0.0.6.tar.gz]
+[2023-06-08 04:26:57] INFO root fetch - main [MainThread]: End processing [rongdavbaaddins]: success
+[2023-06-08 04:26:57] INFO root fetch - main [MainThread]: Store serial: [18418151]
