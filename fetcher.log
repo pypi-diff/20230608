@@ -13605,3 +13605,72 @@ AssertionError: tmp/odoo_addon_hr_personal_equipment_request-16.0.1.0.0.7-py3-no
 [2023-06-08 06:05:23] INFO root fetch - processPackages [odoo8-addon-l10n-ro-siruta]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_l10n_ro_siruta-8.0.1.0.0.99.dev33-py2-none-any.whl.zip]
 [2023-06-08 06:05:23] INFO root fetch - main [MainThread]: End processing [odoo8-addon-l10n-ro-siruta]: success
 [2023-06-08 06:05:23] INFO root fetch - main [MainThread]: Store serial: [18419310]
+[2023-06-08 06:10:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18419310]
+[2023-06-08 06:10:32] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-08 06:10:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Pandora-ChatGPT
+[2023-06-08 06:10:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: STEP.py
+[2023-06-08 06:10:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ovos-local-backend
+[2023-06-08 06:10:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ngm-salam
+[2023-06-08 06:10:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sourcery-nightly
+[2023-06-08 06:10:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: chalk-harness
+[2023-06-08 06:10:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ovos-local-backend
+[2023-06-08 06:10:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo14-addon-delivery-mrw
+[2023-06-08 06:10:32] INFO root fetch - processPackages [STEP.py]: New version: [2.2] Old Version: [2.1]
+[2023-06-08 06:10:32] INFO root fetch - processPackages [Pandora-ChatGPT]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-06-08 06:10:32] INFO root fetch - processPackages [ovos-local-backend]: New version: [0.2.0a9] Old Version: [0.2.0a8]
+[2023-06-08 06:10:32] INFO root fetch - processPackages [ovos-local-backend]: New version: [0.2.0a9] Old Version: [0.2.0a8]
+[2023-06-08 06:10:32] INFO root fetch - processPackages [ngm-salam]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-08 06:10:32] INFO root fetch - processPackages [odoo14-addon-delivery-mrw]: New version: [14.0.1.1.2] Old Version: [14.0.1.1.1.dev1]
+[2023-06-08 06:10:32] INFO root fetch - processPackages [chalk-harness]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-08 06:10:32] INFO root fetch - processPackages [ngm-salam]: Downloading https://files.pythonhosted.org/packages/88/0e/2230e4b1d9eca818bd070305f9cf1c54e41da5e03d7151529d588640b42a/ngm_salam-0.0.6.tar.gz
+[2023-06-08 06:10:32] INFO root fetch - processPackages [ovos-local-backend]: Downloading https://files.pythonhosted.org/packages/aa/cb/d2765c107910f6bc1dca69dcc16c73a0986ab984fe77cf33633045941028/ovos_local_backend-0.2.0a8-py3-none-any.whl
+[2023-06-08 06:10:32] INFO root fetch - processPackages [odoo14-addon-delivery-mrw]: Downloading https://files.pythonhosted.org/packages/11/0f/132aa579854bba612c0837cd1516bc8466fdd50f1e6c80e9c823afa8b5ae/odoo14_addon_delivery_mrw-14.0.1.1.1.dev1-py3-none-any.whl
+[2023-06-08 06:10:32] INFO root fetch - processPackages [sourcery-nightly]: New version: [1.3.1b9] Old Version: [1.3.1b8]
+[2023-06-08 06:10:32] INFO root fetch - processPackages [ovos-local-backend]: Downloading https://files.pythonhosted.org/packages/aa/cb/d2765c107910f6bc1dca69dcc16c73a0986ab984fe77cf33633045941028/ovos_local_backend-0.2.0a8-py3-none-any.whl
+[2023-06-08 06:10:32] INFO root fetch - processPackages [STEP.py]: Downloading https://files.pythonhosted.org/packages/f2/fa/e57a1e4de9a0bbf1eee7452b47132f860b81694c2d2ea338ffcb55f9295b/STEP.py-2.1.tar.gz
+[2023-06-08 06:10:32] INFO root fetch - processPackages [ovos-local-backend]: Downloading https://files.pythonhosted.org/packages/5f/f7/ba89e3c2dfaeb03aac975f2afbaa1980ccbe7273dcd7f5b525280a59d733/ovos_local_backend-0.2.0a9-py3-none-any.whl
+[2023-06-08 06:10:32] INFO root fetch - processPackages [ovos-local-backend]: Downloading https://files.pythonhosted.org/packages/5f/f7/ba89e3c2dfaeb03aac975f2afbaa1980ccbe7273dcd7f5b525280a59d733/ovos_local_backend-0.2.0a9-py3-none-any.whl
+[2023-06-08 06:10:32] INFO root fetch - processPackages [odoo14-addon-delivery-mrw]: Downloading https://files.pythonhosted.org/packages/1c/02/6059d3de8165317fd5c5f8429c4fe881a1efe67fd0019d422bdf2a7dd13f/odoo14_addon_delivery_mrw-14.0.1.1.2-py3-none-any.whl
+[2023-06-08 06:10:32] INFO root fetch - processPackages [Pandora-ChatGPT]: Downloading https://files.pythonhosted.org/packages/fe/d6/efeca73535f347494b285886aad06bf516af311af3048957a97727c9a270/Pandora-ChatGPT-1.1.8.tar.gz
+[2023-06-08 06:10:32] INFO root fetch - processPackages [odoo14-addon-delivery-mrw]: executing diffoscope
+[2023-06-08 06:10:32] INFO root fetch - processPackages [odoo14-addon-delivery-mrw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_delivery_mrw-14.0.1.1.1.dev1-py3-none-any.whl.zip tmp/odoo14_addon_delivery_mrw-14.0.1.1.2-py3-none-any.whl.zip --markdown 20230608/o/odoo14-addon-delivery-mrw/14.0.1.1.1.dev1-14.0.1.1.2/diff.md --exclude *.pyd
+[2023-06-08 06:10:32] INFO root fetch - processPackages [ovos-local-backend]: executing diffoscope
+[2023-06-08 06:10:32] INFO root fetch - processPackages [ovos-local-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos_local_backend-0.2.0a8-py3-none-any.whl.zip tmp/ovos_local_backend-0.2.0a9-py3-none-any.whl.zip --markdown 20230608/o/ovos-local-backend/0.2.0a8-0.2.0a9/diff.md --exclude *.pyd
+[2023-06-08 06:10:32] INFO root fetch - processPackages [ovos-local-backend]: executing diffoscope
+[2023-06-08 06:10:32] INFO root fetch - processPackages [ovos-local-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos_local_backend-0.2.0a8-py3-none-any.whl.zip tmp/ovos_local_backend-0.2.0a9-py3-none-any.whl.zip --markdown 20230608/o/ovos-local-backend/0.2.0a8-0.2.0a9/diff.md --exclude *.pyd
+[2023-06-08 06:10:32] INFO root fetch - processPackages [chalk-harness]: Downloading https://files.pythonhosted.org/packages/8e/3a/1b7bcfd68b3fb7e312a8d5dfe975c73f564cd879a55be62b0791d2c939a7/chalk-harness-0.9.8.tar.gz
+[2023-06-08 06:10:32] INFO root fetch - processPackages [ngm-salam]: Downloading https://files.pythonhosted.org/packages/5e/65/e286cc3909d08477a8d0010f187922b5cbe46faa88005df54093d16307fa/ngm_salam-0.0.7.tar.gz
+[2023-06-08 06:10:32] INFO root fetch - processPackages [sourcery-nightly]: Downloading https://files.pythonhosted.org/packages/29/18/ad9b7cf71f4ed9e14c12d1e096d050d07b94bd4dfb90329e967254028ab4/sourcery_nightly-1.3.1b8-py2.py3-none-win_amd64.whl
+[2023-06-08 06:10:32] INFO root fetch - processPackages [ngm-salam]: executing diffoscope
+[2023-06-08 06:10:32] INFO root fetch - processPackages [ngm-salam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ngm_salam-0.0.6.tar.gz tmp/ngm_salam-0.0.7.tar.gz --markdown 20230608/n/ngm-salam/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-08 06:10:32] INFO root fetch - processPackages [chalk-harness]: Downloading https://files.pythonhosted.org/packages/5a/a1/ebd94059e71285766b03c097e6d74809a224502f80a4a6bfbcd4279de9d3/chalk-harness-0.9.9.tar.gz
+[2023-06-08 06:10:32] INFO root fetch - processPackages [chalk-harness]: executing diffoscope
+[2023-06-08 06:10:32] INFO root fetch - processPackages [chalk-harness]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chalk-harness-0.9.8.tar.gz tmp/chalk-harness-0.9.9.tar.gz --markdown 20230608/c/chalk-harness/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-08 06:10:33] WARNING root fetch - processPackages [sourcery-nightly]: Skipping package: exceeds size limit 58876457>=10485760
+[2023-06-08 06:10:33] INFO root fetch - main [MainThread]: End processing [sourcery-nightly] error
+[2023-06-08 06:10:33] INFO root fetch - processPackages [STEP.py]: Downloading https://files.pythonhosted.org/packages/b1/b1/7adb15d3a0f356fbfea71dc01470f7d132c54eda9d179ff79d371e31af08/STEP.py-2.2.tar.gz
+[2023-06-08 06:10:33] INFO root fetch - processPackages [STEP.py]: executing diffoscope
+[2023-06-08 06:10:33] INFO root fetch - processPackages [STEP.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/STEP.py-2.1.tar.gz tmp/STEP.py-2.2.tar.gz --markdown 20230608/S/STEP.py/2.1-2.2/diff.md --exclude *.pyd
+[2023-06-08 06:10:33] INFO root fetch - processPackages [Pandora-ChatGPT]: Downloading https://files.pythonhosted.org/packages/47/59/13535fd76ba70393c88a85c92754254b83e3c9affcd1079f04f9b3b6259a/Pandora-ChatGPT-1.1.9.tar.gz
+[2023-06-08 06:10:33] INFO root fetch - processPackages [Pandora-ChatGPT]: executing diffoscope
+[2023-06-08 06:10:33] INFO root fetch - processPackages [Pandora-ChatGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Pandora-ChatGPT-1.1.8.tar.gz tmp/Pandora-ChatGPT-1.1.9.tar.gz --markdown 20230608/P/Pandora-ChatGPT/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-06-08 06:10:34] INFO root fetch - processPackages [chalk-harness]: Remove: archive file [/home/abi/fetcher/tmp/chalk-harness-0.9.8.tar.gz]
+[2023-06-08 06:10:34] INFO root fetch - processPackages [chalk-harness]: Remove: archive file [/home/abi/fetcher/tmp/chalk-harness-0.9.9.tar.gz]
+[2023-06-08 06:10:34] INFO root fetch - main [MainThread]: End processing [chalk-harness]: success
+[2023-06-08 06:10:34] INFO root fetch - processPackages [ngm-salam]: Remove: archive file [/home/abi/fetcher/tmp/ngm_salam-0.0.6.tar.gz]
+[2023-06-08 06:10:34] INFO root fetch - processPackages [ngm-salam]: Remove: archive file [/home/abi/fetcher/tmp/ngm_salam-0.0.7.tar.gz]
+[2023-06-08 06:10:34] INFO root fetch - main [MainThread]: End processing [ngm-salam]: success
+[2023-06-08 06:10:34] INFO root fetch - processPackages [ovos-local-backend]: Remove: archive file [/home/abi/fetcher/tmp/ovos_local_backend-0.2.0a8-py3-none-any.whl.zip]
+[2023-06-08 06:10:34] INFO root fetch - processPackages [ovos-local-backend]: Remove: archive file [/home/abi/fetcher/tmp/ovos_local_backend-0.2.0a9-py3-none-any.whl.zip]
+[2023-06-08 06:10:34] INFO root fetch - main [MainThread]: End processing [ovos-local-backend]: success
+[2023-06-08 06:10:34] INFO root fetch - main [MainThread]: End processing [ovos-local-backend]: success
+[2023-06-08 06:10:34] INFO root fetch - processPackages [odoo14-addon-delivery-mrw]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_delivery_mrw-14.0.1.1.1.dev1-py3-none-any.whl.zip]
+[2023-06-08 06:10:34] INFO root fetch - processPackages [odoo14-addon-delivery-mrw]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_delivery_mrw-14.0.1.1.2-py3-none-any.whl.zip]
+[2023-06-08 06:10:34] INFO root fetch - main [MainThread]: End processing [odoo14-addon-delivery-mrw]: success
+[2023-06-08 06:10:34] INFO root fetch - processPackages [STEP.py]: Remove: archive file [/home/abi/fetcher/tmp/STEP.py-2.1.tar.gz]
+[2023-06-08 06:10:34] INFO root fetch - processPackages [STEP.py]: Remove: archive file [/home/abi/fetcher/tmp/STEP.py-2.2.tar.gz]
+[2023-06-08 06:10:34] INFO root fetch - main [MainThread]: End processing [STEP.py]: success
+[2023-06-08 06:10:35] INFO root fetch - processPackages [Pandora-ChatGPT]: Remove: archive file [/home/abi/fetcher/tmp/Pandora-ChatGPT-1.1.8.tar.gz]
+[2023-06-08 06:10:35] INFO root fetch - processPackages [Pandora-ChatGPT]: Remove: archive file [/home/abi/fetcher/tmp/Pandora-ChatGPT-1.1.9.tar.gz]
+[2023-06-08 06:10:35] INFO root fetch - main [MainThread]: End processing [Pandora-ChatGPT]: success
+[2023-06-08 06:10:35] INFO root fetch - main [MainThread]: Store serial: [18419339]
