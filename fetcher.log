@@ -14761,3 +14761,114 @@ AssertionError: tmp/odoo_addon_hr_personal_equipment_request-16.0.1.0.0.7-py3-no
 [2023-06-08 06:40:26] INFO root fetch - processPackages [zuspec-arl-eval]: Remove: archive file [/home/abi/fetcher/tmp/zuspec_arl_eval-0.0.1.5207399556-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2023-06-08 06:40:26] INFO root fetch - main [MainThread]: End processing [zuspec-arl-eval]: success
 [2023-06-08 06:40:26] INFO root fetch - main [MainThread]: Store serial: [18419660]
+[2023-06-08 06:45:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18419660]
+[2023-06-08 06:45:37] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-08 06:45:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vector-vault
+[2023-06-08 06:45:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: libretrofuzz
+[2023-06-08 06:45:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo10-addon-account-cash-invoice
+[2023-06-08 06:45:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo11-addon-pos-loyalty
+[2023-06-08 06:45:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo10-addon-pos-loyalty
+[2023-06-08 06:45:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: velovi
+[2023-06-08 06:45:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo12-addon-pos-cash-move-reason
+[2023-06-08 06:45:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pydaikin
+[2023-06-08 06:45:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo11-addon-product-secondary-unit
+[2023-06-08 06:45:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odhpy
+[2023-06-08 06:45:37] INFO root fetch - processPackages [odoo10-addon-account-cash-invoice]: New version: [10.0.1.0.0.99.dev7] Old Version: [10.0.1.0.0.99.dev6]
+[2023-06-08 06:45:37] INFO root fetch - processPackages [odoo10-addon-pos-loyalty]: New version: [10.0.1.0.1.99.dev3] Old Version: [10.0.1.0.1.99.dev2]
+[2023-06-08 06:45:37] INFO root fetch - processPackages [odoo11-addon-pos-loyalty]: New version: [11.0.1.0.1.99.dev3] Old Version: [11.0.1.0.1.99.dev2]
+[2023-06-08 06:45:37] INFO root fetch - processPackages [vector-vault]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-06-08 06:45:37] INFO root fetch - processPackages [odhpy]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-08 06:45:37] INFO root fetch - processPackages [libretrofuzz]: New version: [2.9.9] Old Version: [2.9.8]
+[2023-06-08 06:45:37] INFO root fetch - processPackages [odoo11-addon-product-secondary-unit]: New version: [11.0.1.0.2.99.dev9] Old Version: [11.0.1.0.2.99.dev8]
+[2023-06-08 06:45:37] INFO root fetch - processPackages [pydaikin]: New version: [2.9.1] Old Version: [2.9.0]
+[2023-06-08 06:45:37] INFO root fetch - processPackages [velovi]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-06-08 06:45:37] INFO root fetch - processPackages [odoo12-addon-pos-cash-move-reason]: New version: [12.0.3.2.1.99.dev5] Old Version: [12.0.3.2.1.99.dev4]
+[2023-06-08 06:45:37] INFO root fetch - processPackages [odhpy]: Downloading https://files.pythonhosted.org/packages/eb/15/27b82a6bdc88bd363bad389d093cc391cc39de7bdba8e1baf5968329faf2/odhpy-0.0.8.tar.gz
+[2023-06-08 06:45:37] INFO root fetch - processPackages [odoo11-addon-pos-loyalty]: Downloading https://files.pythonhosted.org/packages/ad/56/0c84cdb12725a3fd2ea791ba457e1ae2f98e66f645fbe32ed0fca30742a7/odoo11_addon_pos_loyalty-11.0.1.0.1.99.dev2-py2.py3-none-any.whl
+[2023-06-08 06:45:37] INFO root fetch - processPackages [odoo10-addon-pos-loyalty]: Downloading https://files.pythonhosted.org/packages/74/d5/695681e18c6507c20f87769a88a410b660a7bdf17a31e150255b15e59f2a/odoo10_addon_pos_loyalty-10.0.1.0.1.99.dev2-py2-none-any.whl
+[2023-06-08 06:45:37] INFO root fetch - processPackages [libretrofuzz]: Downloading https://files.pythonhosted.org/packages/43/92/e8ea3fdd5d5a97bb2152097cbaec9eebdb8f530d97f6ba05332dfe6dc3e6/libretrofuzz-2.9.8.tar.gz
+[2023-06-08 06:45:37] INFO root fetch - processPackages [odoo10-addon-account-cash-invoice]: Downloading https://files.pythonhosted.org/packages/9b/5d/07df0232cc8c2b660cf1750bd472fbf5512840400860c692924adf19b37b/odoo10_addon_account_cash_invoice-10.0.1.0.0.99.dev6-py2-none-any.whl
+[2023-06-08 06:45:37] INFO root fetch - processPackages [vector-vault]: Downloading https://files.pythonhosted.org/packages/21/55/42839355039479c2ff74d145d5a2d4d76bb377a61a7dcba9f34d5a134dc2/vector_vault-2.0.1.tar.gz
+[2023-06-08 06:45:37] INFO root fetch - processPackages [pydaikin]: Downloading https://files.pythonhosted.org/packages/e2/88/0631f9d803cd3199e583608206108a145ee541fc58b4920077e9353df088/pydaikin-2.9.0.tar.gz
+[2023-06-08 06:45:37] INFO root fetch - processPackages [odoo11-addon-product-secondary-unit]: Downloading https://files.pythonhosted.org/packages/dc/02/645ca0a8f8e36313ee9986028b608868bdb24e1a7e01eb2300b84cf7c29f/odoo11_addon_product_secondary_unit-11.0.1.0.2.99.dev8-py2.py3-none-any.whl
+[2023-06-08 06:45:38] INFO root fetch - processPackages [velovi]: Downloading https://files.pythonhosted.org/packages/94/50/7fdd10e61ce96a50baaaa20a8b4544d959eec6d6bdef2befe6962d9ae8a6/velovi-0.2.0.tar.gz
+[2023-06-08 06:45:38] INFO root fetch - processPackages [odoo12-addon-pos-cash-move-reason]: Downloading https://files.pythonhosted.org/packages/7b/f0/fc7c32f97a581b0a3b52ba35209fb43f91358e6a68b86a3b1511855ba4ef/odoo12_addon_pos_cash_move_reason-12.0.3.2.1.99.dev4-py3-none-any.whl
+[2023-06-08 06:45:38] INFO root fetch - processPackages [odhpy]: Downloading https://files.pythonhosted.org/packages/1f/b6/86e1abc2e31b1dce791d9bdbbf5bb9b15ca8380e201ac02f6ef9a2f49b92/odhpy-0.0.9.tar.gz
+[2023-06-08 06:45:38] INFO root fetch - processPackages [vector-vault]: Downloading https://files.pythonhosted.org/packages/a1/a9/70ddf9c05397bd95ad9820fd5e404e9f7a6d4aa8cef468a305685cbf36ef/vector_vault-2.0.2.tar.gz
+[2023-06-08 06:45:38] INFO root fetch - processPackages [odhpy]: executing diffoscope
+[2023-06-08 06:45:38] INFO root fetch - processPackages [odhpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odhpy-0.0.8.tar.gz tmp/odhpy-0.0.9.tar.gz --markdown 20230608/o/odhpy/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-08 06:45:38] INFO root fetch - processPackages [libretrofuzz]: Downloading https://files.pythonhosted.org/packages/c4/69/3dc43957ad2b060874d3080814d3073e7c355be49d135908f75c30eefded/libretrofuzz-2.9.9.tar.gz
+[2023-06-08 06:45:38] INFO root fetch - processPackages [pydaikin]: Downloading https://files.pythonhosted.org/packages/d7/9a/48b5098f0b08ea5787259050de846b8dbff99f1e2255d548aaf42bf9e4bb/pydaikin-2.9.1.tar.gz
+[2023-06-08 06:45:38] INFO root fetch - processPackages [vector-vault]: executing diffoscope
+[2023-06-08 06:45:38] INFO root fetch - processPackages [vector-vault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vector_vault-2.0.1.tar.gz tmp/vector_vault-2.0.2.tar.gz --markdown 20230608/v/vector-vault/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-06-08 06:45:38] INFO root fetch - processPackages [odoo11-addon-pos-loyalty]: Downloading https://files.pythonhosted.org/packages/f3/23/91c0a36a3ceaf00e0f86c913a43e5c3b580ced1fb21decd38ba5057a993c/odoo11_addon_pos_loyalty-11.0.1.0.1.99.dev3-py2.py3-none-any.whl
+[2023-06-08 06:45:38] INFO root fetch - processPackages [libretrofuzz]: executing diffoscope
+[2023-06-08 06:45:38] INFO root fetch - processPackages [libretrofuzz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libretrofuzz-2.9.8.tar.gz tmp/libretrofuzz-2.9.9.tar.gz --markdown 20230608/l/libretrofuzz/2.9.8-2.9.9/diff.md --exclude *.pyd
+[2023-06-08 06:45:38] INFO root fetch - processPackages [odoo10-addon-account-cash-invoice]: Downloading https://files.pythonhosted.org/packages/65/23/98a01095c39fa1330fff75753e4e48cbde0f5177a94b3898be8134125b4b/odoo10_addon_account_cash_invoice-10.0.1.0.0.99.dev7-py2-none-any.whl
+[2023-06-08 06:45:38] INFO root fetch - processPackages [odoo10-addon-pos-loyalty]: Downloading https://files.pythonhosted.org/packages/72/f1/1c4d4609a7aba5fe765669eca74c37eff2295d4d219ab8259ee39579c80f/odoo10_addon_pos_loyalty-10.0.1.0.1.99.dev3-py2-none-any.whl
+[2023-06-08 06:45:38] INFO root fetch - processPackages [pydaikin]: executing diffoscope
+[2023-06-08 06:45:38] INFO root fetch - processPackages [pydaikin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydaikin-2.9.0.tar.gz tmp/pydaikin-2.9.1.tar.gz --markdown 20230608/p/pydaikin/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2023-06-08 06:45:38] INFO root fetch - processPackages [odoo11-addon-product-secondary-unit]: Downloading https://files.pythonhosted.org/packages/b0/63/757e507b5a3997c08b22ebc32cd524d13f066055d95088355638b3b4df39/odoo11_addon_product_secondary_unit-11.0.1.0.2.99.dev9-py2.py3-none-any.whl
+[2023-06-08 06:45:38] INFO root fetch - processPackages [velovi]: Downloading https://files.pythonhosted.org/packages/dd/b6/8cfb7c237371808abeff2f8bd8068d50c9e94f3d7ca6b3a1b1cc2f175b4a/velovi-0.3.0.tar.gz
+[2023-06-08 06:45:38] INFO root fetch - processPackages [odoo12-addon-pos-cash-move-reason]: Downloading https://files.pythonhosted.org/packages/9a/8e/221f4f4201456c978f3b09c2374bff36a86749ba1fb88fbf220db202da07/odoo12_addon_pos_cash_move_reason-12.0.3.2.1.99.dev5-py3-none-any.whl
+[2023-06-08 06:45:38] INFO root fetch - processPackages [velovi]: executing diffoscope
+[2023-06-08 06:45:38] INFO root fetch - processPackages [velovi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/velovi-0.2.0.tar.gz tmp/velovi-0.3.0.tar.gz --markdown 20230608/v/velovi/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-06-08 06:45:38] INFO root fetch - processPackages [odoo10-addon-account-cash-invoice]: executing diffoscope
+[2023-06-08 06:45:38] INFO root fetch - processPackages [odoo10-addon-account-cash-invoice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo10_addon_account_cash_invoice-10.0.1.0.0.99.dev6-py2-none-any.whl.zip tmp/odoo10_addon_account_cash_invoice-10.0.1.0.0.99.dev7-py2-none-any.whl.zip --markdown 20230608/o/odoo10-addon-account-cash-invoice/10.0.1.0.0.99.dev6-10.0.1.0.0.99.dev7/diff.md --exclude *.pyd
+[2023-06-08 06:45:38] INFO root fetch - processPackages [odoo11-addon-product-secondary-unit]: executing diffoscope
+[2023-06-08 06:45:38] INFO root fetch - processPackages [odoo11-addon-product-secondary-unit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo11_addon_product_secondary_unit-11.0.1.0.2.99.dev8-py2.py3-none-any.whl.zip tmp/odoo11_addon_product_secondary_unit-11.0.1.0.2.99.dev9-py2.py3-none-any.whl.zip --markdown 20230608/o/odoo11-addon-product-secondary-unit/11.0.1.0.2.99.dev8-11.0.1.0.2.99.dev9/diff.md --exclude *.pyd
+[2023-06-08 06:45:38] INFO root fetch - processPackages [odoo10-addon-pos-loyalty]: executing diffoscope
+[2023-06-08 06:45:38] INFO root fetch - processPackages [odoo10-addon-pos-loyalty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo10_addon_pos_loyalty-10.0.1.0.1.99.dev2-py2-none-any.whl.zip tmp/odoo10_addon_pos_loyalty-10.0.1.0.1.99.dev3-py2-none-any.whl.zip --markdown 20230608/o/odoo10-addon-pos-loyalty/10.0.1.0.1.99.dev2-10.0.1.0.1.99.dev3/diff.md --exclude *.pyd
+[2023-06-08 06:45:38] INFO root fetch - processPackages [odoo12-addon-pos-cash-move-reason]: executing diffoscope
+[2023-06-08 06:45:38] INFO root fetch - processPackages [odoo12-addon-pos-cash-move-reason]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_pos_cash_move_reason-12.0.3.2.1.99.dev4-py3-none-any.whl.zip tmp/odoo12_addon_pos_cash_move_reason-12.0.3.2.1.99.dev5-py3-none-any.whl.zip --markdown 20230608/o/odoo12-addon-pos-cash-move-reason/12.0.3.2.1.99.dev4-12.0.3.2.1.99.dev5/diff.md --exclude *.pyd
+[2023-06-08 06:45:38] INFO root fetch - processPackages [odoo11-addon-pos-loyalty]: executing diffoscope
+[2023-06-08 06:45:38] INFO root fetch - processPackages [odoo11-addon-pos-loyalty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo11_addon_pos_loyalty-11.0.1.0.1.99.dev2-py2.py3-none-any.whl.zip tmp/odoo11_addon_pos_loyalty-11.0.1.0.1.99.dev3-py2.py3-none-any.whl.zip --markdown 20230608/o/odoo11-addon-pos-loyalty/11.0.1.0.1.99.dev2-11.0.1.0.1.99.dev3/diff.md --exclude *.pyd
+[2023-06-08 06:45:39] INFO root fetch - processPackages [odhpy]: Remove: archive file [/home/abi/fetcher/tmp/odhpy-0.0.8.tar.gz]
+[2023-06-08 06:45:39] INFO root fetch - processPackages [odhpy]: Remove: archive file [/home/abi/fetcher/tmp/odhpy-0.0.9.tar.gz]
+[2023-06-08 06:45:39] INFO root fetch - processPackages [odhpy]: Start processing: netspresso
+[2023-06-08 06:45:39] INFO root fetch - main [MainThread]: End processing [odhpy]: success
+[2023-06-08 06:45:39] INFO root fetch - processPackages [netspresso]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-08 06:45:39] INFO root fetch - processPackages [netspresso]: Downloading https://files.pythonhosted.org/packages/0d/6e/0e9d1f5c380cfc76fb83acfe9481ae6eb734bc954bc6b45b7a40c6329216/netspresso-0.1.4-py3-none-any.whl
+[2023-06-08 06:45:39] INFO root fetch - processPackages [libretrofuzz]: Remove: archive file [/home/abi/fetcher/tmp/libretrofuzz-2.9.8.tar.gz]
+[2023-06-08 06:45:39] INFO root fetch - processPackages [libretrofuzz]: Remove: archive file [/home/abi/fetcher/tmp/libretrofuzz-2.9.9.tar.gz]
+[2023-06-08 06:45:39] INFO root fetch - processPackages [libretrofuzz]: Start processing: odoo12-addon-product-secondary-unit
+[2023-06-08 06:45:39] INFO root fetch - main [MainThread]: End processing [libretrofuzz]: success
+[2023-06-08 06:45:39] INFO root fetch - processPackages [netspresso]: Downloading https://files.pythonhosted.org/packages/b8/e6/a2723ac312484fd826be64e25d6f905e82390ca5c7bf781d7b7cd7bda331/netspresso-0.1.5-py3-none-any.whl
+[2023-06-08 06:45:39] INFO root fetch - processPackages [netspresso]: executing diffoscope
+[2023-06-08 06:45:39] INFO root fetch - processPackages [netspresso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netspresso-0.1.4-py3-none-any.whl.zip tmp/netspresso-0.1.5-py3-none-any.whl.zip --markdown 20230608/n/netspresso/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-08 06:45:40] INFO root fetch - processPackages [odoo12-addon-product-secondary-unit]: New version: [12.0.1.0.0.99.dev9] Old Version: [12.0.1.0.0.99.dev7]
+[2023-06-08 06:45:40] INFO root fetch - processPackages [vector-vault]: Remove: archive file [/home/abi/fetcher/tmp/vector_vault-2.0.1.tar.gz]
+[2023-06-08 06:45:40] INFO root fetch - processPackages [vector-vault]: Remove: archive file [/home/abi/fetcher/tmp/vector_vault-2.0.2.tar.gz]
+[2023-06-08 06:45:40] INFO root fetch - main [MainThread]: End processing [vector-vault]: success
+[2023-06-08 06:45:40] INFO root fetch - processPackages [odoo12-addon-product-secondary-unit]: Downloading https://files.pythonhosted.org/packages/24/3a/3483a630d12c6004125cff87d538b640628f0805701a01c530f8ef3f08c1/odoo12_addon_product_secondary_unit-12.0.1.0.0.99.dev7-py3-none-any.whl
+[2023-06-08 06:45:40] INFO root fetch - processPackages [pydaikin]: Remove: archive file [/home/abi/fetcher/tmp/pydaikin-2.9.0.tar.gz]
+[2023-06-08 06:45:40] INFO root fetch - processPackages [pydaikin]: Remove: archive file [/home/abi/fetcher/tmp/pydaikin-2.9.1.tar.gz]
+[2023-06-08 06:45:40] INFO root fetch - main [MainThread]: End processing [pydaikin]: success
+[2023-06-08 06:45:40] INFO root fetch - processPackages [velovi]: Remove: archive file [/home/abi/fetcher/tmp/velovi-0.2.0.tar.gz]
+[2023-06-08 06:45:40] INFO root fetch - processPackages [velovi]: Remove: archive file [/home/abi/fetcher/tmp/velovi-0.3.0.tar.gz]
+[2023-06-08 06:45:40] INFO root fetch - main [MainThread]: End processing [velovi]: success
+[2023-06-08 06:45:40] INFO root fetch - processPackages [odoo11-addon-product-secondary-unit]: Remove: archive file [/home/abi/fetcher/tmp/odoo11_addon_product_secondary_unit-11.0.1.0.2.99.dev8-py2.py3-none-any.whl.zip]
+[2023-06-08 06:45:40] INFO root fetch - processPackages [odoo11-addon-product-secondary-unit]: Remove: archive file [/home/abi/fetcher/tmp/odoo11_addon_product_secondary_unit-11.0.1.0.2.99.dev9-py2.py3-none-any.whl.zip]
+[2023-06-08 06:45:40] INFO root fetch - main [MainThread]: End processing [odoo11-addon-product-secondary-unit]: success
+[2023-06-08 06:45:40] INFO root fetch - processPackages [odoo10-addon-account-cash-invoice]: Remove: archive file [/home/abi/fetcher/tmp/odoo10_addon_account_cash_invoice-10.0.1.0.0.99.dev6-py2-none-any.whl.zip]
+[2023-06-08 06:45:40] INFO root fetch - processPackages [odoo10-addon-account-cash-invoice]: Remove: archive file [/home/abi/fetcher/tmp/odoo10_addon_account_cash_invoice-10.0.1.0.0.99.dev7-py2-none-any.whl.zip]
+[2023-06-08 06:45:40] INFO root fetch - main [MainThread]: End processing [odoo10-addon-account-cash-invoice]: success
+[2023-06-08 06:45:40] INFO root fetch - processPackages [odoo10-addon-pos-loyalty]: Remove: archive file [/home/abi/fetcher/tmp/odoo10_addon_pos_loyalty-10.0.1.0.1.99.dev2-py2-none-any.whl.zip]
+[2023-06-08 06:45:40] INFO root fetch - processPackages [odoo10-addon-pos-loyalty]: Remove: archive file [/home/abi/fetcher/tmp/odoo10_addon_pos_loyalty-10.0.1.0.1.99.dev3-py2-none-any.whl.zip]
+[2023-06-08 06:45:40] INFO root fetch - main [MainThread]: End processing [odoo10-addon-pos-loyalty]: success
+[2023-06-08 06:45:40] INFO root fetch - processPackages [odoo12-addon-product-secondary-unit]: Downloading https://files.pythonhosted.org/packages/0c/c5/08b5bb09eeeeaa9848c1b8c0b17b0d748aff7f8eaae773bd1dd9352fbc3c/odoo12_addon_product_secondary_unit-12.0.1.0.0.99.dev9-py3-none-any.whl
+[2023-06-08 06:45:40] INFO root fetch - processPackages [odoo11-addon-pos-loyalty]: Remove: archive file [/home/abi/fetcher/tmp/odoo11_addon_pos_loyalty-11.0.1.0.1.99.dev2-py2.py3-none-any.whl.zip]
+[2023-06-08 06:45:40] INFO root fetch - processPackages [odoo11-addon-pos-loyalty]: Remove: archive file [/home/abi/fetcher/tmp/odoo11_addon_pos_loyalty-11.0.1.0.1.99.dev3-py2.py3-none-any.whl.zip]
+[2023-06-08 06:45:40] INFO root fetch - main [MainThread]: End processing [odoo11-addon-pos-loyalty]: success
+[2023-06-08 06:45:40] INFO root fetch - processPackages [odoo12-addon-pos-cash-move-reason]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_pos_cash_move_reason-12.0.3.2.1.99.dev4-py3-none-any.whl.zip]
+[2023-06-08 06:45:40] INFO root fetch - processPackages [odoo12-addon-pos-cash-move-reason]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_pos_cash_move_reason-12.0.3.2.1.99.dev5-py3-none-any.whl.zip]
+[2023-06-08 06:45:40] INFO root fetch - main [MainThread]: End processing [odoo12-addon-pos-cash-move-reason]: success
+[2023-06-08 06:45:40] INFO root fetch - processPackages [odoo12-addon-product-secondary-unit]: executing diffoscope
+[2023-06-08 06:45:40] INFO root fetch - processPackages [odoo12-addon-product-secondary-unit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_product_secondary_unit-12.0.1.0.0.99.dev7-py3-none-any.whl.zip tmp/odoo12_addon_product_secondary_unit-12.0.1.0.0.99.dev9-py3-none-any.whl.zip --markdown 20230608/o/odoo12-addon-product-secondary-unit/12.0.1.0.0.99.dev7-12.0.1.0.0.99.dev9/diff.md --exclude *.pyd
+[2023-06-08 06:45:41] INFO root fetch - processPackages [netspresso]: Remove: archive file [/home/abi/fetcher/tmp/netspresso-0.1.4-py3-none-any.whl.zip]
+[2023-06-08 06:45:41] INFO root fetch - processPackages [netspresso]: Remove: archive file [/home/abi/fetcher/tmp/netspresso-0.1.5-py3-none-any.whl.zip]
+[2023-06-08 06:45:41] INFO root fetch - main [MainThread]: End processing [netspresso]: success
+[2023-06-08 06:45:41] INFO root fetch - processPackages [odoo12-addon-product-secondary-unit]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_product_secondary_unit-12.0.1.0.0.99.dev7-py3-none-any.whl.zip]
+[2023-06-08 06:45:41] INFO root fetch - processPackages [odoo12-addon-product-secondary-unit]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_product_secondary_unit-12.0.1.0.0.99.dev9-py3-none-any.whl.zip]
+[2023-06-08 06:45:41] INFO root fetch - main [MainThread]: End processing [odoo12-addon-product-secondary-unit]: success
+[2023-06-08 06:45:41] INFO root fetch - main [MainThread]: Store serial: [18419687]
