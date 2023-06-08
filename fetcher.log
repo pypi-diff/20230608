@@ -18139,3 +18139,57 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-08 08:14:35] INFO root fetch - processPackages [chatgpt-Cloud]: Remove: archive file [/home/abi/fetcher/tmp/chatgpt-Cloud-0.5.5.tar.gz]
 [2023-06-08 08:14:35] INFO root fetch - main [MainThread]: End processing [chatgpt-Cloud]: success
 [2023-06-08 08:14:35] INFO root fetch - main [MainThread]: Store serial: [18420570]
+[2023-06-08 08:19:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18420570]
+[2023-06-08 08:19:44] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-08 08:19:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fibo-gavin-baker
+[2023-06-08 08:19:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tracebloc-package
+[2023-06-08 08:19:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hcristian
+[2023-06-08 08:19:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: maestro-music
+[2023-06-08 08:19:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tigeropen
+[2023-06-08 08:19:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ezbeq
+[2023-06-08 08:19:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: types-tensorflow
+[2023-06-08 08:19:44] INFO root fetch - processPackages [tracebloc-package]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-08 08:19:44] INFO root fetch - processPackages [maestro-music]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-08 08:19:44] WARNING root fetch - processPackages [fibo-gavin-baker]: Skipping, unable to determine old version
+[2023-06-08 08:19:44] WARNING root fetch - processPackages [hcristian]: Skipping, unable to determine old version
+[2023-06-08 08:19:44] INFO root fetch - processPackages [tigeropen]: New version: [3.0.0] Old Version: [2.4.0]
+[2023-06-08 08:19:44] INFO root fetch - main [MainThread]: End processing [fibo-gavin-baker] error
+[2023-06-08 08:19:44] INFO root fetch - main [MainThread]: End processing [hcristian] error
+[2023-06-08 08:19:44] INFO root fetch - processPackages [ezbeq]: New version: [1.0.0b9] Old Version: [1.0.0b8]
+[2023-06-08 08:19:44] INFO root fetch - processPackages [ezbeq]: Downloading https://files.pythonhosted.org/packages/40/f4/b0ed80140e26a49763ebb750a2e45e2b8e31fd86699b28f44391dfd0eff4/ezbeq-1.0.0b8.tar.gz
+[2023-06-08 08:19:44] INFO root fetch - processPackages [tigeropen]: Downloading https://files.pythonhosted.org/packages/a4/95/7dc95796dbbb35cf134c81f1632aa4b678b2886ca1efc8014a7297fb895a/tigeropen-2.4.0.tar.gz
+[2023-06-08 08:19:44] INFO root fetch - processPackages [tracebloc-package]: Downloading https://files.pythonhosted.org/packages/8c/0c/53c1613f9f9cc2d451482f056ad41f63d79cd5a6df8760a925969349d056/tracebloc_package-0.1.8.tar.gz
+[2023-06-08 08:19:44] INFO root fetch - processPackages [maestro-music]: Downloading https://files.pythonhosted.org/packages/66/76/41bda145f01e4b282415425f2d091bed4e36bd5fca3448fa28e5a34b2144/maestro-music-1.0.2.tar.gz
+[2023-06-08 08:19:44] INFO root fetch - processPackages [types-tensorflow]: New version: [2.12.0.5] Old Version: [2.12.0.4]
+[2023-06-08 08:19:44] INFO root fetch - processPackages [tracebloc-package]: Downloading https://files.pythonhosted.org/packages/2f/86/f5a06ff14db12b21fe7460dc71f1dae6aca3db77058e45f121993bc6a568/tracebloc_package-0.1.9.tar.gz
+[2023-06-08 08:19:44] INFO root fetch - processPackages [ezbeq]: Downloading https://files.pythonhosted.org/packages/01/2c/eb8009743c7049f955b3b3ffb989398ca1433d2be1f0bf9848674fa1e2f9/ezbeq-1.0.0b9.tar.gz
+[2023-06-08 08:19:44] INFO root fetch - processPackages [tigeropen]: Downloading https://files.pythonhosted.org/packages/e9/3f/a8b352f66ffbeea1ee4b0c24d1bd7a5a2a1b94b7f576d6ae5e0d43fbbf12/tigeropen-3.0.0.tar.gz
+[2023-06-08 08:19:44] INFO root fetch - processPackages [tracebloc-package]: executing diffoscope
+[2023-06-08 08:19:44] INFO root fetch - processPackages [tracebloc-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tracebloc_package-0.1.8.tar.gz tmp/tracebloc_package-0.1.9.tar.gz --markdown 20230608/t/tracebloc-package/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-08 08:19:44] INFO root fetch - processPackages [ezbeq]: executing diffoscope
+[2023-06-08 08:19:44] INFO root fetch - processPackages [ezbeq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ezbeq-1.0.0b8.tar.gz tmp/ezbeq-1.0.0b9.tar.gz --markdown 20230608/e/ezbeq/1.0.0b8-1.0.0b9/diff.md --exclude *.pyd
+[2023-06-08 08:19:44] INFO root fetch - processPackages [types-tensorflow]: Downloading https://files.pythonhosted.org/packages/ed/65/015937f42879182dcb3fd397c59e74a2c2bad7796cdd58b23570943c481b/types-tensorflow-2.12.0.4.tar.gz
+[2023-06-08 08:19:44] INFO root fetch - processPackages [tigeropen]: executing diffoscope
+[2023-06-08 08:19:44] INFO root fetch - processPackages [tigeropen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tigeropen-2.4.0.tar.gz tmp/tigeropen-3.0.0.tar.gz --markdown 20230608/t/tigeropen/2.4.0-3.0.0/diff.md --exclude *.pyd
+[2023-06-08 08:19:44] INFO root fetch - processPackages [maestro-music]: Downloading https://files.pythonhosted.org/packages/d4/61/e025c86bde980b6d0e811824814690f5814ee6565c8e568463c89943086d/maestro-music-1.0.3.tar.gz
+[2023-06-08 08:19:45] INFO root fetch - processPackages [maestro-music]: executing diffoscope
+[2023-06-08 08:19:45] INFO root fetch - processPackages [maestro-music]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maestro-music-1.0.2.tar.gz tmp/maestro-music-1.0.3.tar.gz --markdown 20230608/m/maestro-music/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-08 08:19:45] INFO root fetch - processPackages [types-tensorflow]: Downloading https://files.pythonhosted.org/packages/07/14/6b7b05adf45602be4f424afc987b5636d595a68898d7203b1fe392e5d766/types-tensorflow-2.12.0.5.tar.gz
+[2023-06-08 08:19:45] INFO root fetch - processPackages [types-tensorflow]: executing diffoscope
+[2023-06-08 08:19:45] INFO root fetch - processPackages [types-tensorflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-tensorflow-2.12.0.4.tar.gz tmp/types-tensorflow-2.12.0.5.tar.gz --markdown 20230608/t/types-tensorflow/2.12.0.4-2.12.0.5/diff.md --exclude *.pyd
+[2023-06-08 08:19:46] INFO root fetch - processPackages [tracebloc-package]: Remove: archive file [/home/abi/fetcher/tmp/tracebloc_package-0.1.8.tar.gz]
+[2023-06-08 08:19:46] INFO root fetch - processPackages [tracebloc-package]: Remove: archive file [/home/abi/fetcher/tmp/tracebloc_package-0.1.9.tar.gz]
+[2023-06-08 08:19:46] INFO root fetch - main [MainThread]: End processing [tracebloc-package]: success
+[2023-06-08 08:19:46] INFO root fetch - processPackages [maestro-music]: Remove: archive file [/home/abi/fetcher/tmp/maestro-music-1.0.2.tar.gz]
+[2023-06-08 08:19:46] INFO root fetch - processPackages [maestro-music]: Remove: archive file [/home/abi/fetcher/tmp/maestro-music-1.0.3.tar.gz]
+[2023-06-08 08:19:46] INFO root fetch - main [MainThread]: End processing [maestro-music]: success
+[2023-06-08 08:19:46] INFO root fetch - processPackages [tigeropen]: Remove: archive file [/home/abi/fetcher/tmp/tigeropen-2.4.0.tar.gz]
+[2023-06-08 08:19:46] INFO root fetch - processPackages [tigeropen]: Remove: archive file [/home/abi/fetcher/tmp/tigeropen-3.0.0.tar.gz]
+[2023-06-08 08:19:46] INFO root fetch - main [MainThread]: End processing [tigeropen]: success
+[2023-06-08 08:19:48] INFO root fetch - processPackages [types-tensorflow]: Remove: archive file [/home/abi/fetcher/tmp/types-tensorflow-2.12.0.4.tar.gz]
+[2023-06-08 08:19:48] INFO root fetch - processPackages [types-tensorflow]: Remove: archive file [/home/abi/fetcher/tmp/types-tensorflow-2.12.0.5.tar.gz]
+[2023-06-08 08:19:48] INFO root fetch - main [MainThread]: End processing [types-tensorflow]: success
+[2023-06-08 08:19:55] INFO root fetch - processPackages [ezbeq]: Remove: archive file [/home/abi/fetcher/tmp/ezbeq-1.0.0b8.tar.gz]
+[2023-06-08 08:19:55] INFO root fetch - processPackages [ezbeq]: Remove: archive file [/home/abi/fetcher/tmp/ezbeq-1.0.0b9.tar.gz]
+[2023-06-08 08:19:55] INFO root fetch - main [MainThread]: End processing [ezbeq]: success
+[2023-06-08 08:19:55] INFO root fetch - main [MainThread]: Store serial: [18420596]
