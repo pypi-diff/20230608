@@ -20366,3 +20366,57 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-06-08 10:24:42] INFO root fetch - processPackages [DLMS-SPODES]: Remove: archive file [/home/abi/fetcher/tmp/DLMS_SPODES-0.9.0.tar.gz]
 [2023-06-08 10:24:42] INFO root fetch - main [MainThread]: End processing [DLMS-SPODES]: success
 [2023-06-08 10:24:42] INFO root fetch - main [MainThread]: Store serial: [18421473]
+[2023-06-08 10:29:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18421473]
+[2023-06-08 10:29:52] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-08 10:29:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: onnx2kerastl
+[2023-06-08 10:29:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tf-model-optimization-nightly
+[2023-06-08 10:29:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: python-code-outline
+[2023-06-08 10:29:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zipline-tej
+[2023-06-08 10:29:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lanelet2-parser
+[2023-06-08 10:29:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mqtt-cli
+[2023-06-08 10:29:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: BaseDeploy
+[2023-06-08 10:29:52] INFO root fetch - processPackages [zipline-tej]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-08 10:29:52] INFO root fetch - processPackages [lanelet2-parser]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-08 10:29:52] INFO root fetch - processPackages [onnx2kerastl]: New version: [0.0.97.dev1] Old Version: [0.0.96]
+[2023-06-08 10:29:52] INFO root fetch - processPackages [python-code-outline]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-08 10:29:52] INFO root fetch - processPackages [tf-model-optimization-nightly]: New version: [0.7.5.dev20230607] Old Version: [0.7.5.dev20230605]
+[2023-06-08 10:29:52] INFO root fetch - processPackages [zipline-tej]: Downloading https://files.pythonhosted.org/packages/81/74/1c77fcc7996870f973250f70f5fd993fbdf66e25b3c8f01eb1d263d75c6a/zipline-tej-0.0.8.tar.gz
+[2023-06-08 10:29:52] INFO root fetch - processPackages [python-code-outline]: Downloading https://files.pythonhosted.org/packages/73/13/df041c6973f243b4308520e4ee11b8d51d17c35d2943349f6e92c504b182/python_code_outline-0.1.4.tar.gz
+[2023-06-08 10:29:52] WARNING root fetch - processPackages [mqtt-cli]: Skipping, unable to determine old version
+[2023-06-08 10:29:52] INFO root fetch - main [MainThread]: End processing [mqtt-cli] error
+[2023-06-08 10:29:52] WARNING root fetch - processPackages [BaseDeploy]: Skipping, unable to determine old version
+[2023-06-08 10:29:52] INFO root fetch - main [MainThread]: End processing [BaseDeploy] error
+[2023-06-08 10:29:52] INFO root fetch - processPackages [onnx2kerastl]: Downloading https://files.pythonhosted.org/packages/8e/33/ab66bf5b129d975bc051bec3fe66bf7da61670d158902989fa3425324b6d/onnx2kerastl-0.0.96.tar.gz
+[2023-06-08 10:29:52] INFO root fetch - processPackages [tf-model-optimization-nightly]: Downloading https://files.pythonhosted.org/packages/c2/f9/7dfdef81df7eebe9b400a342ad11d814549e36a01b225bbb7f0cdda14d1b/tf_model_optimization_nightly-0.7.5.dev20230605-py2.py3-none-any.whl
+[2023-06-08 10:29:52] INFO root fetch - processPackages [lanelet2-parser]: Downloading https://files.pythonhosted.org/packages/a6/5e/ac5a05f5d92e202d8e4d3d63eb4d2a78a7adeb7cb1875dd49d4fc63f6579/lanelet2_parser-0.1.7.tar.gz
+[2023-06-08 10:29:52] INFO root fetch - processPackages [zipline-tej]: Downloading https://files.pythonhosted.org/packages/84/15/b5579d7eb6cdb4cc9d6c22c0f36086080b26eabdda5b9d6a1f9a7f8f8df6/zipline-tej-0.0.9.tar.gz
+[2023-06-08 10:29:52] INFO root fetch - processPackages [zipline-tej]: executing diffoscope
+[2023-06-08 10:29:52] INFO root fetch - processPackages [zipline-tej]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zipline-tej-0.0.8.tar.gz tmp/zipline-tej-0.0.9.tar.gz --markdown 20230608/z/zipline-tej/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-08 10:29:52] INFO root fetch - processPackages [python-code-outline]: Downloading https://files.pythonhosted.org/packages/81/b2/5be21ba131c2dab6325e77eb059c051813eff2164c6bbde0fa8a160cbf61/python_code_outline-0.1.5.tar.gz
+[2023-06-08 10:29:52] INFO root fetch - processPackages [onnx2kerastl]: Downloading https://files.pythonhosted.org/packages/a0/e9/a91733f1dda2a0f0d5e5a9c688e988f0e28055e3845020ce8445db37dabf/onnx2kerastl-0.0.97.dev1.tar.gz
+[2023-06-08 10:29:52] INFO root fetch - processPackages [tf-model-optimization-nightly]: Downloading https://files.pythonhosted.org/packages/3c/3c/3b49614762c5ec217792d1066b16726889c0aec8cf459522ebb73adb68f1/tf_model_optimization_nightly-0.7.5.dev20230607-py2.py3-none-any.whl
+[2023-06-08 10:29:52] INFO root fetch - processPackages [python-code-outline]: executing diffoscope
+[2023-06-08 10:29:52] INFO root fetch - processPackages [python-code-outline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_code_outline-0.1.4.tar.gz tmp/python_code_outline-0.1.5.tar.gz --markdown 20230608/p/python-code-outline/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-08 10:29:52] INFO root fetch - processPackages [tf-model-optimization-nightly]: executing diffoscope
+[2023-06-08 10:29:52] INFO root fetch - processPackages [tf-model-optimization-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_model_optimization_nightly-0.7.5.dev20230605-py2.py3-none-any.whl.zip tmp/tf_model_optimization_nightly-0.7.5.dev20230607-py2.py3-none-any.whl.zip --markdown 20230608/t/tf-model-optimization-nightly/0.7.5.dev20230605-0.7.5.dev20230607/diff.md --exclude *.pyd
+[2023-06-08 10:29:52] INFO root fetch - processPackages [onnx2kerastl]: executing diffoscope
+[2023-06-08 10:29:52] INFO root fetch - processPackages [onnx2kerastl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnx2kerastl-0.0.96.tar.gz tmp/onnx2kerastl-0.0.97.dev1.tar.gz --markdown 20230608/o/onnx2kerastl/0.0.96-0.0.97.dev1/diff.md --exclude *.pyd
+[2023-06-08 10:29:52] INFO root fetch - processPackages [lanelet2-parser]: Downloading https://files.pythonhosted.org/packages/bb/c8/7f143573548d550d6fe20ab27a06b10d374210fa410c3cb2b26a0c7e7b68/lanelet2_parser-0.1.8.tar.gz
+[2023-06-08 10:29:52] INFO root fetch - processPackages [lanelet2-parser]: executing diffoscope
+[2023-06-08 10:29:52] INFO root fetch - processPackages [lanelet2-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lanelet2_parser-0.1.7.tar.gz tmp/lanelet2_parser-0.1.8.tar.gz --markdown 20230608/l/lanelet2-parser/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-08 10:29:52] ERROR root fetch - processPackages [tf-model-optimization-nightly]: Diffoscope failed: Error: error creating container storage: the container name "boring_wing" is already in use by "2a390ed43e593be390cccdac8b9f58e70b4936d96f05fe5a8578b4939b8482a3". You have to remove that container to be able to reuse that name.: that name is already in use
+
+[2023-06-08 10:29:52] INFO root fetch - main [MainThread]: End processing [tf-model-optimization-nightly] error
+[2023-06-08 10:29:53] INFO root fetch - processPackages [python-code-outline]: Remove: archive file [/home/abi/fetcher/tmp/python_code_outline-0.1.4.tar.gz]
+[2023-06-08 10:29:53] INFO root fetch - processPackages [python-code-outline]: Remove: archive file [/home/abi/fetcher/tmp/python_code_outline-0.1.5.tar.gz]
+[2023-06-08 10:29:53] INFO root fetch - main [MainThread]: End processing [python-code-outline]: success
+[2023-06-08 10:29:53] INFO root fetch - processPackages [onnx2kerastl]: Remove: archive file [/home/abi/fetcher/tmp/onnx2kerastl-0.0.96.tar.gz]
+[2023-06-08 10:29:53] INFO root fetch - processPackages [onnx2kerastl]: Remove: archive file [/home/abi/fetcher/tmp/onnx2kerastl-0.0.97.dev1.tar.gz]
+[2023-06-08 10:29:53] INFO root fetch - main [MainThread]: End processing [onnx2kerastl]: success
+[2023-06-08 10:29:54] INFO root fetch - processPackages [lanelet2-parser]: Remove: archive file [/home/abi/fetcher/tmp/lanelet2_parser-0.1.7.tar.gz]
+[2023-06-08 10:29:54] INFO root fetch - processPackages [lanelet2-parser]: Remove: archive file [/home/abi/fetcher/tmp/lanelet2_parser-0.1.8.tar.gz]
+[2023-06-08 10:29:54] INFO root fetch - main [MainThread]: End processing [lanelet2-parser]: success
+[2023-06-08 10:29:54] INFO root fetch - processPackages [zipline-tej]: Remove: archive file [/home/abi/fetcher/tmp/zipline-tej-0.0.8.tar.gz]
+[2023-06-08 10:29:54] INFO root fetch - processPackages [zipline-tej]: Remove: archive file [/home/abi/fetcher/tmp/zipline-tej-0.0.9.tar.gz]
+[2023-06-08 10:29:54] INFO root fetch - main [MainThread]: End processing [zipline-tej]: success
+[2023-06-08 10:29:54] INFO root fetch - main [MainThread]: Store serial: [18421497]
