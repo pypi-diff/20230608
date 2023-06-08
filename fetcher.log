@@ -18268,3 +18268,49 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-08 08:25:18] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-33.3.3.tar.gz]
 [2023-06-08 08:25:18] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2023-06-08 08:25:18] INFO root fetch - main [MainThread]: Store serial: [18420630]
+[2023-06-08 08:30:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18420630]
+[2023-06-08 08:30:27] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-08 08:30:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ChatGPT-Cloud
+[2023-06-08 08:30:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: avwx-engine
+[2023-06-08 08:30:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fuo-ytmusic
+[2023-06-08 08:30:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: firmitas
+[2023-06-08 08:30:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ChatGPT-Cloud
+[2023-06-08 08:30:27] INFO root fetch - processPackages [ChatGPT-Cloud]: New version: [0.5.8] Old Version: [0.5.5]
+[2023-06-08 08:30:27] INFO root fetch - processPackages [firmitas]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-08 08:30:27] INFO root fetch - processPackages [ChatGPT-Cloud]: New version: [0.5.8] Old Version: [0.5.5]
+[2023-06-08 08:30:27] INFO root fetch - processPackages [fuo-ytmusic]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-06-08 08:30:27] INFO root fetch - processPackages [avwx-engine]: New version: [1.8.9] Old Version: [1.8.8]
+[2023-06-08 08:30:27] INFO root fetch - processPackages [ChatGPT-Cloud]: Downloading https://files.pythonhosted.org/packages/20/b7/b687c4af2ee0c848bf2a6fc241ad752927f262a1f2b51ed76c172774b826/chatgpt-Cloud-0.5.5.tar.gz
+[2023-06-08 08:30:27] INFO root fetch - processPackages [ChatGPT-Cloud]: Downloading https://files.pythonhosted.org/packages/20/b7/b687c4af2ee0c848bf2a6fc241ad752927f262a1f2b51ed76c172774b826/chatgpt-Cloud-0.5.5.tar.gz
+[2023-06-08 08:30:27] INFO root fetch - processPackages [fuo-ytmusic]: Downloading https://files.pythonhosted.org/packages/fa/f4/92d6f5392da507bc671a89dbaf3d080af744fbee2195baebff0097b3c327/fuo-ytmusic-0.1.1.tar.gz
+[2023-06-08 08:30:27] INFO root fetch - processPackages [avwx-engine]: Downloading https://files.pythonhosted.org/packages/98/23/e0c4ffac5bbf77546fe213f9def26a8756392320c99510562fb0f41d2b9d/avwx_engine-1.8.8.tar.gz
+[2023-06-08 08:30:28] INFO root fetch - processPackages [firmitas]: Downloading https://files.pythonhosted.org/packages/4f/28/54331f81530b8b882e3eabba4c054045fc779794ead975ae49e7ac6c72ad/firmitas-0.1.1.tar.gz
+[2023-06-08 08:30:28] INFO root fetch - processPackages [ChatGPT-Cloud]: Downloading https://files.pythonhosted.org/packages/4d/f4/e37c2b5031af7a2be26f10c8a6523b982a52bbf0a9745fd86c33d98a75bb/ChatGPT-Cloud-0.5.8.tar.gz
+[2023-06-08 08:30:28] INFO root fetch - processPackages [ChatGPT-Cloud]: Downloading https://files.pythonhosted.org/packages/4d/f4/e37c2b5031af7a2be26f10c8a6523b982a52bbf0a9745fd86c33d98a75bb/ChatGPT-Cloud-0.5.8.tar.gz
+[2023-06-08 08:30:28] INFO root fetch - processPackages [fuo-ytmusic]: Downloading https://files.pythonhosted.org/packages/a8/5b/f5c01a47ade802e6e566618fe10748691763abde6c0c85067e68c5e45a26/fuo-ytmusic-0.2.0.tar.gz
+[2023-06-08 08:30:28] INFO root fetch - processPackages [ChatGPT-Cloud]: executing diffoscope
+[2023-06-08 08:30:28] INFO root fetch - processPackages [ChatGPT-Cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatgpt-Cloud-0.5.5.tar.gz tmp/ChatGPT-Cloud-0.5.8.tar.gz --markdown 20230608/C/ChatGPT-Cloud/0.5.5-0.5.8/diff.md --exclude *.pyd
+[2023-06-08 08:30:28] INFO root fetch - processPackages [firmitas]: Downloading https://files.pythonhosted.org/packages/a7/68/d656c6493b905e35f84d1e274c83e19dc576d9a6de021006840cc99bf07b/firmitas-0.1.2.tar.gz
+[2023-06-08 08:30:28] INFO root fetch - processPackages [fuo-ytmusic]: executing diffoscope
+[2023-06-08 08:30:28] INFO root fetch - processPackages [fuo-ytmusic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fuo-ytmusic-0.1.1.tar.gz tmp/fuo-ytmusic-0.2.0.tar.gz --markdown 20230608/f/fuo-ytmusic/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-06-08 08:30:28] INFO root fetch - processPackages [ChatGPT-Cloud]: executing diffoscope
+[2023-06-08 08:30:28] INFO root fetch - processPackages [ChatGPT-Cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatgpt-Cloud-0.5.5.tar.gz tmp/ChatGPT-Cloud-0.5.8.tar.gz --markdown 20230608/C/ChatGPT-Cloud/0.5.5-0.5.8/diff.md --exclude *.pyd
+[2023-06-08 08:30:28] INFO root fetch - processPackages [firmitas]: executing diffoscope
+[2023-06-08 08:30:28] INFO root fetch - processPackages [firmitas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/firmitas-0.1.1.tar.gz tmp/firmitas-0.1.2.tar.gz --markdown 20230608/f/firmitas/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-08 08:30:29] INFO root fetch - processPackages [avwx-engine]: Downloading https://files.pythonhosted.org/packages/8e/d6/c5f4f781c8bb9fc272a1192d9ec936ba95599b8f2699f89a629385fc9cff/avwx_engine-1.8.9.tar.gz
+[2023-06-08 08:30:29] INFO root fetch - processPackages [firmitas]: Remove: archive file [/home/abi/fetcher/tmp/firmitas-0.1.1.tar.gz]
+[2023-06-08 08:30:29] INFO root fetch - processPackages [firmitas]: Remove: archive file [/home/abi/fetcher/tmp/firmitas-0.1.2.tar.gz]
+[2023-06-08 08:30:29] INFO root fetch - main [MainThread]: End processing [firmitas]: success
+[2023-06-08 08:30:29] INFO root fetch - processPackages [fuo-ytmusic]: Remove: archive file [/home/abi/fetcher/tmp/fuo-ytmusic-0.1.1.tar.gz]
+[2023-06-08 08:30:29] INFO root fetch - processPackages [fuo-ytmusic]: Remove: archive file [/home/abi/fetcher/tmp/fuo-ytmusic-0.2.0.tar.gz]
+[2023-06-08 08:30:29] INFO root fetch - main [MainThread]: End processing [fuo-ytmusic]: success
+[2023-06-08 08:30:29] INFO root fetch - processPackages [avwx-engine]: executing diffoscope
+[2023-06-08 08:30:29] INFO root fetch - processPackages [avwx-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/avwx_engine-1.8.8.tar.gz tmp/avwx_engine-1.8.9.tar.gz --markdown 20230608/a/avwx-engine/1.8.8-1.8.9/diff.md --exclude *.pyd
+[2023-06-08 08:30:30] INFO root fetch - processPackages [ChatGPT-Cloud]: Remove: archive file [/home/abi/fetcher/tmp/chatgpt-Cloud-0.5.5.tar.gz]
+[2023-06-08 08:30:30] INFO root fetch - processPackages [ChatGPT-Cloud]: Remove: archive file [/home/abi/fetcher/tmp/ChatGPT-Cloud-0.5.8.tar.gz]
+[2023-06-08 08:30:30] INFO root fetch - main [MainThread]: End processing [ChatGPT-Cloud]: success
+[2023-06-08 08:30:30] INFO root fetch - main [MainThread]: End processing [ChatGPT-Cloud]: success
+[2023-06-08 08:30:48] INFO root fetch - processPackages [avwx-engine]: Remove: archive file [/home/abi/fetcher/tmp/avwx_engine-1.8.8.tar.gz]
+[2023-06-08 08:30:48] INFO root fetch - processPackages [avwx-engine]: Remove: archive file [/home/abi/fetcher/tmp/avwx_engine-1.8.9.tar.gz]
+[2023-06-08 08:30:48] INFO root fetch - main [MainThread]: End processing [avwx-engine]: success
+[2023-06-08 08:30:48] INFO root fetch - main [MainThread]: Store serial: [18420646]
