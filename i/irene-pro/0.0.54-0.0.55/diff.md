@@ -1,0 +1,170 @@
+# Comparing `tmp/irene_pro-0.0.54.tar.gz` & `tmp/irene_pro-0.0.55.tar.gz`
+
+## filetype from file(1)
+
+```diff
+@@ -1 +1 @@
+-gzip compressed data, was "irene_pro-0.0.54.tar", last modified: Thu Jun  8 13:00:38 2023, max compression
++gzip compressed data, was "irene_pro-0.0.55.tar", last modified: Thu Jun  8 13:11:18 2023, max compression
+```
+
+## Comparing `irene_pro-0.0.54.tar` & `irene_pro-0.0.55.tar`
+
+### file list
+
+```diff
+@@ -1,17 +1,17 @@
+-drwxrwxrwx   0        0        0        0 2023-06-08 13:00:38.811475 irene_pro-0.0.54/
+--rw-rw-rw-   0        0        0      227 2023-05-04 09:47:29.000000 irene_pro-0.0.54/LICENSE
+--rw-rw-rw-   0        0        0       14 2023-05-08 07:12:29.000000 irene_pro-0.0.54/MANIFEST.in
+--rw-rw-rw-   0        0        0     1940 2023-06-08 13:00:38.808483 irene_pro-0.0.54/PKG-INFO
+--rw-rw-rw-   0        0        0     1360 2023-06-02 07:47:21.000000 irene_pro-0.0.54/README.md
+-drwxrwxrwx   0        0        0        0 2023-06-08 13:00:38.710745 irene_pro-0.0.54/irene_pro/
+--rw-rw-rw-   0        0        0        0 2023-05-04 13:31:01.000000 irene_pro-0.0.54/irene_pro/__init__.py
+--rw-rw-rw-   0        0        0     5920 2023-06-02 07:39:01.000000 irene_pro-0.0.54/irene_pro/logic.py
+--rw-rw-rw-   0        0        0    32749 2023-06-08 12:59:42.000000 irene_pro-0.0.54/irene_pro/widgets.py
+-drwxrwxrwx   0        0        0        0 2023-06-08 13:00:38.790532 irene_pro-0.0.54/irene_pro.egg-info/
+--rw-rw-rw-   0        0        0     1940 2023-06-08 13:00:38.000000 irene_pro-0.0.54/irene_pro.egg-info/PKG-INFO
+--rw-rw-rw-   0        0        0      264 2023-06-08 13:00:38.000000 irene_pro-0.0.54/irene_pro.egg-info/SOURCES.txt
+--rw-rw-rw-   0        0        0        1 2023-06-08 13:00:38.000000 irene_pro-0.0.54/irene_pro.egg-info/dependency_links.txt
+--rw-rw-rw-   0        0        0       59 2023-06-08 13:00:38.000000 irene_pro-0.0.54/irene_pro.egg-info/requires.txt
+--rw-rw-rw-   0        0        0       10 2023-06-08 13:00:38.000000 irene_pro-0.0.54/irene_pro.egg-info/top_level.txt
+--rw-rw-rw-   0        0        0       42 2023-06-08 13:00:38.813470 irene_pro-0.0.54/setup.cfg
+--rw-rw-rw-   0        0        0     1164 2023-06-08 13:00:15.000000 irene_pro-0.0.54/setup.py
++drwxrwxrwx   0        0        0        0 2023-06-08 13:11:18.968036 irene_pro-0.0.55/
++-rw-rw-rw-   0        0        0      227 2023-05-04 09:47:29.000000 irene_pro-0.0.55/LICENSE
++-rw-rw-rw-   0        0        0       14 2023-05-08 07:12:29.000000 irene_pro-0.0.55/MANIFEST.in
++-rw-rw-rw-   0        0        0     1940 2023-06-08 13:11:18.965043 irene_pro-0.0.55/PKG-INFO
++-rw-rw-rw-   0        0        0     1360 2023-06-02 07:47:21.000000 irene_pro-0.0.55/README.md
++drwxrwxrwx   0        0        0        0 2023-06-08 13:11:18.933129 irene_pro-0.0.55/irene_pro/
++-rw-rw-rw-   0        0        0        0 2023-05-04 13:31:01.000000 irene_pro-0.0.55/irene_pro/__init__.py
++-rw-rw-rw-   0        0        0     5920 2023-06-02 07:39:01.000000 irene_pro-0.0.55/irene_pro/logic.py
++-rw-rw-rw-   0        0        0    32843 2023-06-08 13:08:36.000000 irene_pro-0.0.55/irene_pro/widgets.py
++drwxrwxrwx   0        0        0        0 2023-06-08 13:11:18.961055 irene_pro-0.0.55/irene_pro.egg-info/
++-rw-rw-rw-   0        0        0     1940 2023-06-08 13:11:18.000000 irene_pro-0.0.55/irene_pro.egg-info/PKG-INFO
++-rw-rw-rw-   0        0        0      264 2023-06-08 13:11:18.000000 irene_pro-0.0.55/irene_pro.egg-info/SOURCES.txt
++-rw-rw-rw-   0        0        0        1 2023-06-08 13:11:18.000000 irene_pro-0.0.55/irene_pro.egg-info/dependency_links.txt
++-rw-rw-rw-   0        0        0       59 2023-06-08 13:11:18.000000 irene_pro-0.0.55/irene_pro.egg-info/requires.txt
++-rw-rw-rw-   0        0        0       10 2023-06-08 13:11:18.000000 irene_pro-0.0.55/irene_pro.egg-info/top_level.txt
++-rw-rw-rw-   0        0        0       42 2023-06-08 13:11:18.969033 irene_pro-0.0.55/setup.cfg
++-rw-rw-rw-   0        0        0     1164 2023-06-08 13:10:39.000000 irene_pro-0.0.55/setup.py
+```
+
+### Comparing `irene_pro-0.0.54/PKG-INFO` & `irene_pro-0.0.55/PKG-INFO`
+
+ * *Files 1% similar despite different names*
+
+```diff
+@@ -1,10 +1,10 @@
+ Metadata-Version: 2.1
+ Name: irene_pro
+-Version: 0.0.54
++Version: 0.0.55
+ Summary: Use customized GUI
+ Author: Irene coldsober
+ Author-email: <irene.study.2023@gmail.com>
+ Keywords: tkinter,widget,gui
+ Classifier: Development Status :: 5 - Production/Stable
+ Classifier: Intended Audience :: Developers
+ Classifier: Programming Language :: Python :: 3
+```
+
+### Comparing `irene_pro-0.0.54/README.md` & `irene_pro-0.0.55/README.md`
+
+ * *Files identical despite different names*
+
+### Comparing `irene_pro-0.0.54/irene_pro/logic.py` & `irene_pro-0.0.55/irene_pro/logic.py`
+
+ * *Files identical despite different names*
+
+### Comparing `irene_pro-0.0.54/irene_pro/widgets.py` & `irene_pro-0.0.55/irene_pro/widgets.py`
+
+ * *Files 1% similar despite different names*
+
+```diff
+@@ -101,32 +101,32 @@
+         try:
+             if type(data[0]) not in [list, tuple]:
+                 if self.include_index:
+                     tag = ('odd')
+                 
+                     if self.index_for_single_list_data % 2 ==0:
+                         tag = ('even',)
+-                    wrapping(data)
+-                    self.insert("", index=self.index_for_single_list_data,text=self.index_for_single_list_data + 1, values = data, tags = tag)
++                    data_wrapped = wrapping(data)
++                    self.insert("", index=self.index_for_single_list_data,text=self.index_for_single_list_data + 1, values = data_wrapped, tags = tag)
+                 else:
+-                    wrapping(data)
+-                    self.insert("", index=self.index_for_single_list_data, values = data)
++                    data_wrapped = wrapping(data)
++                    self.insert("", index=self.index_for_single_list_data, values = data_wrapped)
+                 self.index_for_single_list_data += 1
+                 
+             else:
+                 for index, row in enumerate(data):
+                     tag = ('odd')
+                     if self.index_for_single_list_data % 2 ==0:
+                         tag = ('even',)
+                     if self.include_index:
+-                        wrapping(data[index])
+-                        self.insert("", index=index,text=self.index_for_single_list_data+1, values = row, tags=tag)
++                        data_wrapped = wrapping(data[index])
++                        self.insert("", index=index,text=self.index_for_single_list_data+1, values = data_wrapped, tags=tag)
+                     else:
+-                        wrapping(data[index])
+-                        self.insert("", index=index, values = row)
++                        data_wrapped = wrapping(data[index])
++                        self.insert("", index=index, values = data_wrapped)
+                     self.index_for_single_list_data += 1
+         except IndexError:
+             pass
+ 
+ class btn(Button):
+     def __init__(self, master,image = None, **kwargs):
+         super().__init__(master=master, compound = "left", bd = 0,font = w(12),image = image, **kwargs)
+```
+
+### Comparing `irene_pro-0.0.54/irene_pro.egg-info/PKG-INFO` & `irene_pro-0.0.55/irene_pro.egg-info/PKG-INFO`
+
+ * *Files 1% similar despite different names*
+
+```diff
+@@ -1,10 +1,10 @@
+ Metadata-Version: 2.1
+ Name: irene-pro
+-Version: 0.0.54
++Version: 0.0.55
+ Summary: Use customized GUI
+ Author: Irene coldsober
+ Author-email: <irene.study.2023@gmail.com>
+ Keywords: tkinter,widget,gui
+ Classifier: Development Status :: 5 - Production/Stable
+ Classifier: Intended Audience :: Developers
+ Classifier: Programming Language :: Python :: 3
+```
+
+### Comparing `irene_pro-0.0.54/setup.py` & `irene_pro-0.0.55/setup.py`
+
+ * *Files 1% similar despite different names*
+
+```diff
+@@ -10,15 +10,15 @@
+ 00000090: 286f 732e 7061 7468 2e6a 6f69 6e28 6865  (os.path.join(he
+ 000000a0: 7265 2c20 2252 4541 444d 452e 6d64 2229  re, "README.md")
+ 000000b0: 2c20 656e 636f 6469 6e67 3d22 7574 662d  , encoding="utf-
+ 000000c0: 3822 2920 6173 2066 683a 0d0a 2020 2020  8") as fh:..    
+ 000000d0: 6c6f 6e67 5f64 6573 6372 6970 7469 6f6e  long_description
+ 000000e0: 203d 2022 5c6e 2220 2b20 6668 2e72 6561   = "\n" + fh.rea
+ 000000f0: 6428 290d 0a0d 0a56 4552 5349 4f4e 203d  d()....VERSION =
+-00000100: 2027 302e 302e 3534 270d 0a44 4553 4352   '0.0.54'..DESCR
++00000100: 2027 302e 302e 3535 270d 0a44 4553 4352   '0.0.55'..DESCR
+ 00000110: 4950 5449 4f4e 203d 2027 5573 6520 6375  IPTION = 'Use cu
+ 00000120: 7374 6f6d 697a 6564 2047 5549 270d 0a4c  stomized GUI'..L
+ 00000130: 4f4e 475f 4445 5343 5249 5054 494f 4e20  ONG_DESCRIPTION 
+ 00000140: 3d20 2741 2070 6163 6b61 6765 2074 6861  = 'A package tha
+ 00000150: 7420 616c 6c6f 7773 2079 6f75 2074 6f20  t allows you to 
+ 00000160: 7573 6520 7374 796c 6573 2061 6e64 2077  use styles and w
+ 00000170: 6964 6765 7420 6f66 2073 7570 6572 206c  idget of super l
+```
+
