@@ -20420,3 +20420,90 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-06-08 10:29:54] INFO root fetch - processPackages [zipline-tej]: Remove: archive file [/home/abi/fetcher/tmp/zipline-tej-0.0.9.tar.gz]
 [2023-06-08 10:29:54] INFO root fetch - main [MainThread]: End processing [zipline-tej]: success
 [2023-06-08 10:29:54] INFO root fetch - main [MainThread]: Store serial: [18421497]
+[2023-06-08 10:34:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18421497]
+[2023-06-08 10:35:04] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-08 10:35:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alibabacloud-cloudfw20171207
+[2023-06-08 10:35:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lastpassreportingcli
+[2023-06-08 10:35:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: akshare
+[2023-06-08 10:35:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyPLNmodels
+[2023-06-08 10:35:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: yourttt
+[2023-06-08 10:35:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: speech-collator
+[2023-06-08 10:35:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: azure-mgmt-rdbms
+[2023-06-08 10:35:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sdcpy
+[2023-06-08 10:35:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sd-meh
+[2023-06-08 10:35:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: buildbot-pipeline
+[2023-06-08 10:35:04] INFO root fetch - processPackages [alibabacloud-cloudfw20171207]: New version: [1.2.8] Old Version: [1.2.7]
+[2023-06-08 10:35:04] INFO root fetch - processPackages [sdcpy]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-06-08 10:35:04] WARNING root fetch - processPackages [yourttt]: Skipping, unable to determine old version
+[2023-06-08 10:35:04] INFO root fetch - main [MainThread]: End processing [yourttt] error
+[2023-06-08 10:35:04] INFO root fetch - processPackages [sd-meh]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-06-08 10:35:04] INFO root fetch - processPackages [lastpassreportingcli]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-06-08 10:35:04] INFO root fetch - processPackages [speech-collator]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-08 10:35:04] INFO root fetch - processPackages [azure-mgmt-rdbms]: New version: [9.1.0b1] Old Version: [9.1.0]
+[2023-06-08 10:35:04] INFO root fetch - processPackages [buildbot-pipeline]: New version: [0.9.1] Old Version: [0.9]
+[2023-06-08 10:35:04] INFO root fetch - processPackages [pyPLNmodels]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-08 10:35:04] INFO root fetch - processPackages [akshare]: New version: [1.9.99] Old Version: [1.9.98]
+[2023-06-08 10:35:04] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/ec/a4/f1c21d8fbb349e15f0bf76d32a496003bcff9b66215f81b940337a510e36/akshare-1.9.98.tar.gz
+[2023-06-08 10:35:04] INFO root fetch - processPackages [alibabacloud-cloudfw20171207]: Downloading https://files.pythonhosted.org/packages/39/e1/7960194d377bb79e0c4d6c32a7444f3ce7677e8d9259e3d923e44e0a59f1/alibabacloud_cloudfw20171207-1.2.7.tar.gz
+[2023-06-08 10:35:04] INFO root fetch - processPackages [sdcpy]: Downloading https://files.pythonhosted.org/packages/13/8f/ce31bf8e5085ee551efe828b80bfa21be77d43bf3741aa1750b169e3f2f0/sdcpy-0.2.2.tar.gz
+[2023-06-08 10:35:04] INFO root fetch - processPackages [sd-meh]: Downloading https://files.pythonhosted.org/packages/89/12/93e7dcee51b75dc81a061e2afdcbbbf4f4dc0697a485c2bf55a15427e83e/sd_meh-0.4.0.tar.gz
+[2023-06-08 10:35:04] INFO root fetch - processPackages [azure-mgmt-rdbms]: Downloading https://files.pythonhosted.org/packages/d2/9c/3cecd80eed47ceaa0dfd13b1ff30aba2a6d7e0c1d25093ea2502f72bf991/azure-mgmt-rdbms-9.1.0.zip
+[2023-06-08 10:35:04] INFO root fetch - processPackages [lastpassreportingcli]: Downloading https://files.pythonhosted.org/packages/28/51/a309c657eec2e80208f275be36e5053d86f087625a3edc252df1c19c6f56/lastpassreportingcli-0.3.2.tar.gz
+[2023-06-08 10:35:04] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/53/e8/f58e96016752567ca09f3f67abdc7e935d0afa919aded528d50590ed9170/akshare-1.9.99.tar.gz
+[2023-06-08 10:35:04] INFO root fetch - processPackages [pyPLNmodels]: Downloading https://files.pythonhosted.org/packages/51/b0/7d9557b8945170adab935eafed81fb717ab0a6849909f142dfcf9ab78264/pyPLNmodels-0.0.8.tar.gz
+[2023-06-08 10:35:04] INFO root fetch - processPackages [buildbot-pipeline]: Downloading https://files.pythonhosted.org/packages/c0/be/4bd1f63898e697d419fcd366adf68f2a4f6fe69b09ab8090f91217647724/buildbot_pipeline-0.9.tar.gz
+[2023-06-08 10:35:04] INFO root fetch - processPackages [speech-collator]: Downloading https://files.pythonhosted.org/packages/f9/a4/349d7a91853a0ead03fafab1d6fee405085858bdb0911f8dce640ca538ce/speech_collator-0.1.8.tar.gz
+[2023-06-08 10:35:04] INFO root fetch - processPackages [akshare]: executing diffoscope
+[2023-06-08 10:35:04] INFO root fetch - processPackages [akshare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akshare-1.9.98.tar.gz tmp/akshare-1.9.99.tar.gz --markdown 20230608/a/akshare/1.9.98-1.9.99/diff.md --exclude *.pyd
+[2023-06-08 10:35:04] INFO root fetch - processPackages [alibabacloud-cloudfw20171207]: Downloading https://files.pythonhosted.org/packages/d5/e0/2325e2ae0e4cbde808f4c6919a358478087ddef1371489b631c121a2b96b/alibabacloud_cloudfw20171207-1.2.8.tar.gz
+[2023-06-08 10:35:04] INFO root fetch - processPackages [alibabacloud-cloudfw20171207]: executing diffoscope
+[2023-06-08 10:35:04] INFO root fetch - processPackages [alibabacloud-cloudfw20171207]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_cloudfw20171207-1.2.7.tar.gz tmp/alibabacloud_cloudfw20171207-1.2.8.tar.gz --markdown 20230608/a/alibabacloud-cloudfw20171207/1.2.7-1.2.8/diff.md --exclude *.pyd
+[2023-06-08 10:35:04] INFO root fetch - processPackages [sdcpy]: Downloading https://files.pythonhosted.org/packages/5f/f0/a8259675b36538e34cf1b945736e0c7253b43d3776fde88209e9ff67eb03/sdcpy-0.2.3.tar.gz
+[2023-06-08 10:35:04] INFO root fetch - processPackages [sd-meh]: Downloading https://files.pythonhosted.org/packages/26/0b/6b0ef4af7d6b02dc9ca83552ae7c8a377391dc332ee14d948aebaf96bfd0/sd_meh-0.5.0.tar.gz
+[2023-06-08 10:35:04] INFO root fetch - processPackages [sdcpy]: executing diffoscope
+[2023-06-08 10:35:04] INFO root fetch - processPackages [sdcpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdcpy-0.2.2.tar.gz tmp/sdcpy-0.2.3.tar.gz --markdown 20230608/s/sdcpy/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-06-08 10:35:04] INFO root fetch - processPackages [lastpassreportingcli]: Downloading https://files.pythonhosted.org/packages/53/30/5eddc4f11329f4db09dbd4a5e9c2a31b0e3b1e9e1a502fd9ba6030faf4ad/lastpassreportingcli-0.3.3.tar.gz
+[2023-06-08 10:35:04] INFO root fetch - processPackages [sd-meh]: executing diffoscope
+[2023-06-08 10:35:04] INFO root fetch - processPackages [sd-meh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sd_meh-0.4.0.tar.gz tmp/sd_meh-0.5.0.tar.gz --markdown 20230608/s/sd-meh/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-06-08 10:35:04] INFO root fetch - processPackages [pyPLNmodels]: Downloading https://files.pythonhosted.org/packages/d9/ee/b1ce119365c9ee2f1e8f012450c38c4ebaa0ba7795d2a008d8fcde4dfd07/pyPLNmodels-0.0.9.tar.gz
+[2023-06-08 10:35:04] INFO root fetch - processPackages [lastpassreportingcli]: executing diffoscope
+[2023-06-08 10:35:04] INFO root fetch - processPackages [lastpassreportingcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lastpassreportingcli-0.3.2.tar.gz tmp/lastpassreportingcli-0.3.3.tar.gz --markdown 20230608/l/lastpassreportingcli/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-06-08 10:35:04] INFO root fetch - processPackages [azure-mgmt-rdbms]: Downloading https://files.pythonhosted.org/packages/09/03/fb10b5f20a04351592067c2a7aa414df85d20b50dac97a048463b1ab3773/azure-mgmt-rdbms-9.1.0b1.zip
+[2023-06-08 10:35:05] INFO root fetch - processPackages [pyPLNmodels]: executing diffoscope
+[2023-06-08 10:35:05] INFO root fetch - processPackages [pyPLNmodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyPLNmodels-0.0.8.tar.gz tmp/pyPLNmodels-0.0.9.tar.gz --markdown 20230608/p/pyPLNmodels/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-08 10:35:05] INFO root fetch - processPackages [azure-mgmt-rdbms]: executing diffoscope
+[2023-06-08 10:35:05] INFO root fetch - processPackages [azure-mgmt-rdbms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-mgmt-rdbms-9.1.0.zip tmp/azure-mgmt-rdbms-9.1.0b1.zip --markdown 20230608/a/azure-mgmt-rdbms/9.1.0-9.1.0b1/diff.md --exclude *.pyd
+[2023-06-08 10:35:05] INFO root fetch - processPackages [buildbot-pipeline]: Downloading https://files.pythonhosted.org/packages/a5/26/3e9c33785b74a41abc3f51c6a7c6c5dbcb01002ba35e1398a8dec4f8a521/buildbot_pipeline-0.9.1.tar.gz
+[2023-06-08 10:35:05] INFO root fetch - processPackages [buildbot-pipeline]: executing diffoscope
+[2023-06-08 10:35:05] INFO root fetch - processPackages [buildbot-pipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/buildbot_pipeline-0.9.tar.gz tmp/buildbot_pipeline-0.9.1.tar.gz --markdown 20230608/b/buildbot-pipeline/0.9-0.9.1/diff.md --exclude *.pyd
+[2023-06-08 10:35:05] INFO root fetch - processPackages [speech-collator]: Downloading https://files.pythonhosted.org/packages/18/27/fbb01f45afd2b0552d6465d8c14c2152df6bafce27c3646e68863232584a/speech_collator-0.1.9.tar.gz
+[2023-06-08 10:35:06] INFO root fetch - processPackages [sd-meh]: Remove: archive file [/home/abi/fetcher/tmp/sd_meh-0.4.0.tar.gz]
+[2023-06-08 10:35:06] INFO root fetch - processPackages [sd-meh]: Remove: archive file [/home/abi/fetcher/tmp/sd_meh-0.5.0.tar.gz]
+[2023-06-08 10:35:06] INFO root fetch - main [MainThread]: End processing [sd-meh]: success
+[2023-06-08 10:35:06] INFO root fetch - processPackages [sdcpy]: Remove: archive file [/home/abi/fetcher/tmp/sdcpy-0.2.2.tar.gz]
+[2023-06-08 10:35:06] INFO root fetch - processPackages [sdcpy]: Remove: archive file [/home/abi/fetcher/tmp/sdcpy-0.2.3.tar.gz]
+[2023-06-08 10:35:06] INFO root fetch - main [MainThread]: End processing [sdcpy]: success
+[2023-06-08 10:35:06] INFO root fetch - processPackages [speech-collator]: executing diffoscope
+[2023-06-08 10:35:06] INFO root fetch - processPackages [speech-collator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/speech_collator-0.1.8.tar.gz tmp/speech_collator-0.1.9.tar.gz --markdown 20230608/s/speech-collator/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-08 10:35:06] INFO root fetch - processPackages [pyPLNmodels]: Remove: archive file [/home/abi/fetcher/tmp/pyPLNmodels-0.0.8.tar.gz]
+[2023-06-08 10:35:06] INFO root fetch - processPackages [pyPLNmodels]: Remove: archive file [/home/abi/fetcher/tmp/pyPLNmodels-0.0.9.tar.gz]
+[2023-06-08 10:35:06] INFO root fetch - main [MainThread]: End processing [pyPLNmodels]: success
+[2023-06-08 10:35:06] INFO root fetch - processPackages [lastpassreportingcli]: Remove: archive file [/home/abi/fetcher/tmp/lastpassreportingcli-0.3.2.tar.gz]
+[2023-06-08 10:35:06] INFO root fetch - processPackages [lastpassreportingcli]: Remove: archive file [/home/abi/fetcher/tmp/lastpassreportingcli-0.3.3.tar.gz]
+[2023-06-08 10:35:06] INFO root fetch - main [MainThread]: End processing [lastpassreportingcli]: success
+[2023-06-08 10:35:06] INFO root fetch - processPackages [alibabacloud-cloudfw20171207]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_cloudfw20171207-1.2.7.tar.gz]
+[2023-06-08 10:35:06] INFO root fetch - processPackages [alibabacloud-cloudfw20171207]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_cloudfw20171207-1.2.8.tar.gz]
+[2023-06-08 10:35:06] INFO root fetch - main [MainThread]: End processing [alibabacloud-cloudfw20171207]: success
+[2023-06-08 10:35:07] INFO root fetch - processPackages [buildbot-pipeline]: Remove: archive file [/home/abi/fetcher/tmp/buildbot_pipeline-0.9.tar.gz]
+[2023-06-08 10:35:07] INFO root fetch - processPackages [buildbot-pipeline]: Remove: archive file [/home/abi/fetcher/tmp/buildbot_pipeline-0.9.1.tar.gz]
+[2023-06-08 10:35:07] INFO root fetch - main [MainThread]: End processing [buildbot-pipeline]: success
+[2023-06-08 10:35:07] INFO root fetch - processPackages [speech-collator]: Remove: archive file [/home/abi/fetcher/tmp/speech_collator-0.1.8.tar.gz]
+[2023-06-08 10:35:07] INFO root fetch - processPackages [speech-collator]: Remove: archive file [/home/abi/fetcher/tmp/speech_collator-0.1.9.tar.gz]
+[2023-06-08 10:35:07] INFO root fetch - main [MainThread]: End processing [speech-collator]: success
+[2023-06-08 10:35:08] INFO root fetch - processPackages [azure-mgmt-rdbms]: Remove: archive file [/home/abi/fetcher/tmp/azure-mgmt-rdbms-9.1.0.zip]
+[2023-06-08 10:35:08] INFO root fetch - processPackages [azure-mgmt-rdbms]: Remove: archive file [/home/abi/fetcher/tmp/azure-mgmt-rdbms-9.1.0b1.zip]
+[2023-06-08 10:35:08] INFO root fetch - main [MainThread]: End processing [azure-mgmt-rdbms]: success
+[2023-06-08 10:35:09] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.98.tar.gz]
+[2023-06-08 10:35:09] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.99.tar.gz]
+[2023-06-08 10:35:09] INFO root fetch - main [MainThread]: End processing [akshare]: success
+[2023-06-08 10:35:09] INFO root fetch - main [MainThread]: Store serial: [18421528]
