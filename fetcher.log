@@ -17970,3 +17970,85 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-08 08:04:03] INFO root fetch - processPackages [caep]: Remove: archive file [/home/abi/fetcher/tmp/caep-0.1.9.tar.gz]
 [2023-06-08 08:04:03] INFO root fetch - main [MainThread]: End processing [caep]: success
 [2023-06-08 08:04:03] INFO root fetch - main [MainThread]: Store serial: [18420510]
+[2023-06-08 08:09:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18420510]
+[2023-06-08 08:09:12] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-08 08:09:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aie-sdk
+[2023-06-08 08:09:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pishockpy
+[2023-06-08 08:09:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sbc-gpio
+[2023-06-08 08:09:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sbc-gpio
+[2023-06-08 08:09:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vgs-api-client
+[2023-06-08 08:09:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyg-nightly
+[2023-06-08 08:09:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sidechannelattack
+[2023-06-08 08:09:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: auto-gptq
+[2023-06-08 08:09:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: quickmpc
+[2023-06-08 08:09:12] INFO root fetch - processPackages [sbc-gpio]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-08 08:09:12] INFO root fetch - processPackages [pishockpy]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-08 08:09:12] INFO root fetch - processPackages [aie-sdk]: New version: [3.0.1] Old Version: [2.2.5]
+[2023-06-08 08:09:12] INFO root fetch - processPackages [vgs-api-client]: New version: [0.0.45] Old Version: [0.0.44]
+[2023-06-08 08:09:12] INFO root fetch - processPackages [sbc-gpio]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-08 08:09:12] INFO root fetch - processPackages [auto-gptq]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-06-08 08:09:12] INFO root fetch - processPackages [sidechannelattack]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-08 08:09:12] INFO root fetch - processPackages [pyg-nightly]: New version: [2.4.0.dev20230607] Old Version: [2.4.0.dev20230606]
+[2023-06-08 08:09:12] INFO root fetch - processPackages [vgs-api-client]: Downloading https://files.pythonhosted.org/packages/04/7e/dbe7b48fb43cd257360210eb902664720b9a0bd0a7c2e48ccf5ca12b974e/vgs_api_client-0.0.44-py3-none-any.whl
+[2023-06-08 08:09:12] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/03/30/9a2d0655f97eaeac7039d2e1040cbb30fcaf55658ac14e2c2ba6606dc87d/pyg_nightly-2.4.0.dev20230606.tar.gz
+[2023-06-08 08:09:12] INFO root fetch - processPackages [sbc-gpio]: Downloading https://files.pythonhosted.org/packages/d3/a8/c53ca96db4cd9b92a603f00771504107beabc63741bade3ca60ae827adf2/sbc_gpio-1.0.1.tar.gz
+[2023-06-08 08:09:12] INFO root fetch - processPackages [sbc-gpio]: Downloading https://files.pythonhosted.org/packages/d3/a8/c53ca96db4cd9b92a603f00771504107beabc63741bade3ca60ae827adf2/sbc_gpio-1.0.1.tar.gz
+[2023-06-08 08:09:12] INFO root fetch - processPackages [quickmpc]: New version: [0.4.0] Old Version: [0.3.9]
+[2023-06-08 08:09:12] INFO root fetch - processPackages [aie-sdk]: Downloading https://files.pythonhosted.org/packages/2e/5a/f01baec65e4fc179020efed67f77e83042201d18aa89b3bf337f1d545ba8/aie-sdk-2.2.5.tar.gz
+[2023-06-08 08:09:12] INFO root fetch - processPackages [pishockpy]: Downloading https://files.pythonhosted.org/packages/d4/e8/ea9401764b409ba17b5dec222087ce0e1ddccf46b1fd3c002d9ce414ffed/pishockpy-0.0.3.tar.gz
+[2023-06-08 08:09:12] INFO root fetch - processPackages [sidechannelattack]: Downloading https://files.pythonhosted.org/packages/c7/41/1b69b76adfddd15fe41794867af9d291a47db80b0aab85a64f68ce41af88/sidechannelattack-0.0.1.tar.gz
+[2023-06-08 08:09:12] INFO root fetch - processPackages [vgs-api-client]: Downloading https://files.pythonhosted.org/packages/f3/ed/7a97156ce2d911c52393a8c6c2a834d8ee54030cb2fed24ff0bed8589019/vgs_api_client-0.0.45-py3-none-any.whl
+[2023-06-08 08:09:13] INFO root fetch - processPackages [vgs-api-client]: executing diffoscope
+[2023-06-08 08:09:13] INFO root fetch - processPackages [vgs-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vgs_api_client-0.0.44-py3-none-any.whl.zip tmp/vgs_api_client-0.0.45-py3-none-any.whl.zip --markdown 20230608/v/vgs-api-client/0.0.44-0.0.45/diff.md --exclude *.pyd
+[2023-06-08 08:09:13] INFO root fetch - processPackages [quickmpc]: Downloading https://files.pythonhosted.org/packages/5b/6f/6f1053f2f186d8c46cef3668a01724ee90c75f8009fc395e29f010b5c9f5/quickmpc-0.3.9.tar.gz
+[2023-06-08 08:09:13] INFO root fetch - processPackages [auto-gptq]: Downloading https://files.pythonhosted.org/packages/ed/72/e1500ec2de0b2dd7785e43c8c78c124a19cd79a19fbdb54345e536311aaf/auto_gptq-0.2.1.tar.gz
+[2023-06-08 08:09:13] INFO root fetch - processPackages [sbc-gpio]: Downloading https://files.pythonhosted.org/packages/40/9c/48be56da9dc8a46d93ed356caf874c7d39068756404c12237d3124bf8d82/sbc_gpio-1.0.2.tar.gz
+[2023-06-08 08:09:13] INFO root fetch - processPackages [sbc-gpio]: Downloading https://files.pythonhosted.org/packages/40/9c/48be56da9dc8a46d93ed356caf874c7d39068756404c12237d3124bf8d82/sbc_gpio-1.0.2.tar.gz
+[2023-06-08 08:09:13] INFO root fetch - processPackages [aie-sdk]: Downloading https://files.pythonhosted.org/packages/ba/5f/439c4f49a11cf11b0fe2d47731e09a3146ddfd4e0506e5477f187c3aec6a/aie-sdk-3.0.1.tar.gz
+[2023-06-08 08:09:13] INFO root fetch - processPackages [sbc-gpio]: executing diffoscope
+[2023-06-08 08:09:13] INFO root fetch - processPackages [sbc-gpio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbc_gpio-1.0.1.tar.gz tmp/sbc_gpio-1.0.2.tar.gz --markdown 20230608/s/sbc-gpio/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-08 08:09:13] INFO root fetch - processPackages [pishockpy]: Downloading https://files.pythonhosted.org/packages/c2/a0/879a4eca77f831dee0203d69bbf38908c7be2b157767a5731862b7526bf7/pishockpy-0.0.4.tar.gz
+[2023-06-08 08:09:13] INFO root fetch - processPackages [sbc-gpio]: executing diffoscope
+[2023-06-08 08:09:13] INFO root fetch - processPackages [sbc-gpio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbc_gpio-1.0.1.tar.gz tmp/sbc_gpio-1.0.2.tar.gz --markdown 20230608/s/sbc-gpio/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-08 08:09:13] INFO root fetch - processPackages [sidechannelattack]: Downloading https://files.pythonhosted.org/packages/23/0e/ecbe3fdcfb54ea7b7e54d4397ccef8f2a2534dc6b7f6271a832eb9538821/sidechannelattack-0.0.2.tar.gz
+[2023-06-08 08:09:13] INFO root fetch - processPackages [aie-sdk]: executing diffoscope
+[2023-06-08 08:09:13] INFO root fetch - processPackages [aie-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aie-sdk-2.2.5.tar.gz tmp/aie-sdk-3.0.1.tar.gz --markdown 20230608/a/aie-sdk/2.2.5-3.0.1/diff.md --exclude *.pyd
+[2023-06-08 08:09:13] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/cc/ae/c8edaafecd955b9b52c5c32ac44892161e872b38a25d8e10407ea4e71a81/pyg_nightly-2.4.0.dev20230607.tar.gz
+[2023-06-08 08:09:13] INFO root fetch - processPackages [pishockpy]: executing diffoscope
+[2023-06-08 08:09:13] INFO root fetch - processPackages [pishockpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pishockpy-0.0.3.tar.gz tmp/pishockpy-0.0.4.tar.gz --markdown 20230608/p/pishockpy/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-08 08:09:13] INFO root fetch - processPackages [auto-gptq]: Downloading https://files.pythonhosted.org/packages/94/07/3f3f6905a9bd334c6ee8025df42e4789379612703b935be328caaaa41c23/auto_gptq-0.2.2.tar.gz
+[2023-06-08 08:09:13] INFO root fetch - processPackages [sidechannelattack]: executing diffoscope
+[2023-06-08 08:09:13] INFO root fetch - processPackages [sidechannelattack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sidechannelattack-0.0.1.tar.gz tmp/sidechannelattack-0.0.2.tar.gz --markdown 20230608/s/sidechannelattack/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-08 08:09:13] INFO root fetch - processPackages [auto-gptq]: executing diffoscope
+[2023-06-08 08:09:13] INFO root fetch - processPackages [auto-gptq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto_gptq-0.2.1.tar.gz tmp/auto_gptq-0.2.2.tar.gz --markdown 20230608/a/auto-gptq/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-06-08 08:09:13] INFO root fetch - processPackages [pyg-nightly]: executing diffoscope
+[2023-06-08 08:09:13] INFO root fetch - processPackages [pyg-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyg_nightly-2.4.0.dev20230606.tar.gz tmp/pyg_nightly-2.4.0.dev20230607.tar.gz --markdown 20230608/p/pyg-nightly/2.4.0.dev20230606-2.4.0.dev20230607/diff.md --exclude *.pyd
+[2023-06-08 08:09:13] INFO root fetch - processPackages [quickmpc]: Downloading https://files.pythonhosted.org/packages/f1/bf/84ba30f112135cfebd3efd47def08a1ddc3b83b79f1b1419634c9c558732/quickmpc-0.4.0-py3-none-any.whl
+[2023-06-08 08:09:14] INFO root fetch - processPackages [quickmpc]: executing diffoscope
+[2023-06-08 08:09:14] INFO root fetch - processPackages [quickmpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickmpc-0.3.9.tar.gz tmp/quickmpc-0.4.0-py3-none-any.whl.zip --markdown 20230608/q/quickmpc/0.3.9-0.4.0/diff.md --exclude *.pyd
+[2023-06-08 08:09:14] INFO root fetch - processPackages [aie-sdk]: Remove: archive file [/home/abi/fetcher/tmp/aie-sdk-2.2.5.tar.gz]
+[2023-06-08 08:09:14] INFO root fetch - processPackages [aie-sdk]: Remove: archive file [/home/abi/fetcher/tmp/aie-sdk-3.0.1.tar.gz]
+[2023-06-08 08:09:14] INFO root fetch - main [MainThread]: End processing [aie-sdk]: success
+[2023-06-08 08:09:14] INFO root fetch - processPackages [sbc-gpio]: Remove: archive file [/home/abi/fetcher/tmp/sbc_gpio-1.0.1.tar.gz]
+[2023-06-08 08:09:14] INFO root fetch - processPackages [sbc-gpio]: Remove: archive file [/home/abi/fetcher/tmp/sbc_gpio-1.0.2.tar.gz]
+[2023-06-08 08:09:14] INFO root fetch - main [MainThread]: End processing [sbc-gpio]: success
+[2023-06-08 08:09:14] INFO root fetch - main [MainThread]: End processing [sbc-gpio]: success
+[2023-06-08 08:09:14] INFO root fetch - processPackages [vgs-api-client]: Remove: archive file [/home/abi/fetcher/tmp/vgs_api_client-0.0.44-py3-none-any.whl.zip]
+[2023-06-08 08:09:14] INFO root fetch - processPackages [vgs-api-client]: Remove: archive file [/home/abi/fetcher/tmp/vgs_api_client-0.0.45-py3-none-any.whl.zip]
+[2023-06-08 08:09:14] INFO root fetch - main [MainThread]: End processing [vgs-api-client]: success
+[2023-06-08 08:09:15] INFO root fetch - processPackages [pishockpy]: Remove: archive file [/home/abi/fetcher/tmp/pishockpy-0.0.3.tar.gz]
+[2023-06-08 08:09:15] INFO root fetch - processPackages [pishockpy]: Remove: archive file [/home/abi/fetcher/tmp/pishockpy-0.0.4.tar.gz]
+[2023-06-08 08:09:15] INFO root fetch - main [MainThread]: End processing [pishockpy]: success
+[2023-06-08 08:09:15] INFO root fetch - processPackages [sidechannelattack]: Remove: archive file [/home/abi/fetcher/tmp/sidechannelattack-0.0.1.tar.gz]
+[2023-06-08 08:09:15] INFO root fetch - processPackages [sidechannelattack]: Remove: archive file [/home/abi/fetcher/tmp/sidechannelattack-0.0.2.tar.gz]
+[2023-06-08 08:09:15] INFO root fetch - main [MainThread]: End processing [sidechannelattack]: success
+[2023-06-08 08:09:15] INFO root fetch - processPackages [quickmpc]: Remove: archive file [/home/abi/fetcher/tmp/quickmpc-0.3.9.tar.gz]
+[2023-06-08 08:09:15] INFO root fetch - processPackages [quickmpc]: Remove: archive file [/home/abi/fetcher/tmp/quickmpc-0.4.0-py3-none-any.whl.zip]
+[2023-06-08 08:09:15] INFO root fetch - main [MainThread]: End processing [quickmpc]: success
+[2023-06-08 08:09:16] INFO root fetch - processPackages [auto-gptq]: Remove: archive file [/home/abi/fetcher/tmp/auto_gptq-0.2.1.tar.gz]
+[2023-06-08 08:09:16] INFO root fetch - processPackages [auto-gptq]: Remove: archive file [/home/abi/fetcher/tmp/auto_gptq-0.2.2.tar.gz]
+[2023-06-08 08:09:16] INFO root fetch - main [MainThread]: End processing [auto-gptq]: success
+[2023-06-08 08:09:20] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.4.0.dev20230606.tar.gz]
+[2023-06-08 08:09:20] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.4.0.dev20230607.tar.gz]
+[2023-06-08 08:09:20] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
+[2023-06-08 08:09:20] INFO root fetch - main [MainThread]: Store serial: [18420535]
