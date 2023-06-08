@@ -1545,3 +1545,24 @@ EOFError: EOF read where object expected
 [2023-06-08 01:57:52] INFO root fetch - processPackages [pyfaust-torch]: Remove: archive file [/home/abi/fetcher/tmp/pyfaust_torch-3.38.9-cp39-cp39-macosx_10_9_x86_64.whl.zip]
 [2023-06-08 01:57:52] INFO root fetch - main [MainThread]: End processing [pyfaust-torch]: success
 [2023-06-08 01:57:52] INFO root fetch - main [MainThread]: Store serial: [18415259]
+[2023-06-08 02:03:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18415259]
+[2023-06-08 02:03:08] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-06-08 02:03:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mrpyconvert
+[2023-06-08 02:03:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyrademacher
+[2023-06-08 02:03:08] INFO root fetch - processPackages [mrpyconvert]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-08 02:03:08] INFO root fetch - processPackages [pyrademacher]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-08 02:03:08] INFO root fetch - processPackages [pyrademacher]: Downloading https://files.pythonhosted.org/packages/91/90/69e431581ceefc5e108cecc815f8f2e7e16c9ce1057b58720c27aeac3bb8/pyrademacher-0.9.3.tar.gz
+[2023-06-08 02:03:08] INFO root fetch - processPackages [mrpyconvert]: Downloading https://files.pythonhosted.org/packages/54/3f/c9d339e5edae9c3006f1f918e46a21b8cdb45fc18bf28f5d3b37a82cd884/mrpyconvert-0.1.8.tar.gz
+[2023-06-08 02:03:08] INFO root fetch - processPackages [pyrademacher]: Downloading https://files.pythonhosted.org/packages/25/7e/a9d02c38a42c837fd2bdd6714c5e8f00dd99ccc6899c76d46c36e47070a7/pyrademacher-0.9.4.tar.gz
+[2023-06-08 02:03:08] INFO root fetch - processPackages [pyrademacher]: executing diffoscope
+[2023-06-08 02:03:08] INFO root fetch - processPackages [pyrademacher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrademacher-0.9.3.tar.gz tmp/pyrademacher-0.9.4.tar.gz --markdown 20230608/p/pyrademacher/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-08 02:03:08] INFO root fetch - processPackages [mrpyconvert]: Downloading https://files.pythonhosted.org/packages/16/6e/b026da03a13cd6075dafdff77f95cddaea5524d18d1aa084cc02f7598990/mrpyconvert-0.1.9.tar.gz
+[2023-06-08 02:03:08] INFO root fetch - processPackages [mrpyconvert]: executing diffoscope
+[2023-06-08 02:03:08] INFO root fetch - processPackages [mrpyconvert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mrpyconvert-0.1.8.tar.gz tmp/mrpyconvert-0.1.9.tar.gz --markdown 20230608/m/mrpyconvert/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-08 02:03:09] INFO root fetch - processPackages [mrpyconvert]: Remove: archive file [/home/abi/fetcher/tmp/mrpyconvert-0.1.8.tar.gz]
+[2023-06-08 02:03:09] INFO root fetch - processPackages [mrpyconvert]: Remove: archive file [/home/abi/fetcher/tmp/mrpyconvert-0.1.9.tar.gz]
+[2023-06-08 02:03:09] INFO root fetch - main [MainThread]: End processing [mrpyconvert]: success
+[2023-06-08 02:03:09] INFO root fetch - processPackages [pyrademacher]: Remove: archive file [/home/abi/fetcher/tmp/pyrademacher-0.9.3.tar.gz]
+[2023-06-08 02:03:09] INFO root fetch - processPackages [pyrademacher]: Remove: archive file [/home/abi/fetcher/tmp/pyrademacher-0.9.4.tar.gz]
+[2023-06-08 02:03:09] INFO root fetch - main [MainThread]: End processing [pyrademacher]: success
+[2023-06-08 02:03:09] INFO root fetch - main [MainThread]: Store serial: [18415270]
