@@ -20667,3 +20667,142 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-06-08 10:45:57] INFO root fetch - processPackages [jupyterhub]: Remove: archive file [/home/abi/fetcher/tmp/jupyterhub-4.0.1.tar.gz]
 [2023-06-08 10:45:57] INFO root fetch - main [MainThread]: End processing [jupyterhub]: success
 [2023-06-08 10:45:57] INFO root fetch - main [MainThread]: Store serial: [18421612]
+[2023-06-08 10:51:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18421612]
+[2023-06-08 10:51:07] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-06-08 10:51:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: custom-gpt-client
+[2023-06-08 10:51:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qwak-core
+[2023-06-08 10:51:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: leap-model-parser
+[2023-06-08 10:51:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyrad-mch
+[2023-06-08 10:51:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: alibabacloud-dcdn20180115-py2
+[2023-06-08 10:51:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zillionare-trader-client
+[2023-06-08 10:51:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: vecpot
+[2023-06-08 10:51:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: leap-model-parser
+[2023-06-08 10:51:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fedot
+[2023-06-08 10:51:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: folder-tree-generator
+[2023-06-08 10:51:07] WARNING root fetch - processPackages [custom-gpt-client]: Skipping, unable to determine old version
+[2023-06-08 10:51:07] INFO root fetch - processPackages [custom-gpt-client]: Start processing: alibabacloud-dcdn20180115
+[2023-06-08 10:51:07] INFO root fetch - main [MainThread]: End processing [custom-gpt-client] error
+[2023-06-08 10:51:07] INFO root fetch - processPackages [qwak-core]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-08 10:51:07] INFO root fetch - processPackages [pyrad-mch]: New version: [1.8.1] Old Version: [1.8.0]
+[2023-06-08 10:51:07] INFO root fetch - processPackages [zillionare-trader-client]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-06-08 10:51:07] WARNING root fetch - processPackages [vecpot]: Skipping, unable to determine old version
+[2023-06-08 10:51:07] INFO root fetch - processPackages [vecpot]: Start processing: ddreport
+[2023-06-08 10:51:07] INFO root fetch - processPackages [fedot]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-06-08 10:51:07] INFO root fetch - main [MainThread]: End processing [vecpot] error
+[2023-06-08 10:51:07] INFO root fetch - processPackages [folder-tree-generator]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-08 10:51:07] INFO root fetch - processPackages [alibabacloud-dcdn20180115-py2]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-06-08 10:51:07] INFO root fetch - processPackages [leap-model-parser]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-06-08 10:51:07] INFO root fetch - processPackages [alibabacloud-dcdn20180115]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-06-08 10:51:07] INFO root fetch - processPackages [ddreport]: New version: [4.1] Old Version: [4.0]
+[2023-06-08 10:51:07] INFO root fetch - processPackages [leap-model-parser]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-06-08 10:51:07] INFO root fetch - processPackages [pyrad-mch]: Downloading https://files.pythonhosted.org/packages/2f/15/4a61767d2d901180811977efcc614371c9cc7ad41c1281fee21ae1a9b986/pyrad_mch-1.8.0.tar.gz
+[2023-06-08 10:51:07] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/5f/d0/45d94253bcdc4108ecf2f05cb74d19b34ae62ade127e415b792f382bd060/qwak_core-0.0.98.tar.gz
+[2023-06-08 10:51:07] INFO root fetch - processPackages [zillionare-trader-client]: Downloading https://files.pythonhosted.org/packages/1c/27/7ec7badbc63306e7acc9335780a7e5cc79ebf70174bbce80490acb5ad947/zillionare_trader_client-0.4.2.tar.gz
+[2023-06-08 10:51:07] INFO root fetch - processPackages [alibabacloud-dcdn20180115-py2]: Downloading https://files.pythonhosted.org/packages/eb/ef/06e095ffd858068c82d2589cae84966d4d2ac3e73812d62968e16dea80a1/alibabacloud_dcdn20180115_py2-1.1.8.tar.gz
+[2023-06-08 10:51:07] INFO root fetch - processPackages [leap-model-parser]: Downloading https://files.pythonhosted.org/packages/9e/21/dca060e54af9d262ff3c7db5881970d454aabed10a4a09138f0f135d7271/leap_model_parser-0.1.98.tar.gz
+[2023-06-08 10:51:07] INFO root fetch - processPackages [ddreport]: Downloading https://files.pythonhosted.org/packages/83/33/a2e2588e0b13d24ba9c2e6312f6b9817da00d6be14c65f26717b8dc56761/ddreport-4.0.tar.gz
+[2023-06-08 10:51:07] INFO root fetch - processPackages [folder-tree-generator]: Downloading https://files.pythonhosted.org/packages/6c/fe/bbc18edb4187500d38a41b5bbd275a36f684740caa02fa0947b731655f19/folder_tree_generator-0.1.8.tar.gz
+[2023-06-08 10:51:07] INFO root fetch - processPackages [fedot]: Downloading https://files.pythonhosted.org/packages/79/e8/045793fb8ee1950ef9a595d870fdb9d6e7e84105da3b043be913943e0cb2/fedot-0.7.0.tar.gz
+[2023-06-08 10:51:07] INFO root fetch - processPackages [leap-model-parser]: Downloading https://files.pythonhosted.org/packages/9e/21/dca060e54af9d262ff3c7db5881970d454aabed10a4a09138f0f135d7271/leap_model_parser-0.1.98.tar.gz
+[2023-06-08 10:51:07] INFO root fetch - processPackages [alibabacloud-dcdn20180115]: Downloading https://files.pythonhosted.org/packages/2f/88/fe6cfb73e7d5c72f5860767276a2df606b63ca558583a27a818b60598985/alibabacloud_dcdn20180115-1.1.8.tar.gz
+[2023-06-08 10:51:08] INFO root fetch - processPackages [pyrad-mch]: Downloading https://files.pythonhosted.org/packages/63/bb/6d59ad17b0d12fc24e72597f9819c9f20078a4be38f97786988f4002906f/pyrad_mch-1.8.1.tar.gz
+[2023-06-08 10:51:08] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/f2/c0/4910ee16f1146c11278c0b18778d0552fdbed48c75db8c1145bb48ab13c4/qwak_core-0.0.99.tar.gz
+[2023-06-08 10:51:08] INFO root fetch - processPackages [fedot]: Downloading https://files.pythonhosted.org/packages/7a/18/8be4b01dbc7cf60102e243b18be017bb48e2c07c2ec8db722366fc636fd8/fedot-0.7.1.tar.gz
+[2023-06-08 10:51:08] INFO root fetch - processPackages [pyrad-mch]: executing diffoscope
+[2023-06-08 10:51:08] INFO root fetch - processPackages [pyrad-mch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrad_mch-1.8.0.tar.gz tmp/pyrad_mch-1.8.1.tar.gz --markdown 20230608/p/pyrad-mch/1.8.0-1.8.1/diff.md --exclude *.pyd
+[2023-06-08 10:51:08] INFO root fetch - processPackages [alibabacloud-dcdn20180115-py2]: Downloading https://files.pythonhosted.org/packages/7b/3b/d2e5e5872bff482675c6c8fb178b95174b8780c80e367084d17a3bc9ccb1/alibabacloud_dcdn20180115_py2-1.1.9.tar.gz
+[2023-06-08 10:51:08] INFO root fetch - processPackages [qwak-core]: executing diffoscope
+[2023-06-08 10:51:08] INFO root fetch - processPackages [qwak-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwak_core-0.0.98.tar.gz tmp/qwak_core-0.0.99.tar.gz --markdown 20230608/q/qwak-core/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-08 10:51:08] INFO root fetch - processPackages [folder-tree-generator]: Downloading https://files.pythonhosted.org/packages/af/8c/6fbaa1474b672735423e92f428a9a5f54acdd7e0a9603ee7ba1e08bb0d71/folder_tree_generator-0.1.9.tar.gz
+[2023-06-08 10:51:08] INFO root fetch - processPackages [fedot]: executing diffoscope
+[2023-06-08 10:51:08] INFO root fetch - processPackages [fedot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fedot-0.7.0.tar.gz tmp/fedot-0.7.1.tar.gz --markdown 20230608/f/fedot/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-06-08 10:51:08] INFO root fetch - processPackages [alibabacloud-dcdn20180115]: Downloading https://files.pythonhosted.org/packages/25/a0/92e29300ed677fe50a0f0ce94c85630438f1d94f4fd30b950a9a0b4c2777/alibabacloud_dcdn20180115-1.1.9.tar.gz
+[2023-06-08 10:51:08] INFO root fetch - processPackages [ddreport]: Downloading https://files.pythonhosted.org/packages/16/4a/001ce16ff913e7d0a988c962f57a5e09354b1a4135361970b46996ed134f/ddreport-4.1.tar.gz
+[2023-06-08 10:51:08] INFO root fetch - processPackages [leap-model-parser]: Downloading https://files.pythonhosted.org/packages/de/85/627b6119883db46691990e41cb4a673afe0913625d499dc365b69c6fe6f6/leap_model_parser-0.1.99.tar.gz
+[2023-06-08 10:51:08] INFO root fetch - processPackages [alibabacloud-dcdn20180115-py2]: executing diffoscope
+[2023-06-08 10:51:08] INFO root fetch - processPackages [alibabacloud-dcdn20180115-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_dcdn20180115_py2-1.1.8.tar.gz tmp/alibabacloud_dcdn20180115_py2-1.1.9.tar.gz --markdown 20230608/a/alibabacloud-dcdn20180115-py2/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-06-08 10:51:08] INFO root fetch - processPackages [leap-model-parser]: Downloading https://files.pythonhosted.org/packages/de/85/627b6119883db46691990e41cb4a673afe0913625d499dc365b69c6fe6f6/leap_model_parser-0.1.99.tar.gz
+[2023-06-08 10:51:08] INFO root fetch - processPackages [zillionare-trader-client]: Downloading https://files.pythonhosted.org/packages/5f/59/aea7966547546239db9e38df314af800ee19b98b7c19baa2e4679f7a1e3d/zillionare_trader_client-0.4.3.tar.gz
+[2023-06-08 10:51:08] INFO root fetch - processPackages [folder-tree-generator]: executing diffoscope
+[2023-06-08 10:51:08] INFO root fetch - processPackages [folder-tree-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/folder_tree_generator-0.1.8.tar.gz tmp/folder_tree_generator-0.1.9.tar.gz --markdown 20230608/f/folder-tree-generator/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-08 10:51:08] INFO root fetch - processPackages [ddreport]: executing diffoscope
+[2023-06-08 10:51:08] INFO root fetch - processPackages [ddreport]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ddreport-4.0.tar.gz tmp/ddreport-4.1.tar.gz --markdown 20230608/d/ddreport/4.0-4.1/diff.md --exclude *.pyd
+[2023-06-08 10:51:08] INFO root fetch - processPackages [zillionare-trader-client]: executing diffoscope
+[2023-06-08 10:51:08] INFO root fetch - processPackages [zillionare-trader-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zillionare_trader_client-0.4.2.tar.gz tmp/zillionare_trader_client-0.4.3.tar.gz --markdown 20230608/z/zillionare-trader-client/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-06-08 10:51:08] INFO root fetch - processPackages [leap-model-parser]: executing diffoscope
+[2023-06-08 10:51:08] INFO root fetch - processPackages [leap-model-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leap_model_parser-0.1.98.tar.gz tmp/leap_model_parser-0.1.99.tar.gz --markdown 20230608/l/leap-model-parser/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-06-08 10:51:08] INFO root fetch - processPackages [leap-model-parser]: executing diffoscope
+[2023-06-08 10:51:08] INFO root fetch - processPackages [leap-model-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leap_model_parser-0.1.98.tar.gz tmp/leap_model_parser-0.1.99.tar.gz --markdown 20230608/l/leap-model-parser/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-06-08 10:51:08] INFO root fetch - processPackages [alibabacloud-dcdn20180115]: executing diffoscope
+[2023-06-08 10:51:08] INFO root fetch - processPackages [alibabacloud-dcdn20180115]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_dcdn20180115-1.1.8.tar.gz tmp/alibabacloud_dcdn20180115-1.1.9.tar.gz --markdown 20230608/a/alibabacloud-dcdn20180115/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-06-08 10:51:10] INFO root fetch - processPackages [folder-tree-generator]: Remove: archive file [/home/abi/fetcher/tmp/folder_tree_generator-0.1.8.tar.gz]
+[2023-06-08 10:51:10] INFO root fetch - processPackages [folder-tree-generator]: Remove: archive file [/home/abi/fetcher/tmp/folder_tree_generator-0.1.9.tar.gz]
+[2023-06-08 10:51:10] INFO root fetch - processPackages [folder-tree-generator]: Start processing: cosmian-anonymization
+[2023-06-08 10:51:10] INFO root fetch - main [MainThread]: End processing [folder-tree-generator]: success
+[2023-06-08 10:51:10] INFO root fetch - processPackages [cosmian-anonymization]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-08 10:51:10] INFO root fetch - processPackages [cosmian-anonymization]: Downloading https://files.pythonhosted.org/packages/6a/4e/9f56ccf53946637aabb43b2e55f037490a64cc8ef4c2e9fcc650560a037d/cosmian_anonymization-1.0.0-py3-none-any.whl
+[2023-06-08 10:51:10] INFO root fetch - processPackages [ddreport]: Remove: archive file [/home/abi/fetcher/tmp/ddreport-4.0.tar.gz]
+[2023-06-08 10:51:10] INFO root fetch - processPackages [ddreport]: Remove: archive file [/home/abi/fetcher/tmp/ddreport-4.1.tar.gz]
+[2023-06-08 10:51:10] INFO root fetch - processPackages [ddreport]: Start processing: BasicLibrary.PY
+[2023-06-08 10:51:10] INFO root fetch - main [MainThread]: End processing [ddreport]: success
+[2023-06-08 10:51:10] INFO root fetch - processPackages [zillionare-trader-client]: Remove: archive file [/home/abi/fetcher/tmp/zillionare_trader_client-0.4.2.tar.gz]
+[2023-06-08 10:51:10] INFO root fetch - processPackages [zillionare-trader-client]: Remove: archive file [/home/abi/fetcher/tmp/zillionare_trader_client-0.4.3.tar.gz]
+[2023-06-08 10:51:10] INFO root fetch - processPackages [zillionare-trader-client]: Start processing: hikari
+[2023-06-08 10:51:10] INFO root fetch - main [MainThread]: End processing [zillionare-trader-client]: success
+[2023-06-08 10:51:10] INFO root fetch - processPackages [BasicLibrary.PY]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-06-08 10:51:10] INFO root fetch - processPackages [hikari]: New version: [2.0.0.dev99] Old Version: [2.0.0.dev98]
+[2023-06-08 10:51:10] INFO root fetch - processPackages [BasicLibrary.PY]: Downloading https://files.pythonhosted.org/packages/59/bf/9586d033d933f7cb3b61400f06434cc83e4bb33f0b11bab8ff293cd0c316/BasicLibrary.PY-0.5.8.tar.gz
+[2023-06-08 10:51:10] INFO root fetch - processPackages [pyrad-mch]: Remove: archive file [/home/abi/fetcher/tmp/pyrad_mch-1.8.0.tar.gz]
+[2023-06-08 10:51:10] INFO root fetch - processPackages [pyrad-mch]: Remove: archive file [/home/abi/fetcher/tmp/pyrad_mch-1.8.1.tar.gz]
+[2023-06-08 10:51:10] INFO root fetch - processPackages [pyrad-mch]: Start processing: yaoys-checkin
+[2023-06-08 10:51:10] INFO root fetch - main [MainThread]: End processing [pyrad-mch]: success
+[2023-06-08 10:51:10] INFO root fetch - processPackages [cosmian-anonymization]: Downloading https://files.pythonhosted.org/packages/ac/77/d941722514ab21b4a7333e1eb2441f8dbc9b47c4a7868d7525ef19fc5613/cosmian_anonymization-1.0.1-py3-none-any.whl
+[2023-06-08 10:51:10] INFO root fetch - processPackages [alibabacloud-dcdn20180115]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dcdn20180115-1.1.8.tar.gz]
+[2023-06-08 10:51:10] INFO root fetch - processPackages [alibabacloud-dcdn20180115]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dcdn20180115-1.1.9.tar.gz]
+[2023-06-08 10:51:10] INFO root fetch - processPackages [alibabacloud-dcdn20180115]: Start processing: ericstools
+[2023-06-08 10:51:10] INFO root fetch - main [MainThread]: End processing [alibabacloud-dcdn20180115]: success
+[2023-06-08 10:51:10] INFO root fetch - processPackages [yaoys-checkin]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-08 10:51:10] INFO root fetch - processPackages [cosmian-anonymization]: executing diffoscope
+[2023-06-08 10:51:10] INFO root fetch - processPackages [cosmian-anonymization]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cosmian_anonymization-1.0.0-py3-none-any.whl.zip tmp/cosmian_anonymization-1.0.1-py3-none-any.whl.zip --markdown 20230608/c/cosmian-anonymization/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-08 10:51:10] INFO root fetch - processPackages [hikari]: Downloading https://files.pythonhosted.org/packages/f0/5d/c16306e1221c1fa3d0454dfb295c17e06b3c905e781c3baaea0a8dd9a841/hikari-2.0.0.dev98.tar.gz
+[2023-06-08 10:51:10] WARNING root fetch - processPackages [ericstools]: Skipping, unable to determine old version
+[2023-06-08 10:51:10] INFO root fetch - processPackages [ericstools]: Start processing: ionicons-python
+[2023-06-08 10:51:10] INFO root fetch - main [MainThread]: End processing [ericstools] error
+[2023-06-08 10:51:10] INFO root fetch - processPackages [BasicLibrary.PY]: Downloading https://files.pythonhosted.org/packages/30/c3/beba7651d4e8884c0aaede5c6fc2f927abffba64fa0ff2fb92d7c45dcb0d/BasicLibrary.PY-0.5.9.tar.gz
+[2023-06-08 10:51:10] WARNING root fetch - processPackages [ionicons-python]: Skipping, unable to determine old version
+[2023-06-08 10:51:10] INFO root fetch - main [MainThread]: End processing [ionicons-python] error
+[2023-06-08 10:51:10] INFO root fetch - processPackages [BasicLibrary.PY]: executing diffoscope
+[2023-06-08 10:51:10] INFO root fetch - processPackages [BasicLibrary.PY]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BasicLibrary.PY-0.5.8.tar.gz tmp/BasicLibrary.PY-0.5.9.tar.gz --markdown 20230608/B/BasicLibrary.PY/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-06-08 10:51:10] INFO root fetch - processPackages [yaoys-checkin]: Downloading https://files.pythonhosted.org/packages/67/e9/d9d24b4ea7fd74c3abe48b12736c3d6f1c9a4ef3cec144d564cae192831c/yaoys_checkin-0.1.5-py3-none-any.whl
+[2023-06-08 10:51:11] INFO root fetch - processPackages [hikari]: Downloading https://files.pythonhosted.org/packages/86/6d/0385dbfccc61d012d5e9a32c8f5ee141fb2c0d2c32f6a6a6a4ace78d2e58/hikari-2.0.0.dev99.tar.gz
+[2023-06-08 10:51:11] INFO root fetch - processPackages [yaoys-checkin]: Downloading https://files.pythonhosted.org/packages/c0/4a/10413609b932c22c8b611cb688e41ef14ed7ca2c954894f739b1a3708003/yaoys_checkin-0.1.6-py3-none-any.whl
+[2023-06-08 10:51:11] INFO root fetch - processPackages [hikari]: executing diffoscope
+[2023-06-08 10:51:11] INFO root fetch - processPackages [hikari]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hikari-2.0.0.dev98.tar.gz tmp/hikari-2.0.0.dev99.tar.gz --markdown 20230608/h/hikari/2.0.0.dev98-2.0.0.dev99/diff.md --exclude *.pyd
+[2023-06-08 10:51:11] INFO root fetch - processPackages [yaoys-checkin]: executing diffoscope
+[2023-06-08 10:51:11] INFO root fetch - processPackages [yaoys-checkin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yaoys_checkin-0.1.5-py3-none-any.whl.zip tmp/yaoys_checkin-0.1.6-py3-none-any.whl.zip --markdown 20230608/y/yaoys-checkin/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-08 10:51:11] INFO root fetch - processPackages [cosmian-anonymization]: Remove: archive file [/home/abi/fetcher/tmp/cosmian_anonymization-1.0.0-py3-none-any.whl.zip]
+[2023-06-08 10:51:11] INFO root fetch - processPackages [cosmian-anonymization]: Remove: archive file [/home/abi/fetcher/tmp/cosmian_anonymization-1.0.1-py3-none-any.whl.zip]
+[2023-06-08 10:51:11] INFO root fetch - main [MainThread]: End processing [cosmian-anonymization]: success
+[2023-06-08 10:51:12] INFO root fetch - processPackages [BasicLibrary.PY]: Remove: archive file [/home/abi/fetcher/tmp/BasicLibrary.PY-0.5.8.tar.gz]
+[2023-06-08 10:51:12] INFO root fetch - processPackages [BasicLibrary.PY]: Remove: archive file [/home/abi/fetcher/tmp/BasicLibrary.PY-0.5.9.tar.gz]
+[2023-06-08 10:51:12] INFO root fetch - main [MainThread]: End processing [BasicLibrary.PY]: success
+[2023-06-08 10:51:12] INFO root fetch - processPackages [alibabacloud-dcdn20180115-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dcdn20180115_py2-1.1.8.tar.gz]
+[2023-06-08 10:51:12] INFO root fetch - processPackages [alibabacloud-dcdn20180115-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dcdn20180115_py2-1.1.9.tar.gz]
+[2023-06-08 10:51:12] INFO root fetch - main [MainThread]: End processing [alibabacloud-dcdn20180115-py2]: success
+[2023-06-08 10:51:12] INFO root fetch - processPackages [fedot]: Remove: archive file [/home/abi/fetcher/tmp/fedot-0.7.0.tar.gz]
+[2023-06-08 10:51:12] INFO root fetch - processPackages [fedot]: Remove: archive file [/home/abi/fetcher/tmp/fedot-0.7.1.tar.gz]
+[2023-06-08 10:51:12] INFO root fetch - main [MainThread]: End processing [fedot]: success
+[2023-06-08 10:51:12] INFO root fetch - processPackages [yaoys-checkin]: Remove: archive file [/home/abi/fetcher/tmp/yaoys_checkin-0.1.5-py3-none-any.whl.zip]
+[2023-06-08 10:51:12] INFO root fetch - processPackages [yaoys-checkin]: Remove: archive file [/home/abi/fetcher/tmp/yaoys_checkin-0.1.6-py3-none-any.whl.zip]
+[2023-06-08 10:51:12] INFO root fetch - main [MainThread]: End processing [yaoys-checkin]: success
+[2023-06-08 10:51:14] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.0.98.tar.gz]
+[2023-06-08 10:51:14] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.0.99.tar.gz]
+[2023-06-08 10:51:14] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
+[2023-06-08 10:51:14] INFO root fetch - processPackages [hikari]: Remove: archive file [/home/abi/fetcher/tmp/hikari-2.0.0.dev98.tar.gz]
+[2023-06-08 10:51:14] INFO root fetch - processPackages [hikari]: Remove: archive file [/home/abi/fetcher/tmp/hikari-2.0.0.dev99.tar.gz]
+[2023-06-08 10:51:14] INFO root fetch - main [MainThread]: End processing [hikari]: success
+[2023-06-08 10:51:27] INFO root fetch - processPackages [leap-model-parser]: Remove: archive file [/home/abi/fetcher/tmp/leap_model_parser-0.1.98.tar.gz]
+[2023-06-08 10:51:27] INFO root fetch - processPackages [leap-model-parser]: Remove: archive file [/home/abi/fetcher/tmp/leap_model_parser-0.1.99.tar.gz]
+[2023-06-08 10:51:27] INFO root fetch - main [MainThread]: End processing [leap-model-parser]: success
+[2023-06-08 10:51:27] INFO root fetch - main [MainThread]: End processing [leap-model-parser]: success
+[2023-06-08 10:51:27] INFO root fetch - main [MainThread]: Store serial: [18421671]
