@@ -18509,3 +18509,51 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-08 08:46:56] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-33.3.4.tar.gz]
 [2023-06-08 08:46:56] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2023-06-08 08:46:56] INFO root fetch - main [MainThread]: Store serial: [18420708]
+[2023-06-08 08:52:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18420708]
+[2023-06-08 08:52:06] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-08 08:52:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qontract-reconcile
+[2023-06-08 08:52:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: oebuild
+[2023-06-08 08:52:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ngm-salam
+[2023-06-08 08:52:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ccsmeth
+[2023-06-08 08:52:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aiogram-metrics
+[2023-06-08 08:52:06] INFO root fetch - processPackages [ccsmeth]: New version: [0.4.0] Old Version: [0.3.4]
+[2023-06-08 08:52:06] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-06-08 08:52:06] INFO root fetch - processPackages [ngm-salam]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-08 08:52:06] INFO root fetch - processPackages [oebuild]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-08 08:52:06] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2023-06-08 08:52:06] INFO root fetch - processPackages [aiogram-metrics]: New version: [1.0.4] Old Version: [1.0.2]
+[2023-06-08 08:52:06] INFO root fetch - processPackages [ngm-salam]: Downloading https://files.pythonhosted.org/packages/e6/35/008044546dec96b130ec5a61e5cd6c0528334a6ded6165e84be599a65c9a/ngm_salam-0.0.8.tar.gz
+[2023-06-08 08:52:06] INFO root fetch - processPackages [ccsmeth]: Downloading https://files.pythonhosted.org/packages/df/98/517404a44f56be2a655237aefeb25a3ae4939a12d5158225c122f56026db/ccsmeth-0.3.4.tar.gz
+[2023-06-08 08:52:07] INFO root fetch - processPackages [oebuild]: Downloading https://files.pythonhosted.org/packages/00/38/6ff4040fd2fa67770e5f35996109b1d55f669121a678cf84fcacc6e0e83b/oebuild-0.0.8-py3-none-any.whl
+[2023-06-08 08:52:07] INFO root fetch - processPackages [aiogram-metrics]: Downloading https://files.pythonhosted.org/packages/d3/e7/3f0a9800d63911b97142c8a835a864d6551bc2ce3af4c32c1273a86a640c/aiogram_metrics-1.0.2.tar.gz
+[2023-06-08 08:52:07] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2023-06-08 08:52:07] INFO root fetch - processPackages [ngm-salam]: Downloading https://files.pythonhosted.org/packages/6f/9a/a3b73020caaeb6c42b98a269958faafeae170e2fdb80ebdcfbd9aa4c8f33/ngm_salam-0.0.9.tar.gz
+[2023-06-08 08:52:07] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-06-08 08:52:07] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230608/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-06-08 08:52:07] INFO root fetch - processPackages [ngm-salam]: executing diffoscope
+[2023-06-08 08:52:07] INFO root fetch - processPackages [ngm-salam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ngm_salam-0.0.8.tar.gz tmp/ngm_salam-0.0.9.tar.gz --markdown 20230608/n/ngm-salam/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-08 08:52:07] INFO root fetch - processPackages [ccsmeth]: Downloading https://files.pythonhosted.org/packages/5c/04/1e9f8ca2bbeabd4e14876c065b35b4fcae2939caf65f050f54725c3fbd07/ccsmeth-0.4.0.tar.gz
+[2023-06-08 08:52:07] INFO root fetch - processPackages [oebuild]: Downloading https://files.pythonhosted.org/packages/75/82/8f5aaba41319b25523fe1c8b9679c66d3a7f0d17bb02ab0ef6ea4ceb1871/oebuild-0.0.9-py3-none-any.whl
+[2023-06-08 08:52:07] INFO root fetch - processPackages [oebuild]: executing diffoscope
+[2023-06-08 08:52:07] INFO root fetch - processPackages [oebuild]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oebuild-0.0.8-py3-none-any.whl.zip tmp/oebuild-0.0.9-py3-none-any.whl.zip --markdown 20230608/o/oebuild/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-08 08:52:07] INFO root fetch - processPackages [ccsmeth]: executing diffoscope
+[2023-06-08 08:52:07] INFO root fetch - processPackages [ccsmeth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccsmeth-0.3.4.tar.gz tmp/ccsmeth-0.4.0.tar.gz --markdown 20230608/c/ccsmeth/0.3.4-0.4.0/diff.md --exclude *.pyd
+[2023-06-08 08:52:07] INFO root fetch - processPackages [aiogram-metrics]: Downloading https://files.pythonhosted.org/packages/b1/52/13194a5a1f934251f33bed129832d65cc60dc0ca074efcd41d9c3369ad4a/aiogram_metrics-1.0.4.tar.gz
+[2023-06-08 08:52:07] INFO root fetch - processPackages [aiogram-metrics]: executing diffoscope
+[2023-06-08 08:52:07] INFO root fetch - processPackages [aiogram-metrics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiogram_metrics-1.0.2.tar.gz tmp/aiogram_metrics-1.0.4.tar.gz --markdown 20230608/a/aiogram-metrics/1.0.2-1.0.4/diff.md --exclude *.pyd
+[2023-06-08 08:52:08] INFO root fetch - processPackages [ngm-salam]: Remove: archive file [/home/abi/fetcher/tmp/ngm_salam-0.0.8.tar.gz]
+[2023-06-08 08:52:08] INFO root fetch - processPackages [ngm-salam]: Remove: archive file [/home/abi/fetcher/tmp/ngm_salam-0.0.9.tar.gz]
+[2023-06-08 08:52:08] INFO root fetch - main [MainThread]: End processing [ngm-salam]: success
+[2023-06-08 08:52:08] INFO root fetch - processPackages [oebuild]: Remove: archive file [/home/abi/fetcher/tmp/oebuild-0.0.8-py3-none-any.whl.zip]
+[2023-06-08 08:52:08] INFO root fetch - processPackages [oebuild]: Remove: archive file [/home/abi/fetcher/tmp/oebuild-0.0.9-py3-none-any.whl.zip]
+[2023-06-08 08:52:08] INFO root fetch - main [MainThread]: End processing [oebuild]: success
+[2023-06-08 08:52:08] INFO root fetch - processPackages [aiogram-metrics]: Remove: archive file [/home/abi/fetcher/tmp/aiogram_metrics-1.0.2.tar.gz]
+[2023-06-08 08:52:08] INFO root fetch - processPackages [aiogram-metrics]: Remove: archive file [/home/abi/fetcher/tmp/aiogram_metrics-1.0.4.tar.gz]
+[2023-06-08 08:52:08] INFO root fetch - main [MainThread]: End processing [aiogram-metrics]: success
+[2023-06-08 08:52:08] INFO root fetch - processPackages [ccsmeth]: Remove: archive file [/home/abi/fetcher/tmp/ccsmeth-0.3.4.tar.gz]
+[2023-06-08 08:52:08] INFO root fetch - processPackages [ccsmeth]: Remove: archive file [/home/abi/fetcher/tmp/ccsmeth-0.4.0.tar.gz]
+[2023-06-08 08:52:08] INFO root fetch - main [MainThread]: End processing [ccsmeth]: success
+[2023-06-08 08:52:14] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2023-06-08 08:52:14] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2023-06-08 08:52:14] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-06-08 08:52:14] INFO root fetch - main [MainThread]: Store serial: [18420721]
