@@ -9393,3 +9393,48 @@ AssertionError: tmp/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip does not
 [2023-06-08 04:16:33] INFO root fetch - processPackages [emi]: Remove: archive file [/home/abi/fetcher/tmp/emi-0.0.9.tar.gz]
 [2023-06-08 04:16:33] INFO root fetch - main [MainThread]: End processing [emi]: success
 [2023-06-08 04:16:33] INFO root fetch - main [MainThread]: Store serial: [18418083]
+[2023-06-08 04:21:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18418083]
+[2023-06-08 04:21:42] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-08 04:21:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ttensorflow-gpu
+[2023-06-08 04:21:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mi-libreria
+[2023-06-08 04:21:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chatglmclient
+[2023-06-08 04:21:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hugchat
+[2023-06-08 04:21:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: encoo
+[2023-06-08 04:21:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rubi
+[2023-06-08 04:21:42] INFO root fetch - processPackages [rubi]: New version: [2.0.3] Old Version: [2.0.2b4]
+[2023-06-08 04:21:42] INFO root fetch - processPackages [encoo]: New version: [2023.6.8] Old Version: [1.0.1]
+[2023-06-08 04:21:42] INFO root fetch - processPackages [chatglmclient]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-08 04:21:42] WARNING root fetch - processPackages [ttensorflow-gpu]: Skipping, unable to determine old version
+[2023-06-08 04:21:42] WARNING root fetch - processPackages [mi-libreria]: Skipping, unable to determine old version
+[2023-06-08 04:21:42] INFO root fetch - processPackages [hugchat]: New version: [0.0.7.1] Old Version: [0.0.7]
+[2023-06-08 04:21:42] INFO root fetch - main [MainThread]: End processing [ttensorflow-gpu] error
+[2023-06-08 04:21:42] INFO root fetch - main [MainThread]: End processing [mi-libreria] error
+[2023-06-08 04:21:42] INFO root fetch - processPackages [encoo]: Downloading https://files.pythonhosted.org/packages/7c/a3/772e57aae399463e12a492e30f7865e1956152a787da26fb7e461a4bf45b/encoo-1.0.1.tar.gz
+[2023-06-08 04:21:42] INFO root fetch - processPackages [hugchat]: Downloading https://files.pythonhosted.org/packages/5a/58/4423b09806cfccfe288a7e0473c95b2901836da473819bab86febb18dfe6/hugchat-0.0.7.tar.gz
+[2023-06-08 04:21:42] INFO root fetch - processPackages [rubi]: Downloading https://files.pythonhosted.org/packages/3d/61/92c828dce1e900f6f3a56fbb4bc4a197ab3e904c89b0e2626445993c9f75/rubi-2.0.2b4.tar.gz
+[2023-06-08 04:21:42] INFO root fetch - processPackages [chatglmclient]: Downloading https://files.pythonhosted.org/packages/b6/83/7ce94e18e885fcfe413d839eeccd355ebf2e3857d5eead28ad7ab7934103/chatglmclient-0.1.0.tar.gz
+[2023-06-08 04:21:42] INFO root fetch - processPackages [hugchat]: Downloading https://files.pythonhosted.org/packages/12/3f/a4a98199a1d7424a75e9f83a1be27a128347da6d63f1f4c027badfe89132/hugchat-0.0.7.1.tar.gz
+[2023-06-08 04:21:42] INFO root fetch - processPackages [hugchat]: executing diffoscope
+[2023-06-08 04:21:42] INFO root fetch - processPackages [hugchat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hugchat-0.0.7.tar.gz tmp/hugchat-0.0.7.1.tar.gz --markdown 20230608/h/hugchat/0.0.7-0.0.7.1/diff.md --exclude *.pyd
+[2023-06-08 04:21:42] INFO root fetch - processPackages [chatglmclient]: Downloading https://files.pythonhosted.org/packages/1b/45/2c6a903a1d0aaf81c4495f43d48a728dfd60f151d89f7bad53a7f38e2a35/chatglmclient-0.1.1.tar.gz
+[2023-06-08 04:21:42] INFO root fetch - processPackages [encoo]: Downloading https://files.pythonhosted.org/packages/9c/01/28aea3f6e5edaed5174c6ef78826d6dc38b5d6477c1b35dc2f039f0b945e/encoo-2023.6.8.tar.gz
+[2023-06-08 04:21:42] INFO root fetch - processPackages [chatglmclient]: executing diffoscope
+[2023-06-08 04:21:42] INFO root fetch - processPackages [rubi]: Downloading https://files.pythonhosted.org/packages/61/09/78125ea35f8ee5f659de38b1072fba75b06aeb797e68e120e3926ebc819e/rubi-2.0.3.tar.gz
+[2023-06-08 04:21:42] INFO root fetch - processPackages [chatglmclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatglmclient-0.1.0.tar.gz tmp/chatglmclient-0.1.1.tar.gz --markdown 20230608/c/chatglmclient/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-08 04:21:42] INFO root fetch - processPackages [encoo]: executing diffoscope
+[2023-06-08 04:21:42] INFO root fetch - processPackages [encoo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/encoo-1.0.1.tar.gz tmp/encoo-2023.6.8.tar.gz --markdown 20230608/e/encoo/1.0.1-2023.6.8/diff.md --exclude *.pyd
+[2023-06-08 04:21:43] INFO root fetch - processPackages [rubi]: executing diffoscope
+[2023-06-08 04:21:43] INFO root fetch - processPackages [rubi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230608:/home/abi/fetcher/20230608:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rubi-2.0.2b4.tar.gz tmp/rubi-2.0.3.tar.gz --markdown 20230608/r/rubi/2.0.2b4-2.0.3/diff.md --exclude *.pyd
+[2023-06-08 04:21:43] INFO root fetch - processPackages [chatglmclient]: Remove: archive file [/home/abi/fetcher/tmp/chatglmclient-0.1.0.tar.gz]
+[2023-06-08 04:21:43] INFO root fetch - processPackages [chatglmclient]: Remove: archive file [/home/abi/fetcher/tmp/chatglmclient-0.1.1.tar.gz]
+[2023-06-08 04:21:43] INFO root fetch - main [MainThread]: End processing [chatglmclient]: success
+[2023-06-08 04:21:43] INFO root fetch - processPackages [hugchat]: Remove: archive file [/home/abi/fetcher/tmp/hugchat-0.0.7.tar.gz]
+[2023-06-08 04:21:43] INFO root fetch - processPackages [hugchat]: Remove: archive file [/home/abi/fetcher/tmp/hugchat-0.0.7.1.tar.gz]
+[2023-06-08 04:21:43] INFO root fetch - main [MainThread]: End processing [hugchat]: success
+[2023-06-08 04:21:43] INFO root fetch - processPackages [encoo]: Remove: archive file [/home/abi/fetcher/tmp/encoo-1.0.1.tar.gz]
+[2023-06-08 04:21:43] INFO root fetch - processPackages [encoo]: Remove: archive file [/home/abi/fetcher/tmp/encoo-2023.6.8.tar.gz]
+[2023-06-08 04:21:43] INFO root fetch - main [MainThread]: End processing [encoo]: success
+[2023-06-08 04:21:44] INFO root fetch - processPackages [rubi]: Remove: archive file [/home/abi/fetcher/tmp/rubi-2.0.2b4.tar.gz]
+[2023-06-08 04:21:44] INFO root fetch - processPackages [rubi]: Remove: archive file [/home/abi/fetcher/tmp/rubi-2.0.3.tar.gz]
+[2023-06-08 04:21:44] INFO root fetch - main [MainThread]: End processing [rubi]: success
+[2023-06-08 04:21:44] INFO root fetch - main [MainThread]: Store serial: [18418110]
